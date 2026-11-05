@@ -2,13 +2,13 @@
 
 ## Overview
 
-Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 attempt (Prelims 23 May 2027). **Milestone v1.0 "Daily Coach MVP"** (~4 weeks, target ~3 Dec 2026) lays the GCP foundation and the UPSC knowledge base, learns how she remembers, then delivers the daily loop: plan → study from the right source → spaced revision → current-affairs quiz → memory cues and nudges. It also includes the Elective Discovery Agent, because the optional must be chosen by mid-December. Later milestones add the Prelims Engine (topic prediction, mocks, readiness; v1.1, ~Jan 2027), the Mains Engine (answer evaluation; v1.2, ~Mar 2027), and a public launch after Prelims (v2.0).
+Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 attempt (Prelims 23 May 2027). **Milestone v1.0 "Daily Coach MVP"** (~4 weeks, target ~3 Dec 2026) lays the GCP foundation and the UPSC knowledge base, learns how she remembers, then delivers the daily loop: plan → study from the right source → spaced revision → current-affairs quiz → memory cues and nudges. It also includes the Elective Discovery Agent, because the optional must be chosen by mid-December. Later milestones add the Prelims Engine (topic prediction, mocks, readiness, map mode; v1.1, ~Jan 2027), the Mains Engine (answer evaluation, service preference advisor; v1.2, ~Mar 2027), and a public launch after Prelims (v2.0).
 
 ## Milestones
 
 - 🚧 **v1.0 Daily Coach MVP** — Phases 1–7 (in progress)
 - 📋 **v1.1 Prelims Engine** — Phases 8–10 (planned)
-- 📋 **v1.2 Mains Engine** — Phases 11–12 (planned)
+- 📋 **v1.2 Mains Engine** — Phases 11–13 (planned)
 - 📋 **v2.0 Public Launch** — after Prelims 2027 (not yet phased)
 
 ## Phases
@@ -29,14 +29,15 @@ Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 a
 
 ### 📋 v1.1 Prelims Engine
 
-- [ ] **Phase 8: Topic Prediction & Backtest** - Likelihood scoring, backtest report, scheduler integration
-- [ ] **Phase 9: Mock Tests & Analytics** - Prelims mocks, negative-marking analysis, weekly reports, readiness score
-- [ ] **Phase 10: Adaptive Tuning & CSAT** - Learned reminder timing, per-user FSRS parameters, CSAT module
+- [ ] **Phase 8: Topic Prediction & Backtest** - Expert-signal likelihood model, backtest report, practice questions for top topics
+- [ ] **Phase 9: Mock Tests & Analytics** - Prelims mocks, negative-marking analysis, elimination trainer, weekly reports, readiness score
+- [ ] **Phase 10: Adaptive Tuning, CSAT & Map Mode** - Learned reminder timing, per-user FSRS parameters, CSAT module, layered map learning
 
 ### 📋 v1.2 Mains Engine
 
-- [ ] **Phase 11: Answer-Writing Evaluation** - Handwritten photo → OCR → rubric feedback, human-calibrated
+- [ ] **Phase 11: Answer-Writing Evaluation** - Handwritten photo → OCR → demand decoder → rubric feedback, theme bank
 - [ ] **Phase 12: Mains Mode** - Post-Prelims scheduler, optional coverage, essay and ethics practice
+- [ ] **Phase 13: Service Preference Advisor** - Service + cadre preference order for DAF-I
 
 ## Phase Details
 
@@ -55,13 +56,14 @@ Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 a
 ### Phase 2: UPSC Knowledge Base
 **Goal**: The ground truth Koach reasons over: syllabus graph, tagged PYQs, a source per node, and a cited strategy KB, all queryable via API.
 **Depends on**: Phase 1
-**Requirements**: KB-01, KB-02, KB-03, KB-04, KB-05, KB-06
+**Requirements**: KB-01, KB-02, KB-03, KB-04, KB-05, KB-06, KB-07, KB-08
 **Success Criteria** (what must be TRUE):
   1. The full Prelims GS-I/CSAT and Mains GS I–IV + Essay syllabus exists as a graph of atomic nodes with prerequisites and time estimates
   2. Prelims GS-I PYQs 2011–2026 and Mains GS PYQs 2013–2026 are in the DB, each tagged to syllabus nodes; a sampled audit shows ≥90% tag accuracy
   3. Every node shows a recommended source + chapter with a one-line reason (no copyrighted text stored)
   4. Node PYQ-frequency stats are computed from the bank and visible via API
   5. A reviewer can approve or correct tags and source mappings through a simple admin path
+  6. Pedagogy playbooks (PB-*) exist as config; no teacher/institute/platform name is reachable from any client-facing API field
 **Plans**: TBD
 
 ### Phase 3: Onboarding & Memory Style Test
@@ -79,19 +81,21 @@ Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 a
 ### Phase 4: Planner, Spaced Revision & Reminders
 **Goal**: The core daily loop: a plan that fits the day, revision at the right time, and reminders that respect her schedule.
 **Depends on**: Phase 3
-**Requirements**: SCHED-01, SCHED-02, SCHED-03, SCHED-04, SCHED-05, SRS-01, SRS-02, SRS-03, NOTIF-01, NOTIF-02
+**Requirements**: SCHED-01, SCHED-02, SCHED-03, SCHED-04, SCHED-05, SRS-01, SRS-02, SRS-03, PED-01, PED-02, PED-03, PED-04, NOTIF-01, NOTIF-02
 **Success Criteria** (what must be TRUE):
   1. User opens "Today" and sees time-boxed Learn / Revise / Practice / CA tasks that add up to that day's available minutes, each Learn task naming the book + chapter
   2. Missing a day leads to a rebalanced plan the next morning with a "what moved and why" note
   3. "I only have 45 minutes" produces an immediate replan
   4. Revisions are scheduled by FSRS; the plan shows every studied node getting ≥3 revisions before 23 May 2027
   5. User receives plan, due-review and CA-quiz notifications outside quiet hours, and can configure them
+  6. A Learn session opens with 2–3 PYQs on the node, then source + chapter, and ends with a retrieval check; wrong answers land in the mistakes notebook with a cause tag
+  7. User can open a syllabus heatmap of their mastery
 **Plans**: TBD
 
 ### Phase 5: Current Affairs Pipeline & Daily Quiz
 **Goal**: Current affairs arrive daily, already linked to the syllabus, as trustworthy UPSC-style questions.
 **Depends on**: Phase 2 (and Phase 4 for SRS hand-off)
-**Requirements**: CA-01, CA-02, CA-03, CA-04, CA-05
+**Requirements**: CA-01, CA-02, CA-03, CA-04, CA-05, CA-06
 **Success Criteria** (what must be TRUE):
   1. A Cloud Run Job runs daily at 05:30 IST, ingesting PIB/PRS/government items and user-shared links without duplicates
   2. User sees each item's UPSC-angle summary, source link and mapped syllabus nodes
@@ -125,25 +129,25 @@ Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 a
 ### Phase 8: Topic Prediction & Backtest *(v1.1)*
 **Goal**: Node priority reflects data-backed likelihood of being asked, with validated accuracy.
 **Depends on**: Phase 2, Phase 5
-**Requirements**: PRED-01, PRED-02, PRED-03
+**Requirements**: PRED-01, PRED-02, PRED-03, PRED-04
 **Plans**: TBD
 
 ### Phase 9: Mock Tests & Analytics *(v1.1)*
 **Goal**: Prelims readiness is measured, not guessed.
 **Depends on**: Phase 4
-**Requirements**: EVAL-01, EVAL-02, EVAL-03
+**Requirements**: EVAL-01, EVAL-02, EVAL-03, PED-05
 **Plans**: TBD
 
-### Phase 10: Adaptive Tuning & CSAT *(v1.1)*
-**Goal**: The system tunes itself to the learner; CSAT is covered.
+### Phase 10: Adaptive Tuning, CSAT & Map Mode *(v1.1)*
+**Goal**: The system tunes itself to the learner; CSAT is covered; geography and places-in-news are learned on layered maps.
 **Depends on**: Phase 4, Phase 9
-**Requirements**: NOTIF-03, SRS-04, CSAT-01
+**Requirements**: NOTIF-03, SRS-04, CSAT-01, PED-06
 **Plans**: TBD
 
 ### Phase 11: Answer-Writing Evaluation *(v1.2)*
 **Goal**: Handwritten Mains answers get fast, calibrated, actionable feedback.
 **Depends on**: Phase 2
-**Requirements**: MAINS-01, MAINS-02
+**Requirements**: MAINS-01, MAINS-02, PED-07, PED-08
 **Plans**: TBD
 
 ### Phase 12: Mains Mode *(v1.2)*
@@ -152,10 +156,16 @@ Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 a
 **Requirements**: MAINS-03, MAINS-04, CUE-06
 **Plans**: TBD
 
+### Phase 13: Service Preference Advisor *(v1.2)*
+**Goal**: Before DAF-I, the user has a reasoned service and cadre preference order.
+**Depends on**: Phase 9 (score trends for a realistic rank range)
+**Requirements**: SVC-01, SVC-02, SVC-03
+**Plans**: TBD
+
 ## Progress
 
 **Execution Order:**
-1 → 2 → (3 ∥ 7) → 4 → (5 ∥ 6) → v1.0 ship → 8 → 9 → 10 → 11 → 12
+1 → 2 → (3 ∥ 7) → 4 → (5 ∥ 6) → v1.0 ship → 8 → 9 → 10 → 11 → (12 ∥ 13)
 
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
@@ -168,6 +178,7 @@ Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 a
 | 7. Elective Discovery Agent | v1.0 | 0/TBD | Not started | - |
 | 8. Topic Prediction & Backtest | v1.1 | 0/TBD | Not started | - |
 | 9. Mock Tests & Analytics | v1.1 | 0/TBD | Not started | - |
-| 10. Adaptive Tuning & CSAT | v1.1 | 0/TBD | Not started | - |
+| 10. Adaptive Tuning, CSAT & Map Mode | v1.1 | 0/TBD | Not started | - |
 | 11. Answer-Writing Evaluation | v1.2 | 0/TBD | Not started | - |
 | 12. Mains Mode | v1.2 | 0/TBD | Not started | - |
+| 13. Service Preference Advisor | v1.2 | 0/TBD | Not started | - |

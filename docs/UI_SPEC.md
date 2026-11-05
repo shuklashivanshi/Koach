@@ -281,6 +281,8 @@ Sections (rows, no cards): `This week` (hours bar per day) Â· `Memory profile` Â
 
 Voice: a kind, well-read mentor. Short, warm, never preachy. No exclamation marks except on a milestone. No "Oops", no "AI-powered", no emoji in copy.
 
+**Naming rule (hard):** never show the name of a teacher, coaching institute, app, platform, channel or course anywhere: copy, `Why?` sheets, notifications, reasons or generated text. Standard books (title/author + chapter), NCERT and official sources (UPSC, PIB, PRS, ministries, Economic Survey) may be named. Strategy reasons read "Based on 12 topper accounts", never a person or site. Generated text is filtered against a blocked-names list before display.
+
 | Element | Copy |
 |---|---|
 | Primary CTA (Today) | `Begin` |

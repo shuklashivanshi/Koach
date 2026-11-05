@@ -29,7 +29,9 @@ Committed scope for milestone **v1.0 Daily Coach MVP** (target ~3 Dec 2026). Eac
 - [ ] **KB-01**: Syllabus graph covers Prelims GS-I, CSAT and Mains GS I–IV + Essay as atomic nodes with parent, prerequisites, estimated minutes and Prelims/Mains relevance
 - [ ] **KB-02**: PYQ bank holds Prelims GS-I 2011–2026 and Mains GS 2013–2026 questions, each tagged to ≥1 syllabus node with question type and answer key (Prelims)
 - [ ] **KB-03**: Every syllabus node has a primary recommended source (book/NCERT + chapter, by reference only) and a one-line reason
-- [ ] **KB-04**: Strategy knowledge base stores short cited claims (source URL + date); AI strategy answers cite at least one claim or decline
+- [ ] **KB-04**: Strategy knowledge base stores short cited claims (source URL + date) internally; AI strategy answers are grounded in at least one claim or decline. The UI never names teachers, institutes, platforms or channels (shows "based on N accounts" or an official source)
+- [ ] **KB-07**: PYQs carry a source-type tag (static / partial / current-affairs-driven) and Mains PYQs carry their directive word
+- [ ] **KB-08**: Anonymous pedagogy playbooks (PB-*) are stored as config the planner, cues and evaluators read; an internal store accepts the user's class notes for refinement
 - [ ] **KB-05**: Node PYQ frequency statistics are computed from the bank (not copied from coaching sites)
 - [ ] **KB-06**: An admin/review path lets a human approve or correct AI-suggested tags and source mappings
 
@@ -54,6 +56,10 @@ Committed scope for milestone **v1.0 Daily Coach MVP** (target ~3 Dec 2026). Eac
 - [ ] **SRS-01**: Cards and node-level revision units are scheduled with FSRS (target retention configurable, default 0.9)
 - [ ] **SRS-02**: Node mastery is updated from review grades, MCQ results and time decay
 - [ ] **SRS-03**: Every studied node is guaranteed ≥3 revision touches before Prelims in the plan
+- [ ] **PED-01**: Learn tasks follow PYQ-first priming: 2–3 PYQs on the node, then source + chapter, then a 3–5 question retrieval check
+- [ ] **PED-02**: Every wrong answer is logged in a mistakes notebook with a cause tag (concept gap / misread / elimination error / guess), turned into an SRS card, and summarised monthly as "recurring traps"
+- [ ] **PED-03**: User can view a syllabus memory heatmap (mastery, later × likelihood)
+- [ ] **PED-04**: Each study session shows one concrete goal line; a weekly well-being check-in can lower next week's load
 - [ ] **NOTIF-01**: User receives push notifications for daily plan ready, due reviews and the CA quiz, respecting quiet hours
 - [ ] **NOTIF-02**: User can configure notification types and times
 
@@ -64,6 +70,7 @@ Committed scope for milestone **v1.0 Daily Coach MVP** (target ~3 Dec 2026). Eac
 - [ ] **CA-03**: User gets 5–10 UPSC-style MCQs daily (statement-based, "how many of the above", match-the-pair) with explanations and sources
 - [ ] **CA-04**: Every generated MCQ passes an automated verifier (single correct answer, grounded, unambiguous) before being shown
 - [ ] **CA-05**: Wrong CA answers create SRS cards and update node mastery; user can report an erroneous question
+- [ ] **CA-06**: Every CA item links to its static syllabus node, and every node shows its recent CA items
 
 ### Nudges
 
@@ -83,9 +90,12 @@ Deferred to later milestones. Tracked but not in the v1.0 roadmap.
 
 ### v1.1 Prelims Engine
 
-- **PRED-01**: Topic-likelihood score per node from PYQ frequency, recurrence, CA salience and official-document salience
-- **PRED-02**: Backtest report (train ≤2021, test 2022–2026) with top-k precision; weights tuned on it
-- **PRED-03**: Likelihood bands with reasons shown in-app and fed into scheduler priority
+- **PRED-01**: Topic-likelihood score per node from the expert signals: weighted PYQ frequency, recurrence gap, subject trend, CA salience, news triggers (Acts, judgments, reports, summits), anniversaries, Budget/Economic Survey presence, static anchors, Mains directive mix (see research/TOPIC-PREDICTION.md)
+- **PRED-02**: Rolling backtest (train ≤2021, test 2022–2026, no leakage) reporting top-k coverage, precision@k, Brier score and lift over a frequency baseline; ships only if it beats the baseline in ≥4 of 5 years
+- **PRED-03**: Likelihood bands with ≤3 plain reasons shown in-app and fed into scheduler priority, plus the backtest's headline coverage
+- **PRED-04**: UPSC-format practice questions (Prelims MCQs + Mains prompts with varied directives) generated for High-band topics and passed through the verifier
+- **PED-05**: Elimination trainer: after each PYQ the user marks which statements they eliminated and why; every wrong option is explained
+- **PED-06**: Map mode for geography/environment/places-in-news: layered blank map, tap-to-locate drills, monthly places-in-news map
 - **EVAL-01**: In-app Prelims mock and sectional tests with negative marking
 - **EVAL-02**: Test analytics: accuracy by node, attempt-vs-accuracy curve, time per question, mistake tagging
 - **EVAL-03**: Weekly report + Prelims readiness score with projected range
@@ -100,6 +110,11 @@ Deferred to later milestones. Tracked but not in the v1.0 roadmap.
 - **MAINS-03**: Essay and Ethics case-study practice
 - **MAINS-04**: Mains-mode scheduler (post-Prelims) including optional coverage
 - **CUE-06**: Imagen-generated memory-palace visuals
+- **PED-07**: Question-demand decoder before answer writing (core theme + directive + dimensions checklist)
+- **PED-08**: Mains theme bank of reusable value-add cards (data, examples, reports, judgments, committee recommendations) per recurring theme
+- **SVC-01**: Service Preference Advisor interview (values, interests, home state/cadre considerations, eligibility)
+- **SVC-02**: Advisor evidence from previous years' service allocation by rank/category and the current cadre allocation policy, with a realistic rank range from the user's scores
+- **SVC-03**: User receives a reasoned service + cadre preference order to use for DAF-I; the final order stays the user's decision
 
 ### v2.0 Public Launch
 
@@ -116,6 +131,9 @@ Deferred to later milestones. Tracked but not in the v1.0 roadmap.
 | Web client | Mobile first; admin tooling only |
 | Non-Vertex AI providers | Constraint: all AI on GCP Vertex AI |
 | Questionnaire-based "learning style" typing | Weak evidence; replaced by measured recall experiment (MEM-01..03) |
+| Naming teachers, institutes, platforms, channels or courses in the UI | User rule; pedagogy encoded as anonymous playbooks |
+| Reusing educators' lecture content or notes | Only teaching patterns are encoded |
+| A "guaranteed" predicted paper | Predictions are likelihood bands with reasons |
 
 ## Traceability
 
@@ -136,6 +154,8 @@ Deferred to later milestones. Tracked but not in the v1.0 roadmap.
 | KB-04 | Phase 2 | Pending |
 | KB-05 | Phase 2 | Pending |
 | KB-06 | Phase 2 | Pending |
+| KB-07 | Phase 2 | Pending |
+| KB-08 | Phase 2 | Pending |
 | PROF-01 | Phase 3 | Pending |
 | PROF-02 | Phase 3 | Pending |
 | MEM-01 | Phase 3 | Pending |
@@ -149,6 +169,10 @@ Deferred to later milestones. Tracked but not in the v1.0 roadmap.
 | SRS-01 | Phase 4 | Pending |
 | SRS-02 | Phase 4 | Pending |
 | SRS-03 | Phase 4 | Pending |
+| PED-01 | Phase 4 | Pending |
+| PED-02 | Phase 4 | Pending |
+| PED-03 | Phase 4 | Pending |
+| PED-04 | Phase 4 | Pending |
 | NOTIF-01 | Phase 4 | Pending |
 | NOTIF-02 | Phase 4 | Pending |
 | CA-01 | Phase 5 | Pending |
@@ -156,6 +180,7 @@ Deferred to later milestones. Tracked but not in the v1.0 roadmap.
 | CA-03 | Phase 5 | Pending |
 | CA-04 | Phase 5 | Pending |
 | CA-05 | Phase 5 | Pending |
+| CA-06 | Phase 5 | Pending |
 | CUE-01 | Phase 6 | Pending |
 | CUE-02 | Phase 6 | Pending |
 | CUE-03 | Phase 6 | Pending |
@@ -169,10 +194,10 @@ Deferred to later milestones. Tracked but not in the v1.0 roadmap.
 | ELEC-04 | Phase 7 | Pending |
 
 **Coverage:**
-- v1 requirements: 46 total
-- Mapped to phases: 46
+- v1 requirements: 53 total
+- Mapped to phases: 53
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-11-05*
-*Last updated: 2026-11-05 after initialization*
+*Last updated: 2026-11-05 after topic-prediction + pedagogy research and service advisor addition*

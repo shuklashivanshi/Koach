@@ -157,6 +157,13 @@ For any node, card or CA item, Koach generates cues weighted by the learner's cu
 - **First-Principles Approach:** explains *why* the fact is true (e.g. why Money Bills originate only in Lok Sabha → accountability for taxation to the directly elected house), building a causal chain from basics, then a "teach-back" check where the user explains it in one line and the AI grades it.
 - Users rate cues (👍/👎), which feeds the efficacy model.
 
+### 5.3 Additions (2026-11-05)
+
+- **Topic prediction method:** encodes the five signals expert coaches use (PYQ frequency, recurrence gap, static↔current linkage, news triggers, anniversaries) in a backtested logistic model. Outputs likelihood bands + reasons + practice questions for top topics. See `.planning/research/TOPIC-PREDICTION.md`.
+- **Pedagogy playbooks:** anonymous playbooks distilled from the public UPSC teaching patterns of two educators: PYQ-first learning, retrieve-then-space, mistakes notebook, memory heatmap, designed focus, layered map mode, elimination trainer, question-demand decoder, theme bank. See `.planning/research/PEDAGOGY.md`.
+- **Service Preference Advisor (v1.2):** a reasoned service + cadre preference order for DAF-I.
+- **Naming rule:** no teacher, institute, platform, channel or course names in the UI. Books and official sources may be named.
+
 ## 6. Key user journeys (v1)
 
 1. **Onboarding (≈15 min + memory test):** sign in → exam target (CSE 2027 pre-filled) → availability per weekday → subject self-assessment + 20-Q diagnostic → memory style test session 1 → first weekly plan generated.

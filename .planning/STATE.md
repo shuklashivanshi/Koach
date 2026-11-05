@@ -2,7 +2,7 @@
 gsd_state_version: '1.0'
 status: planning
 progress:
-  total_phases: 12
+  total_phases: 13
   completed_phases: 0
   total_plans: 0
   completed_plans: 0
@@ -20,7 +20,7 @@ See: .planning/PROJECT.md (updated 2026-11-05)
 
 ## Current Position
 
-Phase: 1 of 12 (Foundation & GCP Deploy)
+Phase: 1 of 13 (Foundation & GCP Deploy)
 Plan: 0 of TBD in current phase
 Status: Ready to plan
 Last activity: 2026-11-05 — Project initialized (PROJECT.md, REQUIREMENTS.md, ROADMAP.md, docs/PRODUCT_SPEC.md, draft deploy.yaml)
