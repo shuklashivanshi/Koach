@@ -1,0 +1,19 @@
+{
+  "cli": {
+    "version": ">= 18.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "channel": "development",
+      "android": { "buildType": "apk" },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "",
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "",
+        "EXPO_PUBLIC_DEV_TOOLS": "1"
+      }
+    }
+  }
+}

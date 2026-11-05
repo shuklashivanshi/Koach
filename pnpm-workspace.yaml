@@ -8,3 +8,4 @@ allowBuilds:
   '@firebase/util': false
   protobufjs: false
   '@google/genai': false
+  '@parcel/watcher': false

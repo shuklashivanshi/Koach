@@ -9,9 +9,10 @@
   "scripts": {
     "typecheck": "pnpm -r typecheck",
     "lint": "eslint .",
-    "test": "vitest run",
+    "test": "vitest run && pnpm --filter @koach/mobile test",
     "format": "prettier --check .",
-    "lint:sh": "shellcheck -x infra/*.sh"
+    "lint:sh": "shellcheck -x infra/*.sh",
+    "test:unit": "vitest run"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
