@@ -1,26 +1,26 @@
-# Koach — Cloud Build deploy pipeline (DRAFT: written during planning, validated in Phase 1)
+# Koach — Cloud Build deploy pipeline.
 #
-# Builds, tests and deploys the backend to Cloud Run in asia-south1:
-#   - koach-api         Cloud Run service (Fastify / TypeScript)
-#   - koach-migrate     Cloud Run job (DB migrations, run before each deploy)
-#   - koach-ca-ingest   Cloud Run job (daily current-affairs pipeline, Cloud Scheduler 05:30 IST)
-#   - koach-rebalance   Cloud Run job (nightly plan rebalance + nudges, Cloud Scheduler 23:30 IST)
-#   (koach-predict, the weekly topic-prediction job, is added in v1.1 / Phase 8)
-# The mobile app ships separately via EAS Build; it is not part of this pipeline.
+# Checks, builds and deploys the backend to Cloud Run (asia-south1):
+#   - koach-migrate   Cloud Run job: applies DB migrations before every API deploy
+#   - koach-api       Cloud Run service (Fastify / TypeScript)
+# Later phases add jobs here: koach-rebalance (Phase 4), koach-ca-ingest (Phase 5),
+# koach-predict (Phase 8). The mobile app ships separately via EAS Build.
 #
-# Trigger:  gcloud builds submit --config deploy.yaml --substitutions=_ENV=dev
-#           (or a Cloud Build trigger on push to main with _ENV=prod)
-# Prereqs (created by infra/bootstrap.sh in Phase 1): Artifact Registry repo, Cloud SQL instance,
-# runtime service accounts, and secrets DATABASE_URL / FIREBASE_PROJECT_ID in Secret Manager.
+# Manual:  gcloud builds submit --config deploy.yaml \
+#            --substitutions=_ENV=dev,SHORT_SHA=$(git rev-parse --short HEAD)
+# Trigger: infra/trigger.sh creates "koach-<env>-main" (push to main → this file).
+# Every resource referenced here is created by infra/bootstrap.sh.
 
 substitutions:
   _ENV: dev
   _REGION: asia-south1
   _AR_REPO: koach
   _SQL_INSTANCE: koach-pg
-  _VERTEX_LOCATION: asia-south1
-  _API_SA: koach-api
-  _JOBS_SA: koach-jobs
+  _APP_ENV: dev
+  # Dev only: also log sign-in codes (the API refuses this when APP_ENV=prod).
+  _EMAIL_DEV_ECHO: '1'
+
+serviceAccount: projects/$PROJECT_ID/serviceAccounts/koach-build@$PROJECT_ID.iam.gserviceaccount.com
 
 options:
   logging: CLOUD_LOGGING_ONLY
@@ -28,24 +28,31 @@ options:
   dynamicSubstitutions: true
 
 steps:
-  # 1. Install workspace dependencies (pnpm monorepo)
+  # 1. Install the workspace (pnpm monorepo, Node 24)
   - id: install
-    name: node:22
+    name: node:24
     entrypoint: bash
     args:
       - -c
-      - corepack enable && pnpm install --frozen-lockfile
+      - npm install -g pnpm@12.15.0 >/dev/null && pnpm install --frozen-lockfile
 
-  # 2. Quality gates: typecheck, lint, unit tests (algo package is pure TS and must stay green)
+  # 2. Quality gates: typecheck, lint, unit + app tests, shell lint, AI evals (mock)
   - id: verify
-    name: node:22
+    name: node:24
     entrypoint: bash
     waitFor: [install]
     args:
       - -c
-      - corepack enable && pnpm -r typecheck && pnpm -r lint && pnpm -r test
+      - |
+        set -euo pipefail
+        npm install -g pnpm@12.15.0 >/dev/null
+        pnpm -r typecheck
+        pnpm lint
+        pnpm lint:sh
+        pnpm test
+        pnpm --filter @koach/ai eval
 
-  # 3. Build container images
+  # 3. Build container images (Dockerfiles build from the repo root)
   - id: build-api
     name: gcr.io/cloud-builders/docker
     waitFor: [verify]
@@ -91,7 +98,7 @@ steps:
         gcloud run jobs deploy koach-migrate \
           --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/koach-jobs:$SHORT_SHA \
           --region=${_REGION} \
-          --service-account=${_JOBS_SA}@$PROJECT_ID.iam.gserviceaccount.com \
+          --service-account=koach-jobs@$PROJECT_ID.iam.gserviceaccount.com \
           --set-cloudsql-instances=$PROJECT_ID:${_REGION}:${_SQL_INSTANCE} \
           --set-secrets=DATABASE_URL=DATABASE_URL:latest \
           --command=node --args=dist/migrate.js \
@@ -110,11 +117,11 @@ steps:
       - --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/koach-api:$SHORT_SHA
       - --region=${_REGION}
       - --platform=managed
-      - --service-account=${_API_SA}@$PROJECT_ID.iam.gserviceaccount.com
+      - --service-account=koach-api@$PROJECT_ID.iam.gserviceaccount.com
       - --add-cloudsql-instances=$PROJECT_ID:${_REGION}:${_SQL_INSTANCE}
-      - --set-env-vars=APP_ENV=${_ENV},GCP_PROJECT=$PROJECT_ID,VERTEX_LOCATION=${_VERTEX_LOCATION}
-      - --set-secrets=DATABASE_URL=DATABASE_URL:latest,FIREBASE_PROJECT_ID=FIREBASE_PROJECT_ID:latest
-      - --allow-unauthenticated  # public HTTPS; every route except /healthz verifies a Firebase ID token
+      - --set-env-vars=APP_ENV=${_APP_ENV},EMAIL_DEV_ECHO=${_EMAIL_DEV_ECHO},GCP_PROJECT=$PROJECT_ID,GCS_BUCKET=$PROJECT_ID-user-data
+      - --set-secrets=DATABASE_URL=DATABASE_URL:latest,FIREBASE_PROJECT_ID=FIREBASE_PROJECT_ID:latest,RESEND_API_KEY=RESEND_API_KEY:latest
+      - --allow-unauthenticated # public HTTPS; every route except /healthz and email sign-in verifies a Firebase ID token
       - --min-instances=0
       - --max-instances=10
       - --cpu=1
@@ -122,25 +129,7 @@ steps:
       - --concurrency=80
       - --timeout=300
 
-  # 7. Deploy/refresh scheduled jobs (schedules themselves are created once by infra/bootstrap.sh)
-  - id: deploy-jobs
-    name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
-    waitFor: [push-jobs, migrate]
-    entrypoint: bash
-    args:
-      - -c
-      - |
-        set -euo pipefail
-        IMAGE=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/koach-jobs:$SHORT_SHA
-        COMMON="--image=$$IMAGE --region=${_REGION} \
-          --service-account=${_JOBS_SA}@$PROJECT_ID.iam.gserviceaccount.com \
-          --set-cloudsql-instances=$PROJECT_ID:${_REGION}:${_SQL_INSTANCE} \
-          --set-env-vars=APP_ENV=${_ENV},GCP_PROJECT=$PROJECT_ID,VERTEX_LOCATION=${_VERTEX_LOCATION} \
-          --set-secrets=DATABASE_URL=DATABASE_URL:latest"
-        gcloud run jobs deploy koach-ca-ingest $$COMMON --command=node --args=dist/ca-ingest.js --task-timeout=1800s --max-retries=2
-        gcloud run jobs deploy koach-rebalance $$COMMON --command=node --args=dist/rebalance.js --task-timeout=1800s --max-retries=2
-
-  # 8. Smoke test the deployed API
+  # 7. Smoke test the deployed API
   - id: smoke
     name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
     waitFor: [deploy-api]
@@ -149,11 +138,12 @@ steps:
       - -c
       - |
         set -euo pipefail
-        URL=$(gcloud run services describe koach-api --region=${_REGION} --format='value(status.url)')
+        URL=$$(gcloud run services describe koach-api --region=${_REGION} --format='value(status.url)')
         curl -fsS "$$URL/healthz"
+        test "$$(curl -s -o /dev/null -w '%{http_code}' "$$URL/v1/me")" = "401"
 
 images:
   - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/koach-api:$SHORT_SHA
   - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_AR_REPO}/koach-jobs:$SHORT_SHA
 
-timeout: 1800s
+timeout: 2400s

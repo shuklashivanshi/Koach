@@ -89,4 +89,28 @@ describe('email-code sign-in', () => {
     expect(ctx.deps.email.sent).toHaveLength(3);
     expect(await emailCodesRepo.countSince(ctx.deps.db, { email: 'a@b.co' }, new Date(0))).toBe(3);
   });
+
+  it('in dev with echo, a failed send still succeeds; otherwise it errors', async () => {
+    const failing = { send: () => Promise.reject(new Error('resend down')) };
+    const echo = await buildTestApp({
+      email: failing,
+      config: { ...ctx.deps.config, EMAIL_DEV_ECHO: '1' },
+    });
+    const ok = await echo.app.inject({
+      method: 'POST',
+      url: '/v1/auth/email/start',
+      payload: { email: 'smoke@koach.test' },
+    });
+    expect(ok.statusCode).toBe(204);
+    await echo.close();
+
+    const strict = await buildTestApp({ email: failing });
+    const bad = await strict.app.inject({
+      method: 'POST',
+      url: '/v1/auth/email/start',
+      payload: { email: 'a@b.co' },
+    });
+    expect(bad.statusCode).toBe(500);
+    await strict.close();
+  });
 });

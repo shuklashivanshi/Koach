@@ -38,13 +38,18 @@ export async function startEmailSignIn(
     ip,
     createdAt: now,
   });
-  await deps.email.send({
-    to: email,
-    subject: 'Your Koach code',
-    text: `Your Koach code is ${code}. It expires in 10 minutes.`,
-  });
-  if (deps.config.APP_ENV === 'dev' && deps.config.EMAIL_DEV_ECHO === '1') {
-    log.info({ email, code }, 'dev_email_code');
+  const devEcho = deps.config.APP_ENV === 'dev' && deps.config.EMAIL_DEV_ECHO === '1';
+  if (devEcho) log.info({ email, code }, 'dev_email_code');
+  try {
+    await deps.email.send({
+      to: email,
+      subject: 'Your Koach code',
+      text: `Your Koach code is ${code}. It expires in 10 minutes.`,
+    });
+  } catch (err) {
+    // With dev echo the code is already in the logs, so test addresses still work.
+    if (!devEcho) throw err;
+    log.warn({ err }, 'email send failed (dev echo active)');
   }
   return 'sent';
 }

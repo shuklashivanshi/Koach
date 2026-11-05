@@ -55,3 +55,23 @@ infra/verify.sh dev
 
 Copy `env/dev.env` to `env/prod.env`, clear `PROJECT_ID` and `GOOGLE_WEB_CLIENT_ID`, adjust the
 budget and tier, then run the same two scripts with `prod`.
+
+## CI/CD (after bootstrap)
+
+1. Create a **private** GitHub repo named `koach`, then push this repo:
+   `git remote add origin <url> && git push -u origin main`. Put the URL in `env/dev.env` as
+   `GITHUB_REPO_URL=`.
+2. Run `infra/trigger.sh dev`. The first run creates the Cloud Build GitHub connection and prints
+   an authorisation URL: open it and grant access to the `koach` repo only. Then re-run
+   `infra/trigger.sh dev` to link the repo and create the `koach-dev-main` trigger.
+3. From then on, every push to `main` runs `deploy.yaml`.
+
+| Script | What it does |
+|---|---|
+| `trigger.sh <env>` | Cloud Build GitHub connection + push-to-main trigger (idempotent). |
+| `smoke.sh dev` | Live end-to-end check: health, 401, email-code sign-in (code read from dev logs), `/v1/me`, `/v1/ai/ping`, export, delete. Never prints tokens. |
+| `register-sha1.sh <env> <SHA-1>` | Adds the EAS signing SHA-1 to the Firebase Android app (needed for Google sign-in) and refreshes `google-services.json`. |
+
+**Dev only:** on koach-dev the API also writes sign-in codes to Cloud Logging (`EMAIL_DEV_ECHO=1`),
+so test addresses work without a mailbox. Only project owners can read those logs, and the API
+refuses this setting when `APP_ENV=prod`.

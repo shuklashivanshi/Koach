@@ -1,0 +1,11 @@
+**/node_modules
+**/dist
+**/.expo
+apps/mobile
+.planning
+docs
+.claude
+.git
+**/*.md
+!packages/ai/MODELS.md
+infra/env

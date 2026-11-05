@@ -205,6 +205,12 @@ importers:
       '@google-cloud/storage':
         specifier: 8.4.0
         version: 8.4.0(supports-color@8.1.1)
+      '@google-cloud/text-to-speech':
+        specifier: 7.2.0
+        version: 7.2.0(supports-color@8.1.1)
+      '@google/genai':
+        specifier: 2.30.0
+        version: 2.30.0(supports-color@8.1.1)
       '@koach/ai':
         specifier: workspace:*
         version: link:../../packages/ai
@@ -214,6 +220,9 @@ importers:
       '@koach/shared':
         specifier: workspace:*
         version: link:../../packages/shared
+      drizzle-orm:
+        specifier: 0.45.4
+        version: 0.45.4(@electric-sql/pglite@0.5.15)(@opentelemetry/api@1.10.0)(@types/pg@8.23.1)(pg@8.23.1)
       fastify:
         specifier: 5.12.7
         version: 5.12.7
@@ -223,9 +232,28 @@ importers:
       firebase-admin:
         specifier: 14.5.0
         version: 14.5.0(@firebase/app-compat@0.5.20)(@firebase/app@0.16.4)(supports-color@8.1.1)
+      pg:
+        specifier: 8.23.1
+        version: 8.23.1
       zod:
         specifier: 4.6.7
         version: 4.6.7
+    devDependencies:
+      tsup:
+        specifier: 9.0.0
+        version: 9.0.0(postcss@8.5.32)(tsx@4.23.15)(typescript@6.0.3)(yaml@2.9.1)
+
+  apps/jobs:
+    dependencies:
+      '@koach/db':
+        specifier: workspace:*
+        version: link:../../packages/db
+      drizzle-orm:
+        specifier: 0.45.4
+        version: 0.45.4(@electric-sql/pglite@0.5.15)(@opentelemetry/api@1.10.0)(@types/pg@8.23.1)(pg@8.23.1)
+      pg:
+        specifier: 8.23.1
+        version: 8.23.1
     devDependencies:
       tsup:
         specifier: 9.0.0
