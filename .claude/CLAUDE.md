@@ -10,7 +10,8 @@ Koach is a mobile-first (React Native + TypeScript) AI coach for the UPSC Civil 
 
 ### Constraints
 
-- **Tech stack**: React Native (Expo) + TypeScript for mobile; TypeScript (Node 22, Fastify) backend — user requirement, one language end to end
+- **Tech stack**: React Native (Expo) + TypeScript for mobile; TypeScript (Node 24 LTS, Fastify) backend — user requirement, one language end to end; Node 22 reaches end of life before Mains 2027
+- **Sign-in**: Google + 6-digit email code (Firebase Auth; email codes minted as Firebase custom tokens, sent via Resend, a non-AI third-party email service); Android first, iOS (and Sign in with Apple) later
 - **Cloud**: GCP (Cloud Run, Cloud SQL, Cloud Storage, Pub/Sub, Cloud Scheduler, Secret Manager, Artifact Registry, Cloud Build); region `asia-south1` — user requirement + India data residency
 - **AI**: Vertex AI for all AI features (Gemini Flash/Pro, Gemini embeddings, grounding; Imagen in v1.2). Speech via Google Cloud Text-to-Speech and Speech-to-Text (Chirp) — user requirement
 - **Deploy**: `deploy.yaml` (Cloud Build) is the deploy entrypoint — user requirement

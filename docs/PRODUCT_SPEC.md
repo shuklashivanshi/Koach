@@ -125,11 +125,12 @@ Full detail for every row is in `.planning/PROJECT.md` (section shown). Requirem
  Mobile (Expo React Native + TS)
    │  Firebase Auth (ID token)      FCM push (expo-notifications)
    ▼
- Cloud Run: koach-api  (Node 22 + TypeScript, Fastify, zod-validated, OpenAPI)
+ Cloud Run: koach-api  (Node 24 + TypeScript, Fastify, zod-validated, OpenAPI)
    ├─ Cloud SQL Postgres 16 (+ pgvector) — users, plans, tasks, cards, reviews, syllabus graph, PYQs, embeddings
    ├─ Vertex AI — Gemini (Flash / Pro), Gemini embeddings, grounding; Imagen (v1.2)
    ├─ Cloud Text-to-Speech / Speech-to-Text (Chirp) — audio cues, Listen & Recall game
    ├─ Cloud Storage — answer photos, voice clips, generated audio, user uploads, CA snapshots
+   ├─ Resend — transactional email for sign-in codes
    ├─ Pub/Sub — domain events (task.completed, review.logged, ca.ingested)
    └─ Secret Manager
  Cloud Run Jobs (triggered by Cloud Scheduler):

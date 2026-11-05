@@ -320,7 +320,8 @@ All Active items are hypotheses until shipped. IDs are in `.planning/REQUIREMENT
 
 ## Constraints
 
-- **Tech stack**: React Native (Expo) + TypeScript for mobile; TypeScript (Node 22, Fastify) backend — user requirement, one language end to end
+- **Tech stack**: React Native (Expo) + TypeScript for mobile; TypeScript (Node 24 LTS, Fastify) backend — user requirement, one language end to end; Node 22 reaches end of life before Mains 2027
+- **Sign-in**: Google + 6-digit email code (Firebase Auth; email codes minted as Firebase custom tokens, sent via Resend, a non-AI third-party email service); Android first, iOS (and Sign in with Apple) later
 - **Cloud**: GCP (Cloud Run, Cloud SQL, Cloud Storage, Pub/Sub, Cloud Scheduler, Secret Manager, Artifact Registry, Cloud Build); region `asia-south1` — user requirement + India data residency
 - **AI**: Vertex AI for all AI features (Gemini Flash/Pro, Gemini embeddings, grounding; Imagen in v1.2). Speech via Google Cloud Text-to-Speech and Speech-to-Text (Chirp) — user requirement
 - **Deploy**: `deploy.yaml` (Cloud Build) is the deploy entrypoint — user requirement
@@ -358,6 +359,10 @@ All Active items are hypotheses until shipped. IDs are in `.planning/REQUIREMENT
 | Link + summarise news; books referenced by title/chapter | Copyright safety | — Pending |
 | Region asia-south1 | Latency + DPDP data residency | — Pending |
 | Light Academia design system: Cormorant Garamond + Literata, Phosphor Light icons, 4 tabs (Today / Revise / Library / You) | User's aesthetic; calm and scholarly; one primary action per screen | — Pending |
+| Android first (EAS dev build); iOS later | User's device; avoids Apple developer account until needed | — Pending |
+| Sign-in = Google + 6-digit email code via Firebase custom tokens; email via Resend | User choice; Firebase email links depended on the retired Dynamic Links | — Pending |
+| Node 24 LTS; Expo SDK 58; Postgres 16; Gemini `gemini-3.8-flash` / `gemini-3.5-flash-lite` / `gemini-embedding-2` | Current stable versions at Phase 1 planning (2026-11-06); model IDs live only in config | — Pending |
+| Phase 1 builds koach-dev only; koach-prod via the same scripts before v1.0; ₹2,000 budget alert | User choice; halves idle cost while dogfooding | — Pending |
 | GSD in YOLO mode, standard granularity | User preference; fast iteration toward a 4-week MVP | — Pending |
 
 ## Evolution

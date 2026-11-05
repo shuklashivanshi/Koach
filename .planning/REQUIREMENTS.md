@@ -20,7 +20,7 @@ Committed scope for milestone **v1.0 Daily Coach MVP** (target ~3 Dec 2026). Eac
 
 ### Authentication (AUTH)
 
-- [ ] **AUTH-01**: User can sign in with Google or an email link (Firebase Auth / Identity Platform); the API verifies ID tokens
+- [ ] **AUTH-01**: User can sign in with Google or a 6-digit email code (Firebase Auth; email codes exchanged for Firebase custom tokens, delivered via Resend); the API verifies ID tokens
 - [ ] **AUTH-02**: User session persists across app restarts
 - [ ] **AUTH-03**: User can export and delete all their data, including voice clips and answer photos (DPDP)
 

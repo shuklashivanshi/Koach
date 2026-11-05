@@ -64,7 +64,16 @@ Feature definitions: `.planning/PROJECT.md`. Requirement IDs: `.planning/REQUIRE
   3. User can sign in on a physical phone (EAS dev build) with Google and stays signed in after restarting the app; the app renders with `packages/ui` tokens
   4. An authenticated `/v1/ai/ping` returns a Gemini response and a short TTS clip, with tokens/cost logged
   5. User can request a data export and account deletion
-**Plans**: TBD
+**Plans**: 7 plans (5 waves)
+
+Plans:
+- [ ] 01-01: Monorepo + shared schemas + Drizzle/PGlite db + UI tokens (wave 1)
+- [ ] 01-02: Idempotent GCP + Firebase bootstrap for koach-dev, run after user login (wave 1)
+- [ ] 01-03: Fastify API: auth, /v1/me, email-code sign-in, export/delete (wave 2)
+- [ ] 01-06: Expo SDK 58 app: Welcome, Google + email sign-in, Today, You, Dev ping (wave 2)
+- [ ] 01-04: packages/ai: Vertex + TTS wrapper, cost logging, evals, /v1/ai/ping (wave 3)
+- [ ] 01-05: Dockerfiles, final deploy.yaml, first deploy, push-to-main trigger, live smoke (wave 4)
+- [ ] 01-07: EAS Android dev build + on-phone verification (wave 5)
 
 ### Phase 2: UPSC Knowledge Base
 **Goal**: The ground truth Koach reasons over (syllabus graph, tagged PYQs, a source per node, PYQ statistics, strategy KB, playbooks), queryable via API and protected by the naming guard.
@@ -210,7 +219,7 @@ Feature definitions: `.planning/PROJECT.md`. Requirement IDs: `.planning/REQUIRE
 
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
-| 1. Foundation & GCP Deploy | v1.0 | 0/TBD | Not started | - |
+| 1. Foundation & GCP Deploy | v1.0 | 0/7 | Planned | - |
 | 2. UPSC Knowledge Base | v1.0 | 0/TBD | Not started | - |
 | 3. Onboarding & Learning Pattern Test | v1.0 | 0/TBD | Not started | - |
 | 4. Planner, Revision & Reminders | v1.0 | 0/TBD | Not started | - |

@@ -21,9 +21,9 @@ See: .planning/PROJECT.md (updated 2026-11-05)
 ## Current Position
 
 Phase: 1 of 13 (Foundation & GCP Deploy)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-11-05 — Full consistency review of all planning docs (PROJECT, REQUIREMENTS, ROADMAP, PRODUCT_SPEC, UI_SPEC, research)
+Plan: 0 of 7 in current phase
+Status: Ready to execute
+Last activity: 2026-11-06 — Phase 1 planned: 7 plans in 5 waves (CONTEXT, RESEARCH, VALIDATION written)
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -55,6 +55,7 @@ Recent decisions affecting current work:
 - [Planning]: Learning Pattern Test scores Visual/Auditory/Reading-Writing/Kinesthetic via games → strength profile; cue methods mapped from patterns; repetition + first-principles for all
 - [Planning]: Naming rule: no teacher/institute/platform names in the app; books + official sources allowed; blocked-names filter
 - [Planning]: App push only; Mains answers by photo or typing; no optional taster test; no generated music
+- [Phase 1 planning]: Android first; Google + email code (Resend); Node 24; Expo SDK 58; koach-dev only; ₹2,000 budget
 - [Review]: Requirement IDs renumbered (MEM→LPT, ELEC→OPT, CUE and KB reordered); PROJECT.md declared the source of truth
 
 ### Pending Todos
@@ -63,10 +64,9 @@ None yet.
 
 ### Blockers/Concerns
 
-- GCP project and billing account do not exist yet; Phase 1 needs the user to create a billing account and run `gcloud auth login` (credentials stay with the user)
-- Vertex Gemini model IDs must be re-checked against the live Vertex model-versions page at Phase 1 (Gemini 3.x was in preview at last check)
+- Phase 1 user steps pending: billing account, gcloud/firebase/eas logins, Resend key, GitHub repo + Cloud Build app (see plan user_setup)
+- Gemini model availability in asia-south1 to be confirmed live in 01-04/01-05 (fallback: global endpoint)
 - UPSC subject-matter expert availability for knowledge-base review (Phase 2) is unconfirmed
-- Shivanshi's device (iOS/Android) not yet confirmed; decides the first EAS build
 
 ## Deferred Items
 
