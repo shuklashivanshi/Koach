@@ -5,6 +5,7 @@
 #   - koach-migrate     Cloud Run job (DB migrations, run before each deploy)
 #   - koach-ca-ingest   Cloud Run job (daily current-affairs pipeline, Cloud Scheduler 05:30 IST)
 #   - koach-rebalance   Cloud Run job (nightly plan rebalance + nudges, Cloud Scheduler 23:30 IST)
+#   (koach-predict, the weekly topic-prediction job, is added in v1.1 / Phase 8)
 # The mobile app ships separately via EAS Build; it is not part of this pipeline.
 #
 # Trigger:  gcloud builds submit --config deploy.yaml --substitutions=_ENV=dev

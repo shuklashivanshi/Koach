@@ -23,7 +23,7 @@ See: .planning/PROJECT.md (updated 2026-11-05)
 Phase: 1 of 13 (Foundation & GCP Deploy)
 Plan: 0 of TBD in current phase
 Status: Ready to plan
-Last activity: 2026-11-05 — Project initialized (PROJECT.md, REQUIREMENTS.md, ROADMAP.md, docs/PRODUCT_SPEC.md, draft deploy.yaml)
+Last activity: 2026-11-05 — Full consistency review of all planning docs (PROJECT, REQUIREMENTS, ROADMAP, PRODUCT_SPEC, UI_SPEC, research)
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -49,11 +49,13 @@ Progress: [░░░░░░░░░░] 0%
 Decisions are logged in PROJECT.md Key Decisions table.
 Recent decisions affecting current work:
 
-- [Init]: Expo RN + Fastify/TS on Cloud Run + Cloud SQL Postgres/pgvector + Vertex AI, region asia-south1
-- [Init]: v1.0 MVP target ~3 Dec 2026; Optional Discovery (fit quiz, explorer, decision coach) kept in v1.0 (optional decision due ~15 Dec 2026)
-- [Planning]: Learning Pattern Test scores visual/auditory/reading-writing/kinesthetic via games; strength profile; methods mapped from patterns
-- [Planning]: Push-only nudges; Mains answers by photo or typing; no optional taster test
+- [Init]: Expo RN + Fastify/TS on Cloud Run + Cloud SQL Postgres/pgvector + Vertex AI (speech on Google Cloud), region asia-south1
 - [Init]: GSD mode YOLO, standard granularity, research/plan-check/verifier on
+- [Planning]: v1.0 target ~3 Dec 2026 = Phases 1–7, incl. Optional Discovery (decision due 15 Dec 2026)
+- [Planning]: Learning Pattern Test scores Visual/Auditory/Reading-Writing/Kinesthetic via games → strength profile; cue methods mapped from patterns; repetition + first-principles for all
+- [Planning]: Naming rule: no teacher/institute/platform names in the app; books + official sources allowed; blocked-names filter
+- [Planning]: App push only; Mains answers by photo or typing; no optional taster test; no generated music
+- [Review]: Requirement IDs renumbered (MEM→LPT, ELEC→OPT, CUE and KB reordered); PROJECT.md declared the source of truth
 
 ### Pending Todos
 
@@ -63,7 +65,8 @@ None yet.
 
 - GCP project and billing account do not exist yet; Phase 1 needs the user to create a billing account and run `gcloud auth login` (credentials stay with the user)
 - Vertex Gemini model IDs must be re-checked against the live Vertex model-versions page at Phase 1 (Gemini 3.x was in preview at last check)
-- UPSC SME availability for knowledge-base review (Phase 2) is unconfirmed
+- UPSC subject-matter expert availability for knowledge-base review (Phase 2) is unconfirmed
+- Shivanshi's device (iOS/Android) not yet confirmed; decides the first EAS build
 
 ## Deferred Items
 

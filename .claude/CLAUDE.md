@@ -4,21 +4,22 @@
 
 **Koach**
 
-Koach is a mobile-first (React Native + TypeScript) AI coach for the UPSC Civil Services Exam. It decides what to study, revise and practise each day and where to read it from, connects current affairs to the static syllabus, and turns material into memory cues (repetition, memory palace, mnemonics, first-principles explanations) tuned to how the individual learner actually retains information. It is built first for Shivanshi's own CSE 2027 attempt (working, 3–5 hrs/day) and designed multi-user so it can later serve UPSC aspirants broadly.
+Koach is a mobile-first (React Native + TypeScript) AI coach for the UPSC Civil Services Exam. Every day it decides what the aspirant should study, revise and practise, and **where to read it from**. It links current affairs to the static syllabus and prioritises topics using past-paper (PYQ) analysis and topic prediction. It finds each aspirant's **learning pattern** (visual, auditory, reading/writing, kinesthetic) through a short game-based test, then turns material into memory cues that suit that pattern: memory palace, spoken cue sheets and chants, mnemonics, written cue sheets, hands-on drills, plus spaced repetition and first-principles "why" for everyone. It also helps aspirants **choose their optional** and, later, their **service preferences**. Its teaching follows proven UPSC pedagogy patterns (PYQ-first learning, active recall, map-based learning, mistake logs). It is built first for Shivanshi's own CSE 2027 attempt (working, 3–5 study hrs/day) and designed multi-user so it can later serve UPSC aspirants broadly.
 
-**Core Value:** Every day, Koach tells the aspirant exactly what to study, revise and practise next, and how to make it stick for *them*, with the reasoning backed by UPSC data (official syllabus, PYQs, cited topper strategy). If everything else fails, the daily plan + spaced-revision engine must work.
+**Core Value:** Every day, Koach tells the aspirant exactly what to study, revise and practise next, and how to make it stick for *them*, with the reasoning backed by UPSC data (official syllabus, PYQs, measured recall). If everything else fails, the daily plan + spaced-revision engine must work.
 
 ### Constraints
 
 - **Tech stack**: React Native (Expo) + TypeScript for mobile; TypeScript (Node 22, Fastify) backend — user requirement, one language end to end
-- **Cloud**: Deploy on GCP (Cloud Run, Cloud SQL, Cloud Storage, Pub/Sub, Scheduler, Secret Manager, Artifact Registry, Cloud Build); region `asia-south1` — user requirement + India data residency
-- **AI**: All AI features use Vertex AI (Gemini Flash/Pro, Gemini embeddings, grounding; Imagen optional) — user requirement
+- **Cloud**: GCP (Cloud Run, Cloud SQL, Cloud Storage, Pub/Sub, Cloud Scheduler, Secret Manager, Artifact Registry, Cloud Build); region `asia-south1` — user requirement + India data residency
+- **AI**: Vertex AI for all AI features (Gemini Flash/Pro, Gemini embeddings, grounding; Imagen in v1.2). Speech via Google Cloud Text-to-Speech and Speech-to-Text (Chirp) — user requirement
 - **Deploy**: `deploy.yaml` (Cloud Build) is the deploy entrypoint — user requirement
-- **Timeline**: v1.0 usable on Shivanshi's phone by ~3 Dec 2026; the product must not delay her own preparation for Prelims 23 May 2027
-- **Budget**: Scale-to-zero infrastructure; Vertex spend target < ~US$2 per active user per month
-- **Privacy**: DPDP Act 2023 aligned (consent, export/delete, minimal PII, India region)
-- **Trust**: Every factual AI output carries sources; generated MCQs pass a verifier before being shown
-- **GCP**: No project exists yet; Phase 1 includes project/API/IAM bootstrap
+- **Timeline**: v1.0 on Shivanshi's phone by ~3 Dec 2026; the product must never delay her own Prelims preparation
+- **Budget**: scale-to-zero infrastructure; AI + speech spend < ~US$2 per active user per month
+- **Privacy**: DPDP Act 2023 aligned (consent, export/delete, minimal PII, India region); voice recordings and answer photos are private to the user
+- **Notifications**: app push only
+- **Design**: minimal, low-text UI in the Light Academia theme; light mode default, optional "Lamplight" dark mode; `docs/UI_SPEC.md` is binding
+- **GCP**: no project exists yet; Phase 1 includes project/API/IAM bootstrap
 
 <!-- GSD:project-end -->
 

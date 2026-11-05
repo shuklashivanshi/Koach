@@ -10,6 +10,7 @@ created: "2026-11-05"
 
 > *Like studying by a sunlit window in an old library.* Calm, scholarly, unhurried.
 > This is the app-wide contract. Per-phase UI specs (`/gsd-ui-phase N`) inherit from it and may only add to it, not override it.
+> Feature behaviour is defined in `.planning/PROJECT.md`; this file defines how it looks and reads. Screens marked *(v1.1)* / *(v1.2)* ship in later milestones.
 
 ---
 
@@ -144,7 +145,7 @@ No confetti. Milestones are marked with a gilt wax-seal glyph that fades in.
 | Component | Description |
 |---|---|
 | `PaperCard` | `cream` surface, 1px `hairline` border, radius 12, padding 24 |
-| `TaskRow` | Empty ink circle → filled on done · title (Title) · one caption line (`Laxmikanth · Ch 12 · 40 min`). The current task gets a `leather` bookmark ribbon on the left edge. Swipe right = done, swipe left = later |
+| `TaskRow` | Empty ink circle → filled on done · title (Title) · one caption line (`Laxmikanth · Ch 22 · 40 min`). The current task gets a `leather` bookmark ribbon on the left edge. Swipe right = done, swipe left = later |
 | `Overline` | Small-caps label (`TODAY · 3 OF 5`) |
 | `Button/Primary` | `leather` fill, `cream` text, height 52, full width at the bottom of the screen. Max one per screen |
 | `Button/Secondary` | Transparent, 1px `ink` @ 30% border |
@@ -160,6 +161,9 @@ No confetti. Milestones are marked with a gilt wax-seal glyph that fades in.
 | `CueTabs` | Segmented control: `See · Hear · Write · Do · Why`, opening on the strongest pattern |
 | `AudioCue` | Brass play/pause button, speed chips `1× · 1.25× · 1.5×`, rhythm-line text below; works with the screen locked |
 | `EmptyState` | Engraving (120px) + one line heading + one line body + optional text button |
+| `CauseChips` | After a wrong answer: `Didn't know · Misread · Eliminated wrong · Guessed`, one tap, optional |
+| `Heatmap` | Grid of syllabus subjects × topics, cells shaded `linen` → `sage` by mastery; tap a cell → node page |
+| `LikelihoodTag` *(v1.1)* | Small-caps tag `HIGH` in `gilt` / `MEDIUM` / `LOW` in `inkMuted`, with `Why?` |
 
 ---
 
@@ -179,12 +183,12 @@ Four tabs, labelled in small caps and using Phosphor Light icons:
 
 | Tab | Icon | Holds |
 |---|---|---|
-| **Today** | `Sun` | Daily plan, CA quiz, reviews due |
-| **Revise** | `Cards` | Flashcards and revision units, memory cues |
-| **Library** | `Books` | Syllabus tree, sources, PYQs, Optional Discovery |
-| **You** | `Feather` | Week summary, memory profile, settings |
+| **Today** | `Sun` | Daily plan, Learn sessions, CA quiz |
+| **Revise** | `Cards` | Due flashcards and revision units, audio playlist, mistakes notebook, memory palace |
+| **Library** | `Books` | Syllabus tree, node pages (source, PYQs, recent CA), heatmap, Optional Discovery |
+| **You** | `Feather` | Week summary, coach note, learning profile, settings |
 
-"Ask Koach" (cues, why, replan) opens as a bottom sheet from inside screens. There is no floating button and no chat tab.
+Contextual help opens as a bottom sheet from inside screens: `Make it stick` (cues), `Why?` (reasoning) and `Short on time?` (replan). There is no floating button and no chat tab. The Decision Coach (10.11) is the only conversational surface, also a sheet.
 
 ---
 
@@ -206,9 +210,9 @@ Wireframes show structure only. Copy shown is the actual copy.
 ### 10.2 Onboarding (5 steps, one question each)
 Progress: `ProgressThread` at the top, `Back` text button.
 1. **Your attempt**: `CSE 2027` preselected (`Prelims · 23 May`)
-2. **Your hours**: 7 weekday rows with a stepper (`Mon  2h 30m`), plus a `Copy to weekdays` text button
+2. **Your hours**: 7 weekday rows with a stepper (`Mon  2h 30m`), a `Copy to weekdays` text button, then work and quiet hours
 3. **Where you stand**: subject list with 3-state chips `New · Some · Strong`
-4. **A short check**: 20 questions, one per screen, `Skip` allowed
+4. **A short check**: 20 questions, one per screen, `Skip` allowed (skipping builds a starter plan from step 3)
 5. **How you learn**: intro to the Learning Pattern Test (`4 short games · 15 min`) → `Begin`
 
 ### 10.3 Learning Pattern Test
@@ -245,14 +249,18 @@ Four games, one per screen, then a delayed round. Overline `GAME 2 OF 4`; a thin
 - Long-press a task → `Why this?` · `Later` · `Swap`.
 - After a nightly rebalance, a single `MarginNote` appears: *"2 tasks moved to Saturday."* (tap → why).
 
-### 10.5 Study Session
-Overline `POLITY · LEARN` · Heading (node name) · source line `M. Laxmikanth · Ch 22 · pp. 230–244` · large Numeral timer · text buttons `Pause` / `Make it stick` (opens the Cue sheet) · primary `Done`. After Done, a one-tap rating: `Easy · Okay · Hard`.
+### 10.5 Learn Session (PYQ-first)
+Three short steps, one per screen, with a `ProgressThread` at the top:
+1. **How it's asked:** overline `POLITY · LEARN`, Heading (node name), 2–3 PYQs as compact `PaperCard`s (year as Caption). Primary `Got it`.
+2. **Read:** goal line in Title (`Finish Ch 22 + 5 PYQs`), source line `Laxmikanth, Indian Polity · Ch 22 · pp. 230–244`, a large Numeral timer, text buttons `Pause` / `Make it stick`. Primary `Done reading`.
+3. **Check:** 3–5 quick questions (`QuizOption`); a wrong answer shows `CauseChips`. Ends with a one-tap rating `Easy · Okay · Hard` and `Done`.
 
 ### 10.6 Replan Sheet
 Heading `How much time today?` → chips `30m · 1h · 2h · Custom` → preview of the trimmed list → `Use this plan`.
 
 ### 10.7 Revise
 Top: three `Stat`s, `18 DUE · 4 NEW · 92% RETAINED`. Primary `Start revision`.
+Below, quiet rows: `Listen` (audio revision playlist, `AudioCue` controls, works with the screen locked) · `Mistakes` (notebook grouped by cause, with a monthly `Recurring traps` summary) · `Memory palace` (your rooms and what lives in them).
 Session: `IndexCard` front → tap to turn → back → `Again · Hard · Good · Easy` (FSRS grades, in Label size). `Make it stick` opens the Cue sheet for that card.
 
 ### 10.8 Cue Sheet *(Make it stick)*
@@ -263,14 +271,17 @@ Session: `IndexCard` front → tap to turn → back → `Again · Hard · Good �
 - **Do** (kinesthetic): drag-to-order cards or build-the-flowchart
 - **Why** (everyone): 3–5 numbered causal steps, then `Say it in one line` → graded with a `sage`/`rosewood` caption
 
-Footer: 👍 / 👎 as Phosphor `ThumbsUp`/`ThumbsDown` light icons. Flashcard repetition stays in Revise.
+First use of **See** asks once to set up a memory palace: `Pick a place you know well` → chips `Home · Office · Route to work · Custom` → name 5–8 spots in order.
+
+Footer: `ThumbsUp` / `ThumbsDown` (Phosphor light icons). Flashcard repetition stays in Revise.
 
 ### 10.9 Current Affairs Quiz
-Overline `CURRENT AFFAIRS · 3 / 8`. Stem in Title. 4 `QuizOption`s. After answering, an explanation (≤3 lines) and a source caption (`PIB · 4 Nov`), then `Next`. End screen: Numeral score + `Missed ones added to Revise.`
+Overline `CURRENT AFFAIRS · 3 / 8`. Stem in Title. 4 `QuizOption`s. After answering, an explanation (≤3 lines), a source caption (`PIB · 4 Nov`) and a text link to the syllabus node; a wrong answer also shows `CauseChips`. Then `Next`. End screen: Numeral score + `Missed ones added to Revise.` A `Report a problem` text button sits under every explanation.
 
 ### 10.10 Library
 Search field (`Search the syllabus`) → collapsible subject tree (Heading → rows with `MasteryDots`).
-**Node page:** Heading, chips (`PRELIMS`, `MAINS GS-II`), `Read` (source + chapter), `Asked` (mini bar of PYQs by year), `Your mastery`, buttons `Study now` (primary) / `Practice PYQs` (secondary).
+A `Heatmap` text button above the tree opens the mastery heatmap.
+**Node page:** Heading, chips (`PRELIMS`, `MAINS GS-II`), `Read` (source + chapter), `Asked` (mini bar of PYQs by year), `In the news` (up to 3 recent CA items), `Your mastery`, buttons `Study now` (primary) / `Practice PYQs` (secondary). *(v1.1: `LikelihoodTag` beside the Heading.)*
 
 ### 10.11 Optional Discovery *(Library → Choose your optional)*
 - **Fit Quiz:** one question per screen, chips + an optional short text field. Not a chat log.
@@ -282,7 +293,7 @@ Search field (`Search the syllabus`) → collapsible subject tree (Heading → r
 
 ### 10.12 You
 Plaid header strip, name, `Day 14 · 🔥 9` (the flame is a Phosphor `Flame` icon in `gilt`, not an emoji).
-Sections (rows, no cards): `This week` (hours bar per day) · `Memory profile` · `Notifications` · `Appearance (Light / Lamplight / System)` · `Export data` · `Delete account`.
+Sections (rows, no cards): `This week` (hours bar per day) · `Coach note` (Sunday note + well-being check-in) · `Learning profile` (four bars, `Retake`) · `Notifications` (types, times, tone `Calm · Firm · Cheerful`) · `Appearance (Light / Lamplight / System)` · `Export data` · `Delete account`.
 
 ---
 
@@ -290,7 +301,7 @@ Sections (rows, no cards): `This week` (hours bar per day) · `Memory profile` �
 
 Voice: a kind, well-read mentor. Short, warm, never preachy. No exclamation marks except on a milestone. No "Oops", no "AI-powered", no emoji in copy.
 
-**Naming rule (hard):** never show the name of a teacher, coaching institute, app, platform, channel or course anywhere: copy, `Why?` sheets, notifications, reasons or generated text. Standard books (title/author + chapter), NCERT and official sources (UPSC, PIB, PRS, ministries, Economic Survey) may be named. Strategy reasons read "Based on 12 topper accounts", never a person or site. Generated text is filtered against a blocked-names list before display.
+**Naming rule (hard):** never show the name of a teacher, coaching institute, app, platform, channel or course anywhere: copy, `Why?` sheets, notifications, reasons or generated text. Standard books (title/author + chapter), NCERT and official sources (UPSC, PIB, PRS, ministries, RBI/SEBI, Economic Survey, DoPT) may be named. A book whose title or author is an institute or platform is shown by a neutral label (`Environment reference · Ch 5`). Strategy reasons read "Based on 12 topper accounts", never a person or site. Generated text is filtered against a blocked-names list before display.
 
 | Element | Copy |
 |---|---|
@@ -307,6 +318,8 @@ Voice: a kind, well-read mentor. Short, warm, never preachy. No exclamation mark
 | Destructive confirm | **Delete account**: `This erases your plan, notes and history. It can't be undone.` → `Delete` (rosewood) / `Keep` |
 | Nudge examples | `Twenty minutes of Polity before dinner?` · `9-day streak. One short review keeps it.` · `Economy's first pass is due in 9 days.` |
 | Weekly coach note | **Your week** · 3 lines max: kept / slipped / one change |
+| Well-being check-in | **How heavy did this week feel?** · chips `Light · Fine · Heavy` (Heavy → `Next week is lighter.`) |
+| Learning profile line | One sentence naming the strongest pattern, e.g. `Pictures and places stick best for you.` Never "You are a visual learner" |
 
 Notification titles ≤ 30 characters, bodies ≤ 60.
 

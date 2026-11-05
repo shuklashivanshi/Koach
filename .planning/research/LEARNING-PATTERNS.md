@@ -42,10 +42,10 @@ Four short games with UPSC-flavoured content, matched in difficulty, played in r
 
 | Pattern | Primary methods Koach generates |
 |---|---|
-| **Visual** | **Memory palace** (personal rooms, vivid placements), mind-map cue sheets, timelines, maps/diagrams, colour-coded one-pagers, image-anchored flashcards |
+| **Visual** | **Memory palace** (personal rooms, vivid placements), mind-map cue sheets, timelines, maps/diagrams, colour-coded one-pagers (generated images for palace placements in v1.2) |
 | **Auditory** | **Spoken cue sheets** (TTS audio per topic), **rhythmic chants and rhymes** read aloud, verbal mnemonics (acronym stories), listen-and-repeat drills, audio revision playlists for commutes |
-| **Reading/Writing** | One-page cue sheets, cloze cards, **write-from-memory ("blurting")**, acronym lists, summary-in-3-lines drills |
-| **Kinesthetic** | Drag-to-sequence games (timelines, processes), trace-on-map drills, build-the-flowchart, handwritten answer practice, teach-back prompts |
+| **Reading/Writing** | One-page cue sheets, cloze cards, **write-from-memory ("blurting")**, 3-line summaries |
+| **Kinesthetic** | Drag-to-sequence drills (timelines, processes), build-the-flowchart, trace-on-map drills, teach-back prompts |
 | **Everyone** | FSRS spaced repetition and a short "why" (first-principles) explanation on request |
 
 **Mixing rule:** a learner's cue mix is about 60% strongest pattern, 25% second, 15% others, so weaker channels keep getting tested and can rise.

@@ -54,8 +54,8 @@
 |---|---|---|
 | **PB-PYQ: PYQ-first priming** | Before a Learn task, show 2–3 PYQs on the node ("this is how it's asked"), then the source + chapter, then a 3–5 question retrieval check right after | Planner / Study session · v1.0 |
 | **PB-WHERE: Where to look** | The coach gives source, chapter and question demand. It doesn't hand over a summary first; the explanation comes after an attempt | Study session, Cues · v1.0 |
-| **PB-MISTAKE: Mistakes notebook** | Every wrong MCQ is saved with a cause tag (*concept gap / misread / elimination error / guess*) and fed to FSRS; monthly "your recurring traps" | v1.0 (CA quiz, diagnostic), v1.1 mocks |
-| **PB-HEAT: Memory heatmap** | Syllabus heatmap of mastery × likelihood; drives revision before Prelims | v1.0 (You tab), v1.1 |
+| **PB-MISTAKE: Mistakes notebook** | Every wrong MCQ is saved with a one-tap cause (*didn't know / misread / eliminated wrong / guessed*) and fed to FSRS; monthly "your recurring traps" | v1.0 (CA quiz, diagnostic), v1.1 mocks |
+| **PB-HEAT: Memory heatmap** | Syllabus heatmap of mastery (× topic likelihood from v1.1); drives revision before Prelims | v1.0 (Library), v1.1 |
 | **PB-FOCUS: Designed focus** | One task per session, a specific goal line ("Finish Ch 22 + 5 PYQs"), and a weekly burnout check-in | Planner, Nudges · v1.0 |
 | **PB-MAP: Layered map mode** | For geography/environment/places-in-news nodes: interactive blank map, layers revealed step by step, tap-to-locate recall drills, monthly places-in-news map | v1.1 |
 | **PB-ELIM: Elimination trainer** | After each PYQ, mark which statements you eliminated and why; analyse every wrong option | v1.1 |
