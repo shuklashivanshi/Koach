@@ -13,7 +13,7 @@ Every day, Koach tells the aspirant exactly what to study, revise and practise n
 - **Customer**: v1 = Shivanshi (dogfood); later = UPSC CSE aspirants, especially working aspirants with limited hours
 - **Revenue model**: None in v1; subscription considered for public launch after Prelims 2027
 - **Success metric**: Shivanshi completes ≥85% of planned weekly hours and every Prelims syllabus node gets ≥3 revisions before 23 May 2027
-- **Strategy notes**: `docs/PRODUCT_SPEC.md`, `docs/UI_SPEC.md`, `.planning/research/TOPIC-PREDICTION.md`, `.planning/research/PEDAGOGY.md`
+- **Strategy notes**: `docs/PRODUCT_SPEC.md`, `docs/UI_SPEC.md`, `.planning/research/TOPIC-PREDICTION.md`, `.planning/research/PEDAGOGY.md`, `.planning/research/LEARNING-PATTERNS.md`, `.planning/research/OPTIONAL-SELECTION.md`
 
 ## Features
 
@@ -26,7 +26,7 @@ The full feature set as requested, grouped as **Algorithmic** (deterministic, te
 - **Source Map ("what to read from where").** One primary standard source per node (NCERT class + chapter, standard book + chapter) with a one-line reason. Books are referenced by title and chapter only, and no copyrighted text is stored.
 - **Strategy Knowledge Base.** Short, cited strategy claims stored internally with source URL + date. The UI never names teachers, institutes or platforms; it shows "based on N topper accounts" or an official source.
 - **Pedagogy Playbooks.** Anonymous playbooks (`PB-PYQ`, `PB-WHERE`, `PB-MISTAKE`, `PB-HEAT`, `PB-FOCUS`, `PB-MAP`, `PB-ELIM`, `PB-THEME`, `PB-DEMAND`, `PB-SWITCH`, `PB-CA-LINK`) distilled from the public teaching patterns of two named UPSC educators. They are refined with the user's own class notes and are never attributed in the UI. See `.planning/research/PEDAGOGY.md`.
-- **Learner Profile.** Exam target, weekday availability, work/quiet hours, per-subject level (self-rated, then measured), cue-efficacy vector, tone preference, notification settings, optional subject, service preferences.
+- **Learner Profile.** Exam target, weekday availability, work/quiet hours, per-subject level (self-rated, then measured), learning-pattern strength profile, tone preference, notification settings, optional subject, service preferences.
 
 ### 1. Algorithmic features
 
@@ -41,7 +41,7 @@ The full feature set as requested, grouped as **Algorithmic** (deterministic, te
 - **Quick replan:** "I only have N minutes today" trims the day to the highest-yield items.
 
 **1.2 Reminders**
-- Push notifications (FCM via Expo) for: plan ready, due reviews, CA quiz, streak at risk, Memory-Style-Test check-ins (24h/72h), mock tests.
+- Push notifications (FCM via Expo) for: plan ready, due reviews, CA quiz, streak at risk, mock tests. **App push only** (no WhatsApp/email for now).
 - Respects quiet hours and work hours; user-configurable per type.
 - v1.1: learns the best send time per user from open/completion history (per-hour bandit).
 
@@ -79,12 +79,27 @@ The full feature set as requested, grouped as **Algorithmic** (deterministic, te
 - A rule engine decides *when/whether* (≤3/day; triggers: slipping subject, streak at risk, approaching deadline, long idle). Gemini writes the words in the user's chosen tone (calm / firm / cheerful).
 - A weekly coach note (kept / slipped / one change) and a weekly well-being check-in (`PB-FOCUS`); if strain is reported, the plan load is reduced for the next week.
 
-**2.3 Elective (Optional) Discovery Agent**
-- Time-critical: decide by ~15 Dec 2026.
-- **Guided interview:** background, subjects enjoyed, writing style, reading speed, time before Mains.
-- **Evidence:** UPSC Annual Report optional-wise success rates, syllabus length and GS/Essay overlap computed from the graph, availability of standard sources.
-- **Taster test:** 10–15 PYQs per shortlisted optional (max 3), auto-evaluated.
-- **Output:** a ranked shortlist (≤3) with an evidence table, risks and a 12-week outline. The choice adds the optional's nodes to the plan.
+**2.3 Optional Discovery: helping aspirants choose their optional** (see `.planning/research/OPTIONAL-SELECTION.md`)
+
+Choosing the optional is one of the hardest early decisions: 500 of 1750 Mains marks, ~48 choices, noisy advice ("scoring optional", "everyone takes X"). The most common mistake is following toppers or peers instead of checking personal fit. Shivanshi must decide by ~15 Dec 2026. Three parts (no taster test):
+
+- **Fit Quiz → ranking across all ~48 optionals (~10 min).**
+  - Asks about: degree/background, subjects enjoyed, reading taste (theory / data / narratives / debates), preferred answer style (analytical / factual / diagrams / numericals), hours available before Mains, language comfort (literature optionals), risk appetite.
+  - Transparent fit score: `0.30 interest + 0.20 background + 0.15 GS/Essay overlap + 0.10 writing-style fit + 0.10 materials + 0.10 time feasibility + 0.05 scoring stability`. Weights are config, SME-reviewable, and shown behind `Why?`.
+  - Output: a top 5 with one-line reasons, plus "surprising fits" outside the user's background.
+- **Explorer & Compare.** One page per optional:
+  - syllabus size and estimated hours (computed from the syllabus graph)
+  - **GS/Essay overlap %** (computed from node similarity)
+  - PYQ style mix
+  - **multi-year success rate** from UPSC Annual Reports (appeared → recommended, pooled across years, Wilson confidence band, small-sample warning)
+  - standard books (titles only), typical prep time, and the user's fit
+
+  Any 2–3 optionals can be compared side by side.
+- **Decision Coach (Gemini, conversational).**
+  - Answers doubts ("I'm an engineer, can I take Sociology?") from the evidence.
+  - Runs stress tests ("could you spend 350 hours on this syllabus?", "write 3 lines on this PYQ", "what would make you regret this?").
+  - Busts myths with data and sets and nudges toward a decision deadline.
+  - Records the final choice + reasons. The optional's nodes are then added to the plan with a coverage outline.
 
 **2.4 Service Preference Advisor** *(added 2026-11-05)*
 - Helps rank services (IAS, IFS, IPS, IRS, etc.) and cadre preferences for DAF-I (filled after Prelims).
@@ -94,23 +109,41 @@ The full feature set as requested, grouped as **Algorithmic** (deterministic, te
 **2.5 Evaluation + Review/Reports**
 - **Prelims:** mock and sectional tests with negative marking.
 - **Analytics:** accuracy by node, attempt-vs-accuracy curve ("you lose marks beyond ~N attempts"), time per question, mistake causes, plus an **elimination trainer** (`PB-ELIM`: mark which statements you eliminated and why, analyse every wrong option).
-- **Mains (v1.2):** photo of a handwritten answer → Gemini multimodal OCR → **question-demand decoder** (`PB-DEMAND`: core theme + directive + dimensions) → rubric score (demand met, structure, content vs. model outline, examples/data, diagrams, word limit) → feedback + improved outline. Calibrated against human-graded samples.
+- **Mains (v1.2):** photo of a handwritten answer (default; typing also allowed) → Gemini multimodal OCR → **question-demand decoder** (`PB-DEMAND`: core theme + directive + dimensions) → rubric score (demand met, structure, content vs. model outline, examples/data, diagrams, word limit) → feedback + improved outline. Calibrated against human-graded samples.
 - **Mains theme bank (`PB-THEME`):** reusable value-add cards (data, examples, reports, judgments, committee recommendations) per recurring theme.
 - **Reports:** daily summary, weekly report (planned vs. done, coverage, heatmap, retention, mock trend), Prelims readiness score with projected range.
 
-**2.6 Memory Style Test**
-- About 20 minutes over two sittings: 4 comparable micro-blocks of UPSC facts, each learned with a different method (repetition, first principles, memory palace, mnemonic).
-- Recall is tested at 0h / 24h / 72h, plus self-rated ease. This produces a **cue-efficacy vector** by cue type × content type (facts / concepts / sequences / locations).
-- The result is shown as a plain-language profile backed by the learner's own numbers. It is continuously updated from real reviews (Bayesian) and re-tested monthly.
-- It tests what is measured rather than assuming fixed "learning styles". Shivanshi's self-report (repetition + first principles) is the prior to be verified.
+**2.6 Learning Pattern Test: find how each aspirant learns best** (see `.planning/research/LEARNING-PATTERNS.md`)
 
-**2.7 Memory Cues Generation**
-- Cues are generated for any node, card or CA item, and the default cue follows the efficacy vector. Users rate cues 👍/👎.
-- **Repetition:** spaced micro-cards, cloze deletions and rapid recall drills, scheduled by FSRS.
-- **Memory Palace:** a persistent personal palace (set up once from a familiar place). Syllabus areas are assigned to rooms, with vivid placements per fact.
-  - **Map mode** (`PB-MAP`, v1.1) is the spatial version for geography, environment and places-in-news: layered blank map (physiography → rivers → borders → context → PYQ/CA overlay), tap-to-locate drills, and a monthly places-in-news map.
-- **Mnemonics:** acronyms, stories and rhymes for lists, automatically checked to decode back to the exact facts before being shown.
-- **First-Principles Approach:** a causal *why* chain in 3–5 steps (e.g. why Money Bills originate only in Lok Sabha), shown after the learner's own attempt (`PB-WHERE`), followed by a one-line teach-back that is graded.
+Helps every aspirant discover their learning pattern, so Koach can give them methods that suit it.
+
+- **Patterns scored:** **Visual · Auditory · Reading/Writing · Kinesthetic** (senses only; methods follow by fixed mapping).
+- **Format:** ~15 min in onboarding. Four short games with UPSC-flavoured content, matched in difficulty and played in random order, plus a **delayed recall round** at the end (long-term retention matters most for UPSC):
+
+  | Pattern | Game | How it's scored |
+  |---|---|---|
+  | **Visual** | *Map Pins*: 6–8 places shown on a map for 20s, placed back from memory. *Pattern Grid*: recreate a growing grid of shaded cells | Pin distance error; longest grid recreated |
+  | **Auditory** | *Listen & Recall*: a short recording (a list, then a 2-sentence fact) plays **once**; type it or say it back (speech-to-text) | Words/idea units recalled; span reached |
+  | **Reading/Writing** | *Read & Write Back*: read a ~120-word passage for 60s, then write the key points from memory | Idea units recalled (Gemini-scored against a key) |
+  | **Kinesthetic** | *Arrange & Trace*: sort event cards into order and trace a river by finger while learning, then redo from memory | Order and trace accuracy |
+- **Score:** each pattern 0–100 = `0.6 × immediate + 0.4 × delayed`, normalised across games.
+- **Result: a strength profile, not a label.** For example `Visual 82 · Auditory 64 · Reading/Writing 71 · Kinesthetic 58`, with one line ("Pictures and places stick best for you. We'll lead with them.").
+- **Keeps testing:** every cue served is tagged with its pattern, and later recall on it (FSRS grades, quiz accuracy) updates the scores. A re-test is offered every ~8 weeks.
+- **Why a profile and not a label:** research shows real differences in visual vs. verbal memory, but teaching *only* in one "style" isn't proven to help. So Koach leads with strengths (~60% of cues), keeps a mix (25% second-best, 15% others), and lets measured recall decide over time.
+
+**2.7 Memory Cues Generation: methods chosen from the learning pattern**
+
+Cues are generated for any syllabus node, flashcard or CA item. The default format follows the strength profile, users can switch formats, and they rate cues 👍/👎.
+
+| Pattern | Methods Koach generates |
+|---|---|
+| **Visual** | **Memory palace**: a personal palace set up once from a familiar place, syllabus areas assigned to rooms, vivid placements per fact. Also mind-map cue sheets, timelines, diagrams, colour-coded one-pagers, image-anchored flashcards. **Map mode** (`PB-MAP`, v1.1): layered blank maps (physiography → rivers → borders → context → PYQ/CA overlay), tap-to-locate drills, monthly places-in-news map |
+| **Auditory** | **Spoken cue sheets** (text-to-speech audio per topic), **rhythmic chants and short rhymes** read aloud, verbal **mnemonics** (acronym stories), listen-and-repeat drills, audio revision playlists for commutes. *Generated music deferred* |
+| **Reading/Writing** | **Cue sheets** (one-page, ≤12 lines), cloze cards, **write-from-memory** ("blurting") drills, acronym lists, 3-line summaries |
+| **Kinesthetic** | Drag-to-sequence games (timelines, processes), trace-on-map drills, build-the-flowchart, handwritten answer practice, teach-back prompts |
+| **Everyone** | **Repetition** via FSRS spaced flashcards and cloze for all formats; a **first-principles "why"** (3–5 causal steps, e.g. why Money Bills originate only in Lok Sabha), shown after the learner's own attempt (`PB-WHERE`), with a one-line graded teach-back |
+
+All mnemonics, rhymes and chants are automatically checked to decode back to the exact facts before being shown.
 
 ## Requirements
 
@@ -122,14 +155,14 @@ The full feature set as requested, grouped as **Algorithmic** (deterministic, te
 
 - [ ] Syllabus graph, PYQ bank (with source-type tags), source map, cited strategy KB, and anonymous pedagogy playbooks
 - [ ] Onboarding (target, weekday availability, self-assessment, diagnostic)
-- [ ] Memory Style Test (0h/24h/72h recall experiment) → cue-efficacy vector, continuously updated
+- [ ] Learning Pattern Test (visual, auditory, reading/writing, kinesthetic games + delayed recall) → strength profile, continuously updated
 - [ ] Scheduler with PYQ-first Learn tasks, phase switch, nightly rebalance, quick replan
 - [ ] FSRS revision, mastery model, memory heatmap, mistakes notebook, ≥3-revision guarantee
 - [ ] Reminders with quiet hours and per-type settings
 - [ ] Daily CA pipeline → node-mapped, verified UPSC-style MCQs with official sources
-- [ ] Memory cues: repetition, memory palace, verified mnemonics, first-principles with teach-back
+- [ ] Memory cues by pattern: memory palace and visual sheets; spoken cue sheets, chants and mnemonics; written cue sheets and blurting; sequence/trace drills; plus FSRS repetition and first-principles "why" for everyone
 - [ ] Personalised nudges, weekly coach note, well-being check-in
-- [ ] Elective Discovery Agent (interview + success-rate evidence + taster test → shortlist)
+- [ ] Optional Discovery: fit quiz ranking all ~48 optionals, explorer & compare with official success-rate data, decision coach
 - [ ] Topic prediction (signals above), backtested, with likelihood bands + practice questions for top topics
 - [ ] Prelims mocks, analytics, elimination trainer, weekly reports, readiness score
 - [ ] Map mode for geography, environment and places-in-news
@@ -164,7 +197,7 @@ The full feature set as requested, grouped as **Algorithmic** (deterministic, te
 
 - **Tech stack**: React Native (Expo) + TypeScript for mobile; TypeScript (Node 22, Fastify) backend — user requirement
 - **Cloud**: GCP (Cloud Run, Cloud SQL, Cloud Storage, Pub/Sub, Scheduler, Secret Manager, Artifact Registry, Cloud Build); region `asia-south1` — user requirement + India data residency
-- **AI**: All AI features use Vertex AI (Gemini Flash/Pro, Gemini embeddings, grounding; Imagen optional) — user requirement
+- **AI**: All AI features use Vertex AI (Gemini Flash/Pro, Gemini embeddings, grounding; Imagen optional); speech via Google Cloud Text-to-Speech and Speech-to-Text (Chirp) on GCP — user requirement
 - **Deploy**: `deploy.yaml` (Cloud Build) is the deploy entrypoint — user requirement
 - **Timeline**: v1.0 usable on Shivanshi's phone by ~3 Dec 2026; the product must never delay her own Prelims preparation
 - **Budget**: Scale-to-zero infra; Vertex spend < ~US$2 per active user per month
@@ -185,13 +218,17 @@ The full feature set as requested, grouped as **Algorithmic** (deterministic, te
 | Fastify API + Cloud Run Jobs for pipelines | Scale-to-zero, containers for API and batch alike | — Pending |
 | FSRS for spaced repetition | Better-evidenced than SM-2; per-user fitting later | — Pending |
 | Deterministic scheduler + topic scoring; LLM only for language/content | Explainable, testable, never blocked by an AI outage | — Pending |
-| Memory style measured by recall experiment, not questionnaire | Learning-styles evidence is weak; measured retention is actionable | — Pending |
+| Learning Pattern Test scores Visual / Auditory / Reading-Writing / Kinesthetic via games + delayed recall; shown as a strength profile, not a label | User choice 2026-11-05; modality memory differences are measurable, but style-only teaching isn't proven, so lead with strengths, keep a mix, keep re-measuring | — Pending |
+| Methods follow patterns by fixed mapping (visual → memory palace, auditory → spoken cues/chants/mnemonics, reading/writing → cue sheets/blurting, kinesthetic → sequence/trace); FSRS repetition + first-principles for all | User choice 2026-11-05 (senses only) | — Pending |
+| Audio cues via Google Cloud Text-to-Speech; no generated music for now | User choice 2026-11-05; cheap, reliable | — Pending |
+| Nudges and reminders via app push only | User choice 2026-11-05 | — Pending |
+| Mains answers submitted as handwriting photo (default) or typed | User choice 2026-11-05 | — Pending |
 | Topic prediction = expert five-signal method + logistic model, backtested 2022–2026 | Coaches' predictions are unmeasured; Koach must prove lift over a frequency baseline | — Pending |
 | Prediction output = likelihood bands + reasons + practice questions for top topics | User choice 2026-11-05; useful without overclaiming | — Pending |
 | Pedagogy encoded as anonymous playbooks from two named educators' public patterns + user's class notes | User choice 2026-11-05; specific to UPSC; no names in UI; patterns only, no content reuse | — Pending |
 | Naming rule: no people/brands in UI; books and official sources allowed | User choice 2026-11-05; keeps "what to read from where" working | — Pending |
 | Add Service Preference Advisor (v1.2, before DAF-I) | User request 2026-11-05; DAF-I filled after Prelims | — Pending |
-| Elective Discovery Agent in v1.0 | Optional must be decided by mid-Dec 2026 | — Pending |
+| Optional Discovery (fit quiz + explorer/compare + decision coach, no taster) in v1.0 | User choice 2026-11-05; the optional must be decided by mid-Dec 2026 and is a top pain point for aspirants | — Pending |
 | Link + summarise news; books referenced by title/chapter | Copyright safety | — Pending |
 | Region asia-south1 | Latency + DPDP data residency | — Pending |
 | Light Academia design system: Cormorant Garamond + Literata, Phosphor Light icons, 4 tabs (Today / Revise / Library / You) | User's aesthetic; calm and scholarly; one primary action per screen | — Pending |
@@ -215,4 +252,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-11-05 after feature detail, topic-prediction and pedagogy research*
+*Last updated: 2026-11-05 after Learning Pattern Test and Optional Discovery redesign*

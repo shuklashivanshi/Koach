@@ -50,7 +50,9 @@ Decisions are logged in PROJECT.md Key Decisions table.
 Recent decisions affecting current work:
 
 - [Init]: Expo RN + Fastify/TS on Cloud Run + Cloud SQL Postgres/pgvector + Vertex AI, region asia-south1
-- [Init]: v1.0 MVP target ~3 Dec 2026; Elective Discovery Agent kept in v1.0 (optional decision due ~15 Dec 2026)
+- [Init]: v1.0 MVP target ~3 Dec 2026; Optional Discovery (fit quiz, explorer, decision coach) kept in v1.0 (optional decision due ~15 Dec 2026)
+- [Planning]: Learning Pattern Test scores visual/auditory/reading-writing/kinesthetic via games; strength profile; methods mapped from patterns
+- [Planning]: Push-only nudges; Mains answers by photo or typing; no optional taster test
 - [Init]: GSD mode YOLO, standard granularity, research/plan-check/verifier on
 
 ### Pending Todos

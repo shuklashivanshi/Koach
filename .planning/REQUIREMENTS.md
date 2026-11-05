@@ -35,16 +35,19 @@ Committed scope for milestone **v1.0 Daily Coach MVP** (target ~3 Dec 2026). Eac
 - [ ] **KB-05**: Node PYQ frequency statistics are computed from the bank (not copied from coaching sites)
 - [ ] **KB-06**: An admin/review path lets a human approve or correct AI-suggested tags and source mappings
 
-### Memory Style & Cues
+### Learning Pattern & Cues
 
-- [ ] **MEM-01**: User can take the Memory Style Test: 4 micro-blocks learned via repetition, first-principles, memory palace and mnemonic, with recall measured immediately, at 24h and at 72h
-- [ ] **MEM-02**: The system computes a cue-efficacy vector (cue type × content type) from test results and shows the user a plain-language summary
-- [ ] **MEM-03**: The cue-efficacy vector updates from ongoing review outcomes tagged by the cue type shown
-- [ ] **CUE-01**: For any node or card, user can get a repetition set (flashcards + cloze)
-- [ ] **CUE-02**: User can set up a personal memory palace once and receive placements for a topic's facts
-- [ ] **CUE-03**: User can get a mnemonic that is verified to decode back to the original facts
-- [ ] **CUE-04**: User can get a first-principles explanation followed by a one-line teach-back that is graded
-- [ ] **CUE-05**: The cue type offered by default follows the learner's efficacy vector; user can rate cues 👍/👎
+- [ ] **MEM-01**: User can take the ~15-minute Learning Pattern Test: four games (Visual: Map Pins + Pattern Grid; Auditory: Listen & Recall, typed or spoken; Reading/Writing: Read & Write Back; Kinesthetic: Arrange & Trace) plus a delayed recall round
+- [ ] **MEM-02**: The system scores each pattern 0–100 (0.6 immediate + 0.4 delayed, normalised) and shows a strength profile with one plain-language line, never a single-type label
+- [ ] **MEM-03**: Pattern scores update from recall on cues tagged by pattern; a re-test is offered every ~8 weeks
+- [ ] **CUE-01**: Repetition for everyone: FSRS flashcards + cloze for any node or card
+- [ ] **CUE-02**: Visual: user sets up a personal memory palace once and gets room placements for a topic's facts; mind-map / timeline / colour-coded cue sheets
+- [ ] **CUE-03**: Auditory: verbal mnemonics, rhythmic chants and short rhymes, each verified to decode back to the original facts
+- [ ] **CUE-04**: First-principles "why" for everyone (3–5 causal steps after the user's own attempt) with a graded one-line teach-back
+- [ ] **CUE-05**: The default cue format follows the strength profile (~60% strongest / 25% second / 15% others); user can switch format and rate cues 👍/👎
+- [ ] **CUE-07**: Auditory: spoken cue sheets and chants as text-to-speech audio, a listen-and-repeat drill, and a revision playlist that plays in the background
+- [ ] **CUE-08**: Reading/Writing: one-page cue sheets (≤12 lines) and write-from-memory ("blurting") drills scored against key points
+- [ ] **CUE-09**: Kinesthetic: drag-to-sequence drills (timelines, processes) and build-the-flowchart drills generated from a node's facts
 
 ### Scheduling, Revision & Reminders
 
@@ -77,12 +80,13 @@ Committed scope for milestone **v1.0 Daily Coach MVP** (target ~3 Dec 2026). Eac
 - [ ] **NUDGE-01**: Rule engine decides when to nudge (≤3/day, based on plan progress, streaks, deadlines); Gemini writes the copy in the user's chosen tone
 - [ ] **NUDGE-02**: User receives a weekly coach note (what went well, what slipped, one concrete change)
 
-### Elective Discovery
+### Optional Discovery
 
-- [ ] **ELEC-01**: User can have a guided interview with the Elective Discovery Agent about background, interests and constraints
-- [ ] **ELEC-02**: The agent uses UPSC annual-report optional success rates, syllabus length and GS overlap (computed from the graph) as cited evidence
-- [ ] **ELEC-03**: User can take a taster test of PYQs for up to 3 shortlisted optionals
-- [ ] **ELEC-04**: User receives a ranked shortlist (≤3) with an evidence table, risks and a 12-week coverage outline; the chosen optional is saved and its nodes added to the plan
+- [ ] **ELEC-01**: User can take a ~10-minute Fit Quiz (background, interests, reading taste, answer style, time, language, risk appetite) and get a ranked top 5 across all ~48 optionals with reasons and "surprising fits"
+- [ ] **ELEC-02**: User can explore any optional (syllabus size and hours, GS/Essay overlap %, PYQ style mix, multi-year success rate with confidence band and small-sample warning, standard books, typical prep time, personal fit) and compare 2–3 side by side
+- [ ] **ELEC-03**: User can talk to a Decision Coach that answers doubts from the evidence, runs stress tests, busts myths with data, and nudges toward a decision deadline
+- [ ] **ELEC-04**: User records the final choice and reasons; the optional's syllabus nodes are added to the plan with a coverage outline
+- [ ] **ELEC-05**: Optional-wise appeared/recommended counts are ingested from official UPSC Annual Reports (multi-year), not from third-party tables
 
 ## v2 Requirements
 
@@ -105,7 +109,7 @@ Deferred to later milestones. Tracked but not in the v1.0 roadmap.
 
 ### v1.2 Mains Engine
 
-- **MAINS-01**: Photo of a handwritten answer → Gemini multimodal OCR → rubric-based evaluation and an improved outline
+- **MAINS-01**: Photo of a handwritten answer (default) or typed answer → Gemini multimodal OCR → rubric-based evaluation and an improved outline
 - **MAINS-02**: Evaluation calibrated against human-graded samples (agreement metric)
 - **MAINS-03**: Essay and Ethics case-study practice
 - **MAINS-04**: Mains-mode scheduler (post-Prelims) including optional coverage
@@ -130,7 +134,10 @@ Deferred to later milestones. Tracked but not in the v1.0 roadmap.
 | Payments in v1 | No monetisation until after dogfooding through Prelims 2027 |
 | Web client | Mobile first; admin tooling only |
 | Non-Vertex AI providers | Constraint: all AI on GCP Vertex AI |
-| Questionnaire-based "learning style" typing | Weak evidence; replaced by measured recall experiment (MEM-01..03) |
+| Labelling a learner as a single "type" or teaching only one modality | Meshing evidence is weak; a strength profile + mixed cues + ongoing measurement instead |
+| Optional taster test / taster week | User choice 2026-11-05 |
+| AI-generated music for cues | User choice 2026-11-05; spoken chants via TTS instead |
+| WhatsApp / email nudges | User choice 2026-11-05; app push only |
 | Naming teachers, institutes, platforms, channels or courses in the UI | User rule; pedagogy encoded as anonymous playbooks |
 | Reusing educators' lecture content or notes | Only teaching patterns are encoded |
 | A "guaranteed" predicted paper | Predictions are likelihood bands with reasons |
@@ -186,18 +193,22 @@ Deferred to later milestones. Tracked but not in the v1.0 roadmap.
 | CUE-03 | Phase 6 | Pending |
 | CUE-04 | Phase 6 | Pending |
 | CUE-05 | Phase 6 | Pending |
+| CUE-07 | Phase 6 | Pending |
+| CUE-08 | Phase 6 | Pending |
+| CUE-09 | Phase 6 | Pending |
 | NUDGE-01 | Phase 6 | Pending |
 | NUDGE-02 | Phase 6 | Pending |
 | ELEC-01 | Phase 7 | Pending |
 | ELEC-02 | Phase 7 | Pending |
 | ELEC-03 | Phase 7 | Pending |
 | ELEC-04 | Phase 7 | Pending |
+| ELEC-05 | Phase 7 | Pending |
 
 **Coverage:**
-- v1 requirements: 53 total
-- Mapped to phases: 53
+- v1 requirements: 57 total
+- Mapped to phases: 57
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-11-05*
-*Last updated: 2026-11-05 after topic-prediction + pedagogy research and service advisor addition*
+*Last updated: 2026-11-05 after Learning Pattern Test and Optional Discovery redesign*

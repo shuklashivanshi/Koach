@@ -157,7 +157,8 @@ No confetti. Milestones are marked with a gilt wax-seal glyph that fades in.
 | `QuizOption` | Bordered row with an A–D letter in Cormorant. Correct → `sage` border + tick; wrong → `rosewood` border |
 | `MarginNote` | Toast in the style of a handwritten margin note: italic caption, `linen`, slides from the bottom, auto-dismisses after 3s |
 | `WhySheet` | Bottom sheet with the reasoning and source links (Caption) |
-| `CueTabs` | Segmented control: `Repeat · Palace · Mnemonic · Why` |
+| `CueTabs` | Segmented control: `See · Hear · Write · Do · Why`, opening on the strongest pattern |
+| `AudioCue` | Brass play/pause button, speed chips `1× · 1.25× · 1.5×`, rhythm-line text below; works with the screen locked |
 | `EmptyState` | Engraving (120px) + one line heading + one line body + optional text button |
 
 ---
@@ -165,7 +166,7 @@ No confetti. Milestones are marked with a gilt wax-seal glyph that fades in.
 ## 8. Imagery & Motifs
 
 - **Engravings** (sepia line art, single colour `inkMuted` @ 70%, transparent background): open book, window with sunlight, arched library corridor, rolling hills with a tree line, a bust/column, a desk lamp, a quill, a wax seal.
-- **Where:** onboarding (one per step), empty states, Memory Style Test intro, milestone moments. **Never** inside lists or task screens.
+- **Where:** onboarding (one per step), empty states, Learning Pattern Test intro, milestone moments. **Never** inside lists or task screens.
 - **Plaid:** a faint tartan pattern only behind the profile header.
 - **No photos, no emoji in the UI chrome, no stock illustrations.**
 - **App icon:** cream background with a leather-brown serif "K" set inside a library arch.
@@ -208,13 +209,16 @@ Progress: `ProgressThread` at the top, `Back` text button.
 2. **Your hours**: 7 weekday rows with a stepper (`Mon  2h 30m`), plus a `Copy to weekdays` text button
 3. **Where you stand**: subject list with 3-state chips `New · Some · Strong`
 4. **A short check**: 20 questions, one per screen, `Skip` allowed
-5. **How you remember**: intro to the Memory Style Test (`20 min · two sittings`) → `Begin`
+5. **How you learn**: intro to the Learning Pattern Test (`4 short games · 15 min`) → `Begin`
 
-### 10.3 Memory Style Test
-- Learn screen: overline `METHOD 2 OF 4`, the content in a `PaperCard`, timer as a Numeral, `Next` button.
-- Recall screen: a single input or options, no hints.
-- 24h / 72h check-ins arrive as a notification: *"Two minutes. What do you remember?"*
-- Results (after 72h): Display `How you remember`, then 4 bars (Repeat, First principles, Palace, Mnemonic) as 72h recall %, and one sentence: *"Explanations stay longest for you."* `Why?` opens the raw numbers.
+### 10.3 Learning Pattern Test
+Four games, one per screen, then a delayed round. Overline `GAME 2 OF 4`; a thin `ProgressThread` timer; no score shown until the end.
+- **Map Pins** (visual): sepia outline map, places appear for 20s, then drag pins back.
+- **Pattern Grid** (visual): cream grid, `leather` cells flash, tap to recreate.
+- **Listen & Recall** (auditory): a large brass play button (plays once), then a text field or a mic button (`Say it`).
+- **Read & Write Back** (reading/writing): passage on a `PaperCard` for 60s, then a ruled writing field.
+- **Arrange & Trace** (kinesthetic): drag `IndexCard`s into order; trace a river with a finger on the map.
+- **Results:** Display `How you learn`, four horizontal bars (Visual, Auditory, Reading/Writing, Kinesthetic, 0–100), with the strongest bar in `leather` and the others in `inkMuted`. One line: *"Pictures and places stick best for you."* `Why?` shows raw scores; text button `Retake later`.
 
 ### 10.4 Today *(home)*
 ```
@@ -252,13 +256,14 @@ Top: three `Stat`s, `18 DUE · 4 NEW · 92% RETAINED`. Primary `Start revision`.
 Session: `IndexCard` front → tap to turn → back → `Again · Hard · Good · Easy` (FSRS grades, in Label size). `Make it stick` opens the Cue sheet for that card.
 
 ### 10.8 Cue Sheet *(Make it stick)*
-`CueTabs`, defaulting to the learner's strongest method (a small `gilt` dot marks "works best for you").
-- **Repeat**: 3–5 cloze lines
-- **Palace**: `Living room → by the bookshelf …`, one line per placement
-- **Mnemonic**: the mnemonic large (Cormorant 28), with the decode below
-- **Why**: first-principles chain as 3–5 numbered short steps, then `Say it in one line` input → graded with a `sage`/`rosewood` caption
+`CueTabs`, defaulting to the learner's strongest pattern (a small `gilt` dot marks "works best for you").
+- **See** (visual): memory-palace placements (`Living room → by the bookshelf …`), or a mind-map / timeline cue sheet
+- **Hear** (auditory): `AudioCue` for a spoken cue sheet or chant; the mnemonic shown large (Cormorant 28) with its decode below
+- **Write** (reading/writing): a one-page cue sheet, then `Write it from memory` → key points ticked `sage`, missed points listed
+- **Do** (kinesthetic): drag-to-order cards or build-the-flowchart
+- **Why** (everyone): 3–5 numbered causal steps, then `Say it in one line` → graded with a `sage`/`rosewood` caption
 
-Footer: 👍 / 👎 as Phosphor `ThumbsUp`/`ThumbsDown` light icons.
+Footer: 👍 / 👎 as Phosphor `ThumbsUp`/`ThumbsDown` light icons. Flashcard repetition stays in Revise.
 
 ### 10.9 Current Affairs Quiz
 Overline `CURRENT AFFAIRS · 3 / 8`. Stem in Title. 4 `QuizOption`s. After answering, an explanation (≤3 lines) and a source caption (`PIB · 4 Nov`), then `Next`. End screen: Numeral score + `Missed ones added to Revise.`
@@ -268,8 +273,12 @@ Search field (`Search the syllabus`) → collapsible subject tree (Heading → r
 **Node page:** Heading, chips (`PRELIMS`, `MAINS GS-II`), `Read` (source + chapter), `Asked` (mini bar of PYQs by year), `Your mastery`, buttons `Study now` (primary) / `Practice PYQs` (secondary).
 
 ### 10.11 Optional Discovery *(Library → Choose your optional)*
-- Interview: one question per screen, chips + an optional short text field. Not a chat log.
-- Shortlist: 3 `PaperCard`s ranked, each showing name, `Success 11.2%` (`gilt` only if top), `GS overlap 40%`, `Your taster 7/10`, then `See evidence` (sheet) and a primary `Choose` on the selected card.
+- **Fit Quiz:** one question per screen, chips + an optional short text field. Not a chat log.
+- **Your fits:** ranked list of 5 rows (name, fit as `MasteryDots`, one-line reason), plus a `Surprising fits` section. Tap → explorer.
+- **Explorer page:** Heading, `Stat` row (`~380 HRS · 42% GS OVERLAP · 8.1% SUCCESS`), a small band chart of success rate across years (with a `Few candidates` caption when the sample is small), `Read` (standard books, titles only), buttons `Compare` (secondary) and `Ask the coach` (text).
+- **Compare:** 2–3 columns, one row per factor, the best value per row in `sage`.
+- **Decision Coach:** bottom sheet, short exchanges, suggestion chips (`I'm an engineer…`, `Is it too long?`). The deadline appears as an overline: `DECIDE BY 15 DEC`.
+- **Choose:** primary `Make it my optional` → confirmation → `Added to your plan.`
 
 ### 10.12 You
 Plaid header strip, name, `Day 14 · 🔥 9` (the flame is a Phosphor `Flame` icon in `gilt`, not an emoji).

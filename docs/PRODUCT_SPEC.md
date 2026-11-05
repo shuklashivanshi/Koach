@@ -76,7 +76,7 @@ Features are grouped as requested: **Algorithmic** (deterministic, testable, exp
 | **PYQ Bank** | UPSC Prelims GS-I 2011–2026 and Mains GS 2013–2026 questions (public UPSC papers), each tagged to syllabus nodes, question type (statement-based, match-the-pair, "how many of the above", assertion-reason) and difficulty. Tagging is AI-assisted and human-reviewed. |
 | **Source Map ("what to read from where")** | For each node: a primary standard source (e.g. NCERT class/chapter, M. Laxmikanth chapter, Spectrum chapter, Ramesh Singh/Economic Survey chapter, Shankar IAS environment chapter, etc.), an optional secondary source, and the reason. **Koach references books by title and chapter only and does not host copyrighted text.** Users can attach their own notes and PDFs for personal use. |
 | **Strategy Knowledge Base** | Curated, *cited* strategy guidance (topper interviews and blogs, UPSC annual reports, official syllabus), stored as short claims with a source URL and date. AI answers about strategy must cite from here (RAG); uncited claims are not shown. |
-| **Learner Profile** | Exam target, daily availability per weekday, prep level per subject (self-rated, then measured), memory-cue efficacy vector (§5.2.5), notification preferences, tone preference. |
+| **Learner Profile** | Exam target, daily availability per weekday, prep level per subject (self-rated, then measured), learning-pattern strength profile (§5.2.5), notification preferences, tone preference. |
 
 ### 5.1 Algorithmic features
 
@@ -128,34 +128,32 @@ All prompts, model IDs and parameters are config-driven. Default model routing: 
 - Rules decide **when** and **whether** to nudge (deterministic, rate-limited to ≤3/day). The LLM only writes the **words**.
 - Weekly "coach note": what went well, what slipped, one concrete change.
 
-#### 5.2.3 Elective (Optional) Discovery Agent
-- **Time-critical for Shivanshi:** decide by mid-December 2026.
-- **Conversational interview** covering academic background, subjects enjoyed, writing style, reading speed, and time available before Mains (Aug 2027).
-- **Data used:** UPSC Annual Report optional-wise success rates (candidates appeared vs. recommended), syllabus length and overlap with GS/Essay (computed from the syllabus graph), availability of standard sources and test series, and score-variance history where available.
-- **Taster test:** 10–15 PYQs from 2–3 shortlisted optionals, auto-evaluated, to check aptitude and interest.
-- **Output:** a ranked shortlist (max 3) with an evidence table, risks, and a 12-week coverage plan for each. The final decision stays with the user, and the decision is logged to the profile.
+#### 5.2.3 Optional Discovery
+Helps aspirants choose their optional, a major pain point:
+- **Fit Quiz:** ranks all ~48 optionals with reasons.
+- **Explorer & Compare:** syllabus size, GS/Essay overlap, official multi-year success rates with confidence bands, standard books, prep time.
+- **Decision Coach:** doubts, stress tests, myth-busting, decision deadline.
+- No taster test.
+
+Full detail: `.planning/PROJECT.md` §2.3 and `.planning/research/OPTIONAL-SELECTION.md`.
 
 #### 5.2.4 Evaluation, review and reports
 - **Prelims tests:** in-app mock and sectional tests (PYQ-based + generated). Analytics: accuracy by subject and node, negative-marking analysis (attempt-vs-accuracy curve: "you lose marks beyond ~85 attempts"), time per question, silly-mistake tagging.
 - **Mains answer evaluation (v1.1):** user photographs a handwritten answer → Gemini multimodal OCR → rubric scoring (understands the demand of the question, structure, intro/body/conclusion, content coverage vs. a model-answer outline, examples and data, diagrams, word limit) → actionable feedback + an improved outline. Calibrated against a small set of human-evaluated answers.
 - **Reports:** daily summary, weekly report (hours planned vs. done, coverage %, mastery heatmap, retention curve, mock trend), and a Prelims readiness score with a projected range.
 
-#### 5.2.5 Memory Style Test (diagnostic)
-- **Onboarding experiment (~20 min, split across 2 sessions):** 4 micro-blocks of comparable UPSC facts (e.g. article numbers, schedule contents, species–park pairs, dates), each learned with a different method:
-  1. **Repetition** (multiple exposures)
-  2. **First-principles explanation** (why/how chain)
-  3. **Memory palace / visual association**
-  4. **Mnemonic / acronym**
-- **Measurement:** immediate recall, 24-hour recall and 72-hour recall (push-reminded), plus self-reported ease. This produces a **cue-efficacy vector** per memory type × content type, because facts, concepts and sequences may respond differently.
-- **Continuous update:** every later review records which cue type was shown, so the vector is updated from real retention (Bayesian update). Koach re-tests monthly.
+#### 5.2.5 Learning Pattern Test
+~15 min of games scoring **Visual** (map pins, pattern grid), **Auditory** (listen to a recording, then write or say it back), **Reading/Writing** (read, then write back key points) and **Kinesthetic** (arrange and trace), plus delayed recall. The result is a **strength profile** (four 0–100 scores), continuously updated from real recall.
 
 #### 5.2.6 Memory Cues Generation
-For any node, card or CA item, Koach generates cues weighted by the learner's cue-efficacy vector:
-- **Repetition:** spaced micro-cards + cloze deletions + rapid-fire recall drills; schedule driven by FSRS.
-- **Memory Palace:** a persistent personal palace (user describes a familiar place once: home, office, route). Koach assigns syllabus "rooms" (e.g. Fundamental Rights → living room) and generates vivid placements; optionally an image via Vertex Imagen in v1.1.
-- **Mnemonics:** acronyms, stories and rhymes; must be verified to decode correctly back to the facts before they are shown.
-- **First-Principles Approach:** explains *why* the fact is true (e.g. why Money Bills originate only in Lok Sabha → accountability for taxation to the directly elected house), building a causal chain from basics, then a "teach-back" check where the user explains it in one line and the AI grades it.
-- Users rate cues (👍/👎), which feeds the efficacy model.
+Methods follow the profile:
+- **Visual:** memory palace, mind-maps, timelines, map mode
+- **Auditory:** spoken cue sheets (TTS), chants, rhymes, mnemonics, audio playlists
+- **Reading/Writing:** one-page cue sheets, blurting
+- **Kinesthetic:** sequence and flowchart drills
+- **Everyone:** FSRS repetition and first-principles "why"
+
+Full detail: `.planning/PROJECT.md` §2.6–2.7 and `.planning/research/LEARNING-PATTERNS.md`.
 
 ### 5.3 Additions (2026-11-05)
 
@@ -166,11 +164,11 @@ For any node, card or CA item, Koach generates cues weighted by the learner's cu
 
 ## 6. Key user journeys (v1)
 
-1. **Onboarding (≈15 min + memory test):** sign in → exam target (CSE 2027 pre-filled) → availability per weekday → subject self-assessment + 20-Q diagnostic → memory style test session 1 → first weekly plan generated.
+1. **Onboarding (≈15 min + Learning Pattern Test ≈15 min):** sign in → exam target (CSE 2027 pre-filled) → availability per weekday → subject self-assessment + 20-Q diagnostic → Learning Pattern Test → strength profile → first weekly plan generated.
 2. **Daily loop:** morning notification → "Today" screen (3–6 tasks, total fits available time) → study with source pointer (book + chapter) → mark done / rate difficulty → evening CA quiz (10 min) → due reviews → nightly rebalance.
 3. **Bad day:** "Only 45 min today" → Koach replans to revisions + CA only and shows what moved.
 4. **Weekly review:** Sunday report + coach note + next week's plan to accept or adjust.
-5. **Optional decision:** Elective Discovery conversation → taster test → shortlist → decision → optional nodes added to the plan.
+5. **Optional decision:** Fit Quiz → explore and compare the top fits → Decision Coach → choice recorded → optional nodes added to the plan.
 
 ## 7. Non-functional requirements
 
@@ -216,7 +214,7 @@ For any node, card or CA item, Koach generates cues weighted by the learner's cu
 | Domain | Why | How (v1) |
 |---|---|---|
 | **UPSC subject-matter expert** (recent qualifier / mentor) | Validate the syllabus graph, source map, PYQ tagging and strategy KB; calibrate answer evaluation | 5–10 paid review hours; spot-check 10% of AI tags |
-| **Learning science** | Memory style test design, FSRS usage, cue generation validity | Literature-based design, documented in the spec; reviewed by an advisor if available |
+| **Learning science** | Learning Pattern Test game design and scoring, FSRS usage, cue generation validity | Literature-based design, documented in the spec; reviewed by an advisor if available |
 | **Data / ML** | Topic-prediction backtest, FSRS parameter fitting, mastery model | In-house (Claude + GSD), with backtest reports |
 | **AI engineering + evals** | Prompts, grounding, hallucination control, eval suites, cost control | In-house |
 | **Mobile (RN/Expo)** | App UX, offline, notifications | In-house |
@@ -240,7 +238,7 @@ For any node, card or CA item, Koach generates cues weighted by the learner's cu
 
 | Milestone | Target | Contents |
 |---|---|---|
-| **v1.0 Daily Coach MVP** | ~3 Dec 2026 | GCP foundation + deploy pipeline, syllabus graph + PYQ bank + source map, onboarding + memory style test, scheduler + FSRS + reminders, CA pipeline + daily quiz, memory cues + nudges, elective discovery agent |
+| **v1.0 Daily Coach MVP** | ~3 Dec 2026 | GCP foundation + deploy pipeline, syllabus graph + PYQ bank + source map, onboarding + Learning Pattern Test, scheduler + FSRS + reminders, CA pipeline + daily quiz, memory cues + nudges, Optional Discovery |
 | **v1.1 Prelims Engine** | ~Jan 2027 | Topic prediction with backtest, mock tests + analytics, weekly reports, readiness score, learned reminder timing, CSAT module |
 | **v1.2 Mains Engine** | ~Mar 2027 (used from late May) | Answer-writing evaluation (photo → feedback), essay and ethics practice, optional-subject plan, Mains-mode scheduler |
 | **v2.0 Public launch** | After Prelims 2027 | Multi-user polish, payments, community/mentor review marketplace, Hindi medium |

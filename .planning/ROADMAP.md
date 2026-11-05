@@ -2,7 +2,7 @@
 
 ## Overview
 
-Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 attempt (Prelims 23 May 2027). **Milestone v1.0 "Daily Coach MVP"** (~4 weeks, target ~3 Dec 2026) lays the GCP foundation and the UPSC knowledge base, learns how she remembers, then delivers the daily loop: plan → study from the right source → spaced revision → current-affairs quiz → memory cues and nudges. It also includes the Elective Discovery Agent, because the optional must be chosen by mid-December. Later milestones add the Prelims Engine (topic prediction, mocks, readiness, map mode; v1.1, ~Jan 2027), the Mains Engine (answer evaluation, service preference advisor; v1.2, ~Mar 2027), and a public launch after Prelims (v2.0).
+Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 attempt (Prelims 23 May 2027). **Milestone v1.0 "Daily Coach MVP"** (~4 weeks, target ~3 Dec 2026) lays the GCP foundation and the UPSC knowledge base, learns how she learns best (Learning Pattern Test), then delivers the daily loop: plan → study from the right source → spaced revision → current-affairs quiz → memory cues and nudges. It also includes Optional Discovery, because the optional must be chosen by mid-December. Later milestones add the Prelims Engine (topic prediction, mocks, readiness, map mode; v1.1, ~Jan 2027), the Mains Engine (answer evaluation, service preference advisor; v1.2, ~Mar 2027), and a public launch after Prelims (v2.0).
 
 ## Milestones
 
@@ -21,11 +21,11 @@ Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 a
 
 - [ ] **Phase 1: Foundation & GCP Deploy** - Monorepo, GCP bootstrap, Cloud SQL, Vertex wrapper, auth, `deploy.yaml`, app on device
 - [ ] **Phase 2: UPSC Knowledge Base** - Syllabus graph, PYQ bank, source map, cited strategy KB, review tooling
-- [ ] **Phase 3: Onboarding & Memory Style Test** - Learner profile, diagnostic, recall experiment → cue-efficacy vector
+- [ ] **Phase 3: Onboarding & Learning Pattern Test** - Learner profile, diagnostic, 4 pattern games → strength profile
 - [ ] **Phase 4: Planner, Spaced Revision & Reminders** - Scheduler, FSRS, mastery, nightly rebalance, push notifications
 - [ ] **Phase 5: Current Affairs Pipeline & Daily Quiz** - Ingest → summarise → map → verified UPSC-style MCQs
 - [ ] **Phase 6: Memory Cues & Personalised Nudges** - Repetition / palace / mnemonic / first-principles cues; nudges + coach note
-- [ ] **Phase 7: Elective Discovery Agent** - Interview + success-rate evidence + taster test → optional shortlist
+- [ ] **Phase 7: Optional Discovery** - Fit quiz ranking, explorer & compare, decision coach
 
 ### 📋 v1.1 Prelims Engine
 
@@ -66,16 +66,16 @@ Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 a
   6. Pedagogy playbooks (PB-*) exist as config; no teacher/institute/platform name is reachable from any client-facing API field
 **Plans**: TBD
 
-### Phase 3: Onboarding & Memory Style Test
+### Phase 3: Onboarding & Learning Pattern Test
 **Goal**: Koach knows the learner: availability, starting level, and measured retention by cue type.
 **Depends on**: Phase 2
 **Requirements**: PROF-01, PROF-02, MEM-01, MEM-02, MEM-03
 **Success Criteria** (what must be TRUE):
   1. User completes onboarding (target, weekday minutes, quiet/work hours, self-assessment) in ≤15 minutes
   2. User takes a ~20-question diagnostic and sees seeded strengths/weaknesses by subject
-  3. User completes the Memory Style Test with immediate, 24h and 72h recall checks (push-reminded)
-  4. User sees a plain-language memory profile (e.g. "first-principles gave +X% 72h recall on concepts") backed by her own numbers
-  5. Review outcomes recorded later update the cue-efficacy vector
+  3. User completes the ~15-minute Learning Pattern Test: Map Pins + Pattern Grid (visual), Listen & Recall typed or spoken (auditory), Read & Write Back (reading/writing), Arrange & Trace (kinesthetic), then a delayed recall round
+  4. User sees a strength profile (four 0–100 scores + one plain line), not a single-type label
+  5. Recall on later cues updates the pattern scores; a re-test is offered after ~8 weeks
 **Plans**: TBD
 
 ### Phase 4: Planner, Spaced Revision & Reminders
@@ -107,23 +107,24 @@ Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 a
 ### Phase 6: Memory Cues & Personalised Nudges
 **Goal**: Material becomes memorable in the way that works for this learner, and the coach keeps her moving.
 **Depends on**: Phase 3, Phase 4
-**Requirements**: CUE-01, CUE-02, CUE-03, CUE-04, CUE-05, NUDGE-01, NUDGE-02
+**Requirements**: CUE-01, CUE-02, CUE-03, CUE-04, CUE-05, CUE-07, CUE-08, CUE-09, NUDGE-01, NUDGE-02
 **Success Criteria** (what must be TRUE):
-  1. From any node or card, user can open repetition cards/cloze, memory-palace placements, a verified mnemonic, or a first-principles explanation with graded teach-back
-  2. The default cue type follows her efficacy vector, and 👍/👎 ratings are recorded
-  3. Every mnemonic shown decodes correctly back to its facts (automated check)
-  4. User receives at most 3 context-aware nudges per day in her chosen tone, plus a Sunday coach note
+  1. From any node or card, user gets cues in their strongest pattern by default and can switch: memory palace / mind-map sheets (visual); spoken cue sheets, chants, rhymes and mnemonics as audio (auditory); one-page cue sheets and blurting drills (reading/writing); sequence and flowchart drills (kinesthetic)
+  2. FSRS repetition and a first-principles "why" with graded teach-back are available to everyone
+  3. Every mnemonic, chant and rhyme decodes correctly back to its facts (automated check)
+  4. User can play a background audio revision playlist
+  5. User receives at most 3 context-aware push nudges per day in their chosen tone, plus a Sunday coach note
 **Plans**: TBD
 
-### Phase 7: Elective Discovery Agent
-**Goal**: Shivanshi can make an evidence-backed optional choice by mid-December 2026.
+### Phase 7: Optional Discovery
+**Goal**: Any aspirant (first, Shivanshi by mid-December 2026) can choose an optional with confidence, based on their fit and official data.
 **Depends on**: Phase 2 (can run in parallel with Phases 3–6)
-**Requirements**: ELEC-01, ELEC-02, ELEC-03, ELEC-04
+**Requirements**: ELEC-01, ELEC-02, ELEC-03, ELEC-04, ELEC-05
 **Success Criteria** (what must be TRUE):
-  1. User completes a guided interview about background, interests and constraints
-  2. Shortlist evidence cites UPSC annual-report success rates and computed GS overlap/syllabus size
-  3. User takes a taster PYQ test for up to 3 optionals and sees auto-evaluated results
-  4. User receives a ranked shortlist (≤3) with evidence, risks and a 12-week outline; choosing one adds its nodes to the plan
+  1. User completes the Fit Quiz in ~10 minutes and sees a ranked top 5 across all ~48 optionals, with reasons and surprising fits
+  2. User can open any optional's explorer page and compare 2–3 side by side; success rates come from official UPSC Annual Reports, pooled across years with confidence bands
+  3. User can ask the Decision Coach doubts and run stress tests; it sets and nudges toward a decision deadline
+  4. Recording a choice adds the optional's nodes to the plan with a coverage outline
 **Plans**: TBD
 
 ### Phase 8: Topic Prediction & Backtest *(v1.1)*
@@ -171,11 +172,11 @@ Koach goes from an empty repo to a coach Shivanshi uses daily for her CSE 2027 a
 |-------|-----------|----------------|--------|-----------|
 | 1. Foundation & GCP Deploy | v1.0 | 0/TBD | Not started | - |
 | 2. UPSC Knowledge Base | v1.0 | 0/TBD | Not started | - |
-| 3. Onboarding & Memory Style Test | v1.0 | 0/TBD | Not started | - |
+| 3. Onboarding & Learning Pattern Test | v1.0 | 0/TBD | Not started | - |
 | 4. Planner, Spaced Revision & Reminders | v1.0 | 0/TBD | Not started | - |
 | 5. Current Affairs Pipeline & Daily Quiz | v1.0 | 0/TBD | Not started | - |
 | 6. Memory Cues & Personalised Nudges | v1.0 | 0/TBD | Not started | - |
-| 7. Elective Discovery Agent | v1.0 | 0/TBD | Not started | - |
+| 7. Optional Discovery | v1.0 | 0/TBD | Not started | - |
 | 8. Topic Prediction & Backtest | v1.1 | 0/TBD | Not started | - |
 | 9. Mock Tests & Analytics | v1.1 | 0/TBD | Not started | - |
 | 10. Adaptive Tuning, CSAT & Map Mode | v1.1 | 0/TBD | Not started | - |
