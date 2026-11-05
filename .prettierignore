@@ -1,0 +1,7 @@
+pnpm-lock.yaml
+**/migrations/meta
+.planning
+docs
+.claude
+deploy.yaml
+*.md
