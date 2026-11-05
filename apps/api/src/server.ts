@@ -2,6 +2,7 @@ import { createPgDb, type Db } from '@koach/db';
 import { buildApp } from './app';
 import { loadConfig } from './config';
 import type { Deps } from './deps';
+import { vertexAi } from './services/ai';
 import { type EmailSender, resendSender } from './services/email-sender';
 import { devIdentity, firebaseIdentity } from './services/firebase';
 import { gcsStore, memoryStore } from './services/storage';
@@ -37,6 +38,7 @@ async function main(): Promise<void> {
     identity,
     storage: config.GCS_BUCKET ? gcsStore(config.GCS_BUCKET) : memoryStore(),
     email,
+    ai: vertexAi(db),
     now: () => new Date(),
     version: config.K_REVISION ?? 'local',
   };

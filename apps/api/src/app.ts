@@ -11,6 +11,7 @@ import type { Deps } from './deps';
 import { requireAuth } from './plugins/auth';
 import { loggerOptions } from './plugins/logging';
 import { healthzRoutes } from './routes/healthz';
+import { aiPingRoutes } from './routes/v1/ai/ping';
 import { emailAuthRoutes } from './routes/v1/auth/email';
 import { meExportRoutes } from './routes/v1/me/export';
 import { meRoutes } from './routes/v1/me';
@@ -51,6 +52,7 @@ export async function buildApp(deps: Deps, options: BuildOptions = {}): Promise<
       scope.addHook('onRequest', requireAuth(deps.identity));
       await scope.register(meRoutes(deps));
       await scope.register(meExportRoutes(deps));
+      await scope.register(aiPingRoutes(deps));
       for (const routes of options.protectedRoutes ?? []) await scope.register(routes(deps));
     },
     { prefix: '/v1' },

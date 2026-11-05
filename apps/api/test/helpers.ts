@@ -50,6 +50,10 @@ export async function buildTestApp(
     identity: fakeIdentity(),
     storage: memoryStore(),
     email: recordingSender(),
+    ai: {
+      text: () => Promise.resolve({ text: 'Keep going.', model: 'fake-model', costUsd: 0.0001 }),
+      speak: () => Promise.resolve({ audioBase64: 'QUJD', costUsd: 0.0002 }),
+    },
     now: () => new Date(),
     version: 'test',
     ...overrides,

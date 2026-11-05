@@ -12,6 +12,7 @@
   "dependencies": {
     "@fastify/swagger": "9.9.2",
     "@google-cloud/storage": "8.4.0",
+    "@koach/ai": "workspace:*",
     "@koach/db": "workspace:*",
     "@koach/shared": "workspace:*",
     "fastify": "5.12.7",

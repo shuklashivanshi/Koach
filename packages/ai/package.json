@@ -1,0 +1,17 @@
+{
+  "name": "@koach/ai",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "eval": "tsx evals/runner.ts",
+    "check-models": "tsx scripts/check-models.ts"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "7.2.0",
+    "@google/genai": "2.30.0"
+  }
+}
