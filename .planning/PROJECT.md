@@ -69,6 +69,7 @@ Every day, Koach tells the aspirant exactly what to study, revise and practise n
 - **Privacy**: DPDP Act 2023 aligned (consent, export/delete, minimal PII, India region)
 - **Trust**: Every factual AI output carries sources; generated MCQs pass a verifier before being shown
 - **GCP**: No project exists yet; Phase 1 includes project/API/IAM bootstrap
+- **Design**: Minimal, low-text UI in a Light Academia theme (cream/beige/light brown, serif type, sunlight, engravings); light mode default, optional "Lamplight" dark mode. `docs/UI_SPEC.md` is the app-wide design contract that every per-phase UI spec inherits from
 
 ## Key Decisions
 
@@ -86,6 +87,7 @@ Every day, Koach tells the aspirant exactly what to study, revise and practise n
 | Elective Discovery Agent in v1.0 | Optional must be decided by mid-Dec 2026 for a CSE 2027 attempt | — Pending |
 | Link + summarise news; books referenced by title/chapter | Copyright safety | — Pending |
 | Region asia-south1 | Latency for Indian users + DPDP data residency | — Pending |
+| Light Academia design system: Cormorant Garamond + Literata, Phosphor Light icons, 4 tabs (Today / Revise / Library / You) | User's aesthetic; calm and scholarly; one primary action per screen keeps the UI from overwhelming | — Pending |
 | GSD in YOLO mode | User preference; fast iteration toward a 4-week MVP | — Pending |
 
 ## Evolution
