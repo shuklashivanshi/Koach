@@ -23,6 +23,8 @@ export default tseslint.config(
     },
     rules: {
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+      // Fastify plugins and handlers are async by contract even when they don't await.
+      '@typescript-eslint/require-await': 'off',
     },
   },
   {
