@@ -10,6 +10,17 @@ import {
   type ReviewSourceDecision,
   ReviewSummary,
   SourceCatalogue,
+  DiagnosticOutcome,
+  DiagnosticQuestions,
+  type DiagnosticSubmit,
+  LptAudio,
+  LptForm,
+  LptProfileResponse,
+  type LptSubmit,
+  type ProfileInput,
+  ProfileResponse,
+  SubjectList,
+  TranscribeResponse,
 } from '@koach/shared';
 import type { z } from 'zod';
 import { currentIdToken } from '../auth/firebase';
@@ -83,4 +94,23 @@ export const api = {
       body: JSON.stringify(decision),
     }),
   sourceCatalogue: () => request('/v1/admin/sources', SourceCatalogue),
+  // Onboarding (PROF-01/02)
+  subjects: () => request('/v1/subjects', SubjectList),
+  profile: () => request('/v1/profile', ProfileResponse),
+  saveProfile: (p: ProfileInput) =>
+    request('/v1/profile', ProfileResponse, { method: 'PUT', body: JSON.stringify(p) }),
+  diagnostic: () => request('/v1/diagnostic', DiagnosticQuestions),
+  submitDiagnostic: (d: DiagnosticSubmit) =>
+    request('/v1/diagnostic', DiagnosticOutcome, { method: 'POST', body: JSON.stringify(d) }),
+  // Learning Pattern Test (LPT-01..03)
+  lptForm: () => request('/v1/lpt/form', LptForm),
+  lptAudio: (form: 'A' | 'B', list: number) => request(`/v1/lpt/audio/${form}/${list}`, LptAudio),
+  submitLpt: (s: LptSubmit) =>
+    request('/v1/lpt/results', LptProfileResponse, { method: 'POST', body: JSON.stringify(s) }),
+  lptProfile: () => request('/v1/lpt/profile', LptProfileResponse),
+  transcribe: (audioBase64: string, seconds: number) =>
+    request('/v1/speech/transcribe', TranscribeResponse, {
+      method: 'POST',
+      body: JSON.stringify({ audioBase64, seconds }),
+    }),
 };

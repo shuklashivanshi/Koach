@@ -21,6 +21,7 @@ describe('CORS for the local web build', () => {
     expect(res.statusCode).toBe(204);
     expect(res.headers['access-control-allow-origin']).toBe('http://localhost:8081');
     expect(res.headers['access-control-allow-methods']).toContain('DELETE');
+    expect(res.headers['access-control-allow-methods']).toContain('PUT');
   });
 
   it('does not allow other origins', async () => {

@@ -71,8 +71,8 @@ export const LptForm = z.object({
   grid: z.array(z.array(z.number().int())),
   listLengths: z.array(z.number().int()),
   passage: z.string(),
-  /** Event labels, shuffled. */
-  events: z.array(z.string()),
+  /** Shuffled event cards; years are shown only while learning to arrange them. */
+  events: z.array(z.object({ label: z.string(), year: z.number().int() })),
   /** The delayed round re-asks these. */
   delayed: z.object({ places: z.array(z.string()), list: z.number().int() }),
 });

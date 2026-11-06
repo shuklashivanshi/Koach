@@ -37,7 +37,7 @@ export async function buildApp(deps: Deps, options: BuildOptions = {}): Promise<
   if (deps.config.APP_ENV === 'dev') {
     await app.register(cors, {
       origin: /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/,
-      methods: ['GET', 'POST', 'DELETE'],
+      methods: ['GET', 'POST', 'PUT', 'DELETE'],
     });
   }
 

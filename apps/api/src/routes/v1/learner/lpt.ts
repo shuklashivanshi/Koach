@@ -67,7 +67,7 @@ export const lptRoutes =
         grid: f.grid,
         listLengths: f.lists.map((l) => l.length),
         passage: f.passage.text,
-        events: [...f.events].sort(() => Math.random() - 0.5).map((e) => e.label),
+        events: [...f.events].sort(() => Math.random() - 0.5),
         delayed: {
           places: f.places.slice(0, DELAYED_PLACES).map((p) => p.name),
           list: DELAYED_LIST,

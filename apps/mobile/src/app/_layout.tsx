@@ -47,6 +47,8 @@ function Navigator() {
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="dev" />
         <Stack.Screen name="admin/review" />
+        <Stack.Screen name="onboarding" />
+        <Stack.Screen name="lpt" />
       </Stack.Protected>
     </Stack>
   );
