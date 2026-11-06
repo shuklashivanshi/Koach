@@ -1,8 +1,12 @@
 // Runs every eval suite. Mock mode by default (CI); EVAL_LIVE=1 calls Vertex.
+import { caVerifierEval } from './ca-verifier.eval';
 import { pingEval } from './ping.eval';
 import type { Eval } from './types';
 
-const suites: Eval<never, never>[] = [pingEval as unknown as Eval<never, never>];
+const suites: Eval<never, never>[] = [
+  pingEval as unknown as Eval<never, never>,
+  caVerifierEval as unknown as Eval<never, never>,
+];
 const live = process.env.EVAL_LIVE === '1';
 
 let failed = false;

@@ -1,4 +1,4 @@
-import type { LearnSession } from '@koach/shared';
+import type { CaNodeItems, LearnSession } from '@koach/shared';
 import { space } from '@koach/ui';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
@@ -27,8 +27,13 @@ export default function Learn() {
     { pyqId: string; correct: boolean; answer: string | null }[]
   >([]);
   const [error, setError] = useState<string | null>(null);
+  const [news, setNews] = useState<CaNodeItems['items']>([]);
 
   useEffect(() => {
+    void api.caForNode(nodeId).then(
+      (r) => setNews(r.items),
+      () => undefined,
+    );
     void api.learn(nodeId).then(
       (s) => {
         setSession(s);
@@ -123,6 +128,18 @@ export default function Learn() {
             </PaperCard>
           ) : (
             <Text muted>Read this topic from your standard source.</Text>
+          )}
+          {news.length > 0 && (
+            <PaperCard style={{ gap: space.xs }}>
+              <Text variant="label" muted smallCaps>
+                Recently in the news
+              </Text>
+              {news.slice(0, 3).map((n) => (
+                <Text key={n.id} variant="caption">
+                  {n.summary ?? n.title}
+                </Text>
+              ))}
+            </PaperCard>
           )}
           <Text muted>About {session.node.estMinutes} minutes. Come back for a short recall.</Text>
           <Button

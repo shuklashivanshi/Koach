@@ -85,6 +85,8 @@ export const mistakes = pgTable(
     id: uuid().primaryKey().defaultRandom(),
     uid: owner(),
     pyqId: text(),
+    /** Set for wrong current-affairs quiz answers instead of pyqId. */
+    caQuestionId: text(),
     nodeId: text(),
     subject: text(),
     /** didnt_know | misread | eliminated_wrong | guessed; null until the learner taps one. */

@@ -31,6 +31,9 @@ import {
   NotificationSettingsResponse,
   PracticeSet,
   TodayPlan,
+  CaNodeItems,
+  CaResults,
+  CaToday,
 } from '@koach/shared';
 import type { z } from 'zod';
 import { currentIdToken } from '../auth/firebase';
@@ -162,6 +165,21 @@ export const api = {
   subscribePush: (sub: { endpoint: string; keys: { p256dh: string; auth: string } }) =>
     request('/v1/push/subscribe', null, { method: 'POST', body: JSON.stringify(sub) }),
   testPush: () => request('/v1/push/test', null, { method: 'POST' }),
+  // Current affairs (Phase 5)
+  caToday: () => request('/v1/ca/today', CaToday),
+  caAnswers: (answers: { questionId: string; chosen: string | null }[], taskId?: string) =>
+    request('/v1/ca/answers', CaResults, {
+      method: 'POST',
+      body: JSON.stringify({ answers, taskId }),
+    }),
+  caReport: (id: string, reason?: string) =>
+    request(`/v1/ca/questions/${id}/report`, null, {
+      method: 'POST',
+      body: JSON.stringify({ reason }),
+    }),
+  caShare: (url: string) =>
+    request('/v1/ca/share', null, { method: 'POST', body: JSON.stringify({ url }) }),
+  caForNode: (nodeId: string) => request(`/v1/ca/node/${encodeURIComponent(nodeId)}`, CaNodeItems),
   transcribe: (audioBase64: string, seconds: number) =>
     request('/v1/speech/transcribe', TranscribeResponse, {
       method: 'POST',

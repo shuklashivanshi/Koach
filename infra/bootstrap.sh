@@ -192,6 +192,17 @@ if [[ -n "$API_URL" ]]; then
     unset CRON
     log "created  scheduler koach-reminders"
   fi
+  # Current affairs: daily ingest + verified quiz at 05:30 IST (CA-01).
+  if "${G[@]}" scheduler jobs describe koach-ca-ingest --location="$REGION" >/dev/null 2>&1; then
+    log "exists   scheduler koach-ca-ingest"
+  else
+    CRON="$("${G[@]}" secrets versions access latest --secret=CRON_SECRET)"
+    "${G[@]}" scheduler jobs create http koach-ca-ingest --location="$REGION" \
+      --schedule='30 5 * * *' --time-zone='Asia/Kolkata' --http-method=POST --attempt-deadline=600s \
+      --uri="$API_URL/internal/ca-ingest" --headers="x-cron-secret=$CRON" >/dev/null
+    unset CRON
+    log "created  scheduler koach-ca-ingest"
+  fi
 else
   log "ACTION   deploy koach-api first, then re-run to create the reminder scheduler"
 fi

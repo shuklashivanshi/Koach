@@ -36,7 +36,7 @@ Feature definitions: `.planning/PROJECT.md`. Requirement IDs: `.planning/REQUIRE
 - [ ] **Phase 2: UPSC Knowledge Base** - Syllabus graph (incl. optional syllabi), PYQ bank, source map, PYQ stats, strategy KB, playbooks, review tooling, naming guard
 - [x] **Phase 3: Onboarding & Learning Pattern Test** - Profile, diagnostic, four pattern games → strength profile
 - [x] **Phase 4: Planner, Revision & Reminders** - Scheduler, PYQ-first sessions, FSRS, mastery, mistakes notebook, heatmap, push reminders
-- [ ] **Phase 5: Current Affairs Pipeline & Daily Quiz** - Ingest → summarise → link to syllabus → verified UPSC-style MCQs
+- [x] **Phase 5: Current Affairs Pipeline & Daily Quiz** - Ingest → summarise → link to syllabus → verified UPSC-style MCQs
 - [ ] **Phase 6: Memory Cues & Nudges** - Pattern-matched cues (palace, audio, mnemonics, cue sheets, drills), repetition, first-principles; nudges, coach note, well-being check-in
 - [ ] **Phase 7: Optional Discovery** - Fit quiz ranking, explorer & compare, decision coach
 
@@ -137,7 +137,7 @@ Plans:
   3. User answers 5–10 daily MCQs in real UPSC formats with explanations and sources
   4. On a held-out eval set, ≥95% of verifier-approved MCQs have exactly one correct, source-grounded answer
   5. Wrong answers go to the mistakes notebook and SRS; a reported question is pulled for everyone
-**Plans**: TBD
+**Plans**: executed as one plan (see 05-CONTEXT.md, 05-SUMMARY.md)
 
 ### Phase 6: Memory Cues & Nudges
 **Goal**: Material becomes memorable in the way that suits each learner, and the coach keeps them moving.

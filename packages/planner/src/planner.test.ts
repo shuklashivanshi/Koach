@@ -105,6 +105,18 @@ describe('planner', () => {
     expect(displayedMastery(0.8, 0.5)).toBe(0.4);
   });
 
+  it('puts the CA task before practice only when the quiz exists', () => {
+    const base = {
+      date: day,
+      minutes: 240,
+      due: [],
+      nodes: [node('a'), node('c', { studied: true })],
+    };
+    const kinds = (caAvailable: boolean) => buildDay({ ...base, caAvailable }).map((t) => t.kind);
+    expect(kinds(false).at(-1)).toBe('ca');
+    expect(kinds(true).indexOf('ca')).toBeLessThan(kinds(true).indexOf('practice'));
+  });
+
   it('ranks GS above CSAT when no PYQ data exists', () => {
     expect(withPaperWeight(0, 'gs2')).toBeGreaterThan(withPaperWeight(0, 'csat'));
   });

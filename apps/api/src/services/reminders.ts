@@ -2,6 +2,7 @@ import { type Db, schema } from '@koach/db';
 import { checkText } from '@koach/guard';
 import { and, eq, lte, sql } from 'drizzle-orm';
 import type { PushMessage, PushSender } from './push';
+import { caQuizReady } from './ca';
 import { istDay, todayPlan } from './study';
 
 // Reminders (NOTIF-01/02): plan ready, due reviews, CA quiz, streak at risk. Rules decide; the
@@ -90,12 +91,8 @@ export async function getPrefs(db: Db, uid: string) {
   return { prefs: { ...DEFAULT_PREFS, ...(row?.prefs ?? {}) }, tone: row?.tone ?? 'calm' };
 }
 
-export async function dispatchReminders(
-  db: Db,
-  push: PushSender,
-  now: Date,
-  opts: { caReady?: boolean } = {},
-) {
+export async function dispatchReminders(db: Db, push: PushSender, now: Date) {
+  const caReady = await caQuizReady(db, now);
   const day = istDay(now);
   const clock = istClock(now);
   const subs = await db.select().from(s.pushSubscriptions);
@@ -121,7 +118,7 @@ export async function dispatchReminders(
           .where(and(eq(s.srsCards.uid, uid), lte(s.srsCards.due, now)));
         n = r?.n ?? 0;
       }
-      if (type === 'ca_quiz') n = opts.caReady ? 1 : 0;
+      if (type === 'ca_quiz') n = caReady ? 1 : 0;
       if (type === 'streak') {
         const [r] = await db
           .select({ n: sql<number>`count(*)::int` })
@@ -141,7 +138,7 @@ export async function dispatchReminders(
       if (!logged.length) continue;
       const message: PushMessage = {
         ...reminderCopy(type, tone, n),
-        url: type === 'due_reviews' ? '/revise' : '/today',
+        url: type === 'due_reviews' ? '/revise' : type === 'ca_quiz' ? '/ca' : '/today',
       };
       for (const sub of subs.filter((x) => x.uid === uid)) {
         const res = await push.send({ endpoint: sub.endpoint, keys: sub.keys }, message);
