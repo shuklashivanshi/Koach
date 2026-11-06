@@ -47,9 +47,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.architecture-and-sculpture.harappan-architecture-and-art"
-      ]
+      "prereqs": ["gs1.art-and-culture.architecture-and-sculpture.harappan-architecture-and-art"]
     },
     {
       "id": "gs1.art-and-culture.architecture-and-sculpture.post-mauryan-sculpture-schools",
@@ -59,9 +57,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.architecture-and-sculpture.mauryan-art-and-pillars"
-      ]
+      "prereqs": ["gs1.art-and-culture.architecture-and-sculpture.mauryan-art-and-pillars"]
     },
     {
       "id": "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves",
@@ -84,9 +80,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves"
-      ]
+      "prereqs": ["gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves"]
     },
     {
       "id": "gs1.art-and-culture.architecture-and-sculpture.dravidian-temple-architecture",
@@ -96,9 +90,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves"
-      ]
+      "prereqs": ["gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves"]
     },
     {
       "id": "gs1.art-and-culture.architecture-and-sculpture.vesara-and-regional-temples",
@@ -131,9 +123,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.architecture-and-sculpture.delhi-sultanate-architecture"
-      ]
+      "prereqs": ["gs1.art-and-culture.architecture-and-sculpture.delhi-sultanate-architecture"]
     },
     {
       "id": "gs1.art-and-culture.architecture-and-sculpture.post-mughal-and-colonial-architecture",
@@ -143,9 +133,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.architecture-and-sculpture.mughal-architecture"
-      ]
+      "prereqs": ["gs1.art-and-culture.architecture-and-sculpture.mughal-architecture"]
     },
     {
       "id": "gs1.art-and-culture.paintings-and-handicrafts",
@@ -174,9 +162,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.paintings-and-handicrafts.prehistoric-rock-paintings"
-      ]
+      "prereqs": ["gs1.art-and-culture.paintings-and-handicrafts.prehistoric-rock-paintings"]
     },
     {
       "id": "gs1.art-and-culture.paintings-and-handicrafts.miniature-paintings-mughal-deccan",
@@ -186,9 +172,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.paintings-and-handicrafts.ancient-mural-paintings"
-      ]
+      "prereqs": ["gs1.art-and-culture.paintings-and-handicrafts.ancient-mural-paintings"]
     },
     {
       "id": "gs1.art-and-culture.paintings-and-handicrafts.rajasthani-and-pahari-paintings",
@@ -198,9 +182,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.paintings-and-handicrafts.miniature-paintings-mughal-deccan"
-      ]
+      "prereqs": ["gs1.art-and-culture.paintings-and-handicrafts.miniature-paintings-mughal-deccan"]
     },
     {
       "id": "gs1.art-and-culture.paintings-and-handicrafts.folk-and-tribal-paintings",
@@ -318,9 +300,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature"
-      ]
+      "prereqs": ["gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature"]
     },
     {
       "id": "gs1.art-and-culture.literature-religion-philosophy.sangam-and-south-indian-literature",
@@ -340,9 +320,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.literature-religion-philosophy.bhakti-and-sufi-movements"
-      ]
+      "prereqs": ["gs1.art-and-culture.literature-religion-philosophy.bhakti-and-sufi-movements"]
     },
     {
       "id": "gs1.art-and-culture.literature-religion-philosophy.six-schools-of-indian-philosophy",
@@ -352,9 +330,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature"
-      ]
+      "prereqs": ["gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature"]
     },
     {
       "id": "gs1.art-and-culture.literature-religion-philosophy.heterodox-philosophies",
@@ -364,9 +340,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature"
-      ]
+      "prereqs": ["gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature"]
     },
     {
       "id": "gs1.art-and-culture.literature-religion-philosophy.bhakti-and-sufi-movements",
@@ -724,9 +698,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.modern-history.national-movement-1885-1919.home-rule-league-movement"
-      ]
+      "prereqs": ["gs1.modern-history.national-movement-1885-1919.home-rule-league-movement"]
     },
     {
       "id": "gs1.modern-history.national-movement-1885-1919.first-phase-revolutionary-activities",
@@ -1579,9 +1551,7 @@
       "estMinutes": 60,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality"
-      ]
+      "prereqs": ["gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality"]
     },
     {
       "id": "gs1.indian-society.women-and-gender-issues.violence-against-women-and-legal-framewo",
@@ -1591,9 +1561,7 @@
       "estMinutes": 60,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality"
-      ]
+      "prereqs": ["gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality"]
     },
     {
       "id": "gs1.indian-society.women-and-gender-issues.evolution-of-womens-movements-in-india",
@@ -1877,9 +1845,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.geomorphology.origin-and-interior-structure-of-earth"
-      ]
+      "prereqs": ["gs1.physical-geography.geomorphology.origin-and-interior-structure-of-earth"]
     },
     {
       "id": "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics",
@@ -1889,9 +1855,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.geomorphology.continental-drift-and-paleomagnetism"
-      ]
+      "prereqs": ["gs1.physical-geography.geomorphology.continental-drift-and-paleomagnetism"]
     },
     {
       "id": "gs1.physical-geography.geomorphology.minerals-and-rock-cycle",
@@ -1911,9 +1875,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics"
-      ]
+      "prereqs": ["gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics"]
     },
     {
       "id": "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w",
@@ -1933,9 +1895,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
-      ]
+      "prereqs": ["gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"]
     },
     {
       "id": "gs1.physical-geography.geomorphology.karst-and-limestone-topography",
@@ -1945,9 +1905,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
-      ]
+      "prereqs": ["gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"]
     },
     {
       "id": "gs1.physical-geography.geomorphology.glacial-landforms",
@@ -1957,9 +1915,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
-      ]
+      "prereqs": ["gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"]
     },
     {
       "id": "gs1.physical-geography.geomorphology.aeolian-and-desert-landforms",
@@ -1969,9 +1925,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
-      ]
+      "prereqs": ["gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"]
     },
     {
       "id": "gs1.physical-geography.geomorphology.coastal-landforms",
@@ -1981,9 +1935,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
-      ]
+      "prereqs": ["gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"]
     },
     {
       "id": "gs1.physical-geography.climatology",
@@ -2012,9 +1964,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.climatology.structure-and-composition-of-atmosphere"
-      ]
+      "prereqs": ["gs1.physical-geography.climatology.structure-and-composition-of-atmosphere"]
     },
     {
       "id": "gs1.physical-geography.climatology.horizontal-and-vertical-temperature-dist",
@@ -2024,9 +1974,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.climatology.insolation-and-heat-budget-of-earth"
-      ]
+      "prereqs": ["gs1.physical-geography.climatology.insolation-and-heat-budget-of-earth"]
     },
     {
       "id": "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary",
@@ -2036,9 +1984,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.climatology.horizontal-and-vertical-temperature-dist"
-      ]
+      "prereqs": ["gs1.physical-geography.climatology.horizontal-and-vertical-temperature-dist"]
     },
     {
       "id": "gs1.physical-geography.climatology.tri-cellular-meridional-circulation",
@@ -2048,9 +1994,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary"
-      ]
+      "prereqs": ["gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary"]
     },
     {
       "id": "gs1.physical-geography.climatology.jet-streams-and-rossby-waves",
@@ -2060,9 +2004,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.climatology.tri-cellular-meridional-circulation"
-      ]
+      "prereqs": ["gs1.physical-geography.climatology.tri-cellular-meridional-circulation"]
     },
     {
       "id": "gs1.physical-geography.climatology.air-masses-fronts-and-frontogenesis",
@@ -2072,9 +2014,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.climatology.tri-cellular-meridional-circulation"
-      ]
+      "prereqs": ["gs1.physical-geography.climatology.tri-cellular-meridional-circulation"]
     },
     {
       "id": "gs1.physical-geography.climatology.extra-tropical-and-temperate-cyclones",
@@ -2084,9 +2024,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.climatology.air-masses-fronts-and-frontogenesis"
-      ]
+      "prereqs": ["gs1.physical-geography.climatology.air-masses-fronts-and-frontogenesis"]
     },
     {
       "id": "gs1.physical-geography.climatology.tropical-cyclones-genesis-and-structure",
@@ -2155,9 +2093,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary"
-      ]
+      "prereqs": ["gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary"]
     },
     {
       "id": "gs1.physical-geography.oceanography",
@@ -2186,9 +2122,7 @@
       "estMinutes": 45,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.oceanography.ocean-relief-features"
-      ]
+      "prereqs": ["gs1.physical-geography.oceanography.ocean-relief-features"]
     },
     {
       "id": "gs1.physical-geography.oceanography.temperature-and-salinity-distribution-in",
@@ -2241,9 +2175,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.oceanography.coral-reefs-types-and-formation-theories"
-      ]
+      "prereqs": ["gs1.physical-geography.oceanography.coral-reefs-types-and-formation-theories"]
     },
     {
       "id": "gs1.physical-geography.oceanography.marine-resources-biotic-mineral-energy",
@@ -2272,9 +2204,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics"
-      ]
+      "prereqs": ["gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics"]
     },
     {
       "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.tsunami-mechanism-and-warning-systems",
@@ -2309,9 +2239,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
-      ]
+      "prereqs": ["gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"]
     },
     {
       "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.changes-in-water-bodies-wetlands-and-riv",
@@ -2522,9 +2450,7 @@
       "estMinutes": 45,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs1.physical-geography.oceanography.ocean-currents-atlantic-pacific-indian"
-      ]
+      "prereqs": ["gs1.physical-geography.oceanography.ocean-currents-atlantic-pacific-indian"]
     },
     {
       "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.irrigation-types-and-spatial-spread",

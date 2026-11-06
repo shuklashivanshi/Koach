@@ -511,9 +511,7 @@
       "estMinutes": 45,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments"
-      ]
+      "prereqs": ["prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments"]
     },
     {
       "id": "prelims_gs1.medieval-indian-history.delhi-sultanate.sultanate-administrative-departments-and",
@@ -556,9 +554,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments"
-      ]
+      "prereqs": ["prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments"]
     },
     {
       "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.foreign-travellers-to-vijayanagara",
@@ -580,9 +576,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments"
-      ]
+      "prereqs": ["prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments"]
     },
     {
       "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.regional-kingdoms-gujarat-malwa-bengal-k",

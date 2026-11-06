@@ -59,6 +59,11 @@ function Navigator() {
         <Stack.Screen name="stick/[nodeId]" />
         <Stack.Screen name="palace" />
         <Stack.Screen name="playlist" />
+        <Stack.Screen name="optionals/index" />
+        <Stack.Screen name="optionals/quiz" />
+        <Stack.Screen name="optionals/[slug]" />
+        <Stack.Screen name="optionals/compare" />
+        <Stack.Screen name="optionals/coach" />
       </Stack.Protected>
     </Stack>
   );

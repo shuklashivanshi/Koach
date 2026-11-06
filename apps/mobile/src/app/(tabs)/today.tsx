@@ -1,4 +1,4 @@
-import type { CoachState, LptProfile, TodayPlan } from '@koach/shared';
+import type { CoachState, DecisionStatus, LptProfile, TodayPlan } from '@koach/shared';
 import { space, sunlightFor } from '@koach/ui';
 import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
@@ -37,6 +37,7 @@ export default function Today() {
   const [lpt, setLpt] = useState<LptProfile | null | undefined>(undefined);
   const [coach, setCoach] = useState<CoachState | null>(null);
   const [lighter, setLighter] = useState(false);
+  const [decision, setDecision] = useState<DecisionStatus | null>(null);
   const [replanOpen, setReplanOpen] = useState(false);
   const [why, setWhy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -54,6 +55,7 @@ export default function Today() {
           setPlan(p);
           setLpt(l.profile);
           setCoach(co);
+          setDecision(await api.decision().catch(() => null));
         } catch {
           setError("Couldn't reach the library. Try again.");
         }
@@ -155,6 +157,16 @@ export default function Today() {
           <Text variant="caption" muted>
             Next week is lighter.
           </Text>
+        )}
+
+        {decision && !decision.chosen && decision.daysLeft >= 0 && (
+          <PaperCard style={{ gap: space.xs }}>
+            <Text>Choose your optional</Text>
+            <Text variant="caption" muted>
+              {decision.daysLeft} days left
+            </Text>
+            <Button label="Open" kind="secondary" onPress={() => router.push('/optionals')} />
+          </PaperCard>
         )}
 
         {lpt === null && (

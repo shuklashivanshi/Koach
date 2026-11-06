@@ -554,9 +554,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet"
-      ]
+      "prereqs": ["gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet"]
     },
     {
       "id": "gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet",
@@ -869,9 +867,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1950"
-      ]
+      "prereqs": ["gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1950"]
     },
     {
       "id": "gs2.organs-of-state.elections-and-rpa.electoral-reforms-and-criminalisation-of",

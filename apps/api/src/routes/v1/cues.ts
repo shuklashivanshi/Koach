@@ -37,12 +37,7 @@ export const cueRoutes =
       },
       async (request, reply) => {
         await usersRepo.upsert(deps.db, request.uid, request.userEmail);
-        const res = await getCue(
-          deps,
-          request.uid,
-          request.params.nodeId,
-          request.query.format,
-        );
+        const res = await getCue(deps, request.uid, request.params.nodeId, request.query.format);
         if (!res) return reply.code(404).send({ error: 'not_found' });
         const groups = allFormats();
         if ('needsPalace' in res)

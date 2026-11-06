@@ -1,0 +1,14 @@
+{
+  "years": [
+    {
+      "examYear": 2021,
+      "source": "https://www.upsc.gov.in/a.pdf",
+      "rows": [{ "slug": "sociology", "appeared": 1200, "recommended": 90 }]
+    },
+    {
+      "examYear": 2022,
+      "source": "https://www.upsc.gov.in/b.pdf",
+      "rows": [{ "slug": "sociology", "appeared": 1100, "recommended": 80 }]
+    }
+  ]
+}

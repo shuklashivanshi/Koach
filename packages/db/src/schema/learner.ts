@@ -1,4 +1,5 @@
 import {
+  date,
   integer,
   jsonb,
   pgTable,
@@ -29,6 +30,13 @@ export const learnerProfiles = pgTable('learner_profiles', {
   nudgeTone: text().notNull().default('gentle'),
   timezone: text().notNull().default('Asia/Kolkata'),
   onboardedAt: timestamp({ withTimezone: true }),
+  /** Optional Discovery (OPT-03/04): decision deadline, choice and the learner's reasons. */
+  optionalDeadline: date().notNull().default('2026-12-15'),
+  optional: text(),
+  optionalReasons: text(),
+  optionalDecidedAt: timestamp({ withTimezone: true }),
+  /** Fit Quiz answers, kept so the coach and explorer can personalise. */
+  optionalQuiz: jsonb().$type<Record<string, unknown>>(),
   updatedAt: timestamp({ withTimezone: true }).notNull().defaultNow(),
 });
 

@@ -34,7 +34,9 @@ async function main() {
   const syllabus = await Promise.all(
     (await readdir(join(DATA, 'syllabus')))
       .filter((f) => f.endsWith('.json') && !f.startsWith('optional-'))
-      .map(async (f) => JSON.parse(await readFile(join(DATA, 'syllabus', f), 'utf8')) as SyllabusFile),
+      .map(
+        async (f) => JSON.parse(await readFile(join(DATA, 'syllabus', f), 'utf8')) as SyllabusFile,
+      ),
   );
   const leavesByPaper = new Map(
     syllabus.map((s) => [s.paper, s.nodes.filter((n) => n.kind === 'node')]),
@@ -86,7 +88,9 @@ ${batch.map((q) => `Q${q.number}. ${q.text}${q.options ? `\n${q.options.map((o) 
       sourceType: t.sourceType,
       ...(file.exam === 'mains' && t.directive ? { directive: t.directive } : {}),
     }));
-    const known = new Set(file.questions.map((q) => pyqId(file.exam, file.year, file.paper, q.number)));
+    const known = new Set(
+      file.questions.map((q) => pyqId(file.exam, file.year, file.paper, q.number)),
+    );
     const kept = seeds.filter((s) => known.has(s.pyqId));
     await writeFile(out, `${JSON.stringify({ tags: kept }, null, 2)}\n`);
     console.log(`${id}: ${kept.length}/${file.questions.length} tagged`);

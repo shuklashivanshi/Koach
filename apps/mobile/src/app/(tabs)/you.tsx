@@ -81,6 +81,7 @@ export default function You() {
         {email && <Text muted>{email}</Text>}
       </Pressable>
       <View style={{ marginTop: space.xl }}>
+        <Row label="Choose your optional" onPress={() => router.push('/optionals')} />
         <Row label="Memory heatmap" onPress={() => router.push('/library')} />
         <Row label="Mistakes" onPress={() => router.push('/mistakes')} />
         <Row label="How you learn" onPress={() => router.push('/lpt')} />

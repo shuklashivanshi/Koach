@@ -22,6 +22,11 @@ export interface KbBundle {
   sources: z.infer<typeof SourcesFile>['sources'];
   sourceMap: z.infer<typeof SourceMapFile>['map'];
   claims: z.infer<typeof ClaimsFile>['claims'];
+  optionals: {
+    slug: string;
+    profile: Record<string, unknown>;
+    stats: { examYear: number; appeared: number; recommended: number; source: string }[];
+  }[];
 }
 
 async function readJsonDir<T>(dir: string, parse: (v: unknown) => T): Promise<T[]> {
@@ -52,7 +57,43 @@ export async function readKb(dir: string): Promise<KbBundle> {
     readJsonDir(join(dir, 'sources', 'map'), (v) => SourceMapFile.parse(v)),
     readJsonDir(join(dir, 'strategy'), (v) => ClaimsFile.parse(v)),
   ]);
+  // Optional Discovery data (profiles + official stats), joined by slug.
+  const readOpt = async <T>(name: string): Promise<T | null> => {
+    try {
+      return JSON.parse(await readFile(join(dir, 'optionals', name), 'utf8')) as T;
+    } catch {
+      return null;
+    }
+  };
+  const profiles =
+    (await readOpt<{ profiles: Record<string, Record<string, unknown>> }>('profiles.json'))
+      ?.profiles ?? {};
+  const statYears =
+    (
+      await readOpt<{
+        years: {
+          examYear: number;
+          source: string;
+          rows: { slug: string; appeared: number; recommended: number }[];
+        }[];
+      }>('stats.json')
+    )?.years ?? [];
+  const optionals = Object.entries(profiles).map(([slug, profile]) => ({
+    slug,
+    profile,
+    stats: statYears.flatMap((y) =>
+      y.rows
+        .filter((r) => r.slug === slug)
+        .map((r) => ({
+          examYear: y.examYear,
+          appeared: r.appeared,
+          recommended: r.recommended,
+          source: y.source,
+        })),
+    ),
+  }));
   return {
+    optionals,
     syllabus,
     pyqs,
     tags: tagFiles.flatMap((f) => f.tags),
@@ -110,6 +151,7 @@ export function validateKb(kb: KbBundle): string[] {
       s.neutralLabel ? s.neutralLabel : `${s.title} ${s.author ?? ''}`,
     ),
     claims: kb.claims.map((c) => [c.claim, c.officialSource ?? '']),
+    optionals: kb.optionals.map((o) => [o.profile.name, o.profile.summary, o.profile.books]),
   };
   for (const hit of findHits(facing))
     errors.push(`blocked name at ${hit.path}: ${hit.names.join(', ')}`);
@@ -128,6 +170,7 @@ export interface LoadResult {
   sources: number;
   nodeSources: number;
   claims: number;
+  optionals: number;
 }
 
 /**
@@ -275,6 +318,16 @@ export async function loadKb(db: Db, kb: KbBundle): Promise<LoadResult> {
         }),
     );
 
+    await inChunks(kb.optionals, (chunk) =>
+      tx
+        .insert(s.optionalInfo)
+        .values(chunk)
+        .onConflictDoUpdate({
+          target: s.optionalInfo.slug,
+          set: { profile: sql`excluded.profile`, stats: sql`excluded.stats` },
+        }),
+    );
+
     await inChunks(kb.claims, (chunk) =>
       tx
         .insert(s.strategyClaims)
@@ -310,5 +363,6 @@ export async function loadKb(db: Db, kb: KbBundle): Promise<LoadResult> {
     sources: kb.sources.length,
     nodeSources: kb.sourceMap.length,
     claims: kb.claims.length,
+    optionals: kb.optionals.length,
   };
 }

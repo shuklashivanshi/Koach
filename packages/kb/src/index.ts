@@ -6,3 +6,4 @@ export * from './strategy';
 export * from './review';
 export * from './subjects';
 export * from './diagnostic';
+export * from './optionals';

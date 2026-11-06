@@ -137,6 +137,37 @@ async function plannerInputs(db: Db, uid: string, now: Date) {
     source: n.source,
     pyqCount: n.freq.prelims + n.freq.mains,
   }));
+  // OPT-04: the chosen optional's syllabus units join the plan as Mains-only Learn units.
+  const [profile] = await db.select().from(s.learnerProfiles).where(eq(s.learnerProfiles.uid, uid));
+  if (profile?.optional) {
+    const topics = await db
+      .select()
+      .from(s.syllabusNodes)
+      .where(
+        and(
+          eq(s.syllabusNodes.paper, `optional:${profile.optional}`),
+          eq(s.syllabusNodes.kind, 'topic'),
+        ),
+      )
+      .orderBy(asc(s.syllabusNodes.ord));
+    topics.forEach((t, i) =>
+      candidates.push({
+        id: t.id,
+        title: t.title,
+        subject: 'optional',
+        estMinutes: 90,
+        prelims: false,
+        mains: true,
+        // Earlier units first (coverage outline order); below GS priority so GS keeps leading.
+        priority: Math.round((0.45 - i * 0.002) * 1000) / 1000,
+        mastery: m.get(t.id)?.mastery ?? INITIAL_MASTERY,
+        prereqs: i > 0 && topics[i - 1] ? [topics[i - 1]!.id] : [],
+        studied: !!m.get(t.id)?.studiedAt,
+        source: null,
+        pyqCount: 0,
+      }),
+    );
+  }
   return {
     candidates,
     due: due.map((d) => ({ nodeId: d.nodeId, title: title.get(d.nodeId) ?? d.nodeId, cards: d.n })),

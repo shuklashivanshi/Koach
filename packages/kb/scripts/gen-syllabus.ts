@@ -20,8 +20,7 @@ const OUT = join(ROOT, 'data', 'syllabus');
 
 const write = (path: string, data: unknown) =>
   writeFile(path, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
-const read = async <T>(path: string): Promise<T> =>
-  JSON.parse(await readFile(path, 'utf8')) as T;
+const read = async <T>(path: string): Promise<T> => JSON.parse(await readFile(path, 'utf8')) as T;
 
 async function pdf() {
   return [{ mimeType: 'application/pdf', base64: (await readFile(RAW)).toString('base64') }];
@@ -184,7 +183,15 @@ platform, channel or course.`,
   });
 
   const nodes: NodeSeed[] = [
-    { id: paper, parentId: null, title: off.title, kind: 'paper', prelims: paper === 'prelims_gs1' || paper === 'csat', mains: !['prelims_gs1', 'csat'].includes(paper), prereqs: [] },
+    {
+      id: paper,
+      parentId: null,
+      title: off.title,
+      kind: 'paper',
+      prelims: paper === 'prelims_gs1' || paper === 'csat',
+      mains: !['prelims_gs1', 'csat'].includes(paper),
+      prereqs: [],
+    },
   ];
   for (const sec of tree.data.sections) {
     const secId = `${paper}.${slug(sec.key)}`;
@@ -284,13 +291,29 @@ async function optionals() {
     const paper = `optional:${slug(sub.slug)}`;
     const root = `opt.${slug(sub.slug)}`;
     const nodes: NodeSeed[] = [
-      { id: root, parentId: null, title: sub.name, kind: 'paper', prelims: false, mains: true, prereqs: [] },
+      {
+        id: root,
+        parentId: null,
+        title: sub.name,
+        kind: 'paper',
+        prelims: false,
+        mains: true,
+        prereqs: [],
+      },
     ];
     for (const p of ['I', 'II'] as const) {
       const topics = sub.topics.filter((t) => t.paper === p);
       if (!topics.length) continue;
       const secId = `${root}.p${p.length}`;
-      nodes.push({ id: secId, parentId: root, title: `${sub.name} · Paper ${p}`, kind: 'section', prelims: false, mains: true, prereqs: [] });
+      nodes.push({
+        id: secId,
+        parentId: root,
+        title: `${sub.name} · Paper ${p}`,
+        kind: 'section',
+        prelims: false,
+        mains: true,
+        prereqs: [],
+      });
       topics.forEach((t, i) =>
         nodes.push({
           id: `${secId}.t${String(i + 1).padStart(2, '0')}`,

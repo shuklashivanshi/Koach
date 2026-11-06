@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "sociology": {
+      "name": "Sociology",
+      "backgrounds": ["any", "humanities"],
+      "interests": ["society", "politics"],
+      "reading": { "theory": 0.7, "data": 0.4, "narratives": 0.6, "debates": 0.8 },
+      "answer": { "analytical": 0.9, "factual": 0.4, "diagrams": 0.3, "numericals": 0 },
+      "materials": 0.9,
+      "hours": 350,
+      "books": ["Sociology: Themes and Perspectives · Haralambos and Holborn"],
+      "summary": "Theory-heavy study of society with strong links to GS1 Indian Society.",
+      "topics": 2,
+      "gsOverlap": 0.5,
+      "overlapSections": ["gs2.polity"]
+    }
+  }
+}

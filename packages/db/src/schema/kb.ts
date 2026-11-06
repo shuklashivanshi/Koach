@@ -152,3 +152,14 @@ export const userNotes = pgTable('user_notes', {
   body: text().notNull(),
   createdAt: timestamp({ withTimezone: true }).notNull().defaultNow(),
 });
+
+/** Optional Discovery data (OPT-01/02/05): profile + official appeared/recommended by exam year. */
+export const optionalInfo = pgTable('optional_info', {
+  slug: text().primaryKey(),
+  profile: jsonb().$type<Record<string, unknown>>().notNull(),
+  /** [{ examYear, appeared, recommended, source }] */
+  stats: jsonb()
+    .$type<{ examYear: number; appeared: number; recommended: number; source: string }[]>()
+    .notNull()
+    .default([]),
+});

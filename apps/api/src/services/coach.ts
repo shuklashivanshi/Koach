@@ -16,7 +16,7 @@ const DAY = 86_400_000;
 const MAX_PER_DAY = 3;
 const MIN_GAP_MS = 3 * 3_600_000;
 
-export type NudgeKind = 'slipping' | 'deadline' | 'idle';
+export type NudgeKind = 'slipping' | 'deadline' | 'idle' | 'decision';
 
 /** Monday (IST) of the week containing `d`, as YYYY-MM-DD. */
 export function weekOf(d: Date): string {
@@ -45,6 +45,17 @@ const TEMPLATES: Record<NudgeKind, Record<Tone, (x: string) => { title: string; 
       body: 'One more topic a day and you’re on track.',
     }),
   },
+  decision: {
+    calm: (x) => ({ title: 'Your optional', body: `${x} days to decide. The coach can help.` }),
+    firm: (x) => ({
+      title: 'Choose your optional',
+      body: `${x} days left. Compare your top two today.`,
+    }),
+    cheerful: (x) => ({
+      title: 'Optional check-in',
+      body: `${x} days to go. Let’s narrow it down.`,
+    }),
+  },
   idle: {
     calm: () => ({ title: 'Your desk is ready', body: 'One short task is a good restart.' }),
     firm: () => ({ title: 'Two days away', body: 'Open today’s plan and do the first task.' }),
@@ -68,7 +79,9 @@ async function nudgeCopy(ai: AiService | null, kind: NudgeKind, tone: Tone, subj
           ? `they have not revised ${subject} for over a week`
           : kind === 'deadline'
             ? 'their first pass of the syllabus is behind schedule for 15 February'
-            : 'they have not opened their plan for two days'
+            : kind === 'decision'
+              ? `they must choose their Mains optional subject within ${subject} days`
+              : 'they have not opened their plan for two days'
       }. Tone: ${tone}. Title ≤ 30 characters, body ≤ 60 characters. Kind, specific, no emoji, no
 exclamation marks, no names of people, institutes, apps or websites.`,
     });
@@ -88,6 +101,16 @@ export async function nudgeCandidates(
   now: Date,
 ): Promise<{ kind: NudgeKind; subject: string }[]> {
   const out: { kind: NudgeKind; subject: string }[] = [];
+  // OPT-03: nudge toward the optional decision in the last two weeks.
+  const [p] = await db.select().from(s.learnerProfiles).where(eq(s.learnerProfiles.uid, uid));
+  if (p && !p.optional) {
+    const left = Math.ceil(
+      (new Date(`${p.optionalDeadline}T00:00:00Z`).getTime() -
+        new Date(`${istDay(now)}T00:00:00Z`).getTime()) /
+        DAY,
+    );
+    if (left >= 0 && left <= 14) out.push({ kind: 'decision', subject: String(left) });
+  }
   const lastDone = await db
     .select({ at: sql<Date>`max(${s.planTasks.doneAt})` })
     .from(s.planTasks)

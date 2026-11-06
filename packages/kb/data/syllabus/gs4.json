@@ -287,9 +287,7 @@
       "estMinutes": 50,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs4.attitude.structure-and-behavioural-aspects.formation-and-change-of-attitude"
-      ]
+      "prereqs": ["gs4.attitude.structure-and-behavioural-aspects.formation-and-change-of-attitude"]
     },
     {
       "id": "gs4.attitude.moral-political-attitudes-and-persuasion.persuasion-and-public-campaigns",
@@ -469,9 +467,7 @@
       "estMinutes": 60,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei"
-      ]
+      "prereqs": ["gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei"]
     },
     {
       "id": "gs4.emotional-intelligence.ei-concepts-and-models.mayer-salovey-ability-model",
@@ -481,9 +477,7 @@
       "estMinutes": 45,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei"
-      ]
+      "prereqs": ["gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei"]
     },
     {
       "id": "gs4.emotional-intelligence.ei-in-administration-and-governance",
@@ -1049,9 +1043,7 @@
       "estMinutes": 55,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"
-      ]
+      "prereqs": ["gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"]
     },
     {
       "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.bioethics-and-medical-ethics",
@@ -1061,9 +1053,7 @@
       "estMinutes": 60,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"
-      ]
+      "prereqs": ["gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"]
     },
     {
       "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.ethics-in-technology-and-ai",
@@ -1073,9 +1063,7 @@
       "estMinutes": 60,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"
-      ]
+      "prereqs": ["gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"]
     },
     {
       "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.gender-ethics-and-care-perspective",
@@ -1085,9 +1073,7 @@
       "estMinutes": 50,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"
-      ]
+      "prereqs": ["gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"]
     },
     {
       "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice",

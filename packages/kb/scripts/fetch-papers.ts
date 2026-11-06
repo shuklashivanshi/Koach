@@ -20,7 +20,9 @@ const RAW = join(ROOT, 'raw', 'papers');
 const MANIFEST = join(ROOT, 'data', 'pyq-manifest.json');
 const CACHE = join(ROOT, 'raw', 'identified.json');
 const BASE = 'https://www.upsc.gov.in';
-const UA = { 'user-agent': 'Mozilla/5.0 (Macintosh) Koach-KB/1.0 (official papers, personal study)' };
+const UA = {
+  'user-agent': 'Mozilla/5.0 (Macintosh) Koach-KB/1.0 (official papers, personal study)',
+};
 
 const LISTINGS = [
   '/examinations/previous-question-papers?field_exam_name_value=Civil+Services+(Preliminary)+Examination',
@@ -28,7 +30,8 @@ const LISTINGS = [
   '/examinations/previous-question-papers?field_exam_name_value=Civil+Services+(Main)+Examination',
   '/examinations/previous-question-papers/archives?field_exam_name_value=Civil+Services+(Main)+Examination',
   ...[2011, 2012, 2013, 2014, 2015, 2016].map(
-    (y) => `/examinations/question-papers/question-papers-year-${y}?field_exam_name_value=civil+services`,
+    (y) =>
+      `/examinations/question-papers/question-papers-year-${y}?field_exam_name_value=civil+services`,
   ),
   // Each exam's own page lists its papers and, after the final result, the official answer key.
   ...Array.from({ length: 16 }, (_, i) => 2011 + i).flatMap((y) => [
@@ -42,7 +45,8 @@ const LISTINGS = [
 ];
 
 /** Link text or file name suggesting a GS paper, essay excluded later by identification. */
-const WANTED = /general|gen[_ -]?st|g\.?s\.?[ _-]?(i|1|paper)|csp|prelim|pre[_ -]?exam|answer|ans[_ -]?key|key|csm|gs\d|qp/i;
+const WANTED =
+  /general|gen[_ -]?st|g\.?s\.?[ _-]?(i|1|paper)|csp|prelim|pre[_ -]?exam|answer|ans[_ -]?key|key|csm|gs\d|qp/i;
 const SKIP =
   /\b(optional|literature|lit|compulsory|engg|engineering|agricultur\w*|anthropolog\w*|botan\w*|chemistry|commerce|economics|geograph\w*|geolog\w*|history|law|management|mathematics|medical|philosoph\w*|physics|political|psychology|public administration|sociology|statistics|zoology|animal|ifs|forest|cds|nda|cms|ese|ies|capf|geo scientist|cgsp|cgsm|ifsp|ifsm|cds\w*|nda\w*|cms\w*|esep|esem|iesm|iess|capf\w*)\b/i;
 
@@ -56,7 +60,10 @@ async function listPdfs(): Promise<Map<string, string>> {
       const href = m[1] ?? '';
       const text = (m[2] ?? '').replace(/<[^>]+>|\s+/g, ' ').trim();
       const url = href.startsWith('http') ? href : BASE + (href.startsWith('/') ? '' : '/') + href;
-      const words = `${text} ${decodeURIComponent(url).split('/').pop() ?? ''}`.replace(/[^a-z0-9]+/gi, ' ');
+      const words = `${text} ${decodeURIComponent(url).split('/').pop() ?? ''}`.replace(
+        /[^a-z0-9]+/gi,
+        ' ',
+      );
       if (!WANTED.test(`${text} ${url}`) || SKIP.test(words)) continue;
       if (!url.includes('upsc.gov.in')) continue;
       found.set(url, text);
@@ -123,7 +130,16 @@ title: copy the paper/subject title exactly as printed (e.g. "GENERAL STUDIES (P
   return res.data;
 }
 
-const ROMAN: Record<string, string> = { i: 'gs1', '1': 'gs1', ii: 'gs2', '2': 'gs2', iii: 'gs3', '3': 'gs3', iv: 'gs4', '4': 'gs4' };
+const ROMAN: Record<string, string> = {
+  i: 'gs1',
+  '1': 'gs1',
+  ii: 'gs2',
+  '2': 'gs2',
+  iii: 'gs3',
+  '3': 'gs3',
+  iv: 'gs4',
+  '4': 'gs4',
+};
 
 /** The printed title must say General Studies and agree with the paper number (catches optionals). */
 function titleMatches(id: Identity): boolean {
@@ -156,12 +172,18 @@ async function main() {
   for (const url of links.keys()) {
     // Older cache entries have no title; re-identify the ones that claimed to be GS papers.
     const cached = cache[url];
-    if (cached && (cached.title !== undefined || !['gs1', 'gs2', 'gs3', 'gs4'].includes(cached.paper))) continue;
+    if (
+      cached &&
+      (cached.title !== undefined || !['gs1', 'gs2', 'gs3', 'gs4'].includes(cached.paper))
+    )
+      continue;
     const file = await download(url);
     if (!file) continue;
     try {
       cache[url] = await identify(file);
-      console.log(`${cache[url].exam} ${cache[url].paper} ${cache[url].year} ${cache[url].kind} ← ${url}`);
+      console.log(
+        `${cache[url].exam} ${cache[url].paper} ${cache[url].year} ${cache[url].kind} ← ${url}`,
+      );
     } catch (err) {
       console.warn(`identify failed: ${url}: ${(err as Error).message}`);
     }
@@ -172,7 +194,8 @@ async function main() {
   const keys = new Map<number, string>();
   for (const [url, id] of Object.entries(cache)) {
     if (!titleMatches(id)) continue;
-    if (id.kind === 'answer_key' && id.exam === 'prelims' && id.paper === 'gs1') keys.set(id.year, url);
+    if (id.kind === 'answer_key' && id.exam === 'prelims' && id.paper === 'gs1')
+      keys.set(id.year, url);
     if (id.kind !== 'question_paper') continue;
     const wanted =
       (id.exam === 'prelims' && id.paper === 'gs1' && id.year >= 2011) ||
@@ -197,7 +220,9 @@ async function main() {
     }
   }
   const list = [...entries.values()].sort((a, b) =>
-    a.exam === b.exam ? a.year - b.year || a.paper.localeCompare(b.paper) : a.exam.localeCompare(b.exam),
+    a.exam === b.exam
+      ? a.year - b.year || a.paper.localeCompare(b.paper)
+      : a.exam.localeCompare(b.exam),
   );
   await writeFile(MANIFEST, `${JSON.stringify({ papers: list }, null, 2)}\n`);
 

@@ -47,9 +47,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.indian-economy.national-income-growth.gdp-gnp-measurement"
-      ]
+      "prereqs": ["gs3.indian-economy.national-income-growth.gdp-gnp-measurement"]
     },
     {
       "id": "gs3.indian-economy.national-income-growth.structural-composition",
@@ -59,9 +57,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.indian-economy.national-income-growth.gdp-gnp-measurement"
-      ]
+      "prereqs": ["gs3.indian-economy.national-income-growth.gdp-gnp-measurement"]
     },
     {
       "id": "gs3.indian-economy.national-income-growth.potential-gdp",
@@ -71,9 +67,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.indian-economy.national-income-growth.gdp-gnp-measurement"
-      ]
+      "prereqs": ["gs3.indian-economy.national-income-growth.gdp-gnp-measurement"]
     },
     {
       "id": "gs3.indian-economy.national-income-growth.planning-history-niti",
@@ -112,9 +106,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions"
-      ]
+      "prereqs": ["gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions"]
     },
     {
       "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
@@ -144,9 +136,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.indian-economy.inclusive-growth-employment.employment-trends-types"
-      ]
+      "prereqs": ["gs3.indian-economy.inclusive-growth-employment.employment-trends-types"]
     },
     {
       "id": "gs3.indian-economy.inclusive-growth-employment.financial-inclusion-initiatives",
@@ -197,9 +187,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.indian-economy.government-budgeting-fiscal-policy.types-of-deficits"
-      ]
+      "prereqs": ["gs3.indian-economy.government-budgeting-fiscal-policy.types-of-deficits"]
     },
     {
       "id": "gs3.indian-economy.government-budgeting-fiscal-policy.taxation-reforms-gst",
@@ -281,9 +269,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.indian-economy.monetary-and-financial-system.monetary-policy-framework"
-      ]
+      "prereqs": ["gs3.indian-economy.monetary-and-financial-system.monetary-policy-framework"]
     },
     {
       "id": "gs3.indian-economy.monetary-and-financial-system.banking-npa-twin-balance",
@@ -303,9 +289,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.indian-economy.monetary-and-financial-system.banking-npa-twin-balance"
-      ]
+      "prereqs": ["gs3.indian-economy.monetary-and-financial-system.banking-npa-twin-balance"]
     },
     {
       "id": "gs3.indian-economy.monetary-and-financial-system.financial-markets-capital",
@@ -364,9 +348,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.indian-economy.external-sector.bop-cad-forex"
-      ]
+      "prereqs": ["gs3.indian-economy.external-sector.bop-cad-forex"]
     },
     {
       "id": "gs3.indian-economy.external-sector.foreign-trade-policy",
@@ -376,9 +358,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.indian-economy.external-sector.bop-cad-forex"
-      ]
+      "prereqs": ["gs3.indian-economy.external-sector.bop-cad-forex"]
     },
     {
       "id": "gs3.indian-economy.external-sector.wto-india-agreements",
@@ -439,9 +419,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors"
-      ]
+      "prereqs": ["gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors"]
     },
     {
       "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
@@ -461,9 +439,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency"
-      ]
+      "prereqs": ["gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency"]
     },
     {
       "id": "gs3.agriculture.cropping-patterns-irrigation.seed-technology-gm-crops",
@@ -493,9 +469,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.agriculture.cropping-patterns-irrigation.soil-health-fertilizers"
-      ]
+      "prereqs": ["gs3.agriculture.cropping-patterns-irrigation.soil-health-fertilizers"]
     },
     {
       "id": "gs3.agriculture.cropping-patterns-irrigation.farm-mechanization",
@@ -544,9 +518,7 @@
       "estMinutes": 60,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs3.agriculture.farm-subsidies-and-pricing.msp-determination-cacp"
-      ]
+      "prereqs": ["gs3.agriculture.farm-subsidies-and-pricing.msp-determination-cacp"]
     },
     {
       "id": "gs3.agriculture.farm-subsidies-and-pricing.agricultural-credit-flow",
@@ -654,9 +626,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.agriculture.pds-food-security.pds-functioning-reforms"
-      ]
+      "prereqs": ["gs3.agriculture.pds-food-security.pds-functioning-reforms"]
     },
     {
       "id": "gs3.agriculture.pds-food-security.buffer-stock-norms-fci",
@@ -666,9 +636,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.agriculture.pds-food-security.pds-functioning-reforms"
-      ]
+      "prereqs": ["gs3.agriculture.pds-food-security.pds-functioning-reforms"]
     },
     {
       "id": "gs3.agriculture.pds-food-security.dbt-in-food-rationing",
@@ -781,9 +749,7 @@
       "estMinutes": 50,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs3.agriculture.land-reforms.land-tenure-zamindari-abolition"
-      ]
+      "prereqs": ["gs3.agriculture.land-reforms.land-tenure-zamindari-abolition"]
     },
     {
       "id": "gs3.agriculture.land-reforms.digital-land-records-svamitva",
@@ -927,9 +893,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration"
-      ]
+      "prereqs": ["gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration"]
     },
     {
       "id": "gs3.industry-infrastructure.infrastructure-sectors.transport-roads-bharatmala",
@@ -1008,9 +972,7 @@
       "estMinutes": 50,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham"
-      ]
+      "prereqs": ["gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham"]
     },
     {
       "id": "gs3.industry-infrastructure.investment-models.national-monetisation-pipeline",
@@ -1020,9 +982,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham"
-      ]
+      "prereqs": ["gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham"]
     },
     {
       "id": "gs3.industry-infrastructure.investment-models.alternative-financing-invit-reit",
@@ -1185,9 +1145,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.science-technology.space-technology.launch-vehicles-evolution"
-      ]
+      "prereqs": ["gs3.science-technology.space-technology.launch-vehicles-evolution"]
     },
     {
       "id": "gs3.science-technology.space-technology.space-debris-weaponization",
@@ -1315,9 +1273,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology"
-      ]
+      "prereqs": ["gs3.science-technology.biotechnology-and-health.recombinant-dna-technology"]
     },
     {
       "id": "gs3.science-technology.biotechnology-and-health.genome-sequencing-projects",
@@ -1327,9 +1283,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology"
-      ]
+      "prereqs": ["gs3.science-technology.biotechnology-and-health.recombinant-dna-technology"]
     },
     {
       "id": "gs3.science-technology.biotechnology-and-health.stem-cells-cloning",
@@ -1369,9 +1323,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology"
-      ]
+      "prereqs": ["gs3.science-technology.biotechnology-and-health.recombinant-dna-technology"]
     },
     {
       "id": "gs3.science-technology.nanotechnology-and-ipr",
@@ -1400,9 +1352,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.science-technology.nanotechnology-and-ipr.nanotechnology-concepts-materials"
-      ]
+      "prereqs": ["gs3.science-technology.nanotechnology-and-ipr.nanotechnology-concepts-materials"]
     },
     {
       "id": "gs3.science-technology.nanotechnology-and-ipr.robotics-and-drones",
@@ -1432,9 +1382,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties"
-      ]
+      "prereqs": ["gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties"]
     },
     {
       "id": "gs3.science-technology.nanotechnology-and-ipr.traditional-knowledge-tkdl",
@@ -1444,9 +1392,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties"
-      ]
+      "prereqs": ["gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties"]
     },
     {
       "id": "gs3.environment-biodiversity",
@@ -2063,9 +2009,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture"
-      ]
+      "prereqs": ["gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture"]
     },
     {
       "id": "gs3.disaster-management.dm-institutional-framework.financing-ndrmf-sdrmf",
@@ -2075,9 +2019,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture"
-      ]
+      "prereqs": ["gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture"]
     },
     {
       "id": "gs3.disaster-management.dm-institutional-framework.sendai-framework-priorities",
@@ -2110,9 +2052,7 @@
       "estMinutes": 50,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture"
-      ]
+      "prereqs": ["gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture"]
     },
     {
       "id": "gs3.disaster-management.dm-institutional-framework.cdri-and-resilient-infrastructure",
@@ -2160,9 +2100,7 @@
       "estMinutes": 50,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs3.internal-security.development-and-extremism.left-wing-extremism-roots"
-      ]
+      "prereqs": ["gs3.internal-security.development-and-extremism.left-wing-extremism-roots"]
     },
     {
       "id": "gs3.internal-security.development-and-extremism.government-strategy-lwe",
@@ -2185,9 +2123,7 @@
       "estMinutes": 50,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs3.internal-security.development-and-extremism.left-wing-extremism-roots"
-      ]
+      "prereqs": ["gs3.internal-security.development-and-extremism.left-wing-extremism-roots"]
     },
     {
       "id": "gs3.internal-security.external-actors-and-insurgency",
@@ -2279,9 +2215,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors"
-      ]
+      "prereqs": ["gs3.internal-security.cyber-security-and-media.cyber-threat-vectors"]
     },
     {
       "id": "gs3.internal-security.cyber-security-and-media.national-cyber-security-policy",
@@ -2399,9 +2333,7 @@
       "estMinutes": 60,
       "prelims": false,
       "mains": true,
-      "prereqs": [
-        "gs3.internal-security.money-laundering-organized-crime.organized-crime-nexus"
-      ]
+      "prereqs": ["gs3.internal-security.money-laundering-organized-crime.organized-crime-nexus"]
     },
     {
       "id": "gs3.internal-security.money-laundering-organized-crime.terror-financing-monitoring",
@@ -2492,9 +2424,7 @@
       "estMinutes": 50,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.internal-security.border-management.india-china-border-lac"
-      ]
+      "prereqs": ["gs3.internal-security.border-management.india-china-border-lac"]
     },
     {
       "id": "gs3.internal-security.security-forces-agencies",
@@ -2553,9 +2483,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": true,
-      "prereqs": [
-        "gs3.internal-security.security-forces-agencies.investigation-agencies-nia-cbi"
-      ]
+      "prereqs": ["gs3.internal-security.security-forces-agencies.investigation-agencies-nia-cbi"]
     },
     {
       "id": "gs3.internal-security.security-forces-agencies.natgrid-cctns-integration",

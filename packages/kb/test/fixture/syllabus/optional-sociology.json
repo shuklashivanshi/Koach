@@ -1,0 +1,38 @@
+{
+  "paper": "optional:sociology",
+  "title": "Sociology",
+  "nodes": [
+    {
+      "id": "opt.sociology",
+      "parentId": null,
+      "title": "Sociology",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true
+    },
+    {
+      "id": "opt.sociology.p1",
+      "parentId": "opt.sociology",
+      "title": "Sociology · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true
+    },
+    {
+      "id": "opt.sociology.p1.t01",
+      "parentId": "opt.sociology.p1",
+      "title": "Sociology as a discipline",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true
+    },
+    {
+      "id": "opt.sociology.p1.t02",
+      "parentId": "opt.sociology.p1",
+      "title": "Research methods",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true
+    }
+  ]
+}

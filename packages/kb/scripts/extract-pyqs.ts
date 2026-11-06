@@ -83,7 +83,11 @@ async function extractPaper(e: ManifestEntry): Promise<{ file: PyqFile; series?:
     for (const q of res.data.questions) {
       const prev = merged.get(q.number);
       // Keep the most complete copy (a question split across chunks appears twice).
-      if (!prev || q.text.length + (q.options?.length ?? 0) * 20 > prev.text.length + (prev.options?.length ?? 0) * 20) {
+      if (
+        !prev ||
+        q.text.length + (q.options?.length ?? 0) * 20 >
+          prev.text.length + (prev.options?.length ?? 0) * 20
+      ) {
         merged.set(q.number, q);
       }
     }
@@ -121,7 +125,8 @@ General Studies Paper I. For each booklet series in it, list the answer (a, b, c
 "x" if the question was dropped) for every question number.`,
   });
   const all = res.data.series;
-  const pick = (series && all.find((s) => s.series.toUpperCase() === series.toUpperCase())) || all[0];
+  const pick =
+    (series && all.find((s) => s.series.toUpperCase() === series.toUpperCase())) || all[0];
   return pick ? new Map(pick.answers.map((a) => [a.number, a.answer.toLowerCase()])) : null;
 }
 
@@ -133,7 +138,9 @@ const Solved = z.object({
  * No official key: two independent solves (different question order). Only answers both agree on
  * are kept, marked answerSource "model"; disagreements are reported for human review.
  */
-async function solveAnswers(file: PyqFile): Promise<{ agreed: Map<number, string>; disputed: number[] }> {
+async function solveAnswers(
+  file: PyqFile,
+): Promise<{ agreed: Map<number, string>; disputed: number[] }> {
   const run = async (order: PyqFile['questions']) => {
     const out = new Map<number, string>();
     for (let i = 0; i < order.length; i += 25) {
@@ -191,7 +198,9 @@ async function main() {
             const a = agreed.get(q.number);
             if (a) Object.assign(q, { answer: a, answerSource: 'model' as const });
           }
-          issues.push(`no official key: ${agreed.size} model-agreed, ${disputed.length} disputed (${disputed.join(',')})`);
+          issues.push(
+            `no official key: ${agreed.size} model-agreed, ${disputed.length} disputed (${disputed.join(',')})`,
+          );
         }
         if (file.questions.length !== 100) issues.push(`${file.questions.length}/100 questions`);
         const noOptions = file.questions.filter((q) => (q.options?.length ?? 0) !== 4).length;
@@ -201,7 +210,9 @@ async function main() {
       }
       await writeFile(join(OUT, `${id}.json`), `${JSON.stringify(file, null, 2)}\n`);
       report[id] = { questions: file.questions.length, series: series ?? null, issues };
-      console.log(`${id}: ${file.questions.length} questions${issues.length ? ` ⚠ ${issues.join('; ')}` : ''}`);
+      console.log(
+        `${id}: ${file.questions.length} questions${issues.length ? ` ⚠ ${issues.join('; ')}` : ''}`,
+      );
     } catch (err) {
       report[id] = { error: (err as Error).message };
       console.warn(`${id}: failed: ${(err as Error).message}`);

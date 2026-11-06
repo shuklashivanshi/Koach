@@ -41,6 +41,13 @@ import {
   Palace,
   Playlist,
   RecallGrade,
+  CoachReply,
+  DecisionStatus,
+  type FitQuiz,
+  FitRanking,
+  OptionalCompare,
+  OptionalExplorer,
+  OptionalList,
 } from '@koach/shared';
 import type { z } from 'zod';
 import { currentIdToken } from '../auth/firebase';
@@ -212,6 +219,28 @@ export const api = {
     request('/v1/coach/checkin', CoachState.pick({ lighterWeek: true }), {
       method: 'POST',
       body: JSON.stringify({ level }),
+    }),
+  // Optional Discovery (Phase 7)
+  optionals: () => request('/v1/optionals', OptionalList),
+  optional: (slug: string) =>
+    request(`/v1/optionals/item/${encodeURIComponent(slug)}`, OptionalExplorer),
+  compareOptionals: (slugs: string[]) =>
+    request(
+      `/v1/optionals/compare?slugs=${slugs.map(encodeURIComponent).join(',')}`,
+      OptionalCompare,
+    ),
+  fitQuiz: (q: FitQuiz) =>
+    request('/v1/optionals/quiz', FitRanking, { method: 'POST', body: JSON.stringify(q) }),
+  decision: () => request('/v1/optionals/status', DecisionStatus),
+  askCoach: (question: string, slugs: string[]) =>
+    request('/v1/optionals/coach', CoachReply, {
+      method: 'POST',
+      body: JSON.stringify({ question, slugs }),
+    }),
+  chooseOptional: (slug: string, reasons: string) =>
+    request('/v1/optionals/choice', DecisionStatus, {
+      method: 'POST',
+      body: JSON.stringify({ slug, reasons }),
     }),
   transcribe: (audioBase64: string, seconds: number) =>
     request('/v1/speech/transcribe', TranscribeResponse, {

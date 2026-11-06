@@ -47,9 +47,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.comprehension.rc-core-skills.central-idea-theme"
-      ]
+      "prereqs": ["csat.comprehension.rc-core-skills.central-idea-theme"]
     },
     {
       "id": "csat.comprehension.rc-core-skills.logical-corollaries",
@@ -59,9 +57,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.comprehension.rc-core-skills.assumptions-inferences"
-      ]
+      "prereqs": ["csat.comprehension.rc-core-skills.assumptions-inferences"]
     },
     {
       "id": "csat.comprehension.rc-core-skills.tone-author-intent",
@@ -71,9 +67,7 @@
       "estMinutes": 45,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.comprehension.rc-core-skills.central-idea-theme"
-      ]
+      "prereqs": ["csat.comprehension.rc-core-skills.central-idea-theme"]
     },
     {
       "id": "csat.comprehension.rc-thematic-passages",
@@ -153,9 +147,7 @@
       "estMinutes": 45,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.logical-reasoning.deductive-reasoning.courses-of-action"
-      ]
+      "prereqs": ["csat.logical-reasoning.deductive-reasoning.courses-of-action"]
     },
     {
       "id": "csat.comprehension.decision-making-interpersonal.prioritization-problem-solving",
@@ -165,9 +157,7 @@
       "estMinutes": 45,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.comprehension.decision-making-interpersonal.administrative-decision-making"
-      ]
+      "prereqs": ["csat.comprehension.decision-making-interpersonal.administrative-decision-making"]
     },
     {
       "id": "csat.logical-reasoning",
@@ -215,9 +205,7 @@
       "estMinutes": 45,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.logical-reasoning.deductive-reasoning.statement-assumptions-conclusions"
-      ]
+      "prereqs": ["csat.logical-reasoning.deductive-reasoning.statement-assumptions-conclusions"]
     },
     {
       "id": "csat.logical-reasoning.analytical-arrangement",
@@ -356,9 +344,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.basic-numeracy.number-system.prime-composite-integers"
-      ]
+      "prereqs": ["csat.basic-numeracy.number-system.prime-composite-integers"]
     },
     {
       "id": "csat.basic-numeracy.number-system.hcf-lcm",
@@ -410,9 +396,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.basic-numeracy.number-system.fractions-decimals-surds"
-      ]
+      "prereqs": ["csat.basic-numeracy.number-system.fractions-decimals-surds"]
     },
     {
       "id": "csat.basic-numeracy.arithmetic-relations.ratios-proportions",
@@ -422,9 +406,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.basic-numeracy.number-system.fractions-decimals-surds"
-      ]
+      "prereqs": ["csat.basic-numeracy.number-system.fractions-decimals-surds"]
     },
     {
       "id": "csat.basic-numeracy.arithmetic-relations.averages-alligations",
@@ -434,9 +416,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.basic-numeracy.arithmetic-relations.ratios-proportions"
-      ]
+      "prereqs": ["csat.basic-numeracy.arithmetic-relations.ratios-proportions"]
     },
     {
       "id": "csat.basic-numeracy.arithmetic-relations.profit-loss-discount",
@@ -459,9 +439,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.basic-numeracy.arithmetic-relations.percentages"
-      ]
+      "prereqs": ["csat.basic-numeracy.arithmetic-relations.percentages"]
     },
     {
       "id": "csat.basic-numeracy.motion-time-work",
@@ -493,9 +471,7 @@
       "estMinutes": 75,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.basic-numeracy.arithmetic-relations.ratios-proportions"
-      ]
+      "prereqs": ["csat.basic-numeracy.arithmetic-relations.ratios-proportions"]
     },
     {
       "id": "csat.basic-numeracy.motion-time-work.trains-boats-streams",
@@ -505,9 +481,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.basic-numeracy.motion-time-work.speed-distance-relative-motion"
-      ]
+      "prereqs": ["csat.basic-numeracy.motion-time-work.speed-distance-relative-motion"]
     },
     {
       "id": "csat.basic-numeracy.combinatorics-mensuration",
@@ -601,9 +575,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.data-interpretation.charts-graphs.tables-cross-tabulation"
-      ]
+      "prereqs": ["csat.data-interpretation.charts-graphs.tables-cross-tabulation"]
     },
     {
       "id": "csat.data-interpretation.charts-graphs.pie-charts",
@@ -626,9 +598,7 @@
       "estMinutes": 60,
       "prelims": true,
       "mains": false,
-      "prereqs": [
-        "csat.data-interpretation.charts-graphs.tables-cross-tabulation"
-      ]
+      "prereqs": ["csat.data-interpretation.charts-graphs.tables-cross-tabulation"]
     },
     {
       "id": "csat.data-interpretation.data-sufficiency-eval",
