@@ -24,7 +24,7 @@ requirements: [AUTH-01, AUTH-03, PLAT-04]
 
 ## Verification
 - 16 API tests (auth, me, email flow incl. rate limits/expiry/lockout, export/delete) — 46 total green; typecheck, lint, format green.
-- Local server smoke: `/healthz` 200, `/v1/me` 401 → 200 with a dev token, email start 204 with a dev-echoed code.
+- Local server smoke: `/health` 200, `/v1/me` 401 → 200 with a dev token, email start 204 with a dev-echoed code.
 - `tsup` bundle builds `dist/server.js`.
 
 ## Deviations from plan

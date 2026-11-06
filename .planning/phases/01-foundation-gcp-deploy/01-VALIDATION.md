@@ -50,7 +50,7 @@ created: "2026-11-06"
 | 1-06-03 | 06 | 2 | AUTH-03 | T-1-05 | Dev screen unreachable in non-dev builds | component | `pnpm --filter @koach/mobile test -- you.test.tsx` | ❌ W0 | ⬜ pending |
 | 1-04-01 | 04 | 3 | PLAT-05 | — | No PII in prompts | unit | `pnpm --filter @koach/ai test` | ❌ W0 | ⬜ pending |
 | 1-04-03 | 04 | 3 | PLAT-05 | — | N/A | eval | `pnpm --filter @koach/ai eval` | ❌ W0 | ⬜ pending |
-| 1-05-01 | 05 | 4 | PLAT-02 | T-1-01 | Secrets via Secret Manager only | cloud | `gcloud builds submit ... && curl /healthz` | ❌ W0 | ⬜ pending |
+| 1-05-01 | 05 | 4 | PLAT-02 | T-1-01 | Secrets via Secret Manager only | cloud | `gcloud builds submit ... && curl /health` | ❌ W0 | ⬜ pending |
 | 1-05-03 | 05 | 4 | PLAT-02 | T-1-02 | Live 401/200 behaviour | e2e (live) | `infra/smoke.sh dev` | ❌ W0 | ⬜ pending |
 
 *Status: ⬜ pending · ✅ green · ❌ red · ⚠️ flaky*

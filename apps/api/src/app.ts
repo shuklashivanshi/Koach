@@ -10,7 +10,7 @@ import {
 import type { Deps } from './deps';
 import { requireAuth } from './plugins/auth';
 import { loggerOptions } from './plugins/logging';
-import { healthzRoutes } from './routes/healthz';
+import { healthRoutes } from './routes/health';
 import { aiPingRoutes } from './routes/v1/ai/ping';
 import { emailAuthRoutes } from './routes/v1/auth/email';
 import { meExportRoutes } from './routes/v1/me/export';
@@ -42,7 +42,7 @@ export async function buildApp(deps: Deps, options: BuildOptions = {}): Promise<
   });
 
   const typed = app.withTypeProvider<ZodTypeProvider>();
-  await typed.register(healthzRoutes(deps));
+  await typed.register(healthRoutes(deps));
   // Public: email sign-in must work before the user has a token.
   await typed.register(emailAuthRoutes(deps), { prefix: '/v1' });
 

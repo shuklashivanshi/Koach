@@ -60,7 +60,7 @@ Feature definitions: `.planning/PROJECT.md`. Requirement IDs: `.planning/REQUIRE
 **Requirements**: PLAT-01, PLAT-02, PLAT-03, PLAT-04, PLAT-05, PLAT-06, AUTH-01, AUTH-02, AUTH-03
 **Success Criteria** (what must be TRUE):
   1. Running the bootstrap script on a fresh GCP project creates everything the API needs (APIs incl. Vertex AI and speech, service accounts, Artifact Registry, Cloud SQL, secrets, budget alert)
-  2. Pushing to `main` triggers Cloud Build with `deploy.yaml`, which runs checks and migrations, deploys `koach-api` to Cloud Run (`asia-south1`) and passes the `/healthz` smoke test
+  2. Pushing to `main` triggers Cloud Build with `deploy.yaml`, which runs checks and migrations, deploys `koach-api` to Cloud Run (`asia-south1`) and passes the `/health` smoke test
   3. User can sign in on a physical phone (EAS dev build) with Google and stays signed in after restarting the app; the app renders with `packages/ui` tokens
   4. An authenticated `/v1/ai/ping` returns a Gemini response and a short TTS clip, with tokens/cost logged
   5. User can request a data export and account deletion

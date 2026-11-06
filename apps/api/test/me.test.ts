@@ -11,8 +11,8 @@ describe('auth + /v1/me (tracer)', () => {
   });
   afterEach(() => ctx.close());
 
-  it('serves /healthz without auth', async () => {
-    const res = await ctx.app.inject({ method: 'GET', url: '/healthz' });
+  it('serves /health without auth', async () => {
+    const res = await ctx.app.inject({ method: 'GET', url: '/health' });
     expect(res.statusCode).toBe(200);
     expect(res.json()).toEqual({ ok: true, version: 'test' });
   });

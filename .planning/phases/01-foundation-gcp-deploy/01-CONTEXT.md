@@ -28,7 +28,7 @@ Requirements: PLAT-01..06, AUTH-01..03.
   - **Email code:** `POST /v1/auth/email/start` stores a **hashed** code (SHA-256 with a per-code salt) with a 10-minute expiry and max 5 attempts. Rate limit: 3 starts per 15 min per email and per IP. `POST /v1/auth/email/verify` checks the code, then mints a **Firebase custom token** (firebase-admin), and the app calls `signInWithCustomToken`. Firebase email *links* are not used (Dynamic Links shut down in 2025).
 - **D-05:** Email delivery via **Resend**: API key in Secret Manager as `RESEND_API_KEY`, behind an `EmailSender` interface so the provider can be swapped.
   - In `APP_ENV=dev` only, setting `EMAIL_DEV_ECHO=1` also writes the code to server logs, for testing without a mailbox. It is forbidden in prod, and startup fails if it's set there.
-- **D-06:** All API routes except `/healthz` and `/v1/auth/email/*` require a Firebase ID token (`Authorization: Bearer`), verified with firebase-admin. The first authenticated request upserts a `users` row (uid, email, created_at).
+- **D-06:** All API routes except `/health` (Cloud Run reserves `/healthz`) and `/v1/auth/email/*` require a Firebase ID token (`Authorization: Bearer`), verified with firebase-admin. The first authenticated request upserts a `users` row (uid, email, created_at).
 - **D-07:** Session persistence relies on React Native Firebase's native persistence. No custom token storage.
 
 ### Environments & GCP
@@ -59,7 +59,7 @@ Requirements: PLAT-01..06, AUTH-01..03.
 
 ### CI/CD
 - **D-22:** Code is hosted in a **private GitHub repo** (the user creates it and connects the Cloud Build GitHub App as a 2nd-gen repository connection). The trigger runs `deploy.yaml` on push to `main` with `_ENV=dev`.
-- **D-23:** `deploy.yaml` uses Node 24 images. The pipeline: install → typecheck/lint/test → build api + jobs images → push → `koach-migrate` job → deploy `koach-api` → smoke-test `/healthz`. Phase 1 does **not** deploy `koach-ca-ingest` / `koach-rebalance`, which have no code yet; the draft's step 7 becomes a no-op until Phases 4–5.
+- **D-23:** `deploy.yaml` uses Node 24 images. The pipeline: install → typecheck/lint/test → build api + jobs images → push → `koach-migrate` job → deploy `koach-api` → smoke-test `/health` (Cloud Run reserves `/healthz`). Phase 1 does **not** deploy `koach-ca-ingest` / `koach-rebalance`, which have no code yet; the draft's step 7 becomes a no-op until Phases 4–5.
 
 ### Claude's Discretion
 - Internal folder layout inside apps and packages, lint rule details, exact Drizzle table naming (snake_case), the Chirp voice name, and test file organisation.

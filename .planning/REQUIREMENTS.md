@@ -12,7 +12,7 @@ Committed scope for milestone **v1.0 Daily Coach MVP** (target ~3 Dec 2026). Eac
 ### Platform (PLAT)
 
 - [ ] **PLAT-01**: GCP projects (`koach-dev`, `koach-prod`) are bootstrapped by a script: required APIs enabled (incl. Vertex AI, Text-to-Speech, Speech-to-Text), least-privilege service accounts, Artifact Registry, Cloud SQL, Secret Manager, budget alert
-- [ ] **PLAT-02**: `deploy.yaml` (Cloud Build) typechecks, lints, tests, builds and pushes the API and jobs images, runs DB migrations, deploys to Cloud Run in `asia-south1`, and smoke-tests `/healthz`
+- [ ] **PLAT-02**: `deploy.yaml` (Cloud Build) typechecks, lints, tests, builds and pushes the API and jobs images, runs DB migrations, deploys to Cloud Run in `asia-south1`, and smoke-tests `/health`
 - [ ] **PLAT-03**: pnpm monorepo with `apps/mobile`, `apps/api`, `apps/jobs`, `packages/shared`, `packages/algo`, `packages/ai`, `packages/ui`, all strict TypeScript
 - [ ] **PLAT-04**: Cloud SQL Postgres 16 with pgvector; schema migrations are versioned and reproducible
 - [ ] **PLAT-05**: A Vertex AI + speech client wrapper with config-driven model IDs, retries, token/cost logging, and an eval harness runnable in CI

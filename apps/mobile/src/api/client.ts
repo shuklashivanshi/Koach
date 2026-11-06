@@ -51,7 +51,7 @@ async function request<S extends z.ZodType | null>(
 }
 
 export const api = {
-  health: () => request('/healthz', HealthResponse),
+  health: () => request('/health', HealthResponse),
   me: () => request('/v1/me', MeSchema),
   emailStart: (email: string) =>
     request('/v1/auth/email/start', null, { method: 'POST', body: JSON.stringify({ email }) }),

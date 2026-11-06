@@ -19,7 +19,7 @@ code_of() { curl -s -o /dev/null -w '%{http_code}' "$@"; }
 json_field() { node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const v=JSON.parse(s)[process.argv[1]];process.stdout.write(v==null?"":String(v))})' "$1"; }
 
 printf 'Smoke test %s\n' "$URL"
-row "GET /healthz" "$(code_of "$URL/healthz")" 200
+row "GET /health" "$(code_of "$URL/health")" 200
 row "GET /v1/me without token" "$(code_of "$URL/v1/me")" 401
 row "POST /v1/auth/email/start" "$(code_of -X POST -H 'content-type: application/json' \
   -d "{\"email\":\"$EMAIL\"}" "$URL/v1/auth/email/start")" 204
