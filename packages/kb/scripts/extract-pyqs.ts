@@ -77,8 +77,8 @@ async function extractPaper(e: ManifestEntry): Promise<{ file: PyqFile; series?:
       prompt: e.exam === 'prelims' ? PRELIMS_PROMPT : MAINS_PROMPT,
     });
     series ??= res.data.series || undefined;
-    if (from === 0 && res.data.paperTitle && !/general\s*studies/i.test(res.data.paperTitle)) {
-      throw new Error(`not a General Studies paper: "${res.data.paperTitle}"`);
+    if (from === 0 && res.data.paperTitle && /aptitude|csat|paper\s*(ii|2)\b/i.test(res.data.paperTitle)) {
+      throw new Error(`not the General Studies paper: "${res.data.paperTitle}"`);
     }
     for (const q of res.data.questions) {
       const prev = merged.get(q.number);
