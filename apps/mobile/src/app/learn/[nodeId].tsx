@@ -187,6 +187,15 @@ export default function Learn() {
               Missed recalls will come back in revision.
             </Text>
           )}
+          <Button
+            label="Make it stick"
+            kind="secondary"
+            onPress={() =>
+              router.push(
+                `/stick/${encodeURIComponent(session.node.id)}?title=${encodeURIComponent(session.node.title)}`,
+              )
+            }
+          />
           <Button label="Back to today" onPress={() => router.replace('/today')} />
         </>
       )}

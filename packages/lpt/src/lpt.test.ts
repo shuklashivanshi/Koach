@@ -90,3 +90,20 @@ describe('learning pattern test', () => {
     );
   });
 });
+
+describe('cue format rules', async () => {
+  const { chooseFormat, patternOf, FORMATS } = await import('./cues');
+  it('maps every format to one pattern and follows the 60/25/15 mix', () => {
+    expect(patternOf('mnemonic')).toBe('auditory');
+    expect(patternOf('why')).toBe('everyone');
+    const scores = { visual: 90, auditory: 70, readwrite: 40, kinesthetic: 20 };
+    const counts = { visual: 0, auditory: 0, readwrite: 0, kinesthetic: 0, everyone: 0 };
+    for (let i = 0; i < 2000; i++) counts[patternOf(chooseFormat(scores, `node-${i}`))]++;
+    expect(counts.visual / 2000).toBeGreaterThan(0.53);
+    expect(counts.visual / 2000).toBeLessThan(0.67);
+    expect(counts.auditory / 2000).toBeGreaterThan(0.19);
+    expect(counts.readwrite + counts.kinesthetic).toBeGreaterThan(200);
+    expect(chooseFormat(scores, 'same')).toBe(chooseFormat(scores, 'same'));
+    expect(FORMATS.readwrite).toContain(chooseFormat(null, 'x'));
+  });
+});

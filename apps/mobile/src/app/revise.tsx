@@ -69,7 +69,14 @@ export default function Revise() {
             {shown && <Text muted>{card.back}</Text>}
           </PaperCard>
           {!shown ? (
-            <Button label="Show answer" onPress={() => setShown(true)} />
+            <>
+              <Button label="Show answer" onPress={() => setShown(true)} />
+              <Button
+                label="Make it stick"
+                kind="text"
+                onPress={() => router.push(`/stick/${encodeURIComponent(card.nodeId)}`)}
+              />
+            </>
           ) : (
             <View style={{ flexDirection: 'row', gap: space.xs, flexWrap: 'wrap' }}>
               <Button label="Again" kind="secondary" onPress={() => void grade('again')} />

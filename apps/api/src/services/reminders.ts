@@ -3,7 +3,10 @@ import { checkText } from '@koach/guard';
 import { and, eq, lte, sql } from 'drizzle-orm';
 import type { PushMessage, PushSender } from './push';
 import { caQuizReady } from './ca';
-import { istDay, todayPlan } from './study';
+import { todayPlan } from './study';
+import { istClock, istDay } from './time';
+import { dispatchNudges, writeCoachNote } from './coach';
+import type { AiService } from './ai';
 
 // Reminders (NOTIF-01/02): plan ready, due reviews, CA quiz, streak at risk. Rules decide; the
 // dispatcher runs every 15 minutes and sends each type at most once a day, never in work or quiet
@@ -65,8 +68,6 @@ export function reminderCopy(
   return c;
 }
 
-/** Local "HH:MM" in IST. */
-const istClock = (d: Date) => new Date(d.getTime() + 5.5 * 3_600_000).toISOString().slice(11, 16);
 const minutes = (hhmm: string) => Number(hhmm.slice(0, 2)) * 60 + Number(hhmm.slice(3, 5));
 
 /** Is `clock` inside a "HH:MM-HH:MM" range (ranges may cross midnight)? */
@@ -91,7 +92,12 @@ export async function getPrefs(db: Db, uid: string) {
   return { prefs: { ...DEFAULT_PREFS, ...(row?.prefs ?? {}) }, tone: row?.tone ?? 'calm' };
 }
 
-export async function dispatchReminders(db: Db, push: PushSender, now: Date) {
+export async function dispatchReminders(
+  db: Db,
+  push: PushSender,
+  now: Date,
+  ai: AiService | null = null,
+) {
   const caReady = await caQuizReady(db, now);
   const day = istDay(now);
   const clock = istClock(now);
@@ -145,6 +151,30 @@ export async function dispatchReminders(db: Db, push: PushSender, now: Date) {
         if (res === 'gone')
           await db.delete(s.pushSubscriptions).where(eq(s.pushSubscriptions.id, sub.id));
         else sent++;
+      }
+    }
+    const targets = subs
+      .filter((x) => x.uid === uid)
+      .map((x) => ({ endpoint: x.endpoint, keys: x.keys }));
+    // Context-aware nudges (NUDGE-01), at most 3 a day.
+    sent += await dispatchNudges(db, push, ai, now, uid, profile, tone, clock, targets);
+    // Sunday 18:00 coach note (NUDGE-02).
+    const isSunday = new Date(`${day}T00:00:00Z`).getUTCDay() === 0;
+    if (isSunday && clock >= '18:00' && clock < '18:15') {
+      const logged = await db
+        .insert(s.notificationLog)
+        .values({ uid, type: 'coach_note', day })
+        .onConflictDoNothing()
+        .returning();
+      if (logged.length && (await writeCoachNote(db, ai, uid, now))) {
+        for (const t of targets) {
+          await push.send(t, {
+            title: 'Your week',
+            body: 'A short note on the week, and one change.',
+            url: '/today',
+          });
+          sent++;
+        }
       }
     }
   }

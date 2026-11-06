@@ -22,6 +22,7 @@ import { learnerProfileRoutes } from './routes/v1/learner/profile';
 import { studyRoutes } from './routes/v1/study';
 import { notificationRoutes } from './routes/v1/notifications';
 import { caRoutes } from './routes/v1/ca';
+import { cueRoutes } from './routes/v1/cues';
 import { internalRoutes } from './routes/internal';
 import { meExportRoutes } from './routes/v1/me/export';
 import { meRoutes } from './routes/v1/me';
@@ -81,6 +82,7 @@ export async function buildApp(deps: Deps, options: BuildOptions = {}): Promise<
       await scope.register(studyRoutes(deps));
       await scope.register(notificationRoutes(deps));
       await scope.register(caRoutes(deps));
+      await scope.register(cueRoutes(deps));
       for (const routes of options.protectedRoutes ?? []) await scope.register(routes(deps));
     },
     { prefix: '/v1' },

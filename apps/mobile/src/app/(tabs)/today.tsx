@@ -1,4 +1,4 @@
-import type { LptProfile, TodayPlan } from '@koach/shared';
+import type { CoachState, LptProfile, TodayPlan } from '@koach/shared';
 import { space, sunlightFor } from '@koach/ui';
 import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
@@ -35,6 +35,8 @@ export default function Today() {
   const { c } = useTheme();
   const [plan, setPlan] = useState<TodayPlan | null>(null);
   const [lpt, setLpt] = useState<LptProfile | null | undefined>(undefined);
+  const [coach, setCoach] = useState<CoachState | null>(null);
+  const [lighter, setLighter] = useState(false);
   const [replanOpen, setReplanOpen] = useState(false);
   const [why, setWhy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -48,9 +50,10 @@ export default function Today() {
             router.replace('/onboarding');
             return;
           }
-          const [p, l] = await Promise.all([api.today(), api.lptProfile()]);
+          const [p, l, co] = await Promise.all([api.today(), api.lptProfile(), api.coach()]);
           setPlan(p);
           setLpt(l.profile);
+          setCoach(co);
         } catch {
           setError("Couldn't reach the library. Try again.");
         }
@@ -109,6 +112,49 @@ export default function Today() {
           <PaperCard style={{ paddingVertical: space.sm }}>
             <Text variant="caption">{plan.note}</Text>
           </PaperCard>
+        )}
+
+        {coach?.note && (
+          <PaperCard style={{ gap: space.xs }}>
+            <Text variant="label" muted smallCaps>
+              Your week
+            </Text>
+            {coach.note.lines.map((l) => (
+              <Text key={l} variant="caption">
+                {l}
+              </Text>
+            ))}
+            <Button
+              label="Got it"
+              kind="text"
+              onPress={() => void api.noteRead().then(() => setCoach({ ...coach, note: null }))}
+            />
+          </PaperCard>
+        )}
+        {coach?.checkInDue && (
+          <PaperCard style={{ gap: space.sm }}>
+            <Text>How heavy did this week feel?</Text>
+            <View style={{ flexDirection: 'row', gap: space.xs }}>
+              {(['light', 'fine', 'heavy'] as const).map((lv) => (
+                <Chip
+                  key={lv}
+                  label={lv[0]!.toUpperCase() + lv.slice(1)}
+                  on={false}
+                  onPress={() =>
+                    void api.checkIn(lv).then((r) => {
+                      setCoach({ ...coach, checkInDue: false });
+                      setLighter(r.lighterWeek);
+                    })
+                  }
+                />
+              ))}
+            </View>
+          </PaperCard>
+        )}
+        {lighter && (
+          <Text variant="caption" muted>
+            Next week is lighter.
+          </Text>
         )}
 
         {lpt === null && (

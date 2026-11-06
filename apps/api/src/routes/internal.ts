@@ -18,7 +18,8 @@ export const internalRoutes =
     app.post(
       '/internal/reminders',
       { schema: { response: { 200: z.object({ sent: z.number().int() }) } } },
-      async () => (deps.push ? dispatchReminders(deps.db, deps.push, deps.now()) : { sent: 0 }),
+      async () =>
+        deps.push ? dispatchReminders(deps.db, deps.push, deps.now(), deps.ai) : { sent: 0 },
     );
 
     app.post('/internal/ca-ingest', async () => ingestCurrentAffairs(deps.db, deps.ai, deps.now()));

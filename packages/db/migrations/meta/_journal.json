@@ -50,6 +50,13 @@
       "when": 1793964200471,
       "tag": "0006_ca",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1793964784814,
+      "tag": "0007_cues",
+      "breakpoints": true
     }
   ]
 }

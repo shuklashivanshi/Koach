@@ -37,7 +37,7 @@ Feature definitions: `.planning/PROJECT.md`. Requirement IDs: `.planning/REQUIRE
 - [x] **Phase 3: Onboarding & Learning Pattern Test** - Profile, diagnostic, four pattern games → strength profile
 - [x] **Phase 4: Planner, Revision & Reminders** - Scheduler, PYQ-first sessions, FSRS, mastery, mistakes notebook, heatmap, push reminders
 - [x] **Phase 5: Current Affairs Pipeline & Daily Quiz** - Ingest → summarise → link to syllabus → verified UPSC-style MCQs
-- [ ] **Phase 6: Memory Cues & Nudges** - Pattern-matched cues (palace, audio, mnemonics, cue sheets, drills), repetition, first-principles; nudges, coach note, well-being check-in
+- [x] **Phase 6: Memory Cues & Nudges** - Pattern-matched cues (palace, audio, mnemonics, cue sheets, drills), repetition, first-principles; nudges, coach note, well-being check-in
 - [ ] **Phase 7: Optional Discovery** - Fit quiz ranking, explorer & compare, decision coach
 
 ### 📋 v1.1 Prelims Engine
@@ -149,7 +149,7 @@ Plans:
   3. Every mnemonic, chant and rhyme passes the automated decode check before display
   4. User can play a background audio revision playlist; cue ratings and recall feed the strength profile
   5. User receives ≤3 context-aware push nudges per day in their tone, a Sunday coach note, and a weekly well-being check-in that can lower next week's load
-**Plans**: TBD
+**Plans**: executed as one plan (see 06-CONTEXT.md, 06-SUMMARY.md)
 
 ### Phase 7: Optional Discovery
 **Goal**: Any aspirant (first, Shivanshi by 15 Dec 2026) can choose an optional with confidence, based on personal fit and official data.

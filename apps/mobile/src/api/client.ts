@@ -34,6 +34,13 @@ import {
   CaNodeItems,
   CaResults,
   CaToday,
+  CardsAdded,
+  CoachState,
+  type CueFormatName,
+  CueResponse,
+  Palace,
+  Playlist,
+  RecallGrade,
 } from '@koach/shared';
 import type { z } from 'zod';
 import { currentIdToken } from '../auth/firebase';
@@ -180,6 +187,32 @@ export const api = {
   caShare: (url: string) =>
     request('/v1/ca/share', null, { method: 'POST', body: JSON.stringify({ url }) }),
   caForNode: (nodeId: string) => request(`/v1/ca/node/${encodeURIComponent(nodeId)}`, CaNodeItems),
+  // Memory cues and coaching (Phase 6)
+  cue: (nodeId: string, format?: CueFormatName) =>
+    request(
+      `/v1/cues/${encodeURIComponent(nodeId)}${format ? `?format=${format}` : ''}`,
+      CueResponse,
+    ),
+  rateCue: (id: string, up: boolean) =>
+    request(`/v1/cues/item/${id}/rate`, null, { method: 'POST', body: JSON.stringify({ up }) }),
+  gradeCue: (id: string, text: string) =>
+    request(`/v1/cues/item/${id}/grade`, RecallGrade, {
+      method: 'POST',
+      body: JSON.stringify({ text }),
+    }),
+  clozeCards: (id: string) => request(`/v1/cues/item/${id}/cards`, CardsAdded, { method: 'POST' }),
+  cueAudio: (id: string) => request(`/v1/cues/item/${id}/audio`, LptAudio),
+  playlist: () => request('/v1/cues/playlist', Playlist),
+  palace: () => request('/v1/palace', Palace),
+  savePalace: (p: { rooms: { name: string; loci: string[] }[] }) =>
+    request('/v1/palace', Palace, { method: 'PUT', body: JSON.stringify(p) }),
+  coach: () => request('/v1/coach', CoachState),
+  noteRead: () => request('/v1/coach/note/read', null, { method: 'POST' }),
+  checkIn: (level: 'light' | 'fine' | 'heavy') =>
+    request('/v1/coach/checkin', CoachState.pick({ lighterWeek: true }), {
+      method: 'POST',
+      body: JSON.stringify({ level }),
+    }),
   transcribe: (audioBase64: string, seconds: number) =>
     request('/v1/speech/transcribe', TranscribeResponse, {
       method: 'POST',

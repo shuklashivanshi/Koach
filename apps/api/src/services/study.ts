@@ -26,9 +26,9 @@ import { and, asc, eq, inArray, lte, sql } from 'drizzle-orm';
 const s = schema;
 const INITIAL_MASTERY = 0.1;
 
-/** Calendar day in IST as YYYY-MM-DD. */
-export const istDay = (d: Date) =>
-  new Date(d.getTime() + 5.5 * 3_600_000).toISOString().slice(0, 10);
+export { istDay } from './time';
+import { loadFactor } from './coach';
+import { istDay } from './time';
 
 /** Study nodes with their section, subject, prerequisites, source and PYQ counts. */
 async function kbNodes(db: Db) {
@@ -157,7 +157,10 @@ export async function todayPlan(db: Db, uid: string, now: Date) {
     )[0];
     if (!profile?.onboardedAt) return { day, tasks: [], note: null, minutes: 0 };
     const weekday = (new Date(`${day}T00:00:00Z`).getUTCDay() + 6) % 7; // Monday = 0
-    const minutes = profile.weekdayMinutes[weekday] ?? 0;
+    // A "heavy" well-being check-in lightens the next week (NUDGE-03).
+    const minutes = Math.round(
+      (profile.weekdayMinutes[weekday] ?? 0) * (await loadFactor(db, uid, now)),
+    );
     const carried = await rebalanceInto(db, uid, day);
     const { candidates, due } = await plannerInputs(db, uid, now);
     const tasks = buildDay({
@@ -189,7 +192,7 @@ export async function todayPlan(db: Db, uid: string, now: Date) {
     day,
     tasks: rows,
     note: note?.note ?? null,
-    minutes: profile?.weekdayMinutes[weekday] ?? 0,
+    minutes: Math.round((profile?.weekdayMinutes[weekday] ?? 0) * (await loadFactor(db, uid, now))),
   };
 }
 

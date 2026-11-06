@@ -56,6 +56,9 @@ function Navigator() {
         <Stack.Screen name="ca" />
         <Stack.Screen name="library" />
         <Stack.Screen name="reminders" />
+        <Stack.Screen name="stick/[nodeId]" />
+        <Stack.Screen name="palace" />
+        <Stack.Screen name="playlist" />
       </Stack.Protected>
     </Stack>
   );

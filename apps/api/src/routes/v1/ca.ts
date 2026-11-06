@@ -132,13 +132,11 @@ export const caRoutes =
       },
       async (request, reply) => {
         await usersRepo.upsert(deps.db, request.uid, request.userEmail);
-        await deps.db
-          .insert(s.caReports)
-          .values({
-            uid: request.uid,
-            questionId: request.params.id,
-            reason: request.body.reason ?? null,
-          });
+        await deps.db.insert(s.caReports).values({
+          uid: request.uid,
+          questionId: request.params.id,
+          reason: request.body.reason ?? null,
+        });
         await deps.db
           .update(s.caQuestions)
           .set({ status: 'pulled', reports: sql`${s.caQuestions.reports} + 1` })

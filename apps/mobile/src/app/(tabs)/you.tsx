@@ -84,6 +84,8 @@ export default function You() {
         <Row label="Memory heatmap" onPress={() => router.push('/library')} />
         <Row label="Mistakes" onPress={() => router.push('/mistakes')} />
         <Row label="How you learn" onPress={() => router.push('/lpt')} />
+        <Row label="Listen and revise" onPress={() => router.push('/playlist')} />
+        <Row label="Memory palace" onPress={() => router.push('/palace')} />
         <Row label="Reminders" onPress={() => router.push('/reminders')} />
         <Row label="Export data" onPress={exportData} />
         <Row label="Sign out" onPress={() => void signOut()} />
