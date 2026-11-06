@@ -48,7 +48,7 @@ done
 bind() { retry "${G[@]}" projects add-iam-policy-binding "$PROJECT_ID" --member="serviceAccount:$(sa_email "$1")" --role="$2" --condition=None >/dev/null; }
 log "granting roles"
 for role in roles/cloudsql.client roles/aiplatform.user roles/secretmanager.secretAccessor \
-  roles/firebaseauth.admin roles/serviceusage.serviceUsageConsumer roles/logging.logWriter; do
+  roles/speech.client roles/firebaseauth.admin roles/serviceusage.serviceUsageConsumer roles/logging.logWriter; do
   bind koach-api "$role"
 done
 for role in roles/cloudsql.client roles/aiplatform.user roles/secretmanager.secretAccessor \

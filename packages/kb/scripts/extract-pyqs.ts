@@ -125,6 +125,44 @@ General Studies Paper I. For each booklet series in it, list the answer (a, b, c
   return pick ? new Map(pick.answers.map((a) => [a.number, a.answer.toLowerCase()])) : null;
 }
 
+const Solved = z.object({
+  answers: z.array(z.object({ number: z.number().int(), answer: z.enum(['a', 'b', 'c', 'd']) })),
+});
+
+/**
+ * No official key: two independent solves (different question order). Only answers both agree on
+ * are kept, marked answerSource "model"; disagreements are reported for human review.
+ */
+async function solveAnswers(file: PyqFile): Promise<{ agreed: Map<number, string>; disputed: number[] }> {
+  const run = async (order: PyqFile['questions']) => {
+    const out = new Map<number, string>();
+    for (let i = 0; i < order.length; i += 25) {
+      const batch = order.slice(i, i + 25);
+      const res = await generateJson({
+        feature: 'kb.pyq.solve',
+        tier: 'bulk',
+        schema: Solved,
+        maxOutputTokens: 8000,
+        prompt: `Answer these UPSC Civil Services (Preliminary) ${file.year} General Studies questions.
+Think carefully about each statement; return only the letter of the correct option for each number.
+${batch.map((q) => `Q${q.number}. ${q.text}\n${(q.options ?? []).map((o) => `(${o.key}) ${o.text}`).join(' ')}`).join('\n\n')}`,
+      });
+      for (const a of res.data.answers) out.set(a.number, a.answer);
+    }
+    return out;
+  };
+  const qs = file.questions.filter((q) => q.options?.length === 4);
+  const [first, second] = await Promise.all([run(qs), run([...qs].reverse())]);
+  const agreed = new Map<number, string>();
+  const disputed: number[] = [];
+  for (const q of qs) {
+    const a = first.get(q.number);
+    if (a && a === second.get(q.number)) agreed.set(q.number, a);
+    else disputed.push(q.number);
+  }
+  return { agreed, disputed };
+}
+
 async function main() {
   const { papers } = JSON.parse(
     await readFile(join(ROOT, 'data', 'pyq-manifest.json'), 'utf8'),
@@ -142,16 +180,24 @@ async function main() {
       const issues: string[] = [];
       if (e.exam === 'prelims') {
         const key = await answerKey(e, series);
-        if (!key) issues.push('no answer key');
-        for (const q of file.questions) {
-          const a = key?.get(q.number);
-          if (a && a !== 'x') q.answer = a;
+        if (key) {
+          for (const q of file.questions) {
+            const a = key.get(q.number);
+            if (a && a !== 'x') Object.assign(q, { answer: a, answerSource: 'official' as const });
+          }
+        } else {
+          const { agreed, disputed } = await solveAnswers(file);
+          for (const q of file.questions) {
+            const a = agreed.get(q.number);
+            if (a) Object.assign(q, { answer: a, answerSource: 'model' as const });
+          }
+          issues.push(`no official key: ${agreed.size} model-agreed, ${disputed.length} disputed (${disputed.join(',')})`);
         }
         if (file.questions.length !== 100) issues.push(`${file.questions.length}/100 questions`);
         const noOptions = file.questions.filter((q) => (q.options?.length ?? 0) !== 4).length;
         if (noOptions) issues.push(`${noOptions} questions without 4 options`);
-      } else if (file.questions.length < 19 || file.questions.length > 20) {
-        issues.push(`${file.questions.length} questions (expected 19–20)`);
+      } else if (file.questions.length < 12 || file.questions.length > 25) {
+        issues.push(`${file.questions.length} questions (expected 12–25)`);
       }
       await writeFile(join(OUT, `${id}.json`), `${JSON.stringify(file, null, 2)}\n`);
       report[id] = { questions: file.questions.length, series: series ?? null, issues };

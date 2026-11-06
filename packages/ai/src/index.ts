@@ -5,3 +5,4 @@ export * from './client';
 export * from './text';
 export * from './tts';
 export * from './json';
+export * from './stt';

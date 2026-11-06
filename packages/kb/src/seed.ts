@@ -31,6 +31,8 @@ export const PyqSeed = z.object({
   text: z.string().min(5),
   options: z.array(z.object({ key: z.string(), text: z.string() })).optional(),
   answer: z.string().optional(),
+  /** official = UPSC key; model = two independent AI solves agreed (never shown as official). */
+  answerSource: z.enum(['official', 'model']).optional(),
   marks: z.number().int().optional(),
   wordLimit: z.number().int().optional(),
 });

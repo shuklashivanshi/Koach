@@ -66,6 +66,8 @@ export const pyqs = pgTable(
     text: text().notNull(),
     options: jsonb().$type<PyqOption[]>(),
     answer: text(),
+    /** official = UPSC answer key; model = two independent AI solves agreed. */
+    answerSource: text().$type<'official' | 'model'>(),
     marks: integer(),
     wordLimit: integer(),
     /** statement | how_many | match | assertion_reason | direct | descriptive */

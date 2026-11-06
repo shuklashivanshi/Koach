@@ -38,6 +38,7 @@ check "artifact registry $AR_REPO ($REGION)" "${G[@]}" artifacts repositories de
 for s in koach-api koach-jobs koach-build; do check "service account $s" sa "$s"; done
 check "koach-api has cloudsql.client" has_role koach-api roles/cloudsql.client
 check "koach-api has aiplatform.user" has_role koach-api roles/aiplatform.user
+check "koach-api has speech.client" has_role koach-api roles/speech.client
 check "koach-build has run.admin" has_role koach-build roles/run.admin
 check "cloud sql $SQL_INSTANCE is POSTGRES_16" sql_version
 check "cloud sql in $REGION" sql_region

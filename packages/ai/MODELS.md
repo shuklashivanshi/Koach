@@ -12,3 +12,15 @@ Checked 2026-11-06 against project `koach-dev-8cf0a5` by `scripts/check-models.t
 
 If a tier works only on `global`, set its `location` to `'global'` in `src/models.config.ts`.
 Prompts never contain personal data, so the global endpoint is acceptable for these calls.
+
+## Speech-to-Text (checked live 2026-11-06)
+
+| Region | chirp_3 | chirp_2 | chirp / long |
+|---|---|---|---|
+| asia-south1 | not GA for en-IN | not served | not served / not GA |
+| asia-southeast1 | not GA for en-IN | **works** | — |
+| asia-northeast1 | not GA | not GA | — |
+| eu, us (multi-region) | works | not served | — |
+
+Chosen: `chirp_2` in `asia-southeast1` (nearest working region). Audio is transient and never stored.
+Override with `STT_MODEL` / `STT_LOCATION`. Check again with `scripts/stt-check.ts`.

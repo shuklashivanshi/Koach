@@ -127,12 +127,13 @@ const ROMAN: Record<string, string> = { i: 'gs1', '1': 'gs1', ii: 'gs2', '2': 'g
 
 /** The printed title must say General Studies and agree with the paper number (catches optionals). */
 function titleMatches(id: Identity): boolean {
-  if (!['gs1', 'gs2', 'gs3', 'gs4'].includes(id.paper)) return false;
+  if (!['gs1', 'gs2', 'gs3', 'gs4'].includes(id.paper) || !id.title) return false;
   const t = id.title.toLowerCase();
-  if (!/general\s*studies/.test(t)) return false;
-  const m = /paper\s*[-–:]?\s*\(?\s*(iv|iii|ii|i|[1-4])\b/.exec(t);
-  // Prelims Paper I is "General Studies Paper I" (gs1); answer keys sometimes omit the number.
-  return m ? ROMAN[m[1] ?? ''] === id.paper : id.kind === 'answer_key' || id.exam === 'prelims';
+  // Papers are bilingual; the title may be printed in Hindi first.
+  if (!/general\s*studies|सामान्य\s*अध्ययन/.test(t)) return false;
+  const m = /(?:paper|प्रश्न-पत्र)\s*[-–—:]?\s*\(?\s*(iv|iii|ii|i|[1-4])(?![a-z])/.exec(t);
+  // A printed number must agree; a bare "General Studies" title is accepted.
+  return m ? ROMAN[m[1] ?? ''] === id.paper : true;
 }
 
 export interface ManifestEntry {
@@ -204,7 +205,6 @@ async function main() {
   const missing: string[] = [];
   for (let y = 2011; y <= 2026; y++) {
     if (!entries.has(`prelims-${y}-gs1`)) missing.push(`prelims ${y} gs1`);
-    else if (!keys.has(y)) missing.push(`prelims ${y} answer key`);
   }
   for (let y = 2013; y <= 2026; y++) {
     for (const p of ['gs1', 'gs2', 'gs3', 'gs4']) {

@@ -59,6 +59,8 @@ export const KbPyq = z.object({
   text: z.string(),
   options: z.array(z.object({ key: z.string(), text: z.string() })).nullable(),
   answer: z.string().nullable(),
+  /** official = UPSC key; model = AI-solved twice and agreed (show as "unverified"). */
+  answerSource: z.enum(['official', 'model']).nullable(),
   marks: z.number().int().nullable(),
   wordLimit: z.number().int().nullable(),
   questionType: z.string().nullable(),

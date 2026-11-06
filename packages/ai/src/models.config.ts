@@ -37,6 +37,18 @@ export const pricing: Record<string, { inputPerM: number; outputPerM: number; ve
   };
 export const ttsPricePerMChars = { usd: 30, verified: false };
 
+/**
+ * Speech-to-Text v2 (Chirp) for spoken answers. No Chirp model is served for en-IN in asia-south1
+ * (checked live 2026-11-06), so the nearest region that serves one is used: chirp_2 in
+ * asia-southeast1. Audio is sent inline for transcription only and never stored.
+ */
+export const stt = {
+  location: process.env.STT_LOCATION ?? 'asia-southeast1',
+  model: process.env.STT_MODEL ?? 'chirp_2',
+  languageCode: 'en-IN',
+};
+export const sttPricePerMinute = { usd: 0.016, verified: false };
+
 /** Tier lookup with an env override (AI_MODEL_BULK, AI_MODEL_LITE, AI_MODEL_EMBED) for experiments. */
 export function resolveTier(tier: Tier, env: NodeJS.ProcessEnv = process.env): ModelChoice {
   const override = env[`AI_MODEL_${tier.toUpperCase()}`];

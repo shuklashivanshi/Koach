@@ -11,6 +11,7 @@
     "check-models": "tsx scripts/check-models.ts"
   },
   "dependencies": {
+    "@google-cloud/speech": "^8.2.1",
     "@google-cloud/text-to-speech": "7.2.0",
     "@google/genai": "2.30.0",
     "@koach/guard": "workspace:*",
