@@ -10,9 +10,11 @@ export interface ModelChoice {
 }
 
 export const tiers: Record<Tier, ModelChoice> = {
-  bulk: { model: 'gemini-3.8-flash', location: 'asia-south1' },
+  // Not served in asia-south1 (MODELS.md, 2026-11-06). Prompts carry no personal data.
+  bulk: { model: 'gemini-3.8-flash', location: 'global' },
   lite: { model: 'gemini-3.5-flash-lite', location: 'asia-south1' },
-  embed: { model: 'gemini-embedding-2', location: 'asia-south1' },
+  // Not served in asia-south1 (MODELS.md, 2026-11-06).
+  embed: { model: 'gemini-embedding-2', location: 'global' },
 };
 
 export const tts = {
