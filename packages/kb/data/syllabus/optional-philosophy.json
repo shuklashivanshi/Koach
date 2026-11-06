@@ -1,0 +1,393 @@
+{
+  "paper": "optional:philosophy",
+  "title": "Philosophy",
+  "nodes": [
+    {
+      "id": "opt.philosophy",
+      "parentId": null,
+      "title": "Philosophy",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1",
+      "parentId": "opt.philosophy",
+      "title": "Philosophy · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t01",
+      "parentId": "opt.philosophy.p1",
+      "title": "Plato and Aristotle: Ideas, substance, form, matter, causation and actuality",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t02",
+      "parentId": "opt.philosophy.p1",
+      "title": "Rationalism: Descartes, Spinoza, Leibniz, substances and mind-body dualism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t03",
+      "parentId": "opt.philosophy.p1",
+      "title": "Empiricism: Locke, Berkeley, Hume, theory of knowledge and scepticism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t04",
+      "parentId": "opt.philosophy.p1",
+      "title": "Kant: Synthetic a priori judgments, categories, ideas of reason and antinomies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t05",
+      "parentId": "opt.philosophy.p1",
+      "title": "Hegel: Dialectical method and absolute idealism in philosophy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t06",
+      "parentId": "opt.philosophy.p1",
+      "title": "Moore, Russell and Early Wittgenstein: Commonsense defence, logical atomism and meaning",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t07",
+      "parentId": "opt.philosophy.p1",
+      "title": "Logical Positivism: Verification theory of meaning and rejection of metaphysics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t08",
+      "parentId": "opt.philosophy.p1",
+      "title": "Later Wittgenstein: Meaning and use, language-games and private language critique",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t09",
+      "parentId": "opt.philosophy.p1",
+      "title": "Phenomenology: Husserl, phenomenological method, essences and avoidance of psychologism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t10",
+      "parentId": "opt.philosophy.p1",
+      "title": "Existentialism: Kierkegaard, Sartre, Heidegger, existence, choice, responsibility and temporality",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t11",
+      "parentId": "opt.philosophy.p1",
+      "title": "Quine and Strawson: Critique of empiricism, basic particulars and personhood",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t12",
+      "parentId": "opt.philosophy.p1",
+      "title": "Carvaka: Theory of knowledge and rejection of transcendent entities",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t13",
+      "parentId": "opt.philosophy.p1",
+      "title": "Jainism: Theory of reality, Saptabhanginaya, bondage and path to liberation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t14",
+      "parentId": "opt.philosophy.p1",
+      "title": "Schools of Buddhism: Pratityasamutpada, Ksanikavada, Nairatmyavada and Buddhist philosophy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t15",
+      "parentId": "opt.philosophy.p1",
+      "title": "Nyaya-Vaisesika: Categories, theory of knowledge, self, God and causation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t16",
+      "parentId": "opt.philosophy.p1",
+      "title": "Samkhya: Prakriti, Purusha, theory of causation, evolution and liberation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t17",
+      "parentId": "opt.philosophy.p1",
+      "title": "Yoga: Citta, Cittavrtti, Kleshas, stages of samadhi and kaivalya",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t18",
+      "parentId": "opt.philosophy.p1",
+      "title": "Mimamsa: Theory of knowledge, validity of cognition and pramanas",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t19",
+      "parentId": "opt.philosophy.p1",
+      "title": "Schools of Vedanta: Brahman, Ishvara, Atman, Maya, Jiva and Moksha",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p1.t20",
+      "parentId": "opt.philosophy.p1",
+      "title": "Sri Aurobindo: Evolution, involution and philosophy of Integral Yoga",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2",
+      "parentId": "opt.philosophy",
+      "title": "Philosophy · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t01",
+      "parentId": "opt.philosophy.p2",
+      "title": "Social and Political Ideals: Equality, justice, liberty and affirmative action",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t02",
+      "parentId": "opt.philosophy.p2",
+      "title": "Sovereignty: Theories of Austin, Bodin, Laski and Kautilya",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t03",
+      "parentId": "opt.philosophy.p2",
+      "title": "Individual and State: Rights, duties, obligation and democratic accountability",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t04",
+      "parentId": "opt.philosophy.p2",
+      "title": "Forms of Government: Monarchy, theocracy, democracy and institutional structures",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t05",
+      "parentId": "opt.philosophy.p2",
+      "title": "Political Ideologies: Anarchism, Marxism, socialism, fascism and Gandhism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t06",
+      "parentId": "opt.philosophy.p2",
+      "title": "Humanism, Secularism and Multi-culturalism in contemporary democratic societies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t07",
+      "parentId": "opt.philosophy.p2",
+      "title": "Crime and Punishment: Theories of punishment, corruption, genocide, capital punishment",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t08",
+      "parentId": "opt.philosophy.p2",
+      "title": "Development and Social Progress: Socio-economic transformation and sustainable development",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t09",
+      "parentId": "opt.philosophy.p2",
+      "title": "Gender Discrimination: Female foeticide, property rights and women empowerment",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t10",
+      "parentId": "opt.philosophy.p2",
+      "title": "Caste Discrimination: Perspectives and social reforms of Gandhi and Ambedkar",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t11",
+      "parentId": "opt.philosophy.p2",
+      "title": "Notions of God: Divine attributes and relation to man and world",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t12",
+      "parentId": "opt.philosophy.p2",
+      "title": "Proofs for the Existence of God and their philosophical critiques",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t13",
+      "parentId": "opt.philosophy.p2",
+      "title": "Problem of Evil: Theodicy, moral evil, natural evil and suffering",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t14",
+      "parentId": "opt.philosophy.p2",
+      "title": "Soul: Concepts of immortality, rebirth, personal identity and liberation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t15",
+      "parentId": "opt.philosophy.p2",
+      "title": "Reason, Revelation and Faith: Epistemology of religious belief and truth",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t16",
+      "parentId": "opt.philosophy.p2",
+      "title": "Religious Experience: Nature, varieties and cognitive value of mystical states",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t17",
+      "parentId": "opt.philosophy.p2",
+      "title": "Religion without God: Non-theistic religions and secular spiritual philosophies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t18",
+      "parentId": "opt.philosophy.p2",
+      "title": "Religion and Morality: Interdependence, autonomy of ethics and moral values",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t19",
+      "parentId": "opt.philosophy.p2",
+      "title": "Religious Pluralism and the problem of conflicting truth claims",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.philosophy.p2.t20",
+      "parentId": "opt.philosophy.p2",
+      "title": "Nature of Religious Language: Analogical, symbolic, cognitivist and non-cognitive theories",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

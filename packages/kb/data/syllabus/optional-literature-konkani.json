@@ -1,0 +1,123 @@
+{
+  "paper": "optional:literature-konkani",
+  "title": "Literature of Konkani",
+  "nodes": [
+    {
+      "id": "opt.literature-konkani",
+      "parentId": null,
+      "title": "Literature of Konkani",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p1",
+      "parentId": "opt.literature-konkani",
+      "title": "Literature of Konkani · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p1.t01",
+      "parentId": "opt.literature-konkani.p1",
+      "title": "Origin and development of the Konkani language and major historical influences",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p1.t02",
+      "parentId": "opt.literature-konkani.p1",
+      "title": "Major variants of Konkani language and their distinct linguistic features",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p1.t03",
+      "parentId": "opt.literature-konkani.p1",
+      "title": "Grammatical and lexicographic work in Konkani including cases and indeclinables",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p1.t04",
+      "parentId": "opt.literature-konkani.p1",
+      "title": "Old Standard Konkani, New Standard forms and problems of standardization",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p1.t05",
+      "parentId": "opt.literature-konkani.p1",
+      "title": "History of Konkani literature from its probable source to modern times",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p1.t06",
+      "parentId": "opt.literature-konkani.p1",
+      "title": "Social and cultural background of the making of Konkani literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p1.t07",
+      "parentId": "opt.literature-konkani.p1",
+      "title": "Indian and Western influences on Konkani literature through different periods",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p1.t08",
+      "parentId": "opt.literature-konkani.p1",
+      "title": "Modern literary trends in various genres and study of Konkani folklore",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p2",
+      "parentId": "opt.literature-konkani",
+      "title": "Literature of Konkani · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p2.t01",
+      "parentId": "opt.literature-konkani.p2",
+      "title": "Section A: Prescribed Konkani Prose Texts, Essays, Novels and Drama for Study",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-konkani.p2.t02",
+      "parentId": "opt.literature-konkani.p2",
+      "title": "Section B: Prescribed Konkani Poetry Collections and Anthologies for Critical Appreciation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

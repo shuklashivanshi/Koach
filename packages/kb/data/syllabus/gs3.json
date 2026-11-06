@@ -1,0 +1,2573 @@
+{
+  "paper": "gs3",
+  "title": "PAPER-IV General Studies-III: Technology, Economic Development, Bio diversity, Environment, Security and Disaster Management",
+  "nodes": [
+    {
+      "id": "gs3",
+      "parentId": null,
+      "title": "PAPER-IV General Studies-III: Technology, Economic Development, Bio diversity, Environment, Security and Disaster Management",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy",
+      "parentId": "gs3",
+      "title": "Indian Economy and Development",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.national-income-growth",
+      "parentId": "gs3.indian-economy",
+      "title": "National Income, Growth and Structural Transformation",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.national-income-growth.gdp-gnp-measurement",
+      "parentId": "gs3.indian-economy.national-income-growth",
+      "title": "GDP, GVA, and National Income Accounting Methodologies",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.national-income-growth.growth-vs-development",
+      "parentId": "gs3.indian-economy.national-income-growth",
+      "title": "Economic Growth vs Economic Development and Alternative Metrics (HDI, GNH)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.national-income-growth.gdp-gnp-measurement"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.national-income-growth.structural-composition",
+      "parentId": "gs3.indian-economy.national-income-growth",
+      "title": "Sectoral Composition of GDP and Premature Deindustrialization Debate",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.national-income-growth.gdp-gnp-measurement"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.national-income-growth.potential-gdp",
+      "parentId": "gs3.indian-economy.national-income-growth",
+      "title": "Potential GDP and Factors Constraining Capital Formation (ICOR)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.national-income-growth.gdp-gnp-measurement"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.national-income-growth.planning-history-niti",
+      "parentId": "gs3.indian-economy.national-income-growth",
+      "title": "Evolution of Planning in India and NITI Aayog Structure and Strategy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.inclusive-growth-employment",
+      "parentId": "gs3.indian-economy",
+      "title": "Inclusive Growth, Poverty, and Employment",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+      "parentId": "gs3.indian-economy.inclusive-growth-employment",
+      "title": "Inclusive Growth: Elements, Gini Coefficient, and Inequality Trajectory",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.inclusive-growth-employment.poverty-estimation",
+      "parentId": "gs3.indian-economy.inclusive-growth-employment",
+      "title": "Poverty Lines: Tendulkar, Rangarajan Committees and Multidimensional Poverty Index",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+      "parentId": "gs3.indian-economy.inclusive-growth-employment",
+      "title": "Employment Types, LFPR, WPR, and Structural Unemployment in India",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.inclusive-growth-employment.informal-economy-gig",
+      "parentId": "gs3.indian-economy.inclusive-growth-employment",
+      "title": "Informal Sector Challenges, Social Security, and the Gig Economy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.inclusive-growth-employment.female-labor-force",
+      "parentId": "gs3.indian-economy.inclusive-growth-employment",
+      "title": "Female Labour Force Participation Rate (FLFPR) and Gender Wage Gap",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.inclusive-growth-employment.employment-trends-types"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.inclusive-growth-employment.financial-inclusion-initiatives",
+      "parentId": "gs3.indian-economy.inclusive-growth-employment",
+      "title": "Financial Inclusion: PMJDY, JAM Trinity, and Differential Banking Models",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.government-budgeting-fiscal-policy",
+      "parentId": "gs3.indian-economy",
+      "title": "Government Budgeting and Fiscal Policy",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.government-budgeting-fiscal-policy.budget-documents-structure",
+      "parentId": "gs3.indian-economy.government-budgeting-fiscal-policy",
+      "title": "Budget Components: Revenue vs Capital Receipts and Expenditures",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.government-budgeting-fiscal-policy.types-of-deficits",
+      "parentId": "gs3.indian-economy.government-budgeting-fiscal-policy",
+      "title": "Fiscal, Revenue, Effective Revenue, and Primary Deficits: Calculation and Implications",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.government-budgeting-fiscal-policy.budget-documents-structure"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.government-budgeting-fiscal-policy.frbm-act-debt",
+      "parentId": "gs3.indian-economy.government-budgeting-fiscal-policy",
+      "title": "FRBM Act, NK Singh Committee Recommendations, and Debt-to-GDP Ratio",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.government-budgeting-fiscal-policy.types-of-deficits"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.government-budgeting-fiscal-policy.taxation-reforms-gst",
+      "parentId": "gs3.indian-economy.government-budgeting-fiscal-policy",
+      "title": "GST Architecture, Compensation Cess Mechanism, and Structural Inverted Duty Issues",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.government-budgeting-fiscal-policy.direct-tax-reforms",
+      "parentId": "gs3.indian-economy.government-budgeting-fiscal-policy",
+      "title": "Direct Tax Reforms: Faceless Assessment, DTC Debates, and Base Erosion (BEPS)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.government-budgeting-fiscal-policy.off-budget-borrowing",
+      "parentId": "gs3.indian-economy.government-budgeting-fiscal-policy",
+      "title": "Off-Budget Borrowings, Fiscal Transparency, and Capital Outlay Quality",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.government-budgeting-fiscal-policy.types-of-deficits",
+        "gs3.indian-economy.government-budgeting-fiscal-policy.frbm-act-debt"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.government-budgeting-fiscal-policy.finance-commission",
+      "parentId": "gs3.indian-economy.government-budgeting-fiscal-policy",
+      "title": "Finance Commission: Horizontal Devolution Formula and Cess/Surcharge Friction",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.government-budgeting-fiscal-policy.gender-and-green-budgeting",
+      "parentId": "gs3.indian-economy.government-budgeting-fiscal-policy",
+      "title": "Gender Budgeting, Zero-Based Budgeting, and Green Budgeting Frameworks",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.monetary-and-financial-system",
+      "parentId": "gs3.indian-economy",
+      "title": "Money, Banking and Resource Mobilization",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.monetary-and-financial-system.monetary-policy-framework",
+      "parentId": "gs3.indian-economy.monetary-and-financial-system",
+      "title": "Flexible Inflation Targeting, MPC Composition, and Monetary Transmission",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.monetary-and-financial-system.rbi-tools-liquidity",
+      "parentId": "gs3.indian-economy.monetary-and-financial-system",
+      "title": "RBI Liquidity Management: Repo, SDF, MSF, VRR, OMO, and Standing Deposit Facility",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.monetary-and-financial-system.monetary-policy-framework"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.monetary-and-financial-system.banking-npa-twin-balance",
+      "parentId": "gs3.indian-economy.monetary-and-financial-system",
+      "title": "Non-Performing Assets (NPAs), Twin Balance Sheet Problem, and IBC Process",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.monetary-and-financial-system.narc-bad-bank",
+      "parentId": "gs3.indian-economy.monetary-and-financial-system",
+      "title": "National Asset Reconstruction Company (NARCL), Bad Banks, and Prompt Corrective Action",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.monetary-and-financial-system.banking-npa-twin-balance"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.monetary-and-financial-system.financial-markets-capital",
+      "parentId": "gs3.indian-economy.monetary-and-financial-system",
+      "title": "Capital Markets: Equities, Corporate Bonds, G-Secs, and SEBI Regulatory Norms",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.monetary-and-financial-system.nbfcs-and-shadow-banking",
+      "parentId": "gs3.indian-economy.monetary-and-financial-system",
+      "title": "NBFC Regulatory Sandbox, Scale-Based Framework, and Systemic Liquidity Risks",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.monetary-and-financial-system.digital-public-infrastructure-fintech",
+      "parentId": "gs3.indian-economy.monetary-and-financial-system",
+      "title": "Digital Public Infrastructure: UPI, Account Aggregator, CBDC, and FinTech Governance",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.external-sector",
+      "parentId": "gs3.indian-economy",
+      "title": "External Sector, Balance of Payments and Trade",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.external-sector.bop-cad-forex",
+      "parentId": "gs3.indian-economy.external-sector",
+      "title": "Balance of Payments: Current Account Deficit, Capital Inflows, and Forex Reserves",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.external-sector.exchange-rate-management",
+      "parentId": "gs3.indian-economy.external-sector",
+      "title": "NEER, REER, Managed Floating Exchange System, and Currency Depreciation Dynamics",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.external-sector.bop-cad-forex"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.external-sector.foreign-trade-policy",
+      "parentId": "gs3.indian-economy.external-sector",
+      "title": "Foreign Trade Policy, Export Diversification, and Trade Deficit Management",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.external-sector.bop-cad-forex"
+      ]
+    },
+    {
+      "id": "gs3.indian-economy.external-sector.wto-india-agreements",
+      "parentId": "gs3.indian-economy.external-sector",
+      "title": "WTO Agreements: TRIPS, TRIMS, Agriculture (AoA Boxes), and Dispute Settlement Crisis",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.indian-economy.external-sector.ftas-and-deglobalization",
+      "parentId": "gs3.indian-economy.external-sector",
+      "title": "Bilateral FTAs (CEPA, EFTA), RCEP Rejection Rationale, and Global Supply Chain Shifts",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.indian-economy.external-sector.foreign-trade-policy",
+        "gs3.indian-economy.external-sector.wto-india-agreements"
+      ]
+    },
+    {
+      "id": "gs3.agriculture",
+      "parentId": "gs3",
+      "title": "Agriculture and Food Management",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.cropping-patterns-irrigation",
+      "parentId": "gs3.agriculture",
+      "title": "Cropping Patterns, Water Resources and Farm Inputs",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+      "parentId": "gs3.agriculture.cropping-patterns-irrigation",
+      "title": "Cropping Patterns Across Agro-Climatic Zones and Determinants of Crop Choice",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.cropping-patterns-irrigation.crop-diversification-millets",
+      "parentId": "gs3.agriculture.cropping-patterns-irrigation",
+      "title": "Crop Diversification, Water-Guzzling Crops Shift, and Millet Promotion (Shree Anna)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors"
+      ]
+    },
+    {
+      "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+      "parentId": "gs3.agriculture.cropping-patterns-irrigation",
+      "title": "Canal, Well, and Tank Irrigation: Regional Spread and Water Use Efficiency",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.cropping-patterns-irrigation.micro-irrigation-pksy",
+      "parentId": "gs3.agriculture.cropping-patterns-irrigation",
+      "title": "Drip and Sprinkler Irrigation, PM Krishi Sinchayee Yojana, and Watershed Management",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency"
+      ]
+    },
+    {
+      "id": "gs3.agriculture.cropping-patterns-irrigation.seed-technology-gm-crops",
+      "parentId": "gs3.agriculture.cropping-patterns-irrigation",
+      "title": "Seed Replacement Rate, Hybrid Seeds, and GM Crops Policy (Bt Cotton, DMH-11)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.cropping-patterns-irrigation.soil-health-fertilizers",
+      "parentId": "gs3.agriculture.cropping-patterns-irrigation",
+      "title": "Fertilizer Subsidy Regime, Nutrient Based Subsidy (NBS), and Soil Health Card",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.cropping-patterns-irrigation.nano-fertilizers-organic",
+      "parentId": "gs3.agriculture.cropping-patterns-irrigation",
+      "title": "Nano Urea, Bio-fertilizers, Paramparagat Krishi Vikas, and Natural Farming Systems",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.agriculture.cropping-patterns-irrigation.soil-health-fertilizers"
+      ]
+    },
+    {
+      "id": "gs3.agriculture.cropping-patterns-irrigation.farm-mechanization",
+      "parentId": "gs3.agriculture.cropping-patterns-irrigation",
+      "title": "Farm Mechanization: Custom Hiring Centres, Sub-Mission on Agri-Mechanization",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.farm-subsidies-and-pricing",
+      "parentId": "gs3.agriculture",
+      "title": "Farm Subsidies, Minimum Support Price and Agricultural Credit",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.farm-subsidies-and-pricing.direct-vs-indirect-subsidies",
+      "parentId": "gs3.agriculture.farm-subsidies-and-pricing",
+      "title": "Direct vs Indirect Farm Subsidies: Power, Fertilizer, Water, and PM-KISAN Modalities",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.farm-subsidies-and-pricing.msp-determination-cacp",
+      "parentId": "gs3.agriculture.farm-subsidies-and-pricing",
+      "title": "MSP Calculation Formulas (A2, A2+FL, C2), CACP Mandate, and Price Deficiencies (PM-AASHA)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.farm-subsidies-and-pricing.legal-guarantee-for-msp",
+      "parentId": "gs3.agriculture.farm-subsidies-and-pricing",
+      "title": "Legal Guarantee for MSP: Economic, Fiscal, and Inflationary Consequences",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.agriculture.farm-subsidies-and-pricing.msp-determination-cacp"
+      ]
+    },
+    {
+      "id": "gs3.agriculture.farm-subsidies-and-pricing.agricultural-credit-flow",
+      "parentId": "gs3.agriculture.farm-subsidies-and-pricing",
+      "title": "Kisan Credit Card, Priority Sector Lending Norms, and Interest Subvention Scheme",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.farm-subsidies-and-pricing.pm-fby-crop-insurance",
+      "parentId": "gs3.agriculture.farm-subsidies-and-pricing",
+      "title": "Pradhan Mantri Fasal Bima Yojana: Structural Bottlenecks and Revamping Measures",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.marketing-supply-chain-tech",
+      "parentId": "gs3.agriculture",
+      "title": "Agri-Marketing, E-Technology and Supply Chains",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.marketing-supply-chain-tech.apmc-reforms-enam",
+      "parentId": "gs3.agriculture.marketing-supply-chain-tech",
+      "title": "APMC Act Limitations, Model APLM Act, and e-NAM Implementation Progress",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.marketing-supply-chain-tech.fpo-contract-farming",
+      "parentId": "gs3.agriculture.marketing-supply-chain-tech",
+      "title": "Farmer Producer Organisations (FPOs) and Institutional Contract Farming Models",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.marketing-supply-chain-tech.warehousing-cold-storage",
+      "parentId": "gs3.agriculture.marketing-supply-chain-tech",
+      "title": "Negotiable Warehouse Receipts, WDRA Regulations, and Agri-Logistics Infrastructure",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.marketing-supply-chain-tech.essential-commodities-act",
+      "parentId": "gs3.agriculture.marketing-supply-chain-tech",
+      "title": "Essential Commodities Act Invocations, Stock Limits, and Market Distortions",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.marketing-supply-chain-tech.e-technology-farmers",
+      "parentId": "gs3.agriculture.marketing-supply-chain-tech",
+      "title": "Drones in Agriculture, Agristack, AI-Based Weather Forecasting, and Kisan Drones",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.pds-food-security",
+      "parentId": "gs3.agriculture",
+      "title": "PDS, Buffer Stocks and Food Security",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.pds-food-security.pds-functioning-reforms",
+      "parentId": "gs3.agriculture.pds-food-security",
+      "title": "PDS Mechanism: Procurement, Transportation, Fair Price Shops, and ONORC Portability",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.pds-food-security.nfsa-provisions-critique",
+      "parentId": "gs3.agriculture.pds-food-security",
+      "title": "National Food Security Act (NFSA) 2013: Coverage, Entitlements, and Nutritional Deficits",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.agriculture.pds-food-security.pds-functioning-reforms"
+      ]
+    },
+    {
+      "id": "gs3.agriculture.pds-food-security.buffer-stock-norms-fci",
+      "parentId": "gs3.agriculture.pds-food-security",
+      "title": "Buffer Stock Norms, Economic Cost of Foodgrains, and FCI Restructuring (Shanta Kumar Committee)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.agriculture.pds-food-security.pds-functioning-reforms"
+      ]
+    },
+    {
+      "id": "gs3.agriculture.pds-food-security.dbt-in-food-rationing",
+      "parentId": "gs3.agriculture.pds-food-security",
+      "title": "Direct Benefit Transfer in PDS: Cash Transfers vs In-Kind Foodgrain Provision",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.agriculture.pds-food-security.pds-functioning-reforms",
+        "gs3.agriculture.pds-food-security.nfsa-provisions-critique"
+      ]
+    },
+    {
+      "id": "gs3.agriculture.allied-sectors-food-processing",
+      "parentId": "gs3.agriculture",
+      "title": "Allied Sectors, Technology Missions and Food Processing",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.allied-sectors-food-processing.animal-husbandry-dairy",
+      "parentId": "gs3.agriculture.allied-sectors-food-processing",
+      "title": "Livestock Economics, Rashtriya Gokul Mission, and Dairy Cooperatives Transition",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.allied-sectors-food-processing.fisheries-blue-economy",
+      "parentId": "gs3.agriculture.allied-sectors-food-processing",
+      "title": "Marine and Inland Fisheries, PM Matsya Sampada Yojana, and Blue Economy Framework",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.allied-sectors-food-processing.national-technology-missions",
+      "parentId": "gs3.agriculture.allied-sectors-food-processing",
+      "title": "Technology Missions: Oilseeds, Oil Palm (NMEO-OP), Horticulture (MIDH), and Cotton",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream",
+      "parentId": "gs3.agriculture.allied-sectors-food-processing",
+      "title": "Food Processing Industry: Significance, Upstream-Downstream Linkages, and Post-Harvest Losses",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.allied-sectors-food-processing.mega-food-parks-pmksy",
+      "parentId": "gs3.agriculture.allied-sectors-food-processing",
+      "title": "PM Kisan Sampada Yojana, Mega Food Parks Scheme, and Cold Chain Operations",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream"
+      ]
+    },
+    {
+      "id": "gs3.agriculture.allied-sectors-food-processing.fssai-standards-exports",
+      "parentId": "gs3.agriculture.allied-sectors-food-processing",
+      "title": "Food Safety Standards (FSSAI), CODEX Norms, and SPS/TBT Non-Tariff Barriers in Agri-Exports",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.land-reforms",
+      "parentId": "gs3.agriculture",
+      "title": "Land Reforms in India",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.land-reforms.land-tenure-zamindari-abolition",
+      "parentId": "gs3.agriculture.land-reforms",
+      "title": "Abolition of Intermediaries (Zamindari, Ryotwari) and Tenancy Security Legislation",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.land-reforms.land-ceiling-consolidation",
+      "parentId": "gs3.agriculture.land-reforms",
+      "title": "Land Ceiling Laws, Benami Holdings Evasion, and Fragmentation of Landholdings",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.agriculture.land-reforms.land-tenure-zamindari-abolition"
+      ]
+    },
+    {
+      "id": "gs3.agriculture.land-reforms.digital-land-records-svamitva",
+      "parentId": "gs3.agriculture.land-reforms",
+      "title": "Digital India Land Records Modernization Programme (DILRMP) and SVAMITVA Scheme",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.agriculture.land-reforms.model-land-leasing-act",
+      "parentId": "gs3.agriculture.land-reforms",
+      "title": "NITI Aayog Model Agricultural Land Leasing Act and Land Pooling vs Acquisition",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.agriculture.land-reforms.land-tenure-zamindari-abolition",
+        "gs3.agriculture.land-reforms.land-ceiling-consolidation"
+      ]
+    },
+    {
+      "id": "gs3.industry-infrastructure",
+      "parentId": "gs3",
+      "title": "Industry, Infrastructure and Investment Models",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.industrial-policy-liberalization",
+      "parentId": "gs3.industry-infrastructure",
+      "title": "Industrial Policy and Liberalization Impacts",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-policy-evolution",
+      "parentId": "gs3.industry-infrastructure.industrial-policy-liberalization",
+      "title": "1991 Industrial Policy Liberalization: Delicensing, Deregulation, and Public Sector Role",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.industrial-policy-liberalization.manufacturing-share-make-in-india",
+      "parentId": "gs3.industry-infrastructure.industrial-policy-liberalization",
+      "title": "Manufacturing Stagnation at 16% GDP, National Manufacturing Policy, and Make in India",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-policy-evolution"
+      ]
+    },
+    {
+      "id": "gs3.industry-infrastructure.industrial-policy-liberalization.production-linked-incentive",
+      "parentId": "gs3.industry-infrastructure.industrial-policy-liberalization",
+      "title": "Production Linked Incentive (PLI) Scheme Across Sectors: Design and Performance",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.industry-infrastructure.industrial-policy-liberalization.manufacturing-share-make-in-india"
+      ]
+    },
+    {
+      "id": "gs3.industry-infrastructure.industrial-policy-liberalization.msme-redefinition-challenges",
+      "parentId": "gs3.industry-infrastructure.industrial-policy-liberalization",
+      "title": "MSME Composite Classification, Delayed Payments, Champions Portal, and Emergency Credit (ECLGS)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.industrial-policy-liberalization.disinvestment-privatization-policy",
+      "parentId": "gs3.industry-infrastructure.industrial-policy-liberalization",
+      "title": "Strategic Disinvestment Policy, PSE Privatization, DIPAM Mandate, and Asset Monetisation",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-corridors-seze",
+      "parentId": "gs3.industry-infrastructure.industrial-policy-liberalization",
+      "title": "National Industrial Corridor Programme, SEZs Rejuvenation (DESH Bill), and Cluster Development",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.infrastructure-sectors",
+      "parentId": "gs3.industry-infrastructure",
+      "title": "Physical Infrastructure Systems",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.infrastructure-sectors.energy-power-reforms",
+      "parentId": "gs3.industry-infrastructure.infrastructure-sectors",
+      "title": "Power Generation Mix, Thermal Stressed Assets, DISCOM Losses, and Revamped Distribution Scheme",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+      "parentId": "gs3.industry-infrastructure.infrastructure-sectors",
+      "title": "National Solar Mission, Wind Energy Tariffs, Grid Integration, and Battery Energy Storage (BESS)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.infrastructure-sectors.green-hydrogen-mission",
+      "parentId": "gs3.industry-infrastructure.infrastructure-sectors",
+      "title": "National Green Hydrogen Mission: Electrolyser Targets, Standards, and Petrochemical Decarbonization",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration"
+      ]
+    },
+    {
+      "id": "gs3.industry-infrastructure.infrastructure-sectors.transport-roads-bharatmala",
+      "parentId": "gs3.industry-infrastructure.infrastructure-sectors",
+      "title": "Bharatmala Pariyojana, Highway Expansion, BOT/HAM Models, and FASTag Monetization",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.infrastructure-sectors.railways-modernization-dfc",
+      "parentId": "gs3.industry-infrastructure.infrastructure-sectors",
+      "title": "Dedicated Freight Corridors (EDFC/WDFC), Vande Bharat, High-Speed Rail, and Railway Safety",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.infrastructure-sectors.ports-sagarmala-inland-waterways",
+      "parentId": "gs3.industry-infrastructure.infrastructure-sectors",
+      "title": "Sagarmala Programme, Major Port Authorities Act, Coastal Shipping, and National Waterways Act",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.infrastructure-sectors.civil-aviation-udan",
+      "parentId": "gs3.industry-infrastructure.infrastructure-sectors",
+      "title": "UDAN (RCS) Scheme, Greenfield Airport Privatization, and Air Cargo Logistics",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.infrastructure-sectors.logistics-pm-gati-shakti",
+      "parentId": "gs3.industry-infrastructure.infrastructure-sectors",
+      "title": "PM Gati Shakti Master Plan, National Logistics Policy, and Logistics Performance Index",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.investment-models",
+      "parentId": "gs3.industry-infrastructure",
+      "title": "Investment and Financing Models",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham",
+      "parentId": "gs3.industry-infrastructure.investment-models",
+      "title": "Public-Private Partnership Types: BOT (Toll/Annuity), EPC, Hybrid Annuity Model (HAM), and Swiss Challenge",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.investment-models.kelkar-committee-ppp-reforms",
+      "parentId": "gs3.industry-infrastructure.investment-models",
+      "title": "Vijay Kelkar Committee on Revisiting and Revitalising PPP Model of Infrastructure",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham"
+      ]
+    },
+    {
+      "id": "gs3.industry-infrastructure.investment-models.national-monetisation-pipeline",
+      "parentId": "gs3.industry-infrastructure.investment-models",
+      "title": "National Infrastructure Pipeline (NIP) and National Monetisation Pipeline (NMP) Structures",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham"
+      ]
+    },
+    {
+      "id": "gs3.industry-infrastructure.investment-models.alternative-financing-invit-reit",
+      "parentId": "gs3.industry-infrastructure.investment-models",
+      "title": "Infrastructure Investment Trusts (InvITs), Real Estate Investment Trusts (REITs), and Sovereign Wealth Funds",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.industry-infrastructure.investment-models.dfis-nabfid-model",
+      "parentId": "gs3.industry-infrastructure.investment-models",
+      "title": "Development Financial Institutions (DFIs): National Bank for Financing Infrastructure and Development (NaBFID)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology",
+      "parentId": "gs3",
+      "title": "Science and Technology",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.indigenous-and-institutional-st",
+      "parentId": "gs3.science-technology",
+      "title": "Indian S&T Ecosystem and Indigenization",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.indigenous-and-institutional-st.st-policy-frameworks",
+      "parentId": "gs3.science-technology.indigenous-and-institutional-st",
+      "title": "National Science, Technology and Innovation Policy and Anusandhan National Research Foundation (ANRF)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.indigenous-and-institutional-st.historical-indian-scientists",
+      "parentId": "gs3.science-technology.indigenous-and-institutional-st",
+      "title": "Pioneering Indian Scientists: Bose, Raman, Ramanujan, Bhabha, Sarabhai and Their Legacies",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.indigenous-and-institutional-st.defence-indigenization-drdo",
+      "parentId": "gs3.science-technology.indigenous-and-institutional-st",
+      "title": "Defence Technology Indigenization: DRDO Platforms, LCA Tejas, INS Vikrant, and Positive Indigenisation Lists",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.indigenous-and-institutional-st.civil-nuclear-energy",
+      "parentId": "gs3.science-technology.indigenous-and-institutional-st",
+      "title": "India's Three-Stage Nuclear Power Programme, Fast Breeder Reactor, and Thorium Cycle Utilization",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.indigenous-and-institutional-st.rare-earths-critical-minerals",
+      "parentId": "gs3.science-technology.indigenous-and-institutional-st",
+      "title": "Critical Minerals for S&T: Rare Earth Elements, Lithium Extraction, and Khanij Bidesh India Limited",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.space-technology",
+      "parentId": "gs3.science-technology",
+      "title": "Space Technology and Applications",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.space-technology.launch-vehicles-evolution",
+      "parentId": "gs3.science-technology.space-technology",
+      "title": "ISRO Launch Vehicle Trajectory: SLV, PSLV, GSLV Mk-II, LVM3, and Small Satellite Launch Vehicle (SSLV)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.space-technology.satellite-orbits-bands",
+      "parentId": "gs3.science-technology.space-technology",
+      "title": "Orbits (LEO, MEO, GEO, Sun-Synchronous, Lagrange Points) and Communication Frequencies",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.space-technology.deep-space-missions",
+      "parentId": "gs3.science-technology.space-technology",
+      "title": "Planetary Exploration: Chandrayaan Missions, Mangalyaan, Aditya-L1, and Shukrayaan",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.science-technology.space-technology.launch-vehicles-evolution",
+        "gs3.science-technology.space-technology.satellite-orbits-bands"
+      ]
+    },
+    {
+      "id": "gs3.science-technology.space-technology.human-spaceflight-gaganyaan",
+      "parentId": "gs3.science-technology.space-technology",
+      "title": "Gaganyaan Mission Architecture: Crew Module, Life Support System, CE-20 Cryogenic Engine, and Vyommitra",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.science-technology.space-technology.launch-vehicles-evolution",
+        "gs3.science-technology.space-technology.satellite-orbits-bands"
+      ]
+    },
+    {
+      "id": "gs3.science-technology.space-technology.navic-and-bhuvan",
+      "parentId": "gs3.science-technology.space-technology",
+      "title": "NavIC Satellite Constellation vs GPS, GAGAN Aviation Integration, and Bhuvan Geo-Portal",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.space-technology.private-space-reforms",
+      "parentId": "gs3.science-technology.space-technology",
+      "title": "Indian Space Policy 2023: IN-SPACe, NewSpace India Limited (NSIL), and Commercial Space Startups",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.science-technology.space-technology.launch-vehicles-evolution"
+      ]
+    },
+    {
+      "id": "gs3.science-technology.space-technology.space-debris-weaponization",
+      "parentId": "gs3.science-technology.space-technology",
+      "title": "Kessler Syndrome, Project NETRA, Space Situational Awareness, and Outer Space Treaty Compliance",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.it-telecom-computing",
+      "parentId": "gs3.science-technology",
+      "title": "Information Technology, Computers and Emerging Tech",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.it-telecom-computing.telecom-5g-to-6g",
+      "parentId": "gs3.science-technology.it-telecom-computing",
+      "title": "Cellular Standards: 5G Architecture, Massive MIMO, Open RAN, Terahertz 6G, and Bharat 6G Vision",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.it-telecom-computing.optical-fibre-bharatnet",
+      "parentId": "gs3.science-technology.it-telecom-computing",
+      "title": "Optical Fibre Technology, Total Internal Reflection, and BharatNet Rural Broadband Architecture",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.it-telecom-computing.artificial-intelligence-llms",
+      "parentId": "gs3.science-technology.it-telecom-computing",
+      "title": "AI, Machine Learning, Deep Neural Networks, Generative AI (LLMs), and IndiaAI Mission",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.it-telecom-computing.quantum-computing-mission",
+      "parentId": "gs3.science-technology.it-telecom-computing",
+      "title": "Quantum Mechanics Principles: Superposition, Entanglement, Qubits, and National Quantum Mission",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.it-telecom-computing.semiconductor-mission",
+      "parentId": "gs3.science-technology.it-telecom-computing",
+      "title": "Semiconductor Manufacturing: Photolithography, Wafer Fabrication, India Semiconductor Mission (ISM)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.it-telecom-computing.supercomputing-mission",
+      "parentId": "gs3.science-technology.it-telecom-computing",
+      "title": "National Supercomputing Mission: Flops Architecture, PARAM Series (PARAM Ananta, Pravega)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.it-telecom-computing.blockchain-web3-defi",
+      "parentId": "gs3.science-technology.it-telecom-computing",
+      "title": "Distributed Ledger Technology, Blockchain Consensus, Smart Contracts, Web3, and Cryptocurrencies",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.it-telecom-computing.iot-and-edge-computing",
+      "parentId": "gs3.science-technology.it-telecom-computing",
+      "title": "Internet of Things (IoT), Industrial IoT, Cloud Computing vs Edge Computing Architectures",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.biotechnology-and-health",
+      "parentId": "gs3.science-technology",
+      "title": "Biotechnology, Genomics and Health Sciences",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology",
+      "parentId": "gs3.science-technology.biotechnology-and-health",
+      "title": "Recombinant DNA Tools: Restriction Enzymes, Plasmids, Vectors, and Polymerase Chain Reaction (PCR)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.biotechnology-and-health.crispr-gene-editing",
+      "parentId": "gs3.science-technology.biotechnology-and-health",
+      "title": "CRISPR-Cas9 Gene Editing Mechanism, Cas12/Cas13 Applications, and Bioethical Dilemmas",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology"
+      ]
+    },
+    {
+      "id": "gs3.science-technology.biotechnology-and-health.genome-sequencing-projects",
+      "parentId": "gs3.science-technology.biotechnology-and-health",
+      "title": "Next-Generation Sequencing: Genome India Project, Human Genome Project, and Precision Medicine",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology"
+      ]
+    },
+    {
+      "id": "gs3.science-technology.biotechnology-and-health.stem-cells-cloning",
+      "parentId": "gs3.science-technology.biotechnology-and-health",
+      "title": "Totipotent, Pluripotent, and Induced Pluripotent Stem Cells (iPSCs) and Therapeutic vs Reproductive Cloning",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.biotechnology-and-health.vaccine-technologies",
+      "parentId": "gs3.science-technology.biotechnology-and-health",
+      "title": "Vaccine Platforms: Inactivated, Live-Attenuated, Viral Vector, mRNA, and DNA Vaccines",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.biotechnology-and-health.antimicrobial-resistance-amr",
+      "parentId": "gs3.science-technology.biotechnology-and-health",
+      "title": "Superbugs, Multidrug Resistance Mechanisms, One Health Approach, and National Action Plan on AMR",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.biotechnology-and-health.car-t-and-targeted-therapies",
+      "parentId": "gs3.science-technology.biotechnology-and-health",
+      "title": "Monoclonal Antibodies, CAR-T Cell Therapy (NexCAR19), and Nanomedicine in Oncology",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology"
+      ]
+    },
+    {
+      "id": "gs3.science-technology.nanotechnology-and-ipr",
+      "parentId": "gs3.science-technology",
+      "title": "Nanotechnology, Robotics and Intellectual Property Rights",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.nanotechnology-and-ipr.nanotechnology-concepts-materials",
+      "parentId": "gs3.science-technology.nanotechnology-and-ipr",
+      "title": "Carbon Nanotubes, Graphene, Quantum Dots, Fullerenes, and Industrial Applications of Nanomaterials",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.nanotechnology-and-ipr.nanotech-environment-health",
+      "parentId": "gs3.science-technology.nanotechnology-and-ipr",
+      "title": "Applications of Nanotechnology in Water Purification, Agriculture, Nanotoxicity, and Regulatory Oversight",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.science-technology.nanotechnology-and-ipr.nanotechnology-concepts-materials"
+      ]
+    },
+    {
+      "id": "gs3.science-technology.nanotechnology-and-ipr.robotics-and-drones",
+      "parentId": "gs3.science-technology.nanotechnology-and-ipr",
+      "title": "Robotics Taxonomy: Actuators, Degrees of Freedom, Autonomous Swarms, and Drone Rules 2021",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties",
+      "parentId": "gs3.science-technology.nanotechnology-and-ipr",
+      "title": "Patents, Trademarks, Copyrights, Geographical Indications, WIPO Treaties, and National IPR Policy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.science-technology.nanotechnology-and-ipr.patents-act-section-3d",
+      "parentId": "gs3.science-technology.nanotechnology-and-ipr",
+      "title": "Indian Patents Act: Section 3(d) Anti-Evergreening, Compulsory Licensing, and Pharma Access Battles",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties"
+      ]
+    },
+    {
+      "id": "gs3.science-technology.nanotechnology-and-ipr.traditional-knowledge-tkdl",
+      "parentId": "gs3.science-technology.nanotechnology-and-ipr",
+      "title": "Biopiracy, Nagoya Protocol Access and Benefit Sharing (ABS), and Traditional Knowledge Digital Library (TKDL)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity",
+      "parentId": "gs3",
+      "title": "Biodiversity, Environment and Climate Change",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.ecology-and-ecosystems",
+      "parentId": "gs3.environment-biodiversity",
+      "title": "Ecology and Terrestrial & Aquatic Ecosystems",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.ecology-and-ecosystems.ecosystem-structure-functions",
+      "parentId": "gs3.environment-biodiversity.ecology-and-ecosystems",
+      "title": "Trophic Levels, Energy Flow, Ecological Pyramids, and Primary vs Secondary Ecological Succession",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.ecology-and-ecosystems.biogeochemical-cycles",
+      "parentId": "gs3.environment-biodiversity.ecology-and-ecosystems",
+      "title": "Biogeochemical Cycles: Gaseous (Carbon, Nitrogen) and Sedimentary (Phosphorus, Sulphur) Cycles",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.ecology-and-ecosystems.wetlands-ramsar-conservation",
+      "parentId": "gs3.environment-biodiversity.ecology-and-ecosystems",
+      "title": "Wetland Ecology, Montreux Record, Ramsar Convention Criteria, and Amrit Dharohar Initiative",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.ecology-and-ecosystems.ecosystem-structure-functions"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.ecology-and-ecosystems.mangroves-and-coral-reefs",
+      "parentId": "gs3.environment-biodiversity.ecology-and-ecosystems",
+      "title": "Mangrove Adaptations (MISHTI Scheme) and Coral Reef Bleaching Dynamics",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.ecology-and-ecosystems.ecosystem-structure-functions"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.ecology-and-ecosystems.forest-types-isfr-report",
+      "parentId": "gs3.environment-biodiversity.ecology-and-ecosystems",
+      "title": "Champion & Seth Forest Classification and India State of Forest Report (ISFR) Findings",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.biodiversity-and-conservation",
+      "parentId": "gs3.environment-biodiversity",
+      "title": "Biodiversity Conservation and Protected Areas",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.biodiversity-and-conservation.levels-measurement-hotspots",
+      "parentId": "gs3.environment-biodiversity.biodiversity-and-conservation",
+      "title": "Alpha, Beta, Gamma Diversity, Biodiversity Hotspots Criteria, and Hottest Hotspots in India",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.biodiversity-and-conservation.in-situ-conservation-network",
+      "parentId": "gs3.environment-biodiversity.biodiversity-and-conservation",
+      "title": "National Parks, Wildlife Sanctuaries, Conservation Reserves, and Community Reserves Legal Distinctions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.biodiversity-and-conservation.levels-measurement-hotspots"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.biodiversity-and-conservation.biosphere-reserves-mab",
+      "parentId": "gs3.environment-biodiversity.biodiversity-and-conservation",
+      "title": "Biosphere Reserves: Zonation (Core, Buffer, Transition) and UNESCO Man and Biosphere (MAB) Sites",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "gs3.environment-biodiversity.biodiversity-and-conservation.in-situ-conservation-network"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.biodiversity-and-conservation.flagship-conservation-projects",
+      "parentId": "gs3.environment-biodiversity.biodiversity-and-conservation",
+      "title": "Project Tiger (NTCA Guidelines, M-STrIPES), Project Elephant, MIKE, and Project Cheetah Reintroduction",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.biodiversity-and-conservation.in-situ-conservation-network",
+        "gs3.environment-biodiversity.biodiversity-and-conservation.iucn-red-list-categories"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.biodiversity-and-conservation.iucn-red-list-categories",
+      "parentId": "gs3.environment-biodiversity.biodiversity-and-conservation",
+      "title": "IUCN Red List Criteria and Critically Endangered Flora and Fauna of India",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.biodiversity-and-conservation.invasive-alien-species",
+      "parentId": "gs3.environment-biodiversity.biodiversity-and-conservation",
+      "title": "Invasive Alien Flora (Prosopis, Lantana) and Fauna: Ecological and Economic Ramifications",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.biodiversity-and-conservation.human-wildlife-conflict",
+      "parentId": "gs3.environment-biodiversity.biodiversity-and-conservation",
+      "title": "Human-Wildlife Conflict Drivers, Mitigation Corridors, Eco-Sensitive Zones, and Compensation Protocols",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.biodiversity-and-conservation.in-situ-conservation-network"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.biodiversity-and-conservation.ex-situ-conservation",
+      "parentId": "gs3.environment-biodiversity.biodiversity-and-conservation",
+      "title": "Botanical Gardens, Zoological Parks, Seed Banks, Cryopreservation, and Gene Banks",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.environmental-pollution-degradation",
+      "parentId": "gs3.environment-biodiversity",
+      "title": "Pollution, Waste Management and Degradation",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.environmental-pollution-degradation.air-pollution-ncap-caqm",
+      "parentId": "gs3.environment-biodiversity.environmental-pollution-degradation",
+      "title": "Air Quality Index (AQI), PM2.5/PM10, Graded Response Action Plan (GRAP), NCAP, and Stubble Burning",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.environmental-pollution-degradation.water-pollution-river-rejuvenation",
+      "parentId": "gs3.environment-biodiversity.environmental-pollution-degradation",
+      "title": "BOD, COD, Heavy Metal Contamination (Arsenic, Fluoride), and Namami Gange Program Execution",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.environmental-pollution-degradation.solid-waste-management-rules",
+      "parentId": "gs3.environment-biodiversity.environmental-pollution-degradation",
+      "title": "Solid Waste Rules, Source Segregation, Bioremediation of Legacy Waste, and Waste-to-Energy Plants",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.environmental-pollution-degradation.plastic-waste-and-e-waste",
+      "parentId": "gs3.environment-biodiversity.environmental-pollution-degradation",
+      "title": "Single-Use Plastics Ban, Extended Producer Responsibility (EPR) Framework, and E-Waste Rules 2022",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.environmental-pollution-degradation.hazardous-and-biomedical-waste",
+      "parentId": "gs3.environment-biodiversity.environmental-pollution-degradation",
+      "title": "Biomedical Waste Colour-Coding Protocols and Hazardous Chemical Transport Regulations",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.environmental-pollution-degradation.soil-degradation-desertification",
+      "parentId": "gs3.environment-biodiversity.environmental-pollution-degradation",
+      "title": "Soil Salinization, Land Degradation Neutrality (LDN), UNCCD Commitments, and Desertification Atlas",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.environmental-pollution-degradation.noise-and-thermal-pollution",
+      "parentId": "gs3.environment-biodiversity.environmental-pollution-degradation",
+      "title": "Noise Standards (Ambient Air Standards) and Industrial Thermal Pollution in Aquatic Bodies",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.environmental-pollution-degradation.marine-pollution-microplastics",
+      "parentId": "gs3.environment-biodiversity.environmental-pollution-degradation",
+      "title": "Marine Debris, Great Pacific Garbage Patch, Microplastics in Marine Food Webs, and MARPOL Protocol",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.climate-change-and-negotiations",
+      "parentId": "gs3.environment-biodiversity",
+      "title": "Climate Change Science and International Conventions",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming",
+      "parentId": "gs3.environment-biodiversity.climate-change-and-negotiations",
+      "title": "Greenhouse Gases: Radiative Forcing, Global Warming Potential, and Atmospheric Lifetimes",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.climate-change-and-negotiations.ipcc-assessment-reports",
+      "parentId": "gs3.environment-biodiversity.climate-change-and-negotiations",
+      "title": "IPCC Sixth Assessment Report (AR6): Synthesis, 1.5°C Carbon Budget, and Tipping Points",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.climate-change-and-negotiations.unfccc-kyoto-paris-agreement",
+      "parentId": "gs3.environment-biodiversity.climate-change-and-negotiations",
+      "title": "UNFCCC Framework: CBDR-RC Principle, Kyoto Protocol Clean Development Mechanism, and Paris Agreement",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming",
+        "gs3.environment-biodiversity.climate-change-and-negotiations.ipcc-assessment-reports"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.climate-change-and-negotiations.recent-cops-outcomes",
+      "parentId": "gs3.environment-biodiversity.climate-change-and-negotiations",
+      "title": "Recent COP Summits: Loss and Damage Fund, Global Stocktake, and Fossil Fuel Transition Debates",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.climate-change-and-negotiations.unfccc-kyoto-paris-agreement"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.climate-change-and-negotiations.carbon-markets-article-6",
+      "parentId": "gs3.environment-biodiversity.climate-change-and-negotiations",
+      "title": "Carbon Markets Under Article 6 of Paris Agreement, Cap-and-Trade Systems, and Carbon Border Taxes (CBAM)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.climate-change-and-negotiations.unfccc-kyoto-paris-agreement"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.climate-change-and-negotiations.climate-finance-architecture",
+      "parentId": "gs3.environment-biodiversity.climate-change-and-negotiations",
+      "title": "Green Climate Fund (GCF), New Collective Quantified Goal (NCQG), and Adaptation Finance Gaps",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.climate-change-and-negotiations.unfccc-kyoto-paris-agreement"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.climate-change-and-negotiations.ozone-depletion-montreal-kigali",
+      "parentId": "gs3.environment-biodiversity.climate-change-and-negotiations",
+      "title": "Stratospheric Ozone Depletion, Polar Vortex Chemistry, Montreal Protocol, and Kigali Amendment",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.climate-change-and-negotiations.cbd-and-kunming-montreal-framework",
+      "parentId": "gs3.environment-biodiversity.climate-change-and-negotiations",
+      "title": "Convention on Biological Diversity (CBD) and Kunming-Montreal Global Biodiversity Framework (30x30 Target)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.climate-change-and-negotiations.international-environmental-treaties",
+      "parentId": "gs3.environment-biodiversity.climate-change-and-negotiations",
+      "title": "Stockholm (POPs), Basel (Hazardous Wastes), Rotterdam (PIC), and Minamata (Mercury) Conventions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "parentId": "gs3.environment-biodiversity",
+      "title": "Indian Environmental Laws, Governance and Climate Action",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws.wildlife-protection-act-amendments",
+      "parentId": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "title": "Wildlife (Protection) Act 1972 and 2022 Amendment: Schedules Rationalization, CITES Appendices Integration",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws.environment-protection-act-1986",
+      "parentId": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "title": "Environment (Protection) Act 1986: Genesis, Central Government Powers, and Subordinate Delegations",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws.forest-conservation-act-amendments",
+      "parentId": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "title": "Forest (Conservation) Act 1980 and 2023 Amendment: Strategic Exemption Borders and Deemed Forests Debate",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws.biological-diversity-act-reforms",
+      "parentId": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "title": "Biological Diversity Act 2002 and 2023 Amendment: AYUSH Sector Exemptions and State Biodiversity Boards",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.climate-change-and-negotiations.cbd-and-kunming-montreal-framework"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws.national-green-tribunal-mandate",
+      "parentId": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "title": "National Green Tribunal (NGT): Composition, Jurisdiction, Precautionary Principle, and Suo Moto Powers",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.india-climate-policy-laws.environment-protection-act-1986"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws.eia-process-and-notification",
+      "parentId": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "title": "Environmental Impact Assessment (EIA) Notification: Screening, Scoping, Public Hearing, and Appraisal Gaps",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.india-climate-policy-laws.environment-protection-act-1986"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws.coastal-regulation-zone-rules",
+      "parentId": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "title": "Coastal Regulation Zone (CRZ) Notifications: Categories (I-IV), Ecologically Sensitive Areas, and Exemptions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.india-climate-policy-laws.environment-protection-act-1986"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws.india-panchamrit-ndcs",
+      "parentId": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "title": "Panchamrit Commitments, Updated Nationally Determined Contributions (NDCs), and Net-Zero 2070 Strategy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.climate-change-and-negotiations.unfccc-kyoto-paris-agreement"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws.napcc-eight-missions",
+      "parentId": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "title": "National Action Plan on Climate Change (NAPCC): 8 Missions and State Action Plans (SAPCC)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming"
+      ]
+    },
+    {
+      "id": "gs3.environment-biodiversity.india-climate-policy-laws.lifestyle-for-environment-mission-life",
+      "parentId": "gs3.environment-biodiversity.india-climate-policy-laws",
+      "title": "Mission LiFE (Lifestyle for Environment) and Green Credit Programme Rules",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management",
+      "parentId": "gs3",
+      "title": "Disaster and Disaster Management",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.disaster-profiling-vulnerability",
+      "parentId": "gs3.disaster-management",
+      "title": "Disaster Profile and Vulnerability Analysis of India",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.disaster-profiling-vulnerability.earthquakes-seismic-zonation",
+      "parentId": "gs3.disaster-management.disaster-profiling-vulnerability",
+      "title": "Earthquake Hazards, Seismic Zonation Map of India (Zones II-V), and Building Code Compliance",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.disaster-profiling-vulnerability.tsunamis-early-warning",
+      "parentId": "gs3.disaster-management.disaster-profiling-vulnerability",
+      "title": "Tsunami Generation Mechanisms, INCOIS Early Warning System, and Coastal Community Readiness",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.disaster-profiling-vulnerability.cyclones-and-storm-surges",
+      "parentId": "gs3.disaster-management.disaster-profiling-vulnerability",
+      "title": "Tropical Cyclogenesis (Bay of Bengal vs Arabian Sea), Color-Coded Weather Alerts, and Evacuation Logistics",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.disaster-profiling-vulnerability.riverine-and-urban-floods",
+      "parentId": "gs3.disaster-management.disaster-profiling-vulnerability",
+      "title": "Riverine Floods vs Urban Floods: Drainage Encroachment, Sponge Cities Concept, and NDMA Guidelines",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.disaster-profiling-vulnerability.droughts-monitoring-crisis",
+      "parentId": "gs3.disaster-management.disaster-profiling-vulnerability",
+      "title": "Meteorological, Hydrological, and Agricultural Droughts: Manual for Drought Management and Crisis Codes",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.disaster-profiling-vulnerability.landslides-and-glofs",
+      "parentId": "gs3.disaster-management.disaster-profiling-vulnerability",
+      "title": "Himalayan Landslides Vulnerability, Subsidence (Joshimath), and Glacial Lake Outburst Floods (GLOFs)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.disaster-profiling-vulnerability.forest-fires-and-heatwaves",
+      "parentId": "gs3.disaster-management.disaster-profiling-vulnerability",
+      "title": "Forest Fires (FSI Alert System), Heatwaves Criteria, Wet-Bulb Temperatures, and Heat Action Plans",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.disaster-profiling-vulnerability.chemical-biological-industrial-disasters",
+      "parentId": "gs3.disaster-management.disaster-profiling-vulnerability",
+      "title": "CBRN Threats, Industrial Chemical Disasters (Bhopal, Vizag Gas Leak), and Factory Safety Norms",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.dm-institutional-framework",
+      "parentId": "gs3.disaster-management",
+      "title": "Institutional, Legal and International Frameworks",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture",
+      "parentId": "gs3.disaster-management.dm-institutional-framework",
+      "title": "Disaster Management Act 2005: NDMA, SDMA, DDMA Structures and Statutory Authorities",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.dm-institutional-framework.ndrf-sdrf-response-mechanisms",
+      "parentId": "gs3.disaster-management.dm-institutional-framework",
+      "title": "National Disaster Response Force (NDRF) Deployment, Incident Response System (IRS), and Civil Defence",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture"
+      ]
+    },
+    {
+      "id": "gs3.disaster-management.dm-institutional-framework.financing-ndrmf-sdrmf",
+      "parentId": "gs3.disaster-management.dm-institutional-framework",
+      "title": "Disaster Financing: 15th Finance Commission Allocation for Mitigation (NDMF/SDMF) vs Response Funds",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture"
+      ]
+    },
+    {
+      "id": "gs3.disaster-management.dm-institutional-framework.sendai-framework-priorities",
+      "parentId": "gs3.disaster-management.dm-institutional-framework",
+      "title": "Sendai Framework for Disaster Risk Reduction (2015-2030): 4 Priorities and 7 Global Targets",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.disaster-management.dm-institutional-framework.prime-ministers-ten-point-agenda",
+      "parentId": "gs3.disaster-management.dm-institutional-framework",
+      "title": "Prime Minister’s 10-Point Agenda on Disaster Risk Reduction and National Disaster Management Plan (NDMP)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture",
+        "gs3.disaster-management.dm-institutional-framework.sendai-framework-priorities"
+      ]
+    },
+    {
+      "id": "gs3.disaster-management.dm-institutional-framework.community-based-disaster-management",
+      "parentId": "gs3.disaster-management.dm-institutional-framework",
+      "title": "Community-Based Disaster Risk Reduction (CBDRR), Aapda Mitra Scheme, and Local Resilience Building",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture"
+      ]
+    },
+    {
+      "id": "gs3.disaster-management.dm-institutional-framework.cdri-and-resilient-infrastructure",
+      "parentId": "gs3.disaster-management.dm-institutional-framework",
+      "title": "Coalition for Disaster Resilient Infrastructure (CDRI) and Infrastructure for Resilient Island States (IRIS)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security",
+      "parentId": "gs3",
+      "title": "Internal Security and Border Management",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.development-and-extremism",
+      "parentId": "gs3.internal-security",
+      "title": "Linkages Between Development and Spread of Extremism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.development-and-extremism.left-wing-extremism-roots",
+      "parentId": "gs3.internal-security.development-and-extremism",
+      "title": "Naxalism/LWE Genesis: Historical Grievances, Tribal Alienation, Land Rights, and Forest Rights Gaps",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.development-and-extremism.lwe-operational-theatre",
+      "parentId": "gs3.internal-security.development-and-extremism",
+      "title": "Red Corridor Geopolitics, Urban Naxalism Narrative, and Dandakaranya Strategic Bastion Dynamics",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.development-and-extremism.left-wing-extremism-roots"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.development-and-extremism.government-strategy-lwe",
+      "parentId": "gs3.internal-security.development-and-extremism",
+      "title": "National Policy and Action Plan to Address LWE: SAMADHAN Doctrine, Greyhounds, and Surrender Policies",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.development-and-extremism.left-wing-extremism-roots",
+        "gs3.internal-security.development-and-extremism.lwe-operational-theatre"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.development-and-extremism.lwe-developmental-interventions",
+      "parentId": "gs3.internal-security.development-and-extremism",
+      "title": "Development Countermeasures in LWE Areas: Security Related Expenditure (SRE), Eklavya Schools, RRP Roads",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.development-and-extremism.left-wing-extremism-roots"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.external-actors-and-insurgency",
+      "parentId": "gs3.internal-security",
+      "title": "External State and Non-State Actors & Regional Insurgencies",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+      "parentId": "gs3.internal-security.external-actors-and-insurgency",
+      "title": "State-Sponsored Terrorism, Bleed India by a Thousand Cuts Doctrine, and Cross-Border Infiltration",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.external-actors-and-insurgency.jammu-kashmir-hybrid-terrorism",
+      "parentId": "gs3.internal-security.external-actors-and-insurgency",
+      "title": "Jammu & Kashmir Security Dynamics Post-Article 370: Hybrid Terrorists, Drone Drops, and Targeted Killings",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.external-actors-and-insurgency.northeast-insurgency-history",
+      "parentId": "gs3.internal-security.external-actors-and-insurgency",
+      "title": "North-East Insurgency Drivers: Ethnic Sub-Nationalism, Porous Frontiers, and Historical Cleavages",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.external-actors-and-insurgency.northeast-peace-accords",
+      "parentId": "gs3.internal-security.external-actors-and-insurgency",
+      "title": "Peace Accords Framework: Naga Peace Talks (Framework Agreement), Bodo Accord, Bru Settlement, and ULFA Pact",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.external-actors-and-insurgency.northeast-insurgency-history"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.external-actors-and-insurgency.afspa-provisions-debate",
+      "parentId": "gs3.internal-security.external-actors-and-insurgency",
+      "title": "Armed Forces Special Powers Act (AFSPA): Section 4 Powers, Jeevan Reddy Committee, and Phased Withdrawal",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.external-actors-and-insurgency.northeast-insurgency-history"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.cyber-security-and-media",
+      "parentId": "gs3.internal-security",
+      "title": "Cyber Security, Communication Networks and Social Media",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors",
+      "parentId": "gs3.internal-security.cyber-security-and-media",
+      "title": "Cyber Threat Landscape: Malware, Ransomware, Distributed Denial of Service (DDoS), and Phishing Attacks",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.cyber-security-and-media.critical-information-infrastructure",
+      "parentId": "gs3.internal-security.cyber-security-and-media",
+      "title": "National Critical Information Infrastructure Protection Centre (NCIIPC), CERT-In Mandate, and Cyber Swachhta",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.cyber-security-and-media.national-cyber-security-policy",
+      "parentId": "gs3.internal-security.cyber-security-and-media",
+      "title": "National Cyber Security Policy, National Cyber Coordination Centre (NCCC), and Indian Cyber Crime Coordination Centre (I4C)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors",
+        "gs3.internal-security.cyber-security-and-media.critical-information-infrastructure"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.cyber-security-and-media.data-protection-privacy-act",
+      "parentId": "gs3.internal-security.cyber-security-and-media",
+      "title": "Digital Personal Data Protection (DPDP) Act 2023: Data Fiduciaries, Consent Architecture, and Security Exemptions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.cyber-security-and-media.social-media-radicalization-fake-news",
+      "parentId": "gs3.internal-security.cyber-security-and-media",
+      "title": "Social Networking Challenges: Online Radicalization, Deepfakes, Algorithmic Echo Chambers, and Mob Lynching Triggers",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.cyber-security-and-media.it-rules-intermediary-guidelines",
+      "parentId": "gs3.internal-security.cyber-security-and-media",
+      "title": "IT (Intermediary Guidelines and Digital Media Ethics Code) Rules: Due Diligence, Grievance Redressal, and Traceability",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.cyber-security-and-media.social-media-radicalization-fake-news"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.cyber-security-and-media.darknet-cryptocurrency-crimes",
+      "parentId": "gs3.internal-security.cyber-security-and-media",
+      "title": "Darknet Markets, Tor Routing, Crypto-Jacked Financing, and Challenges in Anonymity Decryption",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.money-laundering-organized-crime",
+      "parentId": "gs3.internal-security",
+      "title": "Money Laundering and Organized Crime Linkages",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.money-laundering-organized-crime.money-laundering-stages-techniques",
+      "parentId": "gs3.internal-security.money-laundering-organized-crime",
+      "title": "Money Laundering Stages: Placement, Layering, Integration; Hawala Channels, and Shell Companies",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.money-laundering-organized-crime.pmla-enforcement-directorate",
+      "parentId": "gs3.internal-security.money-laundering-organized-crime",
+      "title": "Prevention of Money Laundering Act (PMLA) 2002: Enforcement Directorate Powers, Burden of Proof, and Bail Thresholds",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.money-laundering-organized-crime.money-laundering-stages-techniques"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.money-laundering-organized-crime.fatf-standards-and-scrutiny",
+      "parentId": "gs3.internal-security.money-laundering-organized-crime",
+      "title": "Financial Action Task Force (FATF): 40 Recommendations, Mutual Evaluations, Grey List, and Black List Effects",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.money-laundering-organized-crime.money-laundering-stages-techniques"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.money-laundering-organized-crime.organized-crime-nexus",
+      "parentId": "gs3.internal-security.money-laundering-organized-crime",
+      "title": "Organized Crime Syndicates: Drug Cartels, Illegal Arms Trafficking, Human Smuggling, and Fake Indian Currency Notes (FICN)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.money-laundering-organized-crime.narco-terrorism-linkages",
+      "parentId": "gs3.internal-security.money-laundering-organized-crime",
+      "title": "Terror-Crime Nexus: Golden Crescent and Golden Triangle Supply Routes, Drone Smuggling, and Narco-Terrorism Nexus",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.money-laundering-organized-crime.organized-crime-nexus"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.money-laundering-organized-crime.terror-financing-monitoring",
+      "parentId": "gs3.internal-security.money-laundering-organized-crime",
+      "title": "CFT Mechanisms: Terror Financing Channels, Non-Profit Organization Misuse, and National Investigation Agency (NIA) Scrutiny",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.money-laundering-organized-crime.money-laundering-stages-techniques"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.border-management",
+      "parentId": "gs3.internal-security",
+      "title": "Security Challenges and Management in Border Areas",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.border-management.india-pakistan-border",
+      "parentId": "gs3.internal-security.border-management",
+      "title": "India-Pakistan Border Management: LoC, International Border, Sir Creek Dispute, and Smart Fencing (CIBMS)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.border-management.india-china-border-lac",
+      "parentId": "gs3.internal-security.border-management",
+      "title": "Line of Actual Control (LAC): Western, Middle, and Eastern Sectors, Infrastructure Build-up, and Patrol Conflicts",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.border-management.india-myanmar-border-fmr",
+      "parentId": "gs3.internal-security.border-management",
+      "title": "India-Myanmar Border: Complex Terrain, Cross-Border Insurgent Havens, and Free Movement Regime (FMR) Scrapping",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.border-management.india-bangladesh-border",
+      "parentId": "gs3.internal-security.border-management",
+      "title": "India-Bangladesh Border: Enclaves Settlement, Cattle Smuggling, Illegal Migration, and Riverine Patrolling (BGB-BSF Coordination)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.border-management.india-nepal-bhutan-frontiers",
+      "parentId": "gs3.internal-security.border-management",
+      "title": "Open Border Dynamics: India-Nepal Kalapani/Susta Disputes, Smuggling Nodes, and India-Bhutan Strategic Synergy",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.border-management.coastal-and-island-security",
+      "parentId": "gs3.internal-security.border-management",
+      "title": "Coastal Security Architecture Post-26/11: Multi-Tiered Patrols, Coastal Radar Chain, SAGAR Vision, and Marine Police",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.border-management.vibrant-villages-programme",
+      "parentId": "gs3.internal-security.border-management",
+      "title": "Border Area Development Programme (BADP) and Vibrant Villages Programme: De-Population Reversal Strategy",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.border-management.india-china-border-lac"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.security-forces-agencies",
+      "parentId": "gs3.internal-security",
+      "title": "Security Forces, Agencies and Intelligence Architecture",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.security-forces-agencies.capf-mandates-and-deployment",
+      "parentId": "gs3.internal-security.security-forces-agencies",
+      "title": "Central Armed Police Forces: BSF, CRPF, CISF, ITBP, SSB, Assam Rifles, and NSG Operational Mandates",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.security-forces-agencies.indian-armed-forces-theaterisation",
+      "parentId": "gs3.internal-security.security-forces-agencies",
+      "title": "Higher Defence Management: Chief of Defence Staff (CDS), Theaterisation Model, and Inter-Services Synergy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.security-forces-agencies.intelligence-agencies-ib-raw-ntro",
+      "parentId": "gs3.internal-security.security-forces-agencies",
+      "title": "Intelligence Architecture: IB, R&AW, NTRO, DIA, Multi-Agency Centre (MAC), and Inter-Agency Coordination Gaps",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.security-forces-agencies.investigation-agencies-nia-cbi",
+      "parentId": "gs3.internal-security.security-forces-agencies",
+      "title": "National Investigation Agency (NIA) Act & Amendments, Special Courts, and CBI Security/Terrorism Interface",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs3.internal-security.security-forces-agencies.uapa-statutory-architecture",
+      "parentId": "gs3.internal-security.security-forces-agencies",
+      "title": "Unlawful Activities (Prevention) Act (UAPA): Designation of Individual Terrorists, Seizure Powers, and Constitutional Challenges",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.security-forces-agencies.investigation-agencies-nia-cbi"
+      ]
+    },
+    {
+      "id": "gs3.internal-security.security-forces-agencies.natgrid-cctns-integration",
+      "parentId": "gs3.internal-security.security-forces-agencies",
+      "title": "Intelligence Tech Framework: NATGRID Unified Database, CCTNS Criminal Tracking, and Integrated Command Centers",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs3.internal-security.security-forces-agencies.intelligence-agencies-ib-raw-ntro"
+      ]
+    }
+  ]
+}

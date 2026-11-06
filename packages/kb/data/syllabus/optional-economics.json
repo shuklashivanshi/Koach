@@ -1,0 +1,105 @@
+{
+  "paper": "optional:economics",
+  "title": "Economics",
+  "nodes": [
+    {
+      "id": "opt.economics",
+      "parentId": null,
+      "title": "Economics",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.economics.p1",
+      "parentId": "opt.economics",
+      "title": "Economics · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.economics.p1.t01",
+      "parentId": "opt.economics.p1",
+      "title": "Advanced Micro Economics: Approaches to Price Determination and Welfare",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.economics.p1.t02",
+      "parentId": "opt.economics.p1",
+      "title": "Advance Macro Economics: Employment, Income and Interest Rate Determination",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.economics.p1.t03",
+      "parentId": "opt.economics.p1",
+      "title": "Money-Banking and Finance: Demand, Supply and Public Finance Role",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.economics.p1.t04",
+      "parentId": "opt.economics.p1",
+      "title": "International Economics: Trade Theories, Protection, Balance of Payments and WTO",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.economics.p1.t05",
+      "parentId": "opt.economics.p1",
+      "title": "Growth and Development: Growth Theories, Welfare Indicators and Sustainability",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.economics.p2",
+      "parentId": "opt.economics",
+      "title": "Economics · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.economics.p2.t01",
+      "parentId": "opt.economics.p2",
+      "title": "Indian Economy in Pre-Independence Era: Land System and Colonial Transport",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.economics.p2.t02",
+      "parentId": "opt.economics.p2",
+      "title": "Indian Economy after Independence: The Pre-Liberalization Era Policies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.economics.p2.t03",
+      "parentId": "opt.economics.p2",
+      "title": "Indian Economy after Independence: The Post Liberalization Era Reforms",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

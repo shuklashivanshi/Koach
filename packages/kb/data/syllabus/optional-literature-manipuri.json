@@ -1,0 +1,105 @@
+{
+  "paper": "optional:literature-manipuri",
+  "title": "Literature of Manipuri",
+  "nodes": [
+    {
+      "id": "opt.literature-manipuri",
+      "parentId": null,
+      "title": "Literature of Manipuri",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-manipuri.p1",
+      "parentId": "opt.literature-manipuri",
+      "title": "Literature of Manipuri · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-manipuri.p1.t01",
+      "parentId": "opt.literature-manipuri.p1",
+      "title": "General characteristics of Manipuri Language and history of its development",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-manipuri.p1.t02",
+      "parentId": "opt.literature-manipuri.p1",
+      "title": "Significant features of Manipuri Language: Phonology, Morphology and Syntax",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-manipuri.p1.t03",
+      "parentId": "opt.literature-manipuri.p1",
+      "title": "Literary History of Manipuri: Early, Medieval and Modern periods",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-manipuri.p1.t04",
+      "parentId": "opt.literature-manipuri.p1",
+      "title": "Manipuri Folk Literature: Legend, Folktale, Folksong, Ballad, Proverb and Riddle",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-manipuri.p1.t05",
+      "parentId": "opt.literature-manipuri.p1",
+      "title": "Aspects of Manipuri Culture, performing arts and indigenous games",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-manipuri.p2",
+      "parentId": "opt.literature-manipuri",
+      "title": "Literature of Manipuri · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-manipuri.p2.t01",
+      "parentId": "opt.literature-manipuri.p2",
+      "title": "Old and Medieval Manipuri Literature: Selected Prescribed Texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-manipuri.p2.t02",
+      "parentId": "opt.literature-manipuri.p2",
+      "title": "Modern Manipuri Literature: Prescribed Poetry, Epic and Drama",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-manipuri.p2.t03",
+      "parentId": "opt.literature-manipuri.p2",
+      "title": "Modern Manipuri Literature: Prescribed Novel, Short-story and Prose",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

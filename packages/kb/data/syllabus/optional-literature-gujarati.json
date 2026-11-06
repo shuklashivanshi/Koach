@@ -1,0 +1,114 @@
+{
+  "paper": "optional:literature-gujarati",
+  "title": "Literature of Gujarati",
+  "nodes": [
+    {
+      "id": "opt.literature-gujarati",
+      "parentId": null,
+      "title": "Literature of Gujarati",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p1",
+      "parentId": "opt.literature-gujarati",
+      "title": "Literature of Gujarati · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p1.t01",
+      "parentId": "opt.literature-gujarati.p1",
+      "title": "Section A (1-3): History and Form of Gujarati Language and Regional Dialects",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p1.t02",
+      "parentId": "opt.literature-gujarati.p1",
+      "title": "Section A (4-6): History of Medieval Gujarati Literature: Jaina, Bhakti and Non-Sectarian",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p1.t03",
+      "parentId": "opt.literature-gujarati.p1",
+      "title": "Section A (7-11): Modern Eras of Gujarati Literature: Sudharak, Pandit, Gandhi and Adhunik",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p1.t04",
+      "parentId": "opt.literature-gujarati.p1",
+      "title": "Section B (a): Medieval Gujarati Literary Forms: Rasa, Akhyan, Padyavarta and Pada",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p1.t05",
+      "parentId": "opt.literature-gujarati.p1",
+      "title": "Section B (b): Traditional Gujarati Folk Performance Forms and Folk Theatre Bhavai",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p1.t06",
+      "parentId": "opt.literature-gujarati.p1",
+      "title": "Section B (c): Modern Gujarati Literary Forms: Fiction, Drama, Essays and Poetry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p1.t07",
+      "parentId": "opt.literature-gujarati.p1",
+      "title": "Section B (d): History and Evolution of Theoretical Gujarati Literary Criticism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p2",
+      "parentId": "opt.literature-gujarati",
+      "title": "Literature of Gujarati · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p2.t01",
+      "parentId": "opt.literature-gujarati.p2",
+      "title": "Section A: Critical Study of Prescribed Medieval, Sudharakyug and Pandityug Texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-gujarati.p2.t02",
+      "parentId": "opt.literature-gujarati.p2",
+      "title": "Section B: Critical Study of Gandhiyug, Anu Gandhiyug and Adhunikyug Prescribed Works",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

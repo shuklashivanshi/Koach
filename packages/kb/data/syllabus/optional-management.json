@@ -1,0 +1,141 @@
+{
+  "paper": "optional:management",
+  "title": "Management",
+  "nodes": [
+    {
+      "id": "opt.management",
+      "parentId": null,
+      "title": "Management",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p1",
+      "parentId": "opt.management",
+      "title": "Management · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p1.t01",
+      "parentId": "opt.management.p1",
+      "title": "Managerial Function and Process: Evolution, functions, skills and ethics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p1.t02",
+      "parentId": "opt.management.p1",
+      "title": "Organisational Behaviour and Design: Individual processes, structure and change",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p1.t03",
+      "parentId": "opt.management.p1",
+      "title": "Human Resource Management: Planning, recruitment, development and industrial relations",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p1.t04",
+      "parentId": "opt.management.p1",
+      "title": "Accounting for Managers: Financial accounting, costing methods and budget analysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p1.t05",
+      "parentId": "opt.management.p1",
+      "title": "Financial Management: Capital budgeting, capital structure and working capital",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p1.t06",
+      "parentId": "opt.management.p1",
+      "title": "Marketing Management: Strategy, market segmentation, consumer behaviour and marketing",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p2",
+      "parentId": "opt.management",
+      "title": "Management · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p2.t01",
+      "parentId": "opt.management.p2",
+      "title": "Quantitative Techniques in Decision-making: Statistics, probability and linear programming",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p2.t02",
+      "parentId": "opt.management.p2",
+      "title": "Production and Operations Management: Capacity planning, quality and supply chain",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p2.t03",
+      "parentId": "opt.management.p2",
+      "title": "Management Information System: Systems development, databases, enterprise resource planning",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p2.t04",
+      "parentId": "opt.management.p2",
+      "title": "Government Business Interface: Industrial policy, regulation and public distribution system",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p2.t05",
+      "parentId": "opt.management.p2",
+      "title": "Strategic Cost Management: Competitive analysis, strategy formulation and execution",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.management.p2.t06",
+      "parentId": "opt.management.p2",
+      "title": "International Business: Global trade environment, foreign investment and international marketing",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "paper": "optional:literature-santhali",
+  "title": "Literature of Santhali",
+  "nodes": [
+    {
+      "id": "opt.literature-santhali",
+      "parentId": null,
+      "title": "Literature of Santhali",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p1",
+      "parentId": "opt.literature-santhali",
+      "title": "Literature of Santhali · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p1.t01",
+      "parentId": "opt.literature-santhali.p1",
+      "title": "Section A Part I: History and Grammatical Structure of Santhali Language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p1.t02",
+      "parentId": "opt.literature-santhali.p1",
+      "title": "Section A Part II: History of Santhali Literature Across Four Major Periods",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p1.t03",
+      "parentId": "opt.literature-santhali.p1",
+      "title": "Section B Part I: Main Characteristics and History of Santhali Folk Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p1.t04",
+      "parentId": "opt.literature-santhali.p1",
+      "title": "Section B Part II: Development of Modern Literature and Prominent Santhali Writers",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p1.t05",
+      "parentId": "opt.literature-santhali.p1",
+      "title": "Section B Part III: Cultural Heritage of Santhali Traditions, Customs and Rituals",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p2",
+      "parentId": "opt.literature-santhali",
+      "title": "Literature of Santhali · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p2.t01",
+      "parentId": "opt.literature-santhali.p2",
+      "title": "Section A: Critical Study of Prescribed Ancient Prose and Poetry Texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p2.t02",
+      "parentId": "opt.literature-santhali.p2",
+      "title": "Section B Part I: Detailed Study of Prescribed Modern Santhali Poetry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p2.t03",
+      "parentId": "opt.literature-santhali.p2",
+      "title": "Section B Part II: Detailed Study of Prescribed Modern Santhali Novels",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p2.t04",
+      "parentId": "opt.literature-santhali.p2",
+      "title": "Section B Part III: Detailed Study of Prescribed Modern Santhali Short Stories",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p2.t05",
+      "parentId": "opt.literature-santhali.p2",
+      "title": "Section B Part IV: Detailed Study of Prescribed Modern Santhali Plays and Drama",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-santhali.p2.t06",
+      "parentId": "opt.literature-santhali.p2",
+      "title": "Section B Part V: Detailed Study of Prescribed Santhali Biographical Work",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "paper": "optional:animal-husbandry-and-veterinary-science",
+  "title": "Animal Husbandry and Veterinary Science",
+  "nodes": [
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science",
+      "parentId": null,
+      "title": "Animal Husbandry and Veterinary Science",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p1",
+      "parentId": "opt.animal-husbandry-and-veterinary-science",
+      "title": "Animal Husbandry and Veterinary Science · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p1.t01",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p1",
+      "title": "Animal Nutrition",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p1.t02",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p1",
+      "title": "Animal Physiology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p1.t03",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p1",
+      "title": "Animal Reproduction",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p1.t04",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p1",
+      "title": "Livestock Production and Management",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p1.t05",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p1",
+      "title": "Genetics and Animal Breeding",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p1.t06",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p1",
+      "title": "Extension",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p2",
+      "parentId": "opt.animal-husbandry-and-veterinary-science",
+      "title": "Animal Husbandry and Veterinary Science · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p2.t01",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p2",
+      "title": "Anatomy, Pharmacology and Hygiene",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p2.t02",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p2",
+      "title": "Animal Diseases",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p2.t03",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p2",
+      "title": "Veterinary Public Health",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p2.t04",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p2",
+      "title": "Milk and Milk Products Technology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.animal-husbandry-and-veterinary-science.p2.t05",
+      "parentId": "opt.animal-husbandry-and-veterinary-science.p2",
+      "title": "Meat Hygiene and Technology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

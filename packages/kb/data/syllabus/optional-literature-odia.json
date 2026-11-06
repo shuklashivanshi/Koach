@@ -1,0 +1,96 @@
+{
+  "paper": "optional:literature-odia",
+  "title": "Literature of Odia",
+  "nodes": [
+    {
+      "id": "opt.literature-odia",
+      "parentId": null,
+      "title": "Literature of Odia",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-odia.p1",
+      "parentId": "opt.literature-odia",
+      "title": "Literature of Odia · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-odia.p1.t01",
+      "parentId": "opt.literature-odia.p1",
+      "title": "History of Odia Language: Origin, development and external influences",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-odia.p1.t02",
+      "parentId": "opt.literature-odia.p1",
+      "title": "Phonetics, Phonemics, Morphology, Syntax and Semantics of Odia",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-odia.p1.t03",
+      "parentId": "opt.literature-odia.p1",
+      "title": "Common errors in Odia, regional variations and dialects",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-odia.p1.t04",
+      "parentId": "opt.literature-odia.p1",
+      "title": "History of Odia Literature: Historical backgrounds and ancient epics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-odia.p1.t05",
+      "parentId": "opt.literature-odia.p1",
+      "title": "Typical structural forms of Odia Literature and modern literary trends",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-odia.p2",
+      "parentId": "opt.literature-odia",
+      "title": "Literature of Odia · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-odia.p2.t01",
+      "parentId": "opt.literature-odia.p2",
+      "title": "Critical study of prescribed Ancient, Medieval and Modern Poetry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-odia.p2.t02",
+      "parentId": "opt.literature-odia.p2",
+      "title": "Critical study of prescribed Drama, Novel, Short Story and Essay",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "paper": "optional:geography",
+  "title": "Geography",
+  "nodes": [
+    {
+      "id": "opt.geography",
+      "parentId": null,
+      "title": "Geography",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1",
+      "parentId": "opt.geography",
+      "title": "Geography · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1.t01",
+      "parentId": "opt.geography.p1",
+      "title": "Physical Geography: Geomorphology and Landform Development Processes",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1.t02",
+      "parentId": "opt.geography.p1",
+      "title": "Physical Geography: Climatology, Heat Budget and World Climate Classification",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1.t03",
+      "parentId": "opt.geography.p1",
+      "title": "Physical Geography: Oceanography, Ocean Deposits and Marine Resources",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1.t04",
+      "parentId": "opt.geography.p1",
+      "title": "Physical Geography: Biogeography, Soil Genesis and Deforestation Problems",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1.t05",
+      "parentId": "opt.geography.p1",
+      "title": "Physical Geography: Environmental Geography, Ecology and Conservation Measures",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1.t06",
+      "parentId": "opt.geography.p1",
+      "title": "Human Geography: Perspectives in Human Geography and Welfare Approaches",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1.t07",
+      "parentId": "opt.geography.p1",
+      "title": "Human Geography: Economic Geography, World Resources and World Trade",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1.t08",
+      "parentId": "opt.geography.p1",
+      "title": "Human Geography: Population and Settlement Geography and Urbanization Problems",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1.t09",
+      "parentId": "opt.geography.p1",
+      "title": "Human Geography: Regional Planning, Growth Poles and Development Strategies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p1.t10",
+      "parentId": "opt.geography.p1",
+      "title": "Human Geography: Models, Theories and Laws in Human Geography",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2",
+      "parentId": "opt.geography",
+      "title": "Geography · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2.t01",
+      "parentId": "opt.geography.p2",
+      "title": "Geography of India: Physical Setting, Relief, Drainage and Climate",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2.t02",
+      "parentId": "opt.geography.p2",
+      "title": "Geography of India: Land, Water, Energy and Biotic Resources",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2.t03",
+      "parentId": "opt.geography.p2",
+      "title": "Geography of India: Agriculture Infrastructure, Cropping Patterns and Green Revolution",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2.t04",
+      "parentId": "opt.geography.p2",
+      "title": "Geography of India: Evolution and Location Factors of Major Industries",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2.t05",
+      "parentId": "opt.geography.p2",
+      "title": "Geography of India: Transport, Communication, Trade and Space Programme",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2.t06",
+      "parentId": "opt.geography.p2",
+      "title": "Geography of India: Cultural Setting, Tribal Areas and Demography",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2.t07",
+      "parentId": "opt.geography.p2",
+      "title": "Geography of India: Rural and Urban Settlements and Morphology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2.t08",
+      "parentId": "opt.geography.p2",
+      "title": "Geography of India: Regional Development, Five Year Plans and Planning",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2.t09",
+      "parentId": "opt.geography.p2",
+      "title": "Geography of India: Political Aspects, Federalism and Border Issues",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geography.p2.t10",
+      "parentId": "opt.geography.p2",
+      "title": "Geography of India: Contemporary Issues, Hazards and Environmental Degradation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "paper": "optional:commerce-and-accountancy",
+  "title": "Commerce and Accountancy",
+  "nodes": [
+    {
+      "id": "opt.commerce-and-accountancy",
+      "parentId": null,
+      "title": "Commerce and Accountancy",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p1",
+      "parentId": "opt.commerce-and-accountancy",
+      "title": "Commerce and Accountancy · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p1.t01",
+      "parentId": "opt.commerce-and-accountancy.p1",
+      "title": "Accounting, Taxation and Auditing: Financing Accounting Principles and Practices",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p1.t02",
+      "parentId": "opt.commerce-and-accountancy.p1",
+      "title": "Cost Accounting Concepts, Methods and Decision Making Techniques",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p1.t03",
+      "parentId": "opt.commerce-and-accountancy.p1",
+      "title": "Taxation: Income Tax Provisions, Computation and Service Tax",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p1.t04",
+      "parentId": "opt.commerce-and-accountancy.p1",
+      "title": "Auditing: Company Audit, Banking, Insurance and Non-Profit Organizations",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p1.t05",
+      "parentId": "opt.commerce-and-accountancy.p1",
+      "title": "Financial Management: Capital Budgeting, Capital Structure and Working Capital",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p1.t06",
+      "parentId": "opt.commerce-and-accountancy.p1",
+      "title": "Financial Markets and Institutions: Banking, Capital Markets and Services",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p2",
+      "parentId": "opt.commerce-and-accountancy",
+      "title": "Commerce and Accountancy · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p2.t01",
+      "parentId": "opt.commerce-and-accountancy.p2",
+      "title": "Organisation Theory: Nature, Evolution, Design and Organizational Structure",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p2.t02",
+      "parentId": "opt.commerce-and-accountancy.p2",
+      "title": "Organisation Behaviour: Individual Behaviour, Motivation, Leadership and Change",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p2.t03",
+      "parentId": "opt.commerce-and-accountancy.p2",
+      "title": "Human Resources Management: Planning, Recruitment, Training and Performance Appraisal",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.commerce-and-accountancy.p2.t04",
+      "parentId": "opt.commerce-and-accountancy.p2",
+      "title": "Industrial Relations: Trade Unions, Industrial Disputes and Worker Participation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

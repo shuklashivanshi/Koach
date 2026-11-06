@@ -1,0 +1,492 @@
+{
+  "paper": "optional:history",
+  "title": "History",
+  "nodes": [
+    {
+      "id": "opt.history",
+      "parentId": null,
+      "title": "History",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1",
+      "parentId": "opt.history",
+      "title": "History · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t01",
+      "parentId": "opt.history.p1",
+      "title": "Sources: Archaeological Exploration, Epigraphy, Numismatics and Literary Sources",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t02",
+      "parentId": "opt.history.p1",
+      "title": "Pre-history and Proto-history: Hunting, Gathering and Early Agriculture",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t03",
+      "parentId": "opt.history.p1",
+      "title": "Indus Valley Civilization: Origin, Extent, Characteristics, Decline and Art",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t04",
+      "parentId": "opt.history.p1",
+      "title": "Megalithic Cultures: Pastoral and Farming Cultures, Settlements and Iron Industry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t05",
+      "parentId": "opt.history.p1",
+      "title": "Aryans and Vedic Period: Literature, Monarchy Evolution and Varna System",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t06",
+      "parentId": "opt.history.p1",
+      "title": "Period of Mahajanapadas: Republics, Monarchies, Urban Centres and Religions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t07",
+      "parentId": "opt.history.p1",
+      "title": "Mauryan Empire: Foundation, Ashoka, Administration, Economy, Religion and Art",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t08",
+      "parentId": "opt.history.p1",
+      "title": "Post-Mauryan Period: Outside Contact, Urban Centres, Economy and Religions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t09",
+      "parentId": "opt.history.p1",
+      "title": "Early State and Society in Eastern India, Deccan and South India",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t10",
+      "parentId": "opt.history.p1",
+      "title": "Guptas, Vakatakas and Vardhanas: Administration, Feudalism, Caste and Art",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t11",
+      "parentId": "opt.history.p1",
+      "title": "Regional States during Gupta Era: Dynasties, Temple Architecture and Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t12",
+      "parentId": "opt.history.p1",
+      "title": "Themes in Early Indian Cultural History: Languages, Philosophy and Science",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t13",
+      "parentId": "opt.history.p1",
+      "title": "Early Medieval India, 750-1200: Political Developments, Cholas and Economy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t14",
+      "parentId": "opt.history.p1",
+      "title": "Cultural Traditions in India, 750-1200: Philosophy, Bhakti Cult and Art",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t15",
+      "parentId": "opt.history.p1",
+      "title": "The Thirteenth Century: Delhi Sultanate Foundation and Consolidation Policies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t16",
+      "parentId": "opt.history.p1",
+      "title": "The Fourteenth Century: Khalji Revolution and Tughluq Administrative Projects",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t17",
+      "parentId": "opt.history.p1",
+      "title": "Society, Culture and Economy in the Thirteenth and Fourteenth Centuries",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t18",
+      "parentId": "opt.history.p1",
+      "title": "The Fifteenth and Early Sixteenth Century: Political Developments and Economy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t19",
+      "parentId": "opt.history.p1",
+      "title": "The Fifteenth and Early Sixteenth Century: Regional Society and Culture",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t20",
+      "parentId": "opt.history.p1",
+      "title": "Akbar: Conquests, Consolidation, Mansab System, Rajput Policy and Religion",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t21",
+      "parentId": "opt.history.p1",
+      "title": "Mughal Empire in the Seventeenth Century: Administration and Crisis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t22",
+      "parentId": "opt.history.p1",
+      "title": "Economy and Society in the Sixteenth and Seventeenth Centuries",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t23",
+      "parentId": "opt.history.p1",
+      "title": "Culture during Mughal Empire: Literature, Architecture, Painting and Music",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p1.t24",
+      "parentId": "opt.history.p1",
+      "title": "The Eighteenth Century: Mughal Decline, Maratha Ascendancy and Regional States",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2",
+      "parentId": "opt.history",
+      "title": "History · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t01",
+      "parentId": "opt.history.p2",
+      "title": "European Penetration into India: Settlements, Companies and Plassey Significance",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t02",
+      "parentId": "opt.history.p2",
+      "title": "British Expansion in India: Bengal, Mysore, Marathas and the Punjab",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t03",
+      "parentId": "opt.history.p2",
+      "title": "Early Structure of the British Raj: Acts and Administrative Framework",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t04",
+      "parentId": "opt.history.p2",
+      "title": "Economic Impact of British Colonial Rule: Revenue Settlements and Trade",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t05",
+      "parentId": "opt.history.p2",
+      "title": "Social and Cultural Developments: Indigenous Education, Press and Vernacular Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t06",
+      "parentId": "opt.history.p2",
+      "title": "Social and Religious Reform Movements in Bengal and Other Areas",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t07",
+      "parentId": "opt.history.p2",
+      "title": "Indian Response to British Rule: Peasant Movements and 1857 Revolt",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t08",
+      "parentId": "opt.history.p2",
+      "title": "Factors Leading to the Birth of Indian Nationalism and Early Congress",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t09",
+      "parentId": "opt.history.p2",
+      "title": "Rise of Gandhi: Nationalist Movements, Constitutional Negotiations and Freedom Struggle",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t10",
+      "parentId": "opt.history.p2",
+      "title": "Constitutional Developments in Colonial India between 1858 and 1935",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t11",
+      "parentId": "opt.history.p2",
+      "title": "Other Strands in the National Movement: Revolutionaries and Left Parties",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t12",
+      "parentId": "opt.history.p2",
+      "title": "Politics of Separatism, Communalism, Transfer of Power and Independence",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t13",
+      "parentId": "opt.history.p2",
+      "title": "Consolidation as a Nation: Foreign Policy, Integration and Linguistic Reorganisation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t14",
+      "parentId": "opt.history.p2",
+      "title": "Caste and Ethnicity after 1947: Backward Classes and Dalit Movements",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t15",
+      "parentId": "opt.history.p2",
+      "title": "Economic Development and Political Change: Planning, Reforms and Science Progress",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t16",
+      "parentId": "opt.history.p2",
+      "title": "Enlightenment and Modern Ideas: Major Thinkers and Socialist Spread",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t17",
+      "parentId": "opt.history.p2",
+      "title": "Origins of Modern Politics: European States System and Atlantic Revolutions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t18",
+      "parentId": "opt.history.p2",
+      "title": "Industrialization: English Industrial Revolution, Global Expansion and Social Impact",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t19",
+      "parentId": "opt.history.p2",
+      "title": "Nation-State System: Rise of Nationalism and State-Building in Europe",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t20",
+      "parentId": "opt.history.p2",
+      "title": "Imperialism and Colonialism: Asia, Africa, Latin America and Neo-Imperialism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t21",
+      "parentId": "opt.history.p2",
+      "title": "Revolution and Counter-Revolution: European, Russian and Chinese Revolutions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t22",
+      "parentId": "opt.history.p2",
+      "title": "World Wars: Causes, Consequences and Societal Implications of Total War",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t23",
+      "parentId": "opt.history.p2",
+      "title": "The World after World War II: Cold War, Bipolarity and Non-Alignment",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t24",
+      "parentId": "opt.history.p2",
+      "title": "Liberation from Colonial Rule: Movements in Latin America, Asia and Africa",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t25",
+      "parentId": "opt.history.p2",
+      "title": "Decolonization and Underdevelopment: Factors Constraining Development in Third World",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t26",
+      "parentId": "opt.history.p2",
+      "title": "Unification of Europe: Post War Foundations, Community Expansion and European Union",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.history.p2.t27",
+      "parentId": "opt.history.p2",
+      "title": "Disintegration of Soviet Union and the Rise of the Unipolar World",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

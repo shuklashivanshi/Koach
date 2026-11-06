@@ -1,0 +1,177 @@
+{
+  "paper": "optional:literature-kashmiri",
+  "title": "Literature of Kashmiri",
+  "nodes": [
+    {
+      "id": "opt.literature-kashmiri",
+      "parentId": null,
+      "title": "Literature of Kashmiri",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p1",
+      "parentId": "opt.literature-kashmiri",
+      "title": "Literature of Kashmiri · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p1.t01",
+      "parentId": "opt.literature-kashmiri.p1",
+      "title": "Genealogical relationship of the Kashmiri language and various linguistic theories",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p1.t02",
+      "parentId": "opt.literature-kashmiri.p1",
+      "title": "Areas of occurrence and geographical and social dialects of Kashmiri language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p1.t03",
+      "parentId": "opt.literature-kashmiri.p1",
+      "title": "Phonology and grammar including vowel, consonant systems, nouns, pronouns and verbs",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p1.t04",
+      "parentId": "opt.literature-kashmiri.p1",
+      "title": "Syntactic structure including simple declarative statements, coordination and relativisation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p1.t05",
+      "parentId": "opt.literature-kashmiri.p1",
+      "title": "Kashmiri literature in the fourteenth century with special reference to Lal Dyad",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p1.t06",
+      "parentId": "opt.literature-kashmiri.p1",
+      "title": "Nineteenth century Kashmiri literature and development of various literary genres",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p1.t07",
+      "parentId": "opt.literature-kashmiri.p1",
+      "title": "Kashmiri literature in the first half of the twentieth century and literary influences",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p1.t08",
+      "parentId": "opt.literature-kashmiri.p1",
+      "title": "Modern Kashmiri literature with development of short story, drama, novel and nazm",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p2",
+      "parentId": "opt.literature-kashmiri",
+      "title": "Literature of Kashmiri · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p2.t01",
+      "parentId": "opt.literature-kashmiri.p2",
+      "title": "Intensive study of Kashmiri poetry up to the nineteenth century",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p2.t02",
+      "parentId": "opt.literature-kashmiri.p2",
+      "title": "Kashmiri poetry in the nineteenth century and prominent poets",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p2.t03",
+      "parentId": "opt.literature-kashmiri.p2",
+      "title": "Twentieth Century Kashmiri poetry and modern trends in poetic composition",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p2.t04",
+      "parentId": "opt.literature-kashmiri.p2",
+      "title": "Literary criticism and research work in Kashmiri development and trends",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p2.t05",
+      "parentId": "opt.literature-kashmiri.p2",
+      "title": "An analytical study of the short story in Kashmiri literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p2.t06",
+      "parentId": "opt.literature-kashmiri.p2",
+      "title": "Prescribed novel texts and literary trends in Kashmiri language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p2.t07",
+      "parentId": "opt.literature-kashmiri.p2",
+      "title": "Prescribed drama texts and theatrical development in Kashmiri literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kashmiri.p2.t08",
+      "parentId": "opt.literature-kashmiri.p2",
+      "title": "Kashmiri folk literature including theatre traditions and folk songs",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

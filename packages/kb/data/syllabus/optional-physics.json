@@ -1,0 +1,114 @@
+{
+  "paper": "optional:physics",
+  "title": "Physics",
+  "nodes": [
+    {
+      "id": "opt.physics",
+      "parentId": null,
+      "title": "Physics",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p1",
+      "parentId": "opt.physics",
+      "title": "Physics · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p1.t01",
+      "parentId": "opt.physics.p1",
+      "title": "Mechanics of Particles, Rigid Bodies, Continuous Media, and Special Relativity",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p1.t02",
+      "parentId": "opt.physics.p1",
+      "title": "Waves, Geometrical Optics, Interference, Diffraction, and Polarisation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p1.t03",
+      "parentId": "opt.physics.p1",
+      "title": "Electricity and Magnetism: Electrostatics, Magnetostatics, and Current Electricity",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p1.t04",
+      "parentId": "opt.physics.p1",
+      "title": "Electromagnetic Waves and Blackbody Radiation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p1.t05",
+      "parentId": "opt.physics.p1",
+      "title": "Thermal and Statistical Physics: Thermodynamics and Statistical Physics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p2",
+      "parentId": "opt.physics",
+      "title": "Physics · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p2.t01",
+      "parentId": "opt.physics.p2",
+      "title": "Quantum Mechanics: Wave-Particle Duality, Wave Equations, and Applications",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p2.t02",
+      "parentId": "opt.physics.p2",
+      "title": "Atomic and Molecular Physics: Atomic Spectra, Molecular Structure, and Spectroscopy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p2.t03",
+      "parentId": "opt.physics.p2",
+      "title": "Nuclear and Particle Physics: Nuclear Properties, Forces, and Elementary Particles",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.physics.p2.t04",
+      "parentId": "opt.physics.p2",
+      "title": "Solid State Physics, Devices and Electronics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

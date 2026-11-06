@@ -1,0 +1,159 @@
+{
+  "paper": "optional:literature-dogri",
+  "title": "Literature of Dogri",
+  "nodes": [
+    {
+      "id": "opt.literature-dogri",
+      "parentId": null,
+      "title": "Literature of Dogri",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1",
+      "parentId": "opt.literature-dogri",
+      "title": "Literature of Dogri · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t01",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section A (1): Origin and Development of Dogri Language Through Historical Stages",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t02",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section A (2): Geographical and Linguistic Boundaries of Dogri and Regional Dialects",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t03",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section A (3): Characteristic Phonological, Morphological and Syntactic Features of Dogri",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t04",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section A (4): Structure of Dogri: Sounds, Morphology and Sentence Architecture",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t05",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section A (5): Dogri Language Scripts: Dogra Akkhar, Devanagari and Perso-Arabic",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t06",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section B (1): Historical Survey of Pre-Independence Dogri Poetry and Prose",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t07",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section B (2): Development of Modern Dogri Poetry and Major Literary Trends",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t08",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section B (3): Growth of Dogri Short Story and Prominent Story Writers",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t09",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section B (4): Development of Dogri Novel and Main Trends in Fiction",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t10",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section B (5): Evolution of Dogri Drama and Contributions of Prominent Playwrights",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t11",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section B (6): Development of Dogri Prose: Essays, Memoirs and Travelogues",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p1.t12",
+      "parentId": "opt.literature-dogri.p1",
+      "title": "Section B (7): Study of Dogri Folk Literature: Songs, Tales and Ballads",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p2",
+      "parentId": "opt.literature-dogri",
+      "title": "Literature of Dogri · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p2.t01",
+      "parentId": "opt.literature-dogri.p2",
+      "title": "Section A: Textual Analysis and Criticism of Prescribed Dogri Poetry Texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-dogri.p2.t02",
+      "parentId": "opt.literature-dogri.p2",
+      "title": "Section B: Textual Analysis and Criticism of Prescribed Dogri Prose Works",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

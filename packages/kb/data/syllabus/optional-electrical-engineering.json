@@ -1,0 +1,159 @@
+{
+  "paper": "optional:electrical-engineering",
+  "title": "Electrical Engineering",
+  "nodes": [
+    {
+      "id": "opt.electrical-engineering",
+      "parentId": null,
+      "title": "Electrical Engineering",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p1",
+      "parentId": "opt.electrical-engineering",
+      "title": "Electrical Engineering · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p1.t01",
+      "parentId": "opt.electrical-engineering.p1",
+      "title": "Circuits Theory: Circuit Components, Network Theorems and Transient Analysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p1.t02",
+      "parentId": "opt.electrical-engineering.p1",
+      "title": "Signals and Systems: Continuous and Discrete Time System Representations",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p1.t03",
+      "parentId": "opt.electrical-engineering.p1",
+      "title": "Electromagnetic Theory: Wave Propagation, Transmission Lines and Smith Chart",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p1.t04",
+      "parentId": "opt.electrical-engineering.p1",
+      "title": "Analog Electronics: Diode Characteristics, Amplifiers, Oscillators and Power Supplies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p1.t05",
+      "parentId": "opt.electrical-engineering.p1",
+      "title": "Digital Electronics: Boolean Functions, Combinational Circuits and Sequential Circuits",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p1.t06",
+      "parentId": "opt.electrical-engineering.p1",
+      "title": "Energy Conversion: Electromechanical Conversion, DC Machines, Transformers and Motors",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p1.t07",
+      "parentId": "opt.electrical-engineering.p1",
+      "title": "Power Electronics and Electric Drives: Semiconductor Devices and Converters",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p1.t08",
+      "parentId": "opt.electrical-engineering.p1",
+      "title": "Analog Communication: Random Signals, Modulation Techniques and Demodulators Systems",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p2",
+      "parentId": "opt.electrical-engineering",
+      "title": "Electrical Engineering · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p2.t01",
+      "parentId": "opt.electrical-engineering.p2",
+      "title": "Control Systems: Block Diagrams, System Components and Stability Analysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p2.t02",
+      "parentId": "opt.electrical-engineering.p2",
+      "title": "Microprocessors and Microcomputers: PC Organisation, Programming and Interfacing",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p2.t03",
+      "parentId": "opt.electrical-engineering.p2",
+      "title": "Measurement and Instrumentation: Error Analysis, Bridges and Electronic Instruments",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p2.t04",
+      "parentId": "opt.electrical-engineering.p2",
+      "title": "Power Systems Analysis and Control: Transmission, Load Flow and Stability",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p2.t05",
+      "parentId": "opt.electrical-engineering.p2",
+      "title": "Power System Protection: Protection Principles, Circuit Breakers and Relays",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.electrical-engineering.p2.t06",
+      "parentId": "opt.electrical-engineering.p2",
+      "title": "Digital Communication: Modulation Schemes, Error Coding and Data Networks",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

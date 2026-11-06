@@ -1,0 +1,222 @@
+{
+  "paper": "optional:anthropology",
+  "title": "Anthropology",
+  "nodes": [
+    {
+      "id": "opt.anthropology",
+      "parentId": null,
+      "title": "Anthropology",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1",
+      "parentId": "opt.anthropology",
+      "title": "Anthropology · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t01",
+      "parentId": "opt.anthropology.p1",
+      "title": "Meaning, Scope and Development of Anthropology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t02",
+      "parentId": "opt.anthropology.p1",
+      "title": "The Nature of Culture and Society",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t03",
+      "parentId": "opt.anthropology.p1",
+      "title": "Economic Organization",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t04",
+      "parentId": "opt.anthropology.p1",
+      "title": "Political Organization and Social Control",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t05",
+      "parentId": "opt.anthropology.p1",
+      "title": "Religion",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t06",
+      "parentId": "opt.anthropology.p1",
+      "title": "Anthropological Theories",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t07",
+      "parentId": "opt.anthropology.p1",
+      "title": "Culture, Language and Communication",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t08",
+      "parentId": "opt.anthropology.p1",
+      "title": "Research Methods in Anthropology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t09",
+      "parentId": "opt.anthropology.p1",
+      "title": "Human Genetics, Polymorphism and Ecological Anthropology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t10",
+      "parentId": "opt.anthropology.p1",
+      "title": "Concept of Human Growth and Development",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t11",
+      "parentId": "opt.anthropology.p1",
+      "title": "Fertility, Bioevents and Demographic Theories",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p1.t12",
+      "parentId": "opt.anthropology.p1",
+      "title": "Applications of Anthropology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p2",
+      "parentId": "opt.anthropology",
+      "title": "Anthropology · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p2.t01",
+      "parentId": "opt.anthropology.p2",
+      "title": "Evolution of the Indian Culture and Civilization",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p2.t02",
+      "parentId": "opt.anthropology.p2",
+      "title": "Demographic Profile of India",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p2.t03",
+      "parentId": "opt.anthropology.p2",
+      "title": "Traditional Indian Social System and Caste System",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p2.t04",
+      "parentId": "opt.anthropology.p2",
+      "title": "Growth and Development of Anthropology in India",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p2.t05",
+      "parentId": "opt.anthropology.p2",
+      "title": "Indian Village and Processes of Socio-Cultural Change",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p2.t06",
+      "parentId": "opt.anthropology.p2",
+      "title": "Tribal Situation in India and Tribal Problems",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p2.t07",
+      "parentId": "opt.anthropology.p2",
+      "title": "Exploitation and Constitutional Safeguards of Weaker Sections",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p2.t08",
+      "parentId": "opt.anthropology.p2",
+      "title": "Religion and Tribal Societies, Tribe and Nation-State",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.anthropology.p2.t09",
+      "parentId": "opt.anthropology.p2",
+      "title": "Administration of Tribal Areas and Tribal Development",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

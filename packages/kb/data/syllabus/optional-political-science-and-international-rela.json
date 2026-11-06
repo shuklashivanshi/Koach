@@ -1,0 +1,123 @@
+{
+  "paper": "optional:political-science-and-international-rela",
+  "title": "Political Science and International Relations",
+  "nodes": [
+    {
+      "id": "opt.political-science-and-international-rela",
+      "parentId": null,
+      "title": "Political Science and International Relations",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p1",
+      "parentId": "opt.political-science-and-international-rela",
+      "title": "Political Science and International Relations · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p1.t01",
+      "parentId": "opt.political-science-and-international-rela.p1",
+      "title": "Political Theory and Indian Politics: Political Theory and Theories of State",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p1.t02",
+      "parentId": "opt.political-science-and-international-rela.p1",
+      "title": "Conceptions of Justice, Equality, Rights, Democracy, Power, and Ideologies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p1.t03",
+      "parentId": "opt.political-science-and-international-rela.p1",
+      "title": "Indian and Western Political Thought",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p1.t04",
+      "parentId": "opt.political-science-and-international-rela.p1",
+      "title": "Indian Nationalism and Making of the Indian Constitution",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p1.t05",
+      "parentId": "opt.political-science-and-international-rela.p1",
+      "title": "Organs of Union and State Government, Grassroots Democracy, and Federalism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p1.t06",
+      "parentId": "opt.political-science-and-international-rela.p1",
+      "title": "Planning, Economic Development, Caste, Religion, Party System, and Social Movements",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p2",
+      "parentId": "opt.political-science-and-international-rela",
+      "title": "Political Science and International Relations · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p2.t01",
+      "parentId": "opt.political-science-and-international-rela.p2",
+      "title": "Comparative Political Analysis, Theories of International Relations, and Changing Political Order",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p2.t02",
+      "parentId": "opt.political-science-and-international-rela.p2",
+      "title": "International Economic System, United Nations, Regionalisation, and Global Concerns",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p2.t03",
+      "parentId": "opt.political-science-and-international-rela.p2",
+      "title": "India and the World: Foreign Policy, Non-Alignment, and Relations with South Asia",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.political-science-and-international-rela.p2.t04",
+      "parentId": "opt.political-science-and-international-rela.p2",
+      "title": "India and Global South, Global Centres of Power, UN System, and Nuclear Question",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

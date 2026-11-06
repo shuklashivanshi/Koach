@@ -1,0 +1,105 @@
+{
+  "paper": "optional:psychology",
+  "title": "Psychology",
+  "nodes": [
+    {
+      "id": "opt.psychology",
+      "parentId": null,
+      "title": "Psychology",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.psychology.p1",
+      "parentId": "opt.psychology",
+      "title": "Psychology · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.psychology.p1.t01",
+      "parentId": "opt.psychology.p1",
+      "title": "Foundations: Introduction, Research Methods, Development of Human Behaviour",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.psychology.p1.t02",
+      "parentId": "opt.psychology.p1",
+      "title": "Sensation, Attention, Perception, Learning, Memory, Thinking, and Problem Solving",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.psychology.p1.t03",
+      "parentId": "opt.psychology.p1",
+      "title": "Motivation, Emotion, Intelligence, Aptitude, and Personality",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.psychology.p1.t04",
+      "parentId": "opt.psychology.p1",
+      "title": "Attitudes, Values, Interests, Language, Communication, and Contemporary Issues",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.psychology.p2",
+      "parentId": "opt.psychology",
+      "title": "Psychology · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.psychology.p2.t01",
+      "parentId": "opt.psychology.p2",
+      "title": "Measurement of Individual Differences, Psychological Well-being, and Therapeutic Approaches",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.psychology.p2.t02",
+      "parentId": "opt.psychology.p2",
+      "title": "Work Psychology, Organisational Behaviour, Educational, and Community Psychology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.psychology.p2.t03",
+      "parentId": "opt.psychology.p2",
+      "title": "Rehabilitation, Disadvantaged Groups, Social Integration, IT, and Mass Media",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.psychology.p2.t04",
+      "parentId": "opt.psychology.p2",
+      "title": "Economic Development, Environmental Psychology, Military, Sports, and Gender Psychology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "paper": "optional:literature-urdu",
+  "title": "Literature of Urdu",
+  "nodes": [
+    {
+      "id": "opt.literature-urdu",
+      "parentId": null,
+      "title": "Literature of Urdu",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-urdu.p1",
+      "parentId": "opt.literature-urdu",
+      "title": "Literature of Urdu · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-urdu.p1.t01",
+      "parentId": "opt.literature-urdu.p1",
+      "title": "Section A: Development of Indo-Aryan, Dialects and Evolution of Urdu Language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-urdu.p1.t02",
+      "parentId": "opt.literature-urdu.p1",
+      "title": "Section B: Genres, Literary Movements, Critical Traditions and Essay Writing in Urdu",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-urdu.p2",
+      "parentId": "opt.literature-urdu",
+      "title": "Literature of Urdu · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-urdu.p2.t01",
+      "parentId": "opt.literature-urdu.p2",
+      "title": "Section A: First-Hand Critical Study of Prescribed Classical and Modern Prose Texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-urdu.p2.t02",
+      "parentId": "opt.literature-urdu.p2",
+      "title": "Section B: First-Hand Critical Study of Prescribed Classical and Modern Poetry Texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

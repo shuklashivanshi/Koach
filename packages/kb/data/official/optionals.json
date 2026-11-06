@@ -1,0 +1,2916 @@
+{
+  "optionals": [
+    {
+      "slug": "agriculture",
+      "name": "Agriculture",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Ecology, Natural Resources and Sustainable Management"
+        },
+        {
+          "paper": "I",
+          "title": "Cropping Patterns in Different Agro-Climatic Zones"
+        },
+        {
+          "paper": "I",
+          "title": "Forestry Plantations, Agro-Forestry and Forest Products"
+        },
+        {
+          "paper": "I",
+          "title": "Weeds, Characteristics, Dissemination and Weed Control"
+        },
+        {
+          "paper": "I",
+          "title": "Soil Properties, Soil Fertility and Integrated Nutrient Management"
+        },
+        {
+          "paper": "I",
+          "title": "Soil Conservation, Watershed Management and Dryland Agriculture"
+        },
+        {
+          "paper": "I",
+          "title": "Water-Use Efficiency, Irrigation Scheduling and Drainage"
+        },
+        {
+          "paper": "I",
+          "title": "Farm Management, Agricultural Economics and Marketing Strategies"
+        },
+        {
+          "paper": "I",
+          "title": "Agricultural Extension, Technology Transfer and Rural Development"
+        },
+        {
+          "paper": "II",
+          "title": "Cell Biology, Cytogenetics and Principles of Plant Genetics"
+        },
+        {
+          "paper": "II",
+          "title": "Plant Breeding Methods, Molecular Markers and Crop Improvement"
+        },
+        {
+          "paper": "II",
+          "title": "Seed Production, Certification, Storage and Intellectual Property Rights"
+        },
+        {
+          "paper": "II",
+          "title": "Plant Physiology, Plant Nutrition and Water Relationships"
+        },
+        {
+          "paper": "II",
+          "title": "Plant Metabolism, Growth Regulators and Stress Physiology"
+        },
+        {
+          "paper": "II",
+          "title": "Horticultural Crops, Protected Cultivation and Post-Harvest Technology"
+        },
+        {
+          "paper": "II",
+          "title": "Diagnosis, Epidemiology and Integrated Management of Crop Diseases"
+        },
+        {
+          "paper": "II",
+          "title": "Food Production, Public Distribution System and Food Security"
+        }
+      ]
+    },
+    {
+      "slug": "animal-husbandry-and-veterinary-science",
+      "name": "Animal Husbandry and Veterinary Science",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Animal Nutrition"
+        },
+        {
+          "paper": "I",
+          "title": "Animal Physiology"
+        },
+        {
+          "paper": "I",
+          "title": "Animal Reproduction"
+        },
+        {
+          "paper": "I",
+          "title": "Livestock Production and Management"
+        },
+        {
+          "paper": "I",
+          "title": "Genetics and Animal Breeding"
+        },
+        {
+          "paper": "I",
+          "title": "Extension"
+        },
+        {
+          "paper": "II",
+          "title": "Anatomy, Pharmacology and Hygiene"
+        },
+        {
+          "paper": "II",
+          "title": "Animal Diseases"
+        },
+        {
+          "paper": "II",
+          "title": "Veterinary Public Health"
+        },
+        {
+          "paper": "II",
+          "title": "Milk and Milk Products Technology"
+        },
+        {
+          "paper": "II",
+          "title": "Meat Hygiene and Technology"
+        }
+      ]
+    },
+    {
+      "slug": "anthropology",
+      "name": "Anthropology",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Meaning, Scope and Development of Anthropology"
+        },
+        {
+          "paper": "I",
+          "title": "The Nature of Culture and Society"
+        },
+        {
+          "paper": "I",
+          "title": "Economic Organization"
+        },
+        {
+          "paper": "I",
+          "title": "Political Organization and Social Control"
+        },
+        {
+          "paper": "I",
+          "title": "Religion"
+        },
+        {
+          "paper": "I",
+          "title": "Anthropological Theories"
+        },
+        {
+          "paper": "I",
+          "title": "Culture, Language and Communication"
+        },
+        {
+          "paper": "I",
+          "title": "Research Methods in Anthropology"
+        },
+        {
+          "paper": "I",
+          "title": "Human Genetics, Polymorphism and Ecological Anthropology"
+        },
+        {
+          "paper": "I",
+          "title": "Concept of Human Growth and Development"
+        },
+        {
+          "paper": "I",
+          "title": "Fertility, Bioevents and Demographic Theories"
+        },
+        {
+          "paper": "I",
+          "title": "Applications of Anthropology"
+        },
+        {
+          "paper": "II",
+          "title": "Evolution of the Indian Culture and Civilization"
+        },
+        {
+          "paper": "II",
+          "title": "Demographic Profile of India"
+        },
+        {
+          "paper": "II",
+          "title": "Traditional Indian Social System and Caste System"
+        },
+        {
+          "paper": "II",
+          "title": "Growth and Development of Anthropology in India"
+        },
+        {
+          "paper": "II",
+          "title": "Indian Village and Processes of Socio-Cultural Change"
+        },
+        {
+          "paper": "II",
+          "title": "Tribal Situation in India and Tribal Problems"
+        },
+        {
+          "paper": "II",
+          "title": "Exploitation and Constitutional Safeguards of Weaker Sections"
+        },
+        {
+          "paper": "II",
+          "title": "Religion and Tribal Societies, Tribe and Nation-State"
+        },
+        {
+          "paper": "II",
+          "title": "Administration of Tribal Areas and Tribal Development"
+        }
+      ]
+    },
+    {
+      "slug": "botany",
+      "name": "Botany",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Microbiology and Plant Pathology"
+        },
+        {
+          "paper": "I",
+          "title": "Cryptogams"
+        },
+        {
+          "paper": "I",
+          "title": "Phanerogams"
+        },
+        {
+          "paper": "I",
+          "title": "Plant Resource Development"
+        },
+        {
+          "paper": "I",
+          "title": "Morphogenesis"
+        },
+        {
+          "paper": "II",
+          "title": "Cell Biology"
+        },
+        {
+          "paper": "II",
+          "title": "Genetics, Molecular Biology and Evolution"
+        },
+        {
+          "paper": "II",
+          "title": "Plant Breeding, Biotechnology and Biostatistics"
+        },
+        {
+          "paper": "II",
+          "title": "Physiology and Biochemistry"
+        },
+        {
+          "paper": "II",
+          "title": "Ecology and Plant Geography"
+        }
+      ]
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Atomic Structure"
+        },
+        {
+          "paper": "I",
+          "title": "Chemical Bonding"
+        },
+        {
+          "paper": "I",
+          "title": "Solid State"
+        },
+        {
+          "paper": "I",
+          "title": "The Gaseous State and Transport Phenomenon"
+        },
+        {
+          "paper": "I",
+          "title": "Liquid State"
+        },
+        {
+          "paper": "I",
+          "title": "Thermodynamics"
+        },
+        {
+          "paper": "I",
+          "title": "Phase Equilibria and Solutions"
+        },
+        {
+          "paper": "I",
+          "title": "Electrochemistry"
+        },
+        {
+          "paper": "I",
+          "title": "Chemical Kinetics"
+        },
+        {
+          "paper": "I",
+          "title": "Photochemistry"
+        },
+        {
+          "paper": "I",
+          "title": "Surface Phenomena and Catalysis"
+        },
+        {
+          "paper": "I",
+          "title": "Bio-Inorganic Chemistry"
+        },
+        {
+          "paper": "I",
+          "title": "Coordination Chemistry"
+        },
+        {
+          "paper": "I",
+          "title": "Main Group Chemistry"
+        },
+        {
+          "paper": "I",
+          "title": "General Chemistry of f Block Elements"
+        },
+        {
+          "paper": "II",
+          "title": "Delocalised Covalent Bonding"
+        },
+        {
+          "paper": "II",
+          "title": "Reaction Mechanisms and Reactive Intermediates"
+        },
+        {
+          "paper": "II",
+          "title": "Pericyclic Reactions"
+        },
+        {
+          "paper": "II",
+          "title": "Preparation and Properties of Polymers and Biopolymers"
+        },
+        {
+          "paper": "II",
+          "title": "Synthetic Uses of Reagents"
+        },
+        {
+          "paper": "II",
+          "title": "Photochemistry"
+        },
+        {
+          "paper": "II",
+          "title": "Spectroscopy"
+        }
+      ]
+    },
+    {
+      "slug": "civil-engineering",
+      "name": "Civil Engineering",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Engineering Mechanics, Strength of Materials and Structural Analysis"
+        },
+        {
+          "paper": "I",
+          "title": "Design of Structures: Steel, Concrete and Masonry Structures"
+        },
+        {
+          "paper": "I",
+          "title": "Fluid Mechanics, Open Channel Flow and Hydraulic Machines"
+        },
+        {
+          "paper": "I",
+          "title": "Geotechnical Engineering"
+        },
+        {
+          "paper": "II",
+          "title": "Construction Technology, Equipment, Planning and Management"
+        },
+        {
+          "paper": "II",
+          "title": "Surveying and Transportation Engineering"
+        },
+        {
+          "paper": "II",
+          "title": "Hydrology, Water Resources and Engineering"
+        },
+        {
+          "paper": "II",
+          "title": "Environmental Engineering"
+        },
+        {
+          "paper": "II",
+          "title": "Environmental Pollution"
+        }
+      ]
+    },
+    {
+      "slug": "commerce-and-accountancy",
+      "name": "Commerce and Accountancy",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Accounting, Taxation and Auditing: Financing Accounting Principles and Practices"
+        },
+        {
+          "paper": "I",
+          "title": "Cost Accounting Concepts, Methods and Decision Making Techniques"
+        },
+        {
+          "paper": "I",
+          "title": "Taxation: Income Tax Provisions, Computation and Service Tax"
+        },
+        {
+          "paper": "I",
+          "title": "Auditing: Company Audit, Banking, Insurance and Non-Profit Organizations"
+        },
+        {
+          "paper": "I",
+          "title": "Financial Management: Capital Budgeting, Capital Structure and Working Capital"
+        },
+        {
+          "paper": "I",
+          "title": "Financial Markets and Institutions: Banking, Capital Markets and Services"
+        },
+        {
+          "paper": "II",
+          "title": "Organisation Theory: Nature, Evolution, Design and Organizational Structure"
+        },
+        {
+          "paper": "II",
+          "title": "Organisation Behaviour: Individual Behaviour, Motivation, Leadership and Change"
+        },
+        {
+          "paper": "II",
+          "title": "Human Resources Management: Planning, Recruitment, Training and Performance Appraisal"
+        },
+        {
+          "paper": "II",
+          "title": "Industrial Relations: Trade Unions, Industrial Disputes and Worker Participation"
+        }
+      ]
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Advanced Micro Economics: Approaches to Price Determination and Welfare"
+        },
+        {
+          "paper": "I",
+          "title": "Advance Macro Economics: Employment, Income and Interest Rate Determination"
+        },
+        {
+          "paper": "I",
+          "title": "Money-Banking and Finance: Demand, Supply and Public Finance Role"
+        },
+        {
+          "paper": "I",
+          "title": "International Economics: Trade Theories, Protection, Balance of Payments and WTO"
+        },
+        {
+          "paper": "I",
+          "title": "Growth and Development: Growth Theories, Welfare Indicators and Sustainability"
+        },
+        {
+          "paper": "II",
+          "title": "Indian Economy in Pre-Independence Era: Land System and Colonial Transport"
+        },
+        {
+          "paper": "II",
+          "title": "Indian Economy after Independence: The Pre-Liberalization Era Policies"
+        },
+        {
+          "paper": "II",
+          "title": "Indian Economy after Independence: The Post Liberalization Era Reforms"
+        }
+      ]
+    },
+    {
+      "slug": "electrical-engineering",
+      "name": "Electrical Engineering",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Circuits Theory: Circuit Components, Network Theorems and Transient Analysis"
+        },
+        {
+          "paper": "I",
+          "title": "Signals and Systems: Continuous and Discrete Time System Representations"
+        },
+        {
+          "paper": "I",
+          "title": "Electromagnetic Theory: Wave Propagation, Transmission Lines and Smith Chart"
+        },
+        {
+          "paper": "I",
+          "title": "Analog Electronics: Diode Characteristics, Amplifiers, Oscillators and Power Supplies"
+        },
+        {
+          "paper": "I",
+          "title": "Digital Electronics: Boolean Functions, Combinational Circuits and Sequential Circuits"
+        },
+        {
+          "paper": "I",
+          "title": "Energy Conversion: Electromechanical Conversion, DC Machines, Transformers and Motors"
+        },
+        {
+          "paper": "I",
+          "title": "Power Electronics and Electric Drives: Semiconductor Devices and Converters"
+        },
+        {
+          "paper": "I",
+          "title": "Analog Communication: Random Signals, Modulation Techniques and Demodulators Systems"
+        },
+        {
+          "paper": "II",
+          "title": "Control Systems: Block Diagrams, System Components and Stability Analysis"
+        },
+        {
+          "paper": "II",
+          "title": "Microprocessors and Microcomputers: PC Organisation, Programming and Interfacing"
+        },
+        {
+          "paper": "II",
+          "title": "Measurement and Instrumentation: Error Analysis, Bridges and Electronic Instruments"
+        },
+        {
+          "paper": "II",
+          "title": "Power Systems Analysis and Control: Transmission, Load Flow and Stability"
+        },
+        {
+          "paper": "II",
+          "title": "Power System Protection: Protection Principles, Circuit Breakers and Relays"
+        },
+        {
+          "paper": "II",
+          "title": "Digital Communication: Modulation Schemes, Error Coding and Data Networks"
+        }
+      ]
+    },
+    {
+      "slug": "geography",
+      "name": "Geography",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Physical Geography: Geomorphology and Landform Development Processes"
+        },
+        {
+          "paper": "I",
+          "title": "Physical Geography: Climatology, Heat Budget and World Climate Classification"
+        },
+        {
+          "paper": "I",
+          "title": "Physical Geography: Oceanography, Ocean Deposits and Marine Resources"
+        },
+        {
+          "paper": "I",
+          "title": "Physical Geography: Biogeography, Soil Genesis and Deforestation Problems"
+        },
+        {
+          "paper": "I",
+          "title": "Physical Geography: Environmental Geography, Ecology and Conservation Measures"
+        },
+        {
+          "paper": "I",
+          "title": "Human Geography: Perspectives in Human Geography and Welfare Approaches"
+        },
+        {
+          "paper": "I",
+          "title": "Human Geography: Economic Geography, World Resources and World Trade"
+        },
+        {
+          "paper": "I",
+          "title": "Human Geography: Population and Settlement Geography and Urbanization Problems"
+        },
+        {
+          "paper": "I",
+          "title": "Human Geography: Regional Planning, Growth Poles and Development Strategies"
+        },
+        {
+          "paper": "I",
+          "title": "Human Geography: Models, Theories and Laws in Human Geography"
+        },
+        {
+          "paper": "II",
+          "title": "Geography of India: Physical Setting, Relief, Drainage and Climate"
+        },
+        {
+          "paper": "II",
+          "title": "Geography of India: Land, Water, Energy and Biotic Resources"
+        },
+        {
+          "paper": "II",
+          "title": "Geography of India: Agriculture Infrastructure, Cropping Patterns and Green Revolution"
+        },
+        {
+          "paper": "II",
+          "title": "Geography of India: Evolution and Location Factors of Major Industries"
+        },
+        {
+          "paper": "II",
+          "title": "Geography of India: Transport, Communication, Trade and Space Programme"
+        },
+        {
+          "paper": "II",
+          "title": "Geography of India: Cultural Setting, Tribal Areas and Demography"
+        },
+        {
+          "paper": "II",
+          "title": "Geography of India: Rural and Urban Settlements and Morphology"
+        },
+        {
+          "paper": "II",
+          "title": "Geography of India: Regional Development, Five Year Plans and Planning"
+        },
+        {
+          "paper": "II",
+          "title": "Geography of India: Political Aspects, Federalism and Border Issues"
+        },
+        {
+          "paper": "II",
+          "title": "Geography of India: Contemporary Issues, Hazards and Environmental Degradation"
+        }
+      ]
+    },
+    {
+      "slug": "geology",
+      "name": "Geology",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "General Geology: Solar System, Earth Interior, Earthquakes and Continental Drift"
+        },
+        {
+          "paper": "I",
+          "title": "Geomorphology and Remote Sensing: Landforms, Sensor Systems and Applications"
+        },
+        {
+          "paper": "I",
+          "title": "Structural Geology: Geologic Mapping, Folds, Faults and Structural Analysis"
+        },
+        {
+          "paper": "I",
+          "title": "Paleontology: Fossils, Microfossils, Evolutionary Trends and Stratigraphic Correlation"
+        },
+        {
+          "paper": "I",
+          "title": "Indian Stratigraphy: Stratigraphic Sequences, Precambrian and Phanerozoic Rocks"
+        },
+        {
+          "paper": "I",
+          "title": "Hydrogeology and Engineering Geology: Groundwater Exploration and Engineering Properties"
+        },
+        {
+          "paper": "II",
+          "title": "Mineralogy: Crystallography, Silicate Mineral Groups and Optical Properties"
+        },
+        {
+          "paper": "II",
+          "title": "Igneous and Metamorphic Petrology: Magma Crystallisation and Metamorphic Facies"
+        },
+        {
+          "paper": "II",
+          "title": "Sedimentary Petrology: Processes of Formation, Petrography and Sedimentary Basins"
+        },
+        {
+          "paper": "II",
+          "title": "Economic Geology: Ore Deposits, Indian Mineral Reserves and Mineral Policy"
+        },
+        {
+          "paper": "II",
+          "title": "Mining Geology: Prospecting Methods, Reserve Estimation and Mineral Beneficiation"
+        },
+        {
+          "paper": "II",
+          "title": "Geochemistry and Environmental Geology: Earth Composition, Natural Hazards and Pollution"
+        }
+      ]
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Sources: Archaeological Exploration, Epigraphy, Numismatics and Literary Sources"
+        },
+        {
+          "paper": "I",
+          "title": "Pre-history and Proto-history: Hunting, Gathering and Early Agriculture"
+        },
+        {
+          "paper": "I",
+          "title": "Indus Valley Civilization: Origin, Extent, Characteristics, Decline and Art"
+        },
+        {
+          "paper": "I",
+          "title": "Megalithic Cultures: Pastoral and Farming Cultures, Settlements and Iron Industry"
+        },
+        {
+          "paper": "I",
+          "title": "Aryans and Vedic Period: Literature, Monarchy Evolution and Varna System"
+        },
+        {
+          "paper": "I",
+          "title": "Period of Mahajanapadas: Republics, Monarchies, Urban Centres and Religions"
+        },
+        {
+          "paper": "I",
+          "title": "Mauryan Empire: Foundation, Ashoka, Administration, Economy, Religion and Art"
+        },
+        {
+          "paper": "I",
+          "title": "Post-Mauryan Period: Outside Contact, Urban Centres, Economy and Religions"
+        },
+        {
+          "paper": "I",
+          "title": "Early State and Society in Eastern India, Deccan and South India"
+        },
+        {
+          "paper": "I",
+          "title": "Guptas, Vakatakas and Vardhanas: Administration, Feudalism, Caste and Art"
+        },
+        {
+          "paper": "I",
+          "title": "Regional States during Gupta Era: Dynasties, Temple Architecture and Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Themes in Early Indian Cultural History: Languages, Philosophy and Science"
+        },
+        {
+          "paper": "I",
+          "title": "Early Medieval India, 750-1200: Political Developments, Cholas and Economy"
+        },
+        {
+          "paper": "I",
+          "title": "Cultural Traditions in India, 750-1200: Philosophy, Bhakti Cult and Art"
+        },
+        {
+          "paper": "I",
+          "title": "The Thirteenth Century: Delhi Sultanate Foundation and Consolidation Policies"
+        },
+        {
+          "paper": "I",
+          "title": "The Fourteenth Century: Khalji Revolution and Tughluq Administrative Projects"
+        },
+        {
+          "paper": "I",
+          "title": "Society, Culture and Economy in the Thirteenth and Fourteenth Centuries"
+        },
+        {
+          "paper": "I",
+          "title": "The Fifteenth and Early Sixteenth Century: Political Developments and Economy"
+        },
+        {
+          "paper": "I",
+          "title": "The Fifteenth and Early Sixteenth Century: Regional Society and Culture"
+        },
+        {
+          "paper": "I",
+          "title": "Akbar: Conquests, Consolidation, Mansab System, Rajput Policy and Religion"
+        },
+        {
+          "paper": "I",
+          "title": "Mughal Empire in the Seventeenth Century: Administration and Crisis"
+        },
+        {
+          "paper": "I",
+          "title": "Economy and Society in the Sixteenth and Seventeenth Centuries"
+        },
+        {
+          "paper": "I",
+          "title": "Culture during Mughal Empire: Literature, Architecture, Painting and Music"
+        },
+        {
+          "paper": "I",
+          "title": "The Eighteenth Century: Mughal Decline, Maratha Ascendancy and Regional States"
+        },
+        {
+          "paper": "II",
+          "title": "European Penetration into India: Settlements, Companies and Plassey Significance"
+        },
+        {
+          "paper": "II",
+          "title": "British Expansion in India: Bengal, Mysore, Marathas and the Punjab"
+        },
+        {
+          "paper": "II",
+          "title": "Early Structure of the British Raj: Acts and Administrative Framework"
+        },
+        {
+          "paper": "II",
+          "title": "Economic Impact of British Colonial Rule: Revenue Settlements and Trade"
+        },
+        {
+          "paper": "II",
+          "title": "Social and Cultural Developments: Indigenous Education, Press and Vernacular Literature"
+        },
+        {
+          "paper": "II",
+          "title": "Social and Religious Reform Movements in Bengal and Other Areas"
+        },
+        {
+          "paper": "II",
+          "title": "Indian Response to British Rule: Peasant Movements and 1857 Revolt"
+        },
+        {
+          "paper": "II",
+          "title": "Factors Leading to the Birth of Indian Nationalism and Early Congress"
+        },
+        {
+          "paper": "II",
+          "title": "Rise of Gandhi: Nationalist Movements, Constitutional Negotiations and Freedom Struggle"
+        },
+        {
+          "paper": "II",
+          "title": "Constitutional Developments in Colonial India between 1858 and 1935"
+        },
+        {
+          "paper": "II",
+          "title": "Other Strands in the National Movement: Revolutionaries and Left Parties"
+        },
+        {
+          "paper": "II",
+          "title": "Politics of Separatism, Communalism, Transfer of Power and Independence"
+        },
+        {
+          "paper": "II",
+          "title": "Consolidation as a Nation: Foreign Policy, Integration and Linguistic Reorganisation"
+        },
+        {
+          "paper": "II",
+          "title": "Caste and Ethnicity after 1947: Backward Classes and Dalit Movements"
+        },
+        {
+          "paper": "II",
+          "title": "Economic Development and Political Change: Planning, Reforms and Science Progress"
+        },
+        {
+          "paper": "II",
+          "title": "Enlightenment and Modern Ideas: Major Thinkers and Socialist Spread"
+        },
+        {
+          "paper": "II",
+          "title": "Origins of Modern Politics: European States System and Atlantic Revolutions"
+        },
+        {
+          "paper": "II",
+          "title": "Industrialization: English Industrial Revolution, Global Expansion and Social Impact"
+        },
+        {
+          "paper": "II",
+          "title": "Nation-State System: Rise of Nationalism and State-Building in Europe"
+        },
+        {
+          "paper": "II",
+          "title": "Imperialism and Colonialism: Asia, Africa, Latin America and Neo-Imperialism"
+        },
+        {
+          "paper": "II",
+          "title": "Revolution and Counter-Revolution: European, Russian and Chinese Revolutions"
+        },
+        {
+          "paper": "II",
+          "title": "World Wars: Causes, Consequences and Societal Implications of Total War"
+        },
+        {
+          "paper": "II",
+          "title": "The World after World War II: Cold War, Bipolarity and Non-Alignment"
+        },
+        {
+          "paper": "II",
+          "title": "Liberation from Colonial Rule: Movements in Latin America, Asia and Africa"
+        },
+        {
+          "paper": "II",
+          "title": "Decolonization and Underdevelopment: Factors Constraining Development in Third World"
+        },
+        {
+          "paper": "II",
+          "title": "Unification of Europe: Post War Foundations, Community Expansion and European Union"
+        },
+        {
+          "paper": "II",
+          "title": "Disintegration of Soviet Union and the Rise of the Unipolar World"
+        }
+      ]
+    },
+    {
+      "slug": "law",
+      "name": "Law",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Constitution and Constitutionalism: distinctive features of the Constitution"
+        },
+        {
+          "paper": "I",
+          "title": "Fundamental Rights: Public interest litigation, Legal Aid, Legal services authority"
+        },
+        {
+          "paper": "I",
+          "title": "Relationship between Fundamental rights, Directive principles and Fundamental duties"
+        },
+        {
+          "paper": "I",
+          "title": "Constitutional Position of the President and relation with Council of Ministers"
+        },
+        {
+          "paper": "I",
+          "title": "Governor and his powers under the Indian Constitution"
+        },
+        {
+          "paper": "I",
+          "title": "Supreme Court and High Courts: appointments, transfer, powers, functions, jurisdiction"
+        },
+        {
+          "paper": "I",
+          "title": "Centre, States and local bodies: distribution of powers and administrative relations"
+        },
+        {
+          "paper": "I",
+          "title": "Legislative powers, privileges and immunities of Parliament and State legislatures"
+        },
+        {
+          "paper": "I",
+          "title": "Services under the Union and the States: recruitment, conditions, constitutional safeguards"
+        },
+        {
+          "paper": "I",
+          "title": "Emergency provisions under the Indian Constitution and effects"
+        },
+        {
+          "paper": "I",
+          "title": "Amendment of the Constitution and basic structure doctrine"
+        },
+        {
+          "paper": "I",
+          "title": "Principle of Natural Justice: emerging trends and judicial approach"
+        },
+        {
+          "paper": "I",
+          "title": "Delegated legislation and its constitutionality and judicial control"
+        },
+        {
+          "paper": "I",
+          "title": "Separation of powers and constitutional governance in Indian democracy"
+        },
+        {
+          "paper": "I",
+          "title": "Judicial review of administrative action and available grounds"
+        },
+        {
+          "paper": "I",
+          "title": "Ombudsman: Lokayukta, Lokpal and statutory grievance redressal mechanisms"
+        },
+        {
+          "paper": "I",
+          "title": "Nature and Definition of Public International Law"
+        },
+        {
+          "paper": "I",
+          "title": "Relationship between International Law and Municipal Law"
+        },
+        {
+          "paper": "I",
+          "title": "State Recognition and State Succession in International Law"
+        },
+        {
+          "paper": "I",
+          "title": "Law of the sea: Inland Waters, Territorial Sea, EEZ, High Seas"
+        },
+        {
+          "paper": "I",
+          "title": "Individuals: Nationality, statelessness, Human Rights and enforcement procedures"
+        },
+        {
+          "paper": "I",
+          "title": "Territorial jurisdiction of States, Extradition and Asylum in international law"
+        },
+        {
+          "paper": "I",
+          "title": "Treaties: formation, application, termination and reservation under international law"
+        },
+        {
+          "paper": "I",
+          "title": "United Nations: principal organs, powers, functions and institutional reform"
+        },
+        {
+          "paper": "I",
+          "title": "Peaceful settlement of international disputes through different recognized modes"
+        },
+        {
+          "paper": "I",
+          "title": "Lawful recourse to force: aggressions, self-defence and humanitarian intervention"
+        },
+        {
+          "paper": "I",
+          "title": "Fundamental principles of international humanitarian law and contemporary conventions"
+        },
+        {
+          "paper": "I",
+          "title": "Legality of nuclear weapons: Non-proliferation treaty and comprehensive test ban"
+        },
+        {
+          "paper": "I",
+          "title": "International terrorism, state sponsored terrorism, Hijacking and International Criminal Court"
+        },
+        {
+          "paper": "I",
+          "title": "New International Economic Order, Monetary Law: WTO, TRIPS, GATT, IMF"
+        },
+        {
+          "paper": "I",
+          "title": "Protection and Improvement of the Human Environment: International Efforts"
+        },
+        {
+          "paper": "II",
+          "title": "General principles of Criminal liability: mens rea and statutory offences"
+        },
+        {
+          "paper": "II",
+          "title": "Kinds of punishment and emerging trends in capital punishment"
+        },
+        {
+          "paper": "II",
+          "title": "Preparations and criminal attempt under Indian penal provisions"
+        },
+        {
+          "paper": "II",
+          "title": "General exceptions under the Indian Penal Code"
+        },
+        {
+          "paper": "II",
+          "title": "Joint and constructive liability under criminal law provisions"
+        },
+        {
+          "paper": "II",
+          "title": "Abetment of offences under the criminal law"
+        },
+        {
+          "paper": "II",
+          "title": "Criminal conspiracy: definition, essential elements and liability"
+        },
+        {
+          "paper": "II",
+          "title": "Offences against the State under criminal statutes"
+        },
+        {
+          "paper": "II",
+          "title": "Offences against public tranquility and social order"
+        },
+        {
+          "paper": "II",
+          "title": "Offences against human body: homicide, murder and hurt"
+        },
+        {
+          "paper": "II",
+          "title": "Offences against property: theft, extortion, robbery and dacoity"
+        },
+        {
+          "paper": "II",
+          "title": "Offences against women: cruelty, dowry death and rape"
+        },
+        {
+          "paper": "II",
+          "title": "Defamation under civil law and criminal law"
+        },
+        {
+          "paper": "II",
+          "title": "Prevention of Corruption Act, 1988: offenses and penalties"
+        },
+        {
+          "paper": "II",
+          "title": "Protection of Civil Rights Act, 1955 and legislative developments"
+        },
+        {
+          "paper": "II",
+          "title": "Plea bargaining: statutory provisions, concept and procedural safeguards"
+        },
+        {
+          "paper": "II",
+          "title": "Nature and definition of torts and tortious liability"
+        },
+        {
+          "paper": "II",
+          "title": "Liability based upon fault, strict liability, and absolute liability"
+        },
+        {
+          "paper": "II",
+          "title": "Vicarious liability including State Liability in tort law"
+        },
+        {
+          "paper": "II",
+          "title": "General defences available against liability in torts"
+        },
+        {
+          "paper": "II",
+          "title": "Joint tort feasors, concurrent wrongdoers and their remedies"
+        },
+        {
+          "paper": "II",
+          "title": "Remedies available in tort law: damages and injunctions"
+        },
+        {
+          "paper": "II",
+          "title": "Negligence: duty of care, breach and resulting damages"
+        },
+        {
+          "paper": "II",
+          "title": "Defamation in tort: libel, slander, defences and remedies"
+        },
+        {
+          "paper": "II",
+          "title": "Nuisance: public nuisance, private nuisance and available remedies"
+        },
+        {
+          "paper": "II",
+          "title": "Conspiracy: civil injury, unlawful acts and legal liability"
+        },
+        {
+          "paper": "II",
+          "title": "False imprisonment: definition, elements and legal remedies available"
+        },
+        {
+          "paper": "II",
+          "title": "Malicious prosecution: essential ingredients and burden of proof"
+        },
+        {
+          "paper": "II",
+          "title": "Consumer Protection Act, 1986: consumer rights and redressal"
+        },
+        {
+          "paper": "II",
+          "title": "Nature and formation of contract and modern E-contract"
+        },
+        {
+          "paper": "II",
+          "title": "Factors vitiating free consent: coercion, fraud, misrepresentation, mistake"
+        },
+        {
+          "paper": "II",
+          "title": "Void, voidable, illegal and unenforceable agreements under contract"
+        },
+        {
+          "paper": "II",
+          "title": "Performance and discharge of contracts under contract law"
+        },
+        {
+          "paper": "II",
+          "title": "Quasi-contracts: nature, legal basis and statutory provisions"
+        },
+        {
+          "paper": "II",
+          "title": "Consequences of breach of contract and measure of damages"
+        },
+        {
+          "paper": "II",
+          "title": "Contract of indemnity, guarantee and insurance law principles"
+        },
+        {
+          "paper": "II",
+          "title": "Contract of agency: creation, rights, duties and termination"
+        },
+        {
+          "paper": "II",
+          "title": "Sale of goods and hire purchase legal provisions"
+        },
+        {
+          "paper": "II",
+          "title": "Formation and dissolution of partnership under partnership law"
+        },
+        {
+          "paper": "II",
+          "title": "Negotiable Instruments Act, 1881: promissory notes, bills, cheques"
+        },
+        {
+          "paper": "II",
+          "title": "Arbitration and Conciliation Act, 1996: arbitral process and awards"
+        },
+        {
+          "paper": "II",
+          "title": "Standard form contracts and protective judicial interpretations"
+        },
+        {
+          "paper": "II",
+          "title": "Public Interest Litigation: origin, procedural developments and locus standi"
+        },
+        {
+          "paper": "II",
+          "title": "Intellectual property rights: concept, types and commercial prospects"
+        },
+        {
+          "paper": "II",
+          "title": "Information Technology Law including Cyber Laws: concept and purpose"
+        },
+        {
+          "paper": "II",
+          "title": "Competition Law: regulatory framework, purpose and practical prospects"
+        },
+        {
+          "paper": "II",
+          "title": "Alternate Dispute Resolution: mechanisms, negotiation, conciliation and mediation"
+        },
+        {
+          "paper": "II",
+          "title": "Major statutes concerning environmental law and ecological protection"
+        },
+        {
+          "paper": "II",
+          "title": "Right to Information Act: provisions, accountability and public access"
+        },
+        {
+          "paper": "II",
+          "title": "Trial by media: freedom of speech versus fair judicial administration"
+        }
+      ]
+    },
+    {
+      "slug": "management",
+      "name": "Management",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Managerial Function and Process: Evolution, functions, skills and ethics"
+        },
+        {
+          "paper": "I",
+          "title": "Organisational Behaviour and Design: Individual processes, structure and change"
+        },
+        {
+          "paper": "I",
+          "title": "Human Resource Management: Planning, recruitment, development and industrial relations"
+        },
+        {
+          "paper": "I",
+          "title": "Accounting for Managers: Financial accounting, costing methods and budget analysis"
+        },
+        {
+          "paper": "I",
+          "title": "Financial Management: Capital budgeting, capital structure and working capital"
+        },
+        {
+          "paper": "I",
+          "title": "Marketing Management: Strategy, market segmentation, consumer behaviour and marketing"
+        },
+        {
+          "paper": "II",
+          "title": "Quantitative Techniques in Decision-making: Statistics, probability and linear programming"
+        },
+        {
+          "paper": "II",
+          "title": "Production and Operations Management: Capacity planning, quality and supply chain"
+        },
+        {
+          "paper": "II",
+          "title": "Management Information System: Systems development, databases, enterprise resource planning"
+        },
+        {
+          "paper": "II",
+          "title": "Government Business Interface: Industrial policy, regulation and public distribution system"
+        },
+        {
+          "paper": "II",
+          "title": "Strategic Cost Management: Competitive analysis, strategy formulation and execution"
+        },
+        {
+          "paper": "II",
+          "title": "International Business: Global trade environment, foreign investment and international marketing"
+        }
+      ]
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Linear Algebra: Vector spaces, linear transformations, matrices and eigenvalues"
+        },
+        {
+          "paper": "I",
+          "title": "Calculus: Functions of several variables, integrals and indeterminate forms"
+        },
+        {
+          "paper": "I",
+          "title": "Analytic Geometry: Three dimensional geometry, lines, planes and conicoids"
+        },
+        {
+          "paper": "I",
+          "title": "Ordinary Differential Equations: First and higher order equations and Laplace transforms"
+        },
+        {
+          "paper": "I",
+          "title": "Dynamics and Statics: Motion of particles, equilibrium, friction and catenary"
+        },
+        {
+          "paper": "I",
+          "title": "Vector Analysis: Scalar and vector fields, differential operators and integral theorems"
+        },
+        {
+          "paper": "II",
+          "title": "Algebra: Groups, subgroups, homomorphisms, rings, integral domains and fields"
+        },
+        {
+          "paper": "II",
+          "title": "Real Analysis: Sequences, series, Riemann integrals and uniform convergence"
+        },
+        {
+          "paper": "II",
+          "title": "Complex Analysis: Analytic functions, Cauchy integral theorem, series and residue"
+        },
+        {
+          "paper": "II",
+          "title": "Linear Programming: Simplex method, duality, transportation and assignment problems"
+        },
+        {
+          "paper": "II",
+          "title": "Partial Differential Equations: Quasilinear first order, second order equations and boundary values"
+        },
+        {
+          "paper": "II",
+          "title": "Numerical Analysis and Computer Programming: Numerical methods, interpolation and programming"
+        },
+        {
+          "paper": "II",
+          "title": "Mechanics and Fluid Dynamics: Generalised coordinates, D Alembert principle and fluid flows"
+        }
+      ]
+    },
+    {
+      "slug": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Mechanics: Mechanics of rigid bodies and deformable bodies under load"
+        },
+        {
+          "paper": "I",
+          "title": "Engineering Materials: Structure of solids, ferrous and non-ferrous materials"
+        },
+        {
+          "paper": "I",
+          "title": "Theory of Machines: Kinematics and dynamics of mechanisms, vibrations and balancing"
+        },
+        {
+          "paper": "I",
+          "title": "Manufacturing Science: Manufacturing processes, machine tools, metrology and operations"
+        },
+        {
+          "paper": "II",
+          "title": "Thermodynamics, Gas Dynamics Turbine: First and second law, cycles, flows"
+        },
+        {
+          "paper": "II",
+          "title": "Heat Transfer: Conduction, convection, radiation and heat exchanger design"
+        },
+        {
+          "paper": "II",
+          "title": "Engines: IC engine combustion, performance parameters, emissions and fuels"
+        },
+        {
+          "paper": "II",
+          "title": "Steam Engineering: Steam generation, boilers, nozzles, turbines and Rankine cycle"
+        },
+        {
+          "paper": "II",
+          "title": "Refrigeration and Air-conditioning: Vapour compression, absorption systems and psychrometry"
+        }
+      ]
+    },
+    {
+      "slug": "medical-science",
+      "name": "Medical Science",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Human Anatomy: Gross, applied and clinical anatomy, embryology and neuroanatomy"
+        },
+        {
+          "paper": "I",
+          "title": "Human Physiology: Conduction, endocrine system, reproduction, blood and cardiovascular regulation"
+        },
+        {
+          "paper": "I",
+          "title": "Biochemistry: Organ function tests, protein synthesis, vitamins and molecular biology"
+        },
+        {
+          "paper": "I",
+          "title": "Pathology: Inflammation, neoplasia, histopathology of cardiovascular and systemic diseases"
+        },
+        {
+          "paper": "I",
+          "title": "Microbiology: Humoral immunity, bacteriology, virology, parasitology and diagnostic methods"
+        },
+        {
+          "paper": "I",
+          "title": "Pharmacology: Mechanism of action and side effects of major therapeutic drugs"
+        },
+        {
+          "paper": "I",
+          "title": "Forensic Medicine and Toxicology: Injuries, poisoning, autopsy and medical jurisprudence"
+        },
+        {
+          "paper": "II",
+          "title": "General Medicine: Infectious diseases, systemic disorders, clinical management and imaging"
+        },
+        {
+          "paper": "II",
+          "title": "Paediatrics: Neonatal care, respiratory distress, congenital heart disease and malnutrition"
+        },
+        {
+          "paper": "II",
+          "title": "Dermatology: Common skin disorders, allergic conditions and cutaneous lesions"
+        },
+        {
+          "paper": "II",
+          "title": "General Surgery: Clinical features, tumours, surgical emergencies and operative procedures"
+        },
+        {
+          "paper": "II",
+          "title": "Obstetrics and Gynaecology: Pregnancy management, complications, contraception and gynaecological disorders"
+        },
+        {
+          "paper": "II",
+          "title": "Community Medicine: Epidemiology, nutrition programmes, health administration and national health"
+        }
+      ]
+    },
+    {
+      "slug": "philosophy",
+      "name": "Philosophy",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Plato and Aristotle: Ideas, substance, form, matter, causation and actuality"
+        },
+        {
+          "paper": "I",
+          "title": "Rationalism: Descartes, Spinoza, Leibniz, substances and mind-body dualism"
+        },
+        {
+          "paper": "I",
+          "title": "Empiricism: Locke, Berkeley, Hume, theory of knowledge and scepticism"
+        },
+        {
+          "paper": "I",
+          "title": "Kant: Synthetic a priori judgments, categories, ideas of reason and antinomies"
+        },
+        {
+          "paper": "I",
+          "title": "Hegel: Dialectical method and absolute idealism in philosophy"
+        },
+        {
+          "paper": "I",
+          "title": "Moore, Russell and Early Wittgenstein: Commonsense defence, logical atomism and meaning"
+        },
+        {
+          "paper": "I",
+          "title": "Logical Positivism: Verification theory of meaning and rejection of metaphysics"
+        },
+        {
+          "paper": "I",
+          "title": "Later Wittgenstein: Meaning and use, language-games and private language critique"
+        },
+        {
+          "paper": "I",
+          "title": "Phenomenology: Husserl, phenomenological method, essences and avoidance of psychologism"
+        },
+        {
+          "paper": "I",
+          "title": "Existentialism: Kierkegaard, Sartre, Heidegger, existence, choice, responsibility and temporality"
+        },
+        {
+          "paper": "I",
+          "title": "Quine and Strawson: Critique of empiricism, basic particulars and personhood"
+        },
+        {
+          "paper": "I",
+          "title": "Carvaka: Theory of knowledge and rejection of transcendent entities"
+        },
+        {
+          "paper": "I",
+          "title": "Jainism: Theory of reality, Saptabhanginaya, bondage and path to liberation"
+        },
+        {
+          "paper": "I",
+          "title": "Schools of Buddhism: Pratityasamutpada, Ksanikavada, Nairatmyavada and Buddhist philosophy"
+        },
+        {
+          "paper": "I",
+          "title": "Nyaya-Vaisesika: Categories, theory of knowledge, self, God and causation"
+        },
+        {
+          "paper": "I",
+          "title": "Samkhya: Prakriti, Purusha, theory of causation, evolution and liberation"
+        },
+        {
+          "paper": "I",
+          "title": "Yoga: Citta, Cittavrtti, Kleshas, stages of samadhi and kaivalya"
+        },
+        {
+          "paper": "I",
+          "title": "Mimamsa: Theory of knowledge, validity of cognition and pramanas"
+        },
+        {
+          "paper": "I",
+          "title": "Schools of Vedanta: Brahman, Ishvara, Atman, Maya, Jiva and Moksha"
+        },
+        {
+          "paper": "I",
+          "title": "Sri Aurobindo: Evolution, involution and philosophy of Integral Yoga"
+        },
+        {
+          "paper": "II",
+          "title": "Social and Political Ideals: Equality, justice, liberty and affirmative action"
+        },
+        {
+          "paper": "II",
+          "title": "Sovereignty: Theories of Austin, Bodin, Laski and Kautilya"
+        },
+        {
+          "paper": "II",
+          "title": "Individual and State: Rights, duties, obligation and democratic accountability"
+        },
+        {
+          "paper": "II",
+          "title": "Forms of Government: Monarchy, theocracy, democracy and institutional structures"
+        },
+        {
+          "paper": "II",
+          "title": "Political Ideologies: Anarchism, Marxism, socialism, fascism and Gandhism"
+        },
+        {
+          "paper": "II",
+          "title": "Humanism, Secularism and Multi-culturalism in contemporary democratic societies"
+        },
+        {
+          "paper": "II",
+          "title": "Crime and Punishment: Theories of punishment, corruption, genocide, capital punishment"
+        },
+        {
+          "paper": "II",
+          "title": "Development and Social Progress: Socio-economic transformation and sustainable development"
+        },
+        {
+          "paper": "II",
+          "title": "Gender Discrimination: Female foeticide, property rights and women empowerment"
+        },
+        {
+          "paper": "II",
+          "title": "Caste Discrimination: Perspectives and social reforms of Gandhi and Ambedkar"
+        },
+        {
+          "paper": "II",
+          "title": "Notions of God: Divine attributes and relation to man and world"
+        },
+        {
+          "paper": "II",
+          "title": "Proofs for the Existence of God and their philosophical critiques"
+        },
+        {
+          "paper": "II",
+          "title": "Problem of Evil: Theodicy, moral evil, natural evil and suffering"
+        },
+        {
+          "paper": "II",
+          "title": "Soul: Concepts of immortality, rebirth, personal identity and liberation"
+        },
+        {
+          "paper": "II",
+          "title": "Reason, Revelation and Faith: Epistemology of religious belief and truth"
+        },
+        {
+          "paper": "II",
+          "title": "Religious Experience: Nature, varieties and cognitive value of mystical states"
+        },
+        {
+          "paper": "II",
+          "title": "Religion without God: Non-theistic religions and secular spiritual philosophies"
+        },
+        {
+          "paper": "II",
+          "title": "Religion and Morality: Interdependence, autonomy of ethics and moral values"
+        },
+        {
+          "paper": "II",
+          "title": "Religious Pluralism and the problem of conflicting truth claims"
+        },
+        {
+          "paper": "II",
+          "title": "Nature of Religious Language: Analogical, symbolic, cognitivist and non-cognitive theories"
+        }
+      ]
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Mechanics of Particles, Rigid Bodies, Continuous Media, and Special Relativity"
+        },
+        {
+          "paper": "I",
+          "title": "Waves, Geometrical Optics, Interference, Diffraction, and Polarisation"
+        },
+        {
+          "paper": "I",
+          "title": "Electricity and Magnetism: Electrostatics, Magnetostatics, and Current Electricity"
+        },
+        {
+          "paper": "I",
+          "title": "Electromagnetic Waves and Blackbody Radiation"
+        },
+        {
+          "paper": "I",
+          "title": "Thermal and Statistical Physics: Thermodynamics and Statistical Physics"
+        },
+        {
+          "paper": "II",
+          "title": "Quantum Mechanics: Wave-Particle Duality, Wave Equations, and Applications"
+        },
+        {
+          "paper": "II",
+          "title": "Atomic and Molecular Physics: Atomic Spectra, Molecular Structure, and Spectroscopy"
+        },
+        {
+          "paper": "II",
+          "title": "Nuclear and Particle Physics: Nuclear Properties, Forces, and Elementary Particles"
+        },
+        {
+          "paper": "II",
+          "title": "Solid State Physics, Devices and Electronics"
+        }
+      ]
+    },
+    {
+      "slug": "political-science-and-international-relations",
+      "name": "Political Science and International Relations",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Political Theory and Indian Politics: Political Theory and Theories of State"
+        },
+        {
+          "paper": "I",
+          "title": "Conceptions of Justice, Equality, Rights, Democracy, Power, and Ideologies"
+        },
+        {
+          "paper": "I",
+          "title": "Indian and Western Political Thought"
+        },
+        {
+          "paper": "I",
+          "title": "Indian Nationalism and Making of the Indian Constitution"
+        },
+        {
+          "paper": "I",
+          "title": "Organs of Union and State Government, Grassroots Democracy, and Federalism"
+        },
+        {
+          "paper": "I",
+          "title": "Planning, Economic Development, Caste, Religion, Party System, and Social Movements"
+        },
+        {
+          "paper": "II",
+          "title": "Comparative Political Analysis, Theories of International Relations, and Changing Political Order"
+        },
+        {
+          "paper": "II",
+          "title": "International Economic System, United Nations, Regionalisation, and Global Concerns"
+        },
+        {
+          "paper": "II",
+          "title": "India and the World: Foreign Policy, Non-Alignment, and Relations with South Asia"
+        },
+        {
+          "paper": "II",
+          "title": "India and Global South, Global Centres of Power, UN System, and Nuclear Question"
+        }
+      ]
+    },
+    {
+      "slug": "psychology",
+      "name": "Psychology",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Foundations: Introduction, Research Methods, Development of Human Behaviour"
+        },
+        {
+          "paper": "I",
+          "title": "Sensation, Attention, Perception, Learning, Memory, Thinking, and Problem Solving"
+        },
+        {
+          "paper": "I",
+          "title": "Motivation, Emotion, Intelligence, Aptitude, and Personality"
+        },
+        {
+          "paper": "I",
+          "title": "Attitudes, Values, Interests, Language, Communication, and Contemporary Issues"
+        },
+        {
+          "paper": "II",
+          "title": "Measurement of Individual Differences, Psychological Well-being, and Therapeutic Approaches"
+        },
+        {
+          "paper": "II",
+          "title": "Work Psychology, Organisational Behaviour, Educational, and Community Psychology"
+        },
+        {
+          "paper": "II",
+          "title": "Rehabilitation, Disadvantaged Groups, Social Integration, IT, and Mass Media"
+        },
+        {
+          "paper": "II",
+          "title": "Economic Development, Environmental Psychology, Military, Sports, and Gender Psychology"
+        }
+      ]
+    },
+    {
+      "slug": "public-administration",
+      "name": "Public Administration",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Administrative Theory: Introduction, Administrative Thought, and Administrative Behaviour"
+        },
+        {
+          "paper": "I",
+          "title": "Organisations, Accountability and Control, Administrative Law, and Comparative Public Administration"
+        },
+        {
+          "paper": "I",
+          "title": "Development Dynamics, Personnel Administration, Public Policy, and Improvement Techniques"
+        },
+        {
+          "paper": "I",
+          "title": "Financial Administration: Monetary and Fiscal Policies, Budgets, and Audits"
+        },
+        {
+          "paper": "II",
+          "title": "Evolution, Philosophical and Constitutional Framework of Government"
+        },
+        {
+          "paper": "II",
+          "title": "Public Sector Undertakings, Union and State Government Administration"
+        },
+        {
+          "paper": "II",
+          "title": "Plans and Priorities, District Administration, and Civil Services"
+        },
+        {
+          "paper": "II",
+          "title": "Financial Management, Administrative Reforms, Rural and Urban Local Government"
+        },
+        {
+          "paper": "II",
+          "title": "Law and Order Administration, and Significant Issues in Indian Administration"
+        }
+      ]
+    },
+    {
+      "slug": "sociology",
+      "name": "Sociology",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Sociology The Discipline, Sociology as Science, Research Methods and Analysis"
+        },
+        {
+          "paper": "I",
+          "title": "Sociological Thinkers: Marx, Durkheim, Weber, Parsons, Merton, and Mead"
+        },
+        {
+          "paper": "I",
+          "title": "Stratification, Mobility, Works, Economic Life, Politics, and Society"
+        },
+        {
+          "paper": "I",
+          "title": "Religion and Society, Systems of Kinship, and Social Change"
+        },
+        {
+          "paper": "II",
+          "title": "Introducing Indian Society: Perspectives and Impact of Colonial Rule"
+        },
+        {
+          "paper": "II",
+          "title": "Social Structure: Rural, Agrarian, Caste System, and Tribal Communities"
+        },
+        {
+          "paper": "II",
+          "title": "Social Classes, Systems of Kinship, and Religion and Society"
+        },
+        {
+          "paper": "II",
+          "title": "Social Changes in India: Visions, Transformation, and Politics"
+        },
+        {
+          "paper": "II",
+          "title": "Social Movements, Population Dynamics, and Challenges of Social Transformation"
+        }
+      ]
+    },
+    {
+      "slug": "statistics",
+      "name": "Statistics",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Probability: Probability Space, Random Variables, Distributions, and Limit Theorems"
+        },
+        {
+          "paper": "I",
+          "title": "Statistical Inference: Estimation, Hypotheses Testing, Non-parametric Tests, and Sequential Analysis"
+        },
+        {
+          "paper": "I",
+          "title": "Linear Inference and Multivariate Analysis"
+        },
+        {
+          "paper": "I",
+          "title": "Sampling Theory and Design of Experiments"
+        },
+        {
+          "paper": "II",
+          "title": "Industrial Statistics: Quality Control, Reliability, and Life Testing"
+        },
+        {
+          "paper": "II",
+          "title": "Optimization Techniques: Linear Programming, Inventory, and Queuing Theory"
+        },
+        {
+          "paper": "II",
+          "title": "Quantitative Economics, Time Series, Index Numbers, Econometrics, and Official Statistics"
+        },
+        {
+          "paper": "II",
+          "title": "Demography, Vital Statistics, Life Tables, and Psychometry"
+        }
+      ]
+    },
+    {
+      "slug": "zoology",
+      "name": "Zoology",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "1. Non-chordata and Chordata: Classification, Morphology, Life Cycles and Comparative Anatomy"
+        },
+        {
+          "paper": "I",
+          "title": "2. Ecology: Biosphere, Ecosystems, Population Dynamics, Wildlife and Conservation of Natural Resources"
+        },
+        {
+          "paper": "I",
+          "title": "3. Ethology: Biological Rhythms, Animal Behaviour, Sociobiology and Orientation Mechanisms"
+        },
+        {
+          "paper": "I",
+          "title": "4. Economic Zoology: Apiculture, Sericulture, Pests, Diseases and Medical Biotechnology"
+        },
+        {
+          "paper": "I",
+          "title": "5. Biostatistics: Experimental Design, Hypothesis Testing, Correlation, Regression and Variance Analysis"
+        },
+        {
+          "paper": "I",
+          "title": "6. Instrumentation Methods: Microscopy, Spectroscopy, Centrifugation, Chromatography and Molecular Diagnostic Tools"
+        },
+        {
+          "paper": "II",
+          "title": "1. Cell Biology: Organelle Structure, Membrane Transport, Cell Division and Molecular Cytology"
+        },
+        {
+          "paper": "II",
+          "title": "2. Genetics: Heredity, Gene Regulation, Chromosomal Aberrations, Mutation and Recombinant DNA Technology"
+        },
+        {
+          "paper": "II",
+          "title": "3. Evolution: Origin of Life, Theories, Natural Selection, Speciation and Fossil Records"
+        },
+        {
+          "paper": "II",
+          "title": "4. Systematics: International Zoological Nomenclature, Cladistics, Taxonomic Hierarchy and Biodiversity"
+        },
+        {
+          "paper": "II",
+          "title": "5. Biochemistry: Biomolecules, Metabolic Pathways, Bioenergetics, Enzymes, Hormones and Immunology"
+        },
+        {
+          "paper": "II",
+          "title": "6. Physiology: Mammalian Respiration, Circulation, Digestion, Excretion, Neurobiology and Muscular Action"
+        },
+        {
+          "paper": "II",
+          "title": "7. Developmental Biology: Gametogenesis, Embryonic Induction, Morphogenesis, Teratogenesis and Stem Cells"
+        }
+      ]
+    },
+    {
+      "slug": "literature-assamese",
+      "name": "Literature of Assamese",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A (a): History of the Origin and Development of the Assamese Language"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (b): Development of Assamese Prose Through the Historical Eras"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (c): Vowels, Consonants, Phonetics and Phonological Changes in Assamese"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (d): Assamese Vocabulary and Linguistic Sources of Lexical Borrowing"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (e): Morphology of Assamese, Conjugation, Enclitic Definitives and Suffixes"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (f): Dialectical Divergences, Standard Colloquial Assamese and Kamrupi Dialect"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (g): Historical Evolution of Assamese Script Till Nineteenth Century A.D."
+        },
+        {
+          "paper": "I",
+          "title": "Section B (a): Principles of Literary Criticism up to the New Criticism"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (b): Classification and Study of Major Different Literary Genres"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (c): Development of Traditional and Modern Literary Forms in Assamese"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (d): Origin and Development of Literary Criticism in Assamese Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (e): Periods of Literary History of Assam from Earliest Beginnings"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Critical Study of Prescribed Early and Medieval Assamese Texts"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Critical Study of Prescribed Modern Assamese Literary Texts"
+        }
+      ]
+    },
+    {
+      "slug": "literature-bengali",
+      "name": "Literature of Bengali",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A (1): Chronological Track from Proto Indo-European to Bangla Language"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (2): Historical Stages of Bangla and Their Prominent Linguistic Features"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (3): Dialects of Bangla and Their Distinguishing Linguistic Characteristics"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (4): Elements of Bangla Vocabulary and Lexical Stock Classification"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (5): Historical Forms of Bangla Literary Prose: Sadhu and Chalit"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (6): Processes of Phonological and Morphological Language Change in Bangla"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (7): Standardization and Reform of Alphabet, Spelling, Transliteration and Romanization"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (8): Phonology, Morphology and Syntax of Modern Bengali Language"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (1): Periodization of Bangla Literature: Old Bangla and Middle Bangla"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (2): Points of Difference Between Modern and Pre-Modern Bangla Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (3): Roots and Reasons Behind Emergence of Modernity in Bangla"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (4): Evolution of Middle Bangla Mangal Kavyas, Lyrics and Narratives"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (5): Secular Literary Traditions and Forms in Middle Bangla Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (6): Narrative and Lyric Trends in Nineteenth-Century Bangla Poetry"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (7): Genesis and Development of Literary Prose in Modern Bangla"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (8): Evolution of Bangla Dramatic Literature from Nineteenth Century Onward"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (9): Literary Contributions of Rabindranath Tagore and Post-Tagorean Modern Authors"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (10): Major Fiction Writers in Modern Bangla Literature and Novels"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (11): Women in Bangla Literature: Creators and Literary Characters Created"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: In-depth Study of Prescribed Early, Medieval and Nineteenth-Century Texts"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: In-depth Study of Prescribed Modern Plays, Novels and Short Stories"
+        }
+      ]
+    },
+    {
+      "slug": "literature-bodo",
+      "name": "Literature of Bodo",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A (1): Homeland, Language Family and Mutual Contact with Assamese Language"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (2): Phonemic Inventory of Bodo: Vowels, Consonants and Tone Systems"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (3): Morphology of Bodo: Gender, Number, Case Endings and Suffixes"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (4): Classification of Bodo Vocabulary and Its Indigenous and Borrowed Sources"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (5): Bodo Syntax: Sentence Structures, Clause Types and Word Order"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (6): Historical Evolution of Scripts Used for Writing the Bodo Language"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (1): General Survey and Analysis of Bodo Folk Oral Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (2): Role and Contribution of Christian Missionaries in Bodo Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (3): Periodization and Evolutionary Trends in History of Bodo Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (4): Critical Analysis of Different Literary Genres in Bodo"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (5): Origin, Growth and Significance of Translation Literature in Bodo"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Textual Study of Prescribed Early and Classical Bodo Texts"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Textual Study of Prescribed Modern Bodo Poetry, Prose and Fiction"
+        }
+      ]
+    },
+    {
+      "slug": "literature-dogri",
+      "name": "Literature of Dogri",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A (1): Origin and Development of Dogri Language Through Historical Stages"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (2): Geographical and Linguistic Boundaries of Dogri and Regional Dialects"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (3): Characteristic Phonological, Morphological and Syntactic Features of Dogri"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (4): Structure of Dogri: Sounds, Morphology and Sentence Architecture"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (5): Dogri Language Scripts: Dogra Akkhar, Devanagari and Perso-Arabic"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (1): Historical Survey of Pre-Independence Dogri Poetry and Prose"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (2): Development of Modern Dogri Poetry and Major Literary Trends"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (3): Growth of Dogri Short Story and Prominent Story Writers"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (4): Development of Dogri Novel and Main Trends in Fiction"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (5): Evolution of Dogri Drama and Contributions of Prominent Playwrights"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (6): Development of Dogri Prose: Essays, Memoirs and Travelogues"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (7): Study of Dogri Folk Literature: Songs, Tales and Ballads"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Textual Analysis and Criticism of Prescribed Dogri Poetry Texts"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Textual Analysis and Criticism of Prescribed Dogri Prose Works"
+        }
+      ]
+    },
+    {
+      "slug": "literature-gujarati",
+      "name": "Literature of Gujarati",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A (1-3): History and Form of Gujarati Language and Regional Dialects"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (4-6): History of Medieval Gujarati Literature: Jaina, Bhakti and Non-Sectarian"
+        },
+        {
+          "paper": "I",
+          "title": "Section A (7-11): Modern Eras of Gujarati Literature: Sudharak, Pandit, Gandhi and Adhunik"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (a): Medieval Gujarati Literary Forms: Rasa, Akhyan, Padyavarta and Pada"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (b): Traditional Gujarati Folk Performance Forms and Folk Theatre Bhavai"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (c): Modern Gujarati Literary Forms: Fiction, Drama, Essays and Poetry"
+        },
+        {
+          "paper": "I",
+          "title": "Section B (d): History and Evolution of Theoretical Gujarati Literary Criticism"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Critical Study of Prescribed Medieval, Sudharakyug and Pandityug Texts"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Critical Study of Gandhiyug, Anu Gandhiyug and Adhunikyug Prescribed Works"
+        }
+      ]
+    },
+    {
+      "slug": "literature-hindi",
+      "name": "Literature of Hindi",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "History of Hindi Language and Nagari Lipi and its Evolution from Apbhransh"
+        },
+        {
+          "paper": "I",
+          "title": "History of Hindi Literature covering Adikal, Bhaktikal, Ritikal and Adhunik Kal Periods"
+        },
+        {
+          "paper": "I",
+          "title": "Katha Sahitya covering the Origin and Development of Hindi Novels and Short Stories"
+        },
+        {
+          "paper": "I",
+          "title": "Drama and Theatre covering the Origin and Development of Hindi Drama and Stage"
+        },
+        {
+          "paper": "I",
+          "title": "Origin and Development of Hindi Criticism and Contributions of Various Prominent Critics"
+        },
+        {
+          "paper": "I",
+          "title": "Other Forms of Hindi Prose including Lalit Nibandh, Rekhachitra, Sansmaran and Travelogue"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Prescribed Medieval and Modern Hindi Poetic Texts for In-depth Study"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Prescribed Hindi Prose, Drama, Essays, and Novel Texts for Critical Study"
+        }
+      ]
+    },
+    {
+      "slug": "literature-kannada",
+      "name": "Literature of Kannada",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A: History and General Characteristics of Kannada Language and Its Dialects"
+        },
+        {
+          "paper": "I",
+          "title": "Section A: History of Kannada Literature across Ancient, Medieval and Modern Periods"
+        },
+        {
+          "paper": "I",
+          "title": "Section B: Poetics and Literary Criticism including Rasa Sutra and Modern Trends"
+        },
+        {
+          "paper": "I",
+          "title": "Section B: Cultural History of Karnataka, Dynasties, Religious Contributions and Regional Arts"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Old Kannada Literature Prescribed Texts of Pampa and Vaddaraadhane"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Medieval Kannada Literature Prescribed Works of Vachana, Dasa and Epic Poets"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Modern Kannada Literature Prescribed Poetry, Novel, Drama, and Prose Works"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Folk Literature Prescribed Anthologies, Folk Tales, Songs and Riddles"
+        }
+      ]
+    },
+    {
+      "slug": "literature-kashmiri",
+      "name": "Literature of Kashmiri",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Genealogical relationship of the Kashmiri language and various linguistic theories"
+        },
+        {
+          "paper": "I",
+          "title": "Areas of occurrence and geographical and social dialects of Kashmiri language"
+        },
+        {
+          "paper": "I",
+          "title": "Phonology and grammar including vowel, consonant systems, nouns, pronouns and verbs"
+        },
+        {
+          "paper": "I",
+          "title": "Syntactic structure including simple declarative statements, coordination and relativisation"
+        },
+        {
+          "paper": "I",
+          "title": "Kashmiri literature in the fourteenth century with special reference to Lal Dyad"
+        },
+        {
+          "paper": "I",
+          "title": "Nineteenth century Kashmiri literature and development of various literary genres"
+        },
+        {
+          "paper": "I",
+          "title": "Kashmiri literature in the first half of the twentieth century and literary influences"
+        },
+        {
+          "paper": "I",
+          "title": "Modern Kashmiri literature with development of short story, drama, novel and nazm"
+        },
+        {
+          "paper": "II",
+          "title": "Intensive study of Kashmiri poetry up to the nineteenth century"
+        },
+        {
+          "paper": "II",
+          "title": "Kashmiri poetry in the nineteenth century and prominent poets"
+        },
+        {
+          "paper": "II",
+          "title": "Twentieth Century Kashmiri poetry and modern trends in poetic composition"
+        },
+        {
+          "paper": "II",
+          "title": "Literary criticism and research work in Kashmiri development and trends"
+        },
+        {
+          "paper": "II",
+          "title": "An analytical study of the short story in Kashmiri literature"
+        },
+        {
+          "paper": "II",
+          "title": "Prescribed novel texts and literary trends in Kashmiri language"
+        },
+        {
+          "paper": "II",
+          "title": "Prescribed drama texts and theatrical development in Kashmiri literature"
+        },
+        {
+          "paper": "II",
+          "title": "Kashmiri folk literature including theatre traditions and folk songs"
+        }
+      ]
+    },
+    {
+      "slug": "literature-konkani",
+      "name": "Literature of Konkani",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Origin and development of the Konkani language and major historical influences"
+        },
+        {
+          "paper": "I",
+          "title": "Major variants of Konkani language and their distinct linguistic features"
+        },
+        {
+          "paper": "I",
+          "title": "Grammatical and lexicographic work in Konkani including cases and indeclinables"
+        },
+        {
+          "paper": "I",
+          "title": "Old Standard Konkani, New Standard forms and problems of standardization"
+        },
+        {
+          "paper": "I",
+          "title": "History of Konkani literature from its probable source to modern times"
+        },
+        {
+          "paper": "I",
+          "title": "Social and cultural background of the making of Konkani literature"
+        },
+        {
+          "paper": "I",
+          "title": "Indian and Western influences on Konkani literature through different periods"
+        },
+        {
+          "paper": "I",
+          "title": "Modern literary trends in various genres and study of Konkani folklore"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Prescribed Konkani Prose Texts, Essays, Novels and Drama for Study"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Prescribed Konkani Poetry Collections and Anthologies for Critical Appreciation"
+        }
+      ]
+    },
+    {
+      "slug": "literature-maithili",
+      "name": "Literature of Maithili",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Part A: Place of Maithili in Indo-European language family and historical development"
+        },
+        {
+          "paper": "I",
+          "title": "Part A: Periodic division, major dialects and Tirhuta script of Maithili language"
+        },
+        {
+          "paper": "I",
+          "title": "Part A: Grammatical structure covering pronouns and verbs in Maithili language"
+        },
+        {
+          "paper": "I",
+          "title": "Part B: Background, periodic division, Pre-Vidyapati literature and Vidyapati tradition"
+        },
+        {
+          "paper": "I",
+          "title": "Part B: Medieval Maithili drama and folk literature of Maithili culture"
+        },
+        {
+          "paper": "I",
+          "title": "Part B: Development of modern literary forms, magazines and journals in Maithili"
+        },
+        {
+          "paper": "II",
+          "title": "Part A: Prescribed Ancient, Medieval and Modern Maithili Poetry Texts for Study"
+        },
+        {
+          "paper": "II",
+          "title": "Part B: Prescribed Maithili Prose, Drama, Novels, and Short Story Collections"
+        }
+      ]
+    },
+    {
+      "slug": "literature-malayalam",
+      "name": "Literature of Malayalam",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Early phase of Malayalam Language, origin theories and relation with Tamil"
+        },
+        {
+          "paper": "I",
+          "title": "Linguistic features of Manipravalam, folklore traditions and early Malayalam prose"
+        },
+        {
+          "paper": "I",
+          "title": "Standardisation of Malayalam language and contributions of missionaries and media"
+        },
+        {
+          "paper": "I",
+          "title": "Ancient and Medieval Literature including Pattu, Manipravalam, and Folk Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Modern Malayalam Literature in Poetry from Venmani poets to Modernism"
+        },
+        {
+          "paper": "I",
+          "title": "Modern Malayalam Literature in Prose covering Drama, Novel, and Short Story"
+        },
+        {
+          "paper": "II",
+          "title": "Unit 1: Prescribed Early and Medieval Poetic Texts for First-hand Reading"
+        },
+        {
+          "paper": "II",
+          "title": "Unit 2: Prescribed Modern Malayalam Romantic Poetic Works for Critical Analysis"
+        },
+        {
+          "paper": "II",
+          "title": "Unit 3: Prescribed Contemporary Malayalam Poetry Texts for Detailed Critical Study"
+        },
+        {
+          "paper": "II",
+          "title": "Unit 4: Prescribed Malayalam Classic Novels for First-hand Reading and Study"
+        },
+        {
+          "paper": "II",
+          "title": "Unit 5: Prescribed Modern Short Story Collections and Drama in Malayalam"
+        },
+        {
+          "paper": "II",
+          "title": "Unit 6: Prescribed Malayalam Critical Prose, Literary Essays, and Autobiographical Works"
+        }
+      ]
+    },
+    {
+      "slug": "literature-manipuri",
+      "name": "Literature of Manipuri",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "General characteristics of Manipuri Language and history of its development"
+        },
+        {
+          "paper": "I",
+          "title": "Significant features of Manipuri Language: Phonology, Morphology and Syntax"
+        },
+        {
+          "paper": "I",
+          "title": "Literary History of Manipuri: Early, Medieval and Modern periods"
+        },
+        {
+          "paper": "I",
+          "title": "Manipuri Folk Literature: Legend, Folktale, Folksong, Ballad, Proverb and Riddle"
+        },
+        {
+          "paper": "I",
+          "title": "Aspects of Manipuri Culture, performing arts and indigenous games"
+        },
+        {
+          "paper": "II",
+          "title": "Old and Medieval Manipuri Literature: Selected Prescribed Texts"
+        },
+        {
+          "paper": "II",
+          "title": "Modern Manipuri Literature: Prescribed Poetry, Epic and Drama"
+        },
+        {
+          "paper": "II",
+          "title": "Modern Manipuri Literature: Prescribed Novel, Short-story and Prose"
+        }
+      ]
+    },
+    {
+      "slug": "literature-marathi",
+      "name": "Literature of Marathi",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Nature and Functions of Language and linguistic features of Marathi"
+        },
+        {
+          "paper": "I",
+          "title": "Dialects of Marathi: Ahirani, Varhadi and Dangi"
+        },
+        {
+          "paper": "I",
+          "title": "Marathi Grammar: Parts of Speech, Case-system and Prayog-vichar"
+        },
+        {
+          "paper": "I",
+          "title": "Nature and kinds of Folk-lore with special reference to Marathi"
+        },
+        {
+          "paper": "I",
+          "title": "History of Marathi Literature from beginning to 1990"
+        },
+        {
+          "paper": "I",
+          "title": "Literary Criticism: Nature, objectives, evaluation, culture and society"
+        },
+        {
+          "paper": "II",
+          "title": "Textual study of prescribed literary works: Prose selections"
+        },
+        {
+          "paper": "II",
+          "title": "Textual study of prescribed literary works: Poetry selections"
+        }
+      ]
+    },
+    {
+      "slug": "literature-nepali",
+      "name": "Literature of Nepali",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "History of origin and development of Nepali language"
+        },
+        {
+          "paper": "I",
+          "title": "Fundamentals of Nepali Grammar and phonology"
+        },
+        {
+          "paper": "I",
+          "title": "Major Dialects, Standardisation and Modernisation of Nepali language"
+        },
+        {
+          "paper": "I",
+          "title": "Teaching of Nepali language in India and socio-cultural aspects"
+        },
+        {
+          "paper": "I",
+          "title": "History of Nepali literature with special reference to development in India"
+        },
+        {
+          "paper": "I",
+          "title": "Fundamental concepts, theories of literature and literary genres"
+        },
+        {
+          "paper": "I",
+          "title": "Major literary trends, contemporary writings and Nepali folklores"
+        },
+        {
+          "paper": "II",
+          "title": "Textual criticism of prescribed Nepali Poetry and Plays"
+        },
+        {
+          "paper": "II",
+          "title": "Textual criticism of prescribed Nepali Fiction and Essays"
+        }
+      ]
+    },
+    {
+      "slug": "literature-odia",
+      "name": "Literature of Odia",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "History of Odia Language: Origin, development and external influences"
+        },
+        {
+          "paper": "I",
+          "title": "Phonetics, Phonemics, Morphology, Syntax and Semantics of Odia"
+        },
+        {
+          "paper": "I",
+          "title": "Common errors in Odia, regional variations and dialects"
+        },
+        {
+          "paper": "I",
+          "title": "History of Odia Literature: Historical backgrounds and ancient epics"
+        },
+        {
+          "paper": "I",
+          "title": "Typical structural forms of Odia Literature and modern literary trends"
+        },
+        {
+          "paper": "II",
+          "title": "Critical study of prescribed Ancient, Medieval and Modern Poetry"
+        },
+        {
+          "paper": "II",
+          "title": "Critical study of prescribed Drama, Novel, Short Story and Essay"
+        }
+      ]
+    },
+    {
+      "slug": "literature-punjabi",
+      "name": "Literature of Punjabi",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Origin, development, phonology, morphology and syntax of Punjabi Language"
+        },
+        {
+          "paper": "I",
+          "title": "Dialects of Punjabi, Gurumukhi script and Classical Medieval Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Modern trends in Punjabi poetry, folk literature and epic poetry"
+        },
+        {
+          "paper": "I",
+          "title": "Punjabi Drama, Novel, Short Story, Prose, Essay and Literary Criticism"
+        },
+        {
+          "paper": "II",
+          "title": "Textual study of classical texts: Sheikh Farid, Guru Nanak, Bulleh Shah and Waris Shah"
+        },
+        {
+          "paper": "II",
+          "title": "Textual study of modern poetry, fiction, drama, essays and criticism"
+        }
+      ]
+    },
+    {
+      "slug": "literature-sanskrit",
+      "name": "Literature of Sanskrit",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Significant grammatical features of Sanskrit: Sanjna, Sandhi, Karaka, Samasa and Vacyas"
+        },
+        {
+          "paper": "I",
+          "title": "Main characteristics of Vedic, Classical Sanskrit and linguistic studies"
+        },
+        {
+          "paper": "I",
+          "title": "General knowledge of Sanskrit literary history, epics and literary genres"
+        },
+        {
+          "paper": "I",
+          "title": "Essentials of Indian Culture and principal trends of Indian Philosophy"
+        },
+        {
+          "paper": "I",
+          "title": "Short Essay and Unseen reading passage in Sanskrit"
+        },
+        {
+          "paper": "II",
+          "title": "General study of prescribed Mahakavyas, Rupakas, Upanishads and classic texts"
+        },
+        {
+          "paper": "II",
+          "title": "First-hand reading and critical examination of selected Sanskrit texts"
+        }
+      ]
+    },
+    {
+      "slug": "literature-santhali",
+      "name": "Literature of Santhali",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A Part I: History and Grammatical Structure of Santhali Language"
+        },
+        {
+          "paper": "I",
+          "title": "Section A Part II: History of Santhali Literature Across Four Major Periods"
+        },
+        {
+          "paper": "I",
+          "title": "Section B Part I: Main Characteristics and History of Santhali Folk Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Section B Part II: Development of Modern Literature and Prominent Santhali Writers"
+        },
+        {
+          "paper": "I",
+          "title": "Section B Part III: Cultural Heritage of Santhali Traditions, Customs and Rituals"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Critical Study of Prescribed Ancient Prose and Poetry Texts"
+        },
+        {
+          "paper": "II",
+          "title": "Section B Part I: Detailed Study of Prescribed Modern Santhali Poetry"
+        },
+        {
+          "paper": "II",
+          "title": "Section B Part II: Detailed Study of Prescribed Modern Santhali Novels"
+        },
+        {
+          "paper": "II",
+          "title": "Section B Part III: Detailed Study of Prescribed Modern Santhali Short Stories"
+        },
+        {
+          "paper": "II",
+          "title": "Section B Part IV: Detailed Study of Prescribed Modern Santhali Plays and Drama"
+        },
+        {
+          "paper": "II",
+          "title": "Section B Part V: Detailed Study of Prescribed Santhali Biographical Work"
+        }
+      ]
+    },
+    {
+      "slug": "literature-sindhi",
+      "name": "Literature of Sindhi",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A: Origin, Linguistic Features, Dialects, Vocabulary and Scripts of Sindhi"
+        },
+        {
+          "paper": "I",
+          "title": "Section B: Sindhi Literature Through the Ages in Socio-Cultural Context"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Critical Appreciation and Textual Study of Prescribed Poetry and Drama"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Textual Study of Prescribed Novels, Short Stories, Essays and Biographies"
+        }
+      ]
+    },
+    {
+      "slug": "literature-tamil",
+      "name": "Literature of Tamil",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A Part 1: History and Linguistic Structure of Tamil Language"
+        },
+        {
+          "paper": "I",
+          "title": "Section A Part 2: History of Sangam, Ethical and Epic Tamil Literature"
+        },
+        {
+          "paper": "I",
+          "title": "Section A Part 3: Devotional Literature and Development of Modern Tamil Writings"
+        },
+        {
+          "paper": "I",
+          "title": "Section B Part 1: Recent Trends in Tamil Literary Criticism and Studies"
+        },
+        {
+          "paper": "I",
+          "title": "Section B Part 2: Sociological Study of Tamil Folk Literature and Journalism"
+        },
+        {
+          "paper": "I",
+          "title": "Section B Part 3: Cultural Heritage, Art, Architecture and Society of the Tamils"
+        },
+        {
+          "paper": "II",
+          "title": "Section A Part 1: Critical Study of Prescribed Ancient Tamil Literature"
+        },
+        {
+          "paper": "II",
+          "title": "Section A Part 2: Critical Study of Prescribed Classical Epic Literature"
+        },
+        {
+          "paper": "II",
+          "title": "Section A Part 3: Critical Study of Prescribed Devotional Tamil Literature"
+        },
+        {
+          "paper": "II",
+          "title": "Section B Part 1: Critical Study of Prescribed Modern Poetry and Prose"
+        },
+        {
+          "paper": "II",
+          "title": "Section B Part 2: Critical Study of Prescribed Novels, Short Stories and Plays"
+        },
+        {
+          "paper": "II",
+          "title": "Section B Part 3: Critical Study of Prescribed Tamil Folk Literature Texts"
+        }
+      ]
+    },
+    {
+      "slug": "literature-telugu",
+      "name": "Literature of Telugu",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A: History, Evolution, Dialects, Syntax and Modernization of Telugu Language"
+        },
+        {
+          "paper": "I",
+          "title": "Section B: History of Telugu Literature from Pre-Nannaya to Modern Period"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Critical Analysis of Prescribed Classical and Medieval Telugu Texts"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Critical Analysis of Prescribed Modern Telugu Literature and Texts"
+        }
+      ]
+    },
+    {
+      "slug": "literature-urdu",
+      "name": "Literature of Urdu",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A: Development of Indo-Aryan, Dialects and Evolution of Urdu Language"
+        },
+        {
+          "paper": "I",
+          "title": "Section B: Genres, Literary Movements, Critical Traditions and Essay Writing in Urdu"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: First-Hand Critical Study of Prescribed Classical and Modern Prose Texts"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: First-Hand Critical Study of Prescribed Classical and Modern Poetry Texts"
+        }
+      ]
+    },
+    {
+      "slug": "literature-english",
+      "name": "Literature of English",
+      "topics": [
+        {
+          "paper": "I",
+          "title": "Section A: Literary Movements and Prescribed Poetry and Drama (1600 to 1900)"
+        },
+        {
+          "paper": "I",
+          "title": "Section B: Critical Study of Prescribed Classic Novels and Prose (1600 to 1900)"
+        },
+        {
+          "paper": "II",
+          "title": "Section A: Modern Literary Movements and Prescribed Twentieth-Century Poetry and Drama"
+        },
+        {
+          "paper": "II",
+          "title": "Section B: Critical Study of Prescribed Twentieth-Century Fiction and Prose Works"
+        }
+      ]
+    }
+  ]
+}

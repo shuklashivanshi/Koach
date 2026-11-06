@@ -1,0 +1,141 @@
+{
+  "paper": "optional:geology",
+  "title": "Geology",
+  "nodes": [
+    {
+      "id": "opt.geology",
+      "parentId": null,
+      "title": "Geology",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p1",
+      "parentId": "opt.geology",
+      "title": "Geology · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p1.t01",
+      "parentId": "opt.geology.p1",
+      "title": "General Geology: Solar System, Earth Interior, Earthquakes and Continental Drift",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p1.t02",
+      "parentId": "opt.geology.p1",
+      "title": "Geomorphology and Remote Sensing: Landforms, Sensor Systems and Applications",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p1.t03",
+      "parentId": "opt.geology.p1",
+      "title": "Structural Geology: Geologic Mapping, Folds, Faults and Structural Analysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p1.t04",
+      "parentId": "opt.geology.p1",
+      "title": "Paleontology: Fossils, Microfossils, Evolutionary Trends and Stratigraphic Correlation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p1.t05",
+      "parentId": "opt.geology.p1",
+      "title": "Indian Stratigraphy: Stratigraphic Sequences, Precambrian and Phanerozoic Rocks",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p1.t06",
+      "parentId": "opt.geology.p1",
+      "title": "Hydrogeology and Engineering Geology: Groundwater Exploration and Engineering Properties",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p2",
+      "parentId": "opt.geology",
+      "title": "Geology · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p2.t01",
+      "parentId": "opt.geology.p2",
+      "title": "Mineralogy: Crystallography, Silicate Mineral Groups and Optical Properties",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p2.t02",
+      "parentId": "opt.geology.p2",
+      "title": "Igneous and Metamorphic Petrology: Magma Crystallisation and Metamorphic Facies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p2.t03",
+      "parentId": "opt.geology.p2",
+      "title": "Sedimentary Petrology: Processes of Formation, Petrography and Sedimentary Basins",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p2.t04",
+      "parentId": "opt.geology.p2",
+      "title": "Economic Geology: Ore Deposits, Indian Mineral Reserves and Mineral Policy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p2.t05",
+      "parentId": "opt.geology.p2",
+      "title": "Mining Geology: Prospecting Methods, Reserve Estimation and Mineral Beneficiation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.geology.p2.t06",
+      "parentId": "opt.geology.p2",
+      "title": "Geochemistry and Environmental Geology: Earth Composition, Natural Hazards and Pollution",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

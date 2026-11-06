@@ -1,0 +1,87 @@
+{
+  "paper": "optional:literature-punjabi",
+  "title": "Literature of Punjabi",
+  "nodes": [
+    {
+      "id": "opt.literature-punjabi",
+      "parentId": null,
+      "title": "Literature of Punjabi",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-punjabi.p1",
+      "parentId": "opt.literature-punjabi",
+      "title": "Literature of Punjabi · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-punjabi.p1.t01",
+      "parentId": "opt.literature-punjabi.p1",
+      "title": "Origin, development, phonology, morphology and syntax of Punjabi Language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-punjabi.p1.t02",
+      "parentId": "opt.literature-punjabi.p1",
+      "title": "Dialects of Punjabi, Gurumukhi script and Classical Medieval Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-punjabi.p1.t03",
+      "parentId": "opt.literature-punjabi.p1",
+      "title": "Modern trends in Punjabi poetry, folk literature and epic poetry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-punjabi.p1.t04",
+      "parentId": "opt.literature-punjabi.p1",
+      "title": "Punjabi Drama, Novel, Short Story, Prose, Essay and Literary Criticism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-punjabi.p2",
+      "parentId": "opt.literature-punjabi",
+      "title": "Literature of Punjabi · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-punjabi.p2.t01",
+      "parentId": "opt.literature-punjabi.p2",
+      "title": "Textual study of classical texts: Sheikh Farid, Guru Nanak, Bulleh Shah and Waris Shah",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-punjabi.p2.t02",
+      "parentId": "opt.literature-punjabi.p2",
+      "title": "Textual study of modern poetry, fiction, drama, essays and criticism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

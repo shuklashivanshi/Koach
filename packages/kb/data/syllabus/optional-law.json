@@ -1,0 +1,762 @@
+{
+  "paper": "optional:law",
+  "title": "Law",
+  "nodes": [
+    {
+      "id": "opt.law",
+      "parentId": null,
+      "title": "Law",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1",
+      "parentId": "opt.law",
+      "title": "Law · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t01",
+      "parentId": "opt.law.p1",
+      "title": "Constitution and Constitutionalism: distinctive features of the Constitution",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t02",
+      "parentId": "opt.law.p1",
+      "title": "Fundamental Rights: Public interest litigation, Legal Aid, Legal services authority",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t03",
+      "parentId": "opt.law.p1",
+      "title": "Relationship between Fundamental rights, Directive principles and Fundamental duties",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t04",
+      "parentId": "opt.law.p1",
+      "title": "Constitutional Position of the President and relation with Council of Ministers",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t05",
+      "parentId": "opt.law.p1",
+      "title": "Governor and his powers under the Indian Constitution",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t06",
+      "parentId": "opt.law.p1",
+      "title": "Supreme Court and High Courts: appointments, transfer, powers, functions, jurisdiction",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t07",
+      "parentId": "opt.law.p1",
+      "title": "Centre, States and local bodies: distribution of powers and administrative relations",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t08",
+      "parentId": "opt.law.p1",
+      "title": "Legislative powers, privileges and immunities of Parliament and State legislatures",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t09",
+      "parentId": "opt.law.p1",
+      "title": "Services under the Union and the States: recruitment, conditions, constitutional safeguards",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t10",
+      "parentId": "opt.law.p1",
+      "title": "Emergency provisions under the Indian Constitution and effects",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t11",
+      "parentId": "opt.law.p1",
+      "title": "Amendment of the Constitution and basic structure doctrine",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t12",
+      "parentId": "opt.law.p1",
+      "title": "Principle of Natural Justice: emerging trends and judicial approach",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t13",
+      "parentId": "opt.law.p1",
+      "title": "Delegated legislation and its constitutionality and judicial control",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t14",
+      "parentId": "opt.law.p1",
+      "title": "Separation of powers and constitutional governance in Indian democracy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t15",
+      "parentId": "opt.law.p1",
+      "title": "Judicial review of administrative action and available grounds",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t16",
+      "parentId": "opt.law.p1",
+      "title": "Ombudsman: Lokayukta, Lokpal and statutory grievance redressal mechanisms",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t17",
+      "parentId": "opt.law.p1",
+      "title": "Nature and Definition of Public International Law",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t18",
+      "parentId": "opt.law.p1",
+      "title": "Relationship between International Law and Municipal Law",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t19",
+      "parentId": "opt.law.p1",
+      "title": "State Recognition and State Succession in International Law",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t20",
+      "parentId": "opt.law.p1",
+      "title": "Law of the sea: Inland Waters, Territorial Sea, EEZ, High Seas",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t21",
+      "parentId": "opt.law.p1",
+      "title": "Individuals: Nationality, statelessness, Human Rights and enforcement procedures",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t22",
+      "parentId": "opt.law.p1",
+      "title": "Territorial jurisdiction of States, Extradition and Asylum in international law",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t23",
+      "parentId": "opt.law.p1",
+      "title": "Treaties: formation, application, termination and reservation under international law",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t24",
+      "parentId": "opt.law.p1",
+      "title": "United Nations: principal organs, powers, functions and institutional reform",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t25",
+      "parentId": "opt.law.p1",
+      "title": "Peaceful settlement of international disputes through different recognized modes",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t26",
+      "parentId": "opt.law.p1",
+      "title": "Lawful recourse to force: aggressions, self-defence and humanitarian intervention",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t27",
+      "parentId": "opt.law.p1",
+      "title": "Fundamental principles of international humanitarian law and contemporary conventions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t28",
+      "parentId": "opt.law.p1",
+      "title": "Legality of nuclear weapons: Non-proliferation treaty and comprehensive test ban",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t29",
+      "parentId": "opt.law.p1",
+      "title": "International terrorism, state sponsored terrorism, Hijacking and International Criminal Court",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t30",
+      "parentId": "opt.law.p1",
+      "title": "New International Economic Order, Monetary Law: WTO, TRIPS, GATT, IMF",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p1.t31",
+      "parentId": "opt.law.p1",
+      "title": "Protection and Improvement of the Human Environment: International Efforts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2",
+      "parentId": "opt.law",
+      "title": "Law · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t01",
+      "parentId": "opt.law.p2",
+      "title": "General principles of Criminal liability: mens rea and statutory offences",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t02",
+      "parentId": "opt.law.p2",
+      "title": "Kinds of punishment and emerging trends in capital punishment",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t03",
+      "parentId": "opt.law.p2",
+      "title": "Preparations and criminal attempt under Indian penal provisions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t04",
+      "parentId": "opt.law.p2",
+      "title": "General exceptions under the Indian Penal Code",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t05",
+      "parentId": "opt.law.p2",
+      "title": "Joint and constructive liability under criminal law provisions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t06",
+      "parentId": "opt.law.p2",
+      "title": "Abetment of offences under the criminal law",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t07",
+      "parentId": "opt.law.p2",
+      "title": "Criminal conspiracy: definition, essential elements and liability",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t08",
+      "parentId": "opt.law.p2",
+      "title": "Offences against the State under criminal statutes",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t09",
+      "parentId": "opt.law.p2",
+      "title": "Offences against public tranquility and social order",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t10",
+      "parentId": "opt.law.p2",
+      "title": "Offences against human body: homicide, murder and hurt",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t11",
+      "parentId": "opt.law.p2",
+      "title": "Offences against property: theft, extortion, robbery and dacoity",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t12",
+      "parentId": "opt.law.p2",
+      "title": "Offences against women: cruelty, dowry death and rape",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t13",
+      "parentId": "opt.law.p2",
+      "title": "Defamation under civil law and criminal law",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t14",
+      "parentId": "opt.law.p2",
+      "title": "Prevention of Corruption Act, 1988: offenses and penalties",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t15",
+      "parentId": "opt.law.p2",
+      "title": "Protection of Civil Rights Act, 1955 and legislative developments",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t16",
+      "parentId": "opt.law.p2",
+      "title": "Plea bargaining: statutory provisions, concept and procedural safeguards",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t17",
+      "parentId": "opt.law.p2",
+      "title": "Nature and definition of torts and tortious liability",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t18",
+      "parentId": "opt.law.p2",
+      "title": "Liability based upon fault, strict liability, and absolute liability",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t19",
+      "parentId": "opt.law.p2",
+      "title": "Vicarious liability including State Liability in tort law",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t20",
+      "parentId": "opt.law.p2",
+      "title": "General defences available against liability in torts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t21",
+      "parentId": "opt.law.p2",
+      "title": "Joint tort feasors, concurrent wrongdoers and their remedies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t22",
+      "parentId": "opt.law.p2",
+      "title": "Remedies available in tort law: damages and injunctions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t23",
+      "parentId": "opt.law.p2",
+      "title": "Negligence: duty of care, breach and resulting damages",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t24",
+      "parentId": "opt.law.p2",
+      "title": "Defamation in tort: libel, slander, defences and remedies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t25",
+      "parentId": "opt.law.p2",
+      "title": "Nuisance: public nuisance, private nuisance and available remedies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t26",
+      "parentId": "opt.law.p2",
+      "title": "Conspiracy: civil injury, unlawful acts and legal liability",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t27",
+      "parentId": "opt.law.p2",
+      "title": "False imprisonment: definition, elements and legal remedies available",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t28",
+      "parentId": "opt.law.p2",
+      "title": "Malicious prosecution: essential ingredients and burden of proof",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t29",
+      "parentId": "opt.law.p2",
+      "title": "Consumer Protection Act, 1986: consumer rights and redressal",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t30",
+      "parentId": "opt.law.p2",
+      "title": "Nature and formation of contract and modern E-contract",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t31",
+      "parentId": "opt.law.p2",
+      "title": "Factors vitiating free consent: coercion, fraud, misrepresentation, mistake",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t32",
+      "parentId": "opt.law.p2",
+      "title": "Void, voidable, illegal and unenforceable agreements under contract",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t33",
+      "parentId": "opt.law.p2",
+      "title": "Performance and discharge of contracts under contract law",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t34",
+      "parentId": "opt.law.p2",
+      "title": "Quasi-contracts: nature, legal basis and statutory provisions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t35",
+      "parentId": "opt.law.p2",
+      "title": "Consequences of breach of contract and measure of damages",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t36",
+      "parentId": "opt.law.p2",
+      "title": "Contract of indemnity, guarantee and insurance law principles",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t37",
+      "parentId": "opt.law.p2",
+      "title": "Contract of agency: creation, rights, duties and termination",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t38",
+      "parentId": "opt.law.p2",
+      "title": "Sale of goods and hire purchase legal provisions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t39",
+      "parentId": "opt.law.p2",
+      "title": "Formation and dissolution of partnership under partnership law",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t40",
+      "parentId": "opt.law.p2",
+      "title": "Negotiable Instruments Act, 1881: promissory notes, bills, cheques",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t41",
+      "parentId": "opt.law.p2",
+      "title": "Arbitration and Conciliation Act, 1996: arbitral process and awards",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t42",
+      "parentId": "opt.law.p2",
+      "title": "Standard form contracts and protective judicial interpretations",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t43",
+      "parentId": "opt.law.p2",
+      "title": "Public Interest Litigation: origin, procedural developments and locus standi",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t44",
+      "parentId": "opt.law.p2",
+      "title": "Intellectual property rights: concept, types and commercial prospects",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t45",
+      "parentId": "opt.law.p2",
+      "title": "Information Technology Law including Cyber Laws: concept and purpose",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t46",
+      "parentId": "opt.law.p2",
+      "title": "Competition Law: regulatory framework, purpose and practical prospects",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t47",
+      "parentId": "opt.law.p2",
+      "title": "Alternate Dispute Resolution: mechanisms, negotiation, conciliation and mediation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t48",
+      "parentId": "opt.law.p2",
+      "title": "Major statutes concerning environmental law and ecological protection",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t49",
+      "parentId": "opt.law.p2",
+      "title": "Right to Information Act: provisions, accountability and public access",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.law.p2.t50",
+      "parentId": "opt.law.p2",
+      "title": "Trial by media: freedom of speech versus fair judicial administration",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

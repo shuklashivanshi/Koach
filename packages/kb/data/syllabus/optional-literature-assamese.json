@@ -1,0 +1,159 @@
+{
+  "paper": "optional:literature-assamese",
+  "title": "Literature of Assamese",
+  "nodes": [
+    {
+      "id": "opt.literature-assamese",
+      "parentId": null,
+      "title": "Literature of Assamese",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1",
+      "parentId": "opt.literature-assamese",
+      "title": "Literature of Assamese · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t01",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section A (a): History of the Origin and Development of the Assamese Language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t02",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section A (b): Development of Assamese Prose Through the Historical Eras",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t03",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section A (c): Vowels, Consonants, Phonetics and Phonological Changes in Assamese",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t04",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section A (d): Assamese Vocabulary and Linguistic Sources of Lexical Borrowing",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t05",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section A (e): Morphology of Assamese, Conjugation, Enclitic Definitives and Suffixes",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t06",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section A (f): Dialectical Divergences, Standard Colloquial Assamese and Kamrupi Dialect",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t07",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section A (g): Historical Evolution of Assamese Script Till Nineteenth Century A.D.",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t08",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section B (a): Principles of Literary Criticism up to the New Criticism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t09",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section B (b): Classification and Study of Major Different Literary Genres",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t10",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section B (c): Development of Traditional and Modern Literary Forms in Assamese",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t11",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section B (d): Origin and Development of Literary Criticism in Assamese Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p1.t12",
+      "parentId": "opt.literature-assamese.p1",
+      "title": "Section B (e): Periods of Literary History of Assam from Earliest Beginnings",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p2",
+      "parentId": "opt.literature-assamese",
+      "title": "Literature of Assamese · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p2.t01",
+      "parentId": "opt.literature-assamese.p2",
+      "title": "Section A: Critical Study of Prescribed Early and Medieval Assamese Texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-assamese.p2.t02",
+      "parentId": "opt.literature-assamese.p2",
+      "title": "Section B: Critical Study of Prescribed Modern Assamese Literary Texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

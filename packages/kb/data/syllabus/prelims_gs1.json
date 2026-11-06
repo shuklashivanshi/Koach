@@ -1,0 +1,1339 @@
+{
+  "paper": "prelims_gs1",
+  "title": "Paper I - (200 marks) Duration: Two hours",
+  "nodes": [
+    {
+      "id": "prelims_gs1",
+      "parentId": null,
+      "title": "Paper I - (200 marks) Duration: Two hours",
+      "kind": "paper",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history",
+      "parentId": "prelims_gs1",
+      "title": "Ancient Indian History",
+      "kind": "section",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory",
+      "parentId": "prelims_gs1.ancient-indian-history",
+      "title": "Prehistory and Indus Valley Civilization",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.stone-age-sites-tool-culture",
+      "parentId": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory",
+      "title": "Palaeolithic, Mesolithic, and Neolithic Sites, Tools, and Subsistence",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.chalcolithic-cultures-and-copper-hoards",
+      "parentId": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory",
+      "title": "Chalcolithic Cultures, Copper Hoards, and Ochre Coloured Pottery",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.stone-age-sites-tool-culture"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-geography-settlement-planning",
+      "parentId": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory",
+      "title": "Indus Valley Civilization: Geographical Extent, Major Sites, and Town Planning",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.chalcolithic-cultures-and-copper-hoards"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-economy-craft-trade",
+      "parentId": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory",
+      "title": "Indus Valley Economy: Agriculture, Craft Production, Internal and External Trade",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-geography-settlement-planning"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-society-religion-decline",
+      "parentId": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory",
+      "title": "Harappan Social Structure, Religious Practices, Script, and Theories of Decline",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-geography-settlement-planning",
+        "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-economy-craft-trade"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization",
+      "parentId": "prelims_gs1.ancient-indian-history",
+      "title": "Vedic Period and the Mahajanapadas",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.early-vedic-polity-society",
+      "parentId": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization",
+      "title": "Early Vedic Age: Rigvedic Polity, Tribal Assemblies (Sabha, Samiti), and Social Organization",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-society-religion-decline"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.later-vedic-transformation",
+      "parentId": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization",
+      "title": "Later Vedic Period: Territorial Kingship, Varna Hierarchy, Rituals, and Economy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.early-vedic-polity-society"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.mahajanapadas-republics-monarchies",
+      "parentId": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization",
+      "title": "Sixteen Mahajanapadas: Ganasanghas (Republics), Monarchical States, and Magadhan Hegemony",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.later-vedic-transformation"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.persian-macedonian-invasions",
+      "parentId": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization",
+      "title": "Achaemenid and Macedonian Invasions: Impact on Trade, Script, and Administration",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.mahajanapadas-republics-monarchies"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy",
+      "parentId": "prelims_gs1.ancient-indian-history",
+      "title": "Religious Movements and Early Philosophies",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.buddhism-doctrine-schisms",
+      "parentId": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy",
+      "title": "Buddhism: Four Noble Truths, Eightfold Path, Buddhist Councils, and Sectarian Divisions",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.mahajanapadas-republics-monarchies"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.buddhist-literature-terms",
+      "parentId": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy",
+      "title": "Buddhist Canonical and Non-Canonical Texts, Terminology, and Concepts",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.buddhism-doctrine-schisms"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.jainism-doctrine-literature",
+      "parentId": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy",
+      "title": "Jainism: Tirthankaras, Core Doctrines (Anekantavada, Syadvada), Councils, and Sects",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.mahajanapadas-republics-monarchies"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.ajivikas-charvakas-other-sects",
+      "parentId": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy",
+      "title": "Other Sramana Traditions: Ajivikas, Charvaka Lokayata, and Materialist Thinkers",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.mahajanapadas-republics-monarchies"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires",
+      "parentId": "prelims_gs1.ancient-indian-history",
+      "title": "Mauryan and Post-Mauryan Eras",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.mauryan-administration-arthashastra",
+      "parentId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires",
+      "title": "Mauryan Central, Provincial, and Municipal Administration and Espionage System",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.mahajanapadas-republics-monarchies"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.ashokan-edicts-dhamma-foreign-relations",
+      "parentId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires",
+      "title": "Ashoka's Inscriptions, Policy of Dhamma, and Diplomatic Missions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.buddhism-doctrine-schisms",
+        "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.mauryan-administration-arthashastra"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.mauryan-economy-land-revenue",
+      "parentId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires",
+      "title": "Mauryan Economy: Land Revenue, State Monopolies, Guilds, and Currency",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.mauryan-administration-arthashastra"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.shungas-kanvas-and-chedi-dynasty",
+      "parentId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires",
+      "title": "Post-Mauryan Northern Dynasties: Shungas, Kanvas, and Chedis of Kalinga",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.mauryan-administration-arthashastra"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.indo-greeks-shakas-and-parthians",
+      "parentId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires",
+      "title": "North-Western Invasions: Indo-Greeks, Shakas, and Parthians in Subcontinental Politics",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.persian-macedonian-invasions",
+        "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.mauryan-administration-arthashastra"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.kushana-empire-silk-route-trade",
+      "parentId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires",
+      "title": "Kushana Empire: Political Expansion, Kanishka, Central Asian Links, and Silk Route Trade",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.indo-greeks-shakas-and-parthians"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.satavahana-polity-and-land-grants",
+      "parentId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires",
+      "title": "Satavahana Dynasty: Administration, Trade, Matronymics, and Early Land Grants",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.mauryan-administration-arthashastra"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods",
+      "parentId": "prelims_gs1.ancient-indian-history",
+      "title": "Gupta Era, Harsha, and Early Regional States",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.gupta-political-expansion-administration",
+      "parentId": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods",
+      "title": "Gupta Empire: Rulers, Imperial Administration, Bureaucratic Titles, and Feudatories",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.kushana-empire-silk-route-trade",
+        "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.satavahana-polity-and-land-grants"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.gupta-agrarian-structure-feudal-elements",
+      "parentId": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods",
+      "title": "Gupta and Post-Gupta Agrarian Structure: Agrahara Grants, Forced Labour (Vishti), and Currency",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.gupta-political-expansion-administration"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.vakatakas-and-huna-invasions",
+      "parentId": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods",
+      "title": "Vakatakas of Deccan and Impact of Huna Invasions on Imperial Guptas",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.gupta-political-expansion-administration"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.harshavardhana-and-tripartite-struggle-o",
+      "parentId": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods",
+      "title": "Harshavardhana: Administration, Assemblies at Kanauj and Prayag, and Accounts of Xuanzang",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.gupta-political-expansion-administration",
+        "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.vakatakas-and-huna-invasions"
+      ]
+    },
+    {
+      "id": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.sangam-age-polity-society",
+      "parentId": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods",
+      "title": "Early South India: Sangam Age Polities (Chera, Chola, Pandya), Social Classes, and Ports",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.satavahana-polity-and-land-grants"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history",
+      "parentId": "prelims_gs1",
+      "title": "Medieval Indian History",
+      "kind": "section",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.early-medieval-india",
+      "parentId": "prelims_gs1.medieval-indian-history",
+      "title": "Early Medieval Kingdoms and Southern Dynasties",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.early-medieval-india.tripartite-struggle-palas-pratiharas-ras",
+      "parentId": "prelims_gs1.medieval-indian-history.early-medieval-india",
+      "title": "Tripartite Struggle for Kanauj: Palas, Gurjara-Pratiharas, and Rashtrakutas",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.harshavardhana-and-tripartite-struggle-o"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.early-medieval-india.rajput-clans-and-feudal-polity",
+      "parentId": "prelims_gs1.medieval-indian-history.early-medieval-india",
+      "title": "Emergence of Rajput Dynasties, Feudal Political Structure, and Inter-State Rivalries",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.early-medieval-india.tripartite-struggle-palas-pratiharas-ras"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.early-medieval-india.imperial-cholas-administration-local-sel",
+      "parentId": "prelims_gs1.medieval-indian-history.early-medieval-india",
+      "title": "Imperial Cholas: Bureaucracy, Military Conquests, and Village Assemblies (Ur and Sabha)",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.sangam-age-polity-society"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.early-medieval-india.western-chalukyas-pallavas-hoysalas-kaka",
+      "parentId": "prelims_gs1.medieval-indian-history.early-medieval-india",
+      "title": "Peninsular Kingdoms: Pallavas, Chalukyas of Badami and Kalyani, Hoysalas, and Kakatiyas",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.satavahana-polity-and-land-grants"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.early-medieval-india.early-medieval-agrarian-trade-guilds",
+      "parentId": "prelims_gs1.medieval-indian-history.early-medieval-india",
+      "title": "Early Medieval Economy: Land Transfers, Guilds (Manigramam, Ayyavole), and Maritime Links",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.gupta-agrarian-structure-feudal-elements"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.early-medieval-india.ghaznavid-and-ghurid-invasions",
+      "parentId": "prelims_gs1.medieval-indian-history.early-medieval-india",
+      "title": "Arab Conquest of Sindh, Invasions of Mahmud of Ghazni and Muhammad Ghori, and Battles of Tarain",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.early-medieval-india.rajput-clans-and-feudal-polity"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.delhi-sultanate",
+      "parentId": "prelims_gs1.medieval-indian-history",
+      "title": "Delhi Sultanate",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.delhi-sultanate.mamluk-and-khalji-dynasties-expansion",
+      "parentId": "prelims_gs1.medieval-indian-history.delhi-sultanate",
+      "title": "Mamluk Dynasty Consolidation and Alauddin Khalji's Military Expansion",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.early-medieval-india.ghaznavid-and-ghurid-invasions"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.delhi-sultanate.khalji-market-regulations-and-agrarian-m",
+      "parentId": "prelims_gs1.medieval-indian-history.delhi-sultanate",
+      "title": "Alauddin Khalji's Economic Policies: Price Control, Market Officers (Shahna-i-Mandi), and Revenue",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.delhi-sultanate.mamluk-and-khalji-dynasties-expansion"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments",
+      "parentId": "prelims_gs1.medieval-indian-history.delhi-sultanate",
+      "title": "Tughlaq Dynasty: Muhammad bin Tughlaq's Administrative Projects and Firoz Shah's Reforms",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.delhi-sultanate.mamluk-and-khalji-dynasties-expansion"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.delhi-sultanate.sayyids-lodis-and-timurs-invasion",
+      "parentId": "prelims_gs1.medieval-indian-history.delhi-sultanate",
+      "title": "Timur's Invasion, Sayyid Dynasty, and Afghan Rule under Lodi Sultans",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.delhi-sultanate.sultanate-administrative-departments-and",
+      "parentId": "prelims_gs1.medieval-indian-history.delhi-sultanate",
+      "title": "Delhi Sultanate Administration: Diwan-i-Wizarat, Diwan-i-Arz, Diwan-i-Insha, and Central Ministries",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.delhi-sultanate.mamluk-and-khalji-dynasties-expansion"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.delhi-sultanate.iqta-system-and-agrarian-relations",
+      "parentId": "prelims_gs1.medieval-indian-history.delhi-sultanate",
+      "title": "Iqta System: Evolution, Hereditary Grants, Revenue Terminology, and Rural Intermediaries",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.delhi-sultanate.sultanate-administrative-departments-and"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements",
+      "parentId": "prelims_gs1.medieval-indian-history",
+      "title": "Vijayanagara, Bahmanis, Regional States, and Religious Movements",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.vijayanagara-empire-polity-and-nayankara",
+      "parentId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements",
+      "title": "Vijayanagara Empire: Dynasties, Krishnadevaraya, Nayankara System, and Ayagar System",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.foreign-travellers-to-vijayanagara",
+      "parentId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements",
+      "title": "Accounts of Foreign Travellers: Nicolo Conti, Abdur Razzaq, Domingo Paes, and Fernao Nuniz",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.vijayanagara-empire-polity-and-nayankara"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.bahmani-kingdom-and-deccan-sultanates",
+      "parentId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements",
+      "title": "Bahmani Kingdom: Mahmud Gawan's Reforms, Fragmentation into Five Deccan Sultanates",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.regional-kingdoms-gujarat-malwa-bengal-k",
+      "parentId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements",
+      "title": "Regional Sultanates: Gujarat, Malwa, Jaunpur, Bengal, and Kashmir under Zain-ul-Abidin",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.delhi-sultanate.sayyids-lodis-and-timurs-invasion"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.bhakti-movement-saints-and-philosophies",
+      "parentId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements",
+      "title": "Bhakti Tradition: Saguna and Nirguna Saints, Alvars, Nayanars, and Regional Schools",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.sufi-silsilas-practices-and-centres",
+      "parentId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements",
+      "title": "Sufism in India: Major Silsilas (Chishti, Suhrawardi, Qadiri, Naqshbandi) and Key Concepts",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.early-medieval-india.ghaznavid-and-ghurid-invasions"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas",
+      "parentId": "prelims_gs1.medieval-indian-history",
+      "title": "Mughal Empire and Rise of the Marathas",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.babur-humayun-and-sur-interregnum",
+      "parentId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas",
+      "title": "Early Mughals and Sur Dynasty: Sher Shah Suri's Administrative, Land Revenue, and Currency Reforms",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.delhi-sultanate.sayyids-lodis-and-timurs-invasion"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.akbar-administration-mansabdari-system",
+      "parentId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas",
+      "title": "Akbar's Consolidation: Mansabdari System, Jat and Sawar Ranks, and Dag and Chehra",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.babur-humayun-and-sur-interregnum"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.mughal-land-revenue-zabt-dahsala",
+      "parentId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas",
+      "title": "Mughal Agrarian System: Todar Mal's Bandobast, Dahsala System, Land Classifications, and Jagirs",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.akbar-administration-mansabdari-system"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.mughal-religious-and-rajput-policies",
+      "parentId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas",
+      "title": "Mughal Religious and Social Policies: Sulh-i-Kul, Ibadat Khana, Jizya, and Rajput Alliances",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.akbar-administration-mansabdari-system"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.jahangir-shah-jahan-and-aurangzeb-expans",
+      "parentId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas",
+      "title": "Later Mughals: Deccan Campaigns, Factional Politics, Agrarian Crises, and Imperial Decline",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.akbar-administration-mansabdari-system"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.maratha-state-shivaji-ashtapradhan",
+      "parentId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas",
+      "title": "Rise of Marathas: Shivaji's Administration, Ashtapradhan, Chauth, and Sardeshmukhi",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.jahangir-shah-jahan-and-aurangzeb-expans",
+        "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.bahmani-kingdom-and-deccan-sultanates"
+      ]
+    },
+    {
+      "id": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.peshwa-confederacy-and-third-battle-of-p",
+      "parentId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas",
+      "title": "Peshwa Hegemony, Maratha Confederacy, and the Third Battle of Panipat (1761)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.maratha-state-shivaji-ashtapradhan"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology",
+      "parentId": "prelims_gs1",
+      "title": "General Science: Biology and Life Sciences",
+      "kind": "section",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.cell-biology-and-genetics",
+      "parentId": "prelims_gs1.general-science-biology",
+      "title": "Cellular Biology and Genetics",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles",
+      "parentId": "prelims_gs1.general-science-biology.cell-biology-and-genetics",
+      "title": "Cell Theory, Prokaryotic vs Eukaryotic Cells, and Functions of Organelles",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.cell-biology-and-genetics.biomolecules-enzymes-metabolism",
+      "parentId": "prelims_gs1.general-science-biology.cell-biology-and-genetics",
+      "title": "Biomolecules: Carbohydrates, Proteins, Lipids, Nucleic Acids, and Enzyme Actions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-division-mitosis-meiosis",
+      "parentId": "prelims_gs1.general-science-biology.cell-biology-and-genetics",
+      "title": "Cell Division: Mitosis, Meiosis, Chromosomal Aberrations, and Significance",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.cell-biology-and-genetics.mendelian-genetics-and-inheritance",
+      "parentId": "prelims_gs1.general-science-biology.cell-biology-and-genetics",
+      "title": "Mendelian Laws of Inheritance, Sex-Linked Traits, and Common Genetic Disorders",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-division-mitosis-meiosis"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.cell-biology-and-genetics.dna-rna-protein-synthesis",
+      "parentId": "prelims_gs1.general-science-biology.cell-biology-and-genetics",
+      "title": "Structure of DNA and RNA, Replication, Transcription, and Translation Basics",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.biomolecules-enzymes-metabolism",
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.human-physiology-and-nutrition",
+      "parentId": "prelims_gs1.general-science-biology",
+      "title": "Human Physiology and Nutrition",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.digestive-system-and-nutrition",
+      "parentId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition",
+      "title": "Human Digestive System, Enzymes, Macronutrients, Micronutrients, and Deficiency Diseases",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.biomolecules-enzymes-metabolism"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.vitamins-minerals-deficiencies",
+      "parentId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition",
+      "title": "Vitamins and Minerals: Biochemical Roles, Food Sources, and Associated Deficiencies",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.human-physiology-and-nutrition.digestive-system-and-nutrition"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.circulatory-and-lymphatic-systems",
+      "parentId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition",
+      "title": "Human Heart, Blood Composition, Blood Groups (ABO, Rh Factor), and Lymphatic System",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.respiratory-and-excretory-systems",
+      "parentId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition",
+      "title": "Mechanics of Respiration, Kidney Function, Nephron Structure, and Osmoregulation",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.nervous-and-endocrine-systems",
+      "parentId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition",
+      "title": "Central and Peripheral Nervous System, Sensory Organs, Endocrine Glands, and Hormones",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.reproductive-and-immune-systems",
+      "parentId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition",
+      "title": "Human Reproduction Basics, Immune Response, Innate vs Acquired Immunity, and Antibodies",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-division-mitosis-meiosis",
+        "prelims_gs1.general-science-biology.human-physiology-and-nutrition.circulatory-and-lymphatic-systems"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology",
+      "parentId": "prelims_gs1.general-science-biology",
+      "title": "Pathology and Plant Physiology",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.infectious-diseases-pathogens",
+      "parentId": "prelims_gs1.general-science-biology.diseases-and-plant-biology",
+      "title": "Pathogens: Bacterial, Viral, Fungal, and Protozoan Human Diseases and Modes of Transmission",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.human-physiology-and-nutrition.reproductive-and-immune-systems"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.vaccines-antibiotics-antivirals",
+      "parentId": "prelims_gs1.general-science-biology.diseases-and-plant-biology",
+      "title": "Vaccination Principles, Types of Vaccines, Antibiotic Action, and Antiviral Mechanisms",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.diseases-and-plant-biology.infectious-diseases-pathogens"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.lifestyle-and-non-communicable-diseases",
+      "parentId": "prelims_gs1.general-science-biology.diseases-and-plant-biology",
+      "title": "Non-Communicable Diseases: Diabetes, Cardiovascular Conditions, Cancer, and Autoimmune Disorders",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.human-physiology-and-nutrition.digestive-system-and-nutrition",
+        "prelims_gs1.general-science-biology.human-physiology-and-nutrition.circulatory-and-lymphatic-systems"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.plant-anatomy-and-photosynthesis",
+      "parentId": "prelims_gs1.general-science-biology.diseases-and-plant-biology",
+      "title": "Plant Tissues (Xylem, Phloem), Chloroplast Structure, Light and Dark Reactions of Photosynthesis",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.plant-respiration-and-transpiration",
+      "parentId": "prelims_gs1.general-science-biology.diseases-and-plant-biology",
+      "title": "Plant Respiration, Stomatal Regulation, Transpiration, and Transport of Water and Minerals",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.diseases-and-plant-biology.plant-anatomy-and-photosynthesis"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.plant-hormones-and-reproduction",
+      "parentId": "prelims_gs1.general-science-biology.diseases-and-plant-biology",
+      "title": "Phytohormones (Auxins, Gibberellins, Cytokinins, Abscisic Acid, Ethylene) and Pollination Mechanisms",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.diseases-and-plant-biology.plant-anatomy-and-photosynthesis"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.biological-classification-five-kingdoms",
+      "parentId": "prelims_gs1.general-science-biology.diseases-and-plant-biology",
+      "title": "Five-Kingdom Classification: Monera, Protista, Fungi, Plantae, and Animalia Characteristics",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry",
+      "parentId": "prelims_gs1",
+      "title": "General Science: Physics, Chemistry, and Everyday Applications",
+      "kind": "section",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-physics",
+      "parentId": "prelims_gs1.general-science-physics-chemistry",
+      "title": "Fundamental Physics and Everyday Phenomena",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-physics.mechanics-motion-and-gravitation",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-physics",
+      "title": "Newton's Laws of Motion, Friction, Circular Motion, Gravitation, and Orbital Velocity",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-physics.work-energy-power-and-simple-machines",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-physics",
+      "title": "Work, Energy Types, Conservation of Energy, Power, and Basic Mechanical Devices",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-physics.mechanics-motion-and-gravitation"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-physics.fluid-mechanics-surface-tension-viscosit",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-physics",
+      "title": "Pascal's Law, Archimedes' Principle, Buoyancy, Surface Tension, Capillarity, and Viscosity",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-physics.mechanics-motion-and-gravitation"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-physics.thermodynamics-heat-transfer",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-physics",
+      "title": "Temperature Scales, Modes of Heat Transfer (Conduction, Convection, Radiation), and Latent Heat",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-physics.work-energy-power-and-simple-machines"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-physics.optics-reflection-refraction-dispersion",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-physics",
+      "title": "Reflection, Refraction, Total Internal Reflection, Lenses, Mirrors, Optical Instruments, and Eye Defects",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-physics.wave-motion-and-acoustics"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-physics.wave-motion-and-acoustics",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-physics",
+      "title": "Transverse and Longitudinal Waves, Characteristics of Sound Waves, Doppler Effect, and Resonance",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-physics.mechanics-motion-and-gravitation"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-physics.electromagnetism-current-electricity",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-physics",
+      "title": "Electric Charge, Ohm's Law, Series and Parallel Circuits, Magnetic Effects, and Electromagnetic Induction",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-physics.work-energy-power-and-simple-machines"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-physics.electromagnetic-spectrum-radiation",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-physics",
+      "title": "Electromagnetic Spectrum: Radio Waves, Microwaves, Infrared, Visible, Ultraviolet, X-Rays, Gamma Rays",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-physics.electromagnetism-current-electricity",
+        "prelims_gs1.general-science-physics-chemistry.general-physics.wave-motion-and-acoustics"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry",
+      "parentId": "prelims_gs1.general-science-physics-chemistry",
+      "title": "Everyday Chemistry and Matter",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.states-of-matter-and-atomic-structure",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-chemistry",
+      "title": "States of Matter, Elements, Compounds, Mixtures, Atomic Models, Isotopes, and Isobars",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.chemical-bonding-and-periodic-table",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-chemistry",
+      "title": "Periodic Table Trends, Ionic and Covalent Bonds, and Intermolecular Forces",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-chemistry.states-of-matter-and-atomic-structure"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.acids-bases-salts-and-ph",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-chemistry",
+      "title": "Acids, Bases, Indicators, pH Scale, Buffers, and Common Salts in Everyday Life",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-chemistry.chemical-bonding-and-periodic-table"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.metals-non-metals-and-alloys",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-chemistry",
+      "title": "Physical and Chemical Properties of Metals and Non-Metals, Reactivity Series, and Important Alloys",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-chemistry.chemical-bonding-and-periodic-table"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.carbon-compounds-and-polymers",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-chemistry",
+      "title": "Allotropes of Carbon, Hydrocarbons, Soaps and Detergents, Natural and Synthetic Polymers",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-chemistry.chemical-bonding-and-periodic-table"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.environmental-chemistry-pollutants",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-chemistry",
+      "title": "Greenhouse Gases, Acid Rain Chemistry, Ozone Depleting Substances, and Photochemical Smog",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-chemistry.acids-bases-salts-and-ph",
+        "prelims_gs1.general-science-physics-chemistry.general-chemistry.carbon-compounds-and-polymers"
+      ]
+    },
+    {
+      "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.nuclear-chemistry-and-radioactivity",
+      "parentId": "prelims_gs1.general-science-physics-chemistry.general-chemistry",
+      "title": "Radioactivity, Alpha, Beta and Gamma Rays, Half-Life, Nuclear Fission, and Nuclear Fusion",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.general-science-physics-chemistry.general-chemistry.states-of-matter-and-atomic-structure"
+      ]
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk",
+      "parentId": "prelims_gs1",
+      "title": "Current Events & Prelims-Specific Factual Dimensions",
+      "kind": "section",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology",
+      "parentId": "prelims_gs1.current-events-and-factual-gk",
+      "title": "Frameworks for Tracking Current Events",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.event-to-syllabus-mapping-method",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.current-events-methodology",
+      "title": "Methodology: Deconstructing Daily News into Prelims-Specific Themes and Static Links",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.current-events-methodology",
+      "title": "Systematic Analysis of Welfare Schemes: Nodal Ministry, Target Group, Funding Pattern, and Objectives",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.current-events-and-factual-gk.current-events-methodology.event-to-syllabus-mapping-method"
+      ]
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.national-initiatives-and-statutory-commi",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.current-events-methodology",
+      "title": "Tracking Newly Constituted Committees, Regulatory Bodies, Statutory Authorities, and Tribunals in News",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.current-events-and-factual-gk.current-events-methodology.event-to-syllabus-mapping-method"
+      ]
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.reports-indices-and-rankings-methodology",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.current-events-methodology",
+      "title": "Global and National Indices: Publishing Agencies, Core Indicators, and India's Relative Performance",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.current-events-and-factual-gk.current-events-methodology.event-to-syllabus-mapping-method"
+      ]
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions",
+      "parentId": "prelims_gs1.current-events-and-factual-gk",
+      "title": "International Organizations, Treaties, and Conventions in News",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.multilateral-groupings-and-summits",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions",
+      "title": "Multilateral and Regional Groupings in News: Memberships, Secretariats, Founding Declarations, and Summits",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.un-specialized-agencies-and-treaties",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions",
+      "title": "UN Organs, Specialized Agencies, Associated Bodies, and Key Global Conventions in News",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-disputes-and-geopolitical-",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions",
+      "title": "Geopolitical Flashpoints, Border Disputes, Disputed Waterways, and Strategic Strait Locations in News",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-trade-and-environmental-ac",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions",
+      "title": "Global Trade Treaties, Climate Protocols, Export Control Regimes, and Financial Action Bodies in News",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.multilateral-groupings-and-summits",
+        "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.un-specialized-agencies-and-treaties"
+      ]
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension",
+      "parentId": "prelims_gs1.current-events-and-factual-gk",
+      "title": "Defense, Security, Sports, and Cultural Identifiers in News",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.bilateral-military-exercises-and-defence",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension",
+      "title": "Joint Military, Naval, and Air Exercises; Indigenous Defence Platforms and Missiles in News",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.space-missions-and-astronomical-discover",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension",
+      "title": "Major Satellite Launches, Planetary Probes, Space Telescopes, and Celestial Phenomena in News",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.species-protected-areas-and-geographic-t",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension",
+      "title": "Newly Discovered Flora and Fauna, Red-List Status Updates, and Geographical Indication Tags in News",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.awards-honours-and-significant-historica",
+      "parentId": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension",
+      "title": "Eminent Personalities, Centenary Commemorations, Prestigious National and Global Awards, and Sports Events in News",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    }
+  ]
+}

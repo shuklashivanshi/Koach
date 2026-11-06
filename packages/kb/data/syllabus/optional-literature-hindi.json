@@ -1,0 +1,105 @@
+{
+  "paper": "optional:literature-hindi",
+  "title": "Literature of Hindi",
+  "nodes": [
+    {
+      "id": "opt.literature-hindi",
+      "parentId": null,
+      "title": "Literature of Hindi",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-hindi.p1",
+      "parentId": "opt.literature-hindi",
+      "title": "Literature of Hindi · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-hindi.p1.t01",
+      "parentId": "opt.literature-hindi.p1",
+      "title": "History of Hindi Language and Nagari Lipi and its Evolution from Apbhransh",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-hindi.p1.t02",
+      "parentId": "opt.literature-hindi.p1",
+      "title": "History of Hindi Literature covering Adikal, Bhaktikal, Ritikal and Adhunik Kal Periods",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-hindi.p1.t03",
+      "parentId": "opt.literature-hindi.p1",
+      "title": "Katha Sahitya covering the Origin and Development of Hindi Novels and Short Stories",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-hindi.p1.t04",
+      "parentId": "opt.literature-hindi.p1",
+      "title": "Drama and Theatre covering the Origin and Development of Hindi Drama and Stage",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-hindi.p1.t05",
+      "parentId": "opt.literature-hindi.p1",
+      "title": "Origin and Development of Hindi Criticism and Contributions of Various Prominent Critics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-hindi.p1.t06",
+      "parentId": "opt.literature-hindi.p1",
+      "title": "Other Forms of Hindi Prose including Lalit Nibandh, Rekhachitra, Sansmaran and Travelogue",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-hindi.p2",
+      "parentId": "opt.literature-hindi",
+      "title": "Literature of Hindi · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-hindi.p2.t01",
+      "parentId": "opt.literature-hindi.p2",
+      "title": "Section A: Prescribed Medieval and Modern Hindi Poetic Texts for In-depth Study",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-hindi.p2.t02",
+      "parentId": "opt.literature-hindi.p2",
+      "title": "Section B: Prescribed Hindi Prose, Drama, Essays, and Novel Texts for Critical Study",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

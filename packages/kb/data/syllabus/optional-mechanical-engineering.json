@@ -1,0 +1,114 @@
+{
+  "paper": "optional:mechanical-engineering",
+  "title": "Mechanical Engineering",
+  "nodes": [
+    {
+      "id": "opt.mechanical-engineering",
+      "parentId": null,
+      "title": "Mechanical Engineering",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p1",
+      "parentId": "opt.mechanical-engineering",
+      "title": "Mechanical Engineering · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p1.t01",
+      "parentId": "opt.mechanical-engineering.p1",
+      "title": "Mechanics: Mechanics of rigid bodies and deformable bodies under load",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p1.t02",
+      "parentId": "opt.mechanical-engineering.p1",
+      "title": "Engineering Materials: Structure of solids, ferrous and non-ferrous materials",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p1.t03",
+      "parentId": "opt.mechanical-engineering.p1",
+      "title": "Theory of Machines: Kinematics and dynamics of mechanisms, vibrations and balancing",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p1.t04",
+      "parentId": "opt.mechanical-engineering.p1",
+      "title": "Manufacturing Science: Manufacturing processes, machine tools, metrology and operations",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p2",
+      "parentId": "opt.mechanical-engineering",
+      "title": "Mechanical Engineering · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p2.t01",
+      "parentId": "opt.mechanical-engineering.p2",
+      "title": "Thermodynamics, Gas Dynamics Turbine: First and second law, cycles, flows",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p2.t02",
+      "parentId": "opt.mechanical-engineering.p2",
+      "title": "Heat Transfer: Conduction, convection, radiation and heat exchanger design",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p2.t03",
+      "parentId": "opt.mechanical-engineering.p2",
+      "title": "Engines: IC engine combustion, performance parameters, emissions and fuels",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p2.t04",
+      "parentId": "opt.mechanical-engineering.p2",
+      "title": "Steam Engineering: Steam generation, boilers, nozzles, turbines and Rankine cycle",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mechanical-engineering.p2.t05",
+      "parentId": "opt.mechanical-engineering.p2",
+      "title": "Refrigeration and Air-conditioning: Vapour compression, absorption systems and psychrometry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

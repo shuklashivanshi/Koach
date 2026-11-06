@@ -1,0 +1,186 @@
+{
+  "paper": "optional:agriculture",
+  "title": "Agriculture",
+  "nodes": [
+    {
+      "id": "opt.agriculture",
+      "parentId": null,
+      "title": "Agriculture",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p1",
+      "parentId": "opt.agriculture",
+      "title": "Agriculture · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p1.t01",
+      "parentId": "opt.agriculture.p1",
+      "title": "Ecology, Natural Resources and Sustainable Management",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p1.t02",
+      "parentId": "opt.agriculture.p1",
+      "title": "Cropping Patterns in Different Agro-Climatic Zones",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p1.t03",
+      "parentId": "opt.agriculture.p1",
+      "title": "Forestry Plantations, Agro-Forestry and Forest Products",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p1.t04",
+      "parentId": "opt.agriculture.p1",
+      "title": "Weeds, Characteristics, Dissemination and Weed Control",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p1.t05",
+      "parentId": "opt.agriculture.p1",
+      "title": "Soil Properties, Soil Fertility and Integrated Nutrient Management",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p1.t06",
+      "parentId": "opt.agriculture.p1",
+      "title": "Soil Conservation, Watershed Management and Dryland Agriculture",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p1.t07",
+      "parentId": "opt.agriculture.p1",
+      "title": "Water-Use Efficiency, Irrigation Scheduling and Drainage",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p1.t08",
+      "parentId": "opt.agriculture.p1",
+      "title": "Farm Management, Agricultural Economics and Marketing Strategies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p1.t09",
+      "parentId": "opt.agriculture.p1",
+      "title": "Agricultural Extension, Technology Transfer and Rural Development",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p2",
+      "parentId": "opt.agriculture",
+      "title": "Agriculture · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p2.t01",
+      "parentId": "opt.agriculture.p2",
+      "title": "Cell Biology, Cytogenetics and Principles of Plant Genetics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p2.t02",
+      "parentId": "opt.agriculture.p2",
+      "title": "Plant Breeding Methods, Molecular Markers and Crop Improvement",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p2.t03",
+      "parentId": "opt.agriculture.p2",
+      "title": "Seed Production, Certification, Storage and Intellectual Property Rights",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p2.t04",
+      "parentId": "opt.agriculture.p2",
+      "title": "Plant Physiology, Plant Nutrition and Water Relationships",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p2.t05",
+      "parentId": "opt.agriculture.p2",
+      "title": "Plant Metabolism, Growth Regulators and Stress Physiology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p2.t06",
+      "parentId": "opt.agriculture.p2",
+      "title": "Horticultural Crops, Protected Cultivation and Post-Harvest Technology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p2.t07",
+      "parentId": "opt.agriculture.p2",
+      "title": "Diagnosis, Epidemiology and Integrated Management of Crop Diseases",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.agriculture.p2.t08",
+      "parentId": "opt.agriculture.p2",
+      "title": "Food Production, Public Distribution System and Food Security",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

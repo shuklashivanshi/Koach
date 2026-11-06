@@ -1,0 +1,105 @@
+{
+  "paper": "optional:statistics",
+  "title": "Statistics",
+  "nodes": [
+    {
+      "id": "opt.statistics",
+      "parentId": null,
+      "title": "Statistics",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.statistics.p1",
+      "parentId": "opt.statistics",
+      "title": "Statistics · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.statistics.p1.t01",
+      "parentId": "opt.statistics.p1",
+      "title": "Probability: Probability Space, Random Variables, Distributions, and Limit Theorems",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.statistics.p1.t02",
+      "parentId": "opt.statistics.p1",
+      "title": "Statistical Inference: Estimation, Hypotheses Testing, Non-parametric Tests, and Sequential Analysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.statistics.p1.t03",
+      "parentId": "opt.statistics.p1",
+      "title": "Linear Inference and Multivariate Analysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.statistics.p1.t04",
+      "parentId": "opt.statistics.p1",
+      "title": "Sampling Theory and Design of Experiments",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.statistics.p2",
+      "parentId": "opt.statistics",
+      "title": "Statistics · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.statistics.p2.t01",
+      "parentId": "opt.statistics.p2",
+      "title": "Industrial Statistics: Quality Control, Reliability, and Life Testing",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.statistics.p2.t02",
+      "parentId": "opt.statistics.p2",
+      "title": "Optimization Techniques: Linear Programming, Inventory, and Queuing Theory",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.statistics.p2.t03",
+      "parentId": "opt.statistics.p2",
+      "title": "Quantitative Economics, Time Series, Index Numbers, Econometrics, and Official Statistics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.statistics.p2.t04",
+      "parentId": "opt.statistics.p2",
+      "title": "Demography, Vital Statistics, Life Tables, and Psychometry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

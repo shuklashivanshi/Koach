@@ -1,0 +1,114 @@
+{
+  "paper": "optional:sociology",
+  "title": "Sociology",
+  "nodes": [
+    {
+      "id": "opt.sociology",
+      "parentId": null,
+      "title": "Sociology",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p1",
+      "parentId": "opt.sociology",
+      "title": "Sociology · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p1.t01",
+      "parentId": "opt.sociology.p1",
+      "title": "Sociology The Discipline, Sociology as Science, Research Methods and Analysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p1.t02",
+      "parentId": "opt.sociology.p1",
+      "title": "Sociological Thinkers: Marx, Durkheim, Weber, Parsons, Merton, and Mead",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p1.t03",
+      "parentId": "opt.sociology.p1",
+      "title": "Stratification, Mobility, Works, Economic Life, Politics, and Society",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p1.t04",
+      "parentId": "opt.sociology.p1",
+      "title": "Religion and Society, Systems of Kinship, and Social Change",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p2",
+      "parentId": "opt.sociology",
+      "title": "Sociology · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p2.t01",
+      "parentId": "opt.sociology.p2",
+      "title": "Introducing Indian Society: Perspectives and Impact of Colonial Rule",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p2.t02",
+      "parentId": "opt.sociology.p2",
+      "title": "Social Structure: Rural, Agrarian, Caste System, and Tribal Communities",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p2.t03",
+      "parentId": "opt.sociology.p2",
+      "title": "Social Classes, Systems of Kinship, and Religion and Society",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p2.t04",
+      "parentId": "opt.sociology.p2",
+      "title": "Social Changes in India: Visions, Transformation, and Politics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.sociology.p2.t05",
+      "parentId": "opt.sociology.p2",
+      "title": "Social Movements, Population Dynamics, and Challenges of Social Transformation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

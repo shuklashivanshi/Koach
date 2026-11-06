@@ -1,0 +1,150 @@
+{
+  "paper": "optional:medical-science",
+  "title": "Medical Science",
+  "nodes": [
+    {
+      "id": "opt.medical-science",
+      "parentId": null,
+      "title": "Medical Science",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p1",
+      "parentId": "opt.medical-science",
+      "title": "Medical Science · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p1.t01",
+      "parentId": "opt.medical-science.p1",
+      "title": "Human Anatomy: Gross, applied and clinical anatomy, embryology and neuroanatomy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p1.t02",
+      "parentId": "opt.medical-science.p1",
+      "title": "Human Physiology: Conduction, endocrine system, reproduction, blood and cardiovascular regulation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p1.t03",
+      "parentId": "opt.medical-science.p1",
+      "title": "Biochemistry: Organ function tests, protein synthesis, vitamins and molecular biology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p1.t04",
+      "parentId": "opt.medical-science.p1",
+      "title": "Pathology: Inflammation, neoplasia, histopathology of cardiovascular and systemic diseases",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p1.t05",
+      "parentId": "opt.medical-science.p1",
+      "title": "Microbiology: Humoral immunity, bacteriology, virology, parasitology and diagnostic methods",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p1.t06",
+      "parentId": "opt.medical-science.p1",
+      "title": "Pharmacology: Mechanism of action and side effects of major therapeutic drugs",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p1.t07",
+      "parentId": "opt.medical-science.p1",
+      "title": "Forensic Medicine and Toxicology: Injuries, poisoning, autopsy and medical jurisprudence",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p2",
+      "parentId": "opt.medical-science",
+      "title": "Medical Science · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p2.t01",
+      "parentId": "opt.medical-science.p2",
+      "title": "General Medicine: Infectious diseases, systemic disorders, clinical management and imaging",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p2.t02",
+      "parentId": "opt.medical-science.p2",
+      "title": "Paediatrics: Neonatal care, respiratory distress, congenital heart disease and malnutrition",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p2.t03",
+      "parentId": "opt.medical-science.p2",
+      "title": "Dermatology: Common skin disorders, allergic conditions and cutaneous lesions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p2.t04",
+      "parentId": "opt.medical-science.p2",
+      "title": "General Surgery: Clinical features, tumours, surgical emergencies and operative procedures",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p2.t05",
+      "parentId": "opt.medical-science.p2",
+      "title": "Obstetrics and Gynaecology: Pregnancy management, complications, contraception and gynaecological disorders",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.medical-science.p2.t06",
+      "parentId": "opt.medical-science.p2",
+      "title": "Community Medicine: Epidemiology, nutrition programmes, health administration and national health",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

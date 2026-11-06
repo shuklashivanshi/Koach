@@ -1,0 +1,114 @@
+{
+  "paper": "optional:civil-engineering",
+  "title": "Civil Engineering",
+  "nodes": [
+    {
+      "id": "opt.civil-engineering",
+      "parentId": null,
+      "title": "Civil Engineering",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p1",
+      "parentId": "opt.civil-engineering",
+      "title": "Civil Engineering · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p1.t01",
+      "parentId": "opt.civil-engineering.p1",
+      "title": "Engineering Mechanics, Strength of Materials and Structural Analysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p1.t02",
+      "parentId": "opt.civil-engineering.p1",
+      "title": "Design of Structures: Steel, Concrete and Masonry Structures",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p1.t03",
+      "parentId": "opt.civil-engineering.p1",
+      "title": "Fluid Mechanics, Open Channel Flow and Hydraulic Machines",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p1.t04",
+      "parentId": "opt.civil-engineering.p1",
+      "title": "Geotechnical Engineering",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p2",
+      "parentId": "opt.civil-engineering",
+      "title": "Civil Engineering · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p2.t01",
+      "parentId": "opt.civil-engineering.p2",
+      "title": "Construction Technology, Equipment, Planning and Management",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p2.t02",
+      "parentId": "opt.civil-engineering.p2",
+      "title": "Surveying and Transportation Engineering",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p2.t03",
+      "parentId": "opt.civil-engineering.p2",
+      "title": "Hydrology, Water Resources and Engineering",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p2.t04",
+      "parentId": "opt.civil-engineering.p2",
+      "title": "Environmental Engineering",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.civil-engineering.p2.t05",
+      "parentId": "opt.civil-engineering.p2",
+      "title": "Environmental Pollution",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

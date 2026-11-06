@@ -1,0 +1,670 @@
+{
+  "paper": "csat",
+  "title": "Paper II-(200 marks) Duration: Two hours",
+  "nodes": [
+    {
+      "id": "csat",
+      "parentId": null,
+      "title": "Paper II-(200 marks) Duration: Two hours",
+      "kind": "paper",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.comprehension",
+      "parentId": "csat",
+      "title": "Comprehension and Decision Making",
+      "kind": "section",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.comprehension.rc-core-skills",
+      "parentId": "csat.comprehension",
+      "title": "Core Reading Comprehension Skills",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.comprehension.rc-core-skills.central-idea-theme",
+      "parentId": "csat.comprehension.rc-core-skills",
+      "title": "Identifying Central Theme and Main Idea",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.comprehension.rc-core-skills.assumptions-inferences",
+      "parentId": "csat.comprehension.rc-core-skills",
+      "title": "Identifying Implicit Assumptions and Inferences",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.comprehension.rc-core-skills.central-idea-theme"
+      ]
+    },
+    {
+      "id": "csat.comprehension.rc-core-skills.logical-corollaries",
+      "parentId": "csat.comprehension.rc-core-skills",
+      "title": "Deriving Logical Corollaries and Implications",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.comprehension.rc-core-skills.assumptions-inferences"
+      ]
+    },
+    {
+      "id": "csat.comprehension.rc-core-skills.tone-author-intent",
+      "parentId": "csat.comprehension.rc-core-skills",
+      "title": "Evaluating Tone, Author Purpose, and Argumentative Structure",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.comprehension.rc-core-skills.central-idea-theme"
+      ]
+    },
+    {
+      "id": "csat.comprehension.rc-thematic-passages",
+      "parentId": "csat.comprehension",
+      "title": "Thematic Reading Comprehension Practice",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.comprehension.rc-thematic-passages.environment-ecology-passages",
+      "parentId": "csat.comprehension.rc-thematic-passages",
+      "title": "Environment, Biodiversity, and Climate Change Passages",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.comprehension.rc-core-skills.central-idea-theme",
+        "csat.comprehension.rc-core-skills.assumptions-inferences"
+      ]
+    },
+    {
+      "id": "csat.comprehension.rc-thematic-passages.economy-agriculture-passages",
+      "parentId": "csat.comprehension.rc-thematic-passages",
+      "title": "Economy, Inclusive Growth, and Agriculture Passages",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.comprehension.rc-core-skills.central-idea-theme",
+        "csat.comprehension.rc-core-skills.assumptions-inferences"
+      ]
+    },
+    {
+      "id": "csat.comprehension.rc-thematic-passages.governance-social-passages",
+      "parentId": "csat.comprehension.rc-thematic-passages",
+      "title": "Polity, Governance, and Social Sector Passages",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.comprehension.rc-core-skills.central-idea-theme",
+        "csat.comprehension.rc-core-skills.assumptions-inferences"
+      ]
+    },
+    {
+      "id": "csat.comprehension.rc-thematic-passages.science-tech-philosophy",
+      "parentId": "csat.comprehension.rc-thematic-passages",
+      "title": "Science, Technology, and Philosophical Passages",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.comprehension.rc-core-skills.central-idea-theme",
+        "csat.comprehension.rc-core-skills.assumptions-inferences"
+      ]
+    },
+    {
+      "id": "csat.comprehension.decision-making-interpersonal",
+      "parentId": "csat.comprehension",
+      "title": "Decision Making and Analytical Problem Solving",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.comprehension.decision-making-interpersonal.administrative-decision-making",
+      "parentId": "csat.comprehension.decision-making-interpersonal",
+      "title": "Administrative Decision Making and Ethical Dilemmas",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.logical-reasoning.deductive-reasoning.courses-of-action"
+      ]
+    },
+    {
+      "id": "csat.comprehension.decision-making-interpersonal.prioritization-problem-solving",
+      "parentId": "csat.comprehension.decision-making-interpersonal",
+      "title": "Prioritization and Situational Problem Solving",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.comprehension.decision-making-interpersonal.administrative-decision-making"
+      ]
+    },
+    {
+      "id": "csat.logical-reasoning",
+      "parentId": "csat",
+      "title": "Logical Reasoning and Analytical Ability",
+      "kind": "section",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.deductive-reasoning",
+      "parentId": "csat.logical-reasoning",
+      "title": "Deductive and Syllogistic Reasoning",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.deductive-reasoning.syllogisms-quantifiers",
+      "parentId": "csat.logical-reasoning.deductive-reasoning",
+      "title": "Syllogisms and Categorical Propositions",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.deductive-reasoning.statement-assumptions-conclusions",
+      "parentId": "csat.logical-reasoning.deductive-reasoning",
+      "title": "Statements, Implicit Assumptions, and Valid Conclusions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.deductive-reasoning.courses-of-action",
+      "parentId": "csat.logical-reasoning.deductive-reasoning",
+      "title": "Statements, Arguments, and Courses of Action",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.logical-reasoning.deductive-reasoning.statement-assumptions-conclusions"
+      ]
+    },
+    {
+      "id": "csat.logical-reasoning.analytical-arrangement",
+      "parentId": "csat.logical-reasoning",
+      "title": "Analytical Puzzles and Arrangements",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.analytical-arrangement.linear-circular-arrangements",
+      "parentId": "csat.logical-reasoning.analytical-arrangement",
+      "title": "Linear and Circular Seating Arrangements",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.analytical-arrangement.matrix-scheduling-puzzles",
+      "parentId": "csat.logical-reasoning.analytical-arrangement",
+      "title": "Complex Matrix, Grouping, and Scheduling Puzzles",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.logical-reasoning.analytical-arrangement.linear-circular-arrangements",
+        "csat.logical-reasoning.analytical-arrangement.order-ranking-comparison"
+      ]
+    },
+    {
+      "id": "csat.logical-reasoning.analytical-arrangement.blood-relations",
+      "parentId": "csat.logical-reasoning.analytical-arrangement",
+      "title": "Blood Relations and Family Trees",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.analytical-arrangement.direction-distance-test",
+      "parentId": "csat.logical-reasoning.analytical-arrangement",
+      "title": "Direction and Distance Sense Test",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.analytical-arrangement.order-ranking-comparison",
+      "parentId": "csat.logical-reasoning.analytical-arrangement",
+      "title": "Ordering, Ranking, and Relative Comparison Tests",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.general-mental-ability",
+      "parentId": "csat.logical-reasoning",
+      "title": "General Mental Ability",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.general-mental-ability.coding-decoding",
+      "parentId": "csat.logical-reasoning.general-mental-ability",
+      "title": "Coding-Decoding and Symbol Operations",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.general-mental-ability.series-patterns",
+      "parentId": "csat.logical-reasoning.general-mental-ability",
+      "title": "Number, Alphabet, and Alpha-numeric Series",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.general-mental-ability.clocks-calendars",
+      "parentId": "csat.logical-reasoning.general-mental-ability",
+      "title": "Clocks, Angles, and Calendar Dates",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.logical-reasoning.general-mental-ability.cubes-dice-visual",
+      "parentId": "csat.logical-reasoning.general-mental-ability",
+      "title": "Cubes, Dice, and Spatial Visualization",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.basic-numeracy",
+      "parentId": "csat",
+      "title": "Basic Numeracy (Class X Level)",
+      "kind": "section",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.basic-numeracy.number-system",
+      "parentId": "csat.basic-numeracy",
+      "title": "Number Systems and Properties",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.basic-numeracy.number-system.divisibility-remainders",
+      "parentId": "csat.basic-numeracy.number-system",
+      "title": "Divisibility Rules, Remainders, and Unit Digit",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.number-system.prime-composite-integers"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.number-system.hcf-lcm",
+      "parentId": "csat.basic-numeracy.number-system",
+      "title": "HCF, LCM, and Factorization Applications",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.number-system.prime-composite-integers",
+        "csat.basic-numeracy.number-system.divisibility-remainders"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.number-system.fractions-decimals-surds",
+      "parentId": "csat.basic-numeracy.number-system",
+      "title": "Fractions, Decimals, and Powers of Numbers",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.basic-numeracy.number-system.prime-composite-integers",
+      "parentId": "csat.basic-numeracy.number-system",
+      "title": "Prime Numbers, Divisors, and Integer Arithmetic",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.basic-numeracy.arithmetic-relations",
+      "parentId": "csat.basic-numeracy",
+      "title": "Arithmetic Fundamentals",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.basic-numeracy.arithmetic-relations.percentages",
+      "parentId": "csat.basic-numeracy.arithmetic-relations",
+      "title": "Percentages and Successive Percentage Changes",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.number-system.fractions-decimals-surds"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.arithmetic-relations.ratios-proportions",
+      "parentId": "csat.basic-numeracy.arithmetic-relations",
+      "title": "Ratios, Proportions, and Variations",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.number-system.fractions-decimals-surds"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.arithmetic-relations.averages-alligations",
+      "parentId": "csat.basic-numeracy.arithmetic-relations",
+      "title": "Averages, Weighted Averages, and Alligation Mixtures",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.arithmetic-relations.ratios-proportions"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.arithmetic-relations.profit-loss-discount",
+      "parentId": "csat.basic-numeracy.arithmetic-relations",
+      "title": "Profit, Loss, and Marked Price Discounts",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.arithmetic-relations.percentages",
+        "csat.basic-numeracy.arithmetic-relations.ratios-proportions"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.arithmetic-relations.simple-compound-interest",
+      "parentId": "csat.basic-numeracy.arithmetic-relations",
+      "title": "Simple and Compound Interest Calculations",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.arithmetic-relations.percentages"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.motion-time-work",
+      "parentId": "csat.basic-numeracy",
+      "title": "Time, Work, and Motion",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.basic-numeracy.motion-time-work.time-and-work",
+      "parentId": "csat.basic-numeracy.motion-time-work",
+      "title": "Time, Work, Efficiency, and Pipe-Cistern Systems",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.arithmetic-relations.ratios-proportions",
+        "csat.basic-numeracy.number-system.hcf-lcm"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.motion-time-work.speed-distance-relative-motion",
+      "parentId": "csat.basic-numeracy.motion-time-work",
+      "title": "Speed, Distance, and Relative Speed Applications",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.arithmetic-relations.ratios-proportions"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.motion-time-work.trains-boats-streams",
+      "parentId": "csat.basic-numeracy.motion-time-work",
+      "title": "Problems on Trains, Boats, and River Streams",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.motion-time-work.speed-distance-relative-motion"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.combinatorics-mensuration",
+      "parentId": "csat.basic-numeracy",
+      "title": "Combinatorics, Probability, and Mensuration",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.basic-numeracy.combinatorics-mensuration.permutations-combinations",
+      "parentId": "csat.basic-numeracy.combinatorics-mensuration",
+      "title": "Counting Principles, Permutations, and Combinations",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.basic-numeracy.combinatorics-mensuration.probability",
+      "parentId": "csat.basic-numeracy.combinatorics-mensuration",
+      "title": "Elementary Probability and Independent Events",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.combinatorics-mensuration.permutations-combinations",
+        "csat.basic-numeracy.number-system.fractions-decimals-surds"
+      ]
+    },
+    {
+      "id": "csat.basic-numeracy.combinatorics-mensuration.set-theory-venn",
+      "parentId": "csat.basic-numeracy.combinatorics-mensuration",
+      "title": "Set Theory and Venn Diagram Quantification",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.basic-numeracy.combinatorics-mensuration.plane-solid-mensuration",
+      "parentId": "csat.basic-numeracy.combinatorics-mensuration",
+      "title": "Perimeter, Area, and Volume of 2D and 3D Figures",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.data-interpretation",
+      "parentId": "csat",
+      "title": "Data Interpretation and Data Sufficiency",
+      "kind": "section",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.data-interpretation.charts-graphs",
+      "parentId": "csat.data-interpretation",
+      "title": "Data Interpretation Formats",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.data-interpretation.charts-graphs.tables-cross-tabulation",
+      "parentId": "csat.data-interpretation.charts-graphs",
+      "title": "Data Tables and Cross-Tabulation Analysis",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.arithmetic-relations.percentages",
+        "csat.basic-numeracy.arithmetic-relations.ratios-proportions",
+        "csat.basic-numeracy.arithmetic-relations.averages-alligations"
+      ]
+    },
+    {
+      "id": "csat.data-interpretation.charts-graphs.bar-charts-histograms",
+      "parentId": "csat.data-interpretation.charts-graphs",
+      "title": "Bar Charts and Cumulative Comparisons",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.data-interpretation.charts-graphs.tables-cross-tabulation"
+      ]
+    },
+    {
+      "id": "csat.data-interpretation.charts-graphs.pie-charts",
+      "parentId": "csat.data-interpretation.charts-graphs",
+      "title": "Pie Charts, Percentage Shares, and Degree Conversions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.arithmetic-relations.percentages",
+        "csat.basic-numeracy.arithmetic-relations.ratios-proportions"
+      ]
+    },
+    {
+      "id": "csat.data-interpretation.charts-graphs.line-graphs-trends",
+      "parentId": "csat.data-interpretation.charts-graphs",
+      "title": "Line Graphs, Growth Rates, and Multi-Trend Analysis",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.data-interpretation.charts-graphs.tables-cross-tabulation"
+      ]
+    },
+    {
+      "id": "csat.data-interpretation.data-sufficiency-eval",
+      "parentId": "csat.data-interpretation",
+      "title": "Data Sufficiency Evaluation",
+      "kind": "topic",
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "csat.data-interpretation.data-sufficiency-eval.arithmetic-data-sufficiency",
+      "parentId": "csat.data-interpretation.data-sufficiency-eval",
+      "title": "Data Sufficiency in Numerical and Algebraic Statements",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.basic-numeracy.arithmetic-relations.percentages",
+        "csat.basic-numeracy.arithmetic-relations.ratios-proportions",
+        "csat.logical-reasoning.deductive-reasoning.statement-assumptions-conclusions"
+      ]
+    },
+    {
+      "id": "csat.data-interpretation.data-sufficiency-eval.logical-data-sufficiency",
+      "parentId": "csat.data-interpretation.data-sufficiency-eval",
+      "title": "Data Sufficiency in Arrangements and Logical Relations",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "csat.logical-reasoning.analytical-arrangement.linear-circular-arrangements",
+        "csat.logical-reasoning.deductive-reasoning.statement-assumptions-conclusions"
+      ]
+    }
+  ]
+}

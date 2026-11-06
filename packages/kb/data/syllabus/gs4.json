@@ -1,0 +1,1165 @@
+{
+  "paper": "gs4",
+  "title": "PAPER-V General Studies- IV: Ethics, Integrity and Aptitude",
+  "nodes": [
+    {
+      "id": "gs4",
+      "parentId": null,
+      "title": "PAPER-V General Studies- IV: Ethics, Integrity and Aptitude",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.ethics-human-interface",
+      "parentId": "gs4",
+      "title": "Ethics and Human Interface",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics",
+      "parentId": "gs4.ethics-human-interface",
+      "title": "Nature and Dimensions of Ethics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics",
+      "parentId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics",
+      "title": "Essence and Determinants of Ethics in Human Actions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.consequences-of-ethics",
+      "parentId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics",
+      "title": "Consequences of Ethics for Individual and Society",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics"
+      ]
+    },
+    {
+      "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics",
+      "parentId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics",
+      "title": "Dimensions of Ethics: Descriptive, Normative, Meta, and Applied",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics"
+      ]
+    },
+    {
+      "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-private-relationships",
+      "parentId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics",
+      "title": "Ethics in Private Relationships: Principles and Challenges",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics"
+      ]
+    },
+    {
+      "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-public-relationships",
+      "parentId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics",
+      "title": "Ethics in Public and Professional Relationships",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics",
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-private-relationships"
+      ]
+    },
+    {
+      "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.morality-ethics-and-law",
+      "parentId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics",
+      "title": "Interrelationship and Conflicts Between Morality, Ethics, and Law",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics"
+      ]
+    },
+    {
+      "id": "gs4.ethics-human-interface.human-values-and-socialization",
+      "parentId": "gs4.ethics-human-interface",
+      "title": "Human Values and Value Inculcation",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values",
+      "parentId": "gs4.ethics-human-interface.human-values-and-socialization",
+      "title": "Concept, Classification, and Hierarchy of Human Values",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.ethics-human-interface.human-values-and-socialization.role-of-family-in-value-inculcation",
+      "parentId": "gs4.ethics-human-interface.human-values-and-socialization",
+      "title": "Role of Family in Inculcating Values",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values"
+      ]
+    },
+    {
+      "id": "gs4.ethics-human-interface.human-values-and-socialization.role-of-society-and-peer-groups",
+      "parentId": "gs4.ethics-human-interface.human-values-and-socialization",
+      "title": "Role of Society, Culture, and Peer Groups in Value Inculcation",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values",
+        "gs4.ethics-human-interface.human-values-and-socialization.role-of-family-in-value-inculcation"
+      ]
+    },
+    {
+      "id": "gs4.ethics-human-interface.human-values-and-socialization.role-of-educational-institutions",
+      "parentId": "gs4.ethics-human-interface.human-values-and-socialization",
+      "title": "Role of Educational Institutions and Teachers in Inculcating Values",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values",
+        "gs4.ethics-human-interface.human-values-and-socialization.role-of-family-in-value-inculcation"
+      ]
+    },
+    {
+      "id": "gs4.ethics-human-interface.human-values-and-socialization.lessons-from-great-leaders-and-reformers",
+      "parentId": "gs4.ethics-human-interface.human-values-and-socialization",
+      "title": "Human Values: Lessons from Great Leaders and Social Reformers",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values"
+      ]
+    },
+    {
+      "id": "gs4.ethics-human-interface.human-values-and-socialization.lessons-from-great-administrators",
+      "parentId": "gs4.ethics-human-interface.human-values-and-socialization",
+      "title": "Human Values: Lessons from the Lives of Eminent Administrators",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values"
+      ]
+    },
+    {
+      "id": "gs4.attitude",
+      "parentId": "gs4",
+      "title": "Attitude",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.attitude.structure-and-behavioural-aspects",
+      "parentId": "gs4.attitude",
+      "title": "Structure and Dynamics of Attitude",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.attitude.structure-and-behavioural-aspects.content-and-structure-of-attitude",
+      "parentId": "gs4.attitude.structure-and-behavioural-aspects",
+      "title": "Attitude: Definition, Content, and Structure (CAB Model)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.attitude.structure-and-behavioural-aspects.functions-of-attitude",
+      "parentId": "gs4.attitude.structure-and-behavioural-aspects",
+      "title": "Functions of Attitude: Ego-Defensive, Value-Expressive, and Knowledge",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.attitude.structure-and-behavioural-aspects.content-and-structure-of-attitude"
+      ]
+    },
+    {
+      "id": "gs4.attitude.structure-and-behavioural-aspects.attitude-thought-behaviour-relation",
+      "parentId": "gs4.attitude.structure-and-behavioural-aspects",
+      "title": "Attitude-Behaviour Consistency, Cognitive Dissonance, and Action",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.attitude.structure-and-behavioural-aspects.content-and-structure-of-attitude"
+      ]
+    },
+    {
+      "id": "gs4.attitude.structure-and-behavioural-aspects.formation-and-change-of-attitude",
+      "parentId": "gs4.attitude.structure-and-behavioural-aspects",
+      "title": "Factors Influencing Attitude Formation and Mechanisms of Change",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.attitude.structure-and-behavioural-aspects.content-and-structure-of-attitude"
+      ]
+    },
+    {
+      "id": "gs4.attitude.moral-political-attitudes-and-persuasion",
+      "parentId": "gs4.attitude",
+      "title": "Moral Attitudes, Political Attitudes, and Persuasion",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.attitude.moral-political-attitudes-and-persuasion.moral-attitudes",
+      "parentId": "gs4.attitude.moral-political-attitudes-and-persuasion",
+      "title": "Moral Attitudes: Definition, Development, and Practical Manifestation",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.attitude.structure-and-behavioural-aspects.content-and-structure-of-attitude",
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics"
+      ]
+    },
+    {
+      "id": "gs4.attitude.moral-political-attitudes-and-persuasion.political-attitudes",
+      "parentId": "gs4.attitude.moral-political-attitudes-and-persuasion",
+      "title": "Political Attitudes: Determinants, Ideologies, and Public Discourse",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.attitude.structure-and-behavioural-aspects.content-and-structure-of-attitude"
+      ]
+    },
+    {
+      "id": "gs4.attitude.moral-political-attitudes-and-persuasion.social-influence-mechanisms",
+      "parentId": "gs4.attitude.moral-political-attitudes-and-persuasion",
+      "title": "Social Influence: Conformity, Compliance, and Obedience in Society",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.attitude.structure-and-behavioural-aspects.formation-and-change-of-attitude"
+      ]
+    },
+    {
+      "id": "gs4.attitude.moral-political-attitudes-and-persuasion.persuasion-and-public-campaigns",
+      "parentId": "gs4.attitude.moral-political-attitudes-and-persuasion",
+      "title": "Persuasion: Principles, Techniques, and Use in Public Policy Campaigns",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.attitude.structure-and-behavioural-aspects.formation-and-change-of-attitude",
+        "gs4.attitude.moral-political-attitudes-and-persuasion.social-influence-mechanisms"
+      ]
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values",
+      "parentId": "gs4",
+      "title": "Aptitude and Foundational Values for Civil Service",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values",
+      "parentId": "gs4.civil-service-aptitude-and-values",
+      "title": "Aptitude and Foundational Ethical Standards",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.aptitude-vs-ability-and-interest",
+      "parentId": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values",
+      "title": "Aptitude: Definition, Distinction from Ability and Interest in Civil Services",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty",
+      "parentId": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values",
+      "title": "Integrity, Intellectual Honesty, and Financial Rectitude",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.aptitude-vs-ability-and-interest"
+      ]
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.impartiality-and-non-partisanship",
+      "parentId": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values",
+      "title": "Impartiality and Political Non-Partisanship in Bureaucracy",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.aptitude-vs-ability-and-interest"
+      ]
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.objectivity-and-evidence-based-decisions",
+      "parentId": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values",
+      "title": "Objectivity: Merit-Based Reasoning and Mitigating Bias in Decision-Making",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.aptitude-vs-ability-and-interest"
+      ]
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.dedication-to-public-service",
+      "parentId": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values",
+      "title": "Dedication to Public Service: Spirit of Service and Professional Commitment",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.aptitude-vs-ability-and-interest"
+      ]
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections",
+      "parentId": "gs4.civil-service-aptitude-and-values",
+      "title": "Empathy, Compassion, and Administrative Virtues",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.empathy-sympathy-and-compassion",
+      "parentId": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections",
+      "title": "Empathy, Sympathy, and Compassion: Conceptual Differences and Relevance",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+      "parentId": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections",
+      "title": "Compassion towards Vulnerable and Marginalized Sections in Policy Implementation",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.empathy-sympathy-and-compassion"
+      ]
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.tolerance-and-acceptance",
+      "parentId": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections",
+      "title": "Tolerance and Pluralism: Handling Diversity in Democratic Administration",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.courage-of-conviction-and-fortitude",
+      "parentId": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections",
+      "title": "Courage of Conviction, Fortitude, and Moral Resilience in Civil Service",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty"
+      ]
+    },
+    {
+      "id": "gs4.emotional-intelligence",
+      "parentId": "gs4",
+      "title": "Emotional Intelligence",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.emotional-intelligence.ei-concepts-and-models",
+      "parentId": "gs4.emotional-intelligence",
+      "title": "Concepts and Models of Emotional Intelligence",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei",
+      "parentId": "gs4.emotional-intelligence.ei-concepts-and-models",
+      "title": "Emotional Intelligence: Definition, History, and Comparison with IQ",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.emotional-intelligence.ei-concepts-and-models.goleman-model-of-ei",
+      "parentId": "gs4.emotional-intelligence.ei-concepts-and-models",
+      "title": "Goleman's Five Competencies: Self-Awareness, Self-Regulation, Motivation, Empathy, Social Skills",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei"
+      ]
+    },
+    {
+      "id": "gs4.emotional-intelligence.ei-concepts-and-models.mayer-salovey-ability-model",
+      "parentId": "gs4.emotional-intelligence.ei-concepts-and-models",
+      "title": "Mayer-Salovey-Caruso Four-Branch Model of Emotional Intelligence",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei"
+      ]
+    },
+    {
+      "id": "gs4.emotional-intelligence.ei-in-administration-and-governance",
+      "parentId": "gs4.emotional-intelligence",
+      "title": "Application of Emotional Intelligence in Governance",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-administrative-leadership",
+      "parentId": "gs4.emotional-intelligence.ei-in-administration-and-governance",
+      "title": "EI in Civil Services Leadership, Stress Management, and Team Motivation",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei",
+        "gs4.emotional-intelligence.ei-concepts-and-models.goleman-model-of-ei"
+      ]
+    },
+    {
+      "id": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-crisis-and-conflict-resolution",
+      "parentId": "gs4.emotional-intelligence.ei-in-administration-and-governance",
+      "title": "EI in Crowd Control, Conflict Resolution, and Crisis Negotiation",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei",
+        "gs4.emotional-intelligence.ei-concepts-and-models.goleman-model-of-ei"
+      ]
+    },
+    {
+      "id": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-public-service-delivery",
+      "parentId": "gs4.emotional-intelligence.ei-in-administration-and-governance",
+      "title": "EI in Enhancing Citizen-Centric Service Delivery and Grievance Redressal",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei",
+        "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.empathy-sympathy-and-compassion"
+      ]
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers",
+      "parentId": "gs4",
+      "title": "Contributions of Moral Thinkers and Philosophers",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions",
+      "parentId": "gs4.moral-thinkers-and-philosophers",
+      "title": "Indian Moral Thinkers and Philosophical Traditions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.classical-indian-ethical-traditions",
+      "parentId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions",
+      "title": "Classical Indian Ethics: Purusharthas, Rna, Dharma, and Vedic Values",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.bhagavad-gita-and-nishkama-karma",
+      "parentId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions",
+      "title": "Ethics of Bhagavad Gita: Nishkama Karma, Svadharma, and Sthitaprajna",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.classical-indian-ethical-traditions"
+      ]
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.buddhist-and-jain-ethics",
+      "parentId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions",
+      "title": "Ethics of Buddhism (Eightfold Path) and Jainism (Triratna and Mahavratas)",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.kautilyan-administrative-ethics",
+      "parentId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions",
+      "title": "Kautilya's Arthashastra: Raja Dharma, Governance, and Statecraft Ethics",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.mahatma-gandhi-moral-philosophy",
+      "parentId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions",
+      "title": "Mahatma Gandhi: Satya, Ahimsa, Sarvodaya, Trusteeship, and Seven Sins",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.br-ambedkar-social-morality",
+      "parentId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions",
+      "title": "B.R. Ambedkar: Social Democracy, Constitutional Morality, and Liberty-Equality-Fraternity",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.modern-indian-reformers-tagore-vivekanan",
+      "parentId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions",
+      "title": "Ethical Ideas of Swami Vivekananda, Rabindranath Tagore, and Sri Aurobindo",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy",
+      "parentId": "gs4.moral-thinkers-and-philosophers",
+      "title": "Western Moral Thinkers and Theories",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.socratic-platonic-ethics",
+      "parentId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy",
+      "title": "Classical Greek Ethics: Socrates (Virtue is Knowledge) and Plato (Cardinal Virtues)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.aristotle-virtue-ethics",
+      "parentId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy",
+      "title": "Aristotle's Virtue Ethics: Eudaimonia, Golden Mean, and Practical Wisdom",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.socratic-platonic-ethics"
+      ]
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.deontological-ethics-kant",
+      "parentId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy",
+      "title": "Immanuel Kant: Categorical Imperative, Duty for Duty's Sake, and Kingdom of Ends",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.utilitarianism-bentham-mill",
+      "parentId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy",
+      "title": "Utilitarian Ethics: Bentham's Hedonism, Mill's Qualitative Utilitarianism, and Rule Utilitarianism",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.social-contract-thinkers",
+      "parentId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy",
+      "title": "Social Contract Ethics: Hobbes, Locke, and Rousseau on Moral Obligations to the State",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.john-rawls-theory-of-justice",
+      "parentId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy",
+      "title": "John Rawls: Original Position, Veil of Ignorance, and Principles of Justice as Fairness",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.social-contract-thinkers",
+        "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.utilitarianism-bentham-mill"
+      ]
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance",
+      "parentId": "gs4",
+      "title": "Public/Civil Service Values and Ethics in Public Administration",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas",
+      "parentId": "gs4.public-service-ethics-and-governance",
+      "title": "Ethical Frameworks, Dilemmas, and Guidance",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.status-and-problems-in-public-administra",
+      "parentId": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas",
+      "title": "Status and Systemic Ethical Problems in Contemporary Public Administration",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.ethical-dilemmas-in-governance",
+      "parentId": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas",
+      "title": "Ethical Dilemmas in Government: Public Interest vs Orders, Discretion vs Rule of Law",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.status-and-problems-in-public-administra",
+        "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty"
+      ]
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conflict-of-interest-management",
+      "parentId": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas",
+      "title": "Conflict of Interest: Types, Identification, and Institutional Mitigation",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.ethical-dilemmas-in-governance"
+      ]
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.sources-of-guidance-law-rules-regulation",
+      "parentId": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas",
+      "title": "Laws, Rules, and Regulations as Sources of Ethical Guidance and Their Limitations",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conscience-as-source-of-ethical-guidance",
+      "parentId": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas",
+      "title": "Conscience, Inner Voice, and Moral Agency in Public Decision-Making",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.sources-of-guidance-law-rules-regulation"
+      ]
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics",
+      "parentId": "gs4.public-service-ethics-and-governance",
+      "title": "Accountability, Nolan Principles, and Value Strengthening",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.accountability-and-ethical-governance",
+      "parentId": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics",
+      "title": "Accountability, Responsibility, and Answerability in Ethical Governance",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.status-and-problems-in-public-administra"
+      ]
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.nolan-committee-principles",
+      "parentId": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics",
+      "title": "Seven Principles of Public Life (Nolan Committee) and Global Best Practices",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.second-arc-ethics-in-governance",
+      "parentId": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics",
+      "title": "Recommendations of the Second Administrative Reforms Commission (Ethics in Governance)",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.nolan-committee-principles"
+      ]
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.strengthening-ethical-values-in-governan",
+      "parentId": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics",
+      "title": "Systemic Measures to Strengthen Ethical and Moral Values in Civil Services",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.accountability-and-ethical-governance",
+        "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.second-arc-ethics-in-governance"
+      ]
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover",
+      "parentId": "gs4.public-service-ethics-and-governance",
+      "title": "International Ethics and Corporate Governance",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.ethical-issues-in-international-relation",
+      "parentId": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover",
+      "title": "Ethical Issues in International Relations: Realism, Liberalism, and Global Justice",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.ethical-dimensions-of-international-fund",
+      "parentId": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover",
+      "title": "Ethics in International Funding, Development Aid, and Conditionalities",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.ethical-issues-in-international-relation"
+      ]
+    },
+    {
+      "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.corporate-governance-and-csr",
+      "parentId": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover",
+      "title": "Corporate Governance: Principles, Accountability, Transparency, and CSR Ethics",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio",
+      "parentId": "gs4",
+      "title": "Probity in Governance and Anti-Corruption",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio",
+      "title": "Probity, Information Sharing, and Service Delivery",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.concept-and-philosophical-basis-of-probi",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver",
+      "title": "Concept and Philosophical Basis of Governance and Probity in Public Life",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.information-sharing-and-rti",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver",
+      "title": "Information Sharing and Transparency: Ethical Intent and Impact of the RTI Act",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.concept-and-philosophical-basis-of-probi"
+      ]
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.codes-of-ethics-vs-codes-of-conduct",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver",
+      "title": "Codes of Ethics versus Codes of Conduct: Principles, Gaps, and Enforcement",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.concept-and-philosophical-basis-of-probi"
+      ]
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.citizens-charters-and-quality-service",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver",
+      "title": "Citizen's Charters: Principles, Formulation, Implementation Pitfalls, and Sevottam Model",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.concept-and-philosophical-basis-of-probi"
+      ]
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.work-culture-in-public-administration",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver",
+      "title": "Work Culture: Concept, Determinants, Dysfunctional Bureaucracy, and Transformative Reforms",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.utilization-of-public-funds",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver",
+      "title": "Utilization of Public Funds: Principles of Financial Propriety, Parking of Funds, and CAG Oversight",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.concept-and-philosophical-basis-of-probi"
+      ]
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio",
+      "title": "Corruption Challenges and Institutional Integrity",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.corruption-causes-and-consequences",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing",
+      "title": "Corruption: Root Causes, Socio-Economic Consequences, and the Klitgaard Equation",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.institutional-anti-corruption-frameworks",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing",
+      "title": "Institutional Anti-Corruption Architecture: CVC, Lokpal and Lokayuktas, and CBI",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.corruption-causes-and-consequences"
+      ]
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.legal-measures-prevention-of-corruption-",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing",
+      "title": "Legal Frameworks: Prevention of Corruption Act and Benami Transactions Prohibition",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.corruption-causes-and-consequences"
+      ]
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.whistleblower-protection-mechanisms",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing",
+      "title": "Whistleblowing: Ethical Justification, Risks, and Whistle Blowers Protection Mechanisms",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.corruption-causes-and-consequences",
+        "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conscience-as-source-of-ethical-guidance"
+      ]
+    },
+    {
+      "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.social-audit-and-citizen-oversight",
+      "parentId": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing",
+      "title": "Citizen Oversight, Social Audit, and Community Monitoring in Curbing Maladministration",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.information-sharing-and-rti"
+      ]
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies",
+      "parentId": "gs4",
+      "title": "Applied Ethics and Case Studies",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues",
+      "parentId": "gs4.applied-ethics-and-case-studies",
+      "title": "Applied and Sectoral Ethics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.environmental-ethics-and-climate-justice",
+      "parentId": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues",
+      "title": "Environmental Ethics: Anthropocentrism, Biocentrism, and Climate Justice",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"
+      ]
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.bioethics-and-medical-ethics",
+      "parentId": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues",
+      "title": "Bioethics: Clinical Trials, Organ Transplantation, Euthanasia, and Surrogacy Ethics",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"
+      ]
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.ethics-in-technology-and-ai",
+      "parentId": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues",
+      "title": "Ethics in Technology: Artificial Intelligence, Data Privacy, and Digital Surveillance",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"
+      ]
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.gender-ethics-and-care-perspective",
+      "parentId": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues",
+      "title": "Gender Ethics, Feminist Ethics, and Carol Gilligan's Ethics of Care",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics"
+      ]
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice",
+      "parentId": "gs4.applied-ethics-and-case-studies",
+      "title": "Case Study Frameworks and Thematic Applications",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+      "parentId": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice",
+      "title": "Case Study Methodology: Stakeholder Mapping, Value Identification, and Options Matrix",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.ethical-dilemmas-in-governance",
+        "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty"
+      ]
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-administrative-discretion-r",
+      "parentId": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice",
+      "title": "Case Studies: Ethical Dilemmas Between Administrative Discretion and Rigid Rules",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework"
+      ]
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-political-pressure-integrit",
+      "parentId": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice",
+      "title": "Case Studies: Resisting Political Pressure, Transfers, and Upholding Professional Integrity",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework"
+      ]
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-crisis-and-disaster-managem",
+      "parentId": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice",
+      "title": "Case Studies: Crisis Leadership, Disaster Response, and Resource Allocation Ethics",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+        "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-crisis-and-conflict-resolution"
+      ]
+    },
+    {
+      "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-corruption-procurement-publ",
+      "parentId": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice",
+      "title": "Case Studies: Tenders, Public Procurement, Whistleblowing, and Anti-Corruption",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+        "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.whistleblower-protection-mechanisms"
+      ]
+    }
+  ]
+}

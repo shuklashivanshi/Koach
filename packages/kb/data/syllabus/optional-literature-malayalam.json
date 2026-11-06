@@ -1,0 +1,141 @@
+{
+  "paper": "optional:literature-malayalam",
+  "title": "Literature of Malayalam",
+  "nodes": [
+    {
+      "id": "opt.literature-malayalam",
+      "parentId": null,
+      "title": "Literature of Malayalam",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p1",
+      "parentId": "opt.literature-malayalam",
+      "title": "Literature of Malayalam · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p1.t01",
+      "parentId": "opt.literature-malayalam.p1",
+      "title": "Early phase of Malayalam Language, origin theories and relation with Tamil",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p1.t02",
+      "parentId": "opt.literature-malayalam.p1",
+      "title": "Linguistic features of Manipravalam, folklore traditions and early Malayalam prose",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p1.t03",
+      "parentId": "opt.literature-malayalam.p1",
+      "title": "Standardisation of Malayalam language and contributions of missionaries and media",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p1.t04",
+      "parentId": "opt.literature-malayalam.p1",
+      "title": "Ancient and Medieval Literature including Pattu, Manipravalam, and Folk Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p1.t05",
+      "parentId": "opt.literature-malayalam.p1",
+      "title": "Modern Malayalam Literature in Poetry from Venmani poets to Modernism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p1.t06",
+      "parentId": "opt.literature-malayalam.p1",
+      "title": "Modern Malayalam Literature in Prose covering Drama, Novel, and Short Story",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p2",
+      "parentId": "opt.literature-malayalam",
+      "title": "Literature of Malayalam · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p2.t01",
+      "parentId": "opt.literature-malayalam.p2",
+      "title": "Unit 1: Prescribed Early and Medieval Poetic Texts for First-hand Reading",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p2.t02",
+      "parentId": "opt.literature-malayalam.p2",
+      "title": "Unit 2: Prescribed Modern Malayalam Romantic Poetic Works for Critical Analysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p2.t03",
+      "parentId": "opt.literature-malayalam.p2",
+      "title": "Unit 3: Prescribed Contemporary Malayalam Poetry Texts for Detailed Critical Study",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p2.t04",
+      "parentId": "opt.literature-malayalam.p2",
+      "title": "Unit 4: Prescribed Malayalam Classic Novels for First-hand Reading and Study",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p2.t05",
+      "parentId": "opt.literature-malayalam.p2",
+      "title": "Unit 5: Prescribed Modern Short Story Collections and Drama in Malayalam",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-malayalam.p2.t06",
+      "parentId": "opt.literature-malayalam.p2",
+      "title": "Unit 6: Prescribed Malayalam Critical Prose, Literary Essays, and Autobiographical Works",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

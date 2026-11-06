@@ -1,0 +1,105 @@
+{
+  "paper": "optional:literature-marathi",
+  "title": "Literature of Marathi",
+  "nodes": [
+    {
+      "id": "opt.literature-marathi",
+      "parentId": null,
+      "title": "Literature of Marathi",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-marathi.p1",
+      "parentId": "opt.literature-marathi",
+      "title": "Literature of Marathi · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-marathi.p1.t01",
+      "parentId": "opt.literature-marathi.p1",
+      "title": "Nature and Functions of Language and linguistic features of Marathi",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-marathi.p1.t02",
+      "parentId": "opt.literature-marathi.p1",
+      "title": "Dialects of Marathi: Ahirani, Varhadi and Dangi",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-marathi.p1.t03",
+      "parentId": "opt.literature-marathi.p1",
+      "title": "Marathi Grammar: Parts of Speech, Case-system and Prayog-vichar",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-marathi.p1.t04",
+      "parentId": "opt.literature-marathi.p1",
+      "title": "Nature and kinds of Folk-lore with special reference to Marathi",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-marathi.p1.t05",
+      "parentId": "opt.literature-marathi.p1",
+      "title": "History of Marathi Literature from beginning to 1990",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-marathi.p1.t06",
+      "parentId": "opt.literature-marathi.p1",
+      "title": "Literary Criticism: Nature, objectives, evaluation, culture and society",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-marathi.p2",
+      "parentId": "opt.literature-marathi",
+      "title": "Literature of Marathi · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-marathi.p2.t01",
+      "parentId": "opt.literature-marathi.p2",
+      "title": "Textual study of prescribed literary works: Prose selections",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-marathi.p2.t02",
+      "parentId": "opt.literature-marathi.p2",
+      "title": "Textual study of prescribed literary works: Poetry selections",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

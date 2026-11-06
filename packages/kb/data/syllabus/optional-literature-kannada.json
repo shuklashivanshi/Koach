@@ -1,0 +1,105 @@
+{
+  "paper": "optional:literature-kannada",
+  "title": "Literature of Kannada",
+  "nodes": [
+    {
+      "id": "opt.literature-kannada",
+      "parentId": null,
+      "title": "Literature of Kannada",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kannada.p1",
+      "parentId": "opt.literature-kannada",
+      "title": "Literature of Kannada · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kannada.p1.t01",
+      "parentId": "opt.literature-kannada.p1",
+      "title": "Section A: History and General Characteristics of Kannada Language and Its Dialects",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kannada.p1.t02",
+      "parentId": "opt.literature-kannada.p1",
+      "title": "Section A: History of Kannada Literature across Ancient, Medieval and Modern Periods",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kannada.p1.t03",
+      "parentId": "opt.literature-kannada.p1",
+      "title": "Section B: Poetics and Literary Criticism including Rasa Sutra and Modern Trends",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kannada.p1.t04",
+      "parentId": "opt.literature-kannada.p1",
+      "title": "Section B: Cultural History of Karnataka, Dynasties, Religious Contributions and Regional Arts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kannada.p2",
+      "parentId": "opt.literature-kannada",
+      "title": "Literature of Kannada · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kannada.p2.t01",
+      "parentId": "opt.literature-kannada.p2",
+      "title": "Section A: Old Kannada Literature Prescribed Texts of Pampa and Vaddaraadhane",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kannada.p2.t02",
+      "parentId": "opt.literature-kannada.p2",
+      "title": "Section A: Medieval Kannada Literature Prescribed Works of Vachana, Dasa and Epic Poets",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kannada.p2.t03",
+      "parentId": "opt.literature-kannada.p2",
+      "title": "Section B: Modern Kannada Literature Prescribed Poetry, Novel, Drama, and Prose Works",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-kannada.p2.t04",
+      "parentId": "opt.literature-kannada.p2",
+      "title": "Section B: Folk Literature Prescribed Anthologies, Folk Tales, Songs and Riddles",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

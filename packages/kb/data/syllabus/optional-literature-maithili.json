@@ -1,0 +1,105 @@
+{
+  "paper": "optional:literature-maithili",
+  "title": "Literature of Maithili",
+  "nodes": [
+    {
+      "id": "opt.literature-maithili",
+      "parentId": null,
+      "title": "Literature of Maithili",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-maithili.p1",
+      "parentId": "opt.literature-maithili",
+      "title": "Literature of Maithili · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-maithili.p1.t01",
+      "parentId": "opt.literature-maithili.p1",
+      "title": "Part A: Place of Maithili in Indo-European language family and historical development",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-maithili.p1.t02",
+      "parentId": "opt.literature-maithili.p1",
+      "title": "Part A: Periodic division, major dialects and Tirhuta script of Maithili language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-maithili.p1.t03",
+      "parentId": "opt.literature-maithili.p1",
+      "title": "Part A: Grammatical structure covering pronouns and verbs in Maithili language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-maithili.p1.t04",
+      "parentId": "opt.literature-maithili.p1",
+      "title": "Part B: Background, periodic division, Pre-Vidyapati literature and Vidyapati tradition",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-maithili.p1.t05",
+      "parentId": "opt.literature-maithili.p1",
+      "title": "Part B: Medieval Maithili drama and folk literature of Maithili culture",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-maithili.p1.t06",
+      "parentId": "opt.literature-maithili.p1",
+      "title": "Part B: Development of modern literary forms, magazines and journals in Maithili",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-maithili.p2",
+      "parentId": "opt.literature-maithili",
+      "title": "Literature of Maithili · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-maithili.p2.t01",
+      "parentId": "opt.literature-maithili.p2",
+      "title": "Part A: Prescribed Ancient, Medieval and Modern Maithili Poetry Texts for Study",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-maithili.p2.t02",
+      "parentId": "opt.literature-maithili.p2",
+      "title": "Part B: Prescribed Maithili Prose, Drama, Novels, and Short Story Collections",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "paper": "optional:chemistry",
+  "title": "Chemistry",
+  "nodes": [
+    {
+      "id": "opt.chemistry",
+      "parentId": null,
+      "title": "Chemistry",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1",
+      "parentId": "opt.chemistry",
+      "title": "Chemistry · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t01",
+      "parentId": "opt.chemistry.p1",
+      "title": "Atomic Structure",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t02",
+      "parentId": "opt.chemistry.p1",
+      "title": "Chemical Bonding",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t03",
+      "parentId": "opt.chemistry.p1",
+      "title": "Solid State",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t04",
+      "parentId": "opt.chemistry.p1",
+      "title": "The Gaseous State and Transport Phenomenon",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t05",
+      "parentId": "opt.chemistry.p1",
+      "title": "Liquid State",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t06",
+      "parentId": "opt.chemistry.p1",
+      "title": "Thermodynamics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t07",
+      "parentId": "opt.chemistry.p1",
+      "title": "Phase Equilibria and Solutions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t08",
+      "parentId": "opt.chemistry.p1",
+      "title": "Electrochemistry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t09",
+      "parentId": "opt.chemistry.p1",
+      "title": "Chemical Kinetics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t10",
+      "parentId": "opt.chemistry.p1",
+      "title": "Photochemistry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t11",
+      "parentId": "opt.chemistry.p1",
+      "title": "Surface Phenomena and Catalysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t12",
+      "parentId": "opt.chemistry.p1",
+      "title": "Bio-Inorganic Chemistry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t13",
+      "parentId": "opt.chemistry.p1",
+      "title": "Coordination Chemistry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t14",
+      "parentId": "opt.chemistry.p1",
+      "title": "Main Group Chemistry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p1.t15",
+      "parentId": "opt.chemistry.p1",
+      "title": "General Chemistry of f Block Elements",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p2",
+      "parentId": "opt.chemistry",
+      "title": "Chemistry · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p2.t01",
+      "parentId": "opt.chemistry.p2",
+      "title": "Delocalised Covalent Bonding",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p2.t02",
+      "parentId": "opt.chemistry.p2",
+      "title": "Reaction Mechanisms and Reactive Intermediates",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p2.t03",
+      "parentId": "opt.chemistry.p2",
+      "title": "Pericyclic Reactions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p2.t04",
+      "parentId": "opt.chemistry.p2",
+      "title": "Preparation and Properties of Polymers and Biopolymers",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p2.t05",
+      "parentId": "opt.chemistry.p2",
+      "title": "Synthetic Uses of Reagents",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p2.t06",
+      "parentId": "opt.chemistry.p2",
+      "title": "Photochemistry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.chemistry.p2.t07",
+      "parentId": "opt.chemistry.p2",
+      "title": "Spectroscopy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

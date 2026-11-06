@@ -1,0 +1,123 @@
+{
+  "paper": "optional:botany",
+  "title": "Botany",
+  "nodes": [
+    {
+      "id": "opt.botany",
+      "parentId": null,
+      "title": "Botany",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p1",
+      "parentId": "opt.botany",
+      "title": "Botany · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p1.t01",
+      "parentId": "opt.botany.p1",
+      "title": "Microbiology and Plant Pathology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p1.t02",
+      "parentId": "opt.botany.p1",
+      "title": "Cryptogams",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p1.t03",
+      "parentId": "opt.botany.p1",
+      "title": "Phanerogams",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p1.t04",
+      "parentId": "opt.botany.p1",
+      "title": "Plant Resource Development",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p1.t05",
+      "parentId": "opt.botany.p1",
+      "title": "Morphogenesis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p2",
+      "parentId": "opt.botany",
+      "title": "Botany · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p2.t01",
+      "parentId": "opt.botany.p2",
+      "title": "Cell Biology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p2.t02",
+      "parentId": "opt.botany.p2",
+      "title": "Genetics, Molecular Biology and Evolution",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p2.t03",
+      "parentId": "opt.botany.p2",
+      "title": "Plant Breeding, Biotechnology and Biostatistics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p2.t04",
+      "parentId": "opt.botany.p2",
+      "title": "Physiology and Biochemistry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.botany.p2.t05",
+      "parentId": "opt.botany.p2",
+      "title": "Ecology and Plant Geography",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "paper": "optional:literature-nepali",
+  "title": "Literature of Nepali",
+  "nodes": [
+    {
+      "id": "opt.literature-nepali",
+      "parentId": null,
+      "title": "Literature of Nepali",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p1",
+      "parentId": "opt.literature-nepali",
+      "title": "Literature of Nepali · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p1.t01",
+      "parentId": "opt.literature-nepali.p1",
+      "title": "History of origin and development of Nepali language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p1.t02",
+      "parentId": "opt.literature-nepali.p1",
+      "title": "Fundamentals of Nepali Grammar and phonology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p1.t03",
+      "parentId": "opt.literature-nepali.p1",
+      "title": "Major Dialects, Standardisation and Modernisation of Nepali language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p1.t04",
+      "parentId": "opt.literature-nepali.p1",
+      "title": "Teaching of Nepali language in India and socio-cultural aspects",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p1.t05",
+      "parentId": "opt.literature-nepali.p1",
+      "title": "History of Nepali literature with special reference to development in India",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p1.t06",
+      "parentId": "opt.literature-nepali.p1",
+      "title": "Fundamental concepts, theories of literature and literary genres",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p1.t07",
+      "parentId": "opt.literature-nepali.p1",
+      "title": "Major literary trends, contemporary writings and Nepali folklores",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p2",
+      "parentId": "opt.literature-nepali",
+      "title": "Literature of Nepali · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p2.t01",
+      "parentId": "opt.literature-nepali.p2",
+      "title": "Textual criticism of prescribed Nepali Poetry and Plays",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-nepali.p2.t02",
+      "parentId": "opt.literature-nepali.p2",
+      "title": "Textual criticism of prescribed Nepali Fiction and Essays",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "paper": "optional:public-administration",
+  "title": "Public Administration",
+  "nodes": [
+    {
+      "id": "opt.public-administration",
+      "parentId": null,
+      "title": "Public Administration",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p1",
+      "parentId": "opt.public-administration",
+      "title": "Public Administration · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p1.t01",
+      "parentId": "opt.public-administration.p1",
+      "title": "Administrative Theory: Introduction, Administrative Thought, and Administrative Behaviour",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p1.t02",
+      "parentId": "opt.public-administration.p1",
+      "title": "Organisations, Accountability and Control, Administrative Law, and Comparative Public Administration",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p1.t03",
+      "parentId": "opt.public-administration.p1",
+      "title": "Development Dynamics, Personnel Administration, Public Policy, and Improvement Techniques",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p1.t04",
+      "parentId": "opt.public-administration.p1",
+      "title": "Financial Administration: Monetary and Fiscal Policies, Budgets, and Audits",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p2",
+      "parentId": "opt.public-administration",
+      "title": "Public Administration · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p2.t01",
+      "parentId": "opt.public-administration.p2",
+      "title": "Evolution, Philosophical and Constitutional Framework of Government",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p2.t02",
+      "parentId": "opt.public-administration.p2",
+      "title": "Public Sector Undertakings, Union and State Government Administration",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p2.t03",
+      "parentId": "opt.public-administration.p2",
+      "title": "Plans and Priorities, District Administration, and Civil Services",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p2.t04",
+      "parentId": "opt.public-administration.p2",
+      "title": "Financial Management, Administrative Reforms, Rural and Urban Local Government",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.public-administration.p2.t05",
+      "parentId": "opt.public-administration.p2",
+      "title": "Law and Order Administration, and Significant Issues in Indian Administration",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

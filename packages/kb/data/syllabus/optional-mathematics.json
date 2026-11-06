@@ -1,0 +1,150 @@
+{
+  "paper": "optional:mathematics",
+  "title": "Mathematics",
+  "nodes": [
+    {
+      "id": "opt.mathematics",
+      "parentId": null,
+      "title": "Mathematics",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p1",
+      "parentId": "opt.mathematics",
+      "title": "Mathematics · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p1.t01",
+      "parentId": "opt.mathematics.p1",
+      "title": "Linear Algebra: Vector spaces, linear transformations, matrices and eigenvalues",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p1.t02",
+      "parentId": "opt.mathematics.p1",
+      "title": "Calculus: Functions of several variables, integrals and indeterminate forms",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p1.t03",
+      "parentId": "opt.mathematics.p1",
+      "title": "Analytic Geometry: Three dimensional geometry, lines, planes and conicoids",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p1.t04",
+      "parentId": "opt.mathematics.p1",
+      "title": "Ordinary Differential Equations: First and higher order equations and Laplace transforms",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p1.t05",
+      "parentId": "opt.mathematics.p1",
+      "title": "Dynamics and Statics: Motion of particles, equilibrium, friction and catenary",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p1.t06",
+      "parentId": "opt.mathematics.p1",
+      "title": "Vector Analysis: Scalar and vector fields, differential operators and integral theorems",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p2",
+      "parentId": "opt.mathematics",
+      "title": "Mathematics · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p2.t01",
+      "parentId": "opt.mathematics.p2",
+      "title": "Algebra: Groups, subgroups, homomorphisms, rings, integral domains and fields",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p2.t02",
+      "parentId": "opt.mathematics.p2",
+      "title": "Real Analysis: Sequences, series, Riemann integrals and uniform convergence",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p2.t03",
+      "parentId": "opt.mathematics.p2",
+      "title": "Complex Analysis: Analytic functions, Cauchy integral theorem, series and residue",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p2.t04",
+      "parentId": "opt.mathematics.p2",
+      "title": "Linear Programming: Simplex method, duality, transportation and assignment problems",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p2.t05",
+      "parentId": "opt.mathematics.p2",
+      "title": "Partial Differential Equations: Quasilinear first order, second order equations and boundary values",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p2.t06",
+      "parentId": "opt.mathematics.p2",
+      "title": "Numerical Analysis and Computer Programming: Numerical methods, interpolation and programming",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.mathematics.p2.t07",
+      "parentId": "opt.mathematics.p2",
+      "title": "Mechanics and Fluid Dynamics: Generalised coordinates, D Alembert principle and fluid flows",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

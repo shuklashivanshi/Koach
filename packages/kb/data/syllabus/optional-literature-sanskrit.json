@@ -1,0 +1,96 @@
+{
+  "paper": "optional:literature-sanskrit",
+  "title": "Literature of Sanskrit",
+  "nodes": [
+    {
+      "id": "opt.literature-sanskrit",
+      "parentId": null,
+      "title": "Literature of Sanskrit",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-sanskrit.p1",
+      "parentId": "opt.literature-sanskrit",
+      "title": "Literature of Sanskrit · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-sanskrit.p1.t01",
+      "parentId": "opt.literature-sanskrit.p1",
+      "title": "Significant grammatical features of Sanskrit: Sanjna, Sandhi, Karaka, Samasa and Vacyas",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-sanskrit.p1.t02",
+      "parentId": "opt.literature-sanskrit.p1",
+      "title": "Main characteristics of Vedic, Classical Sanskrit and linguistic studies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-sanskrit.p1.t03",
+      "parentId": "opt.literature-sanskrit.p1",
+      "title": "General knowledge of Sanskrit literary history, epics and literary genres",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-sanskrit.p1.t04",
+      "parentId": "opt.literature-sanskrit.p1",
+      "title": "Essentials of Indian Culture and principal trends of Indian Philosophy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-sanskrit.p1.t05",
+      "parentId": "opt.literature-sanskrit.p1",
+      "title": "Short Essay and Unseen reading passage in Sanskrit",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-sanskrit.p2",
+      "parentId": "opt.literature-sanskrit",
+      "title": "Literature of Sanskrit · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-sanskrit.p2.t01",
+      "parentId": "opt.literature-sanskrit.p2",
+      "title": "General study of prescribed Mahakavyas, Rupakas, Upanishads and classic texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-sanskrit.p2.t02",
+      "parentId": "opt.literature-sanskrit.p2",
+      "title": "First-hand reading and critical examination of selected Sanskrit texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

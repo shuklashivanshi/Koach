@@ -1,0 +1,150 @@
+{
+  "paper": "optional:literature-bodo",
+  "title": "Literature of Bodo",
+  "nodes": [
+    {
+      "id": "opt.literature-bodo",
+      "parentId": null,
+      "title": "Literature of Bodo",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1",
+      "parentId": "opt.literature-bodo",
+      "title": "Literature of Bodo · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t01",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section A (1): Homeland, Language Family and Mutual Contact with Assamese Language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t02",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section A (2): Phonemic Inventory of Bodo: Vowels, Consonants and Tone Systems",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t03",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section A (3): Morphology of Bodo: Gender, Number, Case Endings and Suffixes",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t04",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section A (4): Classification of Bodo Vocabulary and Its Indigenous and Borrowed Sources",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t05",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section A (5): Bodo Syntax: Sentence Structures, Clause Types and Word Order",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t06",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section A (6): Historical Evolution of Scripts Used for Writing the Bodo Language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t07",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section B (1): General Survey and Analysis of Bodo Folk Oral Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t08",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section B (2): Role and Contribution of Christian Missionaries in Bodo Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t09",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section B (3): Periodization and Evolutionary Trends in History of Bodo Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t10",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section B (4): Critical Analysis of Different Literary Genres in Bodo",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p1.t11",
+      "parentId": "opt.literature-bodo.p1",
+      "title": "Section B (5): Origin, Growth and Significance of Translation Literature in Bodo",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p2",
+      "parentId": "opt.literature-bodo",
+      "title": "Literature of Bodo · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p2.t01",
+      "parentId": "opt.literature-bodo.p2",
+      "title": "Section A: Textual Study of Prescribed Early and Classical Bodo Texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bodo.p2.t02",
+      "parentId": "opt.literature-bodo.p2",
+      "title": "Section B: Textual Study of Prescribed Modern Bodo Poetry, Prose and Fiction",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

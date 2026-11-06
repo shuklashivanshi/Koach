@@ -1,0 +1,150 @@
+{
+  "paper": "optional:zoology",
+  "title": "Zoology",
+  "nodes": [
+    {
+      "id": "opt.zoology",
+      "parentId": null,
+      "title": "Zoology",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p1",
+      "parentId": "opt.zoology",
+      "title": "Zoology · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p1.t01",
+      "parentId": "opt.zoology.p1",
+      "title": "1. Non-chordata and Chordata: Classification, Morphology, Life Cycles and Comparative Anatomy",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p1.t02",
+      "parentId": "opt.zoology.p1",
+      "title": "2. Ecology: Biosphere, Ecosystems, Population Dynamics, Wildlife and Conservation of Natural Resources",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p1.t03",
+      "parentId": "opt.zoology.p1",
+      "title": "3. Ethology: Biological Rhythms, Animal Behaviour, Sociobiology and Orientation Mechanisms",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p1.t04",
+      "parentId": "opt.zoology.p1",
+      "title": "4. Economic Zoology: Apiculture, Sericulture, Pests, Diseases and Medical Biotechnology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p1.t05",
+      "parentId": "opt.zoology.p1",
+      "title": "5. Biostatistics: Experimental Design, Hypothesis Testing, Correlation, Regression and Variance Analysis",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p1.t06",
+      "parentId": "opt.zoology.p1",
+      "title": "6. Instrumentation Methods: Microscopy, Spectroscopy, Centrifugation, Chromatography and Molecular Diagnostic Tools",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p2",
+      "parentId": "opt.zoology",
+      "title": "Zoology · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p2.t01",
+      "parentId": "opt.zoology.p2",
+      "title": "1. Cell Biology: Organelle Structure, Membrane Transport, Cell Division and Molecular Cytology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p2.t02",
+      "parentId": "opt.zoology.p2",
+      "title": "2. Genetics: Heredity, Gene Regulation, Chromosomal Aberrations, Mutation and Recombinant DNA Technology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p2.t03",
+      "parentId": "opt.zoology.p2",
+      "title": "3. Evolution: Origin of Life, Theories, Natural Selection, Speciation and Fossil Records",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p2.t04",
+      "parentId": "opt.zoology.p2",
+      "title": "4. Systematics: International Zoological Nomenclature, Cladistics, Taxonomic Hierarchy and Biodiversity",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p2.t05",
+      "parentId": "opt.zoology.p2",
+      "title": "5. Biochemistry: Biomolecules, Metabolic Pathways, Bioenergetics, Enzymes, Hormones and Immunology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p2.t06",
+      "parentId": "opt.zoology.p2",
+      "title": "6. Physiology: Mammalian Respiration, Circulation, Digestion, Excretion, Neurobiology and Muscular Action",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.zoology.p2.t07",
+      "parentId": "opt.zoology.p2",
+      "title": "7. Developmental Biology: Gametogenesis, Embryonic Induction, Morphogenesis, Teratogenesis and Stem Cells",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

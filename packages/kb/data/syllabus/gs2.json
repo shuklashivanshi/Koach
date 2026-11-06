@@ -1,0 +1,2121 @@
+{
+  "paper": "gs2",
+  "title": "PAPER-III General Studies- II: Governance, Constitution, Polity, Social Justice and International relations",
+  "nodes": [
+    {
+      "id": "gs2",
+      "parentId": null,
+      "title": "PAPER-III General Studies- II: Governance, Constitution, Polity, Social Justice and International relations",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity",
+      "parentId": "gs2",
+      "title": "Indian Constitution and Polity: Foundations and Framework",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution",
+      "parentId": "gs2.indian-constitution-and-polity",
+      "title": "Historical Underpinnings and Evolution",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constitutional-experiments-pre-1947",
+      "parentId": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution",
+      "title": "Constitutional Experiments Under British Rule (Acts of 1773 to 1947)",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constituent-assembly-debates-and-making",
+      "parentId": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution",
+      "title": "Making of the Constitution and Constituent Assembly Debates",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constitutional-experiments-pre-1947"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.sources-and-borrowed-features",
+      "parentId": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution",
+      "title": "Sources of the Indian Constitution and Indigenous Contributions",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constituent-assembly-debates-and-making"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy",
+      "parentId": "gs2.indian-constitution-and-polity",
+      "title": "Preamble, Territory and Citizenship",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.preamble-philosophy-and-significance",
+      "parentId": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy",
+      "title": "Preamble: Philosophical Foundations, Keywords and Legal Status",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constituent-assembly-debates-and-making"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.union-and-territory-integration",
+      "parentId": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy",
+      "title": "Union and its Territory, Reorganisation of States (Art 1 to 4)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.citizenship-constitutional-provisions-an",
+      "parentId": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy",
+      "title": "Citizenship: Constitutional Scheme, Citizenship Act and NRC/CAA Issues",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.union-and-territory-integration"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "parentId": "gs2.indian-constitution-and-polity",
+      "title": "Fundamental Rights",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13",
+      "parentId": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "title": "Concept of State and Judicial Review (Articles 12 and 13)",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.preamble-philosophy-and-significance"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-equality-art-14-18",
+      "parentId": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "title": "Right to Equality and Affirmative Action (Articles 14 to 18)",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights.freedom-of-speech-and-expression-art-19",
+      "parentId": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "title": "Freedom of Speech, Press and Reasonable Restrictions (Article 19)",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights.protection-in-respect-of-conviction-art-",
+      "parentId": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "title": "Protection in Respect of Conviction for Offences (Article 20)",
+      "kind": "node",
+      "estMinutes": 40,
+      "prelims": true,
+      "mains": false,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-life-and-personal-liberty-art-2",
+      "parentId": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "title": "Right to Life, Personal Liberty and Privacy (Article 21)",
+      "kind": "node",
+      "estMinutes": 80,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.fundamental-rights.protection-in-respect-of-conviction-art-"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights.preventive-detention-and-safeguards-art-",
+      "parentId": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "title": "Protection Against Arrest and Preventive Detention (Article 22)",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.fundamental-rights.right-to-life-and-personal-liberty-art-2"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-against-exploitation-art-23-24",
+      "parentId": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "title": "Right Against Exploitation: Forced Labour and Child Labour (Articles 23 and 24)",
+      "kind": "node",
+      "estMinutes": 40,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights.freedom-of-religion-and-secularism-art-2",
+      "parentId": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "title": "Freedom of Religion and Indian Secularism (Articles 25 to 28)",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights.cultural-and-educational-rights-art-29-3",
+      "parentId": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "title": "Minority Educational and Cultural Rights (Articles 29 and 30)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.fundamental-rights.constitutional-remedies-and-writs-art-32",
+      "parentId": "gs2.indian-constitution-and-polity.fundamental-rights",
+      "title": "Right to Constitutional Remedies and High Court Writs (Articles 32 and 226)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties",
+      "parentId": "gs2.indian-constitution-and-polity",
+      "title": "Directive Principles and Fundamental Duties",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.dpsp-classification-and-ideologies",
+      "parentId": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties",
+      "title": "Directive Principles of State Policy: Classification, Enforceability and Implementation",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.conflict-between-fr-and-dpsp",
+      "parentId": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties",
+      "title": "Evolution of Balance and Judicial Harmonisation Between FR and DPSP",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13",
+        "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.dpsp-classification-and-ideologies"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.fundamental-duties-and-civic-culture",
+      "parentId": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties",
+      "title": "Fundamental Duties: Moral Significance, Legal Enforcement and Verma Committee",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure",
+      "parentId": "gs2.indian-constitution-and-polity",
+      "title": "Amendment and Basic Structure Doctrine",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.procedure-for-constitutional-amendment-a",
+      "parentId": "gs2.indian-constitution-and-polity.amendment-and-basic-structure",
+      "title": "Amendment of the Constitution: Types, Procedure and Limitations (Article 368)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.evolution-of-basic-structure-doctrine",
+      "parentId": "gs2.indian-constitution-and-polity.amendment-and-basic-structure",
+      "title": "Evolution of Basic Structure Doctrine: Shankari Prasad to Minerva Mills",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.amendment-and-basic-structure.procedure-for-constitutional-amendment-a",
+        "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.conflict-between-fr-and-dpsp"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.significant-constitutional-amendments",
+      "parentId": "gs2.indian-constitution-and-polity.amendment-and-basic-structure",
+      "title": "Major Constitutional Amendments (42nd, 44th, 86th, 91st, 99th, 101st to 106th)",
+      "kind": "node",
+      "estMinutes": 80,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.amendment-and-basic-structure.procedure-for-constitutional-amendment-a"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati",
+      "parentId": "gs2.indian-constitution-and-polity",
+      "title": "Federalism and Inter-State Relations",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism",
+      "parentId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati",
+      "title": "Nature of Indian Federalism: Quasi-Federal, Cooperative, Competitive and Asymmetric",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.legislative-and-administrative-relations",
+      "parentId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati",
+      "title": "Union-State Legislative and Administrative Relations (Articles 245 to 263)",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.financial-relations-and-fiscal-federalis",
+      "parentId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati",
+      "title": "Union-State Financial Relations: Tax Devolution, Grants-in-Aid and GST Council",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.inter-state-disputes-and-councils",
+      "parentId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati",
+      "title": "Inter-State River Water Disputes and Inter-State Council Mechanisms",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.legislative-and-administrative-relations"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.emergency-provisions-and-federal-impact",
+      "parentId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati",
+      "title": "National, State and Financial Emergencies: Grounds and Federal Impact",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.special-provisions-and-scheduled-areas",
+      "parentId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati",
+      "title": "Special Provisions for States (Art 371) and Fifth and Sixth Schedule Administration",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution",
+      "parentId": "gs2.indian-constitution-and-polity",
+      "title": "Local Self-Government",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment",
+      "parentId": "gs2.indian-constitution-and-polity.local-governance-and-devolution",
+      "title": "Panchayati Raj Institutions: 73rd Constitutional Amendment Act Provisions and Structure",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.urban-local-bodies-74th-amendment",
+      "parentId": "gs2.indian-constitution-and-polity.local-governance-and-devolution",
+      "title": "Urban Local Governance: 74th Amendment Act, Municipal Reforms and Smart Cities",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.pesa-act-and-tribal-self-rule",
+      "parentId": "gs2.indian-constitution-and-polity.local-governance-and-devolution",
+      "title": "Panchayats (Extension to Scheduled Areas) Act (PESA), 1996 and Tribal Self-Rule",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment",
+        "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.special-provisions-and-scheduled-areas"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.challenges-in-devolution-3fs",
+      "parentId": "gs2.indian-constitution-and-polity.local-governance-and-devolution",
+      "title": "Challenges in Devolution of Funds, Functions and Functionaries to Local Bodies",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment",
+        "gs2.indian-constitution-and-polity.local-governance-and-devolution.urban-local-bodies-74th-amendment"
+      ]
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.constitutional-comparison",
+      "parentId": "gs2.indian-constitution-and-polity",
+      "title": "Comparison of Constitutional Schemes",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-kingdom",
+      "parentId": "gs2.indian-constitution-and-polity.constitutional-comparison",
+      "title": "Comparison of Indian and UK Constitutions: Parliamentary Sovereignty vs Constitutional Supremacy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-states",
+      "parentId": "gs2.indian-constitution-and-polity.constitutional-comparison",
+      "title": "Comparison of Indian and US Constitutions: Presidential vs Parliamentary and Federal Systems",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-france-germany",
+      "parentId": "gs2.indian-constitution-and-polity.constitutional-comparison",
+      "title": "Comparison with France (Semi-Presidentialism/Secularism) and Germany (Basic Law/Cooperative Federalism)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-other-democracies",
+      "parentId": "gs2.indian-constitution-and-polity.constitutional-comparison",
+      "title": "Comparison with South Africa, Australia and Canada on Federalism and Rights",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state",
+      "parentId": "gs2",
+      "title": "Organs of State: Executive, Legislature and Judiciary",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.union-and-state-executive",
+      "parentId": "gs2.organs-of-state",
+      "title": "Union and State Executive",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.union-and-state-executive.president-election-powers-and-impeachmen",
+      "parentId": "gs2.organs-of-state.union-and-state-executive",
+      "title": "President of India: Election Process, Constitutional Powers, Pardoning and Discretion",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.union-and-state-executive.vice-president-role-and-removal",
+      "parentId": "gs2.organs-of-state.union-and-state-executive",
+      "title": "Vice-President: Functions, Election and Role as Chairman of Rajya Sabha",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.union-and-state-executive.governor-constitutional-role-and-discret",
+      "parentId": "gs2.organs-of-state.union-and-state-executive",
+      "title": "Governor: Constitutional Powers, Discretionary Authority and Federal Frictions",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.union-and-state-executive.prime-minister-and-chief-minister",
+      "parentId": "gs2.organs-of-state.union-and-state-executive",
+      "title": "Prime Minister and Chief Minister: Role, Powers and Coalition Dynamics",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet",
+      "parentId": "gs2.organs-of-state.union-and-state-executive",
+      "title": "Union and State Council of Ministers: Collective Responsibility and Cabinet Committees",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.union-and-state-executive.president-election-powers-and-impeachmen"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.union-and-state-executive.cabinet-secretariat-and-pmo",
+      "parentId": "gs2.organs-of-state.union-and-state-executive",
+      "title": "Cabinet Secretariat, Prime Minister's Office (PMO) and Central Secretariat",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet",
+        "gs2.organs-of-state.union-and-state-executive.prime-minister-and-chief-minister"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "parentId": "gs2.organs-of-state",
+      "title": "Parliament and State Legislatures",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.composition-and-tenure-of-parliament",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "Composition, Qualifications and Delimitation of Lok Sabha and Rajya Sabha",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.presiding-officers-speaker-and-chairman",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "Speaker of Lok Sabha and Chairman of Rajya Sabha: Powers, Neutrality and Controversies",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.parliament-and-state-legislatures.composition-and-tenure-of-parliament"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.legislative-procedure-and-types-of-bills",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "Legislative Procedure: Ordinary, Money, Financial and Constitutional Amendment Bills",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.parliament-and-state-legislatures.composition-and-tenure-of-parliament"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.joint-sitting-and-ordinance-making-power",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "Joint Sitting of Parliament (Art 108) and Ordinance-Making Powers (Art 123 and 213)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.parliament-and-state-legislatures.legislative-procedure-and-types-of-bills"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.budgetary-process-in-parliament",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "Enactment of Budget, Cut Motions, Guillotine and Control Over Public Finance",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.parliament-and-state-legislatures.legislative-procedure-and-types-of-bills"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.parliamentary-committees-system",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "Parliamentary Standing and Ad-hoc Committees: PAC, Estimates, COPU and DRSCs",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.parliament-and-state-legislatures.legislative-procedure-and-types-of-bills"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.parliamentary-privileges-and-codificatio",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "Parliamentary Privileges, Codification Debate and Freedom of Speech in the House",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.rajya-sabha-significance-and-powers",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "Rajya Sabha: Federal Utility, Special Powers and Issues of Bicameralism",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.anti-defection-law-tenth-schedule",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "Tenth Schedule and Anti-Defection Law: Grounds, Exceptions and Judicial Scrutiny",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.parliament-and-state-legislatures.presiding-officers-speaker-and-chairman"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.state-legislative-assemblies-and-council",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "State Legislatures: Structure, Unicameralism vs Bicameralism and Legislative Councils",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.parliament-and-state-legislatures.composition-and-tenure-of-parliament"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.parliament-and-state-legislatures.decline-of-parliament-and-reforms",
+      "parentId": "gs2.organs-of-state.parliament-and-state-legislatures",
+      "title": "Issues in Legislative Functioning: Disruptions, Delegated Legislation and Productivity Reforms",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "parentId": "gs2.organs-of-state",
+      "title": "Judiciary and Dispute Redressal Mechanisms",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.supreme-court-composition-and-jurisdicti",
+      "parentId": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "title": "Supreme Court of India: Original, Writ, Appellate and Advisory Jurisdictions",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-appointments-collegium-system",
+      "parentId": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "title": "Appointment and Transfer of Judges: Three Judges Cases, Collegium System and NJAC Debate",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.judiciary-and-dispute-redressal.supreme-court-composition-and-jurisdicti"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.removal-and-conduct-of-judges",
+      "parentId": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "title": "Impeachment and Removal Procedure of Superior Judges and Judicial Conduct Standards",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.judiciary-and-dispute-redressal.supreme-court-composition-and-jurisdicti"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.high-courts-and-subordinate-judiciary",
+      "parentId": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "title": "High Courts and Subordinate Judiciary: Powers, Jurisdiction and All India Judicial Service",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.judiciary-and-dispute-redressal.supreme-court-composition-and-jurisdicti"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-review-and-constitutional-court",
+      "parentId": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "title": "Doctrine of Judicial Review: Constitutional Basis and Boundaries",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13",
+        "gs2.organs-of-state.judiciary-and-dispute-redressal.supreme-court-composition-and-jurisdicti"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-activism-vs-judicial-overreach",
+      "parentId": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "title": "Judicial Activism vs Judicial Overreach: Separation of Powers and Court Pronouncements",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-review-and-constitutional-court"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.public-interest-litigation-pil",
+      "parentId": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "title": "Public Interest Litigation (PIL): Origin, Evolution, Procedural Relaxation and Misuse",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.fundamental-rights.constitutional-remedies-and-writs-art-32",
+        "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-activism-vs-judicial-overreach"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-delays-and-pendency-of-cases",
+      "parentId": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "title": "Pendency, Vacancies, Access to Justice and Alternative Dispute Resolution (Lok Adalats)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.tribunals-and-quasi-judicial-bodies",
+      "parentId": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "title": "Administrative and Specialized Tribunals: Articles 323A and 323B and Regulatory Independence",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.contempt-of-court-and-free-speech",
+      "parentId": "gs2.organs-of-state.judiciary-and-dispute-redressal",
+      "title": "Contempt of Court: Civil vs Criminal Contempt, Scandalizing the Court and Freedom of Speech",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.indian-constitution-and-polity.fundamental-rights.freedom-of-speech-and-expression-art-19",
+        "gs2.organs-of-state.judiciary-and-dispute-redressal.supreme-court-composition-and-jurisdicti"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.elections-and-rpa",
+      "parentId": "gs2.organs-of-state",
+      "title": "Elections and Representation of the People",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1950",
+      "parentId": "gs2.organs-of-state.elections-and-rpa",
+      "title": "Representation of the People Act, 1950: Electoral Rolls, Qualifications and Delimitation",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1951",
+      "parentId": "gs2.organs-of-state.elections-and-rpa",
+      "title": "Representation of the People Act, 1951: Conduct of Elections, Disqualifications and Corrupt Practices",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1950"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.elections-and-rpa.electoral-reforms-and-criminalisation-of",
+      "parentId": "gs2.organs-of-state.elections-and-rpa",
+      "title": "Electoral Reforms: Criminalisation of Politics, Decoupling Money Power and Law Commission Proposals",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.constitutional-and-statutory-bodies.constitutional-bodies.election-commission-of-india",
+        "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1951"
+      ]
+    },
+    {
+      "id": "gs2.organs-of-state.elections-and-rpa.political-funding-and-transparency",
+      "parentId": "gs2.organs-of-state.elections-and-rpa",
+      "title": "Political Party Funding: Electoral Bonds, Corporate Donations, State Funding and FCRA",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.organs-of-state.elections-and-rpa.model-code-of-conduct-and-ec-powers",
+      "parentId": "gs2.organs-of-state.elections-and-rpa",
+      "title": "Model Code of Conduct: Nature, Legal Backing Debate and EC Powers Under Article 324",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.constitutional-and-statutory-bodies.constitutional-bodies.election-commission-of-india"
+      ]
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies",
+      "parentId": "gs2",
+      "title": "Constitutional, Statutory and Regulatory Bodies",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies",
+      "parentId": "gs2.constitutional-and-statutory-bodies",
+      "title": "Constitutional Bodies",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.election-commission-of-india",
+      "parentId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies",
+      "title": "Election Commission of India: Structure, Autonomy, Appointment Reforms and Functions",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.union-and-state-public-service-commissio",
+      "parentId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies",
+      "title": "UPSC and State PSCs: Composition, Independence, Advisory Role and Disciplinary Functions",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.finance-commission-mandate-and-terms",
+      "parentId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies",
+      "title": "Finance Commission: Composition, Principles of Tax Devolution and Terms of Reference",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.comptroller-and-auditor-general-of-india",
+      "parentId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies",
+      "title": "Comptroller and Auditor General of India (CAG): Mandate, Auditing Powers and Reports",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.national-commissions-sc-st-bc",
+      "parentId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies",
+      "title": "National Commissions for SCs, STs and BCs: Composition, Powers and Safeguards",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.attorney-general-and-advocate-general",
+      "parentId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies",
+      "title": "Attorney General of India and Advocate General of State: Appointment, Rights and Duties",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.special-officer-for-linguistic-minoritie",
+      "parentId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies",
+      "title": "Special Officer for Linguistic Minorities: Constitutional Mandate and Annual Reports",
+      "kind": "node",
+      "estMinutes": 35,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies",
+      "parentId": "gs2.constitutional-and-statutory-bodies",
+      "title": "Statutory and Human Rights Bodies",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-human-rights-commission-nhrc",
+      "parentId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies",
+      "title": "NHRC and State HRCs: Structure, Investigative Powers, Limitations and Paris Principles",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.central-information-commission-cic",
+      "parentId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies",
+      "title": "Central and State Information Commissions: Composition, RTI Appeals and Autonomy",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.governance-and-public-administration.governance-transparency-accountability.right-to-information-act-implementation"
+      ]
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.central-vigilance-commission-cvc",
+      "parentId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies",
+      "title": "Central Vigilance Commission (CVC): Jurisdiction, Powers and Anti-Corruption Role",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.lokpal-and-lokayuktas",
+      "parentId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies",
+      "title": "Lokpal and Lokayuktas Act, 2013: Jurisdiction, Selection Process and Operational Efficacy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.central-bureau-of-investigation-cbi",
+      "parentId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies",
+      "title": "CBI: Statutory Basis, General Consent Issue, CVC Supervision and Autonomy Challenges",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.central-vigilance-commission-cvc"
+      ]
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-investigation-agency-nia",
+      "parentId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies",
+      "title": "National Investigation Agency (NIA): Mandate, Amendments and Federal Implications",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-commissions-women-children-mino",
+      "parentId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies",
+      "title": "National Commission for Women, Protection of Child Rights (NCPCR) and Minorities",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies",
+      "parentId": "gs2.constitutional-and-statutory-bodies",
+      "title": "Regulatory and Environmental Bodies",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.national-green-tribunal-ngt",
+      "parentId": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies",
+      "title": "National Green Tribunal: Composition, Principles of Environmental Justice and Jurisprudence",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.competition-commission-of-india-cci",
+      "parentId": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies",
+      "title": "Competition Commission of India (CCI): Anti-Trust Enforcement and Consumer Welfare",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.telecom-and-electricity-regulators",
+      "parentId": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies",
+      "title": "Sectoral Regulators: Telecom Regulatory Authority of India (TRAI) and CERC/SERCs",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.food-safety-and-standards-authority-fssa",
+      "parentId": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies",
+      "title": "Food Safety and Standards Authority of India (FSSAI): Standards and Enforcement Mechanisms",
+      "kind": "node",
+      "estMinutes": 40,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.unique-identification-authority-uidai",
+      "parentId": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies",
+      "title": "UIDAI and Aadhaar Regulatory Framework: Privacy Safeguards and Statutory Backing",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration",
+      "parentId": "gs2",
+      "title": "Governance, Accountability and Civil Services",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.governance-transparency-accountability",
+      "parentId": "gs2.governance-and-public-administration",
+      "title": "Important Aspects of Governance and Accountability",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance",
+      "parentId": "gs2.governance-and-public-administration.governance-transparency-accountability",
+      "title": "Good Governance: Core Characteristics, Citizen-Centric Administration and 2nd ARC",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.governance-transparency-accountability.right-to-information-act-implementation",
+      "parentId": "gs2.governance-and-public-administration.governance-transparency-accountability",
+      "title": "Right to Information Act, 2005: Provisions, Exemptions, Implementation Bottlenecks and Amendments",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance"
+      ]
+    },
+    {
+      "id": "gs2.governance-and-public-administration.governance-transparency-accountability.citizens-charters-formulation-and-effica",
+      "parentId": "gs2.governance-and-public-administration.governance-transparency-accountability",
+      "title": "Citizens' Charters: Design Principles, Sevottam Model and Implementation Shortcomings",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.governance-transparency-accountability.social-audit-mechanisms",
+      "parentId": "gs2.governance-and-public-administration.governance-transparency-accountability",
+      "title": "Social Audit: Methodology, Statutory Mandate in MGNREGA and Meghalaya Model",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance"
+      ]
+    },
+    {
+      "id": "gs2.governance-and-public-administration.governance-transparency-accountability.whistleblower-protection-and-ombudsman",
+      "parentId": "gs2.governance-and-public-administration.governance-transparency-accountability",
+      "title": "Whistle Blowers Protection Act and Grievance Redressal Mechanisms in Public Delivery",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.e-governance",
+      "parentId": "gs2.governance-and-public-administration",
+      "title": "E-Governance: Models and Applications",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.e-governance.e-governance-concepts-and-models",
+      "parentId": "gs2.governance-and-public-administration.e-governance",
+      "title": "E-Governance: Stages, G2G, G2C, G2B and G2E Delivery Models",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.e-governance.major-e-governance-initiatives-in-india",
+      "parentId": "gs2.governance-and-public-administration.e-governance",
+      "title": "Digital India, NeGP, Direct Benefit Transfer (DBT) and Unified Public Platforms",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.governance-and-public-administration.e-governance.e-governance-concepts-and-models"
+      ]
+    },
+    {
+      "id": "gs2.governance-and-public-administration.e-governance.e-governance-successes-and-best-practice",
+      "parentId": "gs2.governance-and-public-administration.e-governance",
+      "title": "State-Level E-Governance Best Practices: Bhoomi, MeeSeva and PRAGATI Platform",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.governance-and-public-administration.e-governance.major-e-governance-initiatives-in-india"
+      ]
+    },
+    {
+      "id": "gs2.governance-and-public-administration.e-governance.limitations-and-challenges-of-e-governan",
+      "parentId": "gs2.governance-and-public-administration.e-governance",
+      "title": "Challenges in E-Governance: Digital Divide, Cybersecurity, Data Privacy and Exclusion Errors",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.governance-and-public-administration.e-governance.major-e-governance-initiatives-in-india"
+      ]
+    },
+    {
+      "id": "gs2.governance-and-public-administration.role-of-civil-services",
+      "parentId": "gs2.governance-and-public-administration",
+      "title": "Role of Civil Services in a Democracy",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.role-of-civil-services.civil-services-constitutional-framework",
+      "parentId": "gs2.governance-and-public-administration.role-of-civil-services",
+      "title": "Constitutional Safeguards for Civil Servants: Article 311 and DoPT Regulations",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.role-of-civil-services.evolution-and-role-in-democracy",
+      "parentId": "gs2.governance-and-public-administration.role-of-civil-services",
+      "title": "Role of Higher Civil Services in Policy Formulation, Implementation and National Integration",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.role-of-civil-services.civil-service-neutrality-vs-commitment",
+      "parentId": "gs2.governance-and-public-administration.role-of-civil-services",
+      "title": "Neutrality, Anonymity and the Debate on Committed Bureaucracy and Politicisation",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.governance-and-public-administration.role-of-civil-services.evolution-and-role-in-democracy"
+      ]
+    },
+    {
+      "id": "gs2.governance-and-public-administration.role-of-civil-services.lateral-entry-and-specialisation",
+      "parentId": "gs2.governance-and-public-administration.role-of-civil-services",
+      "title": "Lateral Entry into Bureaucracy: Rationales, Merits, Demerits and Structural Reforms",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.governance-and-public-administration.role-of-civil-services.evolution-and-role-in-democracy"
+      ]
+    },
+    {
+      "id": "gs2.governance-and-public-administration.role-of-civil-services.second-arc-and-administrative-reforms",
+      "parentId": "gs2.governance-and-public-administration.role-of-civil-services",
+      "title": "Major Administrative Reforms: Second ARC Recommendations and Mission Karmayogi",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.governance-and-public-administration.role-of-civil-services.evolution-and-role-in-democracy"
+      ]
+    },
+    {
+      "id": "gs2.governance-and-public-administration.development-processes-and-civil-society",
+      "parentId": "gs2.governance-and-public-administration",
+      "title": "Development Industry and Civil Society Stakeholders",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.role-of-ngos-in-development",
+      "parentId": "gs2.governance-and-public-administration.development-processes-and-civil-society",
+      "title": "Non-Governmental Organisations (NGOs): Role in Service Delivery, Advocacy and Grassroots Mobilisation",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.regulation-of-ngos-and-fcra",
+      "parentId": "gs2.governance-and-public-administration.development-processes-and-civil-society",
+      "title": "Regulatory Framework for NGOs: Foreign Contribution Regulation Act (FCRA) and Compliance",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.governance-and-public-administration.development-processes-and-civil-society.role-of-ngos-in-development"
+      ]
+    },
+    {
+      "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.self-help-groups-and-rural-empowerment",
+      "parentId": "gs2.governance-and-public-administration.development-processes-and-civil-society",
+      "title": "Self-Help Groups (SHGs): Microfinance, NRLM, Kudumbashree and Women's Empowerment",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.pressure-groups-and-associations",
+      "parentId": "gs2.governance-and-public-administration.development-processes-and-civil-society",
+      "title": "Pressure Groups: Types, Techniques of Lobbying and Role in Indian Policy Making",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.csr-and-philanthropy-in-development",
+      "parentId": "gs2.governance-and-public-administration.development-processes-and-civil-society",
+      "title": "Corporate Social Responsibility (CSR) Framework and Role of Donor Agencies",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare",
+      "parentId": "gs2",
+      "title": "Social Justice: Welfare Schemes, Social Sector, Poverty and Hunger",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections",
+      "parentId": "gs2.social-justice-and-welfare",
+      "title": "Welfare Schemes and Institutional Protections for Vulnerable Sections",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.protection-of-scheduled-castes-and-dalit",
+      "parentId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections",
+      "title": "Scheduled Castes: Constitutional Safeguards, PoA Act, 1989 and Special Component Plan",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.protection-of-scheduled-tribes-and-fra",
+      "parentId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections",
+      "title": "Scheduled Tribes: Forest Rights Act, 2006, Tribal Sub-Plan and Minor Forest Produce",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+      "parentId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections",
+      "title": "Women Empowerment: Protection of Women from Domestic Violence Act, POSH Act and Maternity Benefit",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.child-rights-and-juvenile-justice",
+      "parentId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections",
+      "title": "Child Protection Framework: POCSO Act, Juvenile Justice Act and National Child Policy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.differently-abled-persons-welfare",
+      "parentId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections",
+      "title": "Rights of Persons with Disabilities Act, 2016 and Accessible India Campaign",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.senior-citizens-and-elderly-care",
+      "parentId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections",
+      "title": "Welfare of Senior Citizens: Maintenance and Welfare of Parents Act and Pension Schemes",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.minorities-and-transgender-rights",
+      "parentId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections",
+      "title": "Welfare of Religious/Linguistic Minorities and Transgender Persons (Protection of Rights) Act",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.performance-and-critique-of-welfare-sche",
+      "parentId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections",
+      "title": "Design, Implementation Bottlenecks and Last-Mile Leakages in Centrally Sponsored Schemes",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.health-sector",
+      "parentId": "gs2.social-justice-and-welfare",
+      "title": "Health Sector and Management",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea",
+      "parentId": "gs2.social-justice-and-welfare.health-sector",
+      "title": "Public Health Infrastructure, Center-State Jurisdiction and National Health Policy 2017",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.health-sector.ayushman-bharat-and-universal-health-cov",
+      "parentId": "gs2.social-justice-and-welfare.health-sector",
+      "title": "Ayushman Bharat (PM-JAY), Health and Wellness Centres and Path to Universal Healthcare",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea"
+      ]
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.health-sector.out-of-pocket-expenditure-and-drug-prici",
+      "parentId": "gs2.social-justice-and-welfare.health-sector",
+      "title": "Affordable Healthcare: Out-of-Pocket Expenditure, Jan Aushadhi and NPPA Price Regulation",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.health-sector.disease-burden-and-epidemic-preparedness",
+      "parentId": "gs2.social-justice-and-welfare.health-sector",
+      "title": "Communicable vs Non-Communicable Disease Burden and Epidemic Management Infrastructure",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.health-sector.mental-healthcare-and-digital-health",
+      "parentId": "gs2.social-justice-and-welfare.health-sector",
+      "title": "Mental Healthcare Act, 2017, Tele-Mental Health and Ayushman Bharat Digital Mission",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.education-sector",
+      "parentId": "gs2.social-justice-and-welfare",
+      "title": "Education Sector and Human Resources",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.education-sector.right-to-education-act-and-elementary-ed",
+      "parentId": "gs2.social-justice-and-welfare.education-sector",
+      "title": "Right to Education Act, 2009: Learning Deficits, Dropout Rates and Samagra Shiksha",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.education-sector.national-education-policy-2020-school",
+      "parentId": "gs2.social-justice-and-welfare.education-sector",
+      "title": "National Education Policy 2020: Foundational Literacy, Numeracy and Structural Reforms",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.social-justice-and-welfare.education-sector.right-to-education-act-and-elementary-ed"
+      ]
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.education-sector.higher-education-reforms-and-heci",
+      "parentId": "gs2.social-justice-and-welfare.education-sector",
+      "title": "Higher Education: Gross Enrolment Ratio, Autonomy, Research Ecosystem and HECI Proposed Structure",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.social-justice-and-welfare.education-sector.national-education-policy-2020-school"
+      ]
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.education-sector.vocational-education-and-skill-developme",
+      "parentId": "gs2.social-justice-and-welfare.education-sector",
+      "title": "Skill Development Ecosystem: Skill India Mission, Apprenticeship and Employability Gaps",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.education-sector.human-capital-index-and-demographic-divi",
+      "parentId": "gs2.social-justice-and-welfare.education-sector",
+      "title": "Leveraging India's Demographic Dividend: Human Development Index and Labor Market Mismatches",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.poverty-and-hunger",
+      "parentId": "gs2.social-justice-and-welfare",
+      "title": "Issues Relating to Poverty and Hunger",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.poverty-and-hunger.poverty-estimation-and-committees",
+      "parentId": "gs2.social-justice-and-welfare.poverty-and-hunger",
+      "title": "Poverty Lines and Estimation Methodologies: Tendulkar, Rangarajan and NITI Aayog Multidimensional Poverty Index",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.poverty-and-hunger.food-security-architecture-and-nfsa",
+      "parentId": "gs2.social-justice-and-welfare.poverty-and-hunger",
+      "title": "National Food Security Act (NFSA), 2013: Coverage, Entitlements and Target Identification",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.poverty-and-hunger.public-distribution-system-and-reforms",
+      "parentId": "gs2.social-justice-and-welfare.poverty-and-hunger",
+      "title": "Targeted PDS: Buffer Stocks, FCI Operation, Leakages, One Nation One Ration Card and DBT Debate",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.social-justice-and-welfare.poverty-and-hunger.food-security-architecture-and-nfsa"
+      ]
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.poverty-and-hunger.hunger-and-malnutrition-challenges",
+      "parentId": "gs2.social-justice-and-welfare.poverty-and-hunger",
+      "title": "Malnutrition Metrics: Stunting, Wasting, Hidden Hunger, Anemia and Global Hunger Index",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.poverty-and-hunger.poshan-abhiyaan-and-icds",
+      "parentId": "gs2.social-justice-and-welfare.poverty-and-hunger",
+      "title": "POSHAn Abhiyaan, Mission Saksham Anganwadi and Integrated Child Development Services (ICDS)",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.social-justice-and-welfare.poverty-and-hunger.hunger-and-malnutrition-challenges"
+      ]
+    },
+    {
+      "id": "gs2.social-justice-and-welfare.poverty-and-hunger.urban-poverty-and-social-safety-nets",
+      "parentId": "gs2.social-justice-and-welfare.poverty-and-hunger",
+      "title": "Urban Poverty, Informal Sector Vulnerabilities and Livelihood Missions (DAY-NULM and MGNREGA)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations",
+      "parentId": "gs2",
+      "title": "International Relations and Global Affairs",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.indias-neighborhood",
+      "parentId": "gs2.international-relations",
+      "title": "India and its Neighborhood Relations",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.indias-neighborhood.india-pakistan-relations",
+      "parentId": "gs2.international-relations.indias-neighborhood",
+      "title": "India-Pakistan: Historical Conflicts, Cross-Border Terrorism, Indus Waters Treaty and Trade Freeze",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.indias-neighborhood.india-china-relations",
+      "parentId": "gs2.international-relations.indias-neighborhood",
+      "title": "India-China: Border Disputes (LAC), Water Security, Trade Imbalance and Strategic Competition",
+      "kind": "node",
+      "estMinutes": 80,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.indias-neighborhood.india-bangladesh-relations",
+      "parentId": "gs2.international-relations.indias-neighborhood",
+      "title": "India-Bangladesh: Land Boundary Agreement, Teesta Dispute, Connectivity and Cross-Border Security",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.indias-neighborhood.india-nepal-relations",
+      "parentId": "gs2.international-relations.indias-neighborhood",
+      "title": "India-Nepal: Treaty of Peace and Friendship, Kalapani Dispute, Hydropower Cooperation and Madhesi Issue",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.indias-neighborhood.india-bhutan-relations",
+      "parentId": "gs2.international-relations.indias-neighborhood",
+      "title": "India-Bhutan: Hydropower Partnership, Friendship Treaty and Security Cooperation (Doklam)",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.indias-neighborhood.india-sri-lanka-relations",
+      "parentId": "gs2.international-relations.indias-neighborhood",
+      "title": "India-Sri Lanka: Fishermen Issue, 13th Amendment, Economic Assistance and Maritime Security",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.indias-neighborhood.india-maldives-relations",
+      "parentId": "gs2.international-relations.indias-neighborhood",
+      "title": "India-Maldives: Strategic Importance in IOR, Infrastructure Projects, Security Ties and Shifts",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.indias-neighborhood.india-myanmar-and-afghanistan",
+      "parentId": "gs2.international-relations.indias-neighborhood",
+      "title": "India-Myanmar (Act East and Border Security) and India-Afghanistan (Development Aid and Taliban Engagement)",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.indias-neighborhood.neighborhood-first-and-sagardoctrine",
+      "parentId": "gs2.international-relations.indias-neighborhood",
+      "title": "Neighborhood First Policy, SAGAR Doctrine and Project Mausam",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.bilateral-relations-with-major-powers",
+      "parentId": "gs2.international-relations",
+      "title": "Bilateral Relations with Major Powers and Regions",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-united-states-strategic-partnershi",
+      "parentId": "gs2.international-relations.bilateral-relations-with-major-powers",
+      "title": "Indo-US Partnership: Civil Nuclear Deal, Foundational Defence Agreements (LEMOA, COMCASA, BECA) and iCET",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-russia-strategic-ties",
+      "parentId": "gs2.international-relations.bilateral-relations-with-major-powers",
+      "title": "India-Russia Relations: Defence Procurement, Energy Security, Multipolarity and Ukraine War Impact",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-european-union-ties",
+      "parentId": "gs2.international-relations.bilateral-relations-with-major-powers",
+      "title": "India-EU Partnership: Trade and Technology Council, Bilateral Trade and Investment Agreement and Climate Ties",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-japan-strategic-cooperation",
+      "parentId": "gs2.international-relations.bilateral-relations-with-major-powers",
+      "title": "India-Japan Special Strategic and Global Partnership: Bullet Train, Infrastructure and Indo-Pacific Synergies",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-west-asia-link-west",
+      "parentId": "gs2.international-relations.bilateral-relations-with-major-powers",
+      "title": "India and West Asia: Abraham Accords, Energy Security, Remittances and Look West Policy",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-central-asia-outreach",
+      "parentId": "gs2.international-relations.bilateral-relations-with-major-powers",
+      "title": "Connect Central Asia: INSTC, Chabahar Port and Strategic Uranium Supply",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-africa-development-partnership",
+      "parentId": "gs2.international-relations.bilateral-relations-with-major-powers",
+      "title": "India-Africa Relations: South-South Cooperation, Duty-Free Tariff Preference and Capacity Building",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-latin-america-and-caribbean",
+      "parentId": "gs2.international-relations.bilateral-relations-with-major-powers",
+      "title": "India-Latin America: Trade Diversification, Critical Minerals (Lithium Triangle) and Energy",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.regional-and-global-groupings",
+      "parentId": "gs2.international-relations",
+      "title": "Regional and Global Groupings and Agreements",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.regional-and-global-groupings.quad-and-indo-pacific-architecture",
+      "parentId": "gs2.international-relations.regional-and-global-groupings",
+      "title": "The Quad (India, US, Japan, Australia): Maritime Security, Critical Technologies and Indo-Pacific Strategy",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.international-relations.bilateral-relations-with-major-powers.india-japan-strategic-cooperation",
+        "gs2.international-relations.bilateral-relations-with-major-powers.india-united-states-strategic-partnershi"
+      ]
+    },
+    {
+      "id": "gs2.international-relations.regional-and-global-groupings.i2u2-and-imac-corridors",
+      "parentId": "gs2.international-relations.regional-and-global-groupings",
+      "title": "I2U2 Grouping and India-Middle East-Europe Economic Corridor (IMEC): Geoeconomic Significance",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.regional-and-global-groupings.brics-expansion-and-multipolarity",
+      "parentId": "gs2.international-relations.regional-and-global-groupings",
+      "title": "BRICS: De-dollarization, New Development Bank, Expansion and Geopolitical Balancing",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.regional-and-global-groupings.shanghai-cooperation-organisation-sco",
+      "parentId": "gs2.international-relations.regional-and-global-groupings",
+      "title": "SCO: Regional Anti-Terrorist Structure (RATS), Eurasian Connectivity and Strategic Constraints",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.regional-and-global-groupings.bimstec-and-saarc-dynamics",
+      "parentId": "gs2.international-relations.regional-and-global-groupings",
+      "title": "BIMSTEC vs SAARC: Sub-regional Integration, Bay of Bengal Security and Connectivity Plans",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.regional-and-global-groupings.asean-and-act-east-policy",
+      "parentId": "gs2.international-relations.regional-and-global-groupings",
+      "title": "India-ASEAN Strategic Partnership: Free Trade Agreement Review, Maritime Ties and Act East Evolution",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.regional-and-global-groupings.g20-and-voice-of-global-south",
+      "parentId": "gs2.international-relations.regional-and-global-groupings",
+      "title": "India's G20 Presidency: New Delhi Declaration, African Union Induction and Global South Leadership",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.regional-and-global-groupings.indian-ocean-rim-association-iora",
+      "parentId": "gs2.international-relations.regional-and-global-groupings",
+      "title": "IORA and Indian Ocean Naval Symposium (IONS): Blue Economy and Regional Maritime Safety",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.developed-developing-politics-and-diaspo",
+      "parentId": "gs2.international-relations",
+      "title": "Policies of Other Countries and the Indian Diaspora",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.developed-developing-politics-and-diaspo.us-visa-and-trade-policies",
+      "parentId": "gs2.international-relations.developed-developing-politics-and-diaspo",
+      "title": "Impact of US Domestic Politics on India: H-1B Visa Regime, Generalized System of Preferences and Tariffs",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.developed-developing-politics-and-diaspo.chinas-belt-and-road-initiative",
+      "parentId": "gs2.international-relations.developed-developing-politics-and-diaspo",
+      "title": "China's Belt and Road Initiative (BRI), String of Pearls and Debt-Trap Diplomacy: Implications for India",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.developed-developing-politics-and-diaspo.western-carbon-taxes-and-wto-disputes",
+      "parentId": "gs2.international-relations.developed-developing-politics-and-diaspo",
+      "title": "EU Carbon Border Adjustment Mechanism (CBAM) and Global Trade Protectionism: Effects on Indian Exports",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.developed-developing-politics-and-diaspo.indian-diaspora-profile-and-remittances",
+      "parentId": "gs2.international-relations.developed-developing-politics-and-diaspo",
+      "title": "Indian Diaspora: Demographic Profile, Remittances, Pravasi Bharatiya Diwas and Crisis Evacuation Operations",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.developed-developing-politics-and-diaspo.diaspora-political-and-soft-power",
+      "parentId": "gs2.international-relations.developed-developing-politics-and-diaspo",
+      "title": "Diaspora as Soft Power: Political Lobbying, Cultural Diplomacy and Intellectual Capital Transfer",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs2.international-relations.developed-developing-politics-and-diaspo.indian-diaspora-profile-and-remittances"
+      ]
+    },
+    {
+      "id": "gs2.international-relations.international-institutions-and-agencies",
+      "parentId": "gs2.international-relations",
+      "title": "International Institutions, Agencies and Fora",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.international-institutions-and-agencies.united-nations-structure-and-reforms",
+      "parentId": "gs2.international-relations.international-institutions-and-agencies",
+      "title": "United Nations: General Assembly, UNSC Reform Debate, G4 Push and Permanent Seat for India",
+      "kind": "node",
+      "estMinutes": 65,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.international-institutions-and-agencies.un-peacekeeping-and-india",
+      "parentId": "gs2.international-relations.international-institutions-and-agencies",
+      "title": "UN Peacekeeping Operations: Principles, Funding Crisis and India's Historic Troop Contributions",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs2.international-relations.international-institutions-and-agencies.united-nations-structure-and-reforms"
+      ]
+    },
+    {
+      "id": "gs2.international-relations.international-institutions-and-agencies.bretton-woods-institutions-imf-and-world",
+      "parentId": "gs2.international-relations.international-institutions-and-agencies",
+      "title": "IMF and World Bank: Governance Architecture, Quota Reforms and Development Financing Role",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.international-institutions-and-agencies.world-trade-organization-and-india",
+      "parentId": "gs2.international-relations.international-institutions-and-agencies",
+      "title": "WTO: Appellate Body Crisis, Agreement on Agriculture, Public Stockholding and Special and Differential Treatment",
+      "kind": "node",
+      "estMinutes": 70,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.international-institutions-and-agencies.world-health-organization-who",
+      "parentId": "gs2.international-relations.international-institutions-and-agencies",
+      "title": "World Health Organization: Structure, Pandemic Treaty, International Health Regulations and Funding Reforms",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.international-institutions-and-agencies.international-court-of-justice-and-icc",
+      "parentId": "gs2.international-relations.international-institutions-and-agencies",
+      "title": "International Court of Justice (ICJ) and International Criminal Court (ICC): Jurisdiction and Key Cases",
+      "kind": "node",
+      "estMinutes": 50,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs2.international-relations.international-institutions-and-agencies.nuclear-and-export-control-regimes",
+      "parentId": "gs2.international-relations.international-institutions-and-agencies",
+      "title": "Export Control Regimes: NSG, MTCR, Wassenaar Arrangement and Australia Group (India's Status)",
+      "kind": "node",
+      "estMinutes": 55,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

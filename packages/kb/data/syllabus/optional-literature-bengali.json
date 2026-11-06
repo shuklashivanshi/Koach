@@ -1,0 +1,222 @@
+{
+  "paper": "optional:literature-bengali",
+  "title": "Literature of Bengali",
+  "nodes": [
+    {
+      "id": "opt.literature-bengali",
+      "parentId": null,
+      "title": "Literature of Bengali",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1",
+      "parentId": "opt.literature-bengali",
+      "title": "Literature of Bengali · Paper I",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t01",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section A (1): Chronological Track from Proto Indo-European to Bangla Language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t02",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section A (2): Historical Stages of Bangla and Their Prominent Linguistic Features",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t03",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section A (3): Dialects of Bangla and Their Distinguishing Linguistic Characteristics",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t04",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section A (4): Elements of Bangla Vocabulary and Lexical Stock Classification",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t05",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section A (5): Historical Forms of Bangla Literary Prose: Sadhu and Chalit",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t06",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section A (6): Processes of Phonological and Morphological Language Change in Bangla",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t07",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section A (7): Standardization and Reform of Alphabet, Spelling, Transliteration and Romanization",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t08",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section A (8): Phonology, Morphology and Syntax of Modern Bengali Language",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t09",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (1): Periodization of Bangla Literature: Old Bangla and Middle Bangla",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t10",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (2): Points of Difference Between Modern and Pre-Modern Bangla Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t11",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (3): Roots and Reasons Behind Emergence of Modernity in Bangla",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t12",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (4): Evolution of Middle Bangla Mangal Kavyas, Lyrics and Narratives",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t13",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (5): Secular Literary Traditions and Forms in Middle Bangla Literature",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t14",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (6): Narrative and Lyric Trends in Nineteenth-Century Bangla Poetry",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t15",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (7): Genesis and Development of Literary Prose in Modern Bangla",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t16",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (8): Evolution of Bangla Dramatic Literature from Nineteenth Century Onward",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t17",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (9): Literary Contributions of Rabindranath Tagore and Post-Tagorean Modern Authors",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t18",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (10): Major Fiction Writers in Modern Bangla Literature and Novels",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p1.t19",
+      "parentId": "opt.literature-bengali.p1",
+      "title": "Section B (11): Women in Bangla Literature: Creators and Literary Characters Created",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p2",
+      "parentId": "opt.literature-bengali",
+      "title": "Literature of Bengali · Paper II",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p2.t01",
+      "parentId": "opt.literature-bengali.p2",
+      "title": "Section A: In-depth Study of Prescribed Early, Medieval and Nineteenth-Century Texts",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "opt.literature-bengali.p2.t02",
+      "parentId": "opt.literature-bengali.p2",
+      "title": "Section B: In-depth Study of Prescribed Modern Plays, Novels and Short Stories",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    }
+  ]
+}

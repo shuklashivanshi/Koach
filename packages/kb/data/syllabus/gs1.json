@@ -1,0 +1,2744 @@
+{
+  "paper": "gs1",
+  "title": "PAPER-II General Studies-I: Indian Heritage and Culture, History and Geography of the World and Society",
+  "nodes": [
+    {
+      "id": "gs1",
+      "parentId": null,
+      "title": "PAPER-II General Studies-I: Indian Heritage and Culture, History and Geography of the World and Society",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture",
+      "parentId": "gs1",
+      "title": "Indian Heritage and Culture",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture",
+      "parentId": "gs1.art-and-culture",
+      "title": "Architecture and Sculpture",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture.harappan-architecture-and-art",
+      "parentId": "gs1.art-and-culture.architecture-and-sculpture",
+      "title": "Harappan Town Planning, Architecture and Sculptures",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture.mauryan-art-and-pillars",
+      "parentId": "gs1.art-and-culture.architecture-and-sculpture",
+      "title": "Mauryan Court Art, Pillars, Rock-Cut Caves and Folk Art",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.architecture-and-sculpture.harappan-architecture-and-art"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture.post-mauryan-sculpture-schools",
+      "parentId": "gs1.art-and-culture.architecture-and-sculpture",
+      "title": "Post-Mauryan Sculpture: Gandhara, Mathura and Amravati Schools",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.architecture-and-sculpture.mauryan-art-and-pillars"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves",
+      "parentId": "gs1.art-and-culture.architecture-and-sculpture",
+      "title": "Buddhist and Jain Rock-Cut Architecture: Chaityas and Viharas",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.architecture-and-sculpture.mauryan-art-and-pillars",
+        "gs1.art-and-culture.literature-religion-philosophy.heterodox-philosophies"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture.nagara-temple-architecture",
+      "parentId": "gs1.art-and-culture.architecture-and-sculpture",
+      "title": "Nagara Style Temple Architecture: Regional Sub-Schools",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture.dravidian-temple-architecture",
+      "parentId": "gs1.art-and-culture.architecture-and-sculpture",
+      "title": "Dravida Style Architecture: Pallavas, Cholas and Vijayanagara",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture.vesara-and-regional-temples",
+      "parentId": "gs1.art-and-culture.architecture-and-sculpture",
+      "title": "Vesara, Hoysala and Himalayan Temple Architecture Styles",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.architecture-and-sculpture.nagara-temple-architecture",
+        "gs1.art-and-culture.architecture-and-sculpture.dravidian-temple-architecture"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture.delhi-sultanate-architecture",
+      "parentId": "gs1.art-and-culture.architecture-and-sculpture",
+      "title": "Indo-Islamic Architecture: Imperial and Provincial Delhi Sultanate",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture.mughal-architecture",
+      "parentId": "gs1.art-and-culture.architecture-and-sculpture",
+      "title": "Mughal Architecture: From Babur to Shah Jahan and Later Developments",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.architecture-and-sculpture.delhi-sultanate-architecture"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.architecture-and-sculpture.post-mughal-and-colonial-architecture",
+      "parentId": "gs1.art-and-culture.architecture-and-sculpture",
+      "title": "Rajput, Deccan and Colonial Architecture: Indo-Saracenic Styles",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.architecture-and-sculpture.mughal-architecture"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.paintings-and-handicrafts",
+      "parentId": "gs1.art-and-culture",
+      "title": "Paintings, Pottery and Handicrafts",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.paintings-and-handicrafts.prehistoric-rock-paintings",
+      "parentId": "gs1.art-and-culture.paintings-and-handicrafts",
+      "title": "Prehistoric Rock Paintings: Bhimbetka and Other Mesolithic Sites",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.paintings-and-handicrafts.ancient-mural-paintings",
+      "parentId": "gs1.art-and-culture.paintings-and-handicrafts",
+      "title": "Indian Mural Paintings: Ajanta, Ellora, Bagh and Sittanavasal",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.paintings-and-handicrafts.prehistoric-rock-paintings"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.paintings-and-handicrafts.miniature-paintings-mughal-deccan",
+      "parentId": "gs1.art-and-culture.paintings-and-handicrafts",
+      "title": "Miniature Traditions: Pala, Apabhramsha, Mughal and Deccani Schools",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.paintings-and-handicrafts.ancient-mural-paintings"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.paintings-and-handicrafts.rajasthani-and-pahari-paintings",
+      "parentId": "gs1.art-and-culture.paintings-and-handicrafts",
+      "title": "Regional Miniatures: Rajasthani and Pahari Painting Schools",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.paintings-and-handicrafts.miniature-paintings-mughal-deccan"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.paintings-and-handicrafts.folk-and-tribal-paintings",
+      "parentId": "gs1.art-and-culture.paintings-and-handicrafts",
+      "title": "Folk Painting Traditions: Madhubani, Pattachitra, Warli, Kalighat and Pithora",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.paintings-and-handicrafts.traditional-textiles-and-handicrafts",
+      "parentId": "gs1.art-and-culture.paintings-and-handicrafts",
+      "title": "Traditional Indian Textiles, Embroideries and GI Tagged Handicrafts",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.performing-arts",
+      "parentId": "gs1.art-and-culture",
+      "title": "Performing Arts",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.performing-arts.indian-classical-music",
+      "parentId": "gs1.art-and-culture.performing-arts",
+      "title": "Indian Classical Music: Hindustani and Carnatic Traditions and Gharanas",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.performing-arts.folk-music-and-musical-instruments",
+      "parentId": "gs1.art-and-culture.performing-arts",
+      "title": "Regional Folk Music and Classification of Musical Instruments",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.performing-arts.classical-dance-forms",
+      "parentId": "gs1.art-and-culture.performing-arts",
+      "title": "Eight Classical Dances: Sangeet Natak Akademi Recognized Styles",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.performing-arts.folk-and-tribal-dances",
+      "parentId": "gs1.art-and-culture.performing-arts",
+      "title": "Prominent Folk and Tribal Dances Across Indian States",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.performing-arts.traditional-theatre-and-puppetry",
+      "parentId": "gs1.art-and-culture.performing-arts",
+      "title": "Traditional Indian Theatre Forms and Puppetry Traditions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.performing-arts.martial-arts-and-circus-traditions",
+      "parentId": "gs1.art-and-culture.performing-arts",
+      "title": "Traditional Martial Arts of India and Intangible Cultural Heritage",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.literature-religion-philosophy",
+      "parentId": "gs1.art-and-culture",
+      "title": "Literature, Philosophy and Religion",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature",
+      "parentId": "gs1.art-and-culture.literature-religion-philosophy",
+      "title": "Vedic Literature, Vedangas, Upavedas and Epics",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.literature-religion-philosophy.classical-sanskrit-and-prakrit-literatur",
+      "parentId": "gs1.art-and-culture.literature-religion-philosophy",
+      "title": "Classical Sanskrit Drama, Poetry, and Prakrit-Pali Literatures",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.literature-religion-philosophy.sangam-and-south-indian-literature",
+      "parentId": "gs1.art-and-culture.literature-religion-philosophy",
+      "title": "Sangam Literature and Medieval Dravidian Literatures",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.art-and-culture.literature-religion-philosophy.persian-urdu-and-bhakti-literature",
+      "parentId": "gs1.art-and-culture.literature-religion-philosophy",
+      "title": "Perso-Arabic, Early Urdu and Vernacular Bhakti-Sufi Literature",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.literature-religion-philosophy.bhakti-and-sufi-movements"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.literature-religion-philosophy.six-schools-of-indian-philosophy",
+      "parentId": "gs1.art-and-culture.literature-religion-philosophy",
+      "title": "Orthodox Schools of Hindu Philosophy: Shad-Darshanas",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.literature-religion-philosophy.heterodox-philosophies",
+      "parentId": "gs1.art-and-culture.literature-religion-philosophy",
+      "title": "Heterodox Traditions: Buddhism, Jainism, Charvaka and Ajivika",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.literature-religion-philosophy.bhakti-and-sufi-movements",
+      "parentId": "gs1.art-and-culture.literature-religion-philosophy",
+      "title": "Socio-Religious Synthesis: Bhakti Saints, Silsilahs and Philosophy",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.art-and-culture.literature-religion-philosophy.six-schools-of-indian-philosophy"
+      ]
+    },
+    {
+      "id": "gs1.art-and-culture.literature-religion-philosophy.ancient-scientific-treatises-and-institu",
+      "parentId": "gs1.art-and-culture.literature-religion-philosophy",
+      "title": "Science, Mathematics, Astronomy and Medicine in Ancient India",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history",
+      "parentId": "gs1",
+      "title": "Modern Indian History and Freedom Struggle",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.mid-18th-century-and-british-expansion",
+      "parentId": "gs1.modern-history",
+      "title": "18th Century India and Colonial Expansion",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.mid-18th-century-and-british-expansion.decline-of-mughals-and-successor-states",
+      "parentId": "gs1.modern-history.mid-18th-century-and-british-expansion",
+      "title": "Decline of the Mughals and Rise of Regional Successor States",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.mid-18th-century-and-british-expansion.anglo-french-carnatic-wars",
+      "parentId": "gs1.modern-history.mid-18th-century-and-british-expansion",
+      "title": "European Commercial Rivalry and Anglo-French Carnatic Wars",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": false,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.mid-18th-century-and-british-expansion.conquest-of-bengal-plassey-buxar",
+      "parentId": "gs1.modern-history.mid-18th-century-and-british-expansion",
+      "title": "British Conquest of Bengal: Battles of Plassey, Buxar and Diwani",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.mid-18th-century-and-british-expansion.decline-of-mughals-and-successor-states",
+        "gs1.modern-history.mid-18th-century-and-british-expansion.anglo-french-carnatic-wars"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.mid-18th-century-and-british-expansion.anglo-mysore-and-anglo-maratha-wars",
+      "parentId": "gs1.modern-history.mid-18th-century-and-british-expansion",
+      "title": "Subjugation of Mysore and the Maratha Confederacy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.mid-18th-century-and-british-expansion.conquest-of-bengal-plassey-buxar"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.mid-18th-century-and-british-expansion.subsidiary-alliance-and-doctrine-of-laps",
+      "parentId": "gs1.modern-history.mid-18th-century-and-british-expansion",
+      "title": "Imperialist Instruments: Subsidiary Alliance and Doctrine of Lapse",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.mid-18th-century-and-british-expansion.anglo-mysore-and-anglo-maratha-wars"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.mid-18th-century-and-british-expansion.annexation-of-sindh-punjab-and-awadh",
+      "parentId": "gs1.modern-history.mid-18th-century-and-british-expansion",
+      "title": "Conquest of Sindh, Anglo-Sikh Wars and Annexation of Awadh",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.mid-18th-century-and-british-expansion.subsidiary-alliance-and-doctrine-of-laps"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.colonial-policies-and-early-resistance",
+      "parentId": "gs1.modern-history",
+      "title": "Colonial Administrative, Economic Impact and Resistance",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.colonial-policies-and-early-resistance.british-land-revenue-systems",
+      "parentId": "gs1.modern-history.colonial-policies-and-early-resistance",
+      "title": "Land Revenue Settlements: Zamindari, Ryotwari and Mahalwari",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.mid-18th-century-and-british-expansion.conquest-of-bengal-plassey-buxar"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.colonial-policies-and-early-resistance.deindustrialization-and-drain-of-wealth",
+      "parentId": "gs1.modern-history.colonial-policies-and-early-resistance",
+      "title": "Economic Critique: Deindustrialization, Commercialization and Drain of Wealth",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.colonial-policies-and-early-resistance.british-land-revenue-systems"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.colonial-policies-and-early-resistance.civil-and-peasant-uprisings-pre-1857",
+      "parentId": "gs1.modern-history.colonial-policies-and-early-resistance",
+      "title": "Early Civil Rebellions and Peasant Movements (1757-1856)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.colonial-policies-and-early-resistance.british-land-revenue-systems"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.colonial-policies-and-early-resistance.tribal-revolts-nineteenth-century",
+      "parentId": "gs1.modern-history.colonial-policies-and-early-resistance",
+      "title": "19th Century Tribal Uprisings: Santhal, Kol, Munda and Khasi Revolts",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.colonial-policies-and-early-resistance.british-land-revenue-systems"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.colonial-policies-and-early-resistance.revolt-of-1857-causes-and-spread",
+      "parentId": "gs1.modern-history.colonial-policies-and-early-resistance",
+      "title": "Revolt of 1857: Causes, Character, Key Leaders and Regional Spread",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.mid-18th-century-and-british-expansion.annexation-of-sindh-punjab-and-awadh",
+        "gs1.modern-history.colonial-policies-and-early-resistance.civil-and-peasant-uprisings-pre-1857"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.colonial-policies-and-early-resistance.post-1857-administrative-changes",
+      "parentId": "gs1.modern-history.colonial-policies-and-early-resistance",
+      "title": "Government of India Act 1858 and Reorganization of Army and Administration",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.colonial-policies-and-early-resistance.revolt-of-1857-causes-and-spread"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.socio-religious-reform-movements",
+      "parentId": "gs1.modern-history",
+      "title": "Socio-Religious Reform Movements",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.socio-religious-reform-movements.raja-ram-mohan-and-bramho-samaj",
+      "parentId": "gs1.modern-history.socio-religious-reform-movements",
+      "title": "Bengal Renaissance, Raja Ram Mohan Roy, Young Bengal and Brahmo Samaj",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.socio-religious-reform-movements.ishwar-chandra-and-prarthana-samaj",
+      "parentId": "gs1.modern-history.socio-religious-reform-movements",
+      "title": "Widow Remarriage Movement, Ishwar Chandra Vidyasagar and Prarthana Samaj",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.socio-religious-reform-movements.raja-ram-mohan-and-bramho-samaj"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.socio-religious-reform-movements.dayanand-saraswati-and-arya-samaj",
+      "parentId": "gs1.modern-history.socio-religious-reform-movements",
+      "title": "Arya Samaj Movement, Shuddhi and DAV Educational Movement",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.socio-religious-reform-movements.raja-ram-mohan-and-bramho-samaj"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.socio-religious-reform-movements.ramakrishna-mission-and-vivekananda",
+      "parentId": "gs1.modern-history.socio-religious-reform-movements",
+      "title": "Ramakrishna Paramahamsa and Swami Vivekananda's Neo-Vedanta",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.socio-religious-reform-movements.raja-ram-mohan-and-bramho-samaj"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.socio-religious-reform-movements.caste-and-lower-caste-reform-movements",
+      "parentId": "gs1.modern-history.socio-religious-reform-movements",
+      "title": "Anti-Caste Movements: Jyotirao Phule, Satyashodhak, Narayana Guru and Periyar",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.socio-religious-reform-movements.muslim-sikh-parsi-reform-movements",
+      "parentId": "gs1.modern-history.socio-religious-reform-movements",
+      "title": "Reform Movements Among Muslims (Aligarh, Deoband), Sikhs and Parsis",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.national-movement-1885-1919",
+      "parentId": "gs1.modern-history",
+      "title": "Rise of Nationalism and Early Phases (1885-1919)",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.national-movement-1885-1919.pre-congress-political-associations",
+      "parentId": "gs1.modern-history.national-movement-1885-1919",
+      "title": "Pre-Congress Political Organizations and Foundation of INC (1885)",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.colonial-policies-and-early-resistance.post-1857-administrative-changes"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.national-movement-1885-1919.moderate-phase-and-economic-critique",
+      "parentId": "gs1.modern-history.national-movement-1885-1919",
+      "title": "Moderate Phase of INC: Ideology, Methods and Constitutional Demands",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.colonial-policies-and-early-resistance.deindustrialization-and-drain-of-wealth",
+        "gs1.modern-history.national-movement-1885-1919.pre-congress-political-associations"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.national-movement-1885-1919.extremist-phase-and-ideological-shift",
+      "parentId": "gs1.modern-history.national-movement-1885-1919",
+      "title": "Rise of Extremism: Ideology of Lal-Bal-Pal and Aurobindo Ghosh",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.national-movement-1885-1919.moderate-phase-and-economic-critique"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.national-movement-1885-1919.partition-of-bengal-and-swadeshi-movemen",
+      "parentId": "gs1.modern-history.national-movement-1885-1919",
+      "title": "Partition of Bengal (1905) and Swadeshi and Boycott Movement",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.national-movement-1885-1919.extremist-phase-and-ideological-shift"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.national-movement-1885-1919.morley-minto-reforms-and-communalism",
+      "parentId": "gs1.modern-history.national-movement-1885-1919",
+      "title": "Surat Split (1907), Formation of Muslim League and Morley-Minto Reforms (1909)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.national-movement-1885-1919.partition-of-bengal-and-swadeshi-movemen"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.national-movement-1885-1919.home-rule-league-movement",
+      "parentId": "gs1.modern-history.national-movement-1885-1919",
+      "title": "Home Rule League Movement: Tilak and Annie Besant",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.national-movement-1885-1919.morley-minto-reforms-and-communalism"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.national-movement-1885-1919.lucknow-pact-and-montagu-declaration",
+      "parentId": "gs1.modern-history.national-movement-1885-1919",
+      "title": "Lucknow Pact (1916), Montagu Declaration and GOI Act 1919",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.national-movement-1885-1919.home-rule-league-movement"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.national-movement-1885-1919.first-phase-revolutionary-activities",
+      "parentId": "gs1.modern-history.national-movement-1885-1919",
+      "title": "Early Revolutionary Activities in Bengal, Maharashtra, Punjab and Abroad",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.national-movement-1885-1919.partition-of-bengal-and-swadeshi-movemen"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "parentId": "gs1.modern-history",
+      "title": "Gandhian Era and Mass Movements (1919-1947)",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.gandhian-philosophy-and-early-experiment",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Satyagraha Philosophy: Champaran, Ahmedabad Mill Strike and Kheda",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.national-movement-1885-1919.lucknow-pact-and-montagu-declaration"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.rowlatt-satyagraha-and-jallianwala-bagh",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Rowlatt Act, Rowlatt Satyagraha and Jallianwala Bagh Massacre",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.gandhian-philosophy-and-early-experiment"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.khilafat-and-non-cooperation-movement",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Khilafat and Non-Cooperation Movement: Spread, Social Base and Chauri Chaura",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.rowlatt-satyagraha-and-jallianwala-bagh"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.swarajists-and-constructive-work",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Swarajists vs No-Changers, Constructive Work and Revolutionary Resurgence (HRA/HSRA)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.khilafat-and-non-cooperation-movement"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.simon-commission-and-nehru-report",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Simon Commission Boycott, Nehru Report and Jinnah's 14 Points",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.swarajists-and-constructive-work"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.civil-disobedience-and-salt-satyagraha",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Lahore Session (Purna Swaraj), Dandi March and Civil Disobedience Movement",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.simon-commission-and-nehru-report"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.round-table-conferences-and-poona-pact",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Round Table Conferences, Gandhi-Irwin Pact, Communal Award and Poona Pact",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.civil-disobedience-and-salt-satyagraha"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.government-of-india-act-1935-and-congres",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Government of India Act 1935, Provincial Elections (1937) and 28-Month Rule",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.round-table-conferences-and-poona-pact"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.left-politics-and-subhas-chandra-bose",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Growth of Socialist/Communist Ideas, Tripuri Crisis and Forward Bloc",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.world-war-two-and-individual-satyagraha",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "WWII Outbreak, Linlithgow Statement, August Offer and Individual Satyagraha",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.government-of-india-act-1935-and-congres"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.cripps-mission-and-quit-india-movement",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Cripps Mission (1942), Quit India Movement, Underground Networks and Parallel Governments",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.world-war-two-and-individual-satyagraha"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.ina-and-subhas-chandra-bose-role",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Indian National Army (INA), Subhas Chandra Bose and INA Trials",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.cripps-mission-and-quit-india-movement",
+        "gs1.modern-history.gandhian-era-and-mass-struggles.left-politics-and-subhas-chandra-bose"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.post-war-national-upsurge-and-rin-mutiny",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Post-War Mass Upsurges and Royal Indian Navy (RIN) Mutiny of 1946",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.ina-and-subhas-chandra-bose-role"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.cabinet-mission-to-partition-plan",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Wavell Plan, Cabinet Mission, Direct Action Day, Mountbatten Plan and Partition",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.post-war-national-upsurge-and-rin-mutiny"
+      ]
+    },
+    {
+      "id": "gs1.modern-history.gandhian-era-and-mass-struggles.women-working-class-and-business-in-free",
+      "parentId": "gs1.modern-history.gandhian-era-and-mass-struggles",
+      "title": "Role of Women, Peasants, Working Class and Capitalists in Freedom Struggle",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.post-independence",
+      "parentId": "gs1",
+      "title": "Post-Independence Consolidation and Reorganization",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.post-independence.nation-building-and-integration",
+      "parentId": "gs1.post-independence",
+      "title": "Nation-Building, Integration and Territorial Reorganization",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.post-independence.nation-building-and-integration.refugee-rehabilitation-and-communal-chal",
+      "parentId": "gs1.post-independence.nation-building-and-integration",
+      "title": "Partition Fallout: Refugee Crisis, Rehabilitation and Communal Violence",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.cabinet-mission-to-partition-plan"
+      ]
+    },
+    {
+      "id": "gs1.post-independence.nation-building-and-integration.integration-of-princely-states",
+      "parentId": "gs1.post-independence.nation-building-and-integration",
+      "title": "Accession and Integration of Princely States: Kashmir, Junagadh and Hyderabad",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.modern-history.gandhian-era-and-mass-struggles.cabinet-mission-to-partition-plan"
+      ]
+    },
+    {
+      "id": "gs1.post-independence.nation-building-and-integration.linguistic-reorganization-and-states-reo",
+      "parentId": "gs1.post-independence.nation-building-and-integration",
+      "title": "Linguistic Reorganization: Dhar Commission, JVP Committee, States Reorganisation Act 1956",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.post-independence.nation-building-and-integration.integration-of-princely-states"
+      ]
+    },
+    {
+      "id": "gs1.post-independence.nation-building-and-integration.tribal-and-northeast-consolidation",
+      "parentId": "gs1.post-independence.nation-building-and-integration",
+      "title": "Tribal Integration Policy (Panchsheel for Tribals) and Reorganization of North-East",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.post-independence.nation-building-and-integration.official-language-question-and-anti-hind",
+      "parentId": "gs1.post-independence.nation-building-and-integration",
+      "title": "Official Language Controversy and Official Languages Act of 1963",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.post-independence.nation-building-and-integration.integration-of-french-and-portuguese-enc",
+      "parentId": "gs1.post-independence.nation-building-and-integration",
+      "title": "Liberation and Integration of Goa, Daman, Diu and Puducherry",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.post-independence.post-independence-development-and-crises",
+      "parentId": "gs1.post-independence",
+      "title": "Economic Transformation, Foreign Policy and Internal Crises",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.post-independence.post-independence-development-and-crises.economic-planning-and-agrarian-reforms",
+      "parentId": "gs1.post-independence.post-independence-development-and-crises",
+      "title": "Planned Economy, Five Year Plans and Land Reforms Post-1947",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.post-independence.post-independence-development-and-crises.green-and-white-revolutions",
+      "parentId": "gs1.post-independence.post-independence-development-and-crises",
+      "title": "Agricultural Transformation: Green Revolution, White Revolution and Social Impacts",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.post-independence.post-independence-development-and-crises.economic-planning-and-agrarian-reforms"
+      ]
+    },
+    {
+      "id": "gs1.post-independence.post-independence-development-and-crises.foreign-policy-nam-and-conflicts",
+      "parentId": "gs1.post-independence.post-independence-development-and-crises",
+      "title": "Nehruvian Foreign Policy, Non-Aligned Movement (NAM) and 1962 Sino-Indian War",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.post-independence.post-independence-development-and-crises.indo-pak-wars-and-bangladesh-liberation",
+      "parentId": "gs1.post-independence.post-independence-development-and-crises",
+      "title": "Indo-Pak Wars of 1965 and 1971: Creation of Bangladesh and Shimla Agreement",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.post-independence.post-independence-development-and-crises.foreign-policy-nam-and-conflicts"
+      ]
+    },
+    {
+      "id": "gs1.post-independence.post-independence-development-and-crises.emergency-and-democratic-resilience",
+      "parentId": "gs1.post-independence.post-independence-development-and-crises",
+      "title": "JP Movement, Internal Emergency (1975-1977) and Restoration of Democracy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.post-independence.post-independence-development-and-crises.indo-pak-wars-and-bangladesh-liberation"
+      ]
+    },
+    {
+      "id": "gs1.post-independence.post-independence-development-and-crises.regional-movements-punjab-and-assam",
+      "parentId": "gs1.post-independence.post-independence-development-and-crises",
+      "title": "Regional Insurgencies and Accords: Punjab Crisis and Assam Accord",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.post-independence.post-independence-development-and-crises.economic-crisis-1991-and-lpg-reforms",
+      "parentId": "gs1.post-independence.post-independence-development-and-crises",
+      "title": "Balance of Payments Crisis 1991 and Structural Adjustment Policies (LPG)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.post-independence.post-independence-development-and-crises.economic-planning-and-agrarian-reforms"
+      ]
+    },
+    {
+      "id": "gs1.world-history",
+      "parentId": "gs1",
+      "title": "History of the World",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.enlightenment-and-early-revolutions",
+      "parentId": "gs1.world-history",
+      "title": "Enlightenment and Modern Revolutions",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.enlightenment-and-early-revolutions.enlightenment-thinkers-and-ideas",
+      "parentId": "gs1.world-history.enlightenment-and-early-revolutions",
+      "title": "Enlightenment Philosophers: Locke, Montesquieu, Voltaire and Rousseau",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.enlightenment-and-early-revolutions.american-revolution-and-constitution",
+      "parentId": "gs1.world-history.enlightenment-and-early-revolutions",
+      "title": "American Revolution: Causes, Declaration of Independence and Global Impact",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.enlightenment-and-early-revolutions.enlightenment-thinkers-and-ideas"
+      ]
+    },
+    {
+      "id": "gs1.world-history.enlightenment-and-early-revolutions.french-revolution-causes-and-stages",
+      "parentId": "gs1.world-history.enlightenment-and-early-revolutions",
+      "title": "French Revolution: Social Cleavages, Fall of Bastille, Reign of Terror",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.enlightenment-and-early-revolutions.enlightenment-thinkers-and-ideas"
+      ]
+    },
+    {
+      "id": "gs1.world-history.enlightenment-and-early-revolutions.napoleonic-era-and-congress-of-vienna",
+      "parentId": "gs1.world-history.enlightenment-and-early-revolutions",
+      "title": "Rise and Fall of Napoleon Bonaparte, Napoleonic Code and Congress of Vienna",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.enlightenment-and-early-revolutions.french-revolution-causes-and-stages"
+      ]
+    },
+    {
+      "id": "gs1.world-history.industrial-revolution-and-ideologies",
+      "parentId": "gs1.world-history",
+      "title": "Industrial Revolution and Political Philosophies",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.industrial-revolution-and-ideologies.industrial-revolution-causes-and-spread",
+      "parentId": "gs1.world-history.industrial-revolution-and-ideologies",
+      "title": "Industrial Revolution in Britain: Technological Inventions and European Spread",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.industrial-revolution-and-ideologies.social-and-economic-impact-of-industrial",
+      "parentId": "gs1.world-history.industrial-revolution-and-ideologies",
+      "title": "Impact of Industrial Revolution: Urbanization, Labor Conditions and Class Division",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.industrial-revolution-and-ideologies.industrial-revolution-causes-and-spread"
+      ]
+    },
+    {
+      "id": "gs1.world-history.industrial-revolution-and-ideologies.capitalism-and-colonial-expansion",
+      "parentId": "gs1.world-history.industrial-revolution-and-ideologies",
+      "title": "Rise of Industrial Capitalism and Mercantile Colonialism",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.industrial-revolution-and-ideologies.social-and-economic-impact-of-industrial"
+      ]
+    },
+    {
+      "id": "gs1.world-history.industrial-revolution-and-ideologies.socialism-and-utopian-thinkers",
+      "parentId": "gs1.world-history.industrial-revolution-and-ideologies",
+      "title": "Socialist Critique: Utopian Socialists (Robert Owen, Saint-Simon, Charles Fourier)",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.industrial-revolution-and-ideologies.social-and-economic-impact-of-industrial"
+      ]
+    },
+    {
+      "id": "gs1.world-history.industrial-revolution-and-ideologies.marxism-and-scientific-socialism",
+      "parentId": "gs1.world-history.industrial-revolution-and-ideologies",
+      "title": "Marxism and Communism: Historical Materialism and Class Struggle",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.industrial-revolution-and-ideologies.socialism-and-utopian-thinkers"
+      ]
+    },
+    {
+      "id": "gs1.world-history.nationalism-imperialism-and-revolutions",
+      "parentId": "gs1.world-history",
+      "title": "19th Century Nationalism and Imperialism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.nationalism-imperialism-and-revolutions.unification-of-italy",
+      "parentId": "gs1.world-history.nationalism-imperialism-and-revolutions",
+      "title": "Unification of Italy: Role of Mazzini, Cavour, Garibaldi and Victor Emmanuel II",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.enlightenment-and-early-revolutions.napoleonic-era-and-congress-of-vienna"
+      ]
+    },
+    {
+      "id": "gs1.world-history.nationalism-imperialism-and-revolutions.unification-of-germany",
+      "parentId": "gs1.world-history.nationalism-imperialism-and-revolutions",
+      "title": "Unification of Germany: Bismarck's Blood and Iron Policy and Wars of Unification",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.enlightenment-and-early-revolutions.napoleonic-era-and-congress-of-vienna"
+      ]
+    },
+    {
+      "id": "gs1.world-history.nationalism-imperialism-and-revolutions.scramble-for-africa-and-new-imperialism",
+      "parentId": "gs1.world-history.nationalism-imperialism-and-revolutions",
+      "title": "New Imperialism, Berlin Conference (1884-85) and Scramble for Africa",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.industrial-revolution-and-ideologies.capitalism-and-colonial-expansion"
+      ]
+    },
+    {
+      "id": "gs1.world-history.nationalism-imperialism-and-revolutions.imperialism-in-china-and-opium-wars",
+      "parentId": "gs1.world-history.nationalism-imperialism-and-revolutions",
+      "title": "Imperialism in China: Opium Wars, Unequal Treaties, Taiping and Boxer Rebellions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.industrial-revolution-and-ideologies.capitalism-and-colonial-expansion"
+      ]
+    },
+    {
+      "id": "gs1.world-history.nationalism-imperialism-and-revolutions.meiji-restoration-in-japan",
+      "parentId": "gs1.world-history.nationalism-imperialism-and-revolutions",
+      "title": "Meiji Restoration in Japan and Rapid Modernization (1868)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.world-wars-and-interwar-period",
+      "parentId": "gs1.world-history",
+      "title": "World Wars and Interwar Crises",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.world-wars-and-interwar-period.causes-and-consequences-of-world-war-one",
+      "parentId": "gs1.world-history.world-wars-and-interwar-period",
+      "title": "World War I: Imperialist Rivalries, Alliances, Warfare and Treaty of Versailles",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.nationalism-imperialism-and-revolutions.scramble-for-africa-and-new-imperialism",
+        "gs1.world-history.nationalism-imperialism-and-revolutions.unification-of-germany"
+      ]
+    },
+    {
+      "id": "gs1.world-history.world-wars-and-interwar-period.russian-revolution-1917",
+      "parentId": "gs1.world-history.world-wars-and-interwar-period",
+      "title": "Russian Revolution of 1917: Causes, Bolshevik Coup and Lenin's Policies",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.industrial-revolution-and-ideologies.marxism-and-scientific-socialism",
+        "gs1.world-history.world-wars-and-interwar-period.causes-and-consequences-of-world-war-one"
+      ]
+    },
+    {
+      "id": "gs1.world-history.world-wars-and-interwar-period.league-of-nations-and-mandate-system",
+      "parentId": "gs1.world-history.world-wars-and-interwar-period",
+      "title": "League of Nations: Aims, Structural Weaknesses and Failure",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.world-wars-and-interwar-period.causes-and-consequences-of-world-war-one"
+      ]
+    },
+    {
+      "id": "gs1.world-history.world-wars-and-interwar-period.great-depression-of-1929",
+      "parentId": "gs1.world-history.world-wars-and-interwar-period",
+      "title": "Great Economic Depression (1929): Causes, Global Reverberations and New Deal",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.world-wars-and-interwar-period.rise-of-fascism-in-italy",
+      "parentId": "gs1.world-history.world-wars-and-interwar-period",
+      "title": "Rise of Fascism in Italy: Mussolini's Ideology and Domestic Policies",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.world-wars-and-interwar-period.causes-and-consequences-of-world-war-one"
+      ]
+    },
+    {
+      "id": "gs1.world-history.world-wars-and-interwar-period.rise-of-nazism-in-germany",
+      "parentId": "gs1.world-history.world-wars-and-interwar-period",
+      "title": "Rise of Nazism in Germany: Hitler, Weimar Collapse and Totalitarian State",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.world-wars-and-interwar-period.causes-and-consequences-of-world-war-one",
+        "gs1.world-history.world-wars-and-interwar-period.great-depression-of-1929"
+      ]
+    },
+    {
+      "id": "gs1.world-history.world-wars-and-interwar-period.world-war-two-causes-and-course",
+      "parentId": "gs1.world-history.world-wars-and-interwar-period",
+      "title": "World War II: Appeasement Policy, Axis Aggression, Holocaust and Allied Victory",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.world-wars-and-interwar-period.league-of-nations-and-mandate-system",
+        "gs1.world-history.world-wars-and-interwar-period.rise-of-fascism-in-italy",
+        "gs1.world-history.world-wars-and-interwar-period.rise-of-nazism-in-germany"
+      ]
+    },
+    {
+      "id": "gs1.world-history.cold-war-and-decolonization",
+      "parentId": "gs1.world-history",
+      "title": "Post-WWII World, Cold War and Decolonization",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.cold-war-and-decolonization.emergence-of-bipolar-world-and-cold-war",
+      "parentId": "gs1.world-history.cold-war-and-decolonization",
+      "title": "Cold War Ideological Rift: Truman Doctrine, Marshall Plan and Military Blocs",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.world-wars-and-interwar-period.world-war-two-causes-and-course"
+      ]
+    },
+    {
+      "id": "gs1.world-history.cold-war-and-decolonization.cold-war-crises-korea-cuba-vietnam",
+      "parentId": "gs1.world-history.cold-war-and-decolonization",
+      "title": "Cold War Flashpoints: Korean War, Cuban Missile Crisis and Vietnam War",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.cold-war-and-decolonization.emergence-of-bipolar-world-and-cold-war"
+      ]
+    },
+    {
+      "id": "gs1.world-history.cold-war-and-decolonization.decolonization-in-asia-and-africa",
+      "parentId": "gs1.world-history.cold-war-and-decolonization",
+      "title": "Decolonization: Freedom Struggles in South-East Asia and Sub-Saharan Africa",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.world-wars-and-interwar-period.world-war-two-causes-and-course"
+      ]
+    },
+    {
+      "id": "gs1.world-history.cold-war-and-decolonization.west-asian-conflict-and-arab-israeli-war",
+      "parentId": "gs1.world-history.cold-war-and-decolonization",
+      "title": "Middle East Crisis: Creation of Israel, Arab-Israeli Wars and Palestinian Issue",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.world-history.cold-war-and-decolonization.disintegration-of-ussr-and-redrawal-of-b",
+      "parentId": "gs1.world-history.cold-war-and-decolonization",
+      "title": "Collapse of the Soviet Union: Glasnost, Perestroika and Redrawal of National Boundaries",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.world-history.cold-war-and-decolonization.emergence-of-bipolar-world-and-cold-war"
+      ]
+    },
+    {
+      "id": "gs1.indian-society",
+      "parentId": "gs1",
+      "title": "Indian Society",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.salient-features-and-diversity",
+      "parentId": "gs1.indian-society",
+      "title": "Salient Features of Indian Society and Diversity",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+      "parentId": "gs1.indian-society.salient-features-and-diversity",
+      "title": "Core Features: Pluralism, Syncretism, Hierarchy and Resilience",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-",
+      "parentId": "gs1.indian-society.salient-features-and-diversity",
+      "title": "Linguistic, Religious, Ethnic and Regional Dimensions of Indian Diversity",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.salient-features-and-diversity.unity-in-diversity-concept-and-challenge",
+      "parentId": "gs1.indian-society.salient-features-and-diversity",
+      "title": "Unity in Diversity: Constitutional Philosophy vs Emerging Fractures",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.salient-features-and-diversity.family-and-kinship-systems-in-india",
+      "parentId": "gs1.indian-society.salient-features-and-diversity",
+      "title": "Institution of Family, Marriage and Kinship: Changing Structure of Joint Families",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity",
+      "parentId": "gs1.indian-society.salient-features-and-diversity",
+      "title": "Caste System: Features, Purity-Pollution, Jajmani System and Contemporary Changes",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.salient-features-and-diversity.politicization-of-caste-and-caste-mobili",
+      "parentId": "gs1.indian-society.salient-features-and-diversity",
+      "title": "Sanskritization, Dominant Caste Concept and Politicization of Caste Identities",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.salient-features-and-diversity.tribal-communities-and-their-challenges",
+      "parentId": "gs1.indian-society.salient-features-and-diversity",
+      "title": "Tribal Societies in India: Geographic Distribution, Vulnerabilities and Integration",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.women-and-gender-issues",
+      "parentId": "gs1.indian-society",
+      "title": "Role of Women and Women's Organizations",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality",
+      "parentId": "gs1.indian-society.women-and-gender-issues",
+      "title": "Patriarchy, Son Preference, Skewed Sex Ratio and Gender Socialization",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.women-and-gender-issues.women-in-the-workforce-and-care-economy",
+      "parentId": "gs1.indian-society.women-and-gender-issues",
+      "title": "Female Labor Force Participation Rate (FLFPR) and the Unpaid Care Economy",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.women-and-gender-issues.violence-against-women-and-legal-framewo",
+      "parentId": "gs1.indian-society.women-and-gender-issues",
+      "title": "Gender-Based Violence, Domestic Abuse and Legal Protections for Women",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.women-and-gender-issues.evolution-of-womens-movements-in-india",
+      "parentId": "gs1.indian-society.women-and-gender-issues",
+      "title": "History of Women's Organizations and Feminist Movements: Pre and Post-1947",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.women-and-gender-issues.shgs-and-womens-economic-empowerment",
+      "parentId": "gs1.indian-society.women-and-gender-issues",
+      "title": "Self-Help Groups (SHGs), Microfinance and Grassroots Women Empowerment",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.women-and-gender-issues.women-in-the-workforce-and-care-economy"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.women-and-gender-issues.women-political-representation",
+      "parentId": "gs1.indian-society.women-and-gender-issues",
+      "title": "Political Representation of Women: Panchayati Raj and Legislative Realities",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.population-poverty-and-urbanization",
+      "parentId": "gs1.indian-society",
+      "title": "Population, Poverty and Urbanization Issues",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.population-poverty-and-urbanization.demographic-transition-and-dividend",
+      "parentId": "gs1.indian-society.population-poverty-and-urbanization",
+      "title": "Demographic Transition Theory, Total Fertility Rate (TFR) and India's Dividend",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.population-poverty-and-urbanization.aging-population-and-dependency-ratios",
+      "parentId": "gs1.indian-society.population-poverty-and-urbanization",
+      "title": "Ageing Population in India: Healthcare, Economic Dependency and Social Security",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.population-poverty-and-urbanization.demographic-transition-and-dividend"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-lines-and-multidimensional-pover",
+      "parentId": "gs1.indian-society.population-poverty-and-urbanization",
+      "title": "Poverty Concepts: Multidimensional Poverty Index (MPI), Inequality and Vulnerabilities",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-alleviation-and-welfare-programs",
+      "parentId": "gs1.indian-society.population-poverty-and-urbanization",
+      "title": "Critical Appraisal of Poverty Alleviation and Social Protection Architecture",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.population-poverty-and-urbanization.poverty-lines-and-multidimensional-pover"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.population-poverty-and-urbanization.urbanization-trends-and-patterns",
+      "parentId": "gs1.indian-society.population-poverty-and-urbanization",
+      "title": "Trends of Urbanization in India: Census Towns, Metropolitan Growth and Megacities",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.population-poverty-and-urbanization.urban-infrastructure-and-civic-deficits",
+      "parentId": "gs1.indian-society.population-poverty-and-urbanization",
+      "title": "Urban Deficits: Slums, Affordable Housing, Potable Water, Sewage and Urban Mobility",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.population-poverty-and-urbanization.urbanization-trends-and-patterns"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.population-poverty-and-urbanization.urban-flooding-heat-islands-and-pollutio",
+      "parentId": "gs1.indian-society.population-poverty-and-urbanization",
+      "title": "Urban Environmental Crises: Urban Flooding, Heat Islands and Air/Solid Waste Pollution",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.population-poverty-and-urbanization.urban-infrastructure-and-civic-deficits"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.population-poverty-and-urbanization.urban-governance-and-smart-cities",
+      "parentId": "gs1.indian-society.population-poverty-and-urbanization",
+      "title": "Urban Governance Reforms: 74th Amendment Act, Municipal Finances and Smart Cities",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.population-poverty-and-urbanization.urban-infrastructure-and-civic-deficits"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.globalization-and-social-changes",
+      "parentId": "gs1.indian-society",
+      "title": "Effects of Globalization on Indian Society",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+      "parentId": "gs1.indian-society.globalization-and-social-changes",
+      "title": "Cultural Globalization: Westernization, Glocalization and Impact on Value Systems",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.globalization-and-social-changes.globalization-impact-on-women",
+      "parentId": "gs1.indian-society.globalization-and-social-changes",
+      "title": "Impact of Globalization on Women: Employment Opportunities and Double Burden",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+        "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.globalization-and-social-changes.globalization-impact-on-youth-and-elderl",
+      "parentId": "gs1.indian-society.globalization-and-social-changes",
+      "title": "Socio-Cultural Impact of Globalization on Youth Aspirations and the Elderly",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-agrarian-society",
+      "parentId": "gs1.indian-society.globalization-and-social-changes",
+      "title": "Globalization and Agrarian Society: Cash Crops, Farmer Distress and Rural Transformations",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-tribal-vulnerabilities",
+      "parentId": "gs1.indian-society.globalization-and-social-changes",
+      "title": "Impact of Globalization on Tribal Livelihoods, Forest Rights and Displacement",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.social-empowerment-and-ideologies",
+      "parentId": "gs1.indian-society",
+      "title": "Social Empowerment, Communalism, Regionalism and Secularism",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.social-empowerment-and-ideologies.social-empowerment-of-vulnerable-groups",
+      "parentId": "gs1.indian-society.social-empowerment-and-ideologies",
+      "title": "Empowerment Mechanisms for SCs, STs, OBCs, Minorities and Persons with Disabilities",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.social-empowerment-and-ideologies.communalism-causes-and-manifestations",
+      "parentId": "gs1.indian-society.social-empowerment-and-ideologies",
+      "title": "Communalism in India: Colonial Roots, Socio-Economic Triggers and Contemporary Trends",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-"
+      ]
+    },
+    {
+      "id": "gs1.indian-society.social-empowerment-and-ideologies.regionalism-in-india",
+      "parentId": "gs1.indian-society.social-empowerment-and-ideologies",
+      "title": "Regionalism: Sons of the Soil Doctrine, Sub-Nationalism and Inter-State Disputes",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.indian-society.social-empowerment-and-ideologies.secularism-indian-versus-western-model",
+      "parentId": "gs1.indian-society.social-empowerment-and-ideologies",
+      "title": "Secularism in India: Sarva Dharma Sambhava vs Western Strict Separation Model",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.indian-society.social-empowerment-and-ideologies.communalism-causes-and-manifestations"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography",
+      "parentId": "gs1",
+      "title": "Salient Features of World's Physical Geography",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology",
+      "parentId": "gs1.physical-geography",
+      "title": "Geomorphology and Interior of the Earth",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.origin-and-interior-structure-of-earth",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Interior of the Earth: Crust, Mantle, Core and Seismic Wave Evidence",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.continental-drift-and-paleomagnetism",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Continental Drift Theory of Wegener and Paleomagnetic Evidence",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.origin-and-interior-structure-of-earth"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Sea Floor Spreading and Plate Tectonics: Boundaries, Dynamics and Consequences",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.continental-drift-and-paleomagnetism"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.minerals-and-rock-cycle",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Minerals and Rock Types: Igneous, Sedimentary, Metamorphic and Rock Cycle",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.endogenic-processes-folding-and-faulting",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Endogenic Forces: Diastrophism, Orogeny, Epeirogeny, Folding and Faulting",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Exogenic Processes: Physical, Chemical Weathering and Mass Wasting",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.fluvial-landforms-erosion-and-deposition",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Fluvial Landforms: Erosional and Depositional Features of Rivers",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.karst-and-limestone-topography",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Karst Topography: Groundwater Erosion, Solution Features and Speleothems",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.glacial-landforms",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Glacial Landforms: Erosional Cirques, U-Shaped Valleys, Moraines and Drumlins",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.aeolian-and-desert-landforms",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Aeolian Landforms: Wind Erosion, Yardangs, Mushroom Rocks, Dunes and Loess",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geomorphology.coastal-landforms",
+      "parentId": "gs1.physical-geography.geomorphology",
+      "title": "Coastal Landforms: Wave Action, Cliffs, Wave-Cut Platforms, Spits and Bars",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology",
+      "parentId": "gs1.physical-geography",
+      "title": "Climatology and Atmospheric Dynamics",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.climatology.structure-and-composition-of-atmosphere",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Structure and Composition of the Atmosphere: Troposphere to Exosphere",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.climatology.insolation-and-heat-budget-of-earth",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Insolation, Terrestrial Radiation, Albedo and Heat Budget of the Earth",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.structure-and-composition-of-atmosphere"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology.horizontal-and-vertical-temperature-dist",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Temperature Distribution, Lapse Rate and Temperature Inversion Phenomenon",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.insolation-and-heat-budget-of-earth"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Atmospheric Pressure Belts, Coriolis Force and Planetary Wind Systems",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.horizontal-and-vertical-temperature-dist"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology.tri-cellular-meridional-circulation",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Tri-Cellular Atmospheric Model: Hadley, Ferrel and Polar Cells",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology.jet-streams-and-rossby-waves",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Upper Tropospheric Winds: Jet Streams, Geostrophic Winds and Rossby Waves",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.tri-cellular-meridional-circulation"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology.air-masses-fronts-and-frontogenesis",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Air Masses: Classification, Characteristics, Fronts and Frontogenesis",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.tri-cellular-meridional-circulation"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology.extra-tropical-and-temperate-cyclones",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Temperate Cyclones: Life Cycle, Structure and Comparison with Tropical Cyclones",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.air-masses-fronts-and-frontogenesis"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology.tropical-cyclones-genesis-and-structure",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Tropical Cyclones: Conditions of Formation, Eye, Storm Surges and Tracking",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.atmospheric-humidity-condensation-and-pr",
+        "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology.atmospheric-humidity-condensation-and-pr",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Atmospheric Moisture: Humidity, Dew Point, Cloud Types and Precipitation Mechanisms",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.climatology.koppen-climate-classification",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Koeppen's Classification of Climatic Regions of the World",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.climatology.major-climatic-regions-of-the-world",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Major Climates: Equatorial, Monsoon, Mediterranean, Savanna, Steppe and Taiga",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary",
+        "gs1.physical-geography.climatology.koppen-climate-classification"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology.monsoon-mechanism-and-teleconnections",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Indian Monsoon: Thermal Concept, Dynamic Concept, ITCZ, Jet Streams, ENSO and IOD",
+      "kind": "node",
+      "estMinutes": 90,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.jet-streams-and-rossby-waves",
+        "gs1.physical-geography.climatology.tri-cellular-meridional-circulation"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.climatology.el-nino-la-nina-and-mjo",
+      "parentId": "gs1.physical-geography.climatology",
+      "title": "Ocean-Atmospheric Interactions: El Nino, La Nina, Walker Circulation and MJO",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.oceanography",
+      "parentId": "gs1.physical-geography",
+      "title": "Oceanography",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.oceanography.ocean-relief-features",
+      "parentId": "gs1.physical-geography.oceanography",
+      "title": "Bottom Relief of the Oceans: Continental Shelf, Slope, Abyssal Plains and Trenches",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.oceanography.submarine-canyons-and-mid-oceanic-ridges",
+      "parentId": "gs1.physical-geography.oceanography",
+      "title": "Submarine Canyons, Guyots, Seamounts and Mid-Oceanic Ridge Systems",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.oceanography.ocean-relief-features"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.oceanography.temperature-and-salinity-distribution-in",
+      "parentId": "gs1.physical-geography.oceanography",
+      "title": "Ocean Temperature and Salinity: Horizontal and Vertical Distribution, Thermocline",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.oceanography.ocean-currents-atlantic-pacific-indian",
+      "parentId": "gs1.physical-geography.oceanography",
+      "title": "Ocean Currents: Drivers, Atlantic, Pacific and Indian Ocean Circulation Gyres",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary",
+        "gs1.physical-geography.oceanography.temperature-and-salinity-distribution-in"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.oceanography.tides-mechanism-and-types",
+      "parentId": "gs1.physical-geography.oceanography",
+      "title": "Tides: Gravitational Forces, Spring and Neap Tides, Tidal Bore and Energy Potential",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.oceanography.coral-reefs-types-and-formation-theories",
+      "parentId": "gs1.physical-geography.oceanography",
+      "title": "Coral Reefs: Formation Conditions, Fringing, Barrier, Atolls and Subsidence Theory",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.oceanography.coral-bleaching-and-ocean-acidification",
+      "parentId": "gs1.physical-geography.oceanography",
+      "title": "Coral Bleaching, Ocean Acidification, Marine Heatwaves and Ecological Threats",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.oceanography.coral-reefs-types-and-formation-theories"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.oceanography.marine-resources-biotic-mineral-energy",
+      "parentId": "gs1.physical-geography.oceanography",
+      "title": "Marine Resources: Polymetallic Nodules, Gas Hydrates, Fishery Resources and UNCLOS",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-",
+      "parentId": "gs1.physical-geography",
+      "title": "Geophysical Phenomena and Critical Changes",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.earthquakes-causes-types-and-seismic-zon",
+      "parentId": "gs1.physical-geography.geophysical-phenomena-and-environmental-",
+      "title": "Earthquakes: Plate Margins, Elastic Rebound, Seismic Waves and Seismic Zones of India",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.tsunami-mechanism-and-warning-systems",
+      "parentId": "gs1.physical-geography.geophysical-phenomena-and-environmental-",
+      "title": "Tsunamis: Genesis, Shoaling Effect, Propagation and Early Warning Mechanisms",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geophysical-phenomena-and-environmental-.earthquakes-causes-types-and-seismic-zon"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.volcanism-types-features-and-distributio",
+      "parentId": "gs1.physical-geography.geophysical-phenomena-and-environmental-",
+      "title": "Volcanic Activity: Magma Types, Intrusive/Extrusive Landforms and Pacific Ring of Fire",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.minerals-and-rock-cycle",
+        "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.landslides-causes-and-vulnerability-zone",
+      "parentId": "gs1.physical-geography.geophysical-phenomena-and-environmental-",
+      "title": "Landslides and Snow Avalanches: Triggers and Zonation in Himalayas and Western Ghats",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w"
+      ]
+    },
+    {
+      "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.changes-in-water-bodies-wetlands-and-riv",
+      "parentId": "gs1.physical-geography.geophysical-phenomena-and-environmental-",
+      "title": "Desiccation of Lakes, Inland Seas (Aral Sea), River Drying and Wetland Degradation",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.cryosphere-changes-polar-ice-caps-and-gl",
+      "parentId": "gs1.physical-geography.geophysical-phenomena-and-environmental-",
+      "title": "Cryosphere Shrinkage: Arctic Sea Ice Retreat, Antarctic Melting and Himalayan Glacial Retreat",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.effects-on-flora-fauna-and-phenological-",
+      "parentId": "gs1.physical-geography.geophysical-phenomena-and-environmental-",
+      "title": "Impact of Geographical Changes on Flora, Fauna, Habitat Shifts and Invasive Species",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography",
+      "parentId": "gs1",
+      "title": "Economic and Human Geography of the World and India",
+      "kind": "section",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.distribution-of-natural-resources",
+      "parentId": "gs1.economic-and-human-geography",
+      "title": "Distribution of Key Natural Resources",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.global-distribution-of-iron-ore",
+      "parentId": "gs1.economic-and-human-geography.distribution-of-natural-resources",
+      "title": "Iron Ore Distribution: Major Global Belts and Indian Reserves",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.global-distribution-of-coal",
+      "parentId": "gs1.economic-and-human-geography.distribution-of-natural-resources",
+      "title": "Coal Reserves: Carboniferous Belts, Gondwana vs Tertiary Fields in India and Global Patterns",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.petroleum-and-natural-gas-reserves",
+      "parentId": "gs1.economic-and-human-geography.distribution-of-natural-resources",
+      "title": "Hydrocarbon Resources: West Asia, North Sea, Americas, Offshore Basins and KG Basin",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.non-ferrous-minerals-copper-bauxite-lead",
+      "parentId": "gs1.economic-and-human-geography.distribution-of-natural-resources",
+      "title": "Non-Ferrous Minerals: Global and Indian Distribution of Bauxite, Copper, Lead and Zinc",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.critical-minerals-lithium-cobalt-rare-ea",
+      "parentId": "gs1.economic-and-human-geography.distribution-of-natural-resources",
+      "title": "Critical Minerals and Rare Earth Elements (REE): Lithium Triangle, Cobalt Belts and Geopolitics",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.nuclear-minerals-uranium-and-thorium",
+      "parentId": "gs1.economic-and-human-geography.distribution-of-natural-resources",
+      "title": "Nuclear Energy Minerals: Global Uranium Belts and Indian Monazite/Thorium Sands",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+      "parentId": "gs1.economic-and-human-geography.distribution-of-natural-resources",
+      "title": "Surface and Groundwater Depletion, Inter-State River Disputes and River Linking Projects",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.soil-types-and-soil-degradation",
+      "parentId": "gs1.economic-and-human-geography.distribution-of-natural-resources",
+      "title": "Major Soil Orders of the World, Indian Soil Classification, Salinization and Desertification",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.forest-resources-and-timber-distribution",
+      "parentId": "gs1.economic-and-human-geography.distribution-of-natural-resources",
+      "title": "Global Forest Biomes, Commercial Forestry, Temperate Hardwoods and Tropical Rainforests",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities",
+      "parentId": "gs1.economic-and-human-geography",
+      "title": "Agriculture and Spatial Patterns",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.agricultural-systems-of-the-world",
+      "parentId": "gs1.economic-and-human-geography.agriculture-and-allied-activities",
+      "title": "Whittlesey's Classification of World Agricultural Systems: Subsistence to Commercial",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.major-cereal-crops-rice-wheat-maize",
+      "parentId": "gs1.economic-and-human-geography.agriculture-and-allied-activities",
+      "title": "Spatial Distribution and Agro-Climatic Requirements of Rice, Wheat and Maize",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.economic-and-human-geography.agriculture-and-allied-activities.agricultural-systems-of-the-world"
+      ]
+    },
+    {
+      "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.cash-and-commercial-crops-cotton-jute-su",
+      "parentId": "gs1.economic-and-human-geography.agriculture-and-allied-activities",
+      "title": "Cultivation Patterns and Geographic Drivers of Sugarcane, Cotton, Jute and Tobacco",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.economic-and-human-geography.agriculture-and-allied-activities.agricultural-systems-of-the-world"
+      ]
+    },
+    {
+      "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.plantation-crops-tea-coffee-rubber",
+      "parentId": "gs1.economic-and-human-geography.agriculture-and-allied-activities",
+      "title": "Plantation Agriculture: Global and Indian Distribution of Tea, Coffee, Rubber and Oil Palm",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.livestock-dairy-and-meat-processing-regi",
+      "parentId": "gs1.economic-and-human-geography.agriculture-and-allied-activities",
+      "title": "Livestock Ranching, Commercial Dairy Belts and Spatial Factors of Meat Industries",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.marine-and-inland-fisheries-geography",
+      "parentId": "gs1.economic-and-human-geography.agriculture-and-allied-activities",
+      "title": "World Fishing Grounds: Ocean Current Convergence Zones, Shallow Banks and Aquaculture",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.physical-geography.oceanography.ocean-currents-atlantic-pacific-indian"
+      ]
+    },
+    {
+      "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.irrigation-types-and-spatial-spread",
+      "parentId": "gs1.economic-and-human-geography.agriculture-and-allied-activities",
+      "title": "Irrigation Systems: Canal, Well, Tubewell, Micro-Irrigation (Drip/Sprinkler) and Water Use Efficiency",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.cropping-intensity-and-agro-climatic-zon",
+      "parentId": "gs1.economic-and-human-geography.agriculture-and-allied-activities",
+      "title": "Cropping Patterns, Crop Diversity, Agro-Climatic and Agro-Ecological Zones of India",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.economic-and-human-geography.agriculture-and-allied-activities.irrigation-types-and-spatial-spread"
+      ]
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "parentId": "gs1.economic-and-human-geography",
+      "title": "Location Factors of Industries (Primary, Secondary, Tertiary)",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries.industrial-location-theories-weber-and-l",
+      "parentId": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "title": "Theories of Industrial Location: Weber's Least Cost Theory, Material Index and Agglomeration",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries.iron-and-steel-industry-location-factors",
+      "parentId": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "title": "Iron and Steel Industry: Shift from Raw Material Sites to Coastal and Market Locations",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.economic-and-human-geography.distribution-of-natural-resources.global-distribution-of-coal",
+        "gs1.economic-and-human-geography.distribution-of-natural-resources.global-distribution-of-iron-ore",
+        "gs1.economic-and-human-geography.location-factors-of-industries.industrial-location-theories-weber-and-l"
+      ]
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries.textile-industry-cotton-synthetic-jute",
+      "parentId": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "title": "Textile Industry: Shift of Cotton Textile Hubs, Synthetic Fibers and Jute Clusters",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.economic-and-human-geography.location-factors-of-industries.industrial-location-theories-weber-and-l"
+      ]
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries.automobile-and-heavy-engineering-industr",
+      "parentId": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "title": "Automobile Industry: Clustering, Just-in-Time Logistics and Global Hubs",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries.petrochemical-and-fertilizer-industries",
+      "parentId": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "title": "Petrochemical and Fertilizer Plants: Port Locations, Pipelines and Market Proximity",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.economic-and-human-geography.distribution-of-natural-resources.petroleum-and-natural-gas-reserves"
+      ]
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries.sugar-industry-and-cooperative-clusters",
+      "parentId": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "title": "Sugar Industry: Tropical vs Subtropical Location Factors and Cooperative Mill Spread",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.economic-and-human-geography.agriculture-and-allied-activities.cash-and-commercial-crops-cotton-jute-su"
+      ]
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries.pharmaceutical-and-chemical-industry",
+      "parentId": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "title": "Pharmaceutical and Specialty Chemical Clusters: Port, Research and Cost Proximity",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries.electronics-semiconductor-and-hardware-m",
+      "parentId": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "title": "Semiconductor and High-Tech Manufacturing: Pure Water, Dust-Free, Capital and Skilled Labor",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries.information-technology-and-software-serv",
+      "parentId": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "title": "IT, BPO and Knowledge-Based Industries: Footloose Factors, Human Capital and Connectivity",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.location-factors-of-industries.tourism-hospitality-and-wellness-sector",
+      "parentId": "gs1.economic-and-human-geography.location-factors-of-industries",
+      "title": "Tertiary Sector Geography: Tourism, Heritage Corridors, Eco-Tourism and Medical Hubs",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.human-geography-and-transportation",
+      "parentId": "gs1.economic-and-human-geography",
+      "title": "Population, Migration and Transport Infrastructure",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.human-geography-and-transportation.global-population-distribution-and-densi",
+      "parentId": "gs1.economic-and-human-geography.human-geography-and-transportation",
+      "title": "Global Population Distribution: Ecumene vs Non-Ecumene, Density and Growth Patterns",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.human-geography-and-transportation.migration-streams-causes-and-consequence",
+      "parentId": "gs1.economic-and-human-geography.human-geography-and-transportation",
+      "title": "Migration: Lee's Push-Pull Model, Internal vs International Streams and Remittance Economies",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "gs1.economic-and-human-geography.human-geography-and-transportation.global-population-distribution-and-densi"
+      ]
+    },
+    {
+      "id": "gs1.economic-and-human-geography.human-geography-and-transportation.rural-settlement-patterns-and-morphology",
+      "parentId": "gs1.economic-and-human-geography.human-geography-and-transportation",
+      "title": "Rural Settlement Types: Clustered, Dispersed, Hamleted and Environmental Determinants",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.human-geography-and-transportation.ports-shipping-routes-and-choke-points",
+      "parentId": "gs1.economic-and-human-geography.human-geography-and-transportation",
+      "title": "Global Maritime Choke Points: Malacca, Hormuz, Bab-el-Mandeb, Suez and Panama Canals",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.human-geography-and-transportation.railways-highways-and-freight-corridors-",
+      "parentId": "gs1.economic-and-human-geography.human-geography-and-transportation",
+      "title": "Inland Logistics: Dedicated Freight Corridors (DFCs), Golden Quadrilateral and Bharatmala",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "gs1.economic-and-human-geography.human-geography-and-transportation.inland-waterways-and-sagarmala-project",
+      "parentId": "gs1.economic-and-human-geography.human-geography-and-transportation",
+      "title": "National Waterways and Coastal Shipping: Sagarmala Project and Multimodal Hubs",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true,
+      "prereqs": [
+        "gs1.economic-and-human-geography.human-geography-and-transportation.ports-shipping-routes-and-choke-points"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "paper": "essay",
+  "title": "PAPER-I Essay",
+  "nodes": [
+    {
+      "id": "essay",
+      "parentId": null,
+      "title": "PAPER-I Essay",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.essay-methodology-craft",
+      "parentId": "essay",
+      "title": "Essay Methodology and Structural Craft",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.essay-methodology-craft.frameworks-and-structure",
+      "parentId": "essay.essay-methodology-craft",
+      "title": "Brainstorming and Structural Frameworks",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.essay-methodology-craft.frameworks-and-structure.topic-deconstruction-thesis",
+      "parentId": "essay.essay-methodology-craft.frameworks-and-structure",
+      "title": "Topic Deconstruction and Thesis Statement Formulation",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.essay-methodology-craft.frameworks-and-structure.multidimensional-brainstorming",
+      "parentId": "essay.essay-methodology-craft.frameworks-and-structure",
+      "title": "Multidimensional Brainstorming Frameworks (PESTLE and Stakeholder)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.essay-methodology-craft.frameworks-and-structure.topic-deconstruction-thesis"
+      ]
+    },
+    {
+      "id": "essay.essay-methodology-craft.frameworks-and-structure.introductions-and-conclusions",
+      "parentId": "essay.essay-methodology-craft.frameworks-and-structure",
+      "title": "Crafting Engaging Introductions and Forward-Looking Conclusions",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.essay-methodology-craft.frameworks-and-structure.topic-deconstruction-thesis"
+      ]
+    },
+    {
+      "id": "essay.essay-methodology-craft.argumentation-and-coherence",
+      "parentId": "essay.essay-methodology-craft",
+      "title": "Argumentation and Flow",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.essay-methodology-craft.argumentation-and-coherence.structuring-arguments-counterarguments",
+      "parentId": "essay.essay-methodology-craft.argumentation-and-coherence",
+      "title": "Structuring Arguments, Counter-Arguments, and Balance",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.essay-methodology-craft.frameworks-and-structure.topic-deconstruction-thesis",
+        "essay.essay-methodology-craft.frameworks-and-structure.multidimensional-brainstorming"
+      ]
+    },
+    {
+      "id": "essay.essay-methodology-craft.argumentation-and-coherence.anecdote-quote-evidence-integration",
+      "parentId": "essay.essay-methodology-craft.argumentation-and-coherence",
+      "title": "Integration of Anecdotes, Quotations, and Case Studies",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.essay-methodology-craft.argumentation-and-coherence.structuring-arguments-counterarguments"
+      ]
+    },
+    {
+      "id": "essay.philosophical-and-reflective-essays",
+      "parentId": "essay",
+      "title": "Philosophical and Reflective Themes",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.philosophical-and-reflective-essays.ethics-and-human-condition",
+      "parentId": "essay.philosophical-and-reflective-essays",
+      "title": "Ethics, Character, and Human Condition",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.philosophical-and-reflective-essays.ethics-and-human-condition.truth-virtue-moral-dilemmas",
+      "parentId": "essay.philosophical-and-reflective-essays.ethics-and-human-condition",
+      "title": "Truth, Moral Integrity, and Ethical Dilemmas",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.philosophical-and-reflective-essays.ethics-and-human-condition.resilience-adversity-character",
+      "parentId": "essay.philosophical-and-reflective-essays.ethics-and-human-condition",
+      "title": "Adversity, Resilience, and Inner Strength",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.philosophical-and-reflective-essays.ethics-and-human-condition.materialism-versus-contentment",
+      "parentId": "essay.philosophical-and-reflective-essays.ethics-and-human-condition",
+      "title": "Material Progress versus Spiritual and Moral Contentment",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.philosophical-and-reflective-essays.ethics-and-human-condition.truth-virtue-moral-dilemmas"
+      ]
+    },
+    {
+      "id": "essay.philosophical-and-reflective-essays.epistemology-and-reason",
+      "parentId": "essay.philosophical-and-reflective-essays",
+      "title": "Knowledge, Reason, and Perception",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.philosophical-and-reflective-essays.epistemology-and-reason.rationality-doubt-wisdom",
+      "parentId": "essay.philosophical-and-reflective-essays.epistemology-and-reason",
+      "title": "Rationality, Scepticism, and the Pursuit of Wisdom",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.philosophical-and-reflective-essays.epistemology-and-reason.information-versus-knowledge",
+      "parentId": "essay.philosophical-and-reflective-essays.epistemology-and-reason",
+      "title": "Information Explosion versus Deep Understanding",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.philosophical-and-reflective-essays.epistemology-and-reason.rationality-doubt-wisdom"
+      ]
+    },
+    {
+      "id": "essay.philosophical-and-reflective-essays.epistemology-and-reason.art-imagination-societal-values",
+      "parentId": "essay.philosophical-and-reflective-essays.epistemology-and-reason",
+      "title": "Art, Literature, and Empathy in Human Life",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.governance-society-and-development",
+      "parentId": "essay",
+      "title": "Governance, Society, and Human Development",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.governance-society-and-development.polity-and-governance-themes",
+      "parentId": "essay.governance-society-and-development",
+      "title": "Democracy, Justice, and Administration",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.governance-society-and-development.polity-and-governance-themes.democracy-dissent-rule-of-law",
+      "parentId": "essay.governance-society-and-development.polity-and-governance-themes",
+      "title": "Constitutional Values, Democracy, and Constructive Dissent",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.governance-society-and-development.polity-and-governance-themes.justice-equity-welfare-state",
+      "parentId": "essay.governance-society-and-development.polity-and-governance-themes",
+      "title": "Social Justice, Affirmative Action, and the Welfare State",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.governance-society-and-development.polity-and-governance-themes.democracy-dissent-rule-of-law"
+      ]
+    },
+    {
+      "id": "essay.governance-society-and-development.polity-and-governance-themes.citizen-centric-administration",
+      "parentId": "essay.governance-society-and-development.polity-and-governance-themes",
+      "title": "Bureaucratic Ethics, Transparency, and Citizen Empowerment",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.governance-society-and-development.polity-and-governance-themes.democracy-dissent-rule-of-law"
+      ]
+    },
+    {
+      "id": "essay.governance-society-and-development.social-transformation-themes",
+      "parentId": "essay.governance-society-and-development",
+      "title": "Social Transformation and Capability",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.governance-society-and-development.social-transformation-themes.gender-justice-patriarchy",
+      "parentId": "essay.governance-society-and-development.social-transformation-themes",
+      "title": "Gender Equality, Patriarchy, and Women's Empowerment",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.governance-society-and-development.polity-and-governance-themes.justice-equity-welfare-state"
+      ]
+    },
+    {
+      "id": "essay.governance-society-and-development.social-transformation-themes.education-critical-thinking",
+      "parentId": "essay.governance-society-and-development.social-transformation-themes",
+      "title": "Education as an Instrument of Emancipation and Social Change",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.governance-society-and-development.social-transformation-themes.demographic-dividend-human-capital",
+      "parentId": "essay.governance-society-and-development.social-transformation-themes",
+      "title": "Demographic Dividend, Youth Aspirations, and Human Capital",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.governance-society-and-development.social-transformation-themes.education-critical-thinking"
+      ]
+    },
+    {
+      "id": "essay.technology-economy-and-environment",
+      "parentId": "essay",
+      "title": "Technology, Economy, and Ecological Balance",
+      "kind": "section",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.technology-economy-and-environment.technology-and-modernity",
+      "parentId": "essay.technology-economy-and-environment",
+      "title": "Technology and Human Agency",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.technology-economy-and-environment.technology-and-modernity.artificial-intelligence-ethics-humanity",
+      "parentId": "essay.technology-economy-and-environment.technology-and-modernity",
+      "title": "Emerging Technologies, Artificial Intelligence, and Ethical Boundaries",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.philosophical-and-reflective-essays.ethics-and-human-condition.truth-virtue-moral-dilemmas",
+        "essay.philosophical-and-reflective-essays.epistemology-and-reason.information-versus-knowledge"
+      ]
+    },
+    {
+      "id": "essay.technology-economy-and-environment.technology-and-modernity.globalization-and-cultural-identity",
+      "parentId": "essay.technology-economy-and-environment.technology-and-modernity",
+      "title": "Globalization, Modernity, and Preservation of Cultural Identity",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.technology-economy-and-environment.sustainability-and-economic-development",
+      "parentId": "essay.technology-economy-and-environment",
+      "title": "Economic Growth and Ecology",
+      "kind": "topic",
+      "prelims": false,
+      "mains": true,
+      "prereqs": []
+    },
+    {
+      "id": "essay.technology-economy-and-environment.sustainability-and-economic-development.growth-versus-ecological-justice",
+      "parentId": "essay.technology-economy-and-environment.sustainability-and-economic-development",
+      "title": "Economic Growth versus Environmental Conservation and Climate Justice",
+      "kind": "node",
+      "estMinutes": 75,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.technology-economy-and-environment.sustainability-and-economic-development.inclusive-growth-inequality"
+      ]
+    },
+    {
+      "id": "essay.technology-economy-and-environment.sustainability-and-economic-development.inclusive-growth-inequality",
+      "parentId": "essay.technology-economy-and-environment.sustainability-and-economic-development",
+      "title": "Inequality, Inclusive Growth, and Sustainable Livelihoods",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": false,
+      "mains": true,
+      "prereqs": [
+        "essay.governance-society-and-development.polity-and-governance-themes.justice-equity-welfare-state"
+      ]
+    }
+  ]
+}
