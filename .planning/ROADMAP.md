@@ -34,7 +34,7 @@ Feature definitions: `.planning/PROJECT.md`. Requirement IDs: `.planning/REQUIRE
 
 - [ ] **Phase 1: Foundation & GCP Deploy** - Monorepo, GCP bootstrap, Cloud SQL, Vertex + speech wrapper, auth, `deploy.yaml`, app on device
 - [ ] **Phase 2: UPSC Knowledge Base** - Syllabus graph (incl. optional syllabi), PYQ bank, source map, PYQ stats, strategy KB, playbooks, review tooling, naming guard
-- [ ] **Phase 3: Onboarding & Learning Pattern Test** - Profile, diagnostic, four pattern games → strength profile
+- [x] **Phase 3: Onboarding & Learning Pattern Test** - Profile, diagnostic, four pattern games → strength profile
 - [ ] **Phase 4: Planner, Revision & Reminders** - Scheduler, PYQ-first sessions, FSRS, mastery, mistakes notebook, heatmap, push reminders
 - [ ] **Phase 5: Current Affairs Pipeline & Daily Quiz** - Ingest → summarise → link to syllabus → verified UPSC-style MCQs
 - [ ] **Phase 6: Memory Cues & Nudges** - Pattern-matched cues (palace, audio, mnemonics, cue sheets, drills), repetition, first-principles; nudges, coach note, well-being check-in
@@ -89,11 +89,11 @@ Plans:
 **Plans**: 6 plans (4 waves)
 
 Plans:
-- [ ] 02-01: KB schema, packages/kb + packages/guard, read API, naming guard hook (wave 1)
-- [ ] 02-02: Syllabus graph seed: GS nodes + optional topics (wave 2)
+- [x] 02-01: KB schema, packages/kb + packages/guard, read API, naming guard hook (wave 1)
+- [x] 02-02: Syllabus graph seed: GS nodes + optional topics (wave 2)
 - [ ] 02-03: PYQ bank: official PDFs → structured JSON (wave 2)
 - [ ] 02-04: AI tagging of PYQs and the source map (wave 3)
-- [ ] 02-05: Strategy KB seed and grounding (wave 3)
+- [x] 02-05: Strategy KB seed and grounding (wave 3)
 - [ ] 02-06: Admin review page, audit, deploy (wave 4)
 
 ### Phase 3: Onboarding & Learning Pattern Test
@@ -109,10 +109,10 @@ Plans:
 **Plans**: 4 plans (3 waves)
 
 Plans:
-- [ ] 03-01: Profile, subject levels and the diagnostic API (wave 1)
-- [ ] 03-02: packages/lpt: item banks, scoring and evidence updates (wave 1)
-- [ ] 03-03: LPT API + speech-to-text (wave 2)
-- [ ] 03-04: Web app: onboarding flow, LPT games, strength profile (wave 3)
+- [x] 03-01: Profile, subject levels and the diagnostic API (wave 1)
+- [x] 03-02: packages/lpt: item banks, scoring and evidence updates (wave 1)
+- [x] 03-03: LPT API + speech-to-text (wave 2)
+- [x] 03-04: Web app: onboarding flow, LPT games, strength profile (wave 3)
 
 ### Phase 4: Planner, Revision & Reminders
 **Goal**: The core daily loop: a plan that fits the day, PYQ-first study, revision at the right time, a mistakes notebook, and reminders that respect her schedule.
