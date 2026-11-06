@@ -5,7 +5,7 @@ import { generateText } from './text';
 import type { AiUsage } from './usage';
 
 function fakeClient(responses: (Error | { text: string; inTok: number; outTok: number })[]) {
-  const calls: { model: string; contents: string }[] = [];
+  const calls: Parameters<GenAiLike['models']['generateContent']>[0][] = [];
   const client: GenAiLike = {
     models: {
       generateContent(req) {

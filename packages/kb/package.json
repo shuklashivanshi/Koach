@@ -6,12 +6,21 @@
   "main": "src/index.ts",
   "types": "src/index.ts",
   "scripts": {
-    "typecheck": "tsc -p tsconfig.json"
+    "typecheck": "tsc -p tsconfig.json",
+    "gen:syllabus": "tsx scripts/gen-syllabus.ts",
+    "fetch:papers": "tsx scripts/fetch-papers.ts",
+    "extract:pyqs": "tsx scripts/extract-pyqs.ts",
+    "tag:pyqs": "tsx scripts/tag-pyqs.ts",
+    "map:sources": "tsx scripts/map-sources.ts"
   },
   "dependencies": {
+    "@koach/ai": "workspace:*",
     "@koach/db": "workspace:*",
     "@koach/guard": "workspace:*",
     "drizzle-orm": "0.45.4",
     "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "pdf-lib": "1.17.1"
   }
 }

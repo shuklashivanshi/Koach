@@ -1,5 +1,5 @@
 import { loadKb, readKb } from '@koach/kb';
-import { KbNodeDetail, KbNodeList, KbPyqList, KbStats } from '@koach/shared';
+import { KbNodeDetail, KbNodeList, KbPyqList, KbStats, KbStrategyAnswer } from '@koach/shared';
 import type { FastifyInstance } from 'fastify';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import { loadConfig } from '../src/config';
@@ -77,5 +77,51 @@ describe('naming guard on responses', () => {
     expect(res.statusCode).toBe(200);
     expect(res.json()).toEqual({ tip: 'Use [source] notes' });
     await ctx.close();
+  });
+});
+
+describe('grounded strategy answers', () => {
+  const ask = async (data: { answer: string; usedClaimIds: string[] }, q: string) => {
+    const prompts: string[] = [];
+    const ctx = await buildTestApp({
+      ai: {
+        text: () => Promise.reject(new Error('unused')),
+        speak: () => Promise.reject(new Error('unused')),
+        json: (req: { prompt: string }) => {
+          prompts.push(req.prompt);
+          return Promise.resolve({ data, model: 'fake', costUsd: 0 });
+        },
+      } as never,
+    });
+    await loadKb(ctx.deps.db, await readKb(FIXTURE));
+    const res = await ctx.app.inject({
+      method: 'GET',
+      url: `/v1/kb/strategy?q=${encodeURIComponent(q)}`,
+      headers: bearer('u1', 'a@b.co'),
+    });
+    await ctx.close();
+    return { body: KbStrategyAnswer.parse(res.json()), prompts };
+  };
+
+  it('answers from claims and reports only counts and official names', async () => {
+    const { body, prompts } = await ask(
+      { answer: 'Read the PYQs first.', usedClaimIds: ['pyq-first-polity', 'official-syllabus'] },
+      'how should I start polity with PYQs and the syllabus',
+    );
+    expect(body).toEqual({
+      answered: true,
+      answer: 'Read the PYQs first.',
+      basis: { topperAccounts: 1, officialSources: ['UPSC CSE notification'] },
+    });
+    expect(prompts[0]).toContain('[pyq-first-polity]');
+    expect(JSON.stringify(body)).not.toContain('example.org');
+  });
+
+  it('declines when no claim matches or the model cites none', async () => {
+    expect(
+      (await ask({ answer: 'x', usedClaimIds: [] }, 'zebra migration patterns')).body.answered,
+    ).toBe(false);
+    const { body } = await ask({ answer: 'Made up.', usedClaimIds: [] }, 'polity PYQs');
+    expect(body).toMatchObject({ answered: false, answer: null });
   });
 });

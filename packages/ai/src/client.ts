@@ -1,9 +1,24 @@
 import { GoogleGenAI } from '@google/genai';
 
+export type GenAiPart = { text: string } | { inlineData: { mimeType: string; data: string } };
+export interface GenAiContent {
+  role: 'user';
+  parts: GenAiPart[];
+}
+
 /** The subset of the Gemini SDK Koach uses; tests substitute a fake. */
 export interface GenAiLike {
   models: {
-    generateContent(req: { model: string; contents: string }): Promise<{
+    generateContent(req: {
+      model: string;
+      contents: string | GenAiContent[];
+      config?: {
+        responseMimeType?: string;
+        responseJsonSchema?: unknown;
+        temperature?: number;
+        maxOutputTokens?: number;
+      };
+    }): Promise<{
       text?: string | undefined;
       usageMetadata?: { promptTokenCount?: number; candidatesTokenCount?: number } | undefined;
     }>;

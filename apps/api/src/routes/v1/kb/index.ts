@@ -1,5 +1,20 @@
-import { getNode, listNodes, pyqsForNode, subjectWeightage } from '@koach/kb';
-import { ApiErrorBody, KbNodeDetail, KbNodeList, KbPyqList, KbStats } from '@koach/shared';
+import { usersRepo } from '@koach/db';
+import {
+  answerStrategy,
+  getNode,
+  GroundedAnswer,
+  listNodes,
+  pyqsForNode,
+  subjectWeightage,
+} from '@koach/kb';
+import {
+  ApiErrorBody,
+  KbNodeDetail,
+  KbNodeList,
+  KbPyqList,
+  KbStats,
+  KbStrategyAnswer,
+} from '@koach/shared';
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod';
 import { z } from 'zod';
 import type { Deps } from '../../../deps';
@@ -48,5 +63,30 @@ export const kbRoutes =
         },
       },
       async (request) => ({ pyqs: await pyqsForNode(deps.db, request.query.node) }),
+    );
+
+    // Strategy questions are answered only from stored claims, or declined (KB-05).
+    app.get(
+      '/kb/strategy',
+      {
+        schema: {
+          querystring: z.object({ q: z.string().min(3).max(300) }),
+          response: { 200: KbStrategyAnswer },
+        },
+      },
+      async (request) => {
+        // ai_calls references users, so make sure the row exists before usage is persisted.
+        await usersRepo.upsert(deps.db, request.uid, request.userEmail);
+        return answerStrategy(deps.db, request.query.q, async (prompt) => {
+          const res = await deps.ai.json({
+            feature: 'kb.strategy',
+            tier: 'lite',
+            prompt,
+            schema: GroundedAnswer,
+            uid: request.uid,
+          });
+          return res.data;
+        });
+      },
     );
   };

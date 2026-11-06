@@ -1,5 +1,6 @@
 import { aiCallsRepo, type Db } from '@koach/db';
-import { type AiUsage, generateText, synthesize, type TextTier } from '@koach/ai';
+import { type AiUsage, generateJson, generateText, synthesize, type TextTier } from '@koach/ai';
+import type { z } from 'zod';
 
 /** What routes need from the AI layer; tests provide a fake. */
 export interface AiService {
@@ -12,6 +13,14 @@ export interface AiService {
     audioBase64: string;
     costUsd: number;
   }>;
+  /** Structured output validated against the schema. */
+  json<S extends z.ZodType>(req: {
+    feature: string;
+    tier: TextTier;
+    prompt: string;
+    schema: S;
+    uid: string;
+  }): Promise<{ data: z.infer<S>; model: string; costUsd: number }>;
 }
 
 /** Vertex + Cloud TTS, persisting every call to ai_calls (D-19). */
@@ -33,5 +42,6 @@ export function vertexAi(db: Db): AiService {
   return {
     text: (req) => generateText(req, { onCall }),
     speak: (req) => synthesize(req, { onCall }),
+    json: (req) => generateJson(req, { onCall }),
   };
 }

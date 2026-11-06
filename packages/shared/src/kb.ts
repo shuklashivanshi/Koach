@@ -67,3 +67,11 @@ export const KbPyq = z.object({
 });
 export type KbPyq = z.infer<typeof KbPyq>;
 export const KbPyqList = z.object({ pyqs: z.array(KbPyq) });
+
+export const KbStrategyAnswer = z.object({
+  answered: z.boolean(),
+  answer: z.string().nullable(),
+  /** Shown as "Based on N topper accounts" and/or official source names; never people or sites. */
+  basis: z.object({ topperAccounts: z.number().int(), officialSources: z.array(z.string()) }),
+});
+export type KbStrategyAnswer = z.infer<typeof KbStrategyAnswer>;

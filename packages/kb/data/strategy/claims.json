@@ -1,0 +1,630 @@
+{
+  "claims": [
+    {
+      "id": "t001-pyq",
+      "topic": "pyq",
+      "claim": "Solve the previous-year questions of a subject right after finishing its study material, not at the end of preparation.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/web-stories/upsc-toppers-strategy-previous-years-question-papers/"
+    },
+    {
+      "id": "t002-pyq",
+      "topic": "pyq",
+      "claim": "Analyse at least ten years of past papers to see which themes recur and how deep questions go.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/web-stories/upsc-toppers-strategy-previous-years-question-papers/"
+    },
+    {
+      "id": "t003-pyq",
+      "topic": "pyq",
+      "claim": "Past papers show the depth to read a topic to; reading beyond that depth has low returns for Prelims.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/web-stories/upsc-toppers-strategy-previous-years-question-papers/"
+    },
+    {
+      "id": "t004-pyq",
+      "topic": "pyq",
+      "claim": "Past papers are the most reliable guide to what UPSC considers important within the syllabus.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t005-pyq",
+      "topic": "pyq",
+      "claim": "Large volumes of practice questions before Prelims build pattern recognition for statement-based questions.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/web-stories/upsc-toppers-strategy-previous-years-question-papers/"
+    },
+    {
+      "id": "t006-mocks",
+      "topic": "mocks",
+      "claim": "Take full-length Prelims mocks under timed conditions in the final months, alongside topic-wise tests.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t007-mocks",
+      "topic": "mocks",
+      "claim": "After every mock, classify each wrong answer: knowledge gap, careless slip, misread question, or wrong elimination.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t008-mocks",
+      "topic": "mocks",
+      "claim": "Keep a mistakes diary from mocks and revise it before the exam; recurring traps repeat.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t009-mocks",
+      "topic": "mocks",
+      "claim": "The value of a mock lies in the analysis afterwards more than in the score.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t010-mocks",
+      "topic": "mocks",
+      "claim": "For Mains, move from writing single timed answers to full three-hour mock papers.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/205808/ias-hero-upsc-topper-tips-general-studies-mains-answer-writing-essay/"
+    },
+    {
+      "id": "t011-mocks",
+      "topic": "mocks",
+      "claim": "If a Mains mock was not finished on time, analyse why before the next one.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/205808/ias-hero-upsc-topper-tips-general-studies-mains-answer-writing-essay/"
+    },
+    {
+      "id": "t012-revision",
+      "topic": "revision",
+      "claim": "Keep the number of sources small and the number of revisions large.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/332617/ias-officers-share-revision-tips-tricks-techniques-upsc-cse-aspirants/"
+    },
+    {
+      "id": "t013-revision",
+      "topic": "revision",
+      "claim": "Notes shrink to a few keywords per topic only after the material has been revised about three times.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/332617/ias-officers-share-revision-tips-tricks-techniques-upsc-cse-aspirants/"
+    },
+    {
+      "id": "t014-revision",
+      "topic": "revision",
+      "claim": "Start from detailed material and condense it into short notes over successive revisions.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/332617/ias-officers-share-revision-tips-tricks-techniques-upsc-cse-aspirants/"
+    },
+    {
+      "id": "t015-revision",
+      "topic": "revision",
+      "claim": "Schedule weekly and monthly revision slots in the study plan instead of revising only at the end.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t016-revision",
+      "topic": "revision",
+      "claim": "Short self-made notes are faster to revise than re-reading books in the final weeks.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t017-revision",
+      "topic": "revision",
+      "claim": "Repeated revision of a limited set of standard sources beats reading many new ones.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/234751/upsc-results-2019-toppers-pradeep-singh-preparation-tips-exam-method-how-to-crack-india-gop94/"
+    },
+    {
+      "id": "t018-current-affairs",
+      "topic": "current_affairs",
+      "claim": "Read one or two quality newspapers daily, focusing on issues that link to the syllabus.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/262890/ria-dabi-upsc-cse-topper-ias-officer-tina-dabi-preparation-current-affairs/"
+    },
+    {
+      "id": "t019-current-affairs",
+      "topic": "current_affairs",
+      "claim": "Clip or note relevant articles into topic folders and revisit them every few days.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/262890/ria-dabi-upsc-cse-topper-ias-officer-tina-dabi-preparation-current-affairs/"
+    },
+    {
+      "id": "t020-current-affairs",
+      "topic": "current_affairs",
+      "claim": "Official sources such as PIB releases and government monthlies help verify facts in the news.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/262890/ria-dabi-upsc-cse-topper-ias-officer-tina-dabi-preparation-current-affairs/"
+    },
+    {
+      "id": "t021-current-affairs",
+      "topic": "current_affairs",
+      "claim": "Revise accumulated current affairs regularly; a few weeks of news at a time is manageable.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/332617/ias-officers-share-revision-tips-tricks-techniques-upsc-cse-aspirants/"
+    },
+    {
+      "id": "t022-current-affairs",
+      "topic": "current_affairs",
+      "claim": "Link each news item to its static syllabus topic; questions often test the concept behind the news.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/262890/ria-dabi-upsc-cse-topper-ias-officer-tina-dabi-preparation-current-affairs/"
+    },
+    {
+      "id": "t023-answer-writing",
+      "topic": "answer_writing",
+      "claim": "Begin answer writing early with a few timed answers a day rather than waiting to finish the syllabus.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/205808/ias-hero-upsc-topper-tips-general-studies-mains-answer-writing-essay/"
+    },
+    {
+      "id": "t024-answer-writing",
+      "topic": "answer_writing",
+      "claim": "Compare written answers with good model answers to find gaps in content and structure.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/205808/ias-hero-upsc-topper-tips-general-studies-mains-answer-writing-essay/"
+    },
+    {
+      "id": "t025-answer-writing",
+      "topic": "answer_writing",
+      "claim": "Jotting down a quick framework before writing saves time and keeps the answer relevant.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/263100/upsc-cse-topper-ips-officer-valay-vaidya-prelims-preparation-gs-syllabus-mains/"
+    },
+    {
+      "id": "t026-answer-writing",
+      "topic": "answer_writing",
+      "claim": "Practising five to seven questions in about an hour builds the speed Mains needs.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/249092/gandharva-rathore-ias-cse-upsc-simplified-personal-preparation-manifesto-all-india-rank-time-management-coaching-inspirational-vid01/"
+    },
+    {
+      "id": "t027-answer-writing",
+      "topic": "answer_writing",
+      "claim": "Structured answers with headings, diagrams and flowcharts score better than long paragraphs.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/190830/upsc-topper-ias-hero-father-preparation-strategy-prelims-kolkata/"
+    },
+    {
+      "id": "t028-answer-writing",
+      "topic": "answer_writing",
+      "claim": "Without timed practice, answers tend to become long and drift from what the question asks.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/190830/upsc-topper-ias-hero-father-preparation-strategy-prelims-kolkata/"
+    },
+    {
+      "id": "t029-answer-writing",
+      "topic": "answer_writing",
+      "claim": "Address every part of the question demand; partial answers lose marks even if well written.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/205808/ias-hero-upsc-topper-tips-general-studies-mains-answer-writing-essay/"
+    },
+    {
+      "id": "t030-answer-writing",
+      "topic": "answer_writing",
+      "claim": "Simple maps and diagrams make geography and environment answers clearer and quicker to read.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/354454/when-how-to-start-upsc-mains-exam-preparation-answer-writing-notes-maps-charts-tips/"
+    },
+    {
+      "id": "t031-answer-writing",
+      "topic": "answer_writing",
+      "claim": "Peer review of answers within a small group helps spot blind spots in structure.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/205808/ias-hero-upsc-topper-tips-general-studies-mains-answer-writing-essay/"
+    },
+    {
+      "id": "t032-answer-writing",
+      "topic": "answer_writing",
+      "claim": "Start Mains-oriented preparation alongside Prelims rather than only after the Prelims result.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/354454/when-how-to-start-upsc-mains-exam-preparation-answer-writing-notes-maps-charts-tips/"
+    },
+    {
+      "id": "t033-essay",
+      "topic": "essay",
+      "claim": "Give each of the two essays about ninety minutes so that one does not crowd out the other.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/453992/upsc-cse-mains-2025-essay-paper-strategy-toppers-tips/"
+    },
+    {
+      "id": "t034-essay",
+      "topic": "essay",
+      "claim": "Spend the first fifteen to twenty minutes of each essay brainstorming and structuring before writing.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/453992/upsc-cse-mains-2025-essay-paper-strategy-toppers-tips/"
+    },
+    {
+      "id": "t035-essay",
+      "topic": "essay",
+      "claim": "Keep ten to fifteen minutes at the end of each essay to revise and polish.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/453992/upsc-cse-mains-2025-essay-paper-strategy-toppers-tips/"
+    },
+    {
+      "id": "t036-essay",
+      "topic": "essay",
+      "claim": "A clear introduction and a balanced conclusion carry the essay; the body should cover multiple dimensions.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/233351/upsc-ias-officer-mains-essay-strategy-tips-how-to-topper-content-answers-introduction-conclusion-hero-vid01/"
+    },
+    {
+      "id": "t037-essay",
+      "topic": "essay",
+      "claim": "Practise full essays under time limits; reading model essays alone does not build writing stamina.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/181204/ias-hero-upsc-topper-tips-mains-essay-paper-india/"
+    },
+    {
+      "id": "t038-essay",
+      "topic": "essay",
+      "claim": "Choose an essay topic you can support with varied examples, not just one you like.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/184447/ias-hero-upsc-topper-tips-essay-paper-cse-mains-india/"
+    },
+    {
+      "id": "t039-essay",
+      "topic": "essay",
+      "claim": "Use examples, data and anecdotes across social, economic, political and ethical dimensions.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/453992/upsc-cse-mains-2025-essay-paper-strategy-toppers-tips/"
+    },
+    {
+      "id": "t040-essay",
+      "topic": "essay",
+      "claim": "Writing several practice essays before Mains reveals which structures work for you.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/199465/ias-hero-upsc-topper-tips-mains-essay-strategy-india/"
+    },
+    {
+      "id": "t041-ethics",
+      "topic": "ethics",
+      "claim": "Anecdotes, real examples and quotes make ethics answers concrete.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/234751/upsc-results-2019-toppers-pradeep-singh-preparation-tips-exam-method-how-to-crack-india-gop94/"
+    },
+    {
+      "id": "t042-ethics",
+      "topic": "ethics",
+      "claim": "Reading the lives of public figures helps frame answers to ethical dilemmas.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/234751/upsc-results-2019-toppers-pradeep-singh-preparation-tips-exam-method-how-to-crack-india-gop94/"
+    },
+    {
+      "id": "t043-ethics",
+      "topic": "ethics",
+      "claim": "In ethics case studies, identify stakeholders and options before choosing a course of action.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/205808/ias-hero-upsc-topper-tips-general-studies-mains-answer-writing-essay/"
+    },
+    {
+      "id": "t044-ethics",
+      "topic": "ethics",
+      "claim": "Define key ethics terms precisely; theory questions reward clear definitions with examples.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/205808/ias-hero-upsc-topper-tips-general-studies-mains-answer-writing-essay/"
+    },
+    {
+      "id": "t045-optional",
+      "topic": "optional",
+      "claim": "Choose an optional you enjoy, since you will study it for many months.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/188245/upsc-civil-services-exam-mains-best-optional-subject-ias-india/"
+    },
+    {
+      "id": "t046-optional",
+      "topic": "optional",
+      "claim": "An optional where you already have some background is easier to prepare well.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/188245/upsc-civil-services-exam-mains-best-optional-subject-ias-india/"
+    },
+    {
+      "id": "t047-optional",
+      "topic": "optional",
+      "claim": "Overlap with General Studies papers reduces total workload, but interest matters more.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/474175/ayush-jain-irs-officer-upsc-cse-tips-strategy-psir-optional/"
+    },
+    {
+      "id": "t048-optional",
+      "topic": "optional",
+      "claim": "Read the official optional syllabus and recent papers before deciding.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/188245/upsc-civil-services-exam-mains-best-optional-subject-ias-india/"
+    },
+    {
+      "id": "t049-optional",
+      "topic": "optional",
+      "claim": "Answer writing in the optional needs the same timed practice as GS.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/474175/ayush-jain-irs-officer-upsc-cse-tips-strategy-psir-optional/"
+    },
+    {
+      "id": "t050-csat",
+      "topic": "csat",
+      "claim": "Do not neglect CSAT; it is qualifying but a low score disqualifies the GS paper.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t051-csat",
+      "topic": "csat",
+      "claim": "Solve past CSAT papers with a timer to judge whether you need dedicated practice.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t052-csat",
+      "topic": "csat",
+      "claim": "Past CSAT papers are the best guide to the level of comprehension and numeracy asked.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/234751/upsc-results-2019-toppers-pradeep-singh-preparation-tips-exam-method-how-to-crack-india-gop94/"
+    },
+    {
+      "id": "t053-time-management",
+      "topic": "time_management",
+      "claim": "Four to five focused hours a day can be enough when the plan is tight and consistent.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/190830/upsc-topper-ias-hero-father-preparation-strategy-prelims-kolkata/"
+    },
+    {
+      "id": "t054-time-management",
+      "topic": "time_management",
+      "claim": "Studying for long hours is not mandatory; consistency and focus matter more.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/190830/upsc-topper-ias-hero-father-preparation-strategy-prelims-kolkata/"
+    },
+    {
+      "id": "t055-time-management",
+      "topic": "time_management",
+      "claim": "Fragmented study time slows progress; protect a few unbroken blocks each day.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/190830/upsc-topper-ias-hero-father-preparation-strategy-prelims-kolkata/"
+    },
+    {
+      "id": "t056-time-management",
+      "topic": "time_management",
+      "claim": "Set short-term goals and plan the day around them.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/249092/gandharva-rathore-ias-cse-upsc-simplified-personal-preparation-manifesto-all-india-rank-time-management-coaching-inspirational-vid01/"
+    },
+    {
+      "id": "t057-time-management",
+      "topic": "time_management",
+      "claim": "A timetable that maps the whole syllabus to weeks makes coverage visible.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/263100/upsc-cse-topper-ips-officer-valay-vaidya-prelims-preparation-gs-syllabus-mains/"
+    },
+    {
+      "id": "t058-time-management",
+      "topic": "time_management",
+      "claim": "Pace yourself to avoid burnout over a long preparation.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/249092/gandharva-rathore-ias-cse-upsc-simplified-personal-preparation-manifesto-all-india-rank-time-management-coaching-inspirational-vid01/"
+    },
+    {
+      "id": "t059-time-management",
+      "topic": "time_management",
+      "claim": "Working aspirants benefit from using small daily windows for revision and answer practice.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/190830/upsc-topper-ias-hero-father-preparation-strategy-prelims-kolkata/"
+    },
+    {
+      "id": "t060-wellbeing",
+      "topic": "wellbeing",
+      "claim": "Regular breaks and some exercise help sustain a long preparation.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/249092/gandharva-rathore-ias-cse-upsc-simplified-personal-preparation-manifesto-all-india-rank-time-management-coaching-inspirational-vid01/"
+    },
+    {
+      "id": "t061-wellbeing",
+      "topic": "wellbeing",
+      "claim": "Treat setbacks as feedback; many successful candidates cleared after earlier attempts.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/166324/ias-hero-upsc-exam-cracking-topper-suggestions-news-2/"
+    },
+    {
+      "id": "t062-wellbeing",
+      "topic": "wellbeing",
+      "claim": "Books alone are not enough; practice and feedback turn reading into marks.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/261259/upsc-cse-prelims-mains-ias-topper-tips-preparation-books/"
+    },
+    {
+      "id": "t063-books",
+      "topic": "books",
+      "claim": "Stick to standard books and revise them rather than collecting many sources.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/261259/upsc-cse-prelims-mains-ias-topper-tips-preparation-books/"
+    },
+    {
+      "id": "t064-books",
+      "topic": "books",
+      "claim": "NCERTs build the foundation that standard books and current affairs build on.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/332617/ias-officers-share-revision-tips-tricks-techniques-upsc-cse-aspirants/"
+    },
+    {
+      "id": "t065-books",
+      "topic": "books",
+      "claim": "Self-study with standard books and past papers can be sufficient without coaching.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/199465/ias-hero-upsc-topper-tips-mains-essay-strategy-india/"
+    },
+    {
+      "id": "t066-prelims-exam",
+      "topic": "prelims_exam",
+      "claim": "In Prelims, answer confidently known questions first and be careful with guesses because of negative marking.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t067-prelims-exam",
+      "topic": "prelims_exam",
+      "claim": "Use elimination on statement-based questions; removing one wrong statement often decides the answer.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t068-prelims-exam",
+      "topic": "prelims_exam",
+      "claim": "Read every statement fully; misreading words like only, all, or never costs marks.",
+      "kind": "topper",
+      "sourceUrl": "https://news.careers360.com/upsc-ias-2021-5-tips-crack-prelims-exam"
+    },
+    {
+      "id": "t069-mains-exam",
+      "topic": "mains_exam",
+      "claim": "In Mains, attempt all questions; leaving questions costs more than imperfect answers.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/205808/ias-hero-upsc-topper-tips-general-studies-mains-answer-writing-essay/"
+    },
+    {
+      "id": "t070-mains-exam",
+      "topic": "mains_exam",
+      "claim": "Plan time per question before starting the paper and stick to it.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/205808/ias-hero-upsc-topper-tips-general-studies-mains-answer-writing-essay/"
+    },
+    {
+      "id": "t071-interview",
+      "topic": "interview",
+      "claim": "Prepare for questions on your background, education, work and hobbies in the detailed application form.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/234751/upsc-results-2019-toppers-pradeep-singh-preparation-tips-exam-method-how-to-crack-india-gop94/"
+    },
+    {
+      "id": "t072-interview",
+      "topic": "interview",
+      "claim": "Mock interviews help with composure and clarity of expression.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/234751/upsc-results-2019-toppers-pradeep-singh-preparation-tips-exam-method-how-to-crack-india-gop94/"
+    },
+    {
+      "id": "t073-syllabus",
+      "topic": "syllabus",
+      "claim": "Keep a printed syllabus at hand and tick topics as they are covered and revised.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/263100/upsc-cse-topper-ips-officer-valay-vaidya-prelims-preparation-gs-syllabus-mains/"
+    },
+    {
+      "id": "t074-syllabus",
+      "topic": "syllabus",
+      "claim": "Map past questions onto syllabus topics to see where questions cluster.",
+      "kind": "topper",
+      "sourceUrl": "https://thebetterindia.com/web-stories/upsc-toppers-strategy-previous-years-question-papers/"
+    },
+    {
+      "id": "o001-exam-structure",
+      "topic": "exam_structure",
+      "claim": "The Civil Services Examination has two stages: a Preliminary screening test and the Main examination with an interview.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o002-exam-structure",
+      "topic": "exam_structure",
+      "claim": "Preliminary marks are used only for screening and are not counted for the final merit.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o003-prelims-exam",
+      "topic": "prelims_exam",
+      "claim": "The Preliminary examination has two objective papers of 200 marks each, two hours each.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o004-csat",
+      "topic": "csat",
+      "claim": "Preliminary General Studies Paper II (CSAT) is qualifying with a minimum of 33 percent.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o005-prelims-exam",
+      "topic": "prelims_exam",
+      "claim": "Wrong answers in the Preliminary objective papers attract a penalty of one-third of the marks for that question.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o006-mains-exam",
+      "topic": "mains_exam",
+      "claim": "The Main examination has nine written papers, two of which (Indian language and English) are qualifying.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o007-mains-exam",
+      "topic": "mains_exam",
+      "claim": "The Main written examination carries 1750 marks and the interview (personality test) 275 marks.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o008-essay",
+      "topic": "essay",
+      "claim": "The Essay paper requires essays on multiple topics; candidates must keep closely to the subject and write concisely.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o009-optional",
+      "topic": "optional",
+      "claim": "The optional subject is chosen from the list in the notification and carries two papers of 250 marks each.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o010-syllabus",
+      "topic": "syllabus",
+      "claim": "The official syllabus in the notification defines the scope of every paper.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o011-ethics",
+      "topic": "ethics",
+      "claim": "General Studies Paper IV tests attitude and approach to integrity, probity in public life and problem solving, including case studies.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    },
+    {
+      "id": "o012-interview",
+      "topic": "interview",
+      "claim": "The personality test assesses suitability for a career in public service by a board of competent and unbiased observers.",
+      "kind": "official",
+      "officialSource": "UPSC CSE 2026 notification",
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sourceDate": "2026-02-04"
+    }
+  ]
+}

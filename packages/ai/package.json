@@ -13,6 +13,7 @@
   "dependencies": {
     "@google-cloud/text-to-speech": "7.2.0",
     "@google/genai": "2.30.0",
-    "@koach/guard": "workspace:*"
+    "@koach/guard": "workspace:*",
+    "zod": "4.6.7"
   }
 }

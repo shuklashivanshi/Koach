@@ -1,0 +1,336 @@
+{
+  "sources": [
+    {
+      "id": "ncert-6-history",
+      "kind": "ncert",
+      "title": "NCERT Class 6 History · Our Pasts I"
+    },
+    {
+      "id": "ncert-7-history",
+      "kind": "ncert",
+      "title": "NCERT Class 7 History · Our Pasts II"
+    },
+    {
+      "id": "ncert-8-history",
+      "kind": "ncert",
+      "title": "NCERT Class 8 History · Our Pasts III"
+    },
+    {
+      "id": "ncert-11-history",
+      "kind": "ncert",
+      "title": "NCERT Class 11 History · Themes in World History"
+    },
+    {
+      "id": "ncert-12-history",
+      "kind": "ncert",
+      "title": "NCERT Class 12 History · Themes in Indian History I–III"
+    },
+    {
+      "id": "ncert-11-fine-arts",
+      "kind": "ncert",
+      "title": "NCERT Class 11 · An Introduction to Indian Art"
+    },
+    {
+      "id": "ncert-6-geography",
+      "kind": "ncert",
+      "title": "NCERT Class 6 Geography · The Earth: Our Habitat"
+    },
+    {
+      "id": "ncert-7-geography",
+      "kind": "ncert",
+      "title": "NCERT Class 7 Geography · Our Environment"
+    },
+    {
+      "id": "ncert-8-geography",
+      "kind": "ncert",
+      "title": "NCERT Class 8 Geography · Resources and Development"
+    },
+    {
+      "id": "ncert-9-geography",
+      "kind": "ncert",
+      "title": "NCERT Class 9 Geography · Contemporary India I"
+    },
+    {
+      "id": "ncert-10-geography",
+      "kind": "ncert",
+      "title": "NCERT Class 10 Geography · Contemporary India II"
+    },
+    {
+      "id": "ncert-11-geography",
+      "kind": "ncert",
+      "title": "NCERT Class 11 Geography · Fundamentals of Physical Geography"
+    },
+    {
+      "id": "ncert-12-geography",
+      "kind": "ncert",
+      "title": "NCERT Class 12 Geography · Fundamentals of Human Geography"
+    },
+    {
+      "id": "ncert-11-india-physical",
+      "kind": "ncert",
+      "title": "NCERT Class 11 · India: Physical Environment"
+    },
+    {
+      "id": "ncert-12-india-people-economy",
+      "kind": "ncert",
+      "title": "NCERT Class 12 · India: People and Economy"
+    },
+    {
+      "id": "ncert-11-polsci-constitution",
+      "kind": "ncert",
+      "title": "NCERT Class 11 · Indian Constitution at Work"
+    },
+    {
+      "id": "ncert-11-polsci-theory",
+      "kind": "ncert",
+      "title": "NCERT Class 11 · Political Theory"
+    },
+    {
+      "id": "ncert-12-polsci-contemporary-world",
+      "kind": "ncert",
+      "title": "NCERT Class 12 · Contemporary World Politics"
+    },
+    {
+      "id": "ncert-12-polsci-since-independence",
+      "kind": "ncert",
+      "title": "NCERT Class 12 · Politics in India since Independence"
+    },
+    {
+      "id": "ncert-9-economics",
+      "kind": "ncert",
+      "title": "NCERT Class 9 · Economics"
+    },
+    {
+      "id": "ncert-10-economics",
+      "kind": "ncert",
+      "title": "NCERT Class 10 · Understanding Economic Development"
+    },
+    {
+      "id": "ncert-11-indian-economic-development",
+      "kind": "ncert",
+      "title": "NCERT Class 11 · Indian Economic Development"
+    },
+    {
+      "id": "ncert-12-macroeconomics",
+      "kind": "ncert",
+      "title": "NCERT Class 12 · Introductory Macroeconomics"
+    },
+    {
+      "id": "ncert-12-sociology-indian-society",
+      "kind": "ncert",
+      "title": "NCERT Class 12 · Indian Society"
+    },
+    {
+      "id": "ncert-12-sociology-social-change",
+      "kind": "ncert",
+      "title": "NCERT Class 12 · Social Change and Development in India"
+    },
+    {
+      "id": "ncert-8-science",
+      "kind": "ncert",
+      "title": "NCERT Class 8 · Science"
+    },
+    {
+      "id": "ncert-9-science",
+      "kind": "ncert",
+      "title": "NCERT Class 9 · Science"
+    },
+    {
+      "id": "ncert-10-science",
+      "kind": "ncert",
+      "title": "NCERT Class 10 · Science"
+    },
+    {
+      "id": "ncert-12-biology",
+      "kind": "ncert",
+      "title": "NCERT Class 12 · Biology (Ecology unit)"
+    },
+    {
+      "id": "ncert-old-ancient-india",
+      "kind": "ncert",
+      "title": "Ancient India (old NCERT)",
+      "author": "R. S. Sharma"
+    },
+    {
+      "id": "ncert-old-medieval-india",
+      "kind": "ncert",
+      "title": "Medieval India (old NCERT)",
+      "author": "Satish Chandra"
+    },
+    {
+      "id": "ncert-old-modern-india",
+      "kind": "ncert",
+      "title": "Modern India (old NCERT)",
+      "author": "Bipan Chandra"
+    },
+    {
+      "id": "laxmikanth-polity",
+      "kind": "book",
+      "title": "Indian Polity",
+      "author": "M. Laxmikanth"
+    },
+    {
+      "id": "laxmikanth-governance",
+      "kind": "book",
+      "title": "Governance in India",
+      "author": "M. Laxmikanth"
+    },
+    {
+      "id": "spectrum-modern-history",
+      "kind": "book",
+      "title": "A Brief History of Modern India",
+      "author": "Rajiv Ahir"
+    },
+    {
+      "id": "bipan-struggle",
+      "kind": "book",
+      "title": "India's Struggle for Independence",
+      "author": "Bipan Chandra et al."
+    },
+    {
+      "id": "bipan-since-independence",
+      "kind": "book",
+      "title": "India Since Independence",
+      "author": "Bipan Chandra et al."
+    },
+    {
+      "id": "guha-after-gandhi",
+      "kind": "book",
+      "title": "India After Gandhi",
+      "author": "Ramachandra Guha"
+    },
+    {
+      "id": "singhania-art-culture",
+      "kind": "book",
+      "title": "Indian Art and Culture",
+      "author": "Nitin Singhania"
+    },
+    {
+      "id": "lowe-world-history",
+      "kind": "book",
+      "title": "Mastering Modern World History",
+      "author": "Norman Lowe"
+    },
+    {
+      "id": "leong-geography",
+      "kind": "book",
+      "title": "Certificate Physical and Human Geography",
+      "author": "G. C. Leong"
+    },
+    {
+      "id": "husain-geography-india",
+      "kind": "book",
+      "title": "Geography of India",
+      "author": "Majid Husain"
+    },
+    {
+      "id": "oxford-atlas",
+      "kind": "book",
+      "title": "Oxford Student Atlas for India"
+    },
+    {
+      "id": "ramesh-singh-economy",
+      "kind": "book",
+      "title": "Indian Economy",
+      "author": "Ramesh Singh"
+    },
+    {
+      "id": "env-reference",
+      "kind": "book",
+      "title": "Environment",
+      "author": "Shankar IAS Academy",
+      "neutralLabel": "Environment reference"
+    },
+    {
+      "id": "sikri-foreign-policy",
+      "kind": "book",
+      "title": "Challenge and Strategy: Rethinking India's Foreign Policy",
+      "author": "Rajiv Sikri"
+    },
+    {
+      "id": "internal-security-reference",
+      "kind": "book",
+      "title": "Challenges to Internal Security of India",
+      "author": "Ashok Kumar, Vipul Anekant"
+    },
+    {
+      "id": "ethics-reference",
+      "kind": "book",
+      "title": "Ethics, Integrity and Aptitude",
+      "author": "Lexicon",
+      "neutralLabel": "Ethics reference"
+    },
+    {
+      "id": "aggarwal-quant",
+      "kind": "book",
+      "title": "Quantitative Aptitude for Competitive Examinations",
+      "author": "R. S. Aggarwal"
+    },
+    {
+      "id": "aggarwal-reasoning",
+      "kind": "book",
+      "title": "A Modern Approach to Verbal & Non-Verbal Reasoning",
+      "author": "R. S. Aggarwal"
+    },
+    {
+      "id": "official-constitution",
+      "kind": "official",
+      "title": "The Constitution of India (bare text)"
+    },
+    {
+      "id": "official-economic-survey",
+      "kind": "official",
+      "title": "Economic Survey (Ministry of Finance)"
+    },
+    {
+      "id": "official-budget",
+      "kind": "official",
+      "title": "Union Budget documents"
+    },
+    {
+      "id": "official-india-year-book",
+      "kind": "official",
+      "title": "India Year Book (Publications Division)"
+    },
+    {
+      "id": "official-arc2-ethics",
+      "kind": "official",
+      "title": "2nd ARC Report: Ethics in Governance"
+    },
+    {
+      "id": "official-arc2-reports",
+      "kind": "official",
+      "title": "2nd ARC Reports"
+    },
+    {
+      "id": "official-ndma",
+      "kind": "official",
+      "title": "NDMA guidelines and National Disaster Management Plan"
+    },
+    {
+      "id": "official-mea",
+      "kind": "official",
+      "title": "Ministry of External Affairs briefs"
+    },
+    {
+      "id": "official-pib",
+      "kind": "official",
+      "title": "PIB releases"
+    },
+    {
+      "id": "official-upsc-essays",
+      "kind": "official",
+      "title": "UPSC Essay papers (past topics)"
+    },
+    {
+      "id": "official-isfr",
+      "kind": "official",
+      "title": "India State of Forest Report (FSI)"
+    },
+    {
+      "id": "official-moefcc",
+      "kind": "official",
+      "title": "MoEFCC annual report and India's NDC/NAPCC documents"
+    }
+  ]
+}
