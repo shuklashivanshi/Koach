@@ -75,3 +75,78 @@ export const KbStrategyAnswer = z.object({
   basis: z.object({ topperAccounts: z.number().int(), officialSources: z.array(z.string()) }),
 });
 export type KbStrategyAnswer = z.infer<typeof KbStrategyAnswer>;
+
+// --- Admin review (KB-07) -----------------------------------------------------------------
+
+export const ReviewPyqItem = z.object({
+  type: z.literal('pyq'),
+  id: z.string(),
+  exam: z.string(),
+  year: z.number().int(),
+  text: z.string(),
+  options: z.array(z.object({ key: z.string(), text: z.string() })).nullable(),
+  answer: z.string().nullable(),
+  questionType: z.string().nullable(),
+  sourceType: z.string().nullable(),
+  directive: z.string().nullable(),
+  nodes: z.array(z.object({ id: z.string(), title: z.string(), primary: z.boolean() })),
+});
+export const ReviewSourceItem = z.object({
+  type: z.literal('source'),
+  id: z.string(),
+  nodeTitle: z.string(),
+  sourceId: z.string(),
+  sourceLabel: z.string(),
+  chapter: z.string(),
+  reason: z.string(),
+});
+export const ReviewSample = z.object({
+  items: z.array(z.discriminatedUnion('type', [ReviewPyqItem, ReviewSourceItem])),
+});
+export type ReviewSample = z.infer<typeof ReviewSample>;
+
+export const ReviewPyqDecision = z.discriminatedUnion('action', [
+  z.object({ action: z.literal('approve') }),
+  z.object({
+    action: z.literal('correct'),
+    nodes: z
+      .array(z.object({ id: z.string(), primary: z.boolean() }))
+      .min(1)
+      .max(5),
+    questionType: z.enum([
+      'statement',
+      'how_many',
+      'match',
+      'assertion_reason',
+      'direct',
+      'descriptive',
+    ]),
+    sourceType: z.enum(['static', 'partial', 'current_affairs']),
+    directive: z.string().max(40).nullable().optional(),
+  }),
+]);
+export type ReviewPyqDecision = z.infer<typeof ReviewPyqDecision>;
+
+export const ReviewSourceDecision = z.discriminatedUnion('action', [
+  z.object({ action: z.literal('approve') }),
+  z.object({
+    action: z.literal('correct'),
+    sourceId: z.string(),
+    chapter: z.string().min(1).max(120),
+    reason: z.string().min(5).max(200),
+  }),
+]);
+export type ReviewSourceDecision = z.infer<typeof ReviewSourceDecision>;
+
+const Tally = z.object({
+  suggested: z.number().int(),
+  approved: z.number().int(),
+  corrected: z.number().int(),
+  accuracy: z.number().nullable(),
+});
+export const ReviewSummary = z.object({ pyq: Tally, source: Tally });
+export type ReviewSummary = z.infer<typeof ReviewSummary>;
+
+export const SourceCatalogue = z.object({
+  sources: z.array(z.object({ id: z.string(), kind: z.string(), label: z.string() })),
+});

@@ -104,7 +104,7 @@ Subjects: ${batch.map((b) => `${b.slug} (${b.name})`).join('; ')}`,
 
 /** Target number of study-session nodes per paper (~810 total). */
 const TARGET: Record<string, number> = {
-  prelims_gs1: 60,
+  prelims_gs1: 90,
   csat: 40,
   essay: 20,
   gs1: 220,
@@ -154,9 +154,12 @@ async function gsPaper(paper: string) {
   const target = TARGET[paper] ?? 100;
   const scope =
     paper === 'prelims_gs1'
-      ? `Only include what is NOT already covered by Mains GS I–III: basic general science
-(physics, chemistry, biology, everyday science), and how current events are covered.
-History, geography, polity, economy, environment and S&T live in the Mains GS papers.`
+      ? `Only include what is NOT already covered by Mains GS I–III:
+(1) ancient and medieval Indian history (political, administrative, economic and religious history
+from prehistory to the Mughals and regional kingdoms; art and architecture are covered elsewhere),
+(2) basic general science (physics, chemistry, biology, everyday science),
+(3) how current events are covered. Modern history, art and culture, geography, polity, economy,
+environment and S&T live in the Mains GS papers.`
       : paper === 'csat'
         ? 'Cover comprehension, reasoning, decision making, basic numeracy (Class X) and data interpretation.'
         : '';

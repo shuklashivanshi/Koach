@@ -79,6 +79,9 @@ export const ApiErrorBody = z.object({
     'invalid_code',
     'bad_request',
     'not_found',
+    'forbidden',
+    'unknown_node',
+    'unknown_source',
     'internal',
   ]),
 });

@@ -5,6 +5,11 @@ import {
   ExportBundleSchema,
   HealthResponse,
   MeSchema,
+  type ReviewPyqDecision,
+  ReviewSample,
+  type ReviewSourceDecision,
+  ReviewSummary,
+  SourceCatalogue,
 } from '@koach/shared';
 import type { z } from 'zod';
 import { currentIdToken } from '../auth/firebase';
@@ -63,4 +68,19 @@ export const api = {
   exportData: () => request('/v1/me/export', ExportBundleSchema),
   deleteAccount: () => request('/v1/me', null, { method: 'DELETE' }),
   aiPing: () => request('/v1/ai/ping', AiPingResponse),
+  // Admin review (KB-07); 403 unless the signed-in email is on ADMIN_EMAILS.
+  reviewSummary: () => request('/v1/admin/review/summary', ReviewSummary),
+  reviewSample: (type: 'pyq' | 'source', n = 10) =>
+    request(`/v1/admin/review/sample?type=${type}&n=${n}`, ReviewSample),
+  reviewPyq: (id: string, decision: ReviewPyqDecision) =>
+    request(`/v1/admin/review/pyq/${encodeURIComponent(id)}`, null, {
+      method: 'POST',
+      body: JSON.stringify(decision),
+    }),
+  reviewSource: (nodeId: string, decision: ReviewSourceDecision) =>
+    request(`/v1/admin/review/source/${encodeURIComponent(nodeId)}`, null, {
+      method: 'POST',
+      body: JSON.stringify(decision),
+    }),
+  sourceCatalogue: () => request('/v1/admin/sources', SourceCatalogue),
 };

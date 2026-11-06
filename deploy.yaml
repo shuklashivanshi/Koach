@@ -19,6 +19,8 @@ substitutions:
   _APP_ENV: dev
   # Dev only: also log sign-in codes (the API refuses this when APP_ENV=prod).
   _EMAIL_DEV_ECHO: '1'
+  # Reviewers for the knowledge-base admin page (KB-07); use ^:^ as the list separator in triggers.
+  _ADMIN_EMAILS: shivanshishukla16@gmail.com
 
 serviceAccount: projects/$PROJECT_ID/serviceAccounts/koach-build@$PROJECT_ID.iam.gserviceaccount.com
 
@@ -121,7 +123,7 @@ steps:
       - --platform=managed
       - --service-account=koach-api@$PROJECT_ID.iam.gserviceaccount.com
       - --add-cloudsql-instances=$PROJECT_ID:${_REGION}:${_SQL_INSTANCE}
-      - --set-env-vars=APP_ENV=${_APP_ENV},EMAIL_DEV_ECHO=${_EMAIL_DEV_ECHO},GCP_PROJECT=$PROJECT_ID,GCS_BUCKET=$PROJECT_ID-user-data
+      - --set-env-vars=APP_ENV=${_APP_ENV},EMAIL_DEV_ECHO=${_EMAIL_DEV_ECHO},GCP_PROJECT=$PROJECT_ID,GCS_BUCKET=$PROJECT_ID-user-data,ADMIN_EMAILS=${_ADMIN_EMAILS}
       - --set-secrets=DATABASE_URL=DATABASE_URL:latest,FIREBASE_PROJECT_ID=FIREBASE_PROJECT_ID:latest,RESEND_API_KEY=RESEND_API_KEY:latest
       - --allow-unauthenticated # public HTTPS; every route except /health and email sign-in verifies a Firebase ID token
       - --min-instances=0

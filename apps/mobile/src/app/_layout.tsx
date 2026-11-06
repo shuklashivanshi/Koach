@@ -46,6 +46,7 @@ function Navigator() {
       <Stack.Protected guard={signedIn}>
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="dev" />
+        <Stack.Screen name="admin/review" />
       </Stack.Protected>
     </Stack>
   );

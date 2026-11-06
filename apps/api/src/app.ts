@@ -13,6 +13,7 @@ import { requireAuth } from './plugins/auth';
 import { registerNamingGuard } from './plugins/guard';
 import { loggerOptions } from './plugins/logging';
 import { healthRoutes } from './routes/health';
+import { adminReviewRoutes } from './routes/v1/admin/review';
 import { aiPingRoutes } from './routes/v1/ai/ping';
 import { emailAuthRoutes } from './routes/v1/auth/email';
 import { kbRoutes } from './routes/v1/kb';
@@ -67,6 +68,7 @@ export async function buildApp(deps: Deps, options: BuildOptions = {}): Promise<
       await scope.register(meExportRoutes(deps));
       await scope.register(aiPingRoutes(deps));
       await scope.register(kbRoutes(deps));
+      await scope.register(adminReviewRoutes(deps));
       for (const routes of options.protectedRoutes ?? []) await scope.register(routes(deps));
     },
     { prefix: '/v1' },
