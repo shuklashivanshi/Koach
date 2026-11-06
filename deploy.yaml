@@ -26,6 +26,8 @@ options:
   logging: CLOUD_LOGGING_ONLY
   machineType: E2_HIGHCPU_8
   dynamicSubstitutions: true
+  # _ENV is informational (set by triggers); allow substitutions the steps do not reference.
+  substitutionOption: ALLOW_LOOSE
 
 steps:
   # 1. Install the workspace (pnpm monorepo, Node 24)
