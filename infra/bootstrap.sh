@@ -67,6 +67,12 @@ for sa in koach-api koach-jobs; do
   retry "${G[@]}" iam service-accounts add-iam-policy-binding "$(sa_email "$sa")" \
     --member="serviceAccount:$(sa_email koach-build)" --role=roles/iam.serviceAccountUser >/dev/null
 done
+# The Cloud Build service agent stores the GitHub connection token in Secret Manager (trigger.sh).
+PROJECT_NUMBER="$("${G[@]}" projects describe "$PROJECT_ID" --format='value(projectNumber)')"
+"${G[@]}" beta services identity create --service=cloudbuild.googleapis.com >/dev/null 2>&1 || true
+retry "${G[@]}" projects add-iam-policy-binding "$PROJECT_ID" \
+  --member="serviceAccount:service-${PROJECT_NUMBER}@gcp-sa-cloudbuild.iam.gserviceaccount.com" \
+  --role=roles/secretmanager.admin --condition=None >/dev/null
 
 # --- Cloud SQL ----------------------------------------------------------------------------------
 step "cloud sql $SQL_INSTANCE" "${G[@]}" sql instances describe "$SQL_INSTANCE" -- \
