@@ -1,5 +1,12 @@
 import { aiCallsRepo, type Db } from '@koach/db';
-import { type AiUsage, generateJson, generateText, synthesize, type TextTier } from '@koach/ai';
+import {
+  type AiUsage,
+  generateJson,
+  generateText,
+  synthesize,
+  type TextTier,
+  transcribe,
+} from '@koach/ai';
 import type { z } from 'zod';
 
 /** What routes need from the AI layer; tests provide a fake. */
@@ -11,6 +18,10 @@ export interface AiService {
   }>;
   speak(req: { feature: string; text: string; uid: string }): Promise<{
     audioBase64: string;
+    costUsd: number;
+  }>;
+  transcribe(req: { feature: string; audioBase64: string; seconds: number; uid: string }): Promise<{
+    text: string;
     costUsd: number;
   }>;
   /** Structured output validated against the schema. */
@@ -43,5 +54,6 @@ export function vertexAi(db: Db): AiService {
     text: (req) => generateText(req, { onCall }),
     speak: (req) => synthesize(req, { onCall }),
     json: (req) => generateJson(req, { onCall }),
+    transcribe: (req) => transcribe(req, { onCall }),
   };
 }

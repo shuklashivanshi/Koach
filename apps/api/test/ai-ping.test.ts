@@ -26,6 +26,7 @@ function recordingAi(db: () => Db): AiService {
       return { audioBase64: 'QUJD', costUsd: 0.0002 };
     },
     json: () => Promise.reject(new Error('unused')),
+    transcribe: () => Promise.reject(new Error('unused')),
   };
 }
 

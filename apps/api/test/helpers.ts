@@ -54,6 +54,7 @@ export async function buildTestApp(
       text: () => Promise.resolve({ text: 'Keep going.', model: 'fake-model', costUsd: 0.0001 }),
       speak: () => Promise.resolve({ audioBase64: 'QUJD', costUsd: 0.0002 }),
       json: () => Promise.reject(new Error('json not stubbed in this test')),
+      transcribe: () => Promise.resolve({ text: 'monsoon delta', costUsd: 0.0001 }),
     },
     now: () => new Date(),
     version: 'test',

@@ -19,6 +19,7 @@
     "@koach/db": "workspace:*",
     "@koach/guard": "workspace:*",
     "@koach/kb": "workspace:*",
+    "@koach/lpt": "workspace:*",
     "@koach/shared": "workspace:*",
     "drizzle-orm": "0.45.4",
     "fastify": "5.12.7",
