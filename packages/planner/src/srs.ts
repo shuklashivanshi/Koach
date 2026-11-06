@@ -52,5 +52,5 @@ export function fromJson(j: Record<string, unknown>): SrsCard {
     ...(j as unknown as SrsCard),
     due: new Date(j.due as string),
     last_review: j.last_review ? new Date(j.last_review as string) : undefined,
-  } as SrsCard;
+  };
 }

@@ -229,6 +229,9 @@ importers:
       '@koach/lpt':
         specifier: workspace:*
         version: link:../../packages/lpt
+      '@koach/planner':
+        specifier: workspace:*
+        version: link:../../packages/planner
       '@koach/shared':
         specifier: workspace:*
         version: link:../../packages/shared
