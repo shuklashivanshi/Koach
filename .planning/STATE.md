@@ -22,7 +22,7 @@ See: .planning/PROJECT.md (updated 2026-11-05)
 
 Phase: 7 of 7 in milestone v1.0 (all phases built; data jobs finishing)
 Status: v1.0 features built and tested locally on web; Phase 2 PYQ data (extraction → tagging) and optional data still running; not yet deployed (push to main needs the user's go-ahead)
-Last activity: 2026-11-06: Phases 2–7 executed; 127 Vitest + 14 Jest green
+Last activity: 2026-11-07: UI polish (Back links, tab bar, touch targets); extractor title check fixed; 6 Prelims papers (2018, 2021–2026) still blocked by Vertex 429 quota / fetch errors; tagging not yet run
 
 Progress: [█████████░] v1.0 built; remaining: PYQ bank + tags, optional profiles/stats, tag audit by the user, deploy
 
