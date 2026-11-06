@@ -900,6 +900,212 @@
       ]
     },
     {
+      "examYear": 2021,
+      "source": "https://www.upsc.gov.in/sites/default/files/73rd-AnnualReport-2022-23-Engl-220824.pdf",
+      "rows": [
+        {
+          "slug": "agriculture",
+          "appeared": 115,
+          "recommended": 12
+        },
+        {
+          "slug": "animal-husbandry-and-veterinary-science",
+          "appeared": 18,
+          "recommended": 1
+        },
+        {
+          "slug": "anthropology",
+          "appeared": 1159,
+          "recommended": 90
+        },
+        {
+          "slug": "botany",
+          "appeared": 32,
+          "recommended": 3
+        },
+        {
+          "slug": "chemistry",
+          "appeared": 127,
+          "recommended": 14
+        },
+        {
+          "slug": "civil-engineering",
+          "appeared": 135,
+          "recommended": 10
+        },
+        {
+          "slug": "commerce-and-accountancy",
+          "appeared": 140,
+          "recommended": 21
+        },
+        {
+          "slug": "economics",
+          "appeared": 190,
+          "recommended": 25
+        },
+        {
+          "slug": "electrical-engineering",
+          "appeared": 117,
+          "recommended": 7
+        },
+        {
+          "slug": "geography",
+          "appeared": 1079,
+          "recommended": 66
+        },
+        {
+          "slug": "geology",
+          "appeared": 29,
+          "recommended": 1
+        },
+        {
+          "slug": "history",
+          "appeared": 574,
+          "recommended": 25
+        },
+        {
+          "slug": "law",
+          "appeared": 180,
+          "recommended": 21
+        },
+        {
+          "slug": "literature-bengali",
+          "appeared": 3,
+          "recommended": 0
+        },
+        {
+          "slug": "literature-english",
+          "appeared": 27,
+          "recommended": 3
+        },
+        {
+          "slug": "literature-gujarati",
+          "appeared": 32,
+          "recommended": 2
+        },
+        {
+          "slug": "literature-hindi",
+          "appeared": 211,
+          "recommended": 22
+        },
+        {
+          "slug": "literature-kannada",
+          "appeared": 60,
+          "recommended": 7
+        },
+        {
+          "slug": "literature-maithili",
+          "appeared": 12,
+          "recommended": 2
+        },
+        {
+          "slug": "literature-malayalam",
+          "appeared": 74,
+          "recommended": 8
+        },
+        {
+          "slug": "literature-manipuri",
+          "appeared": 2,
+          "recommended": 1
+        },
+        {
+          "slug": "literature-marathi",
+          "appeared": 8,
+          "recommended": 1
+        },
+        {
+          "slug": "literature-punjabi",
+          "appeared": 15,
+          "recommended": 2
+        },
+        {
+          "slug": "literature-sanskrit",
+          "appeared": 34,
+          "recommended": 2
+        },
+        {
+          "slug": "literature-sindhi",
+          "appeared": 2,
+          "recommended": 0
+        },
+        {
+          "slug": "literature-tamil",
+          "appeared": 27,
+          "recommended": 2
+        },
+        {
+          "slug": "literature-telugu",
+          "appeared": 20,
+          "recommended": 1
+        },
+        {
+          "slug": "literature-urdu",
+          "appeared": 7,
+          "recommended": 0
+        },
+        {
+          "slug": "management",
+          "appeared": 31,
+          "recommended": 5
+        },
+        {
+          "slug": "mathematics",
+          "appeared": 513,
+          "recommended": 50
+        },
+        {
+          "slug": "mechanical-engineering",
+          "appeared": 160,
+          "recommended": 11
+        },
+        {
+          "slug": "medical-science",
+          "appeared": 196,
+          "recommended": 24
+        },
+        {
+          "slug": "philosophy",
+          "appeared": 265,
+          "recommended": 20
+        },
+        {
+          "slug": "physics",
+          "appeared": 131,
+          "recommended": 7
+        },
+        {
+          "slug": "political-science-and-international-relations",
+          "appeared": 1571,
+          "recommended": 140
+        },
+        {
+          "slug": "psychology",
+          "appeared": 127,
+          "recommended": 15
+        },
+        {
+          "slug": "public-administration",
+          "appeared": 361,
+          "recommended": 31
+        },
+        {
+          "slug": "sociology",
+          "appeared": 1087,
+          "recommended": 92
+        },
+        {
+          "slug": "statistics",
+          "appeared": 3,
+          "recommended": 0
+        },
+        {
+          "slug": "zoology",
+          "appeared": 56,
+          "recommended": 4
+        }
+      ]
+    },
+    {
       "examYear": 2022,
       "source": "https://www.upsc.gov.in/sites/default/files/74thAnnualReport-2023-24-Engl-230326.pdf",
       "rows": [

@@ -823,6 +823,46 @@
       "overlapSections": [
         "gs1.art-and-culture"
       ]
+    },
+    "literature-marathi": {
+      "name": "Literature of Marathi",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "society",
+        "history",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.65,
+        "data": 0.1,
+        "narratives": 0.95,
+        "debates": 0.55
+      },
+      "answer": {
+        "analytical": 0.75,
+        "factual": 0.5,
+        "diagrams": 0.05,
+        "numericals": 0
+      },
+      "materials": 0.75,
+      "hours": 480,
+      "books": [
+        "Bhasha aani Bhashavigyan by N. G. Kalelkar",
+        "Sugam Marathi Vyakaran va Lekhan by M. R. Walambe",
+        "Prachin va Madhyayugin Marathi Sahityacha Itihas by A. N. Deshpande",
+        "Sahityavichar by Akshaykumar Kale"
+      ],
+      "summary": "Marathi Literature involves exploring Marathi linguistics, grammatical structures, and literary history alongside textual analysis of diverse prose and poetry reflecting socio-cultural movements.",
+      "topics": 8,
+      "gsOverlap": 0.25,
+      "overlapSections": [
+        "gs1.art-and-culture"
+      ]
     }
   }
 }
