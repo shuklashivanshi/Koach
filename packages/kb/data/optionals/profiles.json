@@ -863,6 +863,1194 @@
       "overlapSections": [
         "gs1.art-and-culture"
       ]
+    },
+    "literature-nepali": {
+      "name": "Literature of Nepali",
+      "backgrounds": [
+        "literature",
+        "humanities"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "society",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.6,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.5
+      },
+      "answer": {
+        "analytical": 0.75,
+        "factual": 0.6,
+        "diagrams": 0.05,
+        "numericals": 0
+      },
+      "materials": 0.45,
+      "hours": 400,
+      "books": [
+        "Nepali Sahityako Itihas by Kumar Pradhan",
+        "Nepali Bhasako Utpatti ra Bikas by Bal Krishna Pokharel",
+        "Nepali Sahityako Sankshipta Itihas by Dayaram Shrestha",
+        "Madhyamik Nepali Vyakaran by Somnath Sigdyal"
+      ],
+      "summary": "The syllabus combines the study of Nepali linguistics, grammar, and socio-cultural history with extensive textual appreciation and critical analysis of classic prose, poetry, and drama.",
+      "topics": 9,
+      "gsOverlap": 0,
+      "overlapSections": []
+    },
+    "literature-odia": {
+      "name": "Literature of Odia",
+      "backgrounds": [
+        "literature",
+        "humanities"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.4,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.5
+      },
+      "answer": {
+        "analytical": 0.7,
+        "factual": 0.6,
+        "diagrams": 0.1,
+        "numericals": 0
+      },
+      "materials": 0.6,
+      "hours": 400,
+      "books": [
+        "Odia Sahityara Itihasa by Mayadhar Mansingh",
+        "Odia Bhasatattwara Itihasa by Kunjabihari Tripathi",
+        "Odia Sahityara Adiparba by Surendra Mohanty",
+        "Odia Bhasara Itihasa by Bhabagrahi Mishra"
+      ],
+      "summary": "Odia Literature combines the structural study of linguistics and dialectology with the historical appreciation and textual analysis of classical and modern regional literary works.",
+      "topics": 7,
+      "gsOverlap": 0.14,
+      "overlapSections": [
+        "gs1.art-and-culture"
+      ]
+    },
+    "literature-punjabi": {
+      "name": "Literature of Punjabi",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "philosophy",
+        "history",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.55,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.5
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.6,
+        "diagrams": 0.1,
+        "numericals": 0
+      },
+      "materials": 0.65,
+      "hours": 380,
+      "books": [
+        "Punjabi Sahit Di Utpatti Te Vikas by Dr. Parminder Singh and Kirpal Singh Kasel",
+        "Punjabi Bhasha Vigyan by Dr. Prem Prakash Singh",
+        "Punjabi Bhasha Da Viyakaran by Dr. Harkirat Singh",
+        "Punjabi Sahit Da Itihas by Dr. Rattan Singh Jaggi"
+      ],
+      "summary": "Studying Punjabi Literature combines historical and descriptive linguistics of Gurumukhi with deep textual appreciation of medieval Sufi-Bhakti poetry and modern progressive prose.",
+      "topics": 6,
+      "gsOverlap": 0.33,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "prelims_gs1.medieval-indian-history",
+        "gs4.moral-thinkers-and-philosophers"
+      ]
+    },
+    "literature-sanskrit": {
+      "name": "Literature of Sanskrit",
+      "backgrounds": [
+        "literature",
+        "humanities"
+      ],
+      "interests": [
+        "literature",
+        "philosophy",
+        "history"
+      ],
+      "reading": {
+        "theory": 0.5,
+        "data": 0.1,
+        "narratives": 0.8,
+        "debates": 0.3
+      },
+      "answer": {
+        "analytical": 0.6,
+        "factual": 0.7,
+        "diagrams": 0,
+        "numericals": 0
+      },
+      "materials": 0.7,
+      "hours": 400,
+      "books": [
+        "A History of Sanskrit Literature by Arthur Anthony Macdonell",
+        "Higher Sanskrit Grammar by M. R. Kale",
+        "A History of Classical Sanskrit Literature by M. Krishnamachariar",
+        "A Critical Survey of Indian Philosophy by Chandradhar Sharma"
+      ],
+      "summary": "Sanskrit Literature is a structured and highly scoring optional requiring precise linguistic grasp of grammar, memorization of classical verses, and analytical appreciation of ancient philosophy, drama, and epics.",
+      "topics": 7,
+      "gsOverlap": 0.57,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "prelims_gs1.ancient-indian-history",
+        "essay.philosophical-and-reflective-essays",
+        "gs4.ethics-human-interface",
+        "gs4.moral-thinkers-and-philosophers"
+      ]
+    },
+    "literature-santhali": {
+      "name": "Literature of Santhali",
+      "backgrounds": [
+        "literature",
+        "humanities"
+      ],
+      "interests": [
+        "literature",
+        "society",
+        "history"
+      ],
+      "reading": {
+        "theory": 0.35,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.3
+      },
+      "answer": {
+        "analytical": 0.65,
+        "factual": 0.7,
+        "diagrams": 0.1,
+        "numericals": 0
+      },
+      "materials": 0.4,
+      "hours": 400,
+      "books": [
+        "Horkoren Mare Hapramko Reak Katha by Kolean Haram and L.O. Skrefsrud",
+        "Bidu Chandan by Pandit Raghunath Murmu",
+        "Santhali Bhasha Aur Sahitya Ka Itihas by Dhirendranath Baskey",
+        "A Grammar of the Santhali Language by P.O. Bodding"
+      ],
+      "summary": "Santhali literature focuses on the linguistic history, folklore, and critical appreciation of prescribed ancient and modern literary texts written in Ol Chiki and Devanagari scripts.",
+      "topics": 11,
+      "gsOverlap": 0.18,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "gs1.indian-society"
+      ]
+    },
+    "literature-sindhi": {
+      "name": "Literature of Sindhi",
+      "backgrounds": [
+        "literature",
+        "humanities"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "philosophy",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.4,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.35
+      },
+      "answer": {
+        "analytical": 0.7,
+        "factual": 0.6,
+        "diagrams": 0.1,
+        "numericals": 0
+      },
+      "materials": 0.4,
+      "hours": 350,
+      "books": [
+        "A History of Sindhi Literature by L. H. Ajwani",
+        "Sindhi Boli-a Ji Tarikh by Bherumal Mahirchand Advani",
+        "Shah Jo Risalo edited by Kalyan Advani",
+        "Sami-a ja Saloka edited by B. H. Nagrani"
+      ],
+      "summary": "Sindhi Literature involves studying the evolution and linguistic structure of the Sindhi language alongside the contextual analysis of classic Sufi poetry, drama, and modern prose.",
+      "topics": 4,
+      "gsOverlap": 0.25,
+      "overlapSections": [
+        "gs1.art-and-culture"
+      ]
+    },
+    "literature-tamil": {
+      "name": "Literature of Tamil",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "society",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.4,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.45
+      },
+      "answer": {
+        "analytical": 0.75,
+        "factual": 0.7,
+        "diagrams": 0.1,
+        "numericals": 0
+      },
+      "materials": 0.75,
+      "hours": 450,
+      "books": [
+        "Thamizh Ilakkiya Varalaru by Mu. Varadarajan",
+        "Thamizh Mozhi Varalaru by S. Sakthivel",
+        "Thamizhar Nagarikamum Panpadum by A. Dakshinamurthy",
+        "Silappathikaram by Ilango Adigal (Commentary by Puliyur Kesikan)"
+      ],
+      "summary": "Studying Tamil Literature involves analyzing classical Sangam poetry, epic traditions, and linguistic evolution alongside modern genres and sociopolitical dimensions of Tamil culture.",
+      "topics": 12,
+      "gsOverlap": 0.25,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "gs4.moral-thinkers-and-philosophers",
+        "prelims_gs1.ancient-indian-history",
+        "prelims_gs1.medieval-indian-history"
+      ]
+    },
+    "literature-telugu": {
+      "name": "Literature of Telugu",
+      "backgrounds": [
+        "literature",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "philosophy",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.4,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.5
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.6,
+        "diagrams": 0.05,
+        "numericals": 0
+      },
+      "materials": 0.7,
+      "hours": 450,
+      "books": [
+        "Andhra Bhasha Charitra by Bhadriraju Krishnamurti",
+        "Telugu Sahitya Sameeksha (Vols I & II) by G. Nagayya",
+        "Samagra Andhra Sahityam by Arudra",
+        "Telugu Bhasha Charitra by P. S. Subrahmanyam"
+      ],
+      "summary": "Telugu Literature combines linguistic evolution and historical literary criticism with the thematic and aesthetic appreciation of classical, medieval, and modern texts.",
+      "topics": 4,
+      "gsOverlap": 0.25,
+      "overlapSections": [
+        "gs1.art-and-culture"
+      ]
+    },
+    "literature-urdu": {
+      "name": "Literature of Urdu",
+      "backgrounds": [
+        "literature",
+        "humanities"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "society",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.6,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.6
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.5,
+        "diagrams": 0,
+        "numericals": 0
+      },
+      "materials": 0.6,
+      "hours": 400,
+      "books": [
+        "Muqaddama-e-Tareekh-e-Zaban-e-Urdu by Masood Husain Khan",
+        "Tareekh-e-Adab-e-Urdu by Noorul Hasan Hashmi",
+        "Urdu Shairi Ka Tanqeedi Jaiza by Sunbal Nigar",
+        "Urdu Nasr Ka Tanqeedi Jaiza by Sunbal Nigar"
+      ],
+      "summary": "Urdu Literature involves exploring the linguistic roots and socio-historical evolution of the Urdu language alongside close critical appreciation of classical and modern prose and poetry.",
+      "topics": 4,
+      "gsOverlap": 0.5,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "gs1.modern-history"
+      ]
+    },
+    "management": {
+      "name": "Management",
+      "backgrounds": [
+        "management",
+        "commerce",
+        "engineering"
+      ],
+      "interests": [
+        "management",
+        "economy",
+        "psychology",
+        "statistics"
+      ],
+      "reading": {
+        "theory": 0.75,
+        "data": 0.55,
+        "narratives": 0.4,
+        "debates": 0.45
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.65,
+        "diagrams": 0.7,
+        "numericals": 0.55
+      },
+      "materials": 0.8,
+      "hours": 450,
+      "books": [
+        "Organizational Behaviour by Stephen P. Robbins and Timothy A. Judge",
+        "Marketing Management by Philip Kotler and Kevin Lane Keller",
+        "Financial Management: Theory and Practice by Prasanna Chandra",
+        "Human Resource Management by K. Aswathappa",
+        "Operations Management by William J. Stevenson"
+      ],
+      "summary": "Management is an interdisciplinary, application-oriented optional combining quantitative business techniques with qualitative organizational theories, rewarding candidates who can effectively integrate real-world corporate frameworks and diagrams into their answers.",
+      "topics": 12,
+      "gsOverlap": 0.42,
+      "overlapSections": [
+        "gs2.governance-and-public-administration",
+        "gs4.ethics-human-interface",
+        "gs4.public-service-ethics-and-governance",
+        "gs4.applied-ethics-and-case-studies",
+        "gs4.attitude",
+        "gs4.civil-service-aptitude-and-values",
+        "gs4.emotional-intelligence",
+        "gs3.indian-economy",
+        "gs3.industry-infrastructure",
+        "gs3.agriculture",
+        "gs2.international-relations"
+      ]
+    },
+    "mathematics": {
+      "name": "Mathematics",
+      "backgrounds": [
+        "engineering",
+        "science"
+      ],
+      "interests": [
+        "mathematics",
+        "physical sciences"
+      ],
+      "reading": {
+        "theory": 0.85,
+        "data": 0.1,
+        "narratives": 0,
+        "debates": 0
+      },
+      "answer": {
+        "analytical": 0.85,
+        "factual": 0.2,
+        "diagrams": 0.35,
+        "numericals": 0.95
+      },
+      "materials": 0.9,
+      "hours": 550,
+      "books": [
+        "Linear Algebra by Kenneth Hoffman and Ray Kunze",
+        "Mathematical Analysis by S.C. Malik and Savita Arora",
+        "Ordinary and Partial Differential Equations by M.D. Raisinghania",
+        "Contemporary Abstract Algebra by Joseph A. Gallian"
+      ],
+      "summary": "Mathematics is a rigorous, formula- and proof-driven technical discipline that rewards structured problem-solving, theoretical derivation, and extensive calculation over subjective prose.",
+      "topics": 13,
+      "gsOverlap": 0,
+      "overlapSections": []
+    },
+    "mechanical-engineering": {
+      "name": "Mechanical Engineering",
+      "backgrounds": [
+        "engineering"
+      ],
+      "interests": [
+        "technology",
+        "physical sciences",
+        "mathematics"
+      ],
+      "reading": {
+        "theory": 0.7,
+        "data": 0.3,
+        "narratives": 0.1,
+        "debates": 0.1
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.5,
+        "diagrams": 0.85,
+        "numericals": 0.85
+      },
+      "materials": 0.9,
+      "hours": 650,
+      "books": [
+        "Engineering Thermodynamics by P.K. Nag",
+        "Theory of Machines by S.S. Rattan",
+        "Manufacturing Science by Amitabha Ghosh and Asok Kumar Mallik",
+        "Mechanics of Materials by Ferdinand P. Beer, E. Russell Johnston Jr., John T. DeWolf, and David F. Mazurek",
+        "Heat Transfer by J.P. Holman"
+      ],
+      "summary": "Mechanical Engineering is a rigorous and highly objective technical optional centered on mathematical derivations, precise mechanical schematics, and extensive numerical problem-solving across thermal, design, and manufacturing domains.",
+      "topics": 9,
+      "gsOverlap": 0,
+      "overlapSections": []
+    },
+    "medical-science": {
+      "name": "Medical Science",
+      "backgrounds": [
+        "medicine"
+      ],
+      "interests": [
+        "life sciences"
+      ],
+      "reading": {
+        "theory": 0.85,
+        "data": 0.45,
+        "narratives": 0.15,
+        "debates": 0.1
+      },
+      "answer": {
+        "analytical": 0.65,
+        "factual": 0.95,
+        "diagrams": 0.9,
+        "numericals": 0.1
+      },
+      "materials": 0.9,
+      "hours": 550,
+      "books": [
+        "Human Anatomy by B.D. Chaurasia",
+        "Textbook of Medical Physiology by Arthur C. Guyton and John E. Hall",
+        "Robbins & Cotran Pathologic Basis of Disease by Vinay Kumar, Abul K. Abbas, and Jon C. Aster",
+        "Essentials of Medical Pharmacology by K.D. Tripathi"
+      ],
+      "summary": "Medical Science is an intensely factual, diagram-heavy, and clinically oriented optional that directly builds upon core MBBS curriculum subjects.",
+      "topics": 13,
+      "gsOverlap": 0.77,
+      "overlapSections": [
+        "prelims_gs1.general-science-biology",
+        "gs3.science-technology",
+        "gs2.social-justice-and-welfare",
+        "essay.governance-society-and-development"
+      ]
+    },
+    "philosophy": {
+      "name": "Philosophy",
+      "backgrounds": [
+        "any",
+        "humanities"
+      ],
+      "interests": [
+        "philosophy",
+        "society",
+        "politics"
+      ],
+      "reading": {
+        "theory": 0.95,
+        "data": 0.05,
+        "narratives": 0.25,
+        "debates": 0.9
+      },
+      "answer": {
+        "analytical": 0.95,
+        "factual": 0.3,
+        "diagrams": 0.15,
+        "numericals": 0
+      },
+      "materials": 0.9,
+      "hours": 350,
+      "books": [
+        "A Critical History of Western Philosophy by Y. Masih",
+        "An Introduction to Indian Philosophy by Satischandra Chatterjee and Dhirendramohan Datta",
+        "An Introduction to Political Theory by O.P. Gauba",
+        "Philosophy of Religion by John Hick"
+      ],
+      "summary": "Philosophy involves systematic analysis of epistemology, metaphysics, ethics, and socio-political theory across Western and Indian traditions, prioritizing concise argumentation and conceptual precision over factual memorization.",
+      "topics": 40,
+      "gsOverlap": 0.75,
+      "overlapSections": [
+        "gs4.moral-thinkers-and-philosophers",
+        "essay.philosophical-and-reflective-essays",
+        "gs4.ethics-human-interface",
+        "gs1.art-and-culture",
+        "prelims_gs1.ancient-indian-history",
+        "gs1.modern-history",
+        "gs2.indian-constitution-and-polity",
+        "essay.governance-society-and-development",
+        "gs2.governance-and-public-administration",
+        "gs4.public-service-ethics-and-governance",
+        "gs1.world-history",
+        "gs1.indian-society",
+        "gs4.probity-in-governance-and-anti-corruptio",
+        "gs4.applied-ethics-and-case-studies",
+        "gs2.social-justice-and-welfare",
+        "gs3.indian-economy",
+        "gs3.environment-biodiversity"
+      ]
+    },
+    "physics": {
+      "name": "Physics",
+      "backgrounds": [
+        "science",
+        "engineering"
+      ],
+      "interests": [
+        "physical sciences",
+        "mathematics",
+        "technology"
+      ],
+      "reading": {
+        "theory": 0.85,
+        "data": 0.2,
+        "narratives": 0.1,
+        "debates": 0.05
+      },
+      "answer": {
+        "analytical": 0.9,
+        "factual": 0.4,
+        "diagrams": 0.7,
+        "numericals": 0.85
+      },
+      "materials": 0.85,
+      "hours": 500,
+      "books": [
+        "Classical Mechanics by J.C. Upadhyaya",
+        "Optics by Ajoy Ghatak",
+        "Introduction to Electrodynamics by David J. Griffiths",
+        "Quantum Mechanics: Concepts and Applications by Nouredine Zettili",
+        "Solid State Physics by Charles Kittel"
+      ],
+      "summary": "Physics is a mathematically rigorous and objective optional that demands deep theoretical comprehension, extensive practice with mathematical derivations, and precise numerical problem-solving skills.",
+      "topics": 9,
+      "gsOverlap": 1,
+      "overlapSections": [
+        "prelims_gs1.general-science-physics-chemistry",
+        "gs3.science-technology"
+      ]
+    },
+    "political-science-and-international-rela": {
+      "name": "Political Science and International Relations",
+      "backgrounds": [
+        "humanities",
+        "law",
+        "any"
+      ],
+      "interests": [
+        "politics",
+        "philosophy",
+        "history",
+        "law",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.9,
+        "data": 0.3,
+        "narratives": 0.7,
+        "debates": 0.95
+      },
+      "answer": {
+        "analytical": 0.9,
+        "factual": 0.5,
+        "diagrams": 0.2,
+        "numericals": 0
+      },
+      "materials": 0.95,
+      "hours": 550,
+      "books": [
+        "A History of Political Thought: Plato to Marx by Subrata Mukherjee and Sushila Ramaswamy",
+        "Political Theory: An Introduction by Rajeev Bhargava and Ashok Acharya",
+        "Indian Government and Politics by B.L. Fadia",
+        "Global Politics by Andrew Heywood",
+        "The Oxford Companion to Politics in India by Niraja Gopal Jayal and Pratap Bhanu Mehta"
+      ],
+      "summary": "Political Science and International Relations combines foundational political philosophy and constitutional dynamics with an evolving, analytical study of global geopolitics and foreign policy.",
+      "topics": 10,
+      "gsOverlap": 1,
+      "overlapSections": [
+        "essay.philosophical-and-reflective-essays",
+        "gs2.indian-constitution-and-polity",
+        "gs4.ethics-human-interface",
+        "gs4.moral-thinkers-and-philosophers",
+        "gs1.modern-history",
+        "gs2.organs-of-state",
+        "gs2.constitutional-and-statutory-bodies",
+        "gs2.governance-and-public-administration",
+        "essay.governance-society-and-development",
+        "gs1.indian-society",
+        "gs1.post-independence",
+        "gs2.social-justice-and-welfare",
+        "gs3.indian-economy",
+        "gs1.world-history",
+        "gs2.international-relations",
+        "gs3.environment-biodiversity",
+        "gs3.internal-security"
+      ]
+    },
+    "psychology": {
+      "name": "Psychology",
+      "backgrounds": [
+        "medicine",
+        "science",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "psychology",
+        "life sciences",
+        "society",
+        "statistics"
+      ],
+      "reading": {
+        "theory": 0.85,
+        "data": 0.55,
+        "narratives": 0.4,
+        "debates": 0.5
+      },
+      "answer": {
+        "analytical": 0.85,
+        "factual": 0.65,
+        "diagrams": 0.7,
+        "numericals": 0.1
+      },
+      "materials": 0.85,
+      "hours": 400,
+      "books": [
+        "Psychology by Robert A. Baron and Girishwar Misra",
+        "Introduction to Psychology by Clifford T. Morgan and Richard A. King",
+        "Applied Psychology: Understanding Human Behaviour by Smarak Swain",
+        "Advanced General Psychology by Arun Kumar Singh"
+      ],
+      "summary": "Psychology combines experimental and theoretical principles of human cognition and behaviour with practical applications in social, clinical, and organizational contexts.",
+      "topics": 8,
+      "gsOverlap": 0.5,
+      "overlapSections": [
+        "gs4.emotional-intelligence",
+        "gs4.civil-service-aptitude-and-values",
+        "gs4.attitude",
+        "gs4.ethics-human-interface",
+        "gs1.indian-society",
+        "gs2.social-justice-and-welfare"
+      ]
+    },
+    "public-administration": {
+      "name": "Public Administration",
+      "backgrounds": [
+        "humanities",
+        "management",
+        "law",
+        "any"
+      ],
+      "interests": [
+        "politics",
+        "management",
+        "law",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.8,
+        "data": 0.4,
+        "narratives": 0.5,
+        "debates": 0.85
+      },
+      "answer": {
+        "analytical": 0.85,
+        "factual": 0.55,
+        "diagrams": 0.45,
+        "numericals": 0
+      },
+      "materials": 0.95,
+      "hours": 450,
+      "books": [
+        "Administrative Thinkers by D. Ravindra Prasad, V.S. Prasad, P. Satyanarayana, and Y. Pardhasaradhi",
+        "Public Administration: Concepts and Theories by Rumki Basu",
+        "Indian Administration: Institutions and Issues by Ramesh K. Arora and Rajni Goyal",
+        "Public Administration in Theory and Practice by M.P. Sharma and B.L. Sadana"
+      ],
+      "summary": "Public Administration blends classical and modern organizational theories with contemporary governance debates, public policy implementation, and Indian administrative machinery.",
+      "topics": 9,
+      "gsOverlap": 1,
+      "overlapSections": [
+        "gs2.governance-and-public-administration",
+        "gs4.civil-service-aptitude-and-values",
+        "gs4.emotional-intelligence",
+        "gs4.public-service-ethics-and-governance",
+        "gs2.indian-constitution-and-polity",
+        "gs2.organs-of-state",
+        "gs2.constitutional-and-statutory-bodies",
+        "gs4.probity-in-governance-and-anti-corruptio",
+        "essay.governance-society-and-development",
+        "gs2.social-justice-and-welfare",
+        "gs3.indian-economy",
+        "gs1.modern-history",
+        "gs4.moral-thinkers-and-philosophers",
+        "gs3.industry-infrastructure",
+        "gs3.disaster-management",
+        "gs3.internal-security",
+        "gs4.applied-ethics-and-case-studies"
+      ]
+    },
+    "sociology": {
+      "name": "Sociology",
+      "backgrounds": [
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "society",
+        "politics",
+        "philosophy",
+        "history"
+      ],
+      "reading": {
+        "theory": 0.9,
+        "data": 0.4,
+        "narratives": 0.7,
+        "debates": 0.85
+      },
+      "answer": {
+        "analytical": 0.9,
+        "factual": 0.5,
+        "diagrams": 0.3,
+        "numericals": 0
+      },
+      "materials": 0.95,
+      "hours": 400,
+      "books": [
+        "Sociology: Themes and Perspectives by Michael Haralambos and Martin Holborn",
+        "Sociological Thought by Francis Abraham and John Henry Morgan",
+        "Social Change in Modern India by M. N. Srinivas",
+        "Indian Society: Themes and Social Issues by Nadeem Hasnain"
+      ],
+      "summary": "Sociology offers a conceptual and critical exploration of human behavior, social institutions, and contemporary issues, requiring strong theoretical understanding and perspective-driven analysis.",
+      "topics": 9,
+      "gsOverlap": 0.89,
+      "overlapSections": [
+        "essay.philosophical-and-reflective-essays",
+        "gs4.moral-thinkers-and-philosophers",
+        "essay.governance-society-and-development",
+        "gs1.indian-society",
+        "gs2.indian-constitution-and-polity",
+        "gs2.social-justice-and-welfare",
+        "gs1.modern-history",
+        "gs3.agriculture",
+        "gs1.post-independence",
+        "gs2.governance-and-public-administration",
+        "gs3.indian-economy",
+        "essay.technology-economy-and-environment",
+        "gs1.economic-and-human-geography",
+        "gs3.environment-biodiversity"
+      ]
+    },
+    "statistics": {
+      "name": "Statistics",
+      "backgrounds": [
+        "science",
+        "engineering",
+        "economics"
+      ],
+      "interests": [
+        "statistics",
+        "mathematics",
+        "economy"
+      ],
+      "reading": {
+        "theory": 0.8,
+        "data": 0.7,
+        "narratives": 0.1,
+        "debates": 0.1
+      },
+      "answer": {
+        "analytical": 0.85,
+        "factual": 0.3,
+        "diagrams": 0.4,
+        "numericals": 0.9
+      },
+      "materials": 0.7,
+      "hours": 450,
+      "books": [
+        "Fundamentals of Mathematical Statistics by S.C. Gupta and V.K. Kapoor",
+        "An Introduction to Probability and Statistics by V.K. Rohatgi and A.K. Md. Ehsanes Saleh",
+        "Sampling Techniques by William G. Cochran",
+        "Operations Research by Kanti Swarup, P.K. Gupta, and Man Mohan"
+      ],
+      "summary": "Statistics is a rigorous, highly objective technical optional characterized by mathematical derivations, analytical problem-solving, and applied quantitative formulations across inference, sampling, and econometrics.",
+      "topics": 8,
+      "gsOverlap": 0.25,
+      "overlapSections": [
+        "gs3.indian-economy",
+        "gs1.indian-society",
+        "gs1.economic-and-human-geography",
+        "gs2.social-justice-and-welfare"
+      ]
+    },
+    "zoology": {
+      "name": "Zoology",
+      "backgrounds": [
+        "science",
+        "medicine",
+        "agriculture"
+      ],
+      "interests": [
+        "life sciences",
+        "environment",
+        "statistics"
+      ],
+      "reading": {
+        "theory": 0.85,
+        "data": 0.5,
+        "narratives": 0.2,
+        "debates": 0.1
+      },
+      "answer": {
+        "analytical": 0.5,
+        "factual": 0.95,
+        "diagrams": 0.95,
+        "numericals": 0.25
+      },
+      "materials": 0.85,
+      "hours": 450,
+      "books": [
+        "Modern Text Book of Zoology: Invertebrates by R.L. Kotpal",
+        "Modern Text Book of Zoology: Vertebrates by R.L. Kotpal",
+        "Cell Biology, Genetics, Molecular Biology, Evolution and Ecology by P.S. Verma and V.K. Agarwal",
+        "Animal Physiology and Biochemistry by H.R. Singh and N.K. Agarwal",
+        "Animal Behaviour by Reena Mathur"
+      ],
+      "summary": "Zoology is an objective and structured life science optional centered on memorizing vast anatomical details, physiological pathways, and evolutionary concepts, heavily rewarding precise biological diagrams and factual recall.",
+      "topics": 13,
+      "gsOverlap": 0.85,
+      "overlapSections": [
+        "prelims_gs1.general-science-biology",
+        "essay.technology-economy-and-environment",
+        "gs3.environment-biodiversity",
+        "gs3.agriculture",
+        "gs3.science-technology"
+      ]
+    },
+    "literature-assamese": {
+      "name": "Literature of Assamese",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "philosophy",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.55,
+        "data": 0.1,
+        "narratives": 0.95,
+        "debates": 0.45
+      },
+      "answer": {
+        "analytical": 0.75,
+        "factual": 0.65,
+        "diagrams": 0.05,
+        "numericals": 0
+      },
+      "materials": 0.65,
+      "hours": 500,
+      "books": [
+        "Asamiya Sahityar Chaneki by Hemchandra Goswami",
+        "Asamiya Bhasar Itihas by Banikanta Kakati",
+        "Asamiya Sahityar Buranji by Satyendranath Sarma",
+        "Asamiya Bhasa aru Sahityar Ruprekha by Maheswar Neog"
+      ],
+      "summary": "Assamese Literature combines linguistic and grammatical history of the language with the critical appreciation of canonical early, medieval, and modern literary texts.",
+      "topics": 14,
+      "gsOverlap": 0.14,
+      "overlapSections": [
+        "gs1.art-and-culture"
+      ]
+    },
+    "literature-bengali": {
+      "name": "Literature of Bengali",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "society",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.4,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.5
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.5,
+        "diagrams": 0.1,
+        "numericals": 0
+      },
+      "materials": 0.7,
+      "hours": 700,
+      "books": [
+        "Bangla Bhashar Itibritta by Muhammad Shahidullah",
+        "Bangla Sahityer Itihas (Vols. I-IV) by Sukumar Sen",
+        "Bangla Bhasha Parichay by Rabindranath Tagore",
+        "Bangla Sahityer Ruprekha by Gopal Haldar"
+      ],
+      "summary": "Bengali Literature combines the rigorous historical and structural linguistics of the Bengali language with an analytical and aesthetic appreciation of poetry, drama, and prose across medieval and modern eras.",
+      "topics": 21,
+      "gsOverlap": 0.19,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "gs1.modern-history",
+        "gs4.moral-thinkers-and-philosophers"
+      ]
+    },
+    "literature-bodo": {
+      "name": "Literature of Bodo",
+      "backgrounds": [
+        "literature",
+        "humanities"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.55,
+        "data": 0.15,
+        "narratives": 0.85,
+        "debates": 0.45
+      },
+      "answer": {
+        "analytical": 0.75,
+        "factual": 0.6,
+        "diagrams": 0.1,
+        "numericals": 0
+      },
+      "materials": 0.4,
+      "hours": 320,
+      "books": [
+        "Structure of Bodo Language by Madhu Ram Boro",
+        "A History of Bodo Literature by Manoranjan Lahary",
+        "Folk Literature of the Bodos by Anil Boro",
+        "Boro Rao arw Boro Thunlai by Bhaben Narzary"
+      ],
+      "summary": "Bodo Literature combines Tibeto-Burman descriptive linguistics and script history with the critical interpretation of indigenous oral folklore and prescribed classical and modern literary texts.",
+      "topics": 13,
+      "gsOverlap": 0,
+      "overlapSections": []
+    },
+    "literature-dogri": {
+      "name": "Literature of Dogri",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.4,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.3
+      },
+      "answer": {
+        "analytical": 0.7,
+        "factual": 0.6,
+        "diagrams": 0.1,
+        "numericals": 0
+      },
+      "materials": 0.4,
+      "hours": 280,
+      "books": [
+        "Dogri Bhasha Aur Vyakaran by Dr. Veena Gupta",
+        "History of Dogri Literature by Shivanath",
+        "Dogri Sahitya da Itihas by Nilambar Dev Sharma",
+        "Dogri Lok Sahitya by Ved Kumari Ghai"
+      ],
+      "summary": "Dogri literature offers a concise and culturally rich syllabus focusing on the linguistics of the Duggar region along with textual appreciation of prescribed classical and modern Dogri works.",
+      "topics": 14,
+      "gsOverlap": 0,
+      "overlapSections": []
+    },
+    "literature-english": {
+      "name": "Literature of English",
+      "backgrounds": [
+        "literature",
+        "humanities"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.7,
+        "data": 0.1,
+        "narratives": 0.95,
+        "debates": 0.75
+      },
+      "answer": {
+        "analytical": 0.95,
+        "factual": 0.35,
+        "diagrams": 0,
+        "numericals": 0
+      },
+      "materials": 0.85,
+      "hours": 500,
+      "books": [
+        "A History of English Literature by Arthur Compton-Rickett",
+        "A Glossary of Literary Terms by M.H. Abrams",
+        "Beginning Theory: An Introduction to Literary and Cultural Theory by Peter Barry",
+        "The Oxford Companion to English Literature by Dinah Birch"
+      ],
+      "summary": "The subject demands intensive close-reading of canonical texts, socio-historical contextualization of literary movements, and nuanced thematic and stylistic critique.",
+      "topics": 4,
+      "gsOverlap": 0,
+      "overlapSections": []
+    },
+    "literature-gujarati": {
+      "name": "Literature of Gujarati",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "philosophy",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.55,
+        "data": 0.1,
+        "narratives": 0.85,
+        "debates": 0.45
+      },
+      "answer": {
+        "analytical": 0.75,
+        "factual": 0.5,
+        "diagrams": 0.05,
+        "numericals": 0
+      },
+      "materials": 0.65,
+      "hours": 320,
+      "books": [
+        "Gujarati Sahityano Itihas by Ramesh Trivedi",
+        "Bhashavigyan ane Gujarati Bhashanu Swaroop by Jayant Kothari",
+        "Saraswatichandra (Vol. 1) by Govardhanram Tripathi",
+        "Manvini Bhavai by Pannalal Patel",
+        "Raino Parvat by Ramanbhai Nilkanth"
+      ],
+      "summary": "Gujarati Literature is a compact, culturally rich optional requiring genuine linguistic fluency and critical appreciation of linguistic evolution, historical literary movements, and prescribed regional texts.",
+      "topics": 9,
+      "gsOverlap": 0.33,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "prelims_gs1.medieval-indian-history",
+        "gs1.modern-history",
+        "gs4.moral-thinkers-and-philosophers"
+      ]
+    },
+    "literature-hindi": {
+      "name": "Literature of Hindi",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "philosophy",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.6,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.65
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.45,
+        "diagrams": 0.05,
+        "numericals": 0
+      },
+      "materials": 0.9,
+      "hours": 400,
+      "books": [
+        "Hindi Sahitya Ka Itihas by Acharya Ramchandra Shukla",
+        "Hindi Sahitya Ka Saral Itihas by Vishwanath Tripathi",
+        "Hindi Bhasha aur Lipi Ka Itihas by Dr. Dhirendra Verma",
+        "Hindi Sahitya aur Samvedna Ka Vikas by Ramswarup Chaturvedi"
+      ],
+      "summary": "The subject combines the linguistic and historical evolution of the Hindi language with an appreciative, text-based critical analysis of classical poetry, modern prose, drama, and literary criticism.",
+      "topics": 8,
+      "gsOverlap": 0.25,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "prelims_gs1.medieval-indian-history"
+      ]
     }
   }
 }
