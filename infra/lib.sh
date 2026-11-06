@@ -47,3 +47,16 @@ step() {
     "${create[@]}"
   fi
 }
+
+# Runs a command, retrying with backoff. IAM policy edits conflict (ETag mismatch) when several
+# land back to back, and newly enabled APIs can take a minute to accept requests.
+retry() {
+  local attempt=1 max=6
+  until "$@"; do
+    (( attempt >= max )) && return 1
+    log "retrying in $((attempt * 5))s: $1 $2 $3"
+    sleep $((attempt * 5))
+    attempt=$((attempt + 1))
+  done
+}
+

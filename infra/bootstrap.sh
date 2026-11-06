@@ -37,7 +37,7 @@ log "enabling APIs (no-op for ones already enabled)"
 
 # --- Artifact Registry -------------------------------------------------------------------------
 step "artifact registry $AR_REPO" "${G[@]}" artifacts repositories describe "$AR_REPO" --location="$REGION" -- \
-  "${G[@]}" artifacts repositories create "$AR_REPO" --repository-format=docker --location="$REGION"
+  retry "${G[@]}" artifacts repositories create "$AR_REPO" --repository-format=docker --location="$REGION"
 
 # --- Service accounts and roles ------------------------------------------------------------------
 sa_email() { printf '%s@%s.iam.gserviceaccount.com' "$1" "$PROJECT_ID"; }
@@ -45,7 +45,7 @@ for sa in koach-api koach-jobs koach-build; do
   step "service account $sa" "${G[@]}" iam service-accounts describe "$(sa_email "$sa")" -- \
     "${G[@]}" iam service-accounts create "$sa" --display-name="$sa"
 done
-bind() { "${G[@]}" projects add-iam-policy-binding "$PROJECT_ID" --member="serviceAccount:$(sa_email "$1")" --role="$2" --condition=None >/dev/null; }
+bind() { retry "${G[@]}" projects add-iam-policy-binding "$PROJECT_ID" --member="serviceAccount:$(sa_email "$1")" --role="$2" --condition=None >/dev/null; }
 log "granting roles"
 for role in roles/cloudsql.client roles/aiplatform.user roles/secretmanager.secretAccessor \
   roles/firebaseauth.admin roles/serviceusage.serviceUsageConsumer roles/logging.logWriter; do
@@ -60,11 +60,11 @@ for role in roles/run.admin roles/artifactregistry.writer roles/logging.logWrite
   bind koach-build "$role"
 done
 # Cloud Run needs koach-api to sign Firebase custom tokens with its own identity.
-"${G[@]}" iam service-accounts add-iam-policy-binding "$(sa_email koach-api)" \
+retry "${G[@]}" iam service-accounts add-iam-policy-binding "$(sa_email koach-api)" \
   --member="serviceAccount:$(sa_email koach-api)" --role=roles/iam.serviceAccountTokenCreator >/dev/null
 # The build deploys services and jobs that run as these accounts.
 for sa in koach-api koach-jobs; do
-  "${G[@]}" iam service-accounts add-iam-policy-binding "$(sa_email "$sa")" \
+  retry "${G[@]}" iam service-accounts add-iam-policy-binding "$(sa_email "$sa")" \
     --member="serviceAccount:$(sa_email koach-build)" --role=roles/iam.serviceAccountUser >/dev/null
 done
 
@@ -102,8 +102,12 @@ step "secret FIREBASE_PROJECT_ID" secret_exists FIREBASE_PROJECT_ID -- create_pr
 if secret_exists RESEND_API_KEY; then
   log "exists   secret RESEND_API_KEY"
 else
-  read -r -s -p "Paste the Resend API key (input hidden): " RESEND_KEY
-  printf '\n'
+  # Non-interactive runs may pass the key via RESEND_API_KEY_INPUT; otherwise prompt (hidden).
+  RESEND_KEY="${RESEND_API_KEY_INPUT:-}"
+  if [[ -z "$RESEND_KEY" ]]; then
+    read -r -s -p "Paste the Resend API key (input hidden): " RESEND_KEY
+    printf '\n'
+  fi
   [[ -n "$RESEND_KEY" ]] || die "empty Resend key"
   printf '%s' "$RESEND_KEY" | "${G[@]}" secrets create RESEND_API_KEY --replication-policy=automatic --data-file=- >/dev/null
   unset RESEND_KEY
@@ -115,16 +119,16 @@ BUCKET="${PROJECT_ID}-user-data"
 step "bucket gs://$BUCKET" "${G[@]}" storage buckets describe "gs://$BUCKET" -- \
   "${G[@]}" storage buckets create "gs://$BUCKET" --location="$REGION" \
   --uniform-bucket-level-access --public-access-prevention
-"${G[@]}" storage buckets add-iam-policy-binding "gs://$BUCKET" \
+retry "${G[@]}" storage buckets add-iam-policy-binding "gs://$BUCKET" \
   --member="serviceAccount:$(sa_email koach-api)" --role=roles/storage.objectAdmin >/dev/null
 
 # --- Budget -------------------------------------------------------------------------------------
 budget_exists() {
-  gcloud billing budgets list --billing-account="$BILLING_ACCOUNT" --format='value(displayName)' |
+  gcloud billing budgets list --billing-project="$PROJECT_ID" --billing-account="$BILLING_ACCOUNT" --format='value(displayName)' |
     grep -qx "$PROJECT_ID"
 }
 step "budget ${BUDGET_AMOUNT} ${BUDGET_CURRENCY}" budget_exists -- \
-  gcloud billing budgets create --billing-account="$BILLING_ACCOUNT" --display-name="$PROJECT_ID" \
+  gcloud billing budgets create --billing-project="$PROJECT_ID" --billing-account="$BILLING_ACCOUNT" --display-name="$PROJECT_ID" \
   --budget-amount="${BUDGET_AMOUNT}${BUDGET_CURRENCY}" --filter-projects="projects/$PROJECT_ID" \
   --threshold-rule=percent=0.5 --threshold-rule=percent=0.9 --threshold-rule=percent=1.0
 

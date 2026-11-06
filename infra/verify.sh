@@ -22,7 +22,7 @@ has_role() {
 sql_version() { [[ "$("${G[@]}" sql instances describe "$SQL_INSTANCE" --format='value(databaseVersion)')" == "POSTGRES_16" ]]; }
 sql_region() { [[ "$("${G[@]}" sql instances describe "$SQL_INSTANCE" --format='value(region)')" == "$REGION" ]]; }
 billing() { [[ "$(gcloud billing projects describe "$PROJECT_ID" --format='value(billingEnabled)')" == "True" ]]; }
-budget() { gcloud billing budgets list --billing-account="$BILLING_ACCOUNT" --format='value(displayName)' | grep -qx "$PROJECT_ID"; }
+budget() { gcloud billing budgets list --billing-project="$PROJECT_ID" --billing-account="$BILLING_ACCOUNT" --format='value(displayName)' | grep -qx "$PROJECT_ID"; }
 web_client() { [[ -n "$GOOGLE_WEB_CLIENT_ID" ]]; }
 gs_json() { [[ -f "$REPO_ROOT/apps/mobile/google-services.json" ]]; }
 
