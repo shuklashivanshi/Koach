@@ -6,6 +6,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: 'Koach',
   slug: 'koach',
+  owner: 'shuklashivanshi',
   scheme: 'koach',
   version: '0.1.0',
   orientation: 'portrait',
@@ -41,6 +42,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     apiUrl: process.env.EXPO_PUBLIC_API_URL ?? 'http://10.0.2.2:8080',
     googleWebClientId: process.env.EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID ?? '',
     devTools: process.env.EXPO_PUBLIC_DEV_TOOLS === '1',
+    eas: { projectId: '8e6f4cff-857f-4953-8307-da5ea6c694aa' },
     ...(config.extra ?? {}),
   },
 });
