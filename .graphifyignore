@@ -1,0 +1,5 @@
+packages/kb/raw/
+packages/kb/data/
+node_modules/
+*.png
+*.pdf

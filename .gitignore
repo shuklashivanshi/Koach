@@ -14,3 +14,6 @@ apps/mobile/ios
 firebase-debug.log
 packages/kb/raw/
 apps/api/dev-keys.json
+
+# graphify output (rebuilt locally)
+graphify-out/
