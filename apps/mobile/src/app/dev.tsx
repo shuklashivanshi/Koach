@@ -39,7 +39,7 @@ export default function Dev() {
 
   return (
     <Screen style={{ paddingTop: space['2xl'], gap: space.lg }}>
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Dev</Text>
       <Text muted>API: {appConfig.apiUrl}</Text>
       <Button label="Ping AI" onPress={ping} busy={busy} testID="ping" />

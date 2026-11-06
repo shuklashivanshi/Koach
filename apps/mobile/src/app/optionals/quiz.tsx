@@ -105,7 +105,7 @@ export default function Quiz() {
           alignSelf: 'center',
         }}
       >
-        <Button label="Back" kind="text" onPress={() => router.back()} />
+        <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
         <Text variant="heading">Your best fits</Text>
         {result.top.map(card)}
         {result.surprising.length > 0 && (
@@ -143,7 +143,7 @@ export default function Quiz() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Fit quiz</Text>
       <Text variant="label" muted smallCaps>
         Your degree

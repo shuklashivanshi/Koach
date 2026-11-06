@@ -52,7 +52,7 @@ export default function PalaceSetup() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Your memory palace</Text>
       <Text muted>
         Rooms you know well, and spots in each in the order you’d walk past them. Eight or more

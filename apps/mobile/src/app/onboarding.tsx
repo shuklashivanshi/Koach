@@ -31,7 +31,10 @@ export function Chip({ label, on, onPress }: { label: string; on: boolean; onPre
       accessibilityRole="button"
       accessibilityState={{ selected: on }}
       onPress={onPress}
+      hitSlop={{ top: 8, bottom: 8 }}
       style={{
+        minHeight: 36,
+        justifyContent: 'center',
         paddingHorizontal: space.md,
         paddingVertical: space.xs,
         borderRadius: radius.chip,
@@ -114,7 +117,7 @@ export default function Onboarding() {
     >
       <Thread step={step + 1} total={5} />
       {step > 0 && step < 4 && (
-        <Button label="Back" kind="text" onPress={() => setStep(step - 1)} />
+        <Button label="Back" kind="text" align="start" onPress={() => setStep(step - 1)} />
       )}
 
       {step === 0 && (

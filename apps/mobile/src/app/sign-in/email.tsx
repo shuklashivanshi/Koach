@@ -83,7 +83,7 @@ export default function EmailSignIn() {
 
   return (
     <Screen style={{ paddingTop: space['2xl'], gap: space.lg }}>
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       {step === 'email' ? (
         <>
           <Text variant="heading">Sign in with email</Text>

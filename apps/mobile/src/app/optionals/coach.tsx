@@ -38,7 +38,7 @@ export default function OptionalCoach() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Decision coach</Text>
       {list.length === 0 && (
         <Text variant="caption" muted>

@@ -37,7 +37,7 @@ export default function Mistakes() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Mistakes</Text>
       {traps.length > 0 && (
         <PaperCard style={{ gap: space.xs }}>

@@ -12,8 +12,14 @@ export default function TabsLayout() {
         headerShown: false,
         tabBarActiveTintColor: c.leather,
         tabBarInactiveTintColor: c.inkMuted,
-        tabBarStyle: { backgroundColor: c.linen, borderTopColor: c.hairline },
-        tabBarLabelStyle: { ...typeScale.label, fontSize: 11, textTransform: 'uppercase' },
+        tabBarStyle: {
+          backgroundColor: c.linen,
+          borderTopColor: c.hairline,
+          height: 76,
+          paddingTop: 8,
+          paddingBottom: 12,
+        },
+        tabBarLabelStyle: { ...typeScale.label, fontSize: 11, lineHeight: 14, textTransform: 'uppercase' },
         sceneStyle: { backgroundColor: c.parchment },
       }}
     >

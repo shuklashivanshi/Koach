@@ -45,7 +45,7 @@ export default function Practice() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Past questions</Text>
       {set && !set.pyqs.length && <Text muted>No keyed questions on this topic yet.</Text>}
       {set?.pyqs.map((p) => (

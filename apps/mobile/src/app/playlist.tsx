@@ -46,7 +46,7 @@ export default function RevisionPlaylist() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Listen and revise</Text>
       {list && !list.length && (
         <Text muted>

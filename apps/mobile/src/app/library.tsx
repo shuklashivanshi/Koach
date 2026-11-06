@@ -27,7 +27,7 @@ export default function Library() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Memory heatmap</Text>
       <Text variant="caption" muted>
         Darker means stronger recall today.

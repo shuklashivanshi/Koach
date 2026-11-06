@@ -30,7 +30,7 @@ export default function Compare() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Compare</Text>
       {data?.optionals.map((o) => (
         <PaperCard key={o.slug} style={{ gap: space.xs }}>

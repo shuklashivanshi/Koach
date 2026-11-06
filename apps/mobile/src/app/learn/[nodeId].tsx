@@ -82,7 +82,7 @@ export default function Learn() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="label" muted smallCaps>
         {session.goal}
       </Text>

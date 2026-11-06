@@ -39,7 +39,7 @@ export default function Optionals() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Choose your optional</Text>
       {status && (
         <Text variant="caption" muted>

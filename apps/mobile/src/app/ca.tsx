@@ -51,7 +51,7 @@ export default function CurrentAffairs() {
         <WindowEngraving />
         <Text variant="heading">Today’s paper isn’t in yet.</Text>
         <Text muted>Check back after 6 am.</Text>
-        <Button label="Back" kind="text" onPress={() => router.back()} />
+        <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       </View>
     );
   }
@@ -67,7 +67,7 @@ export default function CurrentAffairs() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Current affairs</Text>
 
       {data?.questions.map((q, i) => {

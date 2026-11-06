@@ -45,7 +45,7 @@ export default function Revise() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Revise</Text>
       {cards && !card && (
         <>

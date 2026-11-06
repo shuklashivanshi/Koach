@@ -12,6 +12,7 @@ export function Button({
   busy = false,
   disabled = false,
   testID,
+  align = 'center',
 }: {
   label: string;
   onPress: () => void;
@@ -19,6 +20,8 @@ export function Button({
   busy?: boolean;
   disabled?: boolean;
   testID?: string;
+  /** 'start' left-aligns a text button (top-of-screen Back links). */
+  align?: 'center' | 'start';
 }) {
   const { c } = useTheme();
   const filled = kind === 'primary' || kind === 'danger';
@@ -40,6 +43,7 @@ export function Button({
           paddingHorizontal: space.lg,
           opacity: disabled ? 0.5 : pressed ? 0.85 : 1,
         },
+        align === 'start' && { alignSelf: 'flex-start', paddingHorizontal: 0 },
         filled && { backgroundColor: fill, alignSelf: 'stretch' },
         kind === 'secondary' && {
           borderWidth: 1,

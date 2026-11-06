@@ -54,7 +54,7 @@ export default function Reminders() {
         alignSelf: 'center',
       }}
     >
-      <Button label="Back" kind="text" onPress={() => router.back()} />
+      <Button label="Back" kind="text" align="start" onPress={() => router.back()} />
       <Text variant="heading">Reminders</Text>
       {canPush && (
         <Button label="Turn on for this device" kind="secondary" onPress={() => void enable()} />
