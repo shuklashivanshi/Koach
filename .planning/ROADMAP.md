@@ -106,7 +106,13 @@ Plans:
   3. User completes the ~15-minute Learning Pattern Test (Map Pins + Pattern Grid, Listen & Recall typed or spoken, Read & Write Back, Arrange & Trace, then delayed recall)
   4. User sees a strength profile (four 0–100 scores + one plain line), never a single-type label
   5. Pattern scores update from later recall on pattern-tagged cues; a retest is offered after ~8 weeks
-**Plans**: TBD
+**Plans**: 4 plans (3 waves)
+
+Plans:
+- [ ] 03-01: Profile, subject levels and the diagnostic API (wave 1)
+- [ ] 03-02: packages/lpt: item banks, scoring and evidence updates (wave 1)
+- [ ] 03-03: LPT API + speech-to-text (wave 2)
+- [ ] 03-04: Web app: onboarding flow, LPT games, strength profile (wave 3)
 
 ### Phase 4: Planner, Revision & Reminders
 **Goal**: The core daily loop: a plan that fits the day, PYQ-first study, revision at the right time, a mistakes notebook, and reminders that respect her schedule.
