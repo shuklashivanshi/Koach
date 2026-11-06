@@ -166,7 +166,18 @@ export function buildDay(input: DayInput): PlanTask[] {
       studied.add(n.id);
     }
   }
-  return tasks;
+  // Display order (UI_SPEC §10.4): carried, Learn, Revise, CA, Practice; CA goes last until the
+  // day's quiz exists, so the current task is always something the learner can start.
+  const carried = new Set(tasks.slice(0, input.carried?.length ?? 0));
+  const order: Record<TaskKind, number> = {
+    learn: 1,
+    revise: 2,
+    ca: input.caAvailable ? 3 : 5,
+    practice: 4,
+  };
+  return [...tasks].sort(
+    (a, b) => (carried.has(a) ? 0 : order[a.kind]) - (carried.has(b) ? 0 : order[b.kind]),
+  );
 }
 
 /** "I only have N minutes" (SCHED-05): keep the highest-yield tasks, move the rest. */

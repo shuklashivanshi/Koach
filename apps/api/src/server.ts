@@ -1,3 +1,4 @@
+import { existsSync, readFileSync } from 'node:fs';
 import { createPgDb, type Db } from '@koach/db';
 import { buildApp } from './app';
 import { loadConfig } from './config';
@@ -5,10 +6,18 @@ import type { Deps } from './deps';
 import { vertexAi } from './services/ai';
 import { type EmailSender, resendSender } from './services/email-sender';
 import { devIdentity, firebaseIdentity } from './services/firebase';
+import { webPushSender } from './services/push';
 import { gcsStore, memoryStore } from './services/storage';
 
+/** Local development only: keys generated once into apps/api/dev-keys.json (gitignored). */
+function devKeys(): Record<string, string> {
+  if (process.env.APP_ENV === 'prod') return {};
+  const file = new URL('../dev-keys.json', import.meta.url);
+  return existsSync(file) ? (JSON.parse(readFileSync(file, 'utf8')) as Record<string, string>) : {};
+}
+
 async function main(): Promise<void> {
-  const config = loadConfig();
+  const config = loadConfig({ ...devKeys(), ...process.env });
 
   let db: Db;
   if (config.DATABASE_URL) {
@@ -49,6 +58,10 @@ async function main(): Promise<void> {
     storage: config.GCS_BUCKET ? gcsStore(config.GCS_BUCKET) : memoryStore(),
     email,
     ai: vertexAi(db),
+    push:
+      config.VAPID_PUBLIC_KEY && config.VAPID_PRIVATE_KEY
+        ? webPushSender(config.VAPID_PUBLIC_KEY, config.VAPID_PRIVATE_KEY, config.VAPID_SUBJECT)
+        : null,
     now: () => new Date(),
     version: config.K_REVISION ?? 'local',
   };

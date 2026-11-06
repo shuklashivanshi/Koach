@@ -17,6 +17,7 @@ import {
   type SrsGrade,
   toJson,
   updateMastery,
+  withPaperWeight,
 } from '@koach/planner';
 import { and, asc, eq, inArray, lte, sql } from 'drizzle-orm';
 
@@ -73,6 +74,7 @@ async function kbNodes(db: Db) {
       const section = sectionOf(n.id) ?? '';
       return {
         id: n.id,
+        paper: n.paper,
         title: n.title,
         section,
         subject: subjectOfSection.get(section) ?? section,
@@ -128,7 +130,7 @@ async function plannerInputs(db: Db, uid: string, now: Date) {
     estMinutes: n.estMinutes,
     prelims: n.prelims,
     mains: n.mains,
-    priority: nodePriority(n.freq, n.maxFreq, n.sectionShare, phase),
+    priority: withPaperWeight(nodePriority(n.freq, n.maxFreq, n.sectionShare, phase), n.paper),
     mastery: m.get(n.id)?.mastery ?? level.get(n.section) ?? INITIAL_MASTERY,
     prereqs: n.prereqs,
     studied: !!m.get(n.id)?.studiedAt,
@@ -401,16 +403,14 @@ export async function recordAnswers(
     const correct = a.chosen === r.answer;
     results.push({ pyqId: a.pyqId, correct, answer: r.answer });
     if (!correct) {
-      await db
-        .insert(s.mistakes)
-        .values({
-          uid,
-          pyqId: a.pyqId,
-          nodeId: r.nodeId,
-          chosen: a.chosen,
-          correct: r.answer,
-          createdAt: now,
-        });
+      await db.insert(s.mistakes).values({
+        uid,
+        pyqId: a.pyqId,
+        nodeId: r.nodeId,
+        chosen: a.chosen,
+        correct: r.answer,
+        createdAt: now,
+      });
       const right = r.options?.find((o) => o.key === r.answer);
       await addCard(
         db,
@@ -455,11 +455,18 @@ export async function heatmap(db: Db, uid: string, now: Date) {
     }
     sections.set(n.section, t);
   }
-  return [...sections].map(([sectionId, t]) => ({
-    sectionId,
-    title: titles.get(sectionId) ?? sectionId,
-    studied: t.studied,
-    total: t.total,
-    mastery: t.studied ? Math.round((t.sum / t.total) * 100) / 100 : 0,
-  }));
+  const paperOrder = ['prelims_gs1', 'gs1', 'gs2', 'gs3', 'gs4', 'essay', 'csat'];
+  const rank = (id: string) => {
+    const i = paperOrder.indexOf(id.split('.')[0] ?? '');
+    return i < 0 ? paperOrder.length : i;
+  };
+  return [...sections]
+    .sort((a, b) => rank(a[0]) - rank(b[0]))
+    .map(([sectionId, t]) => ({
+      sectionId,
+      title: titles.get(sectionId) ?? sectionId,
+      studied: t.studied,
+      total: t.total,
+      mastery: t.studied ? Math.round((t.sum / t.total) * 100) / 100 : 0,
+    }));
 }

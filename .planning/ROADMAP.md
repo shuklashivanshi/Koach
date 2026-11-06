@@ -35,7 +35,7 @@ Feature definitions: `.planning/PROJECT.md`. Requirement IDs: `.planning/REQUIRE
 - [ ] **Phase 1: Foundation & GCP Deploy** - Monorepo, GCP bootstrap, Cloud SQL, Vertex + speech wrapper, auth, `deploy.yaml`, app on device
 - [ ] **Phase 2: UPSC Knowledge Base** - Syllabus graph (incl. optional syllabi), PYQ bank, source map, PYQ stats, strategy KB, playbooks, review tooling, naming guard
 - [x] **Phase 3: Onboarding & Learning Pattern Test** - Profile, diagnostic, four pattern games → strength profile
-- [ ] **Phase 4: Planner, Revision & Reminders** - Scheduler, PYQ-first sessions, FSRS, mastery, mistakes notebook, heatmap, push reminders
+- [x] **Phase 4: Planner, Revision & Reminders** - Scheduler, PYQ-first sessions, FSRS, mastery, mistakes notebook, heatmap, push reminders
 - [ ] **Phase 5: Current Affairs Pipeline & Daily Quiz** - Ingest → summarise → link to syllabus → verified UPSC-style MCQs
 - [ ] **Phase 6: Memory Cues & Nudges** - Pattern-matched cues (palace, audio, mnemonics, cue sheets, drills), repetition, first-principles; nudges, coach note, well-being check-in
 - [ ] **Phase 7: Optional Discovery** - Fit quiz ranking, explorer & compare, decision coach
@@ -125,7 +125,7 @@ Plans:
   4. Revisions are scheduled by FSRS, and the plan shows every studied node getting ≥3 revisions before 23 May 2027
   5. Wrong answers land in the mistakes notebook with a one-tap cause; the user can open a mastery heatmap
   6. User receives plan, due-review, CA-quiz and streak pushes outside quiet hours, and can configure types, times and tone
-**Plans**: TBD
+**Plans**: executed as one plan (see 04-CONTEXT.md, 04-SUMMARY.md)
 
 ### Phase 5: Current Affairs Pipeline & Daily Quiz
 **Goal**: Current affairs arrive daily, already linked to the syllabus, as trustworthy UPSC-style questions.

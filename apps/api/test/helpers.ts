@@ -2,6 +2,7 @@ import { createTestDb } from '@koach/db/testing';
 import type { FastifyInstance } from 'fastify';
 import { buildApp, type BuildOptions } from '../src/app';
 import { loadConfig } from '../src/config';
+import { recordingPush } from '../src/services/push';
 import type { Deps } from '../src/deps';
 import { recordingSender } from '../src/services/email-sender';
 import type { IdentityProvider } from '../src/services/firebase';
@@ -56,6 +57,7 @@ export async function buildTestApp(
       json: () => Promise.reject(new Error('json not stubbed in this test')),
       transcribe: () => Promise.resolve({ text: 'monsoon delta', costUsd: 0.0001 }),
     },
+    push: recordingPush(),
     now: () => new Date(),
     version: 'test',
     ...overrides,

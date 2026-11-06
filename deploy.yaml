@@ -124,7 +124,7 @@ steps:
       - --service-account=koach-api@$PROJECT_ID.iam.gserviceaccount.com
       - --add-cloudsql-instances=$PROJECT_ID:${_REGION}:${_SQL_INSTANCE}
       - --set-env-vars=APP_ENV=${_APP_ENV},EMAIL_DEV_ECHO=${_EMAIL_DEV_ECHO},GCP_PROJECT=$PROJECT_ID,GCS_BUCKET=$PROJECT_ID-user-data,ADMIN_EMAILS=${_ADMIN_EMAILS}
-      - --set-secrets=DATABASE_URL=DATABASE_URL:latest,FIREBASE_PROJECT_ID=FIREBASE_PROJECT_ID:latest,RESEND_API_KEY=RESEND_API_KEY:latest
+      - --set-secrets=DATABASE_URL=DATABASE_URL:latest,FIREBASE_PROJECT_ID=FIREBASE_PROJECT_ID:latest,RESEND_API_KEY=RESEND_API_KEY:latest,VAPID_PUBLIC_KEY=VAPID_PUBLIC_KEY:latest,VAPID_PRIVATE_KEY=VAPID_PRIVATE_KEY:latest,CRON_SECRET=CRON_SECRET:latest
       - --allow-unauthenticated # public HTTPS; every route except /health and email sign-in verifies a Firebase ID token
       - --min-instances=0
       - --max-instances=10

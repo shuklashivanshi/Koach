@@ -49,6 +49,13 @@ function Navigator() {
         <Stack.Screen name="admin/review" />
         <Stack.Screen name="onboarding" />
         <Stack.Screen name="lpt" />
+        <Stack.Screen name="learn/[nodeId]" />
+        <Stack.Screen name="practice/[nodeId]" />
+        <Stack.Screen name="revise" />
+        <Stack.Screen name="mistakes" />
+        <Stack.Screen name="ca" />
+        <Stack.Screen name="library" />
+        <Stack.Screen name="reminders" />
       </Stack.Protected>
     </Stack>
   );

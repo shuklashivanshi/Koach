@@ -13,3 +13,4 @@ apps/mobile/ios
 *.tsbuildinfo
 firebase-debug.log
 packages/kb/raw/
+apps/api/dev-keys.json

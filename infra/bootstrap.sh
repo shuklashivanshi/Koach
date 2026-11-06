@@ -120,6 +120,23 @@ else
   log "created  secret RESEND_API_KEY"
 fi
 
+# Web Push keys and the scheduler secret (NOTIF-01); generated here, never printed.
+if secret_exists VAPID_PRIVATE_KEY; then
+  log "exists   secrets VAPID_PUBLIC_KEY / VAPID_PRIVATE_KEY"
+else
+  KEYS="$(npx --yes web-push@3.6.7 generate-vapid-keys --json)"
+  node -e 'process.stdout.write(JSON.parse(process.argv[1]).publicKey)' "$KEYS" |
+    "${G[@]}" secrets create VAPID_PUBLIC_KEY --replication-policy=automatic --data-file=- >/dev/null
+  node -e 'process.stdout.write(JSON.parse(process.argv[1]).privateKey)' "$KEYS" |
+    "${G[@]}" secrets create VAPID_PRIVATE_KEY --replication-policy=automatic --data-file=- >/dev/null
+  unset KEYS
+  log "created  secrets VAPID_PUBLIC_KEY / VAPID_PRIVATE_KEY"
+fi
+create_cron_secret() {
+  openssl rand -hex 24 | tr -d '\n' | "${G[@]}" secrets create CRON_SECRET --replication-policy=automatic --data-file=- >/dev/null
+}
+step "secret CRON_SECRET" secret_exists CRON_SECRET -- create_cron_secret
+
 # --- Storage ------------------------------------------------------------------------------------
 BUCKET="${PROJECT_ID}-user-data"
 step "bucket gs://$BUCKET" "${G[@]}" storage buckets describe "gs://$BUCKET" -- \
@@ -149,6 +166,7 @@ step "firebase android app $ANDROID_PACKAGE" android_app_id -- \
   firebase_cli apps:create ANDROID "Koach" --package-name="$ANDROID_PACKAGE" --project "$PROJECT_ID"
 GS_JSON="$REPO_ROOT/apps/mobile/google-services.json"
 mkdir -p "$(dirname "$GS_JSON")"
+rm -f "$GS_JSON" # the CLI refuses to overwrite an existing file
 firebase_cli apps:sdkconfig ANDROID "$(android_app_id)" --project "$PROJECT_ID" --out "$GS_JSON" >/dev/null
 log "wrote    apps/mobile/google-services.json (gitignored)"
 
@@ -159,6 +177,23 @@ if [[ -n "$WEB_CLIENT_ID" ]]; then
   log "recorded GOOGLE_WEB_CLIENT_ID"
 else
   log "ACTION   enable Google in Firebase console → Authentication → Sign-in method, then re-run"
+fi
+
+# --- Reminder dispatcher (Cloud Scheduler → API every 15 minutes) ------------------------------
+API_URL="$("${G[@]}" run services describe koach-api --region="$REGION" --format='value(status.url)' 2>/dev/null || true)"
+if [[ -n "$API_URL" ]]; then
+  if "${G[@]}" scheduler jobs describe koach-reminders --location="$REGION" >/dev/null 2>&1; then
+    log "exists   scheduler koach-reminders"
+  else
+    CRON="$("${G[@]}" secrets versions access latest --secret=CRON_SECRET)"
+    "${G[@]}" scheduler jobs create http koach-reminders --location="$REGION" \
+      --schedule='*/15 * * * *' --time-zone='Asia/Kolkata' --http-method=POST \
+      --uri="$API_URL/internal/reminders" --headers="x-cron-secret=$CRON" >/dev/null
+    unset CRON
+    log "created  scheduler koach-reminders"
+  fi
+else
+  log "ACTION   deploy koach-api first, then re-run to create the reminder scheduler"
 fi
 
 log "done. Run: infra/verify.sh $ENV_NAME"

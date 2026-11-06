@@ -120,3 +120,32 @@ export const PracticeSet = z.object({
     }),
   ),
 });
+
+// --- Reminders (NOTIF-01/02) ---------------------------------------------------------------
+
+const Clock = z.string().regex(/^\d{2}:\d{2}$/);
+export const ReminderPref = z.object({ on: z.boolean(), time: Clock });
+export const NotificationSettings = z.object({
+  prefs: z.object({
+    plan_ready: ReminderPref,
+    due_reviews: ReminderPref,
+    ca_quiz: ReminderPref,
+    streak: ReminderPref,
+  }),
+  tone: z.enum(['calm', 'firm', 'cheerful']),
+});
+export type NotificationSettings = z.infer<typeof NotificationSettings>;
+export const NotificationSettingsResponse = NotificationSettings.extend({
+  /** VAPID public key for the browser; null when push is not configured. */
+  publicKey: z.string().nullable(),
+});
+export const PushSubscriptionBody = z.object({
+  endpoint: z.url().max(1000),
+  keys: z.object({ p256dh: z.string().max(200), auth: z.string().max(100) }),
+});
+
+export type DueCards = z.infer<typeof DueCards>;
+export type Heatmap = z.infer<typeof Heatmap>;
+export type MistakeList = z.infer<typeof MistakeList>;
+export type PracticeSet = z.infer<typeof PracticeSet>;
+export type LearnOutcome = z.infer<typeof LearnOutcome>;

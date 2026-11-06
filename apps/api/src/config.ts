@@ -12,6 +12,12 @@ const ConfigSchema = z
     // Dev-only escape hatch: also log sign-in codes so they can be tested without a mailbox.
     EMAIL_DEV_ECHO: z.enum(['0', '1']).default('0'),
     K_REVISION: z.string().optional(),
+    /** Web Push (NOTIF-01). The public key is safe to ship to the browser. */
+    VAPID_PUBLIC_KEY: z.string().optional(),
+    VAPID_PRIVATE_KEY: z.string().optional(),
+    VAPID_SUBJECT: z.string().default('mailto:koach@example.invalid'),
+    /** Shared secret Cloud Scheduler sends to /internal/* jobs. */
+    CRON_SECRET: z.string().optional(),
     /** Comma-separated emails allowed to use the admin review tools (KB-07). */
     ADMIN_EMAILS: z
       .string()

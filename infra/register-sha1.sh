@@ -21,5 +21,6 @@ else
   log "added    SHA-1 on $APP_ID"
 fi
 # Re-download config so the Android OAuth client for this SHA-1 is included.
+rm -f "$REPO_ROOT/apps/mobile/google-services.json" # the CLI refuses to overwrite
 firebase_cli apps:sdkconfig ANDROID "$APP_ID" --project "$PROJECT_ID" --out "$REPO_ROOT/apps/mobile/google-services.json" >/dev/null
 log "refreshed apps/mobile/google-services.json"

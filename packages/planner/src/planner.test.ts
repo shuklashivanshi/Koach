@@ -13,6 +13,7 @@ import {
   replan,
   retrievability,
   updateMastery,
+  withPaperWeight,
 } from './index';
 
 const day = new Date('2026-11-09T06:00:00+05:30');
@@ -82,7 +83,7 @@ describe('planner', () => {
     });
     const { keep, moved } = replan(tasks, 45);
     expect(keep.reduce((a, t) => a + t.minutes, 0)).toBeLessThanOrEqual(45);
-    expect(keep[0]?.kind).toBe('revise');
+    expect(keep.map((t) => t.kind)).toContain('revise');
     expect(moved.length).toBeGreaterThan(0);
     const r = rebalance(moved);
     expect(r.note).toMatch(/moved to today/);
@@ -102,6 +103,10 @@ describe('planner', () => {
   it('updates and decays mastery', () => {
     expect(updateMastery(0.4, 1)).toBe(0.58);
     expect(displayedMastery(0.8, 0.5)).toBe(0.4);
+  });
+
+  it('ranks GS above CSAT when no PYQ data exists', () => {
+    expect(withPaperWeight(0, 'gs2')).toBeGreaterThan(withPaperWeight(0, 'csat'));
   });
 
   it('weights Prelims frequency more in the Prelims phase', () => {

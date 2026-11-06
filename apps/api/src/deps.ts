@@ -3,6 +3,7 @@ import type { Config } from './config';
 import type { AiService } from './services/ai';
 import type { EmailSender } from './services/email-sender';
 import type { IdentityProvider } from './services/firebase';
+import type { PushSender } from './services/push';
 import type { ObjectStore } from './services/storage';
 
 /** Everything the app needs from the outside world; tests pass fakes. */
@@ -13,6 +14,8 @@ export interface Deps {
   storage: ObjectStore;
   email: EmailSender;
   ai: AiService;
+  /** Null when VAPID keys are not configured (push disabled). */
+  push: PushSender | null;
   now: () => Date;
   version: string;
 }
