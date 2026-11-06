@@ -86,7 +86,15 @@ Plans:
   4. Node PYQ frequency and subject weightage are computed from the bank and served by the API
   5. A reviewer can approve or correct tags and source mappings through an admin path
   6. Playbooks (PB-*) exist as config, and a test proves that no blocked name reaches any client-facing API field or generated text
-**Plans**: TBD
+**Plans**: 6 plans (4 waves)
+
+Plans:
+- [ ] 02-01: KB schema, packages/kb + packages/guard, read API, naming guard hook (wave 1)
+- [ ] 02-02: Syllabus graph seed: GS nodes + optional topics (wave 2)
+- [ ] 02-03: PYQ bank: official PDFs → structured JSON (wave 2)
+- [ ] 02-04: AI tagging of PYQs and the source map (wave 3)
+- [ ] 02-05: Strategy KB seed and grounding (wave 3)
+- [ ] 02-06: Admin review page, audit, deploy (wave 4)
 
 ### Phase 3: Onboarding & Learning Pattern Test
 **Goal**: Koach knows the learner: availability, starting level, and learning-pattern strengths.
