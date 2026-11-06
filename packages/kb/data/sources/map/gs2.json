@@ -1,0 +1,1006 @@
+{
+  "map": [
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constitutional-experiments-pre-1947",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 1 · Historical Background",
+      "reason": "Presents a structured, point-by-point breakdown of each British Act tailored for UPSC Prelims."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constituent-assembly-debates-and-making",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 2 · Making of the Constitution",
+      "reason": "Comprehensive coverage of assembly committees, composition, timeline, and major debates for examination needs."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.sources-and-borrowed-features",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 3 · Salient Features of the Constitution",
+      "reason": "Offers an exact catalog of borrowed structural and ideological features from foreign constitutions."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.preamble-philosophy-and-significance",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 4 · Preamble of the Constitution",
+      "reason": "Details philosophical keywords, legal status, and landmark judicial cases like Kesavananda Bharati."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.union-and-territory-integration",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 5 · Union and its Territory",
+      "reason": "Covers Articles 1–4, integration of princely states, and state reorganisation committees thoroughly."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.citizenship-constitutional-provisions-an",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 6 · Citizenship",
+      "reason": "Explains constitutional provisions and Citizenship Act mechanisms relevant to statutory citizenship questions."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Clarifies judicial doctrine regarding definition of State and constitutional invalidity of laws."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-equality-art-14-18",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Analyzes affirmative action, reasonable classification, and non-discrimination provisions through key judicial precedents."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.fundamental-rights.freedom-of-speech-and-expression-art-19",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Exhaustively categorizes the six freedoms and reasonable restrictions under Article 19(2)."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.fundamental-rights.protection-in-respect-of-conviction-art-",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Concise legal dissection of ex-post facto laws, double jeopardy, and self-incrimination safeguards."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-life-and-personal-liberty-art-2",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Traces substantive due process evolution from AK Gopalan to Puttaswamy privacy judgments."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.fundamental-rights.preventive-detention-and-safeguards-art-",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Clear explanation of punitive versus preventive detention procedures and constitutional safeguards."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.fundamental-rights.right-against-exploitation-art-23-24",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Precise treatment of human trafficking, forced labor, and child employment prohibitions."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.fundamental-rights.freedom-of-religion-and-secularism-art-2",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Details individual and collective religious freedoms alongside the doctrine of essential religious practices."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.fundamental-rights.cultural-and-educational-rights-art-29-3",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Covers protection of minority interests and educational rights with relevant judicial distinctions."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.fundamental-rights.constitutional-remedies-and-writs-art-32",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Provides structured comparative analysis of writ jurisdictions under Articles 32 and 226."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.dpsp-classification-and-ideologies",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 8 · Directive Principles of State Policy",
+      "reason": "Categorizes DPSPs into Socialistic, Gandhian, and Liberal-Intellectual principles with constitutional articles."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.conflict-between-fr-and-dpsp",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 8 · Directive Principles of State Policy",
+      "reason": "Chronicles the jurisprudential debate between Part III and Part IV harmony."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.fundamental-duties-and-civic-culture",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 9 · Fundamental Duties",
+      "reason": "Captures Swaran Singh recommendations, Article 51A duties, and Verma Committee legal enforcement."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.procedure-for-constitutional-amendment-a",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 10 · Amendment of the Constitution",
+      "reason": "Rigorous breakdown of majorities, federal consent requirements, and procedural limitations under Article 368."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.evolution-of-basic-structure-doctrine",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 11 · Basic Structure of the Constitution",
+      "reason": "Systematic chronological analysis of case laws defining the doctrine and non-negotiable constitutional values."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.significant-constitutional-amendments",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Major Constitutional Amendments",
+      "reason": "Provides a comprehensive ready reckoner of significant historical and contemporary constitutional amendments."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 13 · Federal System",
+      "reason": "Examines federal versus unitary features, asymmetrical federalism, and quotes scholarly perspectives directly."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.legislative-and-administrative-relations",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 14 · Centre-State Relations",
+      "reason": "Comprehensive point-wise coverage of legislative distribution of powers and administrative directions."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.financial-relations-and-fiscal-federalis",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 14 · Centre-State Relations",
+      "reason": "Explains tax-sharing mechanisms, Finance Commission remit, and post-GST fiscal dynamics clearly."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.inter-state-disputes-and-councils",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 15 · Inter-State Relations",
+      "reason": "Covers Article 262 water dispute tribunals, Inter-State Council, and Zonal Councils systematically."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.emergency-provisions-and-federal-impact",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 16 · Emergency Provisions",
+      "reason": "Analyzes procedural invocation, parliamentary approval, judicial review, and federal impacts of emergencies."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.special-provisions-and-scheduled-areas",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 37 · Special Provisions Relating to Certain Classes",
+      "reason": "Details Fifth and Sixth Schedules alongside state-specific provisions under Article 371 series."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 38 · Panchayati Raj",
+      "reason": "Structured analysis of Balwant Rai Mehta recommendations and compulsory versus voluntary provisions."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.local-governance-and-devolution.urban-local-bodies-74th-amendment",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 39 · Municipalities",
+      "reason": "Details types of urban local bodies, 74th Amendment mandate, and metropolitan planning."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.local-governance-and-devolution.pesa-act-and-tribal-self-rule",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 38 · Panchayati Raj",
+      "reason": "Precise breakdown of PESA Act features, Gram Sabha powers, and tribal self-determination."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.local-governance-and-devolution.challenges-in-devolution-3fs",
+      "sourceId": "official-arc2-reports",
+      "chapter": "6th Report · Local Governance: An Inspiring Journey into the Future",
+      "reason": "Provides official authoritative analysis on structural bottlenecks regarding funds, functions, and functionaries."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-kingdom",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Comparison of Constitutions",
+      "reason": "Sharp contrast between parliamentary sovereignty in the UK and Indian constitutional supremacy."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-states",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Comparison of Constitutions",
+      "reason": "Direct comparative analysis of separation of powers, federalism, and judicial review systems."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-france-germany",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Comparison of Constitutions",
+      "reason": "Systematic comparison of Indian secularism and federalism with French and German constitutional systems."
+    },
+    {
+      "nodeId": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-other-democracies",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Comparison of Constitutions",
+      "reason": "Succinct comparative table and analysis of rights and federal features across major democracies."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.union-and-state-executive.president-election-powers-and-impeachmen",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 17 · President",
+      "reason": "Exhaustively addresses election mathematics, executive powers, ordinance making, and pardon jurisprudence."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.union-and-state-executive.vice-president-role-and-removal",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 18 · Vice-President",
+      "reason": "Clear delineation of electoral college, dual constitutional roles, and removal process."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.union-and-state-executive.governor-constitutional-role-and-discret",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 30 · Governor",
+      "reason": "Highlights constitutional versus situational discretion and landmark Supreme Court guidelines like SR Bommai."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.union-and-state-executive.prime-minister-and-chief-minister",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 19 · Prime Minister",
+      "reason": "Explains cabinet system dynamics, prime ministerial primacy, and coalition governance realities."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 20 · Central Council of Ministers",
+      "reason": "Comprehensive coverage of constitutional provisions, collective responsibility, and cabinet committee functions for UPSC."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.union-and-state-executive.cabinet-secretariat-and-pmo",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Central Secretariat and Cabinet Secretariat",
+      "reason": "Provides detailed structural and functional analysis of apex executive coordinating bodies in India."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.composition-and-tenure-of-parliament",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 22 · Parliament",
+      "reason": "Detail-oriented breakdown of parliamentary composition, delimitation acts, and qualifications essential for UPSC."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.presiding-officers-speaker-and-chairman",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 22 · Parliament",
+      "reason": "Thorough examination of presiding officers' powers, neutrality debates, and constitutional positions."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.legislative-procedure-and-types-of-bills",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 22 · Parliament",
+      "reason": "Systematic classification and step-by-step procedures for various types of parliamentary bills."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.joint-sitting-and-ordinance-making-power",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 22 · Parliament",
+      "reason": "Explains conditions for joint sittings and comparative analysis of executive legislative powers."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.budgetary-process-in-parliament",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 22 · Parliament",
+      "reason": "Detailed stages of budget enactment, cut motions, and devices of legislative financial control."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.parliamentary-committees-system",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 23 · Parliamentary Committees",
+      "reason": "Exhaustive breakdown of committee structures, functions, mandates, and role in executive accountability."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.parliamentary-privileges-and-codificatio",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 22 · Parliament",
+      "reason": "Covers constitutional privileges, judicial precedents, and the recurring debate over their codification."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.rajya-sabha-significance-and-powers",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 22 · Parliament",
+      "reason": "In-depth analysis of Rajya Sabha's federal relevance, special powers, and bicameral utility."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.anti-defection-law-tenth-schedule",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 79 · Anti-Defection Law",
+      "reason": "Clear analysis of Tenth Schedule provisions, exceptions, judicial rulings, and committee recommendations."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.state-legislative-assemblies-and-council",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 33 · State Legislature",
+      "reason": "Comprehensive coverage of state legislative bicameralism, councils' utility, and assembly-council dynamics."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.parliament-and-state-legislatures.decline-of-parliament-and-reforms",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 22 · Parliament",
+      "reason": "Highlights structural defects, executive dominance, frequent disruptions, and institutional reform measures."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.judiciary-and-dispute-redressal.supreme-court-composition-and-jurisdicti",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 26 · Supreme Court",
+      "reason": "Lucid explanation of constitutional jurisdictions, powers, and independence of the apex court."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-appointments-collegium-system",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 26 · Supreme Court",
+      "reason": "Traces evolution through Three Judges Cases to NJAC and current collegium debates."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.judiciary-and-dispute-redressal.removal-and-conduct-of-judges",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 26 · Supreme Court",
+      "reason": "Explains Judges (Inquiry) Act procedure and standards of judicial conduct and accountability."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.judiciary-and-dispute-redressal.high-courts-and-subordinate-judiciary",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 34 · High Court",
+      "reason": "Covers High Court powers, subordinate judicial hierarchy, and constitutional framework for AIJS."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-review-and-constitutional-court",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 27 · Judicial Review",
+      "reason": "Dedicated chapter covering constitutional basis, scope, and landmark jurisprudence of judicial review."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-activism-vs-judicial-overreach",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 28 · Judicial Activism",
+      "reason": "Sharp conceptual distinction between legitimate judicial intervention and impermissible judicial overreach."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.judiciary-and-dispute-redressal.public-interest-litigation-pil",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 29 · Public Interest Litigation",
+      "reason": "Covers origin, principles, procedural relaxations, and guidelines to prevent frivolous PIL misuse."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-delays-and-pendency-of-cases",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 35 · Subordinate Courts",
+      "reason": "Details mechanisms of Lok Adalats, NALSA, fast-track courts, and dispute resolution alternatives."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.judiciary-and-dispute-redressal.tribunals-and-quasi-judicial-bodies",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 36 · Tribunals",
+      "reason": "Comparative distinction between Articles 323A and 323B alongside landmark tribunal reforms."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.judiciary-and-dispute-redressal.contempt-of-court-and-free-speech",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 26 · Supreme Court",
+      "reason": "Explains types of contempt, statutory provisions, and balance with Article 19(1)(a)."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1950",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 71 · Elections",
+      "reason": "Provides statutory specifics of RPA 1950 relating to delimitation, electoral rolls, and voter qualifications."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1951",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 72 · Election Laws",
+      "reason": "Detailed overview of election administration, corrupt practices, and disqualification grounds under RPA 1951."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.elections-and-rpa.electoral-reforms-and-criminalisation-of",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 73 · Electoral Reforms",
+      "reason": "Chronological compilation of electoral committee recommendations, decriminalization initiatives, and voting reforms."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.elections-and-rpa.political-funding-and-transparency",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 73 · Electoral Reforms",
+      "reason": "Discusses political funding issues, state funding debates, transparency measures, and statutory restrictions."
+    },
+    {
+      "nodeId": "gs2.organs-of-state.elections-and-rpa.model-code-of-conduct-and-ec-powers",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 72 · Election Laws",
+      "reason": "Covers origin, provisions, enforceability debate, and constitutional plenary powers under Article 324."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.election-commission-of-india",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 42 · Election Commission",
+      "reason": "Core coverage of ECI structure, powers, autonomy, service conditions, and appointment reforms."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.union-and-state-public-service-commissio",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 43 · Union Public Service Commission",
+      "reason": "Exhaustive analysis of UPSC and SPSC constitutional independence, mandate, functions, and limitations."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.finance-commission-mandate-and-terms",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 45 · Finance Commission",
+      "reason": "Explains constitutional mandate, appointment, tax devolution criteria, and advisory role of the commission."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.comptroller-and-auditor-general-of-india",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 49 · Comptroller and Auditor General of India",
+      "reason": "Complete coverage of CAG's constitutional safeguards, audit types, and role before PAC."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.national-commissions-sc-st-bc",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 47 · National Commission for SCs",
+      "reason": "Detailed examination of constitutional safeguards, powers as civil courts, and annual report mechanisms."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.attorney-general-and-advocate-general",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 50 · Attorney General of India",
+      "reason": "Succinct overview of law officers' constitutional standing, privileges, and duties in legislature."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.special-officer-for-linguistic-minoritie",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 48 · Special Officer for Linguistic Minorities",
+      "reason": "Clear constitutional background under Article 350B, institutional setup, and reporting requirements."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-human-rights-commission-nhrc",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 53 · National Human Rights Commission",
+      "reason": "Comprehensive analysis of statutory powers, composition, toothless tiger debate, and amendment updates."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.central-information-commission-cic",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 54 · Central Information Commission",
+      "reason": "Details CIC composition, tenure, powers, RTI appellate jurisdiction, and statutory amendments."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.central-vigilance-commission-cvc",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 55 · Central Vigilance Commission",
+      "reason": "Explains CVC's statutory mandate, superintendence over CBI, and corruption prevention architecture."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.lokpal-and-lokayuktas",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 57 · Lokpal and Lokayuktas",
+      "reason": "Elaborates on the 2013 Act, search-selection committee, jurisdiction, and implementation bottlenecks."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.central-bureau-of-investigation-cbi",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 56 · Central Bureau of Investigation",
+      "reason": "Covers DSPE Act basis, general consent issues, caged parrot critique, and reform measures."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-investigation-agency-nia",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 60 · National Investigation Agency",
+      "reason": "Standard reference for NIA mandate, jurisdictional issues, and statutory amendments in UPSC."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-commissions-women-children-mino",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "National Commission for Women",
+      "reason": "Covers statutory composition, investigatory powers, and structural limitations of national commissions."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.national-green-tribunal-ngt",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 35 · Tribunals",
+      "reason": "Explains NGT mandate, composition, and environmental dispute resolution accurately for GS2."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.competition-commission-of-india-cci",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Regulatory Authorities",
+      "reason": "Covers statutory framework, anti-trust enforcement, and regulatory powers for GS2 governance."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.telecom-and-electricity-regulators",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Regulatory Authorities",
+      "reason": "Systematically details sectoral regulators' autonomy, quasi-judicial powers, and governance issues."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.food-safety-and-standards-authority-fssa",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Regulatory Authorities",
+      "reason": "Comprehensive coverage of statutory regulatory bodies, food safety standards, and enforcement architecture."
+    },
+    {
+      "nodeId": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.unique-identification-authority-uidai",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Regulatory Authorities",
+      "reason": "Covers statutory creation, Aadhaar regulatory framework, and privacy mechanisms for Mains questions."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance",
+      "sourceId": "official-arc2-reports",
+      "chapter": "12th Report: Citizen Centric Administration",
+      "reason": "Official benchmark defining good governance characteristics, citizen-centric administration, and core reforms."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.governance-transparency-accountability.right-to-information-act-implementation",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Right to Information",
+      "reason": "Details RTI statutory provisions, exemptions, second appellate authority, and implementation hurdles."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.governance-transparency-accountability.citizens-charters-formulation-and-effica",
+      "sourceId": "official-arc2-reports",
+      "chapter": "12th Report: Citizen Centric Administration",
+      "reason": "Benchmark official blueprint for Citizens' Charters formulation, Sevottam model, and institutional critique."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.governance-transparency-accountability.social-audit-mechanisms",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Social Audit",
+      "reason": "Standard treatment of social audit concept, legal backing, methodology, and institutional challenges."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.governance-transparency-accountability.whistleblower-protection-and-ombudsman",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Lokpal and Lokayuktas",
+      "reason": "Covers Whistle Blowers Act provisions and institutional ombudsman models for public delivery."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.e-governance.e-governance-concepts-and-models",
+      "sourceId": "official-arc2-reports",
+      "chapter": "11th Report: Promoting E-Governance",
+      "reason": "Definitive government assessment of e-governance stages, G2G/G2C delivery models, and architecture."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.e-governance.major-e-governance-initiatives-in-india",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Electronic Governance",
+      "reason": "Standard compilation of NeGP, Digital India initiatives, and unified national service delivery."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.e-governance.e-governance-successes-and-best-practice",
+      "sourceId": "official-arc2-reports",
+      "chapter": "11th Report: Promoting E-Governance",
+      "reason": "Official documentation and case studies of pioneering state e-governance projects and best practices."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.e-governance.limitations-and-challenges-of-e-governan",
+      "sourceId": "official-arc2-reports",
+      "chapter": "11th Report: Promoting E-Governance",
+      "reason": "Authoritative analysis of digital divide, capacity constraints, legal impediments, and exclusion risks."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.role-of-civil-services.civil-services-constitutional-framework",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 62 · Public Services",
+      "reason": "Covers constitutional safeguards under Article 311, recruitment doctrines, and tenure security."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.role-of-civil-services.evolution-and-role-in-democracy",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Role of Civil Services in a Democracy",
+      "reason": "Structured discussion on civil services in democracy, policy formulation, and administrative integration."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.role-of-civil-services.civil-service-neutrality-vs-commitment",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Code of Conduct for Civil Servants",
+      "reason": "Authoritative treatment of civil service neutrality, political interference, and ethical commitment dilemmas."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.role-of-civil-services.lateral-entry-and-specialisation",
+      "sourceId": "official-arc2-reports",
+      "chapter": "10th Report: Refurbishing of Personnel Administration",
+      "reason": "Foundational government recommendations on domain specialization, lateral entry, and civil service reforms."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.role-of-civil-services.second-arc-and-administrative-reforms",
+      "sourceId": "official-arc2-reports",
+      "chapter": "10th Report: Refurbishing of Personnel Administration",
+      "reason": "Primary source for recommendations on civil service modernization, performance management, and institutional reforms."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.development-processes-and-civil-society.role-of-ngos-in-development",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Non-Governmental Organisations",
+      "reason": "Covers NGO taxonomy, role in grassroots delivery, advocacy, and social mobilization."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.development-processes-and-civil-society.regulation-of-ngos-and-fcra",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Non-Governmental Organisations",
+      "reason": "Explains legal regulations, FCRA compliance guidelines, and civil society accountability issues."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.development-processes-and-civil-society.self-help-groups-and-rural-empowerment",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Self-Help Groups",
+      "reason": "Analyzes SHG-bank linkage, microfinance models, Kudumbashree, and women's rural empowerment mechanisms."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.development-processes-and-civil-society.pressure-groups-and-associations",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 66 · Pressure Groups",
+      "reason": "Standard reference for classification, lobbying techniques, and impact of pressure groups on policy."
+    },
+    {
+      "nodeId": "gs2.governance-and-public-administration.development-processes-and-civil-society.csr-and-philanthropy-in-development",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Corporate Social Responsibility",
+      "reason": "Details Companies Act Section 135 mandate, CSR governance, and developmental funding."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.protection-of-scheduled-castes-and-dalit",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 68 · Special Provisions Relating to Certain Classes",
+      "reason": "Covers constitutional safeguards, PoA Act provisions, and statutory protection for Scheduled Castes."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.protection-of-scheduled-tribes-and-fra",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 41 · Scheduled and Tribal Areas",
+      "reason": "Explains Fifth/Sixth Schedule provisions, tribal rights, and statutory self-governance frameworks."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Welfare Mechanisms for Vulnerable Sections",
+      "reason": "Consolidated overview of women protection legislations, maternity benefits, and welfare schemes."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.child-rights-and-juvenile-justice",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Welfare Mechanisms for Vulnerable Sections",
+      "reason": "Covers statutory child rights frameworks, POCSO Act, and juvenile justice mechanisms."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.differently-abled-persons-welfare",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Welfare Mechanisms for Vulnerable Sections",
+      "reason": "Details Rights of Persons with Disabilities Act, accessibility mandates, and welfare policies."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.senior-citizens-and-elderly-care",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Welfare Mechanisms for Vulnerable Sections",
+      "reason": "Details statutory protection for senior citizens, maintenance legislation, and social security programs."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.minorities-and-transgender-rights",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Welfare Mechanisms for Vulnerable Sections",
+      "reason": "Covers constitutional safeguards, minority institutions, and transgender protection rights framework."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.performance-and-critique-of-welfare-sche",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Official critique and empirical evaluation of Centrally Sponsored Schemes, targeting, and leakages."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Authoritative government assessment of public health infrastructure, expenditure, and National Health Policy."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.health-sector.ayushman-bharat-and-universal-health-cov",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Primary policy review of Ayushman Bharat coverage, HWCs rollout, and universal health outcomes."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.health-sector.out-of-pocket-expenditure-and-drug-prici",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Official empirical data on out-of-pocket health expenditure trends and affordable medicine initiatives."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.health-sector.disease-burden-and-epidemic-preparedness",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Official analysis of epidemiological transition, NCDs burden, and public healthcare pandemic resilience."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.health-sector.mental-healthcare-and-digital-health",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Evaluates digital health interventions, tele-mental health initiatives, and Ayushman Bharat Digital Mission."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.education-sector.right-to-education-act-and-elementary-ed",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Official analysis of RTE implementation, learning outcomes, pupil-teacher ratios, and Samagra Shiksha."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.education-sector.national-education-policy-2020-school",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Provides official government assessment, key targets, and policy implementation data for NEP 2020."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.education-sector.higher-education-reforms-and-heci",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Offers authentic data on higher education GER, institutional restructuring, and reform roadmaps."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.education-sector.vocational-education-and-skill-developme",
+      "sourceId": "ncert-11-indian-economic-development",
+      "chapter": "Human Capital Formation in India",
+      "reason": "Explains foundational economics linking vocational training, human capital formation, and labor productivity."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.education-sector.human-capital-index-and-demographic-divi",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Analyzes demographic dividend window, human capital indices, and employment elasticity challenges."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.poverty-and-hunger.poverty-estimation-and-committees",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Poverty and Exclusion",
+      "reason": "Covers evolution of poverty lines from Tendulkar to Rangarajan and MPI accurately."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.poverty-and-hunger.food-security-architecture-and-nfsa",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Provides official statistics on NFSA legal coverage, procurement, and welfare entitlements."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.poverty-and-hunger.public-distribution-system-and-reforms",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Details TPDS operations, FCI buffer stock norms, ONORC reforms, and leakages."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.poverty-and-hunger.hunger-and-malnutrition-challenges",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Assesses malnutrition metrics, NFHS survey indicators, stunting, wasting, and policy interventions."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.poverty-and-hunger.poshan-abhiyaan-and-icds",
+      "sourceId": "official-india-year-book",
+      "chapter": "Welfare",
+      "reason": "Official repository for institutional structures, objectives, and schemes under Saksham Anganwadi/POSHAN."
+    },
+    {
+      "nodeId": "gs2.social-justice-and-welfare.poverty-and-hunger.urban-poverty-and-social-safety-nets",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Poverty and Exclusion",
+      "reason": "Synthesizes informal sector vulnerabilities, urban poverty dynamics, and national safety-net schemes."
+    },
+    {
+      "nodeId": "gs2.international-relations.indias-neighborhood.india-pakistan-relations",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Pakistan",
+      "reason": "Provides diplomat-authored strategic critique of bilateral disputes, cross-border terrorism, and water treaties."
+    },
+    {
+      "nodeId": "gs2.international-relations.indias-neighborhood.india-china-relations",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "China",
+      "reason": "Authoritative analysis of LAC disputes, geopolitical competition, and bilateral trade dynamics."
+    },
+    {
+      "nodeId": "gs2.international-relations.indias-neighborhood.india-bangladesh-relations",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Bangladesh",
+      "reason": "Critically examines border pacts, Teesta river sharing, transit connectivity, and security pacts."
+    },
+    {
+      "nodeId": "gs2.international-relations.indias-neighborhood.india-nepal-relations",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Nepal",
+      "reason": "Explores the 1950 Treaty, border disputes, hydropower diplomacy, and internal sociopolitical shifts."
+    },
+    {
+      "nodeId": "gs2.international-relations.indias-neighborhood.india-bhutan-relations",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Bhutan",
+      "reason": "Clear assessment of special bilateral ties, joint hydel projects, and Doklam-related security."
+    },
+    {
+      "nodeId": "gs2.international-relations.indias-neighborhood.india-sri-lanka-relations",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Sri Lanka",
+      "reason": "Analyzes maritime security, ethnic reconciliation issues, and competing geopolitical influences in Colombo."
+    },
+    {
+      "nodeId": "gs2.international-relations.indias-neighborhood.india-maldives-relations",
+      "sourceId": "official-mea",
+      "chapter": "India-Maldives Bilateral Relations",
+      "reason": "Gives the most updated, official foreign policy stance on Indian Ocean ties."
+    },
+    {
+      "nodeId": "gs2.international-relations.indias-neighborhood.india-myanmar-and-afghanistan",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Myanmar and Afghanistan",
+      "reason": "Analyzes overland connectivity, frontier security, and strategic diplomatic dilemmas in both nations."
+    },
+    {
+      "nodeId": "gs2.international-relations.indias-neighborhood.neighborhood-first-and-sagardoctrine",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "The Immediate Neighbourhood",
+      "reason": "Examines strategic underpinnings of regional prioritization, SAGAR, and maritime security vision."
+    },
+    {
+      "nodeId": "gs2.international-relations.bilateral-relations-with-major-powers.india-united-states-strategic-partnershi",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "The United States",
+      "reason": "Detailed critique of defence pacts, nuclear cooperation, and strategic Indo-US convergence."
+    },
+    {
+      "nodeId": "gs2.international-relations.bilateral-relations-with-major-powers.india-russia-strategic-ties",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Russia",
+      "reason": "Explores historic defence partnerships, energy security ties, and changing post-Cold War realities."
+    },
+    {
+      "nodeId": "gs2.international-relations.bilateral-relations-with-major-powers.india-european-union-ties",
+      "sourceId": "official-mea",
+      "chapter": "India-EU Strategic Partnership Brief",
+      "reason": "Provides official status on BTIA negotiations, Trade and Technology Council, and green partnerships."
+    },
+    {
+      "nodeId": "gs2.international-relations.bilateral-relations-with-major-powers.india-japan-strategic-cooperation",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Japan",
+      "reason": "Comprehensive review of infrastructure funding, special strategic partnerships, and Indo-Pacific cooperation."
+    },
+    {
+      "nodeId": "gs2.international-relations.bilateral-relations-with-major-powers.india-west-asia-link-west",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "The Gulf and West Asia",
+      "reason": "Masterful strategic study of energy interdependence, remittance flows, and diplomatic balancing."
+    },
+    {
+      "nodeId": "gs2.international-relations.bilateral-relations-with-major-powers.india-central-asia-outreach",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Central Asia",
+      "reason": "Covers Connect Central Asia, INSTC logistics, Chabahar route, and mineral security interests."
+    },
+    {
+      "nodeId": "gs2.international-relations.bilateral-relations-with-major-powers.india-africa-development-partnership",
+      "sourceId": "official-mea",
+      "chapter": "India-Africa Development Cooperation",
+      "reason": "Offers official documentation of lines of credit, capacity-building programs, and bilateral summits."
+    },
+    {
+      "nodeId": "gs2.international-relations.bilateral-relations-with-major-powers.india-latin-america-and-caribbean",
+      "sourceId": "official-mea",
+      "chapter": "India and LAC Region Brief",
+      "reason": "Current, official overview of trade expansion, critical minerals, and diplomatic outreach."
+    },
+    {
+      "nodeId": "gs2.international-relations.regional-and-global-groupings.quad-and-indo-pacific-architecture",
+      "sourceId": "official-mea",
+      "chapter": "Quad (Quadrilateral Security Dialogue)",
+      "reason": "Authoritative official statements on Indo-Pacific maritime domain awareness and critical tech cooperation."
+    },
+    {
+      "nodeId": "gs2.international-relations.regional-and-global-groupings.i2u2-and-imac-corridors",
+      "sourceId": "official-mea",
+      "chapter": "I2U2 and Connectivity Initiatives",
+      "reason": "Official perspective on geoeconomic initiatives, joint investments, and the IMEC transport corridor."
+    },
+    {
+      "nodeId": "gs2.international-relations.regional-and-global-groupings.brics-expansion-and-multipolarity",
+      "sourceId": "official-mea",
+      "chapter": "BRICS Summit Briefs",
+      "reason": "Direct official records of declarations, institutional mechanisms like NDB, and expansion criteria."
+    },
+    {
+      "nodeId": "gs2.international-relations.regional-and-global-groupings.shanghai-cooperation-organisation-sco",
+      "sourceId": "official-mea",
+      "chapter": "Shanghai Cooperation Organisation",
+      "reason": "Provides official posture on Eurasian connectivity, anti-terror coordination via RATS, and security."
+    },
+    {
+      "nodeId": "gs2.international-relations.regional-and-global-groupings.bimstec-and-saarc-dynamics",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Regional Frameworks: SAARC and BIMSTEC",
+      "reason": "Offers comparative strategic evaluation of sub-regional Bay of Bengal integration versus stalled SAARC."
+    },
+    {
+      "nodeId": "gs2.international-relations.regional-and-global-groupings.asean-and-act-east-policy",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Southeast Asia and ASEAN",
+      "reason": "Strategic evaluation of Act East, ASEAN centrality, maritime safety, and trade deficits."
+    },
+    {
+      "nodeId": "gs2.international-relations.regional-and-global-groupings.g20-and-voice-of-global-south",
+      "sourceId": "official-mea",
+      "chapter": "G20 New Delhi Leaders' Declaration and Outcomes",
+      "reason": "Primary source for outcomes, AU induction, and developing nation agenda during India's presidency."
+    },
+    {
+      "nodeId": "gs2.international-relations.regional-and-global-groupings.indian-ocean-rim-association-iora",
+      "sourceId": "official-mea",
+      "chapter": "Indian Ocean Rim Association (IORA)",
+      "reason": "Official brief covering maritime safety, blue economy, and governance across the Indian Ocean."
+    },
+    {
+      "nodeId": "gs2.international-relations.developed-developing-politics-and-diaspo.us-visa-and-trade-policies",
+      "sourceId": "official-mea",
+      "chapter": "India-US Bilateral Issues Brief",
+      "reason": "Authentic source assessing H-1B visa norms, market access friction, and tariff disputes."
+    },
+    {
+      "nodeId": "gs2.international-relations.developed-developing-politics-and-diaspo.chinas-belt-and-road-initiative",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "China",
+      "reason": "Analyzes maritime encirclement fears, sovereignty concerns over CPEC, and Indian Ocean counter-strategies."
+    },
+    {
+      "nodeId": "gs2.international-relations.developed-developing-politics-and-diaspo.western-carbon-taxes-and-wto-disputes",
+      "sourceId": "official-economic-survey",
+      "chapter": "External Sector",
+      "reason": "Details trade implications of EU's CBAM, multilateral trade protectionism, and export competitiveness."
+    },
+    {
+      "nodeId": "gs2.international-relations.developed-developing-politics-and-diaspo.indian-diaspora-profile-and-remittances",
+      "sourceId": "official-mea",
+      "chapter": "Indian Diaspora",
+      "reason": "Authoritative demographic distribution data, Pravasi Bharatiya initiatives, and consular evacuation operations."
+    },
+    {
+      "nodeId": "gs2.international-relations.developed-developing-politics-and-diaspo.diaspora-political-and-soft-power",
+      "sourceId": "sikri-foreign-policy",
+      "chapter": "Instruments of Foreign Policy",
+      "reason": "Explores diaspora engagement as soft power asset, cultural diplomacy, and political lobbying."
+    },
+    {
+      "nodeId": "gs2.international-relations.international-institutions-and-agencies.united-nations-structure-and-reforms",
+      "sourceId": "ncert-12-polsci-contemporary-world",
+      "chapter": "Ch 6 · International Organisations",
+      "reason": "Explains UN organs and the core debates surrounding UNSC restructuring and India's permanent membership bid."
+    },
+    {
+      "nodeId": "gs2.international-relations.international-institutions-and-agencies.un-peacekeeping-and-india",
+      "sourceId": "official-mea",
+      "chapter": "India and the United Nations",
+      "reason": "Provides official diplomatic facts, troop contributions, and policy perspectives on UN peacekeeping operations."
+    },
+    {
+      "nodeId": "gs2.international-relations.international-institutions-and-agencies.bretton-woods-institutions-imf-and-world",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "International Financial Institutions",
+      "reason": "Examines IMF quotas, voting power asymmetry, and World Bank development financing mechanisms."
+    },
+    {
+      "nodeId": "gs2.international-relations.international-institutions-and-agencies.world-trade-organization-and-india",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "India and the Global Economy",
+      "reason": "Details WTO agreements, dispute settlement mechanism impasse, and India's public stockholding stance."
+    },
+    {
+      "nodeId": "gs2.international-relations.international-institutions-and-agencies.world-health-organization-who",
+      "sourceId": "official-mea",
+      "chapter": "Multilateral Relations and Global Health",
+      "reason": "Offers authentic diplomatic stance on global health governance, IHR amendments, and pandemic treaty negotiations."
+    },
+    {
+      "nodeId": "gs2.international-relations.international-institutions-and-agencies.international-court-of-justice-and-icc",
+      "sourceId": "ncert-12-polsci-contemporary-world",
+      "chapter": "Ch 6 · International Organisations",
+      "reason": "Covers foundational jurisdiction, global legal mandate, and institutional differences between ICJ and ICC."
+    },
+    {
+      "nodeId": "gs2.international-relations.international-institutions-and-agencies.nuclear-and-export-control-regimes",
+      "sourceId": "official-mea",
+      "chapter": "Disarmament and International Security Affairs",
+      "reason": "Provides official updates on India's membership across MTCR, WA, AG, and pending NSG admission."
+    }
+  ]
+}

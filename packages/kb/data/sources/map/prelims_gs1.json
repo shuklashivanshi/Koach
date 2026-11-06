@@ -1,0 +1,574 @@
+{
+  "map": [
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.stone-age-sites-tool-culture",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 5 · The Stone Age",
+      "reason": "Covers Palaeolithic, Mesolithic, and Neolithic site distributions and tool typologies tested in Prelims."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.chalcolithic-cultures-and-copper-hoards",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 6 · The Chalcolithic Cultures",
+      "reason": "Details non-Harappan copper-using farming communities, Copper Hoards, and Ochre Coloured Pottery accurately."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-geography-settlement-planning",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 1 · Bricks, Beads and Bones",
+      "reason": "Directly provides specific site layouts, citadel-lower town architecture, and archaeological findings."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-economy-craft-trade",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 1 · Bricks, Beads and Bones",
+      "reason": "Explains craft production, lapidary techniques, raw material sourcing, and Mesopotamian trade links."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-society-religion-decline",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 7 · Harappan Culture: Bronze Age Urbanization in the Indus Valley",
+      "reason": "Systematically details Harappan religious symbols, burial customs, script, and diverse decline hypotheses."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.early-vedic-polity-society",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 10 · The Age of the Rig Veda",
+      "reason": "Explains pastoral economy, kinship-based social hierarchy, and political assemblies like Sabha and Samiti."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.later-vedic-transformation",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 11 · The Later Vedic Phase: Transition to State and Social Formation",
+      "reason": "Chronicles Painted Grey Ware culture, emerging territorial states, sacrifices, and fourfold Varna crystallization."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.mahajanapadas-republics-monarchies",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 12 · State Formation and the Rise of Republics",
+      "reason": "Contrasts Ganasanghas with monarchies and analyzes geographic factors behind Magadhan imperial ascendancy."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.persian-macedonian-invasions",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 13 · Iranian and Macedonian Invasions",
+      "reason": "Covers Kharosthi script introduction, Indo-Iranian trade linkages, and geopolitical impact of Alexander's campaign."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.buddhism-doctrine-schisms",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 14 · Jainism and Buddhism",
+      "reason": "Covers early socio-economic context, core tenets, Buddhist councils, and sectarian schisms thoroughly."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.buddhist-literature-terms",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 4 · Thinkers, Beliefs and Buildings",
+      "reason": "Rich in technical terms, Pitaka canonical literature, and Buddhist terminology frequently asked."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.jainism-doctrine-literature",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 14 · Jainism and Buddhism",
+      "reason": "Details Jaina philosophy including Anekantavada, Syadvada, Tirthankaras, councils, and monastic codes."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.ajivikas-charvakas-other-sects",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 4 · Thinkers, Beliefs and Buildings",
+      "reason": "Explicitly discusses Makkhali Gosala, Ajita Kesakambalin, and diverse contemporary Sramana philosophies."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.mauryan-administration-arthashastra",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 16 · The Age of the Mauryas",
+      "reason": "Elaborates Kautilyan statecraft, central administrative departments, espionage networks, and municipal boards."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.ashokan-edicts-dhamma-foreign-relations",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 2 · Kings, Farmers and Towns",
+      "reason": "Highlights epigraphic decipherment, major rock edicts, Dhamma policy, and diplomatic contacts."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.mauryan-economy-land-revenue",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 16 · The Age of the Mauryas",
+      "reason": "Analyzes state control over economic activities, punch-marked currency, guilds, and agrarian taxation."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.shungas-kanvas-and-chedi-dynasty",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 18 · Central Asian Contacts and Their Results",
+      "reason": "Discusses Brahmanical revival under Shungas, Kanvas, and Kharavela's Hathigumpha inscription."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.indo-greeks-shakas-and-parthians",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 18 · Central Asian Contacts and Their Results",
+      "reason": "Outlines foreign dynastic incursions, coinage innovations, and cultural assimilation in northwestern India."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.kushana-empire-silk-route-trade",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 18 · Central Asian Contacts and Their Results",
+      "reason": "Explains Kanishka's reign, overland Silk Route transit, gold coin issue, and Gandhara connections."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.satavahana-polity-and-land-grants",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 19 · The Age of the Satavahanas",
+      "reason": "Details Deccan administration, matronymics, maritime trade, and earliest epigraphic tax-free land grants."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.gupta-political-expansion-administration",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 21 · Rise and Growth of the Gupta Empire",
+      "reason": "Covers provincial bureaucracy, administrative designations (Kumaramatya, Uparika), and Samudragupta's campaigns."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.gupta-agrarian-structure-feudal-elements",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 22 · Life in the Gupta Age",
+      "reason": "Highlights origin of Indian feudalism, Agrahara grants, Vishti (forced labour), and monetisation decline."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.vakatakas-and-huna-invasions",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 21 · Rise and Growth of the Gupta Empire",
+      "reason": "Explains Vakataka matrimonial alliances, Huna invasions under Skandagupta, and imperial Gupta decline."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.harshavardhana-and-tripartite-struggle-o",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 23 · Harsha and His Times",
+      "reason": "Examines Harsha's Kanauj assembly, Prayag Mahamokshaparishad, and Xuanzang's travel accounts."
+    },
+    {
+      "nodeId": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.sangam-age-polity-society",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 20 · The Dawn of History in the Deep South",
+      "reason": "Covers early Tamil polities, Sangam poetry, social stratification, and Indo-Roman port trade."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.early-medieval-india.tripartite-struggle-palas-pratiharas-ras",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 2 · Northern India: Age of the Three Empires (800–1000)",
+      "reason": "Systematically details the strategic rivalry over Kanauj among Palas, Pratiharas, and Rashtrakutas."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.early-medieval-india.rajput-clans-and-feudal-polity",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 4 · The Age of Conflict (Circa 1000–1200)",
+      "reason": "Discusses lineage-based clan politics, Rajput origins, and fragmented feudal kingdoms."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.early-medieval-india.imperial-cholas-administration-local-sel",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 3 · The Chola Empire (900–1200)",
+      "reason": "Clarifies Chola administrative tiers, Uttaramerur inscription details, and functions of Ur and Sabha."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.early-medieval-india.western-chalukyas-pallavas-hoysalas-kaka",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 3 · The Chola Empire (900–1200)",
+      "reason": "Covers peninsular dynastic rivalries, structural temple developments, and feudatory relationships."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.early-medieval-india.early-medieval-agrarian-trade-guilds",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 4 · The Age of Conflict (Circa 1000–1200)",
+      "reason": "Details South Indian merchant guilds like Manigramam and Ayyavole, maritime commerce, and land transfers."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.early-medieval-india.ghaznavid-and-ghurid-invasions",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 4 · The Age of Conflict (Circa 1000–1200)",
+      "reason": "Analyzes Ghaznavid incursions, Ghurid military strategy, and decisive Battles of Tarain."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.delhi-sultanate.mamluk-and-khalji-dynasties-expansion",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 6 · The Delhi Sultanate—II (Circa 1200–1400)",
+      "reason": "Chronicles Ilbari Sultanate consolidation, Balban's kingship theory, and Alauddin Khalji's territorial conquests."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.delhi-sultanate.khalji-market-regulations-and-agrarian-m",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 6 · The Delhi Sultanate—II (Circa 1200–1400)",
+      "reason": "Details price control mechanisms, Shahna-i-Mandi role, Barid intelligence, and direct revenue assessment."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.delhi-sultanate.tughlaq-dynasty-experiments",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 6 · The Delhi Sultanate—II (Circa 1200–1400)",
+      "reason": "Evaluates token currency, capital transfer, Diwan-i-Kohi creation, and Firoz Shah's canal works."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.delhi-sultanate.sayyids-lodis-and-timurs-invasion",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 6 · The Delhi Sultanate—II (Circa 1200–1400)",
+      "reason": "Covers Timur's sack of Delhi, decentralized Afghan kingship, and Lodi administrative shifts."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.delhi-sultanate.sultanate-administrative-departments-and",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 7 · Government, and Economic and Social Life under the Delhi Sultanate",
+      "reason": "Comprehensively details Diwan-i-Wizarat, Diwan-i-Arz, Diwan-i-Insha, and bureaucratic titles asked in Prelims."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.delhi-sultanate.iqta-system-and-agrarian-relations",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 7 · Government, and Economic and Social Life under the Delhi Sultanate",
+      "reason": "Explains evolution of Iqta grants, revenue terms (Kharaj, Fawazil), and rural intermediaries."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.vijayanagara-empire-polity-and-nayankara",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 7 · An Imperial Capital: Vijayanagara",
+      "reason": "Standard reference for Vijayanagara fortification, Krishnadevaraya's achievements, Nayankara system, and Ayagars."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.foreign-travellers-to-vijayanagara",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 7 · An Imperial Capital: Vijayanagara",
+      "reason": "Directly quotes primary observations of Conti, Abdur Razzaq, Paes, and Nuniz tested by UPSC."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.bahmani-kingdom-and-deccan-sultanates",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 9 · The Age of Vijayanagara and the Bahmanids, and the Coming of the Portuguese",
+      "reason": "Details Mahmud Gawan's administrative Tarafs and the fragmentation into five Deccan Sultanates."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.regional-kingdoms-gujarat-malwa-bengal-k",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 8 · The Age of Vijayanagara and the Bahmanids, and the Regional Kingdoms",
+      "reason": "Provides standard narrative on 15th-century regional sultanates and Zain-ul-Abidin's progressive policies."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.bhakti-movement-saints-and-philosophies",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 6 · Bhakti-Sufi Traditions",
+      "reason": "Primary NCERT source analyzing Bhakti poetry, social origins, and Alvar-Nayanar traditions for Prelims."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.sufi-silsilas-practices-and-centres",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 6 · Bhakti-Sufi Traditions",
+      "reason": "Covers Chishti khanqahs, major silsilas, ziyarat, and key Sufi terminology tested in Prelims."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.babur-humayun-and-sur-interregnum",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 9 · Struggle for Empire in North India (Mughals and Afghans)",
+      "reason": "Details Sher Shah Suri's administrative machinery, currency standardization, and land survey reforms."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.akbar-administration-mansabdari-system",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 12 · Akbar's Administration",
+      "reason": "Authoritative explanation of the mansabdari framework, zat and sawar ranks, and military checks."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.mughal-land-revenue-zabt-dahsala",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 8 · Peasants, Zamindars and the State",
+      "reason": "Directly explains Ain-i Akbari records, Dahsala system, land classifications, and agrarian revenue terms."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.mughal-religious-and-rajput-policies",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 13 · Integration of State: Religious and Social Ideas of Akbar",
+      "reason": "Traces Ibadat Khana debates, Sulh-i-Kul philosophy, abolition of Jizya, and Rajput alliances."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.jahangir-shah-jahan-and-aurangzeb-expans",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 15 · Climax and Crisis of the Mughal Empire",
+      "reason": "Systematically covers Deccan expansion, factional court politics, and the resulting jagirdari crisis."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.maratha-state-shivaji-ashtapradhan",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 14 · Rise of the Marathas",
+      "reason": "Explains Shivaji's administrative system, Ashtapradhan portfolios, chauth, and sardeshmukhi revenue collection."
+    },
+    {
+      "nodeId": "prelims_gs1.medieval-indian-history.mughal-empire-and-marathas.peshwa-confederacy-and-third-battle-of-p",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 3 · India on the Eve of British Conquest",
+      "reason": "Concise analysis of Peshwa dominance, Maratha confederacy structure, and the 1761 Panipat defeat."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 5 · The Fundamental Unit of Life",
+      "reason": "Foundational NCERT chapter covering cell theory, organelle functions, and prokaryote-eukaryote contrasts."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.cell-biology-and-genetics.biomolecules-enzymes-metabolism",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 6 · Life Processes",
+      "reason": "Explains biochemical roles of macronutrients, digestive enzymes, and metabolic catabolism clearly."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-division-mitosis-meiosis",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 5 · The Fundamental Unit of Life",
+      "reason": "Introduces basic mechanics, ploidy changes, and functional significance of mitosis and meiosis."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.cell-biology-and-genetics.mendelian-genetics-and-inheritance",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 9 · Heredity and Evolution",
+      "reason": "Clarifies Mendel's monohybrid and dihybrid crosses, inheritance laws, and human sex determination."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.cell-biology-and-genetics.dna-rna-protein-synthesis",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 8 · How do Organisms Reproduce?",
+      "reason": "Introduces DNA copying mechanisms, genetic continuity, and the biological role of nucleic acids."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.digestive-system-and-nutrition",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 6 · Life Processes",
+      "reason": "Core reference for human digestive anatomy, specific digestive enzymes, and nutrient absorption."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.vitamins-minerals-deficiencies",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 13 · Why Do We Fall Ill?",
+      "reason": "Contrasts nutritional deficiency disorders with infectious diseases for Prelims general science questions."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.circulatory-and-lymphatic-systems",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 6 · Life Processes",
+      "reason": "Diagrams heart chambers, double circulation, vascular functions, and lymphatic fluid circulation."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.respiratory-and-excretory-systems",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 6 · Life Processes",
+      "reason": "Explains alveolar gas diffusion mechanics, nephron filtration structure, and urine formation."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.nervous-and-endocrine-systems",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 7 · Control and Coordination",
+      "reason": "Covers reflex arcs, brain regions, peripheral nervous pathways, endocrine glands, and hormone targets."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.human-physiology-and-nutrition.reproductive-and-immune-systems",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 8 · How do Organisms Reproduce?",
+      "reason": "Covers human reproductive systems, fertilization basics, gamete production, and reproductive health."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.diseases-and-plant-biology.infectious-diseases-pathogens",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 13 · Why Do We Fall Ill?",
+      "reason": "High-yield classification of bacterial, viral, protozoan, and fungal diseases with transmission modes."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.diseases-and-plant-biology.vaccines-antibiotics-antivirals",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 13 · Why Do We Fall Ill?",
+      "reason": "Explains principles of immunization, immune memory, and biochemical limitations of antibiotic therapy."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.diseases-and-plant-biology.lifestyle-and-non-communicable-diseases",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 13 · Why Do We Fall Ill?",
+      "reason": "Defines acute versus chronic illnesses and non-infectious internal causes of human diseases."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.diseases-and-plant-biology.plant-anatomy-and-photosynthesis",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 6 · Tissues",
+      "reason": "Essential NCERT guide for complex plant tissues like xylem, phloem, and stomatal structures."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.diseases-and-plant-biology.plant-respiration-and-transpiration",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 6 · Life Processes",
+      "reason": "Explains stomatal transpiration pull, water translocation in xylem, and carbohydrate transport in phloem."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.diseases-and-plant-biology.plant-hormones-and-reproduction",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 7 · Control and Coordination",
+      "reason": "Key NCERT reference for plant growth promoters, inhibitors, and directional growth responses."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-biology.diseases-and-plant-biology.biological-classification-five-kingdoms",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 7 · Diversity in Living Organisms",
+      "reason": "Detailed survey of Whittaker's five-kingdom hierarchy, structural characteristics, and evolutionary divisions."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-physics.mechanics-motion-and-gravitation",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 9 · Force and Laws of Motion",
+      "reason": "Builds core conceptual clarity on Newton's laws, inertia, momentum, and frictional forces."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-physics.work-energy-power-and-simple-machines",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 11 · Work and Energy",
+      "reason": "Defines kinetic and potential energy, conservation of mechanical energy, and rates of work."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-physics.fluid-mechanics-surface-tension-viscosit",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 10 · Gravitation",
+      "reason": "Explains hydrostatic pressure, buoyant force, Archimedes' principle, and relative density applications."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-physics.thermodynamics-heat-transfer",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 1 · Matter in Our Surroundings",
+      "reason": "Clarifies temperature scales, evaporation cooling, latent heat of fusion, and state changes."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-physics.optics-reflection-refraction-dispersion",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 10 · Light – Reflection and Refraction",
+      "reason": "Covers mirror and lens formulas, refraction laws, magnification, and optical ray diagrams."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-physics.wave-motion-and-acoustics",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 12 · Sound",
+      "reason": "Covers longitudinal wave parameters, speed of sound, echo, reverberation, and ultrasound applications."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-physics.electromagnetism-current-electricity",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 12 · Electricity",
+      "reason": "Foundational chapter for Ohm's law, circuit combinations, electric power, and Joule heating."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-physics.electromagnetic-spectrum-radiation",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 11 · The Human Eye and the Colourful World",
+      "reason": "Explains refraction through prisms, atmospheric dispersion, Rayleigh scattering, and optical phenomena."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-chemistry.states-of-matter-and-atomic-structure",
+      "sourceId": "ncert-9-science",
+      "chapter": "Ch 4 · Structure of the Atom",
+      "reason": "Explains atomic models, electronic configurations, valency, isotopes, and isobars clearly."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-chemistry.chemical-bonding-and-periodic-table",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 5 · Periodic Classification of Elements",
+      "reason": "Details modern periodic law, valency, atomic size, and electronegativity trends across periods."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-chemistry.acids-bases-salts-and-ph",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 2 · Acids, Bases and Salts",
+      "reason": "Covers pH scale, common chemical indicators, neutralization, and everyday industrial and household salts."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-chemistry.metals-non-metals-and-alloys",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 3 · Metals and Non-metals",
+      "reason": "Crucial NCERT chapter for the metal reactivity series, basic metallurgy, corrosion, and alloys."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-chemistry.carbon-compounds-and-polymers",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 4 · Carbon and its Compounds",
+      "reason": "Provides foundational coverage of carbon allotropes, bonding, hydrocarbons, soaps, and synthetic detergents for Prelims."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-chemistry.environmental-chemistry-pollutants",
+      "sourceId": "env-reference",
+      "chapter": "Ch 5 · Environmental Pollution",
+      "reason": "Covers chemical mechanisms of acid rain, greenhouse gases, smog, and ozone depletion systematically."
+    },
+    {
+      "nodeId": "prelims_gs1.general-science-physics-chemistry.general-chemistry.nuclear-chemistry-and-radioactivity",
+      "sourceId": "ncert-10-science",
+      "chapter": "Ch 14 · Sources of Energy",
+      "reason": "Explains foundational concepts of nuclear fission, fusion, radioactivity, and energy release clearly."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.event-to-syllabus-mapping-method",
+      "sourceId": "official-pib",
+      "chapter": "Press Information Bureau Daily Releases",
+      "reason": "Primary authentic government portal to connect daily executive updates with core static syllabus."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+      "sourceId": "official-india-year-book",
+      "chapter": "Welfare Schemes and Programmes Chapters",
+      "reason": "Authoritative annual record detailing nodal ministries, objectives, target demographics, and scheme architectures."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.national-initiatives-and-statutory-commi",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Non-Constitutional Bodies / Statutory Bodies",
+      "reason": "Exhaustively maps statutory status, regulatory mandates, and institutional frameworks tested heavily in Prelims."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.reports-indices-and-rankings-methodology",
+      "sourceId": "official-economic-survey",
+      "chapter": "Global Economic Developments and Social Infrastructure",
+      "reason": "Benchmarking source providing India's official performance metrics, global rankings, and international publishing agencies."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.multilateral-groupings-and-summits",
+      "sourceId": "official-mea",
+      "chapter": "Bilateral/Multilateral Documents and Summit Briefs",
+      "reason": "Authoritative primary source for official membership lists, founding declarations, and multilateral summit outcomes."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.un-specialized-agencies-and-treaties",
+      "sourceId": "ncert-12-polsci-contemporary-world",
+      "chapter": "Ch 6 · International Organisations",
+      "reason": "Covers foundational mandates, structure, and evolution of UN organs and affiliated specialized agencies."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-disputes-and-geopolitical-",
+      "sourceId": "oxford-atlas",
+      "chapter": "World: Political, Strategic Chokepoints and Regional Maps",
+      "reason": "Indispensable map-based reference for locating strategic straits, waterways, and disputed international borders."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-trade-and-environmental-ac",
+      "sourceId": "env-reference",
+      "chapter": "International Conventions and Environmental Organizations",
+      "reason": "Comprehensive coverage of environmental protocols, climate treaties, export regimes, and financial action conventions."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.bilateral-military-exercises-and-defence",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 8 · Defence",
+      "reason": "Provides official factual documentation of indigenous defense platforms, missile systems, and joint exercises."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.space-missions-and-astronomical-discover",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Authentic record of ISRO missions, satellite launch vehicles, and major national planetary probes."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.species-protected-areas-and-geographic-t",
+      "sourceId": "env-reference",
+      "chapter": "Ch 15 · Biodiversity",
+      "reason": "Details IUCN red-list criteria, endemic threatened species, protected area networks, and wildlife laws."
+    },
+    {
+      "nodeId": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.awards-honours-and-significant-historica",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 30 · Diary of National Events and General Information",
+      "reason": "Official record of national awards, honours, centenary celebrations, and historic personalities commemorated."
+    }
+  ]
+}

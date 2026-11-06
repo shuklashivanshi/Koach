@@ -1,0 +1,484 @@
+{
+  "map": [
+    {
+      "nodeId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics",
+      "sourceId": "ethics-reference",
+      "chapter": "Ethics and Human Interface",
+      "reason": "Provides direct definitions and syllabus-aligned explanations of ethical determinants and essence for GS4."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.consequences-of-ethics",
+      "sourceId": "ethics-reference",
+      "chapter": "Ethics and Human Interface",
+      "reason": "Offers concise analysis of ethical consequences across individual, social, and institutional domains."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics",
+      "sourceId": "ethics-reference",
+      "chapter": "Ethics and Human Interface",
+      "reason": "Systematically breaks down meta, normative, descriptive, and applied ethics for administrative analysis."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-private-relationships",
+      "sourceId": "ethics-reference",
+      "chapter": "Ethics and Human Interface",
+      "reason": "Explains interpersonal moral dynamics, loyalties, and ethical obligations governing private life."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-public-relationships",
+      "sourceId": "ethics-reference",
+      "chapter": "Ethics and Human Interface",
+      "reason": "Covers public accountability, code of conduct, and professional responsibilities expected in civil service."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.morality-ethics-and-law",
+      "sourceId": "ethics-reference",
+      "chapter": "Ethics and Human Interface",
+      "reason": "Clearly contrasts morality, ethics, and legal frameworks, exploring real-world administrative conflicts."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values",
+      "sourceId": "ethics-reference",
+      "chapter": "Human Values",
+      "reason": "Defines core human values, value hierarchies, and their operationalization in governance."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.human-values-and-socialization.role-of-family-in-value-inculcation",
+      "sourceId": "ethics-reference",
+      "chapter": "Human Values",
+      "reason": "Details primary socialization and the ethical role of family in shaping personal character."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.human-values-and-socialization.role-of-society-and-peer-groups",
+      "sourceId": "ethics-reference",
+      "chapter": "Human Values",
+      "reason": "Analyzes secondary socialization, community pressure, and societal norms influencing ethical behaviour."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.human-values-and-socialization.role-of-educational-institutions",
+      "sourceId": "ethics-reference",
+      "chapter": "Human Values",
+      "reason": "Explores how curricula, pedagogy, and teacher role-modelling instil democratic and civic values."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.human-values-and-socialization.lessons-from-great-leaders-and-reformers",
+      "sourceId": "ethics-reference",
+      "chapter": "Human Values",
+      "reason": "Synthesizes life lessons, virtues, and reform movements directly applicable to GS4 questions."
+    },
+    {
+      "nodeId": "gs4.ethics-human-interface.human-values-and-socialization.lessons-from-great-administrators",
+      "sourceId": "ethics-reference",
+      "chapter": "Human Values",
+      "reason": "Presents case studies and administrative conduct lessons from distinguished public servants."
+    },
+    {
+      "nodeId": "gs4.attitude.structure-and-behavioural-aspects.content-and-structure-of-attitude",
+      "sourceId": "ethics-reference",
+      "chapter": "Attitude",
+      "reason": "Clearly outlines the cognitive, affective, and behavioural (CAB) components of attitude."
+    },
+    {
+      "nodeId": "gs4.attitude.structure-and-behavioural-aspects.functions-of-attitude",
+      "sourceId": "ethics-reference",
+      "chapter": "Attitude",
+      "reason": "Directly explains psychological functions of attitudes relevant to civil service personality analysis."
+    },
+    {
+      "nodeId": "gs4.attitude.structure-and-behavioural-aspects.attitude-thought-behaviour-relation",
+      "sourceId": "ethics-reference",
+      "chapter": "Attitude",
+      "reason": "Discusses cognitive dissonance and conditions governing whether attitudes predict outward behaviour."
+    },
+    {
+      "nodeId": "gs4.attitude.structure-and-behavioural-aspects.formation-and-change-of-attitude",
+      "sourceId": "ethics-reference",
+      "chapter": "Attitude",
+      "reason": "Elaborates conditioning, modelling, and cognitive mechanisms used to transform negative attitudes."
+    },
+    {
+      "nodeId": "gs4.attitude.moral-political-attitudes-and-persuasion.moral-attitudes",
+      "sourceId": "ethics-reference",
+      "chapter": "Attitude",
+      "reason": "Examines virtues, moral conviction, and psychological foundations of ethical decision-making."
+    },
+    {
+      "nodeId": "gs4.attitude.moral-political-attitudes-and-persuasion.political-attitudes",
+      "sourceId": "ethics-reference",
+      "chapter": "Attitude",
+      "reason": "Analyzes ideological stances, civic engagement, and political socialization in democratic policy contexts."
+    },
+    {
+      "nodeId": "gs4.attitude.moral-political-attitudes-and-persuasion.social-influence-mechanisms",
+      "sourceId": "ethics-reference",
+      "chapter": "Attitude",
+      "reason": "Explains psychological levers of conformity, compliance, and obedience in bureaucratic settings."
+    },
+    {
+      "nodeId": "gs4.attitude.moral-political-attitudes-and-persuasion.persuasion-and-public-campaigns",
+      "sourceId": "ethics-reference",
+      "chapter": "Attitude",
+      "reason": "Supplies practical persuasion techniques and behavioural nudges used in public development campaigns."
+    },
+    {
+      "nodeId": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.aptitude-vs-ability-and-interest",
+      "sourceId": "ethics-reference",
+      "chapter": "Aptitude and Foundational Values for Civil Service",
+      "reason": "Differentiates inherent aptitude, acquired skills, and personal interest within bureaucratic roles."
+    },
+    {
+      "nodeId": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Ch 2 · Ethical Framework for Good Governance",
+      "reason": "Provides official authoritative benchmarks on public integrity, rectitude, and combating corruption."
+    },
+    {
+      "nodeId": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.impartiality-and-non-partisanship",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Ch 2 · Ethical Framework for Good Governance",
+      "reason": "Authoritative institutional source defining civil service neutrality and non-partisanship principles."
+    },
+    {
+      "nodeId": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.objectivity-and-evidence-based-decisions",
+      "sourceId": "ethics-reference",
+      "chapter": "Aptitude and Foundational Values for Civil Service",
+      "reason": "Covers evidence-based reasoning, Nolan committee tenets, and eliminating administrative bias."
+    },
+    {
+      "nodeId": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.dedication-to-public-service",
+      "sourceId": "ethics-reference",
+      "chapter": "Aptitude and Foundational Values for Civil Service",
+      "reason": "Discusses public service commitment, resilience, and prioritizing common welfare above self-interest."
+    },
+    {
+      "nodeId": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.empathy-sympathy-and-compassion",
+      "sourceId": "ethics-reference",
+      "chapter": "Aptitude and Foundational Values for Civil Service",
+      "reason": "Clarifies nuanced conceptual differences between empathy, sympathy, and administrative compassion."
+    },
+    {
+      "nodeId": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+      "sourceId": "ethics-reference",
+      "chapter": "Aptitude and Foundational Values for Civil Service",
+      "reason": "Focuses on pro-poor administrative orientation, sensitivity, and welfare service delivery."
+    },
+    {
+      "nodeId": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.tolerance-and-acceptance",
+      "sourceId": "ethics-reference",
+      "chapter": "Aptitude and Foundational Values for Civil Service",
+      "reason": "Addresses administrative impartiality and secular accommodation in India's pluralistic society."
+    },
+    {
+      "nodeId": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.courage-of-conviction-and-fortitude",
+      "sourceId": "ethics-reference",
+      "chapter": "Aptitude and Foundational Values for Civil Service",
+      "reason": "Elucidates moral courage, professional backbone, and resistance to unlawful political interference."
+    },
+    {
+      "nodeId": "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei",
+      "sourceId": "ethics-reference",
+      "chapter": "Emotional Intelligence",
+      "reason": "Introduces basic theory, historical evolution, and key distinctions between EI and cognitive IQ."
+    },
+    {
+      "nodeId": "gs4.emotional-intelligence.ei-concepts-and-models.goleman-model-of-ei",
+      "sourceId": "ethics-reference",
+      "chapter": "Emotional Intelligence",
+      "reason": "Directly details Goleman's five core domains of emotional competence for public administration."
+    },
+    {
+      "nodeId": "gs4.emotional-intelligence.ei-concepts-and-models.mayer-salovey-ability-model",
+      "sourceId": "ethics-reference",
+      "chapter": "Emotional Intelligence",
+      "reason": "Explains the four-branch cognitive ability framework of emotional appraisal and regulation."
+    },
+    {
+      "nodeId": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-administrative-leadership",
+      "sourceId": "ethics-reference",
+      "chapter": "Emotional Intelligence",
+      "reason": "Applies EI competencies to leadership styles, stress management, and organizational motivation."
+    },
+    {
+      "nodeId": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-crisis-and-conflict-resolution",
+      "sourceId": "ethics-reference",
+      "chapter": "Emotional Intelligence",
+      "reason": "Examines practical application of EI in de-escalating communal conflicts and managing mob crises."
+    },
+    {
+      "nodeId": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-public-service-delivery",
+      "sourceId": "ethics-reference",
+      "chapter": "Emotional Intelligence",
+      "reason": "Connects emotional responsiveness to citizen-friendly grievance redressal and transparent delivery."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.classical-indian-ethical-traditions",
+      "sourceId": "ethics-reference",
+      "chapter": "Contributions of Moral Thinkers and Philosophers",
+      "reason": "Synthesizes Purusharthas, Rna, Dharma, and Vedic ethical concepts for Mains GS4."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.bhagavad-gita-and-nishkama-karma",
+      "sourceId": "ethics-reference",
+      "chapter": "Contributions of Moral Thinkers and Philosophers",
+      "reason": "Explains duty without attachment, Sthitaprajna state, and duty-centric public leadership."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.buddhist-and-jain-ethics",
+      "sourceId": "ncert-12-history",
+      "chapter": "Ch 4 · Thinkers, Beliefs and Buildings",
+      "reason": "Provides foundational textual understanding of Buddhist Eightfold Path and Jain Mahavratas."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.kautilyan-administrative-ethics",
+      "sourceId": "ethics-reference",
+      "chapter": "Contributions of Moral Thinkers and Philosophers",
+      "reason": "Focuses on statecraft ethics, anti-corruption mechanisms, and Yogakshema from Arthashastra."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.mahatma-gandhi-moral-philosophy",
+      "sourceId": "ethics-reference",
+      "chapter": "Contributions of Moral Thinkers and Philosophers",
+      "reason": "Examines Sarvodaya, Trusteeship, Seven Social Sins, and means-ends purity in Gandhian thought."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.br-ambedkar-social-morality",
+      "sourceId": "ethics-reference",
+      "chapter": "Contributions of Moral Thinkers and Philosophers",
+      "reason": "Provides structured coverage of Ambedkar's constitutional morality and social democracy for GS4 theory."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.modern-indian-reformers-tagore-vivekanan",
+      "sourceId": "ethics-reference",
+      "chapter": "Contributions of Moral Thinkers and Philosophers",
+      "reason": "Directly summarizes core philosophical and ethical teachings of modern Indian reformers for ethics questions."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.socratic-platonic-ethics",
+      "sourceId": "ethics-reference",
+      "chapter": "Contributions of Moral Thinkers and Philosophers",
+      "reason": "Covers Greek virtue traditions and cardinal virtues specifically applied to public administrative ethics."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.aristotle-virtue-ethics",
+      "sourceId": "ethics-reference",
+      "chapter": "Contributions of Moral Thinkers and Philosophers",
+      "reason": "Explains eudaimonia, practical wisdom, and the golden mean tailored for ethical dilemmas."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.deontological-ethics-kant",
+      "sourceId": "ethics-reference",
+      "chapter": "Contributions of Moral Thinkers and Philosophers",
+      "reason": "Clearly details Kant's Categorical Imperative and deontological duty for normative ethics questions."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.utilitarianism-bentham-mill",
+      "sourceId": "ethics-reference",
+      "chapter": "Contributions of Moral Thinkers and Philosophers",
+      "reason": "Contrasts quantitative versus qualitative utilitarianism with standard examples for civil services evaluation."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.social-contract-thinkers",
+      "sourceId": "ncert-11-polsci-theory",
+      "chapter": "Ch 2 · Freedom",
+      "reason": "Builds fundamental clarity on state authority, individual rights, and political obligation."
+    },
+    {
+      "nodeId": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.john-rawls-theory-of-justice",
+      "sourceId": "ncert-11-polsci-theory",
+      "chapter": "Ch 4 · Social Justice",
+      "reason": "Presents Rawls' veil of ignorance and justice principles with foundational conceptual clarity."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.status-and-problems-in-public-administra",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Ch 1 · Introduction",
+      "reason": "Official diagnosis of ethical standards, systemic deficits, and vulnerabilities in Indian administration."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.ethical-dilemmas-in-governance",
+      "sourceId": "ethics-reference",
+      "chapter": "Public/Civil Service Values and Ethics in Public Administration",
+      "reason": "Categorizes common public administration dilemmas and models systematic decision-making frameworks."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conflict-of-interest-management",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Ch 2 · Ethical Framework",
+      "reason": "Provides official definitions, types, and administrative mechanisms for managing conflict of interest."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.sources-of-guidance-law-rules-regulation",
+      "sourceId": "ethics-reference",
+      "chapter": "Public/Civil Service Values and Ethics in Public Administration",
+      "reason": "Examines laws, rules, and regulations as ethical guides alongside their bureaucratic limitations."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conscience-as-source-of-ethical-guidance",
+      "sourceId": "ethics-reference",
+      "chapter": "Public/Civil Service Values and Ethics in Public Administration",
+      "reason": "Explains moral agency, voice of conscience, and resolving conflicts with bureaucratic mandates."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.accountability-and-ethical-governance",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Accountability and Control",
+      "reason": "Comprehensive textbook coverage of institutional, administrative, and parliamentary mechanisms of accountability."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.nolan-committee-principles",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Ch 2 · Ethical Framework",
+      "reason": "Details the Seven Principles of Public Life and their adaptation into civil service values."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.second-arc-ethics-in-governance",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Summary of Recommendations",
+      "reason": "Authoritative primary report frequently cited and tested directly in GS4 questions."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.strengthening-ethical-values-in-governan",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Ch 2 · Ethical Framework",
+      "reason": "Provides concrete administrative reforms to institutionalize moral and ethical values in governance."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.ethical-issues-in-international-relation",
+      "sourceId": "ethics-reference",
+      "chapter": "Public/Civil Service Values and Ethics in Public Administration",
+      "reason": "Dedicated chapter covering ethical theories, humanitarian intervention, and global justice in diplomacy."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.ethical-dimensions-of-international-fund",
+      "sourceId": "ethics-reference",
+      "chapter": "Public/Civil Service Values and Ethics in Public Administration",
+      "reason": "Analyzes moral dilemmas, structural conditionalities, and equity issues in foreign development assistance."
+    },
+    {
+      "nodeId": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.corporate-governance-and-csr",
+      "sourceId": "ethics-reference",
+      "chapter": "Public/Civil Service Values and Ethics in Public Administration",
+      "reason": "Explains corporate stewardship, shareholder accountability, and ethical mandates of CSR."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.concept-and-philosophical-basis-of-probi",
+      "sourceId": "ethics-reference",
+      "chapter": "Probity in Governance",
+      "reason": "Provides the philosophical foundations and conceptual definitions of public probity required for GS4."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.information-sharing-and-rti",
+      "sourceId": "official-arc2-reports",
+      "chapter": "First Report: Right to Information - Master Key to Good Governance",
+      "reason": "The defining official policy document assessing the principles, challenges, and impact of RTI."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.codes-of-ethics-vs-codes-of-conduct",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Ch 2 · Ethical Framework",
+      "reason": "Examines structural differences between punitive conduct codes and aspirational value-based ethical codes."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.citizens-charters-and-quality-service",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Citizen's Charter",
+      "reason": "Standard coverage of citizen charter evolution, implementation deficiencies, and Sevottam quality service delivery."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.work-culture-in-public-administration",
+      "sourceId": "ethics-reference",
+      "chapter": "Probity in Governance",
+      "reason": "Analyzes determinants of administrative work culture and methods to cultivate a responsive bureaucracy."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.utilization-of-public-funds",
+      "sourceId": "ethics-reference",
+      "chapter": "Probity in Governance",
+      "reason": "Covers financial propriety, fund parking, and ethical accountability mechanisms in spending."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.corruption-causes-and-consequences",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Ch 1 · Introduction",
+      "reason": "Authoritative analysis of structural drivers, socio-economic costs, and institutional failures behind corruption."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.institutional-anti-corruption-frameworks",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 59 · Central Vigilance Commission",
+      "reason": "Comprehensive legal and operational overview of statutory anti-corruption bodies like CVC and Lokpal."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.legal-measures-prevention-of-corruption-",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Ch 3 · Legal Framework for Fighting Corruption",
+      "reason": "In-depth official appraisal of anti-corruption statutes and recommended legal tightening."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.whistleblower-protection-mechanisms",
+      "sourceId": "official-arc2-ethics",
+      "chapter": "Ch 4 · Protecting the Honest",
+      "reason": "Outlines whistleblowing ethics, procedural safeguards, and legislative protection for public whistleblowers."
+    },
+    {
+      "nodeId": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.social-audit-and-citizen-oversight",
+      "sourceId": "laxmikanth-governance",
+      "chapter": "Social Audit",
+      "reason": "Detailed examination of grassroots transparency, methodology, and institutionalized social audit mechanisms."
+    },
+    {
+      "nodeId": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.environmental-ethics-and-climate-justice",
+      "sourceId": "ethics-reference",
+      "chapter": "Applied Ethics",
+      "reason": "Covers anthropocentrism, biocentrism, intergenerational equity, and common but differentiated ethical responsibilities."
+    },
+    {
+      "nodeId": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.bioethics-and-medical-ethics",
+      "sourceId": "ethics-reference",
+      "chapter": "Applied Ethics",
+      "reason": "Explains core medical ethics principles applied to euthanasia, surrogacy, and genetic technology."
+    },
+    {
+      "nodeId": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.ethics-in-technology-and-ai",
+      "sourceId": "ethics-reference",
+      "chapter": "Applied Ethics",
+      "reason": "Directly tackles ethical dilemmas around algorithmic bias, data privacy, and autonomous machines."
+    },
+    {
+      "nodeId": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.gender-ethics-and-care-perspective",
+      "sourceId": "ncert-11-polsci-theory",
+      "chapter": "Ch 3 · Equality",
+      "reason": "Provides foundational concepts of structural gender disparity, justice, and ethics of equality."
+    },
+    {
+      "nodeId": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+      "sourceId": "ethics-reference",
+      "chapter": "Case Studies",
+      "reason": "Provides step-by-step methodologies for stakeholder identification, ethical dilemma mapping, and evaluating options."
+    },
+    {
+      "nodeId": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-administrative-discretion-r",
+      "sourceId": "ethics-reference",
+      "chapter": "Case Studies",
+      "reason": "Supplies solved administrative scenarios balancing compassionate discretion against statutory rule adherence."
+    },
+    {
+      "nodeId": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-political-pressure-integrit",
+      "sourceId": "ethics-reference",
+      "chapter": "Case Studies",
+      "reason": "Exemplifies practical approaches to handling arbitrary political directives while safeguarding professional integrity."
+    },
+    {
+      "nodeId": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-crisis-and-disaster-managem",
+      "sourceId": "ethics-reference",
+      "chapter": "Case Studies",
+      "reason": "Offers ethical case scenarios on triage, vulnerable group protection, and emergency resource allocation."
+    },
+    {
+      "nodeId": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-corruption-procurement-publ",
+      "sourceId": "ethics-reference",
+      "chapter": "Case Studies",
+      "reason": "Presents structured case models dealing with procurement collusions, whistleblowing, and institutional vigilance."
+    }
+  ]
+}

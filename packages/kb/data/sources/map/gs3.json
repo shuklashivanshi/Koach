@@ -1,0 +1,1234 @@
+{
+  "map": [
+    {
+      "nodeId": "gs3.indian-economy.national-income-growth.gdp-gnp-measurement",
+      "sourceId": "ncert-12-macroeconomics",
+      "chapter": "Ch 2 · National Income Accounting",
+      "reason": "Provides foundational macro concepts and calculation methods regularly tested in UPSC prelims and mains."
+    },
+    {
+      "nodeId": "gs3.indian-economy.national-income-growth.growth-vs-development",
+      "sourceId": "ncert-10-economics",
+      "chapter": "Ch 1 · Development",
+      "reason": "Clear conceptual foundation distinguishing economic growth from human development indicators like HDI."
+    },
+    {
+      "nodeId": "gs3.indian-economy.national-income-growth.structural-composition",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Growth, Development and Happiness",
+      "reason": "Analyzes sectoral GDP trends and India's premature deindustrialization debate with analytical depth."
+    },
+    {
+      "nodeId": "gs3.indian-economy.national-income-growth.potential-gdp",
+      "sourceId": "official-economic-survey",
+      "chapter": "State of the Economy",
+      "reason": "Official analysis provides authoritative figures on potential output, investment rate, and ICOR trends."
+    },
+    {
+      "nodeId": "gs3.indian-economy.national-income-growth.planning-history-niti",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Economic Planning",
+      "reason": "Traces transition from Planning Commission to NITI Aayog's strategy and federal cooperative mandate."
+    },
+    {
+      "nodeId": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Human Development in India",
+      "reason": "Synthesizes multidimensional inclusive growth elements, inequality indices, and Gini coefficient trends."
+    },
+    {
+      "nodeId": "gs3.indian-economy.inclusive-growth-employment.poverty-estimation",
+      "sourceId": "ncert-11-indian-economic-development",
+      "chapter": "Ch 4 · Poverty",
+      "reason": "Establishes institutional history of official poverty lines and evolution toward multidimensional poverty."
+    },
+    {
+      "nodeId": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+      "sourceId": "ncert-11-indian-economic-development",
+      "chapter": "Ch 7 · Employment: Growth, Informalisation and other Issues",
+      "reason": "Defines labor force metrics, informalization trends, and structural unemployment issues in India."
+    },
+    {
+      "nodeId": "gs3.indian-economy.inclusive-growth-employment.informal-economy-gig",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Supplies real-time policy data and challenges concerning gig workers and informal social security."
+    },
+    {
+      "nodeId": "gs3.indian-economy.inclusive-growth-employment.female-labor-force",
+      "sourceId": "official-economic-survey",
+      "chapter": "Social Infrastructure and Employment",
+      "reason": "Presents empirical survey data analyzing declining/rebounding FLFPR patterns and wage differentials."
+    },
+    {
+      "nodeId": "gs3.indian-economy.inclusive-growth-employment.financial-inclusion-initiatives",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Banking in India",
+      "reason": "Comprehensive coverage of PMJDY, differentiated banks, and digital infrastructure driving inclusion."
+    },
+    {
+      "nodeId": "gs3.indian-economy.government-budgeting-fiscal-policy.budget-documents-structure",
+      "sourceId": "ncert-12-macroeconomics",
+      "chapter": "Ch 5 · Government Budget and the Economy",
+      "reason": "Offers crisp conceptual definitions of capital versus revenue accounts for conceptual questions."
+    },
+    {
+      "nodeId": "gs3.indian-economy.government-budgeting-fiscal-policy.types-of-deficits",
+      "sourceId": "ncert-12-macroeconomics",
+      "chapter": "Ch 5 · Government Budget and the Economy",
+      "reason": "Teaches fundamental mathematical relationships between fiscal, revenue, effective revenue, and primary deficits."
+    },
+    {
+      "nodeId": "gs3.indian-economy.government-budgeting-fiscal-policy.frbm-act-debt",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Public Finance in India",
+      "reason": "Detailed critique of FRBM architecture, NK Singh review committee targets, and debt consolidation."
+    },
+    {
+      "nodeId": "gs3.indian-economy.government-budgeting-fiscal-policy.taxation-reforms-gst",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Tax Structure in India",
+      "reason": "Explains GST design, council dynamics, inverted duty structures, and compensation cess disputes."
+    },
+    {
+      "nodeId": "gs3.indian-economy.government-budgeting-fiscal-policy.direct-tax-reforms",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Tax Structure in India",
+      "reason": "Examines faceless assessments, taxpayer charter, Direct Tax Code debates, and international BEPS rules."
+    },
+    {
+      "nodeId": "gs3.indian-economy.government-budgeting-fiscal-policy.off-budget-borrowing",
+      "sourceId": "official-budget",
+      "chapter": "Budget at a Glance",
+      "reason": "Official budget disclosures provide direct transparency metrics on extra-budgetary resources and capital expenditure."
+    },
+    {
+      "nodeId": "gs3.indian-economy.government-budgeting-fiscal-policy.finance-commission",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 44 · Finance Commission",
+      "reason": "Authoritative constitutional baseline on devolution principles, vertical sharing, and center-state fiscal friction."
+    },
+    {
+      "nodeId": "gs3.indian-economy.government-budgeting-fiscal-policy.gender-and-green-budgeting",
+      "sourceId": "official-economic-survey",
+      "chapter": "Fiscal Developments: Revenue Consolidation",
+      "reason": "Captures progressive budgeting methodologies, statement breakdowns, and climate financing innovations."
+    },
+    {
+      "nodeId": "gs3.indian-economy.monetary-and-financial-system.monetary-policy-framework",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Monetary Policy",
+      "reason": "Covers statutory inflation targeting mandate, MPC framework, and liquidity transmission challenges."
+    },
+    {
+      "nodeId": "gs3.indian-economy.monetary-and-financial-system.rbi-tools-liquidity",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Monetary Policy",
+      "reason": "Explains quantitative tools including standing deposit facility, VRR, repo, and OMO mechanics."
+    },
+    {
+      "nodeId": "gs3.indian-economy.monetary-and-financial-system.banking-npa-twin-balance",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Banking in India",
+      "reason": "Provides structural analysis of twin balance sheet distress and legal insolvency IBC pathways."
+    },
+    {
+      "nodeId": "gs3.indian-economy.monetary-and-financial-system.narc-bad-bank",
+      "sourceId": "official-economic-survey",
+      "chapter": "Monetary Management and Financial Intermediation",
+      "reason": "Official evaluation of NARCL operationalization, bad bank architecture, and PCA framework exits."
+    },
+    {
+      "nodeId": "gs3.indian-economy.monetary-and-financial-system.financial-markets-capital",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Financial Market",
+      "reason": "Systematic breakdown of money versus capital markets, G-Secs yield curve, and SEBI regulations."
+    },
+    {
+      "nodeId": "gs3.indian-economy.monetary-and-financial-system.nbfcs-and-shadow-banking",
+      "sourceId": "official-economic-survey",
+      "chapter": "Monetary Management and Financial Intermediation",
+      "reason": "Up-to-date policy review on RBI's scale-based NBFC regulations and shadow banking systemic risks."
+    },
+    {
+      "nodeId": "gs3.indian-economy.monetary-and-financial-system.digital-public-infrastructure-fintech",
+      "sourceId": "official-economic-survey",
+      "chapter": "Services: Steady and Sustainable",
+      "reason": "Highlights India's DPI ecosystem, UPI expansion, Central Bank Digital Currency, and fintech governance."
+    },
+    {
+      "nodeId": "gs3.indian-economy.external-sector.bop-cad-forex",
+      "sourceId": "ncert-12-macroeconomics",
+      "chapter": "Ch 6 · Open Economy Macroeconomics",
+      "reason": "Essential conceptual grounding on current versus capital accounts and overall balance of payments."
+    },
+    {
+      "nodeId": "gs3.indian-economy.external-sector.exchange-rate-management",
+      "sourceId": "ncert-12-macroeconomics",
+      "chapter": "Ch 6 · Open Economy Macroeconomics",
+      "reason": "Explains exchange rate regimes, NEER and REER determinants, and currency valuation dynamics."
+    },
+    {
+      "nodeId": "gs3.indian-economy.external-sector.foreign-trade-policy",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "External Sector",
+      "reason": "Analyzes India's foreign trade policy priorities, export competitiveness, and trade basket diversification."
+    },
+    {
+      "nodeId": "gs3.indian-economy.external-sector.wto-india-agreements",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "International Economic Organisations",
+      "reason": "Structured breakdown of WTO agricultural boxes, peace clause, TRIPS flexibilities, and dispute gridlocks."
+    },
+    {
+      "nodeId": "gs3.indian-economy.external-sector.ftas-and-deglobalization",
+      "sourceId": "official-economic-survey",
+      "chapter": "External Sector: Watching the Current Account",
+      "reason": "Authoritative strategic explanation of new-generation FTAs, supply chain reshoring, and RCEP considerations."
+    },
+    {
+      "nodeId": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 5 · Land Resources and Agriculture",
+      "reason": "Maps India's agro-climatic zones, major cropping belts, and physical-institutional determinants of crop choice."
+    },
+    {
+      "nodeId": "gs3.agriculture.cropping-patterns-irrigation.crop-diversification-millets",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Provides policy rationale and schemes supporting Shree Anna promotion and climate-resilient crop shifts."
+    },
+    {
+      "nodeId": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 6 · Water Resources",
+      "reason": "Documents geographical distribution of canals, wells, and tanks along with critical water-use efficiency."
+    },
+    {
+      "nodeId": "gs3.agriculture.cropping-patterns-irrigation.micro-irrigation-pksy",
+      "sourceId": "husain-geography-india",
+      "chapter": "Water Resources and Irrigation",
+      "reason": "Deep spatial and institutional appraisal of micro-irrigation schemes and watershed management programs."
+    },
+    {
+      "nodeId": "gs3.agriculture.cropping-patterns-irrigation.seed-technology-gm-crops",
+      "sourceId": "official-pib",
+      "chapter": "Ministry of Agriculture and Farmers Welfare Releases",
+      "reason": "Delivers latest official regulatory standing on GEAC approvals, transgenic crops, and seed trials."
+    },
+    {
+      "nodeId": "gs3.agriculture.cropping-patterns-irrigation.soil-health-fertilizers",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Presents subsidy economics, nutrient-based pricing distortions, and soil health management interventions."
+    },
+    {
+      "nodeId": "gs3.agriculture.cropping-patterns-irrigation.nano-fertilizers-organic",
+      "sourceId": "official-pib",
+      "chapter": "Ministry of Chemicals and Fertilizers Releases",
+      "reason": "Direct official source for nano-urea rollout, PKVY guidelines, and natural farming adoption data."
+    },
+    {
+      "nodeId": "gs3.agriculture.cropping-patterns-irrigation.farm-mechanization",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Contains official statistics on farm power availability, custom hiring centers, and mechanization schemes."
+    },
+    {
+      "nodeId": "gs3.agriculture.farm-subsidies-and-pricing.direct-vs-indirect-subsidies",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Contrasts input subsidy distortions with direct income support programs like PM-KISAN effectively."
+    },
+    {
+      "nodeId": "gs3.agriculture.farm-subsidies-and-pricing.msp-determination-cacp",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 8 · Agriculture and Food Management",
+      "reason": "Provides structured coverage of CACP pricing formulas, MSP mechanics, and price deficiency schemes."
+    },
+    {
+      "nodeId": "gs3.agriculture.farm-subsidies-and-pricing.legal-guarantee-for-msp",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Analyses fiscal impact, macroeconomic consequences, and market distortions of price support guarantees."
+    },
+    {
+      "nodeId": "gs3.agriculture.farm-subsidies-and-pricing.agricultural-credit-flow",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 8 · Agriculture and Food Management",
+      "reason": "Covers institutional credit architecture, PSL norms, Kisan Credit Card, and interest subvention."
+    },
+    {
+      "nodeId": "gs3.agriculture.farm-subsidies-and-pricing.pm-fby-crop-insurance",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Official appraisal of PMFBY implementation, structural bottlenecks, claim ratios, and revamp guidelines."
+    },
+    {
+      "nodeId": "gs3.agriculture.marketing-supply-chain-tech.apmc-reforms-enam",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 8 · Agriculture and Food Management",
+      "reason": "Explains APMC shortcomings, model marketing acts, and national e-market integration challenges."
+    },
+    {
+      "nodeId": "gs3.agriculture.marketing-supply-chain-tech.fpo-contract-farming",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 8 · Agriculture and Food Management",
+      "reason": "Covers institutional aggregation models, FPOs, and regulatory frameworks for contract farming."
+    },
+    {
+      "nodeId": "gs3.agriculture.marketing-supply-chain-tech.warehousing-cold-storage",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Provides official status and logistics data on e-NWRs, WDRA regulations, and storage infrastructure."
+    },
+    {
+      "nodeId": "gs3.agriculture.marketing-supply-chain-tech.essential-commodities-act",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Classic Economic Survey analysis demonstrates how ECA stock limits distort agricultural markets."
+    },
+    {
+      "nodeId": "gs3.agriculture.marketing-supply-chain-tech.e-technology-farmers",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Details official digital public infrastructure initiatives like Agristack and Kisan Drones deployment."
+    },
+    {
+      "nodeId": "gs3.agriculture.pds-food-security.pds-functioning-reforms",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 8 · Agriculture and Food Management",
+      "reason": "Comprehensive overview of foodgrain procurement, fair price shops, leakages, and ONORC portability."
+    },
+    {
+      "nodeId": "gs3.agriculture.pds-food-security.nfsa-provisions-critique",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 8 · Agriculture and Food Management",
+      "reason": "Outlines NFSA entitlements, legal coverage, operational issues, and nutritional security gaps."
+    },
+    {
+      "nodeId": "gs3.agriculture.pds-food-security.buffer-stock-norms-fci",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 8 · Agriculture and Food Management",
+      "reason": "Explains economic cost of foodgrains, carrying costs, and Shanta Kumar Committee restructuring proposals."
+    },
+    {
+      "nodeId": "gs3.agriculture.pds-food-security.dbt-in-food-rationing",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Provides empirical evidence comparing cash transfers with physical public distribution of foodgrains."
+    },
+    {
+      "nodeId": "gs3.agriculture.allied-sectors-food-processing.animal-husbandry-dairy",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Official evaluation of livestock trends, dairy cooperatives, and Rashtriya Gokul Mission performance."
+    },
+    {
+      "nodeId": "gs3.agriculture.allied-sectors-food-processing.fisheries-blue-economy",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Captures fisheries growth trends, PM Matsya Sampada Yojana targets, and Blue Economy priorities."
+    },
+    {
+      "nodeId": "gs3.agriculture.allied-sectors-food-processing.national-technology-missions",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Surveys technology missions across oilseeds, oil palm (NMEO-OP), and horticulture with latest metrics."
+    },
+    {
+      "nodeId": "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 8 · Agriculture and Food Management",
+      "reason": "Analyses supply chain bottlenecks, post-harvest losses, and upstream-downstream integration in food processing."
+    },
+    {
+      "nodeId": "gs3.agriculture.allied-sectors-food-processing.mega-food-parks-pmksy",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Details progress, infrastructure setup, and operational evaluation of PMKSY and food parks."
+    },
+    {
+      "nodeId": "gs3.agriculture.allied-sectors-food-processing.fssai-standards-exports",
+      "sourceId": "official-economic-survey",
+      "chapter": "External Sector",
+      "reason": "Covers agri-export competitiveness, CODEX compliance, and non-tariff SPS/TBT hurdles faced abroad."
+    },
+    {
+      "nodeId": "gs3.agriculture.land-reforms.land-tenure-zamindari-abolition",
+      "sourceId": "bipan-since-independence",
+      "chapter": "Ch 28 · Land Reforms: Zamindari Abolition and Tenancy Reforms",
+      "reason": "Classic historical narrative on intermediary abolition, tenancy legislation, and legislative loopholes."
+    },
+    {
+      "nodeId": "gs3.agriculture.land-reforms.land-ceiling-consolidation",
+      "sourceId": "bipan-since-independence",
+      "chapter": "Ch 29 · Land Reforms: Ceiling and Bhoodan",
+      "reason": "Details ceiling acts, benami evasions, land fragmentation, and consolidation challenges post-independence."
+    },
+    {
+      "nodeId": "gs3.agriculture.land-reforms.digital-land-records-svamitva",
+      "sourceId": "official-economic-survey",
+      "chapter": "Agriculture and Food Management",
+      "reason": "Presents up-to-date implementation data on drone mapping, SVAMITVA, and DILRMP land digitization."
+    },
+    {
+      "nodeId": "gs3.agriculture.land-reforms.model-land-leasing-act",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 8 · Agriculture and Food Management",
+      "reason": "Covers NITI Aayog's model leasing law, tenancy formalization, and land pooling mechanisms."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-policy-evolution",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 9 · Industry and Infrastructure",
+      "reason": "Traces post-independence industrial policies and the 1991 deregulation and delicensing shift."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.industrial-policy-liberalization.manufacturing-share-make-in-india",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 9 · Industry and Infrastructure",
+      "reason": "Examines manufacturing GDP stagnation, NMP targets, and Make in India policy initiatives."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.industrial-policy-liberalization.production-linked-incentive",
+      "sourceId": "official-economic-survey",
+      "chapter": "Industry and Infrastructure",
+      "reason": "Delivers primary sector-wise performance data, capex commitments, and policy rationale for PLI."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.industrial-policy-liberalization.msme-redefinition-challenges",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 9 · Industry and Infrastructure",
+      "reason": "Explains composite MSME criteria, credit bottlenecks, delayed payment mechanisms, and relief schemes."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.industrial-policy-liberalization.disinvestment-privatization-policy",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 9 · Industry and Infrastructure",
+      "reason": "Clarifies disinvestment taxonomy, DIPAM framework, strategic sales policy, and asset monetisation."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-corridors-seze",
+      "sourceId": "official-economic-survey",
+      "chapter": "Industry and Infrastructure",
+      "reason": "Tracks industrial corridor execution, cluster manufacturing, and SEZ regulatory reforms."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.infrastructure-sectors.energy-power-reforms",
+      "sourceId": "official-economic-survey",
+      "chapter": "Industry and Infrastructure",
+      "reason": "Provides official balance-sheet data on DISCOM losses, RDSS implementation, and generation capacity."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+      "sourceId": "official-economic-survey",
+      "chapter": "Industry and Infrastructure",
+      "reason": "Evaluates national renewable capacity additions, tariff trends, battery storage, and grid stability."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.infrastructure-sectors.green-hydrogen-mission",
+      "sourceId": "official-pib",
+      "chapter": "National Green Hydrogen Mission",
+      "reason": "Primary source for electrolyser manufacturing targets, SIGHT guidelines, and sector decarbonization rules."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.infrastructure-sectors.transport-roads-bharatmala",
+      "sourceId": "official-economic-survey",
+      "chapter": "Industry and Infrastructure",
+      "reason": "Tracks highway construction speed, Bharatmala phases, and asset monetization via FASTag and InvITs."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.infrastructure-sectors.railways-modernization-dfc",
+      "sourceId": "official-economic-survey",
+      "chapter": "Industry and Infrastructure",
+      "reason": "Assesses capex spending, Dedicated Freight Corridors operationalization, Vande Bharat, and safety."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.infrastructure-sectors.ports-sagarmala-inland-waterways",
+      "sourceId": "official-economic-survey",
+      "chapter": "Industry and Infrastructure",
+      "reason": "Details port turnaround times, Sagarmala port-led development, and National Waterways viability."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.infrastructure-sectors.civil-aviation-udan",
+      "sourceId": "official-economic-survey",
+      "chapter": "Industry and Infrastructure",
+      "reason": "Reports regional connectivity metrics, airport asset monetization, and aviation cargo expansion."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.infrastructure-sectors.logistics-pm-gati-shakti",
+      "sourceId": "official-economic-survey",
+      "chapter": "Industry and Infrastructure",
+      "reason": "Analyzes PM Gati Shakti institutional framework, National Logistics Policy, and logistic cost reduction."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 9 · Industry and Infrastructure",
+      "reason": "Defines PPP structures including BOT variants, EPC, Hybrid Annuity Model, and Swiss Challenge."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.investment-models.kelkar-committee-ppp-reforms",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 9 · Industry and Infrastructure",
+      "reason": "Summarises Vijay Kelkar Committee recommendations on risk reallocation and revitalising stalled PPPs."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.investment-models.national-monetisation-pipeline",
+      "sourceId": "official-economic-survey",
+      "chapter": "Industry and Infrastructure",
+      "reason": "Presents asset-recycling targets, Core Infrastructure assets monetisation, and NIP financing architecture."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.investment-models.alternative-financing-invit-reit",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 13 · Investment Models",
+      "reason": "Covers alternative infrastructure financing instruments, structures, and investment models directly tested in Mains."
+    },
+    {
+      "nodeId": "gs3.industry-infrastructure.investment-models.dfis-nabfid-model",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 12 · Banking in India",
+      "reason": "Explains institutional evolution of DFIs, long-term project financing, and NaBFID's structural mandate."
+    },
+    {
+      "nodeId": "gs3.science-technology.indigenous-and-institutional-st.st-policy-frameworks",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Authoritative official record detailing India's national S&T policy architecture and institutional bodies."
+    },
+    {
+      "nodeId": "gs3.science-technology.indigenous-and-institutional-st.historical-indian-scientists",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Outlines historical contributions and institutional foundations laid by India's eminent pioneering scientists."
+    },
+    {
+      "nodeId": "gs3.science-technology.indigenous-and-institutional-st.defence-indigenization-drdo",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 8 · Defence",
+      "reason": "Official documentation of indigenous military hardware platforms, DRDO programmes, and procurement policies."
+    },
+    {
+      "nodeId": "gs3.science-technology.indigenous-and-institutional-st.civil-nuclear-energy",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Details Bhabha's three-stage nuclear programme, fast breeder reactors, and atomic energy institutions."
+    },
+    {
+      "nodeId": "gs3.science-technology.indigenous-and-institutional-st.rare-earths-critical-minerals",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 21 · Mines and Minerals",
+      "reason": "Official source for strategic mineral exploration, rare earth reserves, and overseas joint-venture policies."
+    },
+    {
+      "nodeId": "gs3.science-technology.space-technology.launch-vehicles-evolution",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Authentically tracks ISRO launch vehicle configurations from SLV to LVM3 and SSLV."
+    },
+    {
+      "nodeId": "gs3.science-technology.space-technology.satellite-orbits-bands",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Comprehensive official explanation of India's satellite orbits, frequency allocations, and communication capabilities."
+    },
+    {
+      "nodeId": "gs3.science-technology.space-technology.deep-space-missions",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Official technical summaries of Chandrayaan, Mangalyaan, and Aditya-L1 scientific payloads and mission milestones."
+    },
+    {
+      "nodeId": "gs3.science-technology.space-technology.human-spaceflight-gaganyaan",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Authoritative coverage of Gaganyaan architecture, crew module developments, and indigenous cryogenic engines."
+    },
+    {
+      "nodeId": "gs3.science-technology.space-technology.navic-and-bhuvan",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Official documentation of indigenous regional navigation satellite architecture, GAGAN, and geospatial portals."
+    },
+    {
+      "nodeId": "gs3.science-technology.space-technology.private-space-reforms",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Outlines the Indian Space Policy, institutional mandates of IN-SPACe, and private sector integration."
+    },
+    {
+      "nodeId": "gs3.science-technology.space-technology.space-debris-weaponization",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Details Project NETRA, space situational awareness initiatives, and compliance with international space treaties."
+    },
+    {
+      "nodeId": "gs3.science-technology.it-telecom-computing.telecom-5g-to-6g",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 7 · Communications and Information Technology",
+      "reason": "Authoritative official narrative on cellular generations, telecom architecture, spectrum, and national roadmaps."
+    },
+    {
+      "nodeId": "gs3.science-technology.it-telecom-computing.optical-fibre-bharatnet",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 7 · Communications and Information Technology",
+      "reason": "Details rural broadband implementation under BharatNet, optical network infrastructure, and digital connectivity targets."
+    },
+    {
+      "nodeId": "gs3.science-technology.it-telecom-computing.artificial-intelligence-llms",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 7 · Communications and Information Technology",
+      "reason": "Covers the national strategy for artificial intelligence, IndiaAI mission, and emerging computing frameworks."
+    },
+    {
+      "nodeId": "gs3.science-technology.it-telecom-computing.quantum-computing-mission",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Details the National Quantum Mission's targets, underlying quantum principles, and institutional research verticals."
+    },
+    {
+      "nodeId": "gs3.science-technology.it-telecom-computing.semiconductor-mission",
+      "sourceId": "official-economic-survey",
+      "chapter": "Ch 8 · Industry: Small Steps, Stately Strides",
+      "reason": "Analyzes semiconductor ecosystem incentives, wafer fabrication projects, and India Semiconductor Mission achievements."
+    },
+    {
+      "nodeId": "gs3.science-technology.it-telecom-computing.supercomputing-mission",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Documents National Supercomputing Mission deployment, PARAM system architecture, and high-performance computational facilities."
+    },
+    {
+      "nodeId": "gs3.science-technology.it-telecom-computing.blockchain-web3-defi",
+      "sourceId": "official-economic-survey",
+      "chapter": "Ch 4 · Monetary Management and Financial Intermediation",
+      "reason": "Evaluates regulatory concerns, financial stability risks, and technological applications of distributed ledger technologies."
+    },
+    {
+      "nodeId": "gs3.science-technology.it-telecom-computing.iot-and-edge-computing",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 7 · Communications and Information Technology",
+      "reason": "Covers national digital communications policy targets, IoT standards, and cloud-edge infrastructure rollouts."
+    },
+    {
+      "nodeId": "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology",
+      "sourceId": "ncert-12-biology",
+      "chapter": "Ch 11 · Biotechnology: Principles and Processes",
+      "reason": "Fundamental textbook explaining restriction enzymes, cloning vectors, PCR, and recombinant DNA mechanisms accurately."
+    },
+    {
+      "nodeId": "gs3.science-technology.biotechnology-and-health.crispr-gene-editing",
+      "sourceId": "official-pib",
+      "chapter": "Ministry of Science and Technology Releases",
+      "reason": "Delivers timely official updates on gene-editing guidelines, CRISPR advancements, and regulatory bioethics frameworks."
+    },
+    {
+      "nodeId": "gs3.science-technology.biotechnology-and-health.genome-sequencing-projects",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Details Department of Biotechnology initiatives, including the Genome India Project and indigenous mapping."
+    },
+    {
+      "nodeId": "gs3.science-technology.biotechnology-and-health.stem-cells-cloning",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Details national guidelines for stem cell research, regenerative therapies, and associated biological regulation."
+    },
+    {
+      "nodeId": "gs3.science-technology.biotechnology-and-health.vaccine-technologies",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 16 · Health and Family Welfare",
+      "reason": "Details national immunization platforms, indigenous vaccine manufacturing pipelines, and biomedical delivery mechanisms."
+    },
+    {
+      "nodeId": "gs3.science-technology.biotechnology-and-health.antimicrobial-resistance-amr",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 16 · Health and Family Welfare",
+      "reason": "Documents the National Action Plan on AMR, surveillance networks, and One Health interventions."
+    },
+    {
+      "nodeId": "gs3.science-technology.biotechnology-and-health.car-t-and-targeted-therapies",
+      "sourceId": "official-pib",
+      "chapter": "Ministry of Science and Technology Releases",
+      "reason": "Authoritative updates on indigenous CAR-T cell therapy approvals, cancer immunotherapy, and clinical trials."
+    },
+    {
+      "nodeId": "gs3.science-technology.nanotechnology-and-ipr.nanotechnology-concepts-materials",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Outlines national Nano Mission outcomes, advanced carbon nanomaterials research, and commercial industrial applications."
+    },
+    {
+      "nodeId": "gs3.science-technology.nanotechnology-and-ipr.nanotech-environment-health",
+      "sourceId": "official-india-year-book",
+      "chapter": "Ch 25 · Scientific and Technological Developments",
+      "reason": "Reviews nanotechnology applications in agriculture and water treatment alongside risk assessment and regulation."
+    },
+    {
+      "nodeId": "gs3.science-technology.nanotechnology-and-ipr.robotics-and-drones",
+      "sourceId": "official-pib",
+      "chapter": "Ministry of Civil Aviation Releases",
+      "reason": "Provides primary source text and notifications for Drone Rules and unmanned aircraft regulations."
+    },
+    {
+      "nodeId": "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 19 · International Economic Organizations",
+      "reason": "Explains WIPO conventions, TRIPS provisions, patent regimes, and India's national IPR framework thoroughly."
+    },
+    {
+      "nodeId": "gs3.science-technology.nanotechnology-and-ipr.patents-act-section-3d",
+      "sourceId": "ramesh-singh-economy",
+      "chapter": "Ch 19 · International Economic Organizations",
+      "reason": "Lucidly analyzes Section 3(d), evergreening controversies, compulsory licensing, and landmark pharma litigation cases."
+    },
+    {
+      "nodeId": "gs3.science-technology.nanotechnology-and-ipr.traditional-knowledge-tkdl",
+      "sourceId": "env-reference",
+      "chapter": "Ch 18 · Acts and Policies",
+      "reason": "Explains biopiracy prevention, Nagoya Protocol access-and-benefit sharing, and TKDL defensive patent documentation."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.ecology-and-ecosystems.ecosystem-structure-functions",
+      "sourceId": "ncert-12-biology",
+      "chapter": "Ch 14 · Ecosystem",
+      "reason": "Foundational NCERT chapter covering trophic dynamics, ecological pyramids, energy transfer, and ecological succession."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.ecology-and-ecosystems.biogeochemical-cycles",
+      "sourceId": "ncert-12-biology",
+      "chapter": "Ch 14 · Ecosystem",
+      "reason": "Core conceptual source for nutrient cycling, carbon budgeting, and phosphorus sedimentary reservoirs."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.ecology-and-ecosystems.wetlands-ramsar-conservation",
+      "sourceId": "env-reference",
+      "chapter": "Ch 3 · Aquatic Ecosystem",
+      "reason": "Standard reference for Ramsar wetland criteria, Montreux Record mechanisms, and aquatic ecological conservation."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.ecology-and-ecosystems.mangroves-and-coral-reefs",
+      "sourceId": "env-reference",
+      "chapter": "Ch 3 · Aquatic Ecosystem",
+      "reason": "Comprehensive treatment of mangrove physiological adaptations, coral reef zonation, and thermal bleaching dynamics."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.ecology-and-ecosystems.forest-types-isfr-report",
+      "sourceId": "official-isfr",
+      "chapter": "Ch 2 · Forest Cover",
+      "reason": "Official primary statistical and spatial assessment of India's forest cover, canopy density, and trends."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.biodiversity-and-conservation.levels-measurement-hotspots",
+      "sourceId": "ncert-12-biology",
+      "chapter": "Ch 15 · Biodiversity and Conservation",
+      "reason": "Explains foundational concepts of diversity levels and global biodiversity hotspots with clarity."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.biodiversity-and-conservation.in-situ-conservation-network",
+      "sourceId": "env-reference",
+      "chapter": "Protected Area Network",
+      "reason": "Clear legal distinctions among protected areas under the Wildlife Protection Act for prelims."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.biodiversity-and-conservation.biosphere-reserves-mab",
+      "sourceId": "env-reference",
+      "chapter": "Protected Area Network",
+      "reason": "Details structural zonation requirements and the complete list of UNESCO MAB sites."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.biodiversity-and-conservation.flagship-conservation-projects",
+      "sourceId": "env-reference",
+      "chapter": "Conservation Efforts",
+      "reason": "Consolidates institutional frameworks, technological monitoring tools, and species recovery programs tested in UPSC."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.biodiversity-and-conservation.iucn-red-list-categories",
+      "sourceId": "env-reference",
+      "chapter": "Animal Diversity of India",
+      "reason": "Comprehensive mapping of IUCN criteria and critically endangered Indian wildlife for prelims."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.biodiversity-and-conservation.invasive-alien-species",
+      "sourceId": "env-reference",
+      "chapter": "Biodiversity",
+      "reason": "Covers ecological threats, prominent invasive flora and fauna, and their economic repercussions."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.biodiversity-and-conservation.human-wildlife-conflict",
+      "sourceId": "official-moefcc",
+      "chapter": "Wildlife Conservation and Human-Wildlife Conflict Guidelines",
+      "reason": "Provides official government mitigation frameworks, wildlife corridor policies, and compensation guidelines."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.biodiversity-and-conservation.ex-situ-conservation",
+      "sourceId": "ncert-12-biology",
+      "chapter": "Ch 15 · Biodiversity and Conservation",
+      "reason": "Builds clear conceptual understanding of off-site conservation, seed banks, and cryopreservation."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.environmental-pollution-degradation.air-pollution-ncap-caqm",
+      "sourceId": "env-reference",
+      "chapter": "Environmental Pollution",
+      "reason": "Details air pollutant parameters, index thresholds, and institutional clean-air frameworks systematically."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.environmental-pollution-degradation.water-pollution-river-rejuvenation",
+      "sourceId": "ncert-12-biology",
+      "chapter": "Ch 16 · Environmental Issues",
+      "reason": "Provides scientific foundations of biological oxygen demand, biomagnification, and freshwater contamination."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.environmental-pollution-degradation.solid-waste-management-rules",
+      "sourceId": "env-reference",
+      "chapter": "Solid Waste Management",
+      "reason": "Explains statutory waste processing rules, treatment technologies, and civic segregation requirements."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.environmental-pollution-degradation.plastic-waste-and-e-waste",
+      "sourceId": "env-reference",
+      "chapter": "Solid Waste Management",
+      "reason": "Details extended producer responsibility frameworks and statutory plastic and electronic waste regulations."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.environmental-pollution-degradation.hazardous-and-biomedical-waste",
+      "sourceId": "env-reference",
+      "chapter": "Environmental Issues and Waste Management",
+      "reason": "Explains colour-coded segregation streams and mandatory transport protocols for hazardous wastes."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.environmental-pollution-degradation.soil-degradation-desertification",
+      "sourceId": "env-reference",
+      "chapter": "Land Degradation",
+      "reason": "Covers causes of salinization, land degradation neutrality, and international anti-desertification commitments."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.environmental-pollution-degradation.noise-and-thermal-pollution",
+      "sourceId": "env-reference",
+      "chapter": "Environmental Pollution",
+      "reason": "Details statutory ambient noise level limits and aquatic ecosystems impacts of thermal pollution."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.environmental-pollution-degradation.marine-pollution-microplastics",
+      "sourceId": "env-reference",
+      "chapter": "Marine Organisms and Marine Pollution",
+      "reason": "Analyzes oceanic microplastic contamination and multilateral conventions preventing ship-borne waste discharges."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming",
+      "sourceId": "env-reference",
+      "chapter": "Climate Change",
+      "reason": "Crisply details radiative forcing, atmospheric lifespans, and global warming potential of greenhouse gases."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.climate-change-and-negotiations.ipcc-assessment-reports",
+      "sourceId": "official-moefcc",
+      "chapter": "Climate Change and International Negotiations",
+      "reason": "Presents authoritative policy evaluation of carbon budgets, emission trajectories, and climate projections."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.climate-change-and-negotiations.unfccc-kyoto-paris-agreement",
+      "sourceId": "env-reference",
+      "chapter": "Climate Change Organizations and Conventions",
+      "reason": "Synthesizes treaty principles, common but differentiated responsibilities, and market mechanisms across climate pacts."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.climate-change-and-negotiations.recent-cops-outcomes",
+      "sourceId": "official-moefcc",
+      "chapter": "International Conventions and Climate Change",
+      "reason": "Primary record of summit decisions, loss-and-damage operationalization, and global stocktake outcomes."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.climate-change-and-negotiations.carbon-markets-article-6",
+      "sourceId": "official-economic-survey",
+      "chapter": "Climate Change and Environment: Preparing for the Future",
+      "reason": "Authoritative economic appraisal of international carbon trading, border adjustments, and cap-and-trade."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.climate-change-and-negotiations.climate-finance-architecture",
+      "sourceId": "official-moefcc",
+      "chapter": "Climate Change Finance",
+      "reason": "Authentic documentation of multilateral funds, adaptation allocations, and post-2025 quantitative finance targets."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.climate-change-and-negotiations.ozone-depletion-montreal-kigali",
+      "sourceId": "env-reference",
+      "chapter": "Ozone Depletion",
+      "reason": "Covers stratospheric chemical mechanisms alongside the evolution from Montreal Protocol to Kigali Amendment."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.climate-change-and-negotiations.cbd-and-kunming-montreal-framework",
+      "sourceId": "official-moefcc",
+      "chapter": "Conservation of Biodiversity",
+      "reason": "Primary government briefing on implementing the Kunming-Montreal Global Biodiversity Framework and 30x30 targets."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.climate-change-and-negotiations.international-environmental-treaties",
+      "sourceId": "env-reference",
+      "chapter": "International Environmental Conventions",
+      "reason": "Provides a high-yield comparative overview of chemicals, hazardous wastes, and mercury treaties."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.india-climate-policy-laws.wildlife-protection-act-amendments",
+      "sourceId": "env-reference",
+      "chapter": "Environmental Acts and Policies",
+      "reason": "Breaks down statutory schedule rationalization and CITES alignment introduced by the amendment."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.india-climate-policy-laws.environment-protection-act-1986",
+      "sourceId": "env-reference",
+      "chapter": "Environmental Acts and Policies",
+      "reason": "Explains umbrella central government powers, institutional delegations, and key notified subordinate rules."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.india-climate-policy-laws.forest-conservation-act-amendments",
+      "sourceId": "official-moefcc",
+      "chapter": "Forest Conservation and Management",
+      "reason": "Primary source on strategic border exemptions, recorded forest definitions, and legislative intent."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.india-climate-policy-laws.biological-diversity-act-reforms",
+      "sourceId": "official-moefcc",
+      "chapter": "Biodiversity Conservation and Legislation",
+      "reason": "Authoritative explanation of statutory exemptions, benefit-sharing norms, and decentralized biodiversity authorities."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.india-climate-policy-laws.national-green-tribunal-mandate",
+      "sourceId": "env-reference",
+      "chapter": "Environmental Institutions",
+      "reason": "Examines NGT statutory jurisdiction, sustainable development principles, and special dispute adjudication powers."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.india-climate-policy-laws.eia-process-and-notification",
+      "sourceId": "env-reference",
+      "chapter": "Environmental Impact Assessment",
+      "reason": "Structured coverage of screening, scoping, public consultations, and post-clearance environmental compliance."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.india-climate-policy-laws.coastal-regulation-zone-rules",
+      "sourceId": "env-reference",
+      "chapter": "Coastal Regulation Zone",
+      "reason": "Clear demarcation of coastal zone categories, activity exemptions, and ecological protection mandates."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.india-climate-policy-laws.india-panchamrit-ndcs",
+      "sourceId": "official-moefcc",
+      "chapter": "India's Long-Term Low-Carbon Development Strategy and NDCs",
+      "reason": "Direct official text of India's updated quantitative climate pledges and net-zero timeline."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.india-climate-policy-laws.napcc-eight-missions",
+      "sourceId": "env-reference",
+      "chapter": "National Climate Policies",
+      "reason": "Comprehensive breakdown of the eight sectoral national climate missions and institutional goals."
+    },
+    {
+      "nodeId": "gs3.environment-biodiversity.india-climate-policy-laws.lifestyle-for-environment-mission-life",
+      "sourceId": "official-pib",
+      "chapter": "Mission LiFE and Green Credit Initiative",
+      "reason": "Authentic documentation of government-led behavioral change campaigns and green credit framework rules."
+    },
+    {
+      "nodeId": "gs3.disaster-management.disaster-profiling-vulnerability.earthquakes-seismic-zonation",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Guidelines: Management of Earthquakes",
+      "reason": "Official authority on seismic risk zonation, vulnerability mapping, and structural building codes."
+    },
+    {
+      "nodeId": "gs3.disaster-management.disaster-profiling-vulnerability.tsunamis-early-warning",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Guidelines: Management of Tsunamis",
+      "reason": "Official guidelines detailing early warning dissemination, inundation mapping, and coastal community mitigation."
+    },
+    {
+      "nodeId": "gs3.disaster-management.disaster-profiling-vulnerability.cyclones-and-storm-surges",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Guidelines: Management of Cyclones",
+      "reason": "Authoritative standard on cyclone tracking, colour-coded warnings, shelter networks, and evacuation logistics."
+    },
+    {
+      "nodeId": "gs3.disaster-management.disaster-profiling-vulnerability.riverine-and-urban-floods",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Guidelines: Management of Urban Flooding",
+      "reason": "Delineates urban flood drainage interventions, sponge city principles, and institutional flood management."
+    },
+    {
+      "nodeId": "gs3.disaster-management.disaster-profiling-vulnerability.droughts-monitoring-crisis",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Guidelines: Management of Drought",
+      "reason": "Codifies drought assessment indices, administrative declaration manuals, and crisis relief frameworks."
+    },
+    {
+      "nodeId": "gs3.disaster-management.disaster-profiling-vulnerability.landslides-and-glofs",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Guidelines: Management of Landslides and Snow Avalanches",
+      "reason": "Provides official hazard profiling, zonation mapping, and specific mitigation measures for Himalayan slopes."
+    },
+    {
+      "nodeId": "gs3.disaster-management.disaster-profiling-vulnerability.forest-fires-and-heatwaves",
+      "sourceId": "official-ndma",
+      "chapter": "National Guidelines for Preparation of Action Plan - Prevention and Management of Heat-Wave",
+      "reason": "Outlines standard criteria, vulnerability thresholds, and Heat Action Plan frameworks tested by UPSC."
+    },
+    {
+      "nodeId": "gs3.disaster-management.disaster-profiling-vulnerability.chemical-biological-industrial-disasters",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Guidelines: Chemical Disasters",
+      "reason": "Covers statutory industrial safety norms, CBRN threat management, and on-site/off-site emergency plans."
+    },
+    {
+      "nodeId": "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Plan - Institutional and Legal Framework",
+      "reason": "Directly explains statutory roles and hierarchy of NDMA, SDMA, and DDMA authorities."
+    },
+    {
+      "nodeId": "gs3.disaster-management.dm-institutional-framework.ndrf-sdrf-response-mechanisms",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Guidelines: Incident Response System",
+      "reason": "Official doctrine detailing Incident Response System protocols and NDRF deployment logistics."
+    },
+    {
+      "nodeId": "gs3.disaster-management.dm-institutional-framework.financing-ndrmf-sdrmf",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Plan - Financial Arrangements",
+      "reason": "Details the structural shift from relief-centric funding to mitigation under 15th FC recommendations."
+    },
+    {
+      "nodeId": "gs3.disaster-management.dm-institutional-framework.sendai-framework-priorities",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Plan - Sendai Framework for Disaster Risk Reduction",
+      "reason": "Presents Sendai's 4 priorities and 7 targets mapped directly to national strategies."
+    },
+    {
+      "nodeId": "gs3.disaster-management.dm-institutional-framework.prime-ministers-ten-point-agenda",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Plan - Prime Minister's Ten Point Agenda on DRR",
+      "reason": "Authentic source defining the 10-point agenda and its implementation in disaster policy."
+    },
+    {
+      "nodeId": "gs3.disaster-management.dm-institutional-framework.community-based-disaster-management",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Guidelines: Community Based Disaster Risk Reduction",
+      "reason": "Authoritative guide on grassroots community participation, local training, and Aapda Mitra capacity-building."
+    },
+    {
+      "nodeId": "gs3.disaster-management.dm-institutional-framework.cdri-and-resilient-infrastructure",
+      "sourceId": "official-pib",
+      "chapter": "Coalition for Disaster Resilient Infrastructure (CDRI) and IRIS Initiatives",
+      "reason": "Provides official updates, international partnerships, and key deliverables of CDRI and IRIS."
+    },
+    {
+      "nodeId": "gs3.internal-security.development-and-extremism.left-wing-extremism-roots",
+      "sourceId": "internal-security-reference",
+      "chapter": "Left Wing Extremism: A Silent War",
+      "reason": "Comprehensive standard coverage of tribal alienation, forest rights, and historical roots of Naxalism."
+    },
+    {
+      "nodeId": "gs3.internal-security.development-and-extremism.lwe-operational-theatre",
+      "sourceId": "internal-security-reference",
+      "chapter": "Left Wing Extremism: A Silent War",
+      "reason": "Covers geographic expanse, Dandakaranya corridor, and urban networks comprehensively."
+    },
+    {
+      "nodeId": "gs3.internal-security.development-and-extremism.government-strategy-lwe",
+      "sourceId": "internal-security-reference",
+      "chapter": "Left Wing Extremism: A Silent War",
+      "reason": "Explains operational doctrines like SAMADHAN, elite state forces, and surrender-rehabilitation policies."
+    },
+    {
+      "nodeId": "gs3.internal-security.development-and-extremism.lwe-developmental-interventions",
+      "sourceId": "internal-security-reference",
+      "chapter": "Left Wing Extremism: A Silent War",
+      "reason": "Directly links security operations with development policies like SRE, RRP, and education schemes."
+    },
+    {
+      "nodeId": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+      "sourceId": "internal-security-reference",
+      "chapter": "State and Non-State Actors",
+      "reason": "Standard text on asymmetric warfare, cross-border sponsorship, and proxy war doctrines."
+    },
+    {
+      "nodeId": "gs3.internal-security.external-actors-and-insurgency.jammu-kashmir-hybrid-terrorism",
+      "sourceId": "internal-security-reference",
+      "chapter": "Jammu & Kashmir: Militancy to Normalcy",
+      "reason": "Analyzes contemporary hybrid warfare, targeted killings, and technological shifts post-2019."
+    },
+    {
+      "nodeId": "gs3.internal-security.external-actors-and-insurgency.northeast-insurgency-history",
+      "sourceId": "internal-security-reference",
+      "chapter": "Insurgency in the North-East",
+      "reason": "Systematically breaks down ethnic rivalries, cross-border havens, and historical alienation in Northeast."
+    },
+    {
+      "nodeId": "gs3.internal-security.external-actors-and-insurgency.northeast-peace-accords",
+      "sourceId": "official-pib",
+      "chapter": "Historic Peace Accords Signed in North East",
+      "reason": "PIB provides exact textual terms and outcomes of recent Naga, Bodo, and ULFA accords."
+    },
+    {
+      "nodeId": "gs3.internal-security.external-actors-and-insurgency.afspa-provisions-debate",
+      "sourceId": "internal-security-reference",
+      "chapter": "Insurgency in the North-East",
+      "reason": "Balances statutory legal powers under Section 4 with committee recommendations and human rights."
+    },
+    {
+      "nodeId": "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors",
+      "sourceId": "internal-security-reference",
+      "chapter": "Cyber Security",
+      "reason": "Covers essential attack vectors like ransomware, DDoS, and spyware tailored to Mains."
+    },
+    {
+      "nodeId": "gs3.internal-security.cyber-security-and-media.critical-information-infrastructure",
+      "sourceId": "internal-security-reference",
+      "chapter": "Cyber Security",
+      "reason": "Explains institutional frameworks including NCIIPC, CERT-In, and critical sector protection mechanisms."
+    },
+    {
+      "nodeId": "gs3.internal-security.cyber-security-and-media.national-cyber-security-policy",
+      "sourceId": "internal-security-reference",
+      "chapter": "Cyber Security",
+      "reason": "Summarizes national institutional policy architecture, NCCC coordination, and I4C operations."
+    },
+    {
+      "nodeId": "gs3.internal-security.cyber-security-and-media.data-protection-privacy-act",
+      "sourceId": "official-pib",
+      "chapter": "The Digital Personal Data Protection Act, 2023",
+      "reason": "Primary legislative source for fiduciary duties, rights, exemptions, and statutory penalties."
+    },
+    {
+      "nodeId": "gs3.internal-security.cyber-security-and-media.social-media-radicalization-fake-news",
+      "sourceId": "internal-security-reference",
+      "chapter": "Role of Media and Social Networking Sites in Internal Security",
+      "reason": "Details modern vulnerabilities including algorithmic disinformation, radicalization, and mob mobilization."
+    },
+    {
+      "nodeId": "gs3.internal-security.cyber-security-and-media.it-rules-intermediary-guidelines",
+      "sourceId": "official-pib",
+      "chapter": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules",
+      "reason": "Official notification outlining intermediary liability, compliance officers, and message traceability mandates."
+    },
+    {
+      "nodeId": "gs3.internal-security.cyber-security-and-media.darknet-cryptocurrency-crimes",
+      "sourceId": "internal-security-reference",
+      "chapter": "Cyber Security",
+      "reason": "Examines dark web anonymization, illicit crypto rails, and forensic investigation challenges."
+    },
+    {
+      "nodeId": "gs3.internal-security.money-laundering-organized-crime.money-laundering-stages-techniques",
+      "sourceId": "internal-security-reference",
+      "chapter": "Money Laundering",
+      "reason": "Lucid explanation of placement-layering-integration, hawala networks, and shell company structures."
+    },
+    {
+      "nodeId": "gs3.internal-security.money-laundering-organized-crime.pmla-enforcement-directorate",
+      "sourceId": "internal-security-reference",
+      "chapter": "Money Laundering",
+      "reason": "Discusses Enforcement Directorate powers, reversed burden of proof, and stringent bail conditions."
+    },
+    {
+      "nodeId": "gs3.internal-security.money-laundering-organized-crime.fatf-standards-and-scrutiny",
+      "sourceId": "internal-security-reference",
+      "chapter": "Money Laundering",
+      "reason": "Clearly details FATF's 40 recommendations, grey/black listing processes, and economic consequences."
+    },
+    {
+      "nodeId": "gs3.internal-security.money-laundering-organized-crime.organized-crime-nexus",
+      "sourceId": "internal-security-reference",
+      "chapter": "Linkages of Organized Crime with Terrorism",
+      "reason": "Directly maps organized criminal syndicates, trafficking, and FICN linkages to subversion."
+    },
+    {
+      "nodeId": "gs3.internal-security.money-laundering-organized-crime.narco-terrorism-linkages",
+      "sourceId": "internal-security-reference",
+      "chapter": "Linkages of Organized Crime with Terrorism",
+      "reason": "Highlights Golden Crescent and Triangle transit routes and emerging drone-based narcotics trafficking."
+    },
+    {
+      "nodeId": "gs3.internal-security.money-laundering-organized-crime.terror-financing-monitoring",
+      "sourceId": "internal-security-reference",
+      "chapter": "Linkages of Organized Crime with Terrorism",
+      "reason": "Evaluates CFT mechanisms, NGO misuse investigations, and legal enforcement by the NIA."
+    },
+    {
+      "nodeId": "gs3.internal-security.border-management.india-pakistan-border",
+      "sourceId": "internal-security-reference",
+      "chapter": "Border Management",
+      "reason": "Covers western border dynamics, Sir Creek dispute, and smart border fencing (CIBMS)."
+    },
+    {
+      "nodeId": "gs3.internal-security.border-management.india-china-border-lac",
+      "sourceId": "internal-security-reference",
+      "chapter": "Border Management",
+      "reason": "Systematic breakdown of LAC sectors, infrastructure competition, and patrol friction points."
+    },
+    {
+      "nodeId": "gs3.internal-security.border-management.india-myanmar-border-fmr",
+      "sourceId": "internal-security-reference",
+      "chapter": "Border Management",
+      "reason": "Explains complex border terrain, insurgent safe havens, and implications of ending FMR."
+    },
+    {
+      "nodeId": "gs3.internal-security.border-management.india-bangladesh-border",
+      "sourceId": "internal-security-reference",
+      "chapter": "Border Management",
+      "reason": "Covers Land Boundary Agreement, cattle smuggling, illegal migration, and riverine border management."
+    },
+    {
+      "nodeId": "gs3.internal-security.border-management.india-nepal-bhutan-frontiers",
+      "sourceId": "internal-security-reference",
+      "chapter": "Border Management",
+      "reason": "Details open-border security protocols, Kalapani boundary controversies, and trans-border smuggling issues."
+    },
+    {
+      "nodeId": "gs3.internal-security.border-management.coastal-and-island-security",
+      "sourceId": "internal-security-reference",
+      "chapter": "Border Management",
+      "reason": "Examines multi-tier coastal defense, marine policing, and post-Mumbai attacks surveillance architecture."
+    },
+    {
+      "nodeId": "gs3.internal-security.border-management.vibrant-villages-programme",
+      "sourceId": "official-pib",
+      "chapter": "Cabinet approves Vibrant Villages Programme",
+      "reason": "Provides official cabinet objectives, strategic border infrastructure funding, and depopulation reversal strategy."
+    },
+    {
+      "nodeId": "gs3.internal-security.security-forces-agencies.capf-mandates-and-deployment",
+      "sourceId": "internal-security-reference",
+      "chapter": "Security Forces and Their Mandate",
+      "reason": "Standard reference outlining distinct legal and operational mandates of India's armed police forces."
+    },
+    {
+      "nodeId": "gs3.internal-security.security-forces-agencies.indian-armed-forces-theaterisation",
+      "sourceId": "internal-security-reference",
+      "chapter": "Security Forces and Their Mandate",
+      "reason": "Offers structured analysis of joint commands, theaterisation reforms, and the Chief of Defence Staff role."
+    },
+    {
+      "nodeId": "gs3.internal-security.security-forces-agencies.intelligence-agencies-ib-raw-ntro",
+      "sourceId": "internal-security-reference",
+      "chapter": "Intelligence Apparatus",
+      "reason": "Provides a comprehensive overview of India's intelligence agencies, MAC, and coordination bottlenecks."
+    },
+    {
+      "nodeId": "gs3.internal-security.security-forces-agencies.investigation-agencies-nia-cbi",
+      "sourceId": "internal-security-reference",
+      "chapter": "Security Forces and Their Mandate",
+      "reason": "Covers NIA's mandate, legislative amendments, special courts, and jurisdictional interface with the CBI."
+    },
+    {
+      "nodeId": "gs3.internal-security.security-forces-agencies.uapa-statutory-architecture",
+      "sourceId": "internal-security-reference",
+      "chapter": "Legal Framework for Internal Security",
+      "reason": "Examines anti-terror legislation, individual designation powers under UAPA, and civil liberties debates."
+    },
+    {
+      "nodeId": "gs3.internal-security.security-forces-agencies.natgrid-cctns-integration",
+      "sourceId": "internal-security-reference",
+      "chapter": "Modernization of Police and Technology in Security",
+      "reason": "Details internal security tech platforms including NATGRID and CCTNS for data-driven policing."
+    }
+  ]
+}
