@@ -583,6 +583,246 @@
         "gs1.indian-society",
         "gs3.science-technology"
       ]
+    },
+    "literature-kannada": {
+      "name": "Literature of Kannada",
+      "backgrounds": [
+        "literature",
+        "humanities"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "philosophy",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.65,
+        "data": 0.15,
+        "narratives": 0.9,
+        "debates": 0.6
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.65,
+        "diagrams": 0.1,
+        "numericals": 0
+      },
+      "materials": 0.75,
+      "hours": 450,
+      "books": [
+        "Kannada Sahitya Charitre by R. S. Mugali",
+        "Bharatiya Kavya Meemamse by Ti. Nam. Srikantaiah",
+        "Karnataka Samskruti Sameekshe by H. Thipperudraswamy",
+        "Hosagannada Sahitya Charitre by L. S. Seshagiri Rao"
+      ],
+      "summary": "The subject involves analyzing the linguistic evolution, socio-cultural history, and aesthetic richness of Kannada through classical epics, Bhakti movements, and modern literary traditions.",
+      "topics": 8,
+      "gsOverlap": 0.5,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "prelims_gs1.ancient-indian-history",
+        "prelims_gs1.medieval-indian-history",
+        "gs4.moral-thinkers-and-philosophers"
+      ]
+    },
+    "literature-kashmiri": {
+      "name": "Literature of Kashmiri",
+      "backgrounds": [
+        "literature",
+        "humanities"
+      ],
+      "interests": [
+        "literature",
+        "philosophy",
+        "history",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.35,
+        "data": 0.1,
+        "narratives": 0.85,
+        "debates": 0.4
+      },
+      "answer": {
+        "analytical": 0.7,
+        "factual": 0.55,
+        "diagrams": 0.05,
+        "numericals": 0
+      },
+      "materials": 0.35,
+      "hours": 450,
+      "books": [
+        "Kashri Adbuk Twarikh by Avtar Krishna Rehbar",
+        "A History of Kashmiri Literature by Trilokinath Raina",
+        "A Grammar of Kashmiri Language by Omkar N. Koul",
+        "Lal Ded by Jayalal Kaul"
+      ],
+      "summary": "Studying Kashmiri Literature combines foundational linguistics and dialectology of the language with an analytical exploration of mystical vakhs, classical poetry, folklore, and modern literary genres.",
+      "topics": 16,
+      "gsOverlap": 0.13,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "prelims_gs1.medieval-indian-history"
+      ]
+    },
+    "literature-konkani": {
+      "name": "Literature of Konkani",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "society",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.4,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.5
+      },
+      "answer": {
+        "analytical": 0.7,
+        "factual": 0.5,
+        "diagrams": 0,
+        "numericals": 0
+      },
+      "materials": 0.3,
+      "hours": 300,
+      "books": [
+        "Konkani Bhashecho Itihas by Shenoi Goembab",
+        "Konkani Sahityacho Itihas by ManoharRai SarDessai",
+        "A History of Konkani Literature by ManoharRai SarDessai",
+        "Konkani Bhasha Vignan by B. B. Borkar"
+      ],
+      "summary": "Konkani Literature offers a focused and compact syllabus centered on linguistic evolution, regional sociocultural history, and the textual critique of classical and modern literary works.",
+      "topics": 10,
+      "gsOverlap": 0,
+      "overlapSections": []
+    },
+    "literature-maithili": {
+      "name": "Literature of Maithili",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "society",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.5,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.4
+      },
+      "answer": {
+        "analytical": 0.75,
+        "factual": 0.65,
+        "diagrams": 0.15,
+        "numericals": 0
+      },
+      "materials": 0.65,
+      "hours": 280,
+      "books": [
+        "Maithili Sahityak Itihas by Durganath Jha Shreesh",
+        "History of Maithili Literature by Jayakanta Mishra",
+        "Maithili Bhashak Vikas by Subhadra Jha",
+        "Vidyapati Padavali edited by Narendra Jha"
+      ],
+      "summary": "Maithili literature offers a compact, well-defined syllabus focusing on the historical and grammatical evolution of the language alongside close textual analysis of classical and modern literary works.",
+      "topics": 8,
+      "gsOverlap": 0.25,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "prelims_gs1.medieval-indian-history"
+      ]
+    },
+    "literature-malayalam": {
+      "name": "Literature of Malayalam",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "society",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.6,
+        "data": 0.1,
+        "narratives": 0.9,
+        "debates": 0.7
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.6,
+        "diagrams": 0.1,
+        "numericals": 0
+      },
+      "materials": 0.7,
+      "hours": 500,
+      "books": [
+        "Malayala Bhasha Charithram by P. Govinda Pillai",
+        "Kairaliyude Katha by N. Krishna Pillai",
+        "Malayala Sahithya Charithram by P. K. Parameswaran Nair",
+        "Bhashacharithra Charcha by Dr. Godavarma"
+      ],
+      "summary": "Malayalam Literature demands fluency in written Malayalam, deep textual engagement with classical and modern literary works, and a critical appreciation of regional linguistic and sociopolitical evolution.",
+      "topics": 12,
+      "gsOverlap": 0.08,
+      "overlapSections": [
+        "gs1.art-and-culture"
+      ]
+    },
+    "literature-manipuri": {
+      "name": "Literature of Manipuri",
+      "backgrounds": [
+        "literature",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "literature",
+        "history",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.35,
+        "data": 0.05,
+        "narratives": 0.9,
+        "debates": 0.3
+      },
+      "answer": {
+        "analytical": 0.65,
+        "factual": 0.6,
+        "diagrams": 0.05,
+        "numericals": 0
+      },
+      "materials": 0.35,
+      "hours": 500,
+      "books": [
+        "A History of Manipuri Literature by Ch. Manihar Singh",
+        "Manipuri Grammar by P. C. Thoudam",
+        "Aspects of Manipuri Culture by E. Nilakanta Singh",
+        "Manipuri Sahityagi Itihas by N. Tombi Singh"
+      ],
+      "summary": "Studying Manipuri literature involves exploring linguistics, folklore, cultural traditions, and close textual appreciation of classical and modern literary works in the Meitei Mayek or Bengali scripts.",
+      "topics": 8,
+      "gsOverlap": 0.13,
+      "overlapSections": [
+        "gs1.art-and-culture"
+      ]
     }
   }
 }

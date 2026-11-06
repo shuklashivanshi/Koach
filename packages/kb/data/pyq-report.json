@@ -300,16 +300,16 @@
     ]
   },
   "prelims-2021-gs1": {
-    "error": "fetch failed"
+    "error": "{\"error\":{\"code\":429,\"message\":\"Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.\",\"status\":\"RESOURCE_EXHAUSTED\"}}"
   },
   "prelims-2022-gs1": {
-    "error": "fetch failed"
+    "error": "not a General Studies paper: \"CIVIL SERVICES (P) EXAM-2022\""
   },
   "prelims-2023-gs1": {
-    "error": "fetch failed"
+    "error": "not a General Studies paper: \"CIVIL SERVICES (P) EXAM- 2023\""
   },
   "prelims-2024-gs1": {
-    "error": "fetch failed"
+    "error": "not a General Studies paper: \"Civil Services (P) Examination, 2024\""
   },
   "prelims-2025-gs1": {
     "error": "fetch failed"
