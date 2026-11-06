@@ -1,0 +1,128 @@
+{
+  "exam": "mains",
+  "paper": "gs1",
+  "year": 2019,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-I.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Highlight the Central Asian and Greco-Bactrian elements in the Gandhara art.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 2,
+      "text": "The 1857 Uprising was the culmination of the recurrent big and small local rebellions that had occurred in the preceding hundred years of British rule. Elucidate.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 3,
+      "text": "Examine the linkages between the nineteenth century's 'Indian Renaissance' and the emergence of national identity.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 4,
+      "text": "Assess the impact of global warming on the coral life system with examples.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 5,
+      "text": "Discuss the causes of depletion of mangroves and explain their importance in maintaining coastal ecology.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 6,
+      "text": "Can the strategy of regional resource-based manufacturing help in promoting employment in India?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 7,
+      "text": "Discuss the factors for localisation of agro-based food processing industries of North-West India.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 8,
+      "text": "What makes the Indian society unique in sustaining its culture? Discuss.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 9,
+      "text": "\"Empowering women is the key to control population growth.\" Discuss.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 10,
+      "text": "What are the challenges to our cultural practices in the name of secularism?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 11,
+      "text": "Many voices had strengthened and enriched the nationalist movement during the Gandhian phase. Elaborate.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 12,
+      "text": "Assess the role of British imperial power in complicating the process of transfer of power during the 1940s.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 13,
+      "text": "Explain how the foundations of the modern world were laid by the American and French Revolutions.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 14,
+      "text": "What is water stress? How and why does it differ regionally in India?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 15,
+      "text": "How can the mountain ecosystem be restored from the negative impact of development initiatives and tourism?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 16,
+      "text": "How is efficient and affordable urban mass transport key to the rapid economic development of India?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 17,
+      "text": "How do ocean currents and water masses differ in their impacts on marine life and coastal environment? Give suitable examples.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 18,
+      "text": "Do we have cultural pockets of small India all over the nation? Elaborate with examples.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 19,
+      "text": "What are the continued challenges for women in India against time and space?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 20,
+      "text": "Are we losing our local identity for the global identity? Discuss.",
+      "marks": 15,
+      "wordLimit": 250
+    }
+  ]
+}

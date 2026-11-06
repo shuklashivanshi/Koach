@@ -1,0 +1,128 @@
+{
+  "exam": "mains",
+  "paper": "gs1",
+  "year": 2024,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_I_03102024.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Underline the changes in the field of society and economy from the Rig Vedic to the later Vedic period.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 2,
+      "text": "Estimate the contribution of Pallavas of Kanchi for the development of art and literature of South India.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 3,
+      "text": "What were the events that led to the Quit India Movement? Point out its results.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 4,
+      "text": "What is sea surface temperature rise? How does it affect the formation of tropical cyclones?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 5,
+      "text": "Why do large cities tend to attract more migrants than smaller towns? Discuss in the light of conditions in developing countries.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 6,
+      "text": "What is the phenomenon of 'cloudbursts'? Explain.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 7,
+      "text": "What is the concept of a 'demographic winter'? Is the world moving towards such a situation? Elaborate.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 8,
+      "text": "Distinguish between gender equality, gender equity and women's empowerment. Why is it important to take gender concerns into account in programme design and implementation?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 9,
+      "text": "Intercaste marriages between castes which have socio-economic parity have increased, to some extent, but this is less true of interreligious marriages. Discuss.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 10,
+      "text": "In dealing with socio-economic issues of development, what kind of collaboration between government, NGOs and private sector would be most productive?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 11,
+      "text": "\"Though the great Cholas are no more yet their name is still remembered with great pride because of their highest achievements in the domain of art and architecture.\" Comment.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 12,
+      "text": "How far is it correct to say that the First World War was fought essentially for the preservation of balance of power?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 13,
+      "text": "How far was the Industrial Revolution in England responsible for the decline of handicrafts and cottage industries in India?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 14,
+      "text": "The groundwater potential of the gangetic valley is on a serious decline. How may it affect the food security of India?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 15,
+      "text": "What are aurora australis and aurora borealis? How are these triggered?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 16,
+      "text": "What is a twister? Why are the majority of twisters observed in areas around the Gulf of Mexico?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 17,
+      "text": "What is regional disparity? How does it differ from diversity? How serious is the issue of regional disparity in India?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 18,
+      "text": "Despite comprehensive policies for equity and social justice, underprivileged sections are not yet getting the full benefits of affirmative action envisaged by the Constitution. Comment.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 19,
+      "text": "Globalization has increased urban migration by skilled, young, unmarried women from various classes. How has this trend impacted upon their personal freedom and relationship with family?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 20,
+      "text": "Critically analyse the proposition that there is a high correlation between India's cultural diversities and socio-economic marginalities.",
+      "marks": 15,
+      "wordLimit": 250
+    }
+  ]
+}

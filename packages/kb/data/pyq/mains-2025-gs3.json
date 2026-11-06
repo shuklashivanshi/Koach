@@ -1,0 +1,128 @@
+{
+  "exam": "mains",
+  "paper": "gs3",
+  "year": 2025,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-III-QP-CSM-25-010925.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Distinguish between the Human Development Index (HDI) and the Inequality-adjusted Human Development Index (IHDI) with special reference to India. Why is the IHDI considered a better indicator of inclusive growth?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 2,
+      "text": "What are the challenges before the Indian economy when the world is moving away from free trade and multilateralism to protectionism and bilateralism ? How can these challenges be met ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 3,
+      "text": "Explain the factors influencing the decision of the farmers on the selection of high value crops in India.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 4,
+      "text": "Elaborate the scope and significance of supply chain management of agricultural commodities in India.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 5,
+      "text": "The fusion energy programme in India has steadily evolved over the past few decades. Mention India's contributions to the international fusion energy project – International Thermonuclear Experimental Reactor (ITER). What will be the implications of the success of this project for the future of global energy ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 6,
+      "text": "How can India achieve energy independence through clean technology by 2047 ? How can biotechnology can play a crucial role in this endeavour ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 7,
+      "text": "What is Carbon Capture, Utilization and Storage (CCUS) ? What is the potential role of CCUS in tackling climate change ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 8,
+      "text": "Seawater intrusion in the coastal aquifers is a major concern in India. What are the causes of seawater intrusion and the remedial measures to combat this hazard ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 9,
+      "text": "Terrorism is a global scourge. How has it manifested in India ? Elaborate with contemporary examples. What are the counter measures adopted by the State ? Explain.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 10,
+      "text": "The Government of India recently stated that Left Wing Extremism (LWE) will be eliminated by 2026. What do you understand by LWE and how are the people affected by it ? What measures have been taken by the government to eliminate LWE ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 11,
+      "text": "Explain how the Fiscal Health Index (FHI) can be used as a tool for assessing the fiscal performance of states in India. In what way would it encourage the states to adopt prudent and sustainable fiscal policies ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 12,
+      "text": "Discuss the rationale of the Production Linked Incentive (PLI) scheme. What are its achievements ? In what way can the functioning and outcomes of the scheme be improved ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 13,
+      "text": "Examine the factors responsible for depleting groundwater in India. What are the steps taken by the government to mitigate such depletion of groundwater ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 14,
+      "text": "Examine the scope of the food processing industries in India. Elaborate the measures taken by the government in the food processing industries for generating employment opportunities.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 15,
+      "text": "How does nanotechnology offer significant advancements in the field of agriculture ? How can this technology help to uplift the socio-economic status of farmers ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 16,
+      "text": "India aims to become a semiconductor manufacturing hub. What are the challenges faced by the semiconductor industry in India ? Mention the salient features of the India Semiconductor Mission.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 17,
+      "text": "Mineral resources are fundamental to the country's economy and these are exploited by mining. Why is mining considered an environmental hazard ? Explain the remedial measures required to reduce the environmental hazard due to mining.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 18,
+      "text": "Write a review on India's climate commitments under the Paris Agreement (2015) and mention how these have been further strengthened in COP26 (2021). In this direction, how has the first Nationally Determined Contribution intended by India been updated in 2022 ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 19,
+      "text": "What are the major challenges to internal security and peace process in the North-Eastern States ? Map the various peace accords and agreements initiated by the government in the past decade.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 20,
+      "text": "Why is maritime security vital to protect India's sea trade ? Discuss maritime and coastal security challenges and the way forward.",
+      "marks": 15,
+      "wordLimit": 250
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "exam": "mains",
+  "paper": "gs1",
+  "year": 2026,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-GENERAL%20STUDIES%20PAPER%20-%20I.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Analyze the importance of Ashokan inscriptions for reconstructing Mauryan history.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 2,
+      "text": "Discuss the impact of Macaulay's Minute on colonial administration and education in India.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 3,
+      "text": "The significance of the Gandhian movements lay in the masses they mobilized. Elucidate.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 4,
+      "text": "What is the Fujiwhara effect? Explain its impact on the movement and intensity of tropical cyclones.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 5,
+      "text": "\"Tundra regions are ecologically fragile but economically important.\" Examine this statement critically.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 6,
+      "text": "Discuss the role of aeolian processes in desertification and land degradation.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 7,
+      "text": "\"Water resources are both an asset and a source of conflict in South Asia.\" Examine this statement giving examples.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 8,
+      "text": "Unity in diversity remains the defining feature of Indian society despite the challenges from communalism and regionalism. Comment.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 9,
+      "text": "How do you understand disability? Substantiate the need for inclusive policy framework in India in this regard.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 10,
+      "text": "Do you think digital technology promotes social empowerment? Explain with examples.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 11,
+      "text": "Vijayanagara architecture exemplifies the amalgamation of past traditions with contemporary practices. Elucidate with examples.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 12,
+      "text": "Linguistic reorganization of Indian States was driven by popular pressure from below. Comment.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 13,
+      "text": "The model of planned economy was adopted in India to address the regional imbalances left behind by colonial rule. Comment.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 14,
+      "text": "Compare the Loo, Chinook and Foehn winds with respect to their regions of prevalence, their nature and climatic impacts.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 15,
+      "text": "Analyze the role of satellite-based technologies in achieving climate-smart agriculture and food security in India.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 16,
+      "text": "\"The centre of global trade is gradually shifting from the Atlantic region to the Indo-Pacific region.\" Examine this statement.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 17,
+      "text": "Analyze the major drivers of human-induced land-use changes in India and their geographical consequences.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 18,
+      "text": "Is caste disappearing in urban India? Illustrate your answer with examples.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 19,
+      "text": "Critically examine the challenges of demographic transition in contemporary India.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 20,
+      "text": "Evaluate the impact of globalization on Indian youths with reference to social, political, economic and cultural spheres.",
+      "marks": 15,
+      "wordLimit": 250
+    }
+  ]
+}

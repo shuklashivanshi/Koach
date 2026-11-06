@@ -1,9 +1,320 @@
 {
   "mains-2024-gs2": {
-    "questions": 28,
+    "questions": 20,
     "series": null,
+    "issues": []
+  },
+  "mains-2014-gs1": {
+    "questions": 25,
+    "series": "C-DRN-N-ITUA",
+    "issues": []
+  },
+  "mains-2014-gs3": {
+    "questions": 20,
+    "series": null,
+    "issues": []
+  },
+  "mains-2014-gs4": {
+    "questions": 19,
+    "series": "C-DRN-N-ITUD",
+    "issues": []
+  },
+  "mains-2015-gs1": {
+    "questions": 20,
+    "series": "C-AVZ-O-FTTZ",
+    "issues": []
+  },
+  "mains-2015-gs2": {
+    "questions": 20,
+    "series": "C-AVZ-O-STBZ",
+    "issues": []
+  },
+  "mains-2015-gs3": {
+    "questions": 20,
+    "series": "C-AVZ-O-TTDZ",
+    "issues": []
+  },
+  "mains-2015-gs4": {
+    "questions": 18,
+    "series": "C-AVZ-O-FTDZ",
+    "issues": []
+  },
+  "mains-2016-gs1": {
+    "questions": 20,
+    "series": "M-ESC-O-GSA",
+    "issues": []
+  },
+  "mains-2016-gs2": {
+    "questions": 20,
+    "series": null,
+    "issues": []
+  },
+  "mains-2016-gs3": {
+    "questions": 20,
+    "series": null,
+    "issues": []
+  },
+  "mains-2016-gs4": {
+    "questions": 18,
+    "series": "M-ESC-O-GSD",
+    "issues": []
+  },
+  "mains-2017-gs1": {
+    "questions": 20,
+    "series": "STH-G-GSO",
+    "issues": []
+  },
+  "mains-2017-gs2": {
+    "questions": 20,
+    "series": "STH-G-GSD",
+    "issues": []
+  },
+  "mains-2017-gs3": {
+    "questions": 20,
+    "series": "sth-g-gst",
+    "issues": []
+  },
+  "mains-2017-gs4": {
+    "questions": 19,
+    "series": "STH-G-GSF",
+    "issues": []
+  },
+  "mains-2018-gs1": {
+    "questions": 20,
+    "series": "EGT-G-GSO",
+    "issues": []
+  },
+  "mains-2018-gs2": {
+    "questions": 20,
+    "series": "EGT-G-GSD",
+    "issues": []
+  },
+  "mains-2018-gs3": {
+    "questions": 20,
+    "series": "EGT-G-GST",
+    "issues": []
+  },
+  "mains-2018-gs4": {
+    "questions": 19,
+    "series": "EGT-G-GSF",
+    "issues": []
+  },
+  "mains-2019-gs1": {
+    "questions": 20,
+    "series": "SDF-G-GSU",
+    "issues": []
+  },
+  "mains-2019-gs2": {
+    "questions": 20,
+    "series": "SDF-G-GSB",
+    "issues": []
+  },
+  "mains-2019-gs3": {
+    "questions": 20,
+    "series": "SDF-G-GST",
+    "issues": []
+  },
+  "mains-2019-gs4": {
+    "questions": 19,
+    "series": "SDF-G-GSF",
+    "issues": []
+  },
+  "mains-2020-gs1": {
+    "questions": 20,
+    "series": "URC-G-GSU",
+    "issues": []
+  },
+  "mains-2020-gs2": {
+    "questions": 20,
+    "series": null,
+    "issues": []
+  },
+  "mains-2020-gs3": {
+    "questions": 20,
+    "series": "URC-G-GST",
+    "issues": []
+  },
+  "mains-2020-gs4": {
+    "questions": 19,
+    "series": "URC-G-GSF",
+    "issues": []
+  },
+  "mains-2021-gs1": {
+    "questions": 20,
+    "series": "HXS-G-GSU",
+    "issues": []
+  },
+  "mains-2021-gs2": {
+    "questions": 20,
+    "series": "HXS-G-GSB",
+    "issues": []
+  },
+  "mains-2021-gs3": {
+    "questions": 20,
+    "series": "HXS-G-GST",
+    "issues": []
+  },
+  "mains-2021-gs4": {
+    "questions": 19,
+    "series": null,
+    "issues": []
+  },
+  "mains-2022-gs1": {
+    "questions": 20,
+    "series": "CRNA-X-GSU",
+    "issues": []
+  },
+  "mains-2022-gs2": {
+    "questions": 20,
+    "series": "CRNA-X-GSB",
+    "issues": []
+  },
+  "mains-2022-gs3": {
+    "questions": 20,
+    "series": "CRNA-X-GST",
+    "issues": []
+  },
+  "mains-2022-gs4": {
+    "questions": 19,
+    "series": "CRNA-X-GSF",
+    "issues": []
+  },
+  "mains-2023-gs1": {
+    "questions": 20,
+    "series": "SKYC-G-GSU",
+    "issues": []
+  },
+  "mains-2023-gs2": {
+    "questions": 20,
+    "series": "SKYC-G-GST",
+    "issues": []
+  },
+  "mains-2023-gs3": {
+    "questions": 20,
+    "series": "SKYC-G-GST",
+    "issues": []
+  },
+  "mains-2023-gs4": {
+    "questions": 19,
+    "series": "SKYC-G-GSF",
+    "issues": []
+  },
+  "mains-2024-gs1": {
+    "questions": 20,
+    "series": "PHKM-G-GSU",
+    "issues": []
+  },
+  "mains-2024-gs3": {
+    "questions": 20,
+    "series": "PHKM-G-GST",
+    "issues": []
+  },
+  "mains-2024-gs4": {
+    "questions": 19,
+    "series": "PHKM-G-GSF",
+    "issues": []
+  },
+  "mains-2025-gs1": {
+    "questions": 20,
+    "series": "SLPM-G-GSA",
+    "issues": []
+  },
+  "mains-2025-gs2": {
+    "questions": 20,
+    "series": "SLPM-G-GSB",
+    "issues": []
+  },
+  "mains-2025-gs3": {
+    "questions": 20,
+    "series": "SLPM-G-GSC",
+    "issues": []
+  },
+  "mains-2025-gs4": {
+    "questions": 19,
+    "series": null,
+    "issues": []
+  },
+  "mains-2026-gs1": {
+    "questions": 20,
+    "series": "KVMS-G-GSA",
+    "issues": []
+  },
+  "mains-2026-gs2": {
+    "questions": 20,
+    "series": "KVMS-G-GSB",
+    "issues": []
+  },
+  "mains-2026-gs3": {
+    "questions": 20,
+    "series": "KVMS-G-GSC",
+    "issues": []
+  },
+  "mains-2026-gs4": {
+    "questions": 19,
+    "series": null,
+    "issues": []
+  },
+  "prelims-2014-gs1": {
+    "questions": 100,
+    "series": "A",
     "issues": [
-      "28 questions (expected 19–20)"
+      "no official key: 100 model-agreed, 0 disputed ()"
     ]
+  },
+  "prelims-2015-gs1": {
+    "questions": 100,
+    "series": "A",
+    "issues": [
+      "no official key: 100 model-agreed, 0 disputed ()"
+    ]
+  },
+  "prelims-2016-gs1": {
+    "questions": 100,
+    "series": "A",
+    "issues": [
+      "no official key: 100 model-agreed, 0 disputed ()"
+    ]
+  },
+  "prelims-2017-gs1": {
+    "questions": 100,
+    "series": "A",
+    "issues": [
+      "no official key: 99 model-agreed, 1 disputed (41)"
+    ]
+  },
+  "prelims-2018-gs1": {
+    "error": "fetch failed"
+  },
+  "prelims-2019-gs1": {
+    "questions": 100,
+    "series": "A",
+    "issues": [
+      "no official key: 100 model-agreed, 0 disputed ()"
+    ]
+  },
+  "prelims-2020-gs1": {
+    "questions": 100,
+    "series": "A",
+    "issues": [
+      "no official key: 100 model-agreed, 0 disputed ()"
+    ]
+  },
+  "prelims-2021-gs1": {
+    "error": "fetch failed"
+  },
+  "prelims-2022-gs1": {
+    "error": "fetch failed"
+  },
+  "prelims-2023-gs1": {
+    "error": "fetch failed"
+  },
+  "prelims-2024-gs1": {
+    "error": "fetch failed"
+  },
+  "prelims-2025-gs1": {
+    "error": "fetch failed"
+  },
+  "prelims-2026-gs1": {
+    "error": "fetch failed"
   }
 }

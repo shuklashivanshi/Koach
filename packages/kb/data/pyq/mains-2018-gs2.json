@@ -1,0 +1,128 @@
+{
+  "exam": "mains",
+  "paper": "gs2",
+  "year": 2018,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-II.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "In the light of recent controversy regarding the use of Electronic Voting Machines (EVM), what are the challenges before the Election Commission of India to ensure the trustworthiness of elections in India?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 2,
+      "text": "Whether National Commission for Scheduled Castes (NCSC) can enforce the implementation of constitutional reservation for the Scheduled Castes in the religious minority institutions? Examine.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 3,
+      "text": "Under what circumstances can the Financial Emergency be proclaimed by the President of India? What consequences follow when such a declaration remains in force?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 4,
+      "text": "Why do you think the committees are considered to be useful for parliamentary work? Discuss, in this context, the role of the Estimates Committee.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 5,
+      "text": "\"The Comptroller and Auditor General (CAG) has a very vital role to play.\" Explain how this is reflected in the method and terms of his appointment as well as the range of powers he can exercise.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 6,
+      "text": "\"Policy contradictions among various competing sectors and stakeholders have resulted in inadequate 'protection and prevention of degradation' to environment.\" Comment with relevant illustrations.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 7,
+      "text": "Appropriate local community-level healthcare intervention is a prerequisite to achieve 'Health for All' in India. Explain.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 8,
+      "text": "E-governance is not only about utilization of the power of new technology, but also much about critical importance of the 'use value' of information. Explain.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 9,
+      "text": "\"India's relations with Israel have, of late, acquired a depth and diversity, which cannot be rolled back.\" Discuss.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 10,
+      "text": "A number of outside powers have entrenched themselves in Central Asia, which is a zone of interest to India. Discuss the implications, in this context, of India's joining the Ashgabat Agreement, 2018.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 11,
+      "text": "Whether the Supreme Court Judgement (July 2018) can settle the political tussle between the Lt. Governor and elected government of Delhi? Examine.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 12,
+      "text": "How far do you agree with the view that tribunals curtail the jurisdiction of ordinary courts? In view of the above, discuss the constitutional validity and competency of the tribunals in India.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 13,
+      "text": "India and USA are two large democracies. Examine the basic tenets on which the two political systems are based.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 14,
+      "text": "How is the Finance Commission of India constituted? What do you know about the terms of reference of the recently constituted Finance Commission? Discuss.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 15,
+      "text": "Assess the importance of the Panchayat system in India as a part of local government. Apart from government grants, what sources the Panchayats can look out for financing developmental projects?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 16,
+      "text": "Multiplicity of various commissions for the vulnerable sections of the society leads to problems of overlapping jurisdiction and duplication of functions. Is it better to merge all commissions into an umbrella Human Rights Commission? Argue your case.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 17,
+      "text": "How far do you agree with the view that the focus on lack of availability of food as the main cause of hunger takes the attention away from ineffective human development policies in India?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 18,
+      "text": "The Citizens' Charter is an ideal instrument of organizational transparency and accountability, but it has its own limitations. Identify the limitations and suggest measures for greater effectiveness of the Citizens' Charter.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 19,
+      "text": "What are the key areas of reform if the WTO has to survive in the present context of 'Trade War', especially keeping in mind the interest of India?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 20,
+      "text": "In what ways would the ongoing US-Iran Nuclear Pact Controversy affect the national interest of India? How should India respond to this situation?",
+      "marks": 15,
+      "wordLimit": 250
+    }
+  ]
+}

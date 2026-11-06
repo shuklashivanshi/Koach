@@ -38,12 +38,18 @@ async function main() {
     optionals: { slug: string; name: string }[];
   };
   const names = optionals.map((o) => `${o.slug} = ${o.name}`).join('\n');
-  const years: {
+  type Year = {
     examYear: number;
     source: string;
     rows: { slug: string; appeared: number; recommended: number }[];
-  }[] = [];
+  };
+  // Merge with what earlier runs extracted; only reports not yet read are processed.
+  const years: Year[] = existsSync(OUT)
+    ? (JSON.parse(await readFile(OUT, 'utf8')) as { years: Year[] }).years
+    : [];
+  const done = new Set(years.map((y) => y.source));
   for (const url of REPORTS) {
+    if (done.has(url)) continue;
     const file = join(
       RAW,
       decodeURIComponent(url.split('/').pop() ?? 'report.pdf').replace(/\s+/g, '_'),

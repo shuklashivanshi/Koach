@@ -1,0 +1,128 @@
+{
+  "exam": "mains",
+  "paper": "gs2",
+  "year": 2022,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-GENERAL-STUDIES-PAPER-II-190922.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "\"The most significant achievement of modern law in India is the constitutionalization of environmental problems by the Supreme Court.\" Discuss this statement with the help of relevant case laws.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 2,
+      "text": "\"Right of movement and residence throughout the territory of India are freely available to the Indian citizens, but these rights are not absolute.\" Comment.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 3,
+      "text": "To what extent, in your opinion, has the decentralisation of power in India changed the governance landscape at the grassroots ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 4,
+      "text": "Discuss the role of the Vice-President of India as the Chairman of the Rajya Sabha.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 5,
+      "text": "Discuss the role of the National Commission for Backward Classes in the wake of its transformation from a statutory body to a constitutional body.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 6,
+      "text": "The Gati-Shakti Yojana needs meticulous coordination between the government and the private sector to achieve the goal of connectivity. Discuss.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 7,
+      "text": "The Rights of Persons with Disabilities Act, 2016 remains only a legal document without intense sensitisation of government functionaries and citizens regarding disability. Comment.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 8,
+      "text": "Reforming the government delivery system through the Direct Benefit Transfer Scheme is a progressive step, but it has its limitations too. Comment.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 9,
+      "text": "'India is an age-old friend of Sri Lanka.' Discuss India's role in the recent crisis in Sri Lanka in the light of the preceding statement.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 10,
+      "text": "Do you think that BIMSTEC is a parallel organisation like the SAARC ? What are the similarities and dissimilarities between the two ? How are Indian foreign policy objectives realized by forming this new organisation ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 11,
+      "text": "Discuss the procedures to decide the disputes arising out of the election of a Member of the Parliament or State Legislature under The Representation of the People Act, 1951. What are the grounds on which the election of any returned candidate may be declared void ? What remedy is available to the aggrieved party against the decision ? Refer to the case laws.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 12,
+      "text": "Discuss the essential conditions for exercise of the legislative powers by the Governor. Discuss the legality of re-promulgation of ordinances by the Governor without placing them before the Legislature.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 13,
+      "text": "\"While the national political parties in India favour centralisation, the regional parties are in favour of State autonomy.\" Comment.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 14,
+      "text": "Critically examine the procedures through which the Presidents of India and France are elected.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 15,
+      "text": "Discuss the role of the Election Commission of India in the light of the evolution of the Model Code of Conduct.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 16,
+      "text": "Besides the welfare schemes, India needs deft management of inflation and unemployment to serve the poor and the underprivileged sections of the society. Discuss.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 17,
+      "text": "Do you agree with the view that increasing dependence on donor agencies for development reduces the importance of community participation in the development process ? Justify your answer.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 18,
+      "text": "The Right of Children to Free and Compulsory Education Act, 2009 remains inadequate in promoting incentive-based system for children's education without generating awareness about the importance of schooling. Analyse.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 19,
+      "text": "How will I2U2 (India, Israel, UAE and USA) grouping transform India's position in global politics ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 20,
+      "text": "'Clean energy is the order of the day.' Describe briefly India's changing policy towards climate change in various international fora in the context of geopolitics.",
+      "marks": 15,
+      "wordLimit": 250
+    }
+  ]
+}

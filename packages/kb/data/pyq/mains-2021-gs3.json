@@ -1,0 +1,128 @@
+{
+  "exam": "mains",
+  "paper": "gs3",
+  "year": 2021,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP-CSM-21-GENSTUDIESPAPER-III-110122.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Explain the difference between computing methodology of India's Gross Domestic Product (GDP) before the year 2015 and after the year 2015.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 2,
+      "text": "Distinguish between Capital Budget and Revenue Budget. Explain the components of both these Budgets.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 3,
+      "text": "How did land reforms in some parts of the country help to improve the socio-economic conditions of marginal and small farmers ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 4,
+      "text": "How and to what extent would micro-irrigation help in solving India's water crisis ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 5,
+      "text": "How is S-400 air defence system technically superior to any other system presently available in the world ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 6,
+      "text": "Explain the purpose of the Green Grid Initiative launched at World Leaders Summit of the COP26 UN Climate Change Conference in Glasgow in November, 2021. When was this idea first floated in the International Solar Alliance (ISA) ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 7,
+      "text": "Describe the key points of the revised Global Air Quality Guidelines (AQGs) recently released by the World Health Organisation (WHO). How are these different from its last update in 2005 ? What changes in India's National Clean Air Programme are required to achieve these revised standards ?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 8,
+      "text": "Discuss about the vulnerability of India to earthquake related hazards. Give examples including the salient features of major disasters caused by earthquakes in different parts of India during the last three decades.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 9,
+      "text": "Discuss how emerging technologies and globalisation contribute to money laundering. Elaborate measures to tackle the problem of money laundering both at national and international levels.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 10,
+      "text": "Keeping in view India's internal security, analyse the impact of cross-border cyber attacks. Also discuss defensive measures against these sophisticated attacks.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 11,
+      "text": "Do you agree that the Indian economy has recently experienced V-shaped recovery ? Give reasons in support of your answer.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 12,
+      "text": "\"Investment in infrastructure is essential for more rapid and inclusive economic growth.\" Discuss in the light of India's experience.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 13,
+      "text": "What are the salient features of the National Food Security Act, 2013 ? How has the Food Security Bill helped in eliminating hunger and malnutrition in India ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 14,
+      "text": "What are the present challenges before crop diversification ? How do emerging technologies provide an opportunity for crop diversification ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 15,
+      "text": "What are the research and developmental achievements in applied biotechnology ? How will these achievements help to uplift the poorer sections of the society ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 16,
+      "text": "The Nobel Prize in Physics of 2014 was jointly awarded to Akasaki, Amano and Nakamura for the invention of Blue LEDs in 1990s. How has this invention impacted the everyday life of human beings ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 17,
+      "text": "Describe the major outcomes of the 26th session of the Conference of the Parties (COP) to the United Nations Framework Convention on Climate Change (UNFCCC). What are the commitments made by India in this conference ?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 18,
+      "text": "Describe the various causes and the effects of landslides. Mention the important components of the National Landslide Risk Management Strategy.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 19,
+      "text": "Analyse the multidimensional challenges posed by external state and non-state actors, to the internal security of India. Also discuss measures required to be taken to combat these threats.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 20,
+      "text": "Analyse the complexity and intensity of terrorism, its causes, linkages and obnoxious nexus. Also suggest measures required to be taken to eradicate the menace of terrorism.",
+      "marks": 15,
+      "wordLimit": 250
+    }
+  ]
+}

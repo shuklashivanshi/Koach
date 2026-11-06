@@ -1,0 +1,128 @@
+{
+  "exam": "mains",
+  "paper": "gs1",
+  "year": 2020,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Gen_St_P1.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "The rock-cut architecture represents one of the most important sources of our knowledge of early Indian art and history. Discuss.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 2,
+      "text": "Pala period is the most significant phase in the history of Buddhism in India. Enumerate.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 3,
+      "text": "Evaluate the policies of Lord Curzon and their long term implications on the national movement.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 4,
+      "text": "Discuss the geophysical characteristics of Circum-Pacific Zone.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 5,
+      "text": "The process of desertification does not have climatic boundaries. Justify with examples.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 6,
+      "text": "How will the melting of Himalayan glaciers have a far-reaching impact on the water resources of India?",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 7,
+      "text": "Account for the present location of iron and steel industries away from the source of raw material, by giving examples.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 8,
+      "text": "Has caste lost its relevance in understanding the multi-cultural Indian Society? Elaborate your answer with illustrations.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 9,
+      "text": "COVID-19 pandemic accelerated class inequalities and poverty in India. Comment.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 10,
+      "text": "Do you agree that regionalism in India appears to be a consequence of rising cultural assertiveness? Argue.",
+      "marks": 10,
+      "wordLimit": 150
+    },
+    {
+      "number": 11,
+      "text": "Indian philosophy and tradition played a significant role in conceiving and shaping the monuments and their art in India. Discuss.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 12,
+      "text": "Persian literary sources of medieval India reflect the spirit of the age. Comment.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 13,
+      "text": "Since the decade of the 1920s, the national movement acquired various ideological strands and thereby expanded its social base. Discuss.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 14,
+      "text": "The interlinking of rivers can provide viable solutions to the multi-dimensional inter-related problems of droughts, floods and interrupted navigation. Critically examine.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 15,
+      "text": "Account for the huge flooding of million cities in India including the smart ones like Hyderabad and Pune. Suggest lasting remedial measures.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 16,
+      "text": "India has immense potential of solar energy though there are regional variations in its development. Elaborate.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 17,
+      "text": "Examine the status of forest resources of India and its resultant impact on climate change.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 18,
+      "text": "Is diversity and pluralism in India under threat due to globalisation? Justify your answer.",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 19,
+      "text": "Customs and traditions suppress reason leading to obscurantism. Do you agree?",
+      "marks": 15,
+      "wordLimit": 250
+    },
+    {
+      "number": 20,
+      "text": "How have digital initiatives in India contributed to the functioning of the education system in the country? Elaborate your answer.",
+      "marks": 15,
+      "wordLimit": 250
+    }
+  ]
+}

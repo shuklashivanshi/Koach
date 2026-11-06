@@ -144,8 +144,8 @@
       "exam": "mains",
       "paper": "gs2",
       "year": 2019,
-      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-PolScIR-II.pdf",
-      "file": "raw/papers/92e2ea4a73848897.pdf"
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-II.pdf",
+      "file": "raw/papers/dd4cb97027ae3f53.pdf"
     },
     {
       "exam": "mains",
@@ -256,8 +256,8 @@
       "exam": "mains",
       "paper": "gs2",
       "year": 2023,
-      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-POL-SC-IR-PAPER-II-29092023.pdf",
-      "file": "raw/papers/a2c13b046b617320.pdf"
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-II-180923.pdf",
+      "file": "raw/papers/af1e31cbee687da3.pdf"
     },
     {
       "exam": "mains",
@@ -284,8 +284,8 @@
       "exam": "mains",
       "paper": "gs2",
       "year": 2024,
-      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-24-PUBLIC-ADMINISTRATION-PAPER-I-031024.pdf",
-      "file": "raw/papers/ab5d2cc13369f730.pdf"
+      "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_II_03102024.pdf",
+      "file": "raw/papers/9c1477ed8bc8c605.pdf"
     },
     {
       "exam": "mains",
@@ -312,8 +312,8 @@
       "exam": "mains",
       "paper": "gs2",
       "year": 2025,
-      "url": "https://www.upsc.gov.in/sites/default/files/PUBLIC-ADMINISTRATION-PAPER-II-QP-CSM-25-010925.pdf",
-      "file": "raw/papers/eea3e582a18d9bb1.pdf"
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-II-QP-CSM-25-010925.pdf",
+      "file": "raw/papers/106b79175afddeca.pdf"
     },
     {
       "exam": "mains",
@@ -381,6 +381,13 @@
     {
       "exam": "prelims",
       "paper": "gs1",
+      "year": 2017,
+      "url": "https://www.upsc.gov.in/sites/default/files/CSP-17-GS_PAPER-1-C.pdf",
+      "file": "raw/papers/9b4797e46d822fbb.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
       "year": 2018,
       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-18-GS-I-C.pdf",
       "file": "raw/papers/f5108a98484b2a06.pdf"
@@ -416,6 +423,13 @@
     {
       "exam": "prelims",
       "paper": "gs1",
+      "year": 2023,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP_CS_Pre_Exam_2023_280523.pdf",
+      "file": "raw/papers/f414e52fcdf37805.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
       "year": 2024,
       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-24-GENERAL-STUDIES-PAPER-I-180624.pdf",
       "file": "raw/papers/642959cc80817dff.pdf"
@@ -432,9 +446,7 @@
       "paper": "gs1",
       "year": 2026,
       "url": "https://www.upsc.gov.in/sites/default/files/QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf",
-      "file": "raw/papers/3fc06ce9e370061e.pdf",
-      "answerKeyUrl": "https://www.upsc.gov.in/sites/default/files/CGSP-2026-AnsKey-GeneralStudiesPaper-I-041126.pdf",
-      "answerKeyFile": "raw/papers/65a2209cfb0cdb89.pdf"
+      "file": "raw/papers/3fc06ce9e370061e.pdf"
     }
   ]
 }

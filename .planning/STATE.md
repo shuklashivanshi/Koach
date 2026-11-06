@@ -20,12 +20,11 @@ See: .planning/PROJECT.md (updated 2026-11-05)
 
 ## Current Position
 
-Phase: 1 of 13 (Foundation & GCP Deploy)
-Plan: 6 of 7 complete (01-07 Android build deferred by user choice)
-Status: Phase 1 platform done; ready to plan Phase 2
-Last activity: 2026-11-06: koach-dev live (verify 28/28, smoke 11/11); push-to-main deploys; app runs on web against a local API (`pnpm dev`)
+Phase: 7 of 7 in milestone v1.0 (all phases built; data jobs finishing)
+Status: v1.0 features built and tested locally on web; Phase 2 PYQ data (extraction → tagging) and optional data still running; not yet deployed (push to main needs the user's go-ahead)
+Last activity: 2026-11-06: Phases 2–7 executed; 127 Vitest + 14 Jest green
 
-Progress: [█████████░] Phase 1 done except the deferred device build
+Progress: [█████████░] v1.0 built; remaining: PYQ bank + tags, optional profiles/stats, tag audit by the user, deploy
 
 ## Performance Metrics
 
@@ -57,6 +56,10 @@ Recent decisions affecting current work:
 - [Planning]: App push only; Mains answers by photo or typing; no optional taster test; no generated music
 - [Phase 1 planning]: Android first; Google + email code (Resend); Node 24; Expo SDK 58; koach-dev only; ₹2,000 budget
 - [Phase 1]: Test on web + localhost first; the Android build and device check (01-07) come later
+- [Phase 2]: PYQs from upsc.gov.in PDFs; reviewer = user via admin page; ~825 GS nodes; strategy KB seeded (86 claims)
+- [Phase 2]: Official Prelims answer keys are not on upsc.gov.in for most years → answers are AI-solved twice and kept only when both agree, marked "model" (never shown as official)
+- [Phase 3]: Learning Pattern Test after onboarding (Today card); spoken answers via Chirp (chirp_2 in asia-southeast1; asia-south1 has none for en-IN)
+- [Phase 4]: Reminders via Web Push now (FCM later); Cloud Scheduler drives reminders every 15 min and CA ingest at 05:30 IST
 - [Phase 1]: bulk/embed Gemini tiers use the global endpoint (not served in asia-south1); lite + TTS stay in asia-south1
 - [Review]: Requirement IDs renumbered (MEM→LPT, ELEC→OPT, CUE and KB reordered); PROJECT.md declared the source of truth
 

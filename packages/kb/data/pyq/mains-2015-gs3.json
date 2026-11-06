@@ -1,0 +1,128 @@
+{
+  "exam": "mains",
+  "paper": "gs3",
+  "year": 2015,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/GS111.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "The nature of economic growth in India in recent times is often described as jobless growth. Do you agree with this view ? Give arguments in favour of your answer.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 2,
+      "text": "Livestock rearing has a big potential for providing non-farm employment and income in rural areas. Discuss suggesting suitable measures to promote this sector in India.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 3,
+      "text": "In view of the declining average size of land holdings in India which has made agriculture non-viable for a majority of farmers, should contract farming and land leasing be promoted in agriculture ? Critically evaluate the pros and cons.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 4,
+      "text": "How can the ‘Digital India’ programme help farmers to improve farm productivity and income ? What steps has the Government taken in this regard ?",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 5,
+      "text": "In what way could replacement of price subsidy with Direct Benefit Transfer (DBT) change the scenario of subsidies in India ? Discuss.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 6,
+      "text": "What are the impediments in marketing and supply chain management in developing the food processing industry in India ? Can e-commerce help in overcoming these bottlenecks ?",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 7,
+      "text": "Craze for gold in Indians has led to a surge in import of gold in recent years and put pressure on balance of payments and external value of rupee. In view of this, examine the merits of the Gold Monetization Scheme.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 8,
+      "text": "“Success of ‘Make in India’ programme depends on the success of ‘Skill India’ programme and radical labour reforms.” Discuss with logical arguments.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 9,
+      "text": "To what factors can the recent dramatic fall in equipment costs and tariff of solar energy be attributed ? What implications does the trend have for the thermal power producers and the related industry ?",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 10,
+      "text": "There is a clear acknowledgement that Special Economic Zones (SEZs) are a tool of industrial development, manufacturing and exports. Recognizing this potential, the whole instrumentality of SEZs requires augmentation. Discuss the issues plaguing the success of SEZs with respect to taxation, governing laws and administration.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 11,
+      "text": "What do you understand by ‘Standard Positioning Systems’ and ‘Precision Positioning Systems’ in the GPS era ? Discuss the advantages India perceives from its ambitious IRNSS programme employing just seven satellites.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 12,
+      "text": "What are the areas of prohibitive labour that can be sustainably managed by robots ? Discuss the initiatives that can propel research in premier research institutes for substantive and gainful innovation.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 13,
+      "text": "Discuss the advantages and security implications of cloud hosting of servers vis-a-vis in-house machine-based hosting for government businesses.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 14,
+      "text": "India’s Traditional Knowledge Digital Library (TKDL), which has a database containing formatted information on more than 2 million medicinal formulations is proving a powerful weapon in the country’s fight against erroneous patents. Discuss the pros and cons of making this database publicly available under open-source licensing.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 15,
+      "text": "Discuss the Namami Gange and National Mission for Clean Ganga (NMCG) programmes and causes of mixed results from the previous schemes. What quantum leaps can help preserve the river Ganga better than incremental inputs ?",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 16,
+      "text": "The frequency of earthquakes appears to have increased in the Indian subcontinent. However, India’s preparedness for mitigating their impact has significant gaps. Discuss various aspects.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 17,
+      "text": "Human rights activists constantly highlight the view that the Armed Forces (Special Powers) Act, 1958 (AFSPA) is a draconian act leading to cases of human rights abuses by the security forces. What sections of AFSPA are opposed by the activists ? Critically evaluate the requirement with reference to the view held by the Apex Court.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 18,
+      "text": "Religious indoctrination via digital media has resulted in Indian youth joining the ISIS. What is ISIS and its mission ? How can ISIS be dangerous for the internal security of our country ?",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 19,
+      "text": "The persisting drives of the Government for development of large industries in backward areas have resulted in isolating the tribal population and the farmers who face multiple displacements. With Malkangiri and Naxalbari foci, discuss the corrective strategies needed to win the Left Wing Extremism (LWE) doctrine affected citizens back into the mainstream of social and economic growth.",
+      "marks": 12,
+      "wordLimit": 200
+    },
+    {
+      "number": 20,
+      "text": "Considering the threats cyberspace poses for the country, India needs a “Digital Armed Force” to prevent crimes. Critically evaluate the National Cyber Security Policy, 2013 outlining the challenges perceived in its effective implementation.",
+      "marks": 12,
+      "wordLimit": 200
+    }
+  ]
+}

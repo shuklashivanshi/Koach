@@ -1,0 +1,588 @@
+{
+  "profiles": {
+    "agriculture": {
+      "name": "Agriculture",
+      "backgrounds": [
+        "agriculture",
+        "science"
+      ],
+      "interests": [
+        "life sciences",
+        "environment",
+        "economy",
+        "geography"
+      ],
+      "reading": {
+        "theory": 0.75,
+        "data": 0.65,
+        "narratives": 0.2,
+        "debates": 0.3
+      },
+      "answer": {
+        "analytical": 0.6,
+        "factual": 0.85,
+        "diagrams": 0.75,
+        "numericals": 0.15
+      },
+      "materials": 0.75,
+      "hours": 380,
+      "books": [
+        "Principles of Agronomy by S.R. Reddy",
+        "Plant Breeding: Principles and Methods by B.D. Singh",
+        "Introductory Soil Science by D.K. Das",
+        "Plant Physiology by S.N. Pandey and B.K. Sinha"
+      ],
+      "summary": "Agriculture is an applied and heavily factual science optional that blends core biological disciplines like genetics and physiology with field-oriented topics such as agronomy, soil science, and rural farm economics.",
+      "topics": 17,
+      "gsOverlap": 1,
+      "overlapSections": [
+        "essay.technology-economy-and-environment",
+        "gs3.agriculture",
+        "gs3.environment-biodiversity",
+        "gs1.economic-and-human-geography",
+        "gs1.physical-geography",
+        "gs3.indian-economy",
+        "gs2.social-justice-and-welfare",
+        "prelims_gs1.general-science-biology",
+        "gs3.science-technology"
+      ]
+    },
+    "animal-husbandry-and-veterinary-science": {
+      "name": "Animal Husbandry and Veterinary Science",
+      "backgrounds": [
+        "medicine",
+        "agriculture",
+        "science"
+      ],
+      "interests": [
+        "life sciences",
+        "environment"
+      ],
+      "reading": {
+        "theory": 0.8,
+        "data": 0.5,
+        "narratives": 0.1,
+        "debates": 0.1
+      },
+      "answer": {
+        "analytical": 0.3,
+        "factual": 0.9,
+        "diagrams": 0.8,
+        "numericals": 0.2
+      },
+      "materials": 0.6,
+      "hours": 450,
+      "books": [
+        "Principles of Animal Nutrition and Feed Technology by D.V. Reddy",
+        "Textbook of Animal Husbandry by G.C. Banerjee",
+        "Animal Physiology by William O. Reece",
+        "Veterinary Medicine by D.C. Blood and O.M. Radostits"
+      ],
+      "summary": "Animal Husbandry and Veterinary Science is a highly technical, fact-intensive discipline that rewards candidates with a relevant biological or veterinary background through precise, diagram-rich, and objective answers.",
+      "topics": 11,
+      "gsOverlap": 0.82,
+      "overlapSections": [
+        "prelims_gs1.general-science-biology",
+        "gs3.agriculture",
+        "gs3.science-technology",
+        "gs2.social-justice-and-welfare"
+      ]
+    },
+    "anthropology": {
+      "name": "Anthropology",
+      "backgrounds": [
+        "medicine",
+        "science",
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "society",
+        "life sciences",
+        "history",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.8,
+        "data": 0.5,
+        "narratives": 0.7,
+        "debates": 0.6
+      },
+      "answer": {
+        "analytical": 0.75,
+        "factual": 0.8,
+        "diagrams": 0.7,
+        "numericals": 0.1
+      },
+      "materials": 0.95,
+      "hours": 350,
+      "books": [
+        "Anthropology by Carol R. Ember, Melvin Ember, and Peter N. Peregrine",
+        "An Introduction to Social Anthropology by D.N. Majumdar and T.N. Madan",
+        "Physical Anthropology by P. Nath",
+        "Indian Anthropology by Nadeem Hasnain",
+        "Tribal India by Nadeem Hasnain"
+      ],
+      "summary": "Anthropology bridges biological sciences and socio-cultural studies, offering a structured, diagram-friendly, and well-resourced syllabus centered on human evolution, society, and Indian tribal dynamics.",
+      "topics": 21,
+      "gsOverlap": 0.57,
+      "overlapSections": [
+        "gs1.indian-society",
+        "prelims_gs1.general-science-biology",
+        "gs2.social-justice-and-welfare",
+        "gs1.economic-and-human-geography",
+        "gs1.art-and-culture",
+        "prelims_gs1.ancient-indian-history",
+        "essay.governance-society-and-development",
+        "gs2.indian-constitution-and-polity",
+        "gs3.internal-security",
+        "gs2.governance-and-public-administration"
+      ]
+    },
+    "botany": {
+      "name": "Botany",
+      "backgrounds": [
+        "science",
+        "agriculture"
+      ],
+      "interests": [
+        "life sciences",
+        "environment"
+      ],
+      "reading": {
+        "theory": 0.85,
+        "data": 0.4,
+        "narratives": 0.15,
+        "debates": 0.1
+      },
+      "answer": {
+        "analytical": 0.5,
+        "factual": 0.9,
+        "diagrams": 0.95,
+        "numericals": 0.15
+      },
+      "materials": 0.8,
+      "hours": 450,
+      "books": [
+        "Plant Physiology by Lincoln Taiz and Eduardo Zeiger",
+        "Plant Pathology by P.D. Sharma",
+        "A Textbook of Botany by Singh, Pande and Jain",
+        "Economic Botany by S.L. Kochhar"
+      ],
+      "summary": "Botany is an objective and diagram-intensive biological science optional that rewards strong factual recall, clear morphological understanding, and consistent practice with scientific illustrations.",
+      "topics": 10,
+      "gsOverlap": 1,
+      "overlapSections": [
+        "gs3.agriculture",
+        "gs3.science-technology",
+        "prelims_gs1.general-science-biology",
+        "gs3.environment-biodiversity",
+        "essay.technology-economy-and-environment",
+        "gs1.physical-geography"
+      ]
+    },
+    "chemistry": {
+      "name": "Chemistry",
+      "backgrounds": [
+        "science",
+        "engineering"
+      ],
+      "interests": [
+        "physical sciences",
+        "mathematics"
+      ],
+      "reading": {
+        "theory": 0.85,
+        "data": 0.4,
+        "narratives": 0.05,
+        "debates": 0.05
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.7,
+        "diagrams": 0.85,
+        "numericals": 0.75
+      },
+      "materials": 0.85,
+      "hours": 550,
+      "books": [
+        "Principles of Physical Chemistry by B.R. Puri, L.R. Sharma, and M.S. Pathania",
+        "Concise Inorganic Chemistry by J.D. Lee",
+        "Organic Chemistry by Jonathan Clayden, Nick Greeves, and Stuart Warren",
+        "A Guidebook to Mechanism in Organic Chemistry by Peter Sykes"
+      ],
+      "summary": "Chemistry is a rigorous, objective optional requiring mastery over mathematical problem-solving in physical chemistry, structural trends in inorganic chemistry, and precise reaction mechanisms in organic chemistry.",
+      "topics": 22,
+      "gsOverlap": 0.27,
+      "overlapSections": [
+        "prelims_gs1.general-science-physics-chemistry",
+        "gs3.science-technology",
+        "prelims_gs1.general-science-biology"
+      ]
+    },
+    "civil-engineering": {
+      "name": "Civil Engineering",
+      "backgrounds": [
+        "engineering"
+      ],
+      "interests": [
+        "technology",
+        "physical sciences",
+        "mathematics",
+        "environment"
+      ],
+      "reading": {
+        "theory": 0.65,
+        "data": 0.45,
+        "narratives": 0.05,
+        "debates": 0.05
+      },
+      "answer": {
+        "analytical": 0.85,
+        "factual": 0.4,
+        "diagrams": 0.85,
+        "numericals": 0.9
+      },
+      "materials": 0.85,
+      "hours": 550,
+      "books": [
+        "Strength of Materials by S. Ramamrutham and R. Narayanan",
+        "Basic and Applied Soil Mechanics by Gopal Ranjan and A.S.R. Rao",
+        "Limit State Design of Reinforced Concrete by P.C. Varghese",
+        "Hydraulics and Fluid Mechanics Including Hydraulics Machines by P.N. Modi and S.M. Seth"
+      ],
+      "summary": "Civil Engineering is an exhaustive, calculation-driven optional that heavily rewards methodical numerical problem-solving, structural design skills, and clear technical drafting.",
+      "topics": 9,
+      "gsOverlap": 0.33,
+      "overlapSections": [
+        "gs1.physical-geography",
+        "gs3.agriculture",
+        "gs3.disaster-management",
+        "gs3.environment-biodiversity",
+        "essay.technology-economy-and-environment"
+      ]
+    },
+    "commerce-and-accountancy": {
+      "name": "Commerce and Accountancy",
+      "backgrounds": [
+        "commerce",
+        "management"
+      ],
+      "interests": [
+        "economy",
+        "management",
+        "law"
+      ],
+      "reading": {
+        "theory": 0.75,
+        "data": 0.6,
+        "narratives": 0.2,
+        "debates": 0.35
+      },
+      "answer": {
+        "analytical": 0.7,
+        "factual": 0.75,
+        "diagrams": 0.5,
+        "numericals": 0.75
+      },
+      "materials": 0.85,
+      "hours": 450,
+      "books": [
+        "Financial Management: Theory and Practice by Prasanna Chandra",
+        "Cost Accounting: Principles and Practice by M.N. Arora",
+        "Organizational Behaviour by Stephen P. Robbins",
+        "Human Resource Management by K. Aswathappa"
+      ],
+      "summary": "Commerce and Accountancy is a structured, scoring subject that pairs technical problem-solving in accounting, taxation, and finance with conceptual frameworks in organizational management.",
+      "topics": 10,
+      "gsOverlap": 0.7,
+      "overlapSections": [
+        "gs3.indian-economy",
+        "gs3.industry-infrastructure",
+        "gs2.governance-and-public-administration",
+        "gs4.attitude",
+        "gs4.civil-service-aptitude-and-values",
+        "gs4.emotional-intelligence",
+        "gs2.social-justice-and-welfare"
+      ]
+    },
+    "economics": {
+      "name": "Economics",
+      "backgrounds": [
+        "economics",
+        "commerce"
+      ],
+      "interests": [
+        "economy",
+        "mathematics",
+        "statistics",
+        "history"
+      ],
+      "reading": {
+        "theory": 0.85,
+        "data": 0.7,
+        "narratives": 0.45,
+        "debates": 0.75
+      },
+      "answer": {
+        "analytical": 0.9,
+        "factual": 0.65,
+        "diagrams": 0.85,
+        "numericals": 0.25
+      },
+      "materials": 0.85,
+      "hours": 500,
+      "books": [
+        "Advanced Economic Theory by H.L. Ahuja",
+        "Macroeconomics: Theories and Policies by Richard T. Froyen",
+        "International Economics by Dominick Salvatore",
+        "Economic Growth and Development by Debraj Ray",
+        "Indian Economy: Performance and Policies by Uma Kapila"
+      ],
+      "summary": "Economics pairs rigorous theoretical modeling and diagrammatic analysis in Paper 1 with an empirical, policy-oriented assessment of India's historical and contemporary economic development in Paper 2.",
+      "topics": 8,
+      "gsOverlap": 0.88,
+      "overlapSections": [
+        "gs3.indian-economy",
+        "gs2.international-relations",
+        "essay.technology-economy-and-environment",
+        "gs2.social-justice-and-welfare",
+        "gs1.modern-history",
+        "gs1.post-independence",
+        "gs3.agriculture",
+        "gs3.industry-infrastructure"
+      ]
+    },
+    "electrical-engineering": {
+      "name": "Electrical Engineering",
+      "backgrounds": [
+        "engineering"
+      ],
+      "interests": [
+        "technology",
+        "mathematics",
+        "physical sciences"
+      ],
+      "reading": {
+        "theory": 0.7,
+        "data": 0.2,
+        "narratives": 0,
+        "debates": 0
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.3,
+        "diagrams": 0.8,
+        "numericals": 0.9
+      },
+      "materials": 0.8,
+      "hours": 600,
+      "books": [
+        "Electric Machinery by P.S. Bimbhra",
+        "Modern Control Engineering by Katsuhiko Ogata",
+        "Power System Engineering by I.J. Nagrath and D.P. Kothari",
+        "Signals and Systems by Alan V. Oppenheim, Alan S. Willsky, and S. Hamid Nawab"
+      ],
+      "summary": "A technical and calculation-intensive optional characterized by an objective scoring pattern that demands rigorous mathematical derivation, circuit diagramming, and numerical problem-solving.",
+      "topics": 14,
+      "gsOverlap": 0,
+      "overlapSections": []
+    },
+    "geography": {
+      "name": "Geography",
+      "backgrounds": [
+        "science",
+        "humanities",
+        "agriculture"
+      ],
+      "interests": [
+        "geography",
+        "environment",
+        "physical sciences",
+        "society",
+        "economy"
+      ],
+      "reading": {
+        "theory": 0.85,
+        "data": 0.65,
+        "narratives": 0.4,
+        "debates": 0.55
+      },
+      "answer": {
+        "analytical": 0.8,
+        "factual": 0.75,
+        "diagrams": 0.95,
+        "numericals": 0.05
+      },
+      "materials": 0.95,
+      "hours": 450,
+      "books": [
+        "Physical Geography by Savindra Singh",
+        "Models in Geography by Majid Husain",
+        "Evolution of Geographical Thought by Majid Husain",
+        "India: A Comprehensive Geography by D.R. Khullar"
+      ],
+      "summary": "Geography bridges earth sciences and spatial socio-economic planning, demanding systematic conceptual clarity alongside extensive mapwork and diagrammatic representation.",
+      "topics": 20,
+      "gsOverlap": 0.9,
+      "overlapSections": [
+        "gs1.physical-geography",
+        "gs1.economic-and-human-geography",
+        "gs3.environment-biodiversity",
+        "essay.technology-economy-and-environment",
+        "gs3.indian-economy",
+        "gs1.indian-society",
+        "gs3.industry-infrastructure",
+        "gs3.agriculture",
+        "gs3.science-technology",
+        "gs2.social-justice-and-welfare",
+        "gs2.indian-constitution-and-polity",
+        "gs3.internal-security",
+        "gs3.disaster-management"
+      ]
+    },
+    "geology": {
+      "name": "Geology",
+      "backgrounds": [
+        "science",
+        "engineering"
+      ],
+      "interests": [
+        "physical sciences",
+        "geography",
+        "environment",
+        "life sciences"
+      ],
+      "reading": {
+        "theory": 0.8,
+        "data": 0.6,
+        "narratives": 0.3,
+        "debates": 0.1
+      },
+      "answer": {
+        "analytical": 0.6,
+        "factual": 0.85,
+        "diagrams": 0.95,
+        "numericals": 0.2
+      },
+      "materials": 0.75,
+      "hours": 450,
+      "books": [
+        "A Textbook of Geology by P.K. Mukherjee",
+        "Principals of Engineering Geology by K.M. Bangar",
+        "Structural Geology by Marland P. Billings",
+        "Economic Geology: Economic Mineral Deposits by Umeshwar Prasad"
+      ],
+      "summary": "Geology is a structured, highly objective earth-science optional that demands precise factual recall, spatial visualization, and extensive use of neat geological sketches and maps.",
+      "topics": 12,
+      "gsOverlap": 0.83,
+      "overlapSections": [
+        "gs1.physical-geography",
+        "gs3.disaster-management",
+        "gs3.science-technology",
+        "gs3.industry-infrastructure",
+        "gs1.economic-and-human-geography",
+        "gs3.environment-biodiversity"
+      ]
+    },
+    "history": {
+      "name": "History",
+      "backgrounds": [
+        "humanities",
+        "any"
+      ],
+      "interests": [
+        "history",
+        "society",
+        "politics",
+        "philosophy"
+      ],
+      "reading": {
+        "theory": 0.4,
+        "data": 0.2,
+        "narratives": 0.9,
+        "debates": 0.8
+      },
+      "answer": {
+        "analytical": 0.75,
+        "factual": 0.85,
+        "diagrams": 0.4,
+        "numericals": 0
+      },
+      "materials": 0.95,
+      "hours": 550,
+      "books": [
+        "A History of Ancient and Early Medieval India by Upinder Singh",
+        "History of Medieval India by Satish Chandra",
+        "From Plassey to Partition and After: A History of Modern India by Sekhar Bandyopadhyay",
+        "Mastering Modern World History by Norman Lowe"
+      ],
+      "summary": "History is a vast, narrative-driven optional that requires synthesizing diverse historiographical perspectives, memorizing extensive factual chronologies, and mastering historical map pointing.",
+      "topics": 51,
+      "gsOverlap": 1,
+      "overlapSections": [
+        "gs1.art-and-culture",
+        "prelims_gs1.ancient-indian-history",
+        "prelims_gs1.medieval-indian-history",
+        "gs1.modern-history",
+        "gs2.indian-constitution-and-polity",
+        "gs4.moral-thinkers-and-philosophers",
+        "gs1.post-independence",
+        "gs1.indian-society",
+        "gs3.indian-economy",
+        "gs1.world-history"
+      ]
+    },
+    "law": {
+      "name": "Law",
+      "backgrounds": [
+        "law"
+      ],
+      "interests": [
+        "law",
+        "politics",
+        "society"
+      ],
+      "reading": {
+        "theory": 0.8,
+        "data": 0.2,
+        "narratives": 0.4,
+        "debates": 0.8
+      },
+      "answer": {
+        "analytical": 0.85,
+        "factual": 0.8,
+        "diagrams": 0.15,
+        "numericals": 0
+      },
+      "materials": 0.85,
+      "hours": 480,
+      "books": [
+        "Indian Constitutional Law by M.P. Jain",
+        "Public International Law by S.K. Kapoor",
+        "PSA Pillai's Criminal Law by K.I. Vibhute",
+        "Law of Contract & Specific Relief by Avtar Singh",
+        "The Law of Torts by Ratanlal and Dhirajlal"
+      ],
+      "summary": "Studying Law demands rigorous retention of statutory provisions, landmark case laws, and legal doctrines, paired with analytical precision to resolve complex constitutional, international, and civil disputes.",
+      "topics": 81,
+      "gsOverlap": 0.58,
+      "overlapSections": [
+        "gs2.indian-constitution-and-polity",
+        "gs2.social-justice-and-welfare",
+        "gs2.organs-of-state",
+        "gs2.governance-and-public-administration",
+        "gs2.constitutional-and-statutory-bodies",
+        "gs4.public-service-ethics-and-governance",
+        "gs4.probity-in-governance-and-anti-corruptio",
+        "gs2.international-relations",
+        "gs3.internal-security",
+        "gs3.indian-economy",
+        "gs3.environment-biodiversity",
+        "gs4.applied-ethics-and-case-studies",
+        "gs1.indian-society",
+        "gs3.science-technology"
+      ]
+    }
+  }
+}
