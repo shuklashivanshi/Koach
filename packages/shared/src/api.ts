@@ -55,6 +55,24 @@ export const ExportBundleSchema = z.object({
       createdAt: z.iso.datetime({ offset: true }),
     }),
   ),
+  /** Onboarding profile, starting levels, diagnostic attempts and learning-pattern results. */
+  learner: z.object({
+    profile: z.record(z.string(), z.unknown()).nullable(),
+    levels: z.array(z.object({ sectionId: z.string(), level: z.number(), source: z.string() })),
+    diagnostics: z.array(
+      z.object({ score: z.number().int(), createdAt: z.iso.datetime({ offset: true }) }),
+    ),
+    learningPatterns: z.array(
+      z.object({
+        form: z.string(),
+        visual: z.number(),
+        auditory: z.number(),
+        readwrite: z.number(),
+        kinesthetic: z.number(),
+        takenAt: z.iso.datetime({ offset: true }),
+      }),
+    ),
+  }),
   storageObjects: z.array(z.string()),
 });
 export type ExportBundle = z.infer<typeof ExportBundleSchema>;

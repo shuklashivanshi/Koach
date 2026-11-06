@@ -19,6 +19,8 @@ const OUT = join(ROOT, 'data', 'pyq');
 const REPORT = join(ROOT, 'data', 'pyq-report.json');
 
 const Chunk = z.object({
+  /** Title printed on these pages, if any; used to reject a mislabelled paper. */
+  paperTitle: z.string().optional(),
   series: z.string().optional(),
   questions: z.array(
     z.object({
@@ -46,12 +48,13 @@ Studies Paper I booklet. It is bilingual: copy only the ENGLISH version.
 Return every question whose number appears on these pages, with its full English text (all
 statements, lists and tables written out as plain text) and the four options keyed a–d exactly as
 printed. If a question is cut off at the page edge, return what is visible. Ignore instructions and
-rough-work pages. series = the Test Booklet Series letter if it is printed on these pages.`;
+rough-work pages. series = the Test Booklet Series letter if it is printed on these pages.
+paperTitle = the paper title if printed on these pages.`;
 
 const MAINS_PROMPT = `This is an official UPSC Civil Services (Main) Examination General Studies
 question paper. Copy only the ENGLISH version of each question, numbered 1..N in paper order (if the
 paper uses sub-parts like 1(a), number them sequentially in order). Include marks and the word limit
-when printed. Skip instructions.`;
+when printed. Skip instructions. paperTitle = the paper title as printed on the first page.`;
 
 async function pageCount(file: string) {
   return (await PDFDocument.load(await readFile(file), { ignoreEncryption: true })).getPageCount();
@@ -74,6 +77,9 @@ async function extractPaper(e: ManifestEntry): Promise<{ file: PyqFile; series?:
       prompt: e.exam === 'prelims' ? PRELIMS_PROMPT : MAINS_PROMPT,
     });
     series ??= res.data.series || undefined;
+    if (from === 0 && res.data.paperTitle && !/general\s*studies/i.test(res.data.paperTitle)) {
+      throw new Error(`not a General Studies paper: "${res.data.paperTitle}"`);
+    }
     for (const q of res.data.questions) {
       const prev = merged.get(q.number);
       // Keep the most complete copy (a question split across chunks appears twice).

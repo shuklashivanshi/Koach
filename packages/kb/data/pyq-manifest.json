@@ -1,0 +1,440 @@
+{
+  "papers": [
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2014,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL%20STUDIES-I%20%281%29.pdf",
+      "file": "raw/papers/30e30f24fa7ab05a.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2014,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL%20STUDIES-III.pdf",
+      "file": "raw/papers/912b2def3b6f96ff.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2014,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL%20STUDIES-IV.pdf",
+      "file": "raw/papers/4b72888d0ea31653.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2015,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS1.pdf",
+      "file": "raw/papers/139852dbdf17d3cc.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2015,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS11.pdf",
+      "file": "raw/papers/5b9c746617714635.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2015,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS111.pdf",
+      "file": "raw/papers/0aedf4bfe08b2d14.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2015,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS-IV.pdf",
+      "file": "raw/papers/04ab6e69ec125bc9.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2016,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS1_0.pdf",
+      "file": "raw/papers/cc29d954e8b89db2.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2016,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS2.pdf",
+      "file": "raw/papers/5fdab69c81bc2e5c.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2016,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS3.pdf",
+      "file": "raw/papers/6d5ddaf892eabf61.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2016,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS4.pdf",
+      "file": "raw/papers/13079cb2f01e8225.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2017,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS1_1.pdf",
+      "file": "raw/papers/162ebd07cadb7f63.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2017,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS2_0.pdf",
+      "file": "raw/papers/8e5f515975f0dc63.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2017,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS3_0.pdf",
+      "file": "raw/papers/ea0a61a2ad1f33af.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2017,
+      "url": "https://www.upsc.gov.in/sites/default/files/GS4_0.pdf",
+      "file": "raw/papers/b0366497c2cb93c7.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2018,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-I.pdf",
+      "file": "raw/papers/07c561485f2f17f7.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2018,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-II.pdf",
+      "file": "raw/papers/a9d272eaa61579a3.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2018,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-III.pdf",
+      "file": "raw/papers/14f27c1e2b9cadf5.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2018,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-IV.pdf",
+      "file": "raw/papers/3f888937ee93e8ae.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2019,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-I.pdf",
+      "file": "raw/papers/83559cab2413376f.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2019,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-PolScIR-II.pdf",
+      "file": "raw/papers/92e2ea4a73848897.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2019,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-III.pdf",
+      "file": "raw/papers/b71dac9eea547fc9.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2019,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-IV.pdf",
+      "file": "raw/papers/fb8cb0aab098aee1.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2020,
+      "url": "https://www.upsc.gov.in/sites/default/files/Gen_St_P1.pdf",
+      "file": "raw/papers/55645c31d7bc561f.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2020,
+      "url": "https://www.upsc.gov.in/sites/default/files/Gen_St_P2.pdf",
+      "file": "raw/papers/99f0654a4904ad83.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2020,
+      "url": "https://www.upsc.gov.in/sites/default/files/Gen_St_P3.pdf",
+      "file": "raw/papers/8d7e9504b6516567.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2020,
+      "url": "https://www.upsc.gov.in/sites/default/files/Gen_St_P4.pdf",
+      "file": "raw/papers/de5f2616e7138548.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2021,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-21-GENSTUDIESPAPER-I-110122.pdf",
+      "file": "raw/papers/83054012f0e9b90e.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2021,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-21-GENSTUDIESPAPER-II-110122.pdf",
+      "file": "raw/papers/e42fa31c7ac9ffc6.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2021,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-21-GENSTUDIESPAPER-III-110122.pdf",
+      "file": "raw/papers/1e7bad1a6c5e614e.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2021,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-21-GENSTUDIESPAPER-IV-110122.pdf",
+      "file": "raw/papers/a1da365a56fa4050.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2022,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-GENERAL-STUDIES-PAPER%20I-190922.pdf",
+      "file": "raw/papers/659d4028c0dd25d4.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2022,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-GENERAL-STUDIES-PAPER-II-190922.pdf",
+      "file": "raw/papers/229ba4b8bd3e2420.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2022,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-GENERAL-STUDIES-PAPER-III-190922.pdf",
+      "file": "raw/papers/b7da84a58e8f16b2.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2022,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-GENERAL-STUDIES-PAPER%20IV-190922.pdf",
+      "file": "raw/papers/95529145ae3de69f.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2023,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-I-180923.pdf",
+      "file": "raw/papers/7c3d3427b70b904e.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2023,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-POL-SC-IR-PAPER-II-29092023.pdf",
+      "file": "raw/papers/a2c13b046b617320.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2023,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-III-180923.pdf",
+      "file": "raw/papers/8302d19cb906cf1f.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2023,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-IV-180923.pdf",
+      "file": "raw/papers/eccc95ac0d9d0993.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2024,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_I_03102024.pdf",
+      "file": "raw/papers/4842ae8b81247698.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2024,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-24-PUBLIC-ADMINISTRATION-PAPER-I-031024.pdf",
+      "file": "raw/papers/ab5d2cc13369f730.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2024,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_III_03102024.pdf",
+      "file": "raw/papers/db1acde35b6dbbbf.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2024,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_IV_03102024.pdf",
+      "file": "raw/papers/0e8e46461a90ee38.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2025,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER%20I-QP-CSM-25-010925.pdf",
+      "file": "raw/papers/fccf2a487f3d3252.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2025,
+      "url": "https://www.upsc.gov.in/sites/default/files/PUBLIC-ADMINISTRATION-PAPER-II-QP-CSM-25-010925.pdf",
+      "file": "raw/papers/eea3e582a18d9bb1.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2025,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-III-QP-CSM-25-010925.pdf",
+      "file": "raw/papers/101c20ac8bf16c07.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2025,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-IV-QP-CSM-25-010925.pdf",
+      "file": "raw/papers/0f6b1707977b770b.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs1",
+      "year": 2026,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-GENERAL%20STUDIES%20PAPER%20-%20I.pdf",
+      "file": "raw/papers/7603a1fce0d3b814.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs2",
+      "year": 2026,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-GENERAL-STUDIES-PAPER%20-%20II.pdf",
+      "file": "raw/papers/d36d3b6b90b3c216.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs3",
+      "year": 2026,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-GENERAL-STUDIES-PAPER-III.pdf",
+      "file": "raw/papers/387e438a0ed75d5d.pdf"
+    },
+    {
+      "exam": "mains",
+      "paper": "gs4",
+      "year": 2026,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-GENERAL-STUDIES-PAPER-IV.pdf",
+      "file": "raw/papers/d5bb4369451d1ddf.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2014,
+      "url": "https://www.upsc.gov.in/sites/default/files/General%20studies-I.pdf",
+      "file": "raw/papers/3c6977016b6921e4.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2015,
+      "url": "https://www.upsc.gov.in/sites/default/files/Paper-I_1.pdf",
+      "file": "raw/papers/3b02ce3e7a9f805d.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2016,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL_STUDIES_PAPER-I.pdf",
+      "file": "raw/papers/575a10e9105af984.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2018,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-18-GS-I-C.pdf",
+      "file": "raw/papers/f5108a98484b2a06.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2019,
+      "url": "https://www.upsc.gov.in/sites/default/files/csp-p1.pdf",
+      "file": "raw/papers/4ecf10d5f433d78e.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2020,
+      "url": "https://www.upsc.gov.in/sites/default/files/CSP_2020_GS_Paper-1.pdf",
+      "file": "raw/papers/22205532b28320f7.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2021,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-21-GeneralStudiesPaper-I-121021.pdf",
+      "file": "raw/papers/b6561745c6e0bc31.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2022,
+      "url": "https://www.upsc.gov.in/sites/default/files/GENERAL%20STUDIES%20PAPER%20I.pdf",
+      "file": "raw/papers/06fd744a45171041.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2024,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-24-GENERAL-STUDIES-PAPER-I-180624.pdf",
+      "file": "raw/papers/642959cc80817dff.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2025,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf",
+      "file": "raw/papers/0f517cbce3646c4b.pdf"
+    },
+    {
+      "exam": "prelims",
+      "paper": "gs1",
+      "year": 2026,
+      "url": "https://www.upsc.gov.in/sites/default/files/QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf",
+      "file": "raw/papers/3fc06ce9e370061e.pdf",
+      "answerKeyUrl": "https://www.upsc.gov.in/sites/default/files/CGSP-2026-AnsKey-GeneralStudiesPaper-I-041126.pdf",
+      "answerKeyFile": "raw/papers/65a2209cfb0cdb89.pdf"
+    }
+  ]
+}

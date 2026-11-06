@@ -154,7 +154,9 @@ export async function reviewPyq(
         })
         .where(eq(s.pyqs.id, pyqId));
       await tx.delete(s.pyqTags).where(eq(s.pyqTags.pyqId, pyqId));
-      await tx.insert(s.pyqTags).values(decision.nodes.map((n) => ({ pyqId, nodeId: n.id, primary: n.primary })));
+      await tx
+        .insert(s.pyqTags)
+        .values(decision.nodes.map((n) => ({ pyqId, nodeId: n.id, primary: n.primary })));
     }
     await tx.insert(s.kbReviews).values({
       targetType: 'pyq',

@@ -1,0 +1,268 @@
+{
+  "map": [
+    {
+      "nodeId": "csat.comprehension.rc-core-skills.central-idea-theme",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Theme Detection",
+      "reason": "Teaches systematic identification of the central message and core thesis in argumentative passages."
+    },
+    {
+      "nodeId": "csat.comprehension.rc-core-skills.assumptions-inferences",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Statement - Assumptions",
+      "reason": "Provides exact rules to distinguish unstated premises and valid inferences from explicit statements."
+    },
+    {
+      "nodeId": "csat.comprehension.rc-core-skills.logical-corollaries",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Deriving Conclusions from Passages",
+      "reason": "Builds deductive precision required to select unavoidable corollaries and logical takeaways in CSAT."
+    },
+    {
+      "nodeId": "csat.comprehension.rc-core-skills.tone-author-intent",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Reading Comprehension",
+      "reason": "Covers passage analysis techniques for recognizing rhetorical intent, tone, and overall structure."
+    },
+    {
+      "nodeId": "csat.comprehension.rc-thematic-passages.environment-ecology-passages",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Reading Comprehension",
+      "reason": "Offers diverse analytical passages helping master comprehension speed across environmental policy texts."
+    },
+    {
+      "nodeId": "csat.comprehension.rc-thematic-passages.economy-agriculture-passages",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Reading Comprehension",
+      "reason": "Trains critical reading skills necessary for dense socio-economic and agrarian policy excerpts."
+    },
+    {
+      "nodeId": "csat.comprehension.rc-thematic-passages.governance-social-passages",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Reading Comprehension",
+      "reason": "Builds comprehension accuracy for analytical texts on governance, institutions, and welfare."
+    },
+    {
+      "nodeId": "csat.comprehension.rc-thematic-passages.science-tech-philosophy",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Reading Comprehension",
+      "reason": "Enhances deconstruction of abstract, technical, and philosophical arguments frequently tested by UPSC."
+    },
+    {
+      "nodeId": "csat.comprehension.decision-making-interpersonal.administrative-decision-making",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Decision Making",
+      "reason": "Provides criteria-matching methods to resolve administrative scenarios and organizational dilemmas objectively."
+    },
+    {
+      "nodeId": "csat.comprehension.decision-making-interpersonal.prioritization-problem-solving",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Decision Making",
+      "reason": "Helps evaluate conflicting conditions and prioritize actions under situational administrative constraints."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.deductive-reasoning.syllogisms-quantifiers",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Syllogism",
+      "reason": "Offers standard Venn and analytical methods to solve categorical propositions accurately."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.deductive-reasoning.statement-assumptions-conclusions",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Statement - Conclusions",
+      "reason": "Clarifies boundaries of logical validity to eliminate out-of-scope answer traps in CSAT."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.deductive-reasoning.courses-of-action",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Statement - Courses of Action",
+      "reason": "Tests feasibility and administrative appropriateness of practical solutions to given problem statements."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.analytical-arrangement.linear-circular-arrangements",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Sitting Arrangements",
+      "reason": "Delivers step-by-step techniques for complex facing-inward and facing-outward linear and circular seatings."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.analytical-arrangement.matrix-scheduling-puzzles",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Puzzle Test",
+      "reason": "Comprehensive practice on multi-variable grid puzzles, day-schedule matching, and attributes grouping."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.analytical-arrangement.blood-relations",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Blood Relations",
+      "reason": "Teaches family tree diagrams to resolve coded and complex generational relationship puzzles."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.analytical-arrangement.direction-distance-test",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Direction Sense Test",
+      "reason": "Provides coordinate and vector methods to solve turns, angles, and displacement problems."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.analytical-arrangement.order-ranking-comparison",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Ranking and Time Sequence Test",
+      "reason": "Explains position formulas and relative comparison chains common in analytical CSAT questions."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.general-mental-ability.coding-decoding",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Coding-Decoding",
+      "reason": "Covers letter shifting, symbol substitution, and matrix coding patterns with clear shortcuts."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.general-mental-ability.series-patterns",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Series Completion",
+      "reason": "Builds pattern recognition across arithmetic differences, alternating series, and alphanumeric sequences."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.general-mental-ability.clocks-calendars",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Clock & Calendar",
+      "reason": "Provides exact formulas for clock hand angles, coincidences, odd days, and leap years."
+    },
+    {
+      "nodeId": "csat.logical-reasoning.general-mental-ability.cubes-dice-visual",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Cube and Dice",
+      "reason": "Teaches spatial orientation rules for unfolded nets and opposite faces of dice."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.number-system.divisibility-remainders",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 1 · Numbers",
+      "reason": "Exhaustive coverage of divisibility rules, cyclicity of unit digits, and remainder theorems."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.number-system.hcf-lcm",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 2 · H.C.F. and L.C.M. of Numbers",
+      "reason": "Provides prime factorization methods and word-problem models for repeating interval applications."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.number-system.fractions-decimals-surds",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 3 · Decimal Fractions",
+      "reason": "Builds fundamental calculation agility with terminating, recurring decimals, and fractional comparisons."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.number-system.prime-composite-integers",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 1 · Numbers",
+      "reason": "Clarifies integer properties, prime factorization, and divisor counting frequently tested in CSAT."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.arithmetic-relations.percentages",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 10 · Percentage",
+      "reason": "Essential base for successive change multipliers and fractional equivalents used throughout numeracy."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.arithmetic-relations.ratios-proportions",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 12 · Ratio and Proportion",
+      "reason": "Explains unitary methods, mean proportionals, and partnership dividing rules with extensive examples."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.arithmetic-relations.averages-alligations",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 7 · Average",
+      "reason": "Directly tackles weighted averages and deviation shortcuts crucial for CSAT calculation speed."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.arithmetic-relations.profit-loss-discount",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 11 · Profit and Loss",
+      "reason": "Comprehensive formulation of cost price, marked price, successive discounts, and dishonest dealer math."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.arithmetic-relations.simple-compound-interest",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 21 · Simple Interest",
+      "reason": "Provides core formulas and difference derivations between annual, half-yearly, and compounding interest."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.motion-time-work.time-and-work",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 15 · Time and Work",
+      "reason": "Standard efficiency and man-days method to solve joint work and negative work questions."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.motion-time-work.speed-distance-relative-motion",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 17 · Time and Distance",
+      "reason": "Covers average speed, relative motion, and circular tracks with straightforward algebraic approaches."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.motion-time-work.trains-boats-streams",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 18 · Problems on Trains",
+      "reason": "Explains platform crossings, opposing trains, and upstream-downstream vector speed variations clearly."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.combinatorics-mensuration.permutations-combinations",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 30 · Permutations and Combinations",
+      "reason": "Crucial chapter addressing the steep rise of CSAT questions on selections and arrangements."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.combinatorics-mensuration.probability",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 31 · Probability",
+      "reason": "Applies combinatorics principles to dice, cards, and coin problems cleanly at Class 10 level."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.combinatorics-mensuration.set-theory-venn",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Venn Diagrams",
+      "reason": "Mastery over two- and three-set overlapping intersections and data-deduction counting methods."
+    },
+    {
+      "nodeId": "csat.basic-numeracy.combinatorics-mensuration.plane-solid-mensuration",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 24 · Area",
+      "reason": "Consolidates perimeter, surface area, and volume formulas for 2D and 3D figures."
+    },
+    {
+      "nodeId": "csat.data-interpretation.charts-graphs.tables-cross-tabulation",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 35 · Tabulation",
+      "reason": "Develops tabular data scanning, percentage growth calculations, and multi-row comparative deductions."
+    },
+    {
+      "nodeId": "csat.data-interpretation.charts-graphs.bar-charts-histograms",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Ch 36 · Bar Graphs",
+      "reason": "Practices quick graphical estimation, percentage shifts, and ratio comparisons from bar visualisations."
+    },
+    {
+      "nodeId": "csat.data-interpretation.charts-graphs.pie-charts",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Pie-Chart",
+      "reason": "Provides foundational drills on angle-to-percentage conversions and proportional distribution tested in CSAT."
+    },
+    {
+      "nodeId": "csat.data-interpretation.charts-graphs.line-graphs-trends",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Line-Graphs",
+      "reason": "Covers multi-trend analysis and growth rate calculations directly relevant to CSAT trend questions."
+    },
+    {
+      "nodeId": "csat.data-interpretation.data-sufficiency-eval.arithmetic-data-sufficiency",
+      "sourceId": "aggarwal-quant",
+      "chapter": "Data Sufficiency",
+      "reason": "Offers systematic practice in evaluating whether arithmetic statements suffice without full computation."
+    },
+    {
+      "nodeId": "csat.data-interpretation.data-sufficiency-eval.logical-data-sufficiency",
+      "sourceId": "aggarwal-reasoning",
+      "chapter": "Data Sufficiency",
+      "reason": "Builds deductive techniques to evaluate statement sufficiency in puzzle arrangements and blood relations."
+    }
+  ]
+}

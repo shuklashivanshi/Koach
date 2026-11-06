@@ -1,4 +1,4 @@
-import { aiCallsRepo, emailCodesRepo, userNotesRepo, usersRepo } from '@koach/db';
+import { aiCallsRepo, emailCodesRepo, learnerRepo, userNotesRepo, usersRepo } from '@koach/db';
 import type { ExportBundle } from '@koach/shared';
 import type { Deps } from '../deps';
 
@@ -12,10 +12,14 @@ export async function exportAccount(
 ): Promise<ExportBundle> {
   const user = await usersRepo.upsert(deps.db, uid, tokenEmail);
   const email = user.email;
-  const [aiCalls, codes, notes, objects] = await Promise.all([
+  const [aiCalls, codes, notes, profile, levels, diagnostics, lpt, objects] = await Promise.all([
     aiCallsRepo.listByUid(deps.db, uid),
     email ? emailCodesRepo.listByEmail(deps.db, email) : Promise.resolve([]),
     userNotesRepo.listByUid(deps.db, uid),
+    learnerRepo.getProfile(deps.db, uid),
+    learnerRepo.listLevels(deps.db, uid),
+    learnerRepo.listDiagnostics(deps.db, uid),
+    learnerRepo.listLpt(deps.db, uid),
     deps.storage.list(userPrefix(uid)),
   ]);
   return {
@@ -43,6 +47,28 @@ export async function exportAccount(
       body: n.body,
       createdAt: n.createdAt.toISOString(),
     })),
+    learner: {
+      profile: profile
+        ? {
+            ...profile,
+            onboardedAt: profile.onboardedAt?.toISOString() ?? null,
+            updatedAt: profile.updatedAt.toISOString(),
+          }
+        : null,
+      levels: levels.map((l) => ({ sectionId: l.sectionId, level: l.level, source: l.source })),
+      diagnostics: diagnostics.map((d) => ({
+        score: d.score,
+        createdAt: d.createdAt.toISOString(),
+      })),
+      learningPatterns: lpt.map((r) => ({
+        form: r.form,
+        visual: r.visual,
+        auditory: r.auditory,
+        readwrite: r.readwrite,
+        kinesthetic: r.kinesthetic,
+        takenAt: r.takenAt.toISOString(),
+      })),
+    },
     storageObjects: objects,
   };
 }

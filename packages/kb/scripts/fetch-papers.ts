@@ -30,28 +30,34 @@ const LISTINGS = [
   ...[2011, 2012, 2013, 2014, 2015, 2016].map(
     (y) => `/examinations/question-papers/question-papers-year-${y}?field_exam_name_value=civil+services`,
   ),
+  // Each exam's own page lists its papers and, after the final result, the official answer key.
+  ...Array.from({ length: 16 }, (_, i) => 2011 + i).flatMap((y) => [
+    `/examinations/Civil%20Services%20(Preliminary)%20Examination,%20${y}`,
+    `/examinations/Civil%20Services%20(Main)%20Examination,%20${y}`,
+    `/examinations/CIVIL%20SERVICES%20(PRELIMINARY)%20EXAM.%20${y}`,
+    `/examinations/CIVIL%20SERVICES%20(MAIN)%20EXAM.%20${y}`,
+  ]),
   '/examinations/answer-key',
   '/examinations/answer-key?field_exam_name_value=Civil+Services',
 ];
 
 /** Link text or file name suggesting a GS paper, essay excluded later by identification. */
-const WANTED = /general|gen[_ -]?st|g\.?s\.?[ _-]?(i|1|paper)|csp|prelim|answer|key|csm|gs\d/i;
-const SKIP = /optional|literature|lit\.|engg|engineering|agricult|anthropolog|botan|chemistr|commerce|economics|geograph|geolog|history|law|management|mathemat|medical|philos|physics|politic|psycholog|public ad|sociolog|statistic|zoolog|animal|ifs|forest|cds|nda|cms|ese|ies|capf|geo-sci/i;
+const WANTED = /general|gen[_ -]?st|g\.?s\.?[ _-]?(i|1|paper)|csp|prelim|pre[_ -]?exam|answer|ans[_ -]?key|key|csm|gs\d|qp/i;
+const SKIP =
+  /\b(optional|literature|lit|compulsory|engg|engineering|agricultur\w*|anthropolog\w*|botan\w*|chemistry|commerce|economics|geograph\w*|geolog\w*|history|law|management|mathematics|medical|philosoph\w*|physics|political|psychology|public administration|sociology|statistics|zoology|animal|ifs|forest|cds|nda|cms|ese|ies|capf|geo scientist|cgsp|cgsm|ifsp|ifsm|cds\w*|nda\w*|cms\w*|esep|esem|iesm|iess|capf\w*)\b/i;
 
 async function listPdfs(): Promise<Map<string, string>> {
   const found = new Map<string, string>(); // url -> link text
   for (const path of LISTINGS) {
     const res = await fetch(BASE + path, { headers: UA });
-    if (!res.ok) {
-      console.warn(`listing ${res.status}: ${path}`);
-      continue;
-    }
+    if (!res.ok) continue; // not every naming variant exists for every year
     const html = await res.text();
     for (const m of html.matchAll(/<a[^>]+href="([^"]+\.pdf)"[^>]*>([\s\S]*?)<\/a>/gi)) {
       const href = m[1] ?? '';
       const text = (m[2] ?? '').replace(/<[^>]+>|\s+/g, ' ').trim();
       const url = href.startsWith('http') ? href : BASE + (href.startsWith('/') ? '' : '/') + href;
-      if (!WANTED.test(`${text} ${url}`) || SKIP.test(`${text} ${decodeURIComponent(url)}`)) continue;
+      const words = `${text} ${decodeURIComponent(url).split('/').pop() ?? ''}`.replace(/[^a-z0-9]+/gi, ' ');
+      if (!WANTED.test(`${text} ${url}`) || SKIP.test(words)) continue;
       if (!url.includes('upsc.gov.in')) continue;
       found.set(url, text);
     }
@@ -84,6 +90,8 @@ export async function pdfPages(file: string, from: number, to: number): Promise<
 }
 
 const Identity = z.object({
+  /** The paper's title exactly as printed at the top of its first page. */
+  title: z.string(),
   kind: z.enum(['question_paper', 'answer_key', 'other']),
   exam: z.enum(['prelims', 'mains', 'other']),
   /** gs1..gs4 for General Studies; csat for Prelims Paper II; essay; other */
@@ -108,9 +116,23 @@ other = any other UPSC exam (IFS, CDS, ...).
 paper: Prelims "General Studies Paper I" = gs1, Prelims "Paper II"/CSAT = csat; Mains "General
 Studies Paper I..IV" = gs1..gs4, Mains Essay = essay; anything else = other.
 year: the examination year printed on the paper (four digits).
-series: for answer keys, the booklet series covered; else [].`,
+series: for answer keys, the booklet series covered; else [].
+title: copy the paper/subject title exactly as printed (e.g. "GENERAL STUDIES (PAPER-II)",
+"PUBLIC ADMINISTRATION (PAPER-I)", "ANSWER KEY ... GENERAL STUDIES PAPER-I").`,
   });
   return res.data;
+}
+
+const ROMAN: Record<string, string> = { i: 'gs1', '1': 'gs1', ii: 'gs2', '2': 'gs2', iii: 'gs3', '3': 'gs3', iv: 'gs4', '4': 'gs4' };
+
+/** The printed title must say General Studies and agree with the paper number (catches optionals). */
+function titleMatches(id: Identity): boolean {
+  if (!['gs1', 'gs2', 'gs3', 'gs4'].includes(id.paper)) return false;
+  const t = id.title.toLowerCase();
+  if (!/general\s*studies/.test(t)) return false;
+  const m = /paper\s*[-–:]?\s*\(?\s*(iv|iii|ii|i|[1-4])\b/.exec(t);
+  // Prelims Paper I is "General Studies Paper I" (gs1); answer keys sometimes omit the number.
+  return m ? ROMAN[m[1] ?? ''] === id.paper : id.kind === 'answer_key' || id.exam === 'prelims';
 }
 
 export interface ManifestEntry {
@@ -131,7 +153,9 @@ async function main() {
     ? (JSON.parse(await readFile(CACHE, 'utf8')) as Record<string, Identity>)
     : {};
   for (const url of links.keys()) {
-    if (cache[url]) continue;
+    // Older cache entries have no title; re-identify the ones that claimed to be GS papers.
+    const cached = cache[url];
+    if (cached && (cached.title !== undefined || !['gs1', 'gs2', 'gs3', 'gs4'].includes(cached.paper))) continue;
     const file = await download(url);
     if (!file) continue;
     try {
@@ -146,6 +170,7 @@ async function main() {
   const entries = new Map<string, ManifestEntry>();
   const keys = new Map<number, string>();
   for (const [url, id] of Object.entries(cache)) {
+    if (!titleMatches(id)) continue;
     if (id.kind === 'answer_key' && id.exam === 'prelims' && id.paper === 'gs1') keys.set(id.year, url);
     if (id.kind !== 'question_paper') continue;
     const wanted =

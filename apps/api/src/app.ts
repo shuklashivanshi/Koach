@@ -17,6 +17,7 @@ import { adminReviewRoutes } from './routes/v1/admin/review';
 import { aiPingRoutes } from './routes/v1/ai/ping';
 import { emailAuthRoutes } from './routes/v1/auth/email';
 import { kbRoutes } from './routes/v1/kb';
+import { learnerProfileRoutes } from './routes/v1/learner/profile';
 import { meExportRoutes } from './routes/v1/me/export';
 import { meRoutes } from './routes/v1/me';
 
@@ -69,6 +70,7 @@ export async function buildApp(deps: Deps, options: BuildOptions = {}): Promise<
       await scope.register(aiPingRoutes(deps));
       await scope.register(kbRoutes(deps));
       await scope.register(adminReviewRoutes(deps));
+      await scope.register(learnerProfileRoutes(deps));
       for (const routes of options.protectedRoutes ?? []) await scope.register(routes(deps));
     },
     { prefix: '/v1' },

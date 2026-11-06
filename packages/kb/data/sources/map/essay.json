@@ -1,0 +1,130 @@
+{
+  "map": [
+    {
+      "nodeId": "essay.essay-methodology-craft.frameworks-and-structure.topic-deconstruction-thesis",
+      "sourceId": "official-upsc-essays",
+      "chapter": "Past Year Essay Question Papers",
+      "reason": "Directly reveals the analytical depth and multidimensional thesis formulation required by UPSC prompts."
+    },
+    {
+      "nodeId": "essay.essay-methodology-craft.frameworks-and-structure.multidimensional-brainstorming",
+      "sourceId": "official-upsc-essays",
+      "chapter": "Past Year Essay Question Papers",
+      "reason": "Practicing with real UPSC prompts highlights the need for balanced PESTLE and stakeholder perspectives."
+    },
+    {
+      "nodeId": "essay.essay-methodology-craft.frameworks-and-structure.introductions-and-conclusions",
+      "sourceId": "official-upsc-essays",
+      "chapter": "Past Year Essay Question Papers",
+      "reason": "Helps benchmark how compelling narrative hooks and forward-looking conclusions fit authentic essay themes."
+    },
+    {
+      "nodeId": "essay.essay-methodology-craft.argumentation-and-coherence.structuring-arguments-counterarguments",
+      "sourceId": "ncert-11-polsci-theory",
+      "chapter": "Ch 1 · Political Theory: An Introduction",
+      "reason": "Builds foundational skills in dialectical reasoning, conceptual debate, and presenting balanced counter-arguments."
+    },
+    {
+      "nodeId": "essay.essay-methodology-craft.argumentation-and-coherence.anecdote-quote-evidence-integration",
+      "sourceId": "ethics-reference",
+      "chapter": "Quotes and Anecdotes",
+      "reason": "Supplies rich philosophical quotations and ethical parables tailored for essay substantiation."
+    },
+    {
+      "nodeId": "essay.philosophical-and-reflective-essays.ethics-and-human-condition.truth-virtue-moral-dilemmas",
+      "sourceId": "ethics-reference",
+      "chapter": "Ch 1 · Ethics and Human Interface",
+      "reason": "Provides foundational concepts of moral integrity, virtue ethics, and resolving ethical dilemmas."
+    },
+    {
+      "nodeId": "essay.philosophical-and-reflective-essays.ethics-and-human-condition.resilience-adversity-character",
+      "sourceId": "ethics-reference",
+      "chapter": "Ch 5 · Emotional Intelligence",
+      "reason": "Illuminates internal fortitude, emotional resilience, and character development under adversity."
+    },
+    {
+      "nodeId": "essay.philosophical-and-reflective-essays.ethics-and-human-condition.materialism-versus-contentment",
+      "sourceId": "ethics-reference",
+      "chapter": "Ch 2 · Attitude: Content, Structure, Function",
+      "reason": "Explores human value systems contrasting consumerist materialism with moral contentment and well-being."
+    },
+    {
+      "nodeId": "essay.philosophical-and-reflective-essays.epistemology-and-reason.rationality-doubt-wisdom",
+      "sourceId": "ncert-11-polsci-theory",
+      "chapter": "Ch 1 · Political Theory: An Introduction",
+      "reason": "Fosters critical thinking, philosophical skepticism, and the systematic pursuit of reasoned wisdom."
+    },
+    {
+      "nodeId": "essay.philosophical-and-reflective-essays.epistemology-and-reason.information-versus-knowledge",
+      "sourceId": "ethics-reference",
+      "chapter": "Ch 4 · Contributions of Moral Thinkers and Philosophers",
+      "reason": "Offers philosophical insights contrasting raw data accumulation with deep ethical contemplation and wisdom."
+    },
+    {
+      "nodeId": "essay.philosophical-and-reflective-essays.epistemology-and-reason.art-imagination-societal-values",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 1 · Prehistoric Rock Paintings",
+      "reason": "Illustrates how human artistic expression reflects collective consciousness, empathy, and societal evolution."
+    },
+    {
+      "nodeId": "essay.governance-society-and-development.polity-and-governance-themes.democracy-dissent-rule-of-law",
+      "sourceId": "ncert-11-polsci-constitution",
+      "chapter": "Ch 10 · The Philosophy of the Constitution",
+      "reason": "Elucidates core constitutional morality, democratic debate, and the protective role of fundamental freedoms."
+    },
+    {
+      "nodeId": "essay.governance-society-and-development.polity-and-governance-themes.justice-equity-welfare-state",
+      "sourceId": "ncert-11-polsci-theory",
+      "chapter": "Ch 4 · Social Justice",
+      "reason": "Provides normative foundations for social equity, welfare mechanisms, and state-led affirmative action."
+    },
+    {
+      "nodeId": "essay.governance-society-and-development.polity-and-governance-themes.citizen-centric-administration",
+      "sourceId": "official-arc2-reports",
+      "chapter": "12th Report: Citizen Centric Administration",
+      "reason": "Official, comprehensive blueprint detailing citizen empowerment, institutional accountability, and transparent governance."
+    },
+    {
+      "nodeId": "essay.governance-society-and-development.social-transformation-themes.gender-justice-patriarchy",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 5 · Patterns of Social Inequality and Exclusion",
+      "reason": "Analyzes structural patriarchy, gender discrimination, and sociological drivers of women's empowerment."
+    },
+    {
+      "nodeId": "essay.governance-society-and-development.social-transformation-themes.education-critical-thinking",
+      "sourceId": "ncert-11-indian-economic-development",
+      "chapter": "Ch 5 · Human Capital Formation in India",
+      "reason": "Covers education's critical transformative role in building human capability, critical thinking, and emancipation."
+    },
+    {
+      "nodeId": "essay.governance-society-and-development.social-transformation-themes.demographic-dividend-human-capital",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 2 · The Demographic Structure of the Indian Society",
+      "reason": "Explains demographic shifts, youth aspiration dynamics, and requirements to harness human capital."
+    },
+    {
+      "nodeId": "essay.technology-economy-and-environment.technology-and-modernity.artificial-intelligence-ethics-humanity",
+      "sourceId": "ethics-reference",
+      "chapter": "Ch 1 · Ethics and Human Interface",
+      "reason": "Examines ethical dilemmas, moral agency, and human boundaries regarding emerging technological disruptions."
+    },
+    {
+      "nodeId": "essay.technology-economy-and-environment.technology-and-modernity.globalization-and-cultural-identity",
+      "sourceId": "ncert-12-sociology-social-change",
+      "chapter": "Ch 6 · Globalisation and Social Change",
+      "reason": "Provides foundational sociological analysis of cultural globalization, homogenization, and indigenous identity preservation."
+    },
+    {
+      "nodeId": "essay.technology-economy-and-environment.sustainability-and-economic-development.growth-versus-ecological-justice",
+      "sourceId": "ncert-11-indian-economic-development",
+      "chapter": "Ch 9 · Environment and Sustainable Development",
+      "reason": "Addresses the classic development-versus-environment dichotomy with rich economic and ecological perspectives."
+    },
+    {
+      "nodeId": "essay.technology-economy-and-environment.sustainability-and-economic-development.inclusive-growth-inequality",
+      "sourceId": "ncert-11-indian-economic-development",
+      "chapter": "Ch 4 · Poverty",
+      "reason": "Details multidimensional inequality, inclusive growth imperatives, and livelihood security challenges in India."
+    }
+  ]
+}

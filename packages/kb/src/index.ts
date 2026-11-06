@@ -4,3 +4,5 @@ export * from './queries';
 export * from './playbooks';
 export * from './strategy';
 export * from './review';
+export * from './subjects';
+export * from './diagnostic';

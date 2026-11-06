@@ -1,0 +1,1282 @@
+{
+  "map": [
+    {
+      "nodeId": "gs1.art-and-culture.architecture-and-sculpture.harappan-architecture-and-art",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 2 · Arts of the Indus Valley",
+      "reason": "Clear visual analysis of town planning, seals, terracotta, and bronze sculptures."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.architecture-and-sculpture.mauryan-art-and-pillars",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 3 · Arts of the Mauryan Period",
+      "reason": "Explains Mauryan court art, pillars, capitals, and rock-cut caves with visual detail."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.architecture-and-sculpture.post-mauryan-sculpture-schools",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 4 · Post-Mauryan Trends in Indian Art and Architecture",
+      "reason": "Direct comparison of Gandhara, Mathura, and Amravati sculptural styles matching exam questions."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 4 · Post-Mauryan Trends in Indian Art and Architecture",
+      "reason": "Fundamental classification of rock-cut chaitya-grihas and viharas across western Indian sites."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.architecture-and-sculpture.nagara-temple-architecture",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 6 · Temple Architecture and Sculpture",
+      "reason": "Foundational structural breakdown of Nagara shikhara, plan, and regional sub-schools."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.architecture-and-sculpture.dravidian-temple-architecture",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 6 · Temple Architecture and Sculpture",
+      "reason": "Systematic evolution from Pallava rock-cut rathas to Chola vimanas and Vijayanagara gopurams."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.architecture-and-sculpture.vesara-and-regional-temples",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 6 · Temple Architecture and Sculpture",
+      "reason": "Authoritative analysis of hybrid Vesara, Hoysala stellate plans, and Himalayan temples."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.architecture-and-sculpture.delhi-sultanate-architecture",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 8 · Indo-Islamic Architecture",
+      "reason": "Details arcuate architectural features, provincial styles, and Sultanate monumental complexes."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.architecture-and-sculpture.mughal-architecture",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 8 · Indo-Islamic Architecture",
+      "reason": "Explains evolution of charbagh layout, double domes, and pietra dura ornamentation."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.architecture-and-sculpture.post-mughal-and-colonial-architecture",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 1 · Indian Architecture, Sculpture and Pottery",
+      "reason": "Comprehensive coverage of Rajput havelis, Awadh architecture, and British Indo-Saracenic buildings."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.paintings-and-handicrafts.prehistoric-rock-paintings",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 1 · Prehistoric Rock Paintings",
+      "reason": "Standard NCERT reference covering Bhimbetka phases, pigments, and hunting scene themes."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.paintings-and-handicrafts.ancient-mural-paintings",
+      "sourceId": "ncert-11-fine-arts",
+      "chapter": "Ch 5 · Later Mural Traditions",
+      "reason": "Rich coverage of fresco techniques, thematic motifs, and Ajanta-Ellora-Bagh styles."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.paintings-and-handicrafts.miniature-paintings-mughal-deccan",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 2 · Indian Paintings",
+      "reason": "Exhaustive comparative breakdown of Pala, Western Indian, Mughal, and Deccani schools."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.paintings-and-handicrafts.rajasthani-and-pahari-paintings",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 2 · Indian Paintings",
+      "reason": "Detailed themes, color palettes, and patron dynasties of Mewar, Kishangarh, and Kangra."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.paintings-and-handicrafts.folk-and-tribal-paintings",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 2 · Indian Paintings",
+      "reason": "Complete state-wise coverage of regional folk painting techniques and cultural significance."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.paintings-and-handicrafts.traditional-textiles-and-handicrafts",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 3 · Indian Handicrafts",
+      "reason": "Precise catalog of traditional weaves, embroideries, crafts, and GI-tagged artistic traditions."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.performing-arts.indian-classical-music",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 5 · Indian Music",
+      "reason": "Covers swara, raga, tala distinctions and gharana traditions tested in Prelims."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.performing-arts.folk-music-and-musical-instruments",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 5 · Indian Music",
+      "reason": "Systematic classification of Natya Shastra instrument types and regional folk music forms."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.performing-arts.classical-dance-forms",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 6 · Indian Dance Forms",
+      "reason": "Thorough coverage of Natya Shastra aspects, postures, and eight classical dance traditions."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.performing-arts.folk-and-tribal-dances",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 6 · Indian Dance Forms",
+      "reason": "State-wise compendium of community, seasonal, and ritual folk dance forms."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.performing-arts.traditional-theatre-and-puppetry",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 7 · Indian Theatre",
+      "reason": "Covers traditional theatrical forms and four puppetry classifications with state mappings."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.performing-arts.martial-arts-and-circus-traditions",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 11 · Martial Arts in India",
+      "reason": "Detailed state-wise compilation of indigenous martial arts, origins, and fighting equipment."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 13 · Indian Literature",
+      "reason": "Comprehensive categorization of Vedic texts, Vedangas, Upavedas, and epics for prelims questions."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.literature-religion-philosophy.classical-sanskrit-and-prakrit-literatur",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 13 · Indian Literature",
+      "reason": "Comprehensive compilation of classical playwrights, poets, grammar treatises, and Buddhist-Jain canonical works."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.literature-religion-philosophy.sangam-and-south-indian-literature",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 22 · Dawn of History in the Deep South",
+      "reason": "Classic foundation on Sangam anthologies, Tolkappiyam, epics, and early south Indian polities."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.literature-religion-philosophy.persian-urdu-and-bhakti-literature",
+      "sourceId": "ncert-old-medieval-india",
+      "chapter": "Ch 14 · Cultural Development in India",
+      "reason": "Lucid narrative on vernacular development, Bhakti-Sufi verses, and courtly Persian chronicles."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.literature-religion-philosophy.six-schools-of-indian-philosophy",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 12 · Indian Philosophy",
+      "reason": "Crisp thematic summary of epistemology and core doctrines across all six Shad-Darshanas."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.literature-religion-philosophy.heterodox-philosophies",
+      "sourceId": "ncert-old-ancient-india",
+      "chapter": "Ch 12 · Jainism and Buddhism",
+      "reason": "Clear analysis of materialist context, doctrines, and differences between heterodox philosophical sects."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.literature-religion-philosophy.bhakti-and-sufi-movements",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 6 · Bhakti-Sufi Traditions",
+      "reason": "Core source for Bhakti saints, poetry, egalitarian philosophy, and major Sufi silsilahs."
+    },
+    {
+      "nodeId": "gs1.art-and-culture.literature-religion-philosophy.ancient-scientific-treatises-and-institu",
+      "sourceId": "singhania-art-culture",
+      "chapter": "Ch 14 · Science and Technology through the Ages",
+      "reason": "Direct compendium of ancient mathematicians, astronomers, medical treatises, and metallurgy developments."
+    },
+    {
+      "nodeId": "gs1.modern-history.mid-18th-century-and-british-expansion.decline-of-mughals-and-successor-states",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 3 · India on the Eve of British Conquest",
+      "reason": "Concise analysis of Mughal decline, regional succession states, and socio-economic conditions."
+    },
+    {
+      "nodeId": "gs1.modern-history.mid-18th-century-and-british-expansion.anglo-french-carnatic-wars",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 4 · Expansion and Consolidation of British Power in India",
+      "reason": "Structured overview of European trading rivalries, Carnatic wars, and British dominance factors."
+    },
+    {
+      "nodeId": "gs1.modern-history.mid-18th-century-and-british-expansion.conquest-of-bengal-plassey-buxar",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 4 · Expansion and Consolidation of British Power in India",
+      "reason": "Detailed political and military analysis of Plassey, Buxar, and the Diwani grant."
+    },
+    {
+      "nodeId": "gs1.modern-history.mid-18th-century-and-british-expansion.anglo-mysore-and-anglo-maratha-wars",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 4 · Expansion and Consolidation of British Power in India",
+      "reason": "Chronological narrative of Anglo-Mysore and Anglo-Maratha conflicts, treaties, and power shifts."
+    },
+    {
+      "nodeId": "gs1.modern-history.mid-18th-century-and-british-expansion.subsidiary-alliance-and-doctrine-of-laps",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 4 · Expansion and Consolidation of British Power in India",
+      "reason": "Precise terms, application, and territorial annexations under Wellesley and Dalhousie policies."
+    },
+    {
+      "nodeId": "gs1.modern-history.mid-18th-century-and-british-expansion.annexation-of-sindh-punjab-and-awadh",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 4 · Expansion and Consolidation of British Power in India",
+      "reason": "Covers Anglo-Sikh wars, annexation of Sindh, and Awadh's takeover on maladministration grounds."
+    },
+    {
+      "nodeId": "gs1.modern-history.colonial-policies-and-early-resistance.british-land-revenue-systems",
+      "sourceId": "ncert-12-history",
+      "chapter": "Theme 10 · Colonialism and the Countryside",
+      "reason": "Evaluates Zamindari, Ryotwari, and revenue burdens with direct agrarian socio-economic evidence."
+    },
+    {
+      "nodeId": "gs1.modern-history.colonial-policies-and-early-resistance.deindustrialization-and-drain-of-wealth",
+      "sourceId": "ncert-old-modern-india",
+      "chapter": "Ch 8 · Economic Impact of the British Rule",
+      "reason": "Masterful analytical critique of colonial exploitation, deindustrialization, and drain of wealth theory."
+    },
+    {
+      "nodeId": "gs1.modern-history.colonial-policies-and-early-resistance.civil-and-peasant-uprisings-pre-1857",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 6 · People's Resistance Against British Before 1857",
+      "reason": "Comprehensive compilation of early civil rebellions and peasant revolts with leadership details."
+    },
+    {
+      "nodeId": "gs1.modern-history.colonial-policies-and-early-resistance.tribal-revolts-nineteenth-century",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 6 · People's Resistance Against British Before 1857",
+      "reason": "Exhaustive factual detail on leaders, causes, and regions of pre-1857 tribal uprisings."
+    },
+    {
+      "nodeId": "gs1.modern-history.colonial-policies-and-early-resistance.revolt-of-1857-causes-and-spread",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 7 · The Revolt of 1857",
+      "reason": "Comprehensive coverage of causes, leaders, centres, and failure reasons frequently tested in Prelims."
+    },
+    {
+      "nodeId": "gs1.modern-history.colonial-policies-and-early-resistance.post-1857-administrative-changes",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 32 · Administrative Changes After 1857",
+      "reason": "Details the army reorganization, administrative shifts, and Crown rule changes essential for Mains."
+    },
+    {
+      "nodeId": "gs1.modern-history.socio-religious-reform-movements.raja-ram-mohan-and-bramho-samaj",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 8 · Socio-Religious Reform Movements: General Features",
+      "reason": "Systematically details Brahmo Samaj's reformist agenda, ideas, and personalities for Prelims and Mains."
+    },
+    {
+      "nodeId": "gs1.modern-history.socio-religious-reform-movements.ishwar-chandra-and-prarthana-samaj",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 9 · A General Survey of Socio-Cultural Reform Movements",
+      "reason": "Clear factual coverage of reform leaders, legislative impacts, and organizational details."
+    },
+    {
+      "nodeId": "gs1.modern-history.socio-religious-reform-movements.dayanand-saraswati-and-arya-samaj",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 9 · A General Survey of Socio-Cultural Reform Movements",
+      "reason": "Precisely outlines revivalist philosophy, Shuddhi movement, and DAV educational network for exams."
+    },
+    {
+      "nodeId": "gs1.modern-history.socio-religious-reform-movements.ramakrishna-mission-and-vivekananda",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 9 · A General Survey of Socio-Cultural Reform Movements",
+      "reason": "Analyzes Vivekananda's Neo-Vedanta philosophy and social service orientation tested in GS1."
+    },
+    {
+      "nodeId": "gs1.modern-history.socio-religious-reform-movements.caste-and-lower-caste-reform-movements",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 9 · A General Survey of Socio-Cultural Reform Movements",
+      "reason": "Provides analytical and factual details of regional anti-caste reformers and their movements."
+    },
+    {
+      "nodeId": "gs1.modern-history.socio-religious-reform-movements.muslim-sikh-parsi-reform-movements",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 9 · A General Survey of Socio-Cultural Reform Movements",
+      "reason": "Succinctly summarizes reform vs revival debates across minority communities for Prelims."
+    },
+    {
+      "nodeId": "gs1.modern-history.national-movement-1885-1919.pre-congress-political-associations",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 10 · Beginning of Modern Nationalism in India",
+      "reason": "Exhaustive tabular and narrative coverage of pre-1885 political bodies tested in Prelims."
+    },
+    {
+      "nodeId": "gs1.modern-history.national-movement-1885-1919.moderate-phase-and-economic-critique",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 11 · Indian National Congress: Foundation and the Moderate Phase",
+      "reason": "Outlines Moderate methods, constitutional demands, and early economic critiques of colonial rule."
+    },
+    {
+      "nodeId": "gs1.modern-history.national-movement-1885-1919.extremist-phase-and-ideological-shift",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 12 · Era of Militant Nationalism (1905–1909)",
+      "reason": "Explains the ideological departure from Moderate constitutionalism to radical mass mobilization."
+    },
+    {
+      "nodeId": "gs1.modern-history.national-movement-1885-1919.partition-of-bengal-and-swadeshi-movemen",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 12 · Era of Militant Nationalism (1905–1909)",
+      "reason": "Details the Swadeshi movement's methods, art, indigenous industry, and mass participation."
+    },
+    {
+      "nodeId": "gs1.modern-history.national-movement-1885-1919.morley-minto-reforms-and-communalism",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 12 · Era of Militant Nationalism (1905–1909)",
+      "reason": "Clarifies separate electorates, legislative expansion, and communal politics under the 1909 reforms."
+    },
+    {
+      "nodeId": "gs1.modern-history.national-movement-1885-1919.home-rule-league-movement",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 14 · First World War and Nationalist Response",
+      "reason": "Contrasts Tilak's and Besant's leagues, their regional bases, and methods of mobilization."
+    },
+    {
+      "nodeId": "gs1.modern-history.national-movement-1885-1919.lucknow-pact-and-montagu-declaration",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 14 · First World War and Nationalist Response",
+      "reason": "Covers Hindu-Muslim unity pacts, constitutional schemes, and dyarchy under 1919 Act."
+    },
+    {
+      "nodeId": "gs1.modern-history.national-movement-1885-1919.first-phase-revolutionary-activities",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 13 · First Phase of Revolutionary Activities (1907–1917)",
+      "reason": "Exhaustive coverage of secret societies, foreign branches, and key revolutionary leaders."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.gandhian-philosophy-and-early-experiment",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 15 · Emergence of Gandhi",
+      "reason": "Details early Satyagraha experiments at Champaran, Ahmedabad, and Kheda with conceptual clarity."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.rowlatt-satyagraha-and-jallianwala-bagh",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 15 · Emergence of Gandhi",
+      "reason": "Captures the transition to nation-wide mass protest and colonial repressive measures."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.khilafat-and-non-cooperation-movement",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 16 · Non-Cooperation Movement and Khilafat Aandolan",
+      "reason": "Comprehensive analysis of social base, Hindu-Muslim solidarity, and movement withdrawal dynamics."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.swarajists-and-constructive-work",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 17 · Emergence of Swarajists, Socialist Ideas, Revolutionary Activities and Other New Forces",
+      "reason": "Balances council-entry debates, constructive work, and revolutionary organizations like HSRA."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.simon-commission-and-nehru-report",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 18 · Simon Commission and the Nehru Report",
+      "reason": "Explains constitutional blueprints, boycott politics, and communal divergence over federal structures."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.civil-disobedience-and-salt-satyagraha",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 19 · Civil Disobedience Movement and Round Table Conferences",
+      "reason": "Chronicles the salt march, pan-India regional mobilization, and distinct social group participation."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.round-table-conferences-and-poona-pact",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 19 · Civil Disobedience Movement and Round Table Conferences",
+      "reason": "Details Round Table Conferences, Gandhi-Ambedkar deliberations, and Poona Pact representation terms."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.government-of-india-act-1935-and-congres",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 21 · Congress Rule in Provinces",
+      "reason": "Analyzes the 1935 Act framework, election manifestos, and 28 months of ministerial performance."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.left-politics-and-subhas-chandra-bose",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 22 · Nationalist Response in the Wake of World War II",
+      "reason": "Clarifies socialist ideological trends, Tripuri presidential crisis, and Bose's ideological divergence from Gandhi."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.world-war-two-and-individual-satyagraha",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 22 · Nationalist Response in the Wake of World War II",
+      "reason": "Explains wartime constitutional offers, conditional support debates, and moral individual satyagraha."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.cripps-mission-and-quit-india-movement",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 23 · Quit India Movement, Demand for Pakistan, and the INA",
+      "reason": "Covers Cripps failure, 'Do or Die' call, underground networks, and parallel governments."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.ina-and-subhas-chandra-bose-role",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 23 · Quit India Movement, Demand for Pakistan, and the INA",
+      "reason": "Details Netaji's leadership, INA organization, military campaigns, and trial fallout."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.post-war-national-upsurge-and-rin-mutiny",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 24 · Post-War National Scenario",
+      "reason": "Illuminates the radical mass sentiment, RIN mutiny, and crumbling British administrative control."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.cabinet-mission-to-partition-plan",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 25 · Independence with Partition",
+      "reason": "Step-by-step negotiation history leading from Cabinet Mission to Mountbatten Plan and Partition."
+    },
+    {
+      "nodeId": "gs1.modern-history.gandhian-era-and-mass-struggles.women-working-class-and-business-in-free",
+      "sourceId": "spectrum-modern-history",
+      "chapter": "Ch 35 · Peasant Movements and Working Class Movements",
+      "reason": "Systematic thematic coverage of subaltern and sectoral participation in the freedom struggle."
+    },
+    {
+      "nodeId": "gs1.post-independence.nation-building-and-integration.refugee-rehabilitation-and-communal-chal",
+      "sourceId": "ncert-12-polsci-since-independence",
+      "chapter": "Ch 1 · Challenges of Nation Building",
+      "reason": "Core conceptual foundation covering Partition's trauma, refugee resettlement, and communal tensions."
+    },
+    {
+      "nodeId": "gs1.post-independence.nation-building-and-integration.integration-of-princely-states",
+      "sourceId": "ncert-12-polsci-since-independence",
+      "chapter": "Ch 1 · Challenges of Nation Building",
+      "reason": "Lucidly explains Patel's integration strategy for Junagadh, Hyderabad, Manipur, and Kashmir."
+    },
+    {
+      "nodeId": "gs1.post-independence.nation-building-and-integration.linguistic-reorganization-and-states-reo",
+      "sourceId": "ncert-12-polsci-since-independence",
+      "chapter": "Ch 1 · Challenges of Nation Building",
+      "reason": "Traces linguistic state demands, Potti Sreeramulu's hunger strike, and SRC recommendations."
+    },
+    {
+      "nodeId": "gs1.post-independence.nation-building-and-integration.tribal-and-northeast-consolidation",
+      "sourceId": "ncert-12-polsci-since-independence",
+      "chapter": "Ch 8 · Regional Aspirations",
+      "reason": "Explains North-East integration, tribal autonomy demands, and state reorganization dynamics."
+    },
+    {
+      "nodeId": "gs1.post-independence.nation-building-and-integration.official-language-question-and-anti-hind",
+      "sourceId": "bipan-since-independence",
+      "chapter": "Ch 8 · The Official Language Issue",
+      "reason": "Provides thorough historical analysis of the language dispute, compromises, and 1963/1967 Acts."
+    },
+    {
+      "nodeId": "gs1.post-independence.nation-building-and-integration.integration-of-french-and-portuguese-enc",
+      "sourceId": "bipan-since-independence",
+      "chapter": "Ch 9 · Integration of the French and Portuguese Territories",
+      "reason": "Standard text detailing diplomatic and military actions liberating Pondicherry and Goa."
+    },
+    {
+      "nodeId": "gs1.post-independence.post-independence-development-and-crises.economic-planning-and-agrarian-reforms",
+      "sourceId": "ncert-12-polsci-since-independence",
+      "chapter": "Ch 3 · Politics of Planned Development",
+      "reason": "Analyzes planning debates, public sector focus, and early land reform politics."
+    },
+    {
+      "nodeId": "gs1.post-independence.post-independence-development-and-crises.green-and-white-revolutions",
+      "sourceId": "ncert-12-polsci-since-independence",
+      "chapter": "Ch 3 · Politics of Planned Development",
+      "reason": "Covers socio-political impacts and regional inequalities emerging from the Green Revolution."
+    },
+    {
+      "nodeId": "gs1.post-independence.post-independence-development-and-crises.foreign-policy-nam-and-conflicts",
+      "sourceId": "ncert-12-polsci-since-independence",
+      "chapter": "Ch 4 · India's External Relations",
+      "reason": "Foundational primer on Nehruvian non-alignment, Panchsheel, and the 1962 Sino-Indian conflict."
+    },
+    {
+      "nodeId": "gs1.post-independence.post-independence-development-and-crises.indo-pak-wars-and-bangladesh-liberation",
+      "sourceId": "ncert-12-polsci-since-independence",
+      "chapter": "Ch 4 · India's External Relations",
+      "reason": "Provides a clear foundational narrative of 1965 and 1971 conflicts and diplomatic treaties."
+    },
+    {
+      "nodeId": "gs1.post-independence.post-independence-development-and-crises.emergency-and-democratic-resilience",
+      "sourceId": "ncert-12-polsci-since-independence",
+      "chapter": "Ch 6 · The Crisis of Democratic Order",
+      "reason": "Offers an analytical perspective on the JP movement, Emergency, and democratic restoration."
+    },
+    {
+      "nodeId": "gs1.post-independence.post-independence-development-and-crises.regional-movements-punjab-and-assam",
+      "sourceId": "ncert-12-polsci-since-independence",
+      "chapter": "Ch 8 · Regional Aspirations",
+      "reason": "Directly explains the origins, accords, and democratic handling of Punjab and Assam movements."
+    },
+    {
+      "nodeId": "gs1.post-independence.post-independence-development-and-crises.economic-crisis-1991-and-lpg-reforms",
+      "sourceId": "ncert-11-indian-economic-development",
+      "chapter": "Ch 3 · Liberalisation, Privatisation and Globalisation: An Appraisal",
+      "reason": "Explains foundational macroeconomic factors behind the 1991 BoP crisis and subsequent structural reforms."
+    },
+    {
+      "nodeId": "gs1.world-history.enlightenment-and-early-revolutions.enlightenment-thinkers-and-ideas",
+      "sourceId": "lowe-world-history",
+      "chapter": "Enlightenment and Ideas",
+      "reason": "Details political philosophies of Locke, Montesquieu, and Rousseau essential for Mains analytical answers."
+    },
+    {
+      "nodeId": "gs1.world-history.enlightenment-and-early-revolutions.american-revolution-and-constitution",
+      "sourceId": "lowe-world-history",
+      "chapter": "The American Revolution",
+      "reason": "Covers causes, constitutional foundations, and international democratic ramifications of the American Revolution."
+    },
+    {
+      "nodeId": "gs1.world-history.enlightenment-and-early-revolutions.french-revolution-causes-and-stages",
+      "sourceId": "lowe-world-history",
+      "chapter": "The French Revolution",
+      "reason": "Clearly structures the societal causes, major phases, and ideological outcomes of the revolution."
+    },
+    {
+      "nodeId": "gs1.world-history.enlightenment-and-early-revolutions.napoleonic-era-and-congress-of-vienna",
+      "sourceId": "lowe-world-history",
+      "chapter": "Napoleon Bonaparte and the Congress of Vienna",
+      "reason": "Critically examines Napoleonic administrative reforms and Metternich's balance of power in Europe."
+    },
+    {
+      "nodeId": "gs1.world-history.industrial-revolution-and-ideologies.industrial-revolution-causes-and-spread",
+      "sourceId": "ncert-11-history",
+      "chapter": "Theme 9 · The Industrial Revolution",
+      "reason": "Offers an authoritative foundation on British technological breakthroughs and industrial transformation."
+    },
+    {
+      "nodeId": "gs1.world-history.industrial-revolution-and-ideologies.social-and-economic-impact-of-industrial",
+      "sourceId": "ncert-11-history",
+      "chapter": "Theme 9 · The Industrial Revolution",
+      "reason": "Analyzes urbanization, changing labor conditions, and emerging social inequalities during industrialization."
+    },
+    {
+      "nodeId": "gs1.world-history.industrial-revolution-and-ideologies.capitalism-and-colonial-expansion",
+      "sourceId": "lowe-world-history",
+      "chapter": "Imperialism and Capitalism",
+      "reason": "Directly links industrial overproduction with mercantile colonial conquest and market exploitation."
+    },
+    {
+      "nodeId": "gs1.world-history.industrial-revolution-and-ideologies.socialism-and-utopian-thinkers",
+      "sourceId": "lowe-world-history",
+      "chapter": "Socialism and Its Origins",
+      "reason": "Traces early critiques of industrial capitalism by Owen, Fourier, and Saint-Simon."
+    },
+    {
+      "nodeId": "gs1.world-history.industrial-revolution-and-ideologies.marxism-and-scientific-socialism",
+      "sourceId": "ncert-11-polsci-theory",
+      "chapter": "Ch 3 · Equality",
+      "reason": "Provides core conceptual grounding on dialectical materialism, class struggle, and socialist alternatives."
+    },
+    {
+      "nodeId": "gs1.world-history.nationalism-imperialism-and-revolutions.unification-of-italy",
+      "sourceId": "lowe-world-history",
+      "chapter": "The Unification of Italy",
+      "reason": "Covers contributions of Mazzini, Cavour, and Garibaldi systematically for historical evaluation."
+    },
+    {
+      "nodeId": "gs1.world-history.nationalism-imperialism-and-revolutions.unification-of-germany",
+      "sourceId": "lowe-world-history",
+      "chapter": "Bismarck and the Unification of Germany",
+      "reason": "Details Bismarck's realpolitik, diplomacy, and decisive military conflicts leading to unification."
+    },
+    {
+      "nodeId": "gs1.world-history.nationalism-imperialism-and-revolutions.scramble-for-africa-and-new-imperialism",
+      "sourceId": "lowe-world-history",
+      "chapter": "The Partition of Africa",
+      "reason": "Provides a comprehensive overview of the Berlin Conference and European colonial exploitation."
+    },
+    {
+      "nodeId": "gs1.world-history.nationalism-imperialism-and-revolutions.imperialism-in-china-and-opium-wars",
+      "sourceId": "ncert-11-history",
+      "chapter": "Theme 11 · Paths to Modernisation",
+      "reason": "Explains colonial subjugation, Opium Wars, and domestic revolutionary reactions in China."
+    },
+    {
+      "nodeId": "gs1.world-history.nationalism-imperialism-and-revolutions.meiji-restoration-in-japan",
+      "sourceId": "ncert-11-history",
+      "chapter": "Theme 11 · Paths to Modernisation",
+      "reason": "Presents a structured comparative view of Japan's rapid modernization and industrial rise."
+    },
+    {
+      "nodeId": "gs1.world-history.world-wars-and-interwar-period.causes-and-consequences-of-world-war-one",
+      "sourceId": "lowe-world-history",
+      "chapter": "Ch 1 · The First World War and its Aftermath",
+      "reason": "Exhaustively dissects alliance politics, militarism, warfare dynamics, and the Treaty of Versailles."
+    },
+    {
+      "nodeId": "gs1.world-history.world-wars-and-interwar-period.russian-revolution-1917",
+      "sourceId": "lowe-world-history",
+      "chapter": "Ch 16 · The Russian Revolution and the Rise of Stalin",
+      "reason": "Critically details causes of Tsarist collapse, Bolshevik revolution, and Lenin's early governance."
+    },
+    {
+      "nodeId": "gs1.world-history.world-wars-and-interwar-period.league-of-nations-and-mandate-system",
+      "sourceId": "lowe-world-history",
+      "chapter": "Ch 2 · The League of Nations",
+      "reason": "Provides standard critical evaluation of the League's structural flaws and geopolitical failures."
+    },
+    {
+      "nodeId": "gs1.world-history.world-wars-and-interwar-period.great-depression-of-1929",
+      "sourceId": "lowe-world-history",
+      "chapter": "Ch 4 · The Great Depression and the Rise of Totalitarianism",
+      "reason": "Analyzes the economic collapse, international repercussions, and Keynesian New Deal recovery measures."
+    },
+    {
+      "nodeId": "gs1.world-history.world-wars-and-interwar-period.rise-of-fascism-in-italy",
+      "sourceId": "lowe-world-history",
+      "chapter": "Ch 13 · Fascism in Italy",
+      "reason": "Examines socio-political factors, corporate state policies, and Mussolini's totalitarian consolidation."
+    },
+    {
+      "nodeId": "gs1.world-history.world-wars-and-interwar-period.rise-of-nazism-in-germany",
+      "sourceId": "lowe-world-history",
+      "chapter": "Ch 14 · Hitler and Nazi Germany",
+      "reason": "Traces Weimar Republic weaknesses, Nazi propaganda, and racial totalitarianism in depth."
+    },
+    {
+      "nodeId": "gs1.world-history.world-wars-and-interwar-period.world-war-two-causes-and-course",
+      "sourceId": "lowe-world-history",
+      "chapter": "Ch 5 · The Second World War",
+      "reason": "Comprehensively explains policy of appeasement, major war theatres, and geopolitical consequences."
+    },
+    {
+      "nodeId": "gs1.world-history.cold-war-and-decolonization.emergence-of-bipolar-world-and-cold-war",
+      "sourceId": "ncert-12-polsci-contemporary-world",
+      "chapter": "Ch 1 · The Cold War Era",
+      "reason": "Builds clear conceptual understanding of bipolar rivalry, deterrence, and military alliance blocs."
+    },
+    {
+      "nodeId": "gs1.world-history.cold-war-and-decolonization.cold-war-crises-korea-cuba-vietnam",
+      "sourceId": "ncert-12-polsci-contemporary-world",
+      "chapter": "Ch 1 · The Cold War Era",
+      "reason": "Succinctly explains arenas of conflict, proxy wars, and crisis management between superpowers."
+    },
+    {
+      "nodeId": "gs1.world-history.cold-war-and-decolonization.decolonization-in-asia-and-africa",
+      "sourceId": "lowe-world-history",
+      "chapter": "Ch 24 · Decolonization and the Third World",
+      "reason": "Synthesizes diverse regional liberation struggles and structural challenges of newly independent states."
+    },
+    {
+      "nodeId": "gs1.world-history.cold-war-and-decolonization.west-asian-conflict-and-arab-israeli-war",
+      "sourceId": "lowe-world-history",
+      "chapter": "Ch 11 · The Middle East and its Conflicts",
+      "reason": "Covers origins of the Palestine problem, major Arab-Israeli wars, and peace efforts."
+    },
+    {
+      "nodeId": "gs1.world-history.cold-war-and-decolonization.disintegration-of-ussr-and-redrawal-of-b",
+      "sourceId": "ncert-12-polsci-contemporary-world",
+      "chapter": "Ch 2 · The End of Bipolarity",
+      "reason": "Explains internal contradictions, Gorbachev's reforms, and resulting geopolitical realignments across Eurasia."
+    },
+    {
+      "nodeId": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 1 · Introducing Indian Society",
+      "reason": "Establishes structural foundations of Indian pluralism, syncretic heritage, and social resilience."
+    },
+    {
+      "nodeId": "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 6 · The Challenges of Cultural Diversity",
+      "reason": "Analyzes linguistic, religious, and cultural diversity and state management of plural identities."
+    },
+    {
+      "nodeId": "gs1.indian-society.salient-features-and-diversity.unity-in-diversity-concept-and-challenge",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 6 · The Challenges of Cultural Diversity",
+      "reason": "Discusses constitutional philosophy versus communalism, regionalism, and majoritarian challenges to unity."
+    },
+    {
+      "nodeId": "gs1.indian-society.salient-features-and-diversity.family-and-kinship-systems-in-india",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 3 · Social Institutions: Continuity and Change",
+      "reason": "Details shifting family structures, marriage patterns, and kinship transformations in contemporary India."
+    },
+    {
+      "nodeId": "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 3 · Social Institutions: Continuity and Change",
+      "reason": "Provides foundational sociological concepts on caste purity-pollution, hierarchy, and modern endurance."
+    },
+    {
+      "nodeId": "gs1.indian-society.salient-features-and-diversity.politicization-of-caste-and-caste-mobili",
+      "sourceId": "ncert-12-sociology-social-change",
+      "chapter": "Ch 2 · Cultural Change",
+      "reason": "Authoritative explanation of Sanskritization, dominant caste dynamics, and evolving caste identities."
+    },
+    {
+      "nodeId": "gs1.indian-society.salient-features-and-diversity.tribal-communities-and-their-challenges",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 3 · Social Institutions: Continuity and Change",
+      "reason": "Examines tribal classification, land alienation, development-induced displacement, and cultural assimilation issues."
+    },
+    {
+      "nodeId": "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 5 · Patterns of Social Inequality and Exclusion",
+      "reason": "Dissects institutionalized patriarchy, gender socialization, and structural forms of discrimination."
+    },
+    {
+      "nodeId": "gs1.indian-society.women-and-gender-issues.women-in-the-workforce-and-care-economy",
+      "sourceId": "ncert-12-sociology-social-change",
+      "chapter": "Ch 5 · Change and Development in Industrial Society",
+      "reason": "Highlights female labor market vulnerabilities, informalization of work, and unrecognized domestic labor."
+    },
+    {
+      "nodeId": "gs1.indian-society.women-and-gender-issues.violence-against-women-and-legal-framewo",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 5 · Patterns of Social Inequality and Exclusion",
+      "reason": "Examines structural violence against women alongside social reform and legal interventions."
+    },
+    {
+      "nodeId": "gs1.indian-society.women-and-gender-issues.evolution-of-womens-movements-in-india",
+      "sourceId": "ncert-12-sociology-social-change",
+      "chapter": "Ch 8 · Social Movements",
+      "reason": "Sociological overview of both colonial social reform and post-independence feminist movements."
+    },
+    {
+      "nodeId": "gs1.indian-society.women-and-gender-issues.shgs-and-womens-economic-empowerment",
+      "sourceId": "ncert-11-indian-economic-development",
+      "chapter": "Ch 6 · Rural Development",
+      "reason": "Explains micro-credit networks, self-help groups, and their role in rural women's empowerment."
+    },
+    {
+      "nodeId": "gs1.indian-society.women-and-gender-issues.women-political-representation",
+      "sourceId": "ncert-11-polsci-constitution",
+      "chapter": "Ch 8 · Local Governments",
+      "reason": "Analyzes constitutional gender reservations in Panchayati Raj and their grassroots political outcomes."
+    },
+    {
+      "nodeId": "gs1.indian-society.population-poverty-and-urbanization.demographic-transition-and-dividend",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 2 · The Demographic Structure of the Indian Society",
+      "reason": "Explains demographic transition theory, fertility rates, and India's window of demographic dividend."
+    },
+    {
+      "nodeId": "gs1.indian-society.population-poverty-and-urbanization.aging-population-and-dependency-ratios",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 2 · The Demographic Structure of the Indian Society",
+      "reason": "Provides essential data and sociological analysis on changing age composition and dependency."
+    },
+    {
+      "nodeId": "gs1.indian-society.population-poverty-and-urbanization.poverty-lines-and-multidimensional-pover",
+      "sourceId": "ncert-11-indian-economic-development",
+      "chapter": "Ch 4 · Poverty",
+      "reason": "Provides foundational conceptual clarity on calorie norms, poverty lines, and multidimensional deprivation."
+    },
+    {
+      "nodeId": "gs1.indian-society.population-poverty-and-urbanization.poverty-alleviation-and-welfare-programs",
+      "sourceId": "ncert-11-indian-economic-development",
+      "chapter": "Ch 4 · Poverty",
+      "reason": "Critically evaluates state-led anti-poverty programmes and rural social protection architectures."
+    },
+    {
+      "nodeId": "gs1.indian-society.population-poverty-and-urbanization.urbanization-trends-and-patterns",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 4 · Human Settlements",
+      "reason": "Authoritative source for census town criteria, urban growth trends, and metropolitan hierarchies."
+    },
+    {
+      "nodeId": "gs1.indian-society.population-poverty-and-urbanization.urban-infrastructure-and-civic-deficits",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 12 · Geographical Perspective on Selected Issues and Problems",
+      "reason": "Directly examines urban civic deficits, waste management challenges, and slum conditions."
+    },
+    {
+      "nodeId": "gs1.indian-society.population-poverty-and-urbanization.urban-flooding-heat-islands-and-pollutio",
+      "sourceId": "official-ndma",
+      "chapter": "National Disaster Management Guidelines: Management of Urban Flooding",
+      "reason": "Primary policy document analyzing stormwater drainage failures, urban runoff, and mitigation frameworks."
+    },
+    {
+      "nodeId": "gs1.indian-society.population-poverty-and-urbanization.urban-governance-and-smart-cities",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 39 · Municipalities",
+      "reason": "Comprehensive legal and institutional coverage of the 74th Amendment and urban local bodies."
+    },
+    {
+      "nodeId": "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+      "sourceId": "ncert-12-sociology-social-change",
+      "chapter": "Ch 6 · Globalisation and Social Change",
+      "reason": "Examines cultural hybridization, glocalization, and westernization's impact on traditional Indian values."
+    },
+    {
+      "nodeId": "gs1.indian-society.globalization-and-social-changes.globalization-impact-on-women",
+      "sourceId": "ncert-12-sociology-social-change",
+      "chapter": "Ch 6 · Globalisation and Social Change",
+      "reason": "Explores feminisation of labor, modern service sector jobs, and resultant double burden."
+    },
+    {
+      "nodeId": "gs1.indian-society.globalization-and-social-changes.globalization-impact-on-youth-and-elderl",
+      "sourceId": "ncert-12-sociology-social-change",
+      "chapter": "Ch 6 · Globalisation and Social Change",
+      "reason": "Assesses consumerist aspirations of youth and changing support structures for the elderly."
+    },
+    {
+      "nodeId": "gs1.indian-society.globalization-and-social-changes.globalization-and-agrarian-society",
+      "sourceId": "ncert-12-sociology-social-change",
+      "chapter": "Ch 4 · Change and Development in Rural Society",
+      "reason": "Analyzes contract farming, market exposure, commercial crop volatility, and farmer distress."
+    },
+    {
+      "nodeId": "gs1.indian-society.globalization-and-social-changes.globalization-and-tribal-vulnerabilities",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 3 · Social Institutions: Continuity and Change",
+      "reason": "Details development-induced displacement, mining pressures, and ecological disruption in tribal habitats."
+    },
+    {
+      "nodeId": "gs1.indian-society.social-empowerment-and-ideologies.social-empowerment-of-vulnerable-groups",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 5 · Patterns of Social Inequality and Exclusion",
+      "reason": "Seminal framework for understanding institutional exclusion, caste disabilities, and affirmative action."
+    },
+    {
+      "nodeId": "gs1.indian-society.social-empowerment-and-ideologies.communalism-causes-and-manifestations",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 6 · The Challenges of Cultural Diversity",
+      "reason": "Authoritative sociological treatment of identity politics, majoritarianism, and communal friction."
+    },
+    {
+      "nodeId": "gs1.indian-society.social-empowerment-and-ideologies.regionalism-in-india",
+      "sourceId": "ncert-12-sociology-indian-society",
+      "chapter": "Ch 6 · The Challenges of Cultural Diversity",
+      "reason": "Examines sub-nationalism, linguistic reorganizations, and regional identities within Indian federalism."
+    },
+    {
+      "nodeId": "gs1.indian-society.social-empowerment-and-ideologies.secularism-indian-versus-western-model",
+      "sourceId": "ncert-11-polsci-theory",
+      "chapter": "Ch 8 · Secularism",
+      "reason": "Core conceptual analysis comparing principled distance in India with Western strict separation."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.origin-and-interior-structure-of-earth",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 3 · Interior of the Earth",
+      "reason": "Explains seismic wave refraction, shadow zones, and earth's internal compositional layering."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.continental-drift-and-paleomagnetism",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 4 · Distribution of Oceans and Continents",
+      "reason": "Details Wegener's geomorphological evidences, polar wandering, and paleomagnetic rock alignments."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 4 · Distribution of Oceans and Continents",
+      "reason": "Explains mid-ocean ridges, convection cells, and tectonic plate boundary interactions."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.minerals-and-rock-cycle",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 5 · Minerals and Rocks",
+      "reason": "Foundational categorization of rock-forming minerals, primary and secondary rocks, and cycling."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.endogenic-processes-folding-and-faulting",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 6 · Geomorphic Processes",
+      "reason": "Clarifies diastrophic forces, orogenic deformation, faulting, and internal geothermal energy."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.exogenic-processes-weathering-and-mass-w",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 6 · Geomorphic Processes",
+      "reason": "Systematic coverage of mechanical and chemical weathering alongside mass wasting classifications."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.fluvial-landforms-erosion-and-deposition",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 7 · Landforms and their Evolution",
+      "reason": "Standard text on river action, meander physics, floodplains, and deltaic landform evolution."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.karst-and-limestone-topography",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 7 · Landforms and their Evolution",
+      "reason": "Clearly illustrates subterranean groundwater solution features, sinkholes, and cave speleothems."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.glacial-landforms",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 7 · Landforms and their Evolution",
+      "reason": "Provides standard UPSC definitions and diagrams for cirques, moraines, and drumlins."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.aeolian-and-desert-landforms",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 7 · Landforms and their Evolution",
+      "reason": "Describes wind deflation, desert pavement, yardangs, and dune morphology with diagrams."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geomorphology.coastal-landforms",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 7 · Landforms and their Evolution",
+      "reason": "Details erosional wave-cut platforms, cliff recession, and depositional barrier spit mechanics."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.structure-and-composition-of-atmosphere",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 8 · Composition and Structure of Atmosphere",
+      "reason": "Standard reference for atmospheric vertical stratification, composition, and lapse rate behaviors."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.insolation-and-heat-budget-of-earth",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 9 · Solar Radiation, Heat Balance and Temperature",
+      "reason": "Precise conceptual breakdown of terrestrial radiation, planetary albedo, and heat balance."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.horizontal-and-vertical-temperature-dist",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 9 · Solar Radiation, Heat Balance and Temperature",
+      "reason": "Covers isothermal trends, environmental lapse rates, and conditions causing temperature inversion."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 10 · Atmospheric Circulation and Weather Systems",
+      "reason": "Details global pressure cells, Coriolis deflection, and steady planetary surface wind systems."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.tri-cellular-meridional-circulation",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 10 · Atmospheric Circulation and Weather Systems",
+      "reason": "Explains thermodynamic drivers behind Hadley, Ferrel, and Polar atmospheric circulation cells."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.jet-streams-and-rossby-waves",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 10 · Atmospheric Circulation and Weather Systems",
+      "reason": "Examines upper tropospheric geostrophic winds, thermal gradients, and meandering Rossby patterns."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.air-masses-fronts-and-frontogenesis",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 10 · Atmospheric Circulation and Weather Systems",
+      "reason": "Covers source region characteristics, density contrasts, and lifecycle of atmospheric fronts."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.extra-tropical-and-temperate-cyclones",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 10 · Atmospheric Circulation and Weather Systems",
+      "reason": "Details polar front instability, cyclone occlusion stages, and mid-latitude frontal precipitation."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.tropical-cyclones-genesis-and-structure",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 10 · Atmospheric Circulation and Weather Systems",
+      "reason": "Explains thermal cyclogenesis criteria, eye mechanics, latent heat energy, and storm surges."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.atmospheric-humidity-condensation-and-pr",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 11 · Water in the Atmosphere",
+      "reason": "Clear conceptual foundation for humidity, condensation, clouds, and precipitation mechanisms."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.koppen-climate-classification",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 12 · World Climate and Climate Change",
+      "reason": "Authoritative standard reference for Koeppen's scheme tested directly in UPSC prelims."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.major-climatic-regions-of-the-world",
+      "sourceId": "leong-geography",
+      "chapter": "Part 2: Weather, Climate and Vegetation",
+      "reason": "Standard benchmark for climatic zones, economic activities, and natural vegetation worldwide."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.monsoon-mechanism-and-teleconnections",
+      "sourceId": "ncert-11-india-physical",
+      "chapter": "Ch 4 · Climate",
+      "reason": "Comprehensive coverage of thermal/dynamic concepts, jet streams, ITCZ, ENSO, and IOD."
+    },
+    {
+      "nodeId": "gs1.physical-geography.climatology.el-nino-la-nina-and-mjo",
+      "sourceId": "ncert-11-india-physical",
+      "chapter": "Ch 4 · Climate",
+      "reason": "Explains ocean-atmosphere teleconnections and their direct impact on Indian monsoon dynamics."
+    },
+    {
+      "nodeId": "gs1.physical-geography.oceanography.ocean-relief-features",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 13 · Water (Oceans)",
+      "reason": "Standard introductory diagrams and descriptions of continental shelves, slopes, and trenches."
+    },
+    {
+      "nodeId": "gs1.physical-geography.oceanography.submarine-canyons-and-mid-oceanic-ridges",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 13 · Water (Oceans)",
+      "reason": "Precise definitions of minor ocean relief features, seamounts, guyots, and ridges."
+    },
+    {
+      "nodeId": "gs1.physical-geography.oceanography.temperature-and-salinity-distribution-in",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 13 · Water (Oceans)",
+      "reason": "Covers horizontal and vertical thermal gradients, thermoclines, and oceanic salinity factors."
+    },
+    {
+      "nodeId": "gs1.physical-geography.oceanography.ocean-currents-atlantic-pacific-indian",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 14 · Movements of Ocean Water",
+      "reason": "Clear explanation of planetary gyres, driving forces, and major currents across oceans."
+    },
+    {
+      "nodeId": "gs1.physical-geography.oceanography.tides-mechanism-and-types",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 14 · Movements of Ocean Water",
+      "reason": "Explains gravitational mechanics of spring and neap tides and tidal bores."
+    },
+    {
+      "nodeId": "gs1.physical-geography.oceanography.coral-reefs-types-and-formation-theories",
+      "sourceId": "leong-geography",
+      "chapter": "Ch 11 · Islands and Coral Reefs",
+      "reason": "Classic textbook descriptions of reef types, Darwinian subsidence theory, and formation conditions."
+    },
+    {
+      "nodeId": "gs1.physical-geography.oceanography.coral-bleaching-and-ocean-acidification",
+      "sourceId": "env-reference",
+      "chapter": "Ch 3 · Aquatic Ecosystem",
+      "reason": "Details thermal stress, ocean acidification, marine heatwaves, and coral bleaching phenomena."
+    },
+    {
+      "nodeId": "gs1.physical-geography.oceanography.marine-resources-biotic-mineral-energy",
+      "sourceId": "husain-geography-india",
+      "chapter": "Marine Resources",
+      "reason": "Covers UNCLOS maritime zones, deep-sea polymetallic nodules, and India's marine resource potential."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geophysical-phenomena-and-environmental-.earthquakes-causes-types-and-seismic-zon",
+      "sourceId": "ncert-11-india-physical",
+      "chapter": "Ch 7 · Natural Hazards and Disasters",
+      "reason": "Outlines seismic zoning of India, earthquake mechanisms, and vulnerability profiling."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geophysical-phenomena-and-environmental-.tsunami-mechanism-and-warning-systems",
+      "sourceId": "ncert-11-india-physical",
+      "chapter": "Ch 7 · Natural Hazards and Disasters",
+      "reason": "Explains shoaling mechanics, propagation speed, and Indian Ocean tsunami warning architecture."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geophysical-phenomena-and-environmental-.volcanism-types-features-and-distributio",
+      "sourceId": "ncert-11-geography",
+      "chapter": "Ch 3 · Interior of the Earth",
+      "reason": "Covers magma composition, volcanic landforms, and global distribution along plate margins."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geophysical-phenomena-and-environmental-.landslides-causes-and-vulnerability-zone",
+      "sourceId": "ncert-11-india-physical",
+      "chapter": "Ch 7 · Natural Hazards and Disasters",
+      "reason": "Classifies landslide vulnerability zones across the Himalayas and Western Ghats."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geophysical-phenomena-and-environmental-.changes-in-water-bodies-wetlands-and-riv",
+      "sourceId": "env-reference",
+      "chapter": "Ch 3 · Aquatic Ecosystem",
+      "reason": "Discusses wetland degradation, drying of inland water bodies, and Ramsar criteria."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geophysical-phenomena-and-environmental-.cryosphere-changes-polar-ice-caps-and-gl",
+      "sourceId": "env-reference",
+      "chapter": "Ch 21 · Climate Change",
+      "reason": "Synthesizes polar ice retreat, sea level rise, and third-pole Himalayan deglaciation."
+    },
+    {
+      "nodeId": "gs1.physical-geography.geophysical-phenomena-and-environmental-.effects-on-flora-fauna-and-phenological-",
+      "sourceId": "env-reference",
+      "chapter": "Ch 9 · Biodiversity",
+      "reason": "Focuses on ecological shifts, invasive alien species, and climate impacts on wildlife."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.distribution-of-natural-resources.global-distribution-of-iron-ore",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 7 · Mineral and Energy Resources",
+      "reason": "Provides precise mapping of India's major iron ore belts and strategic reserves."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.distribution-of-natural-resources.global-distribution-of-coal",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 7 · Mineral and Energy Resources",
+      "reason": "Best source for Gondwana and Tertiary coal distribution and energy resource mapping."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.distribution-of-natural-resources.petroleum-and-natural-gas-reserves",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 7 · Mineral and Energy Resources",
+      "reason": "Covers domestic onshore and offshore hydrocarbon basins alongside national energy transition contexts."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.distribution-of-natural-resources.non-ferrous-minerals-copper-bauxite-lead",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 7 · Mineral and Energy Resources",
+      "reason": "Core textbook for bauxite and copper belts and non-ferrous mineral extraction in India."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.distribution-of-natural-resources.critical-minerals-lithium-cobalt-rare-ea",
+      "sourceId": "official-pib",
+      "chapter": "Ministry of Mines Releases",
+      "reason": "Authoritative government updates on critical mineral auctions, bilateral agreements, and supply security."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.distribution-of-natural-resources.nuclear-minerals-uranium-and-thorium",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 7 · Mineral and Energy Resources",
+      "reason": "Details uranium reserves in Jharkhand and coastal monazite thorium sands."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 6 · Water Resources",
+      "reason": "Foundational analysis of water availability, irrigation demand, and river basin challenges."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.distribution-of-natural-resources.soil-types-and-soil-degradation",
+      "sourceId": "ncert-11-india-physical",
+      "chapter": "Ch 6 · Soils",
+      "reason": "Definitive classification of Indian soils, soil profiles, erosion, and conservation practices."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.distribution-of-natural-resources.forest-resources-and-timber-distribution",
+      "sourceId": "leong-geography",
+      "chapter": "Part 2: Weather, Climate and Vegetation",
+      "reason": "Explains commercial exploitation of temperate softwoods versus tropical hardwoods for forestry questions."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.agriculture-and-allied-activities.agricultural-systems-of-the-world",
+      "sourceId": "ncert-12-geography",
+      "chapter": "Ch 5 · Primary Activities",
+      "reason": "Lucidly categorizes world agriculture from primitive subsistence to commercial grain farming."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.agriculture-and-allied-activities.major-cereal-crops-rice-wheat-maize",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 5 · Land Resources and Agriculture",
+      "reason": "Precise data on temperature, rainfall, soil requirements, and spatial crop distribution."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.agriculture-and-allied-activities.cash-and-commercial-crops-cotton-jute-su",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 5 · Land Resources and Agriculture",
+      "reason": "Details climatic limits, production belts, and geographical drivers of commercial cash crops."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.agriculture-and-allied-activities.plantation-crops-tea-coffee-rubber",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 5 · Land Resources and Agriculture",
+      "reason": "Outlines estate farming characteristics and agro-climatic niches of tea, coffee, and rubber."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.agriculture-and-allied-activities.livestock-dairy-and-meat-processing-regi",
+      "sourceId": "ncert-12-geography",
+      "chapter": "Ch 5 · Primary Activities",
+      "reason": "Explains global patterns of pastoral nomadism, commercial livestock ranching, and dairying."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.agriculture-and-allied-activities.marine-and-inland-fisheries-geography",
+      "sourceId": "leong-geography",
+      "chapter": "Ch 24 · The Cool Temperate Eastern Margin (Laurentian) Climate",
+      "reason": "Details cold-warm ocean current convergences that create the world's richest fishing grounds."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.agriculture-and-allied-activities.irrigation-types-and-spatial-spread",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 6 · Water Resources",
+      "reason": "Analyzes spatial spread of canal, tubewell, and micro-irrigation alongside water efficiency issues."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.agriculture-and-allied-activities.cropping-intensity-and-agro-climatic-zon",
+      "sourceId": "husain-geography-india",
+      "chapter": "Ch 8 · Agriculture",
+      "reason": "Standard source for Planning Commission's agro-climatic regions and cropping intensity analysis."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.location-factors-of-industries.industrial-location-theories-weber-and-l",
+      "sourceId": "ncert-12-geography",
+      "chapter": "Ch 6 · Secondary Activities",
+      "reason": "Covers core locational principles, agglomeration economies, and raw material index foundations."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.location-factors-of-industries.iron-and-steel-industry-location-factors",
+      "sourceId": "ncert-12-geography",
+      "chapter": "Ch 6 · Secondary Activities",
+      "reason": "Directly addresses UPSC mains themes on global shifts of steel mills toward coasts."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.location-factors-of-industries.textile-industry-cotton-synthetic-jute",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 8 · Manufacturing Industries",
+      "reason": "Details historical and modern spatial shifts of cotton, jute, and synthetic textile clusters."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.location-factors-of-industries.automobile-and-heavy-engineering-industr",
+      "sourceId": "ncert-12-geography",
+      "chapter": "Ch 6 · Secondary Activities",
+      "reason": "Explains location determinants, agglomeration economies, and global manufacturing clusters for heavy industries."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.location-factors-of-industries.petrochemical-and-fertilizer-industries",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 8 · Manufacturing Industries",
+      "reason": "Details raw material linkages, pipeline connectivity, and port-based locations of chemical plants."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.location-factors-of-industries.sugar-industry-and-cooperative-clusters",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 8 · Manufacturing Industries",
+      "reason": "Explains weight-losing agro-processing dynamics, tropical shift, and cooperative organization in sugar mills."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.location-factors-of-industries.pharmaceutical-and-chemical-industry",
+      "sourceId": "husain-geography-india",
+      "chapter": "Ch 11 · Industries",
+      "reason": "Comprehensive spatial analysis of India's chemical and pharmaceutical clusters and port proximity."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.location-factors-of-industries.electronics-semiconductor-and-hardware-m",
+      "sourceId": "ncert-12-geography",
+      "chapter": "Ch 6 · Secondary Activities",
+      "reason": "Core concepts of high-technology industries, clean rooms, technopolies, and skilled labour orientation."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.location-factors-of-industries.information-technology-and-software-serv",
+      "sourceId": "ncert-12-geography",
+      "chapter": "Ch 7 · Tertiary and Quaternary Activities",
+      "reason": "Analyzes footloose knowledge-based services, quaternary activities, and telecom-driven outsourcing hubs."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.location-factors-of-industries.tourism-hospitality-and-wellness-sector",
+      "sourceId": "ncert-12-geography",
+      "chapter": "Ch 7 · Tertiary and Quaternary Activities",
+      "reason": "Details geographical determinants of tourism, heritage circuits, and emerging medical travel hubs."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.human-geography-and-transportation.global-population-distribution-and-densi",
+      "sourceId": "ncert-12-geography",
+      "chapter": "Ch 2 · The World Population: Distribution, Density and Growth",
+      "reason": "Foundational framework for global population distribution, ecumene boundaries, and physical determinants."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.human-geography-and-transportation.migration-streams-causes-and-consequence",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 2 · Migration: Types, Causes and Consequences",
+      "reason": "Clarifies internal and international migration streams, push-pull dynamics, and remittance impacts."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.human-geography-and-transportation.rural-settlement-patterns-and-morphology",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 4 · Human Settlements",
+      "reason": "Categorizes clustered, semi-clustered, hamleted, and dispersed settlement types and environmental drivers."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.human-geography-and-transportation.ports-shipping-routes-and-choke-points",
+      "sourceId": "ncert-12-geography",
+      "chapter": "Ch 8 · Transport and Communication",
+      "reason": "Details major oceanic shipping lanes, canal routes, and strategic global maritime choke points."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.human-geography-and-transportation.railways-highways-and-freight-corridors-",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 10 · Transport and Communication",
+      "reason": "Explains national highway corridors, dedicated rail freight logistics, and connectivity programmes."
+    },
+    {
+      "nodeId": "gs1.economic-and-human-geography.human-geography-and-transportation.inland-waterways-and-sagarmala-project",
+      "sourceId": "ncert-12-india-people-economy",
+      "chapter": "Ch 10 · Transport and Communication",
+      "reason": "Examines National Waterways network, major seaports, and coastal shipping multimodal integration."
+    }
+  ]
+}
