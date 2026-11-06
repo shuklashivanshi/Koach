@@ -1,3 +1,4 @@
+import cors from '@fastify/cors';
 import swagger from '@fastify/swagger';
 import Fastify, { type FastifyInstance } from 'fastify';
 import {
@@ -26,6 +27,14 @@ export async function buildApp(deps: Deps, options: BuildOptions = {}): Promise<
   const app = Fastify({ logger: loggerOptions(options.logger ?? false), trustProxy: true });
   app.setValidatorCompiler(validatorCompiler);
   app.setSerializerCompiler(serializerCompiler);
+
+  // Dev only: the web build on localhost (Expo, :8081) calls the API from the browser.
+  if (deps.config.APP_ENV === 'dev') {
+    await app.register(cors, {
+      origin: /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/,
+      methods: ['GET', 'POST', 'DELETE'],
+    });
+  }
 
   await app.register(swagger, {
     openapi: { info: { title: 'Koach API', version: deps.version } },

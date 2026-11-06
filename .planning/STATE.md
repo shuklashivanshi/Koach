@@ -21,11 +21,11 @@ See: .planning/PROJECT.md (updated 2026-11-05)
 ## Current Position
 
 Phase: 1 of 13 (Foundation & GCP Deploy)
-Plan: 5 of 7 code-complete (01-01, 01-03, 01-04, 01-06 done; 01-02/01-05 scripts written)
-Status: Waiting on user setup (01-02 Task 2 checkpoint)
-Last activity: 2026-11-06 — Executed all autonomous Phase 1 work; 54 + 14 tests green; blocked on billing/gcloud/firebase/Resend logins
+Plan: 6 of 7 complete (01-07 Android build deferred by user choice)
+Status: Phase 1 platform done; ready to plan Phase 2
+Last activity: 2026-11-06: koach-dev live (verify 28/28, smoke 11/11); push-to-main deploys; app runs on web against a local API (`pnpm dev`)
 
-Progress: [██████░░░░] ~60% of Phase 1
+Progress: [█████████░] Phase 1 done except the deferred device build
 
 ## Performance Metrics
 
@@ -56,6 +56,8 @@ Recent decisions affecting current work:
 - [Planning]: Naming rule: no teacher/institute/platform names in the app; books + official sources allowed; blocked-names filter
 - [Planning]: App push only; Mains answers by photo or typing; no optional taster test; no generated music
 - [Phase 1 planning]: Android first; Google + email code (Resend); Node 24; Expo SDK 58; koach-dev only; ₹2,000 budget
+- [Phase 1]: Test on web + localhost first; the Android build and device check (01-07) come later
+- [Phase 1]: bulk/embed Gemini tiers use the global endpoint (not served in asia-south1); lite + TTS stay in asia-south1
 - [Review]: Requirement IDs renumbered (MEM→LPT, ELEC→OPT, CUE and KB reordered); PROJECT.md declared the source of truth
 
 ### Pending Todos
@@ -64,10 +66,10 @@ None yet.
 
 ### Blockers/Concerns
 
-- Phase 1 user steps pending: billing account, gcloud/firebase/eas logins, Resend key, GitHub repo + Cloud Build app (see plan user_setup)
-- Gemini model availability in asia-south1 to be confirmed live in 01-04/01-05 (fallback: global endpoint)
+- Resend refuses delivery (403) until a sending domain is verified; dev relies on the code echo in logs
+- Rotate the Resend API key (it was shared in chat)
 - UPSC subject-matter expert availability for knowledge-base review (Phase 2) is unconfirmed
 
 ## Deferred Items
 
-None yet.
+- 01-07: EAS Android dev build + 8-step on-phone check. Needs `expo-dev-client` wiring (EAS reported it missing), `register-sha1.sh`, and the `.web.ts` local auth to stay web-only.

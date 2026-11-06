@@ -364,6 +364,7 @@ All Active items are hypotheses until shipped. IDs are in `.planning/REQUIREMENT
 | Node 24 LTS; Expo SDK 58; Postgres 16; Gemini `gemini-3.8-flash` / `gemini-3.5-flash-lite` / `gemini-embedding-2` | Current stable versions at Phase 1 planning (2026-11-06); model IDs live only in config | — Pending |
 | Phase 1 builds koach-dev only; koach-prod via the same scripts before v1.0; ₹2,000 budget alert | User choice; halves idle cost while dogfooding | — Pending |
 | GSD in YOLO mode, standard granularity | User preference; fast iteration toward a 4-week MVP | — Pending |
+| Build the platform first and test on web + localhost; the Android build (01-07) and device check wait until the product is further along | User choice (2026-11-06): faster iteration, no device/build loop; Expo web runs the same screens | — Pending |
 
 ## Evolution
 

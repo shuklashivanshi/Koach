@@ -12,7 +12,10 @@
     "test": "vitest run && pnpm --filter @koach/mobile test",
     "format": "prettier --check .",
     "lint:sh": "shellcheck -x infra/*.sh",
-    "test:unit": "vitest run"
+    "test:unit": "vitest run",
+    "dev:api": "GCP_PROJECT=koach-dev-8cf0a5 EMAIL_DEV_ECHO=1 pnpm --filter @koach/api dev",
+    "dev:web": "pnpm --filter @koach/mobile web",
+    "dev": "pnpm run \"/^dev:(api|web)$/\""
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",

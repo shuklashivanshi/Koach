@@ -28,9 +28,15 @@ async function main(): Promise<void> {
       : undefined;
   if (!identity) throw new Error('FIREBASE_PROJECT_ID is required in prod');
 
+  // Without a Resend key (localhost) emails are printed to the terminal instead.
   const email: EmailSender = config.RESEND_API_KEY
     ? resendSender(config.RESEND_API_KEY, config.EMAIL_FROM)
-    : { send: () => Promise.resolve() };
+    : {
+        send: (m) => {
+          console.log(`\n  ✉  ${m.to}: ${m.text}\n`);
+          return Promise.resolve();
+        },
+      };
 
   const deps: Deps = {
     config,

@@ -49,7 +49,9 @@ export function devIdentity(): IdentityProvider {
     verifyIdToken(token) {
       if (!token.startsWith('dev:')) return Promise.reject(new Error('invalid dev token'));
       const uid = token.slice(4);
-      return Promise.resolve({ uid, email: `${uid}@dev.local` });
+      // Email-code users are `dev-<email>`; any other uid gets a placeholder address.
+      const email = uid.startsWith('dev-') && uid.includes('@') ? uid.slice(4) : `${uid}@dev.local`;
+      return Promise.resolve({ uid, email });
     },
     resolveUidForEmail: (email) => Promise.resolve(`dev-${email}`),
     createCustomToken: (uid) => Promise.resolve(`dev:${uid}`),

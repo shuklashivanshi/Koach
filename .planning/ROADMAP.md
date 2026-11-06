@@ -61,19 +61,19 @@ Feature definitions: `.planning/PROJECT.md`. Requirement IDs: `.planning/REQUIRE
 **Success Criteria** (what must be TRUE):
   1. Running the bootstrap script on a fresh GCP project creates everything the API needs (APIs incl. Vertex AI and speech, service accounts, Artifact Registry, Cloud SQL, secrets, budget alert)
   2. Pushing to `main` triggers Cloud Build with `deploy.yaml`, which runs checks and migrations, deploys `koach-api` to Cloud Run (`asia-south1`) and passes the `/health` smoke test
-  3. User can sign in on a physical phone (EAS dev build) with Google and stays signed in after restarting the app; the app renders with `packages/ui` tokens
+  3. User can sign in on a physical phone (EAS dev build) with Google and stays signed in after restarting the app; the app renders with `packages/ui` tokens *(deferred with 01-07; for now verified on web + localhost: email-code sign-in, session kept across reloads)*
   4. An authenticated `/v1/ai/ping` returns a Gemini response and a short TTS clip, with tokens/cost logged
   5. User can request a data export and account deletion
 **Plans**: 7 plans (5 waves)
 
 Plans:
-- [ ] 01-01: Monorepo + shared schemas + Drizzle/PGlite db + UI tokens (wave 1)
-- [ ] 01-02: Idempotent GCP + Firebase bootstrap for koach-dev, run after user login (wave 1)
-- [ ] 01-03: Fastify API: auth, /v1/me, email-code sign-in, export/delete (wave 2)
-- [ ] 01-06: Expo SDK 58 app: Welcome, Google + email sign-in, Today, You, Dev ping (wave 2)
-- [ ] 01-04: packages/ai: Vertex + TTS wrapper, cost logging, evals, /v1/ai/ping (wave 3)
-- [ ] 01-05: Dockerfiles, final deploy.yaml, first deploy, push-to-main trigger, live smoke (wave 4)
-- [ ] 01-07: EAS Android dev build + on-phone verification (wave 5)
+- [x] 01-01: Monorepo + shared schemas + Drizzle/PGlite db + UI tokens (wave 1)
+- [x] 01-02: Idempotent GCP + Firebase bootstrap for koach-dev, run after user login (wave 1)
+- [x] 01-03: Fastify API: auth, /v1/me, email-code sign-in, export/delete (wave 2)
+- [x] 01-06: Expo SDK 58 app: Welcome, Google + email sign-in, Today, You, Dev ping (wave 2)
+- [x] 01-04: packages/ai: Vertex + TTS wrapper, cost logging, evals, /v1/ai/ping (wave 3)
+- [x] 01-05: Dockerfiles, final deploy.yaml, first deploy, push-to-main trigger, live smoke (wave 4)
+- [ ] 01-07: EAS Android dev build + on-phone verification (wave 5) — **deferred**: testing is on web + localhost for now (`pnpm dev`); Expo project linked, Firebase config uploaded to EAS
 
 ### Phase 2: UPSC Knowledge Base
 **Goal**: The ground truth Koach reasons over (syllabus graph, tagged PYQs, a source per node, PYQ statistics, strategy KB, playbooks), queryable via API and protected by the naming guard.

@@ -1,8 +1,9 @@
 import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
+import { Stack, usePathname, useRouter } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
+import { Platform } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { AuthProvider, useAuth } from '@/auth/AuthProvider';
 import { fontAssets } from '@/ui/fonts';
@@ -15,10 +16,24 @@ function Navigator() {
   const { c } = useTheme();
   const [fontsLoaded] = useFonts(fontAssets);
   const ready = fontsLoaded && auth.status !== 'loading';
+  const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     if (ready) void SplashScreen.hideAsync();
   }, [ready]);
+
+  // Web: the protected-stack redirect lands on the bare "/(tabs)" group URL, which has no page.
+  // Keep the address bar on a real path for each sign-in state.
+  useEffect(() => {
+    if (Platform.OS !== 'web' || auth.status === 'loading') return;
+    const publicPath = pathname === '/' || pathname.startsWith('/sign-in');
+    if (auth.status === 'signed-in' && (publicPath || pathname === '/(tabs)')) {
+      router.replace('/today');
+    } else if (auth.status === 'signed-out' && !publicPath) {
+      router.replace('/');
+    }
+  }, [auth.status, pathname, router]);
   if (!ready) return null;
 
   const signedIn = auth.status === 'signed-in';

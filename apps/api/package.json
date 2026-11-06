@@ -10,6 +10,7 @@
     "typecheck": "tsc -p tsconfig.json"
   },
   "dependencies": {
+    "@fastify/cors": "11.4.0",
     "@fastify/swagger": "9.9.2",
     "@google-cloud/storage": "8.4.0",
     "@google-cloud/text-to-speech": "7.2.0",

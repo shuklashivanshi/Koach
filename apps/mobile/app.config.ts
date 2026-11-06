@@ -37,9 +37,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     '@react-native-firebase/auth',
     '@react-native-google-signin/google-signin',
   ],
+  web: { bundler: 'metro', output: 'single' },
   experiments: { typedRoutes: true },
   extra: {
-    apiUrl: process.env.EXPO_PUBLIC_API_URL ?? 'http://10.0.2.2:8080',
+    apiUrl: process.env.EXPO_PUBLIC_API_URL ?? 'http://localhost:8080',
     googleWebClientId: process.env.EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID ?? '',
     devTools: process.env.EXPO_PUBLIC_DEV_TOOLS === '1',
     eas: { projectId: '8e6f4cff-857f-4953-8307-da5ea6c694aa' },
