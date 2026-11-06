@@ -1,0 +1,23 @@
+{
+  "tags": [
+    {
+      "pyqId": "pre-2023-gs1-q001",
+      "nodes": [{ "id": "gs2.polity.fr.equality", "primary": true }],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q002",
+      "nodes": [{ "id": "gs2.polity.preamble", "primary": true }],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs2-q001",
+      "nodes": [{ "id": "gs2.polity.fr.equality", "primary": true }],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    }
+  ]
+}

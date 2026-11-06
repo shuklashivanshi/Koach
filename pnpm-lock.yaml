@@ -220,6 +220,12 @@ importers:
       '@koach/db':
         specifier: workspace:*
         version: link:../../packages/db
+      '@koach/guard':
+        specifier: workspace:*
+        version: link:../../packages/guard
+      '@koach/kb':
+        specifier: workspace:*
+        version: link:../../packages/kb
       '@koach/shared':
         specifier: workspace:*
         version: link:../../packages/shared
@@ -251,12 +257,21 @@ importers:
       '@koach/db':
         specifier: workspace:*
         version: link:../../packages/db
+      '@koach/guard':
+        specifier: workspace:*
+        version: link:../../packages/guard
+      '@koach/kb':
+        specifier: workspace:*
+        version: link:../../packages/kb
       drizzle-orm:
         specifier: 0.45.4
         version: 0.45.4(@electric-sql/pglite@0.5.15)(@opentelemetry/api@1.10.0)(@types/pg@8.23.1)(pg@8.23.1)
       pg:
         specifier: 8.23.1
         version: 8.23.1
+      zod:
+        specifier: 4.6.7
+        version: 4.6.7
     devDependencies:
       tsup:
         specifier: 9.0.0
@@ -385,6 +400,9 @@ importers:
       '@google/genai':
         specifier: 2.30.0
         version: 2.30.0(supports-color@8.1.1)
+      '@koach/guard':
+        specifier: workspace:*
+        version: link:../guard
 
   packages/db:
     dependencies:
@@ -410,6 +428,23 @@ importers:
       drizzle-kit:
         specifier: 0.31.11
         version: 0.31.11
+
+  packages/guard: {}
+
+  packages/kb:
+    dependencies:
+      '@koach/db':
+        specifier: workspace:*
+        version: link:../db
+      '@koach/guard':
+        specifier: workspace:*
+        version: link:../guard
+      drizzle-orm:
+        specifier: 0.45.4
+        version: 0.45.4(@electric-sql/pglite@0.5.15)(@opentelemetry/api@1.10.0)(@types/pg@8.23.1)(pg@8.23.1)
+      zod:
+        specifier: 4.6.7
+        version: 4.6.7
 
   packages/shared:
     dependencies:

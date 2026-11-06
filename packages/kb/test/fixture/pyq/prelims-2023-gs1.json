@@ -1,0 +1,23 @@
+{
+  "exam": "prelims",
+  "paper": "gs1",
+  "year": 2023,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP_CS_Pre_Exam_2023_280523.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Consider the following statements about Article 14 ...",
+      "options": [
+        { "key": "a", "text": "1 only" },
+        { "key": "b", "text": "2 only" }
+      ],
+      "answer": "a"
+    },
+    {
+      "number": 2,
+      "text": "Which one of the following is part of the basic structure?",
+      "options": [{ "key": "a", "text": "x" }],
+      "answer": "a"
+    }
+  ]
+}

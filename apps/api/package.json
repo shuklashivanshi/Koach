@@ -17,6 +17,8 @@
     "@google/genai": "2.30.0",
     "@koach/ai": "workspace:*",
     "@koach/db": "workspace:*",
+    "@koach/guard": "workspace:*",
+    "@koach/kb": "workspace:*",
     "@koach/shared": "workspace:*",
     "drizzle-orm": "0.45.4",
     "fastify": "5.12.7",

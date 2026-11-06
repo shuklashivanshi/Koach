@@ -47,6 +47,14 @@ export const ExportBundleSchema = z.object({
     }),
   ),
   aiCalls: z.array(AiCallRecord),
+  notes: z.array(
+    z.object({
+      id: z.string(),
+      title: z.string(),
+      body: z.string(),
+      createdAt: z.iso.datetime({ offset: true }),
+    }),
+  ),
   storageObjects: z.array(z.string()),
 });
 export type ExportBundle = z.infer<typeof ExportBundleSchema>;

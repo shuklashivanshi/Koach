@@ -1,4 +1,4 @@
-import { aiCallsRepo, emailCodesRepo, usersRepo } from '@koach/db';
+import { aiCallsRepo, emailCodesRepo, userNotesRepo, usersRepo } from '@koach/db';
 import { ExportBundleSchema } from '@koach/shared';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import { bearer, buildTestApp } from './helpers';
@@ -21,6 +21,7 @@ describe('DPDP export and delete', () => {
       expiresAt: new Date(Date.now() + 60_000),
       ip: null,
     });
+    await userNotesRepo.add(ctx.deps.db, 'u1', 'Polity class', 'Art 14 notes');
     ctx.deps.storage.objects.add('users/u1/answer-1.jpg');
     ctx.deps.storage.objects.add('users/u2/other.jpg');
   });
@@ -37,6 +38,7 @@ describe('DPDP export and delete', () => {
     expect(bundle.user.uid).toBe('u1');
     expect(bundle.aiCalls).toHaveLength(1);
     expect(bundle.emailCodes).toHaveLength(1);
+    expect(bundle.notes.map((n) => n.title)).toEqual(['Polity class']);
     expect(bundle.storageObjects).toEqual(['users/u1/answer-1.jpg']);
     expect(JSON.stringify(bundle)).not.toContain('codeHash');
   });
@@ -46,6 +48,7 @@ describe('DPDP export and delete', () => {
     expect((await del()).statusCode).toBe(204);
     expect(await usersRepo.get(ctx.deps.db, 'u1')).toBeUndefined();
     expect(await aiCallsRepo.listByUid(ctx.deps.db, 'u1')).toHaveLength(0);
+    expect(await userNotesRepo.listByUid(ctx.deps.db, 'u1')).toHaveLength(0);
     expect(await emailCodesRepo.listByEmail(ctx.deps.db, 'a@b.co')).toHaveLength(0);
     expect([...ctx.deps.storage.objects]).toEqual(['users/u2/other.jpg']);
     expect(ctx.deps.identity.deleted).toEqual(['u1']);

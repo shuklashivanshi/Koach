@@ -10,10 +10,12 @@ import {
 } from 'fastify-type-provider-zod';
 import type { Deps } from './deps';
 import { requireAuth } from './plugins/auth';
+import { registerNamingGuard } from './plugins/guard';
 import { loggerOptions } from './plugins/logging';
 import { healthRoutes } from './routes/health';
 import { aiPingRoutes } from './routes/v1/ai/ping';
 import { emailAuthRoutes } from './routes/v1/auth/email';
+import { kbRoutes } from './routes/v1/kb';
 import { meExportRoutes } from './routes/v1/me/export';
 import { meRoutes } from './routes/v1/me';
 
@@ -50,6 +52,8 @@ export async function buildApp(deps: Deps, options: BuildOptions = {}): Promise<
     return reply.code(500).send({ error: 'internal' });
   });
 
+  registerNamingGuard(app, deps.config.APP_ENV === 'prod' ? 'redact' : 'fail');
+
   const typed = app.withTypeProvider<ZodTypeProvider>();
   await typed.register(healthRoutes(deps));
   // Public: email sign-in must work before the user has a token.
@@ -62,6 +66,7 @@ export async function buildApp(deps: Deps, options: BuildOptions = {}): Promise<
       await scope.register(meRoutes(deps));
       await scope.register(meExportRoutes(deps));
       await scope.register(aiPingRoutes(deps));
+      await scope.register(kbRoutes(deps));
       for (const routes of options.protectedRoutes ?? []) await scope.register(routes(deps));
     },
     { prefix: '/v1' },

@@ -1,0 +1,14 @@
+{
+  "exam": "mains",
+  "paper": "gs2",
+  "year": 2022,
+  "sourceUrl": "https://www.upsc.gov.in/example.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Discuss the scope of equality before law in India.",
+      "marks": 10,
+      "wordLimit": 150
+    }
+  ]
+}

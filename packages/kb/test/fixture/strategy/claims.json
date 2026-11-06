@@ -1,0 +1,20 @@
+{
+  "claims": [
+    {
+      "id": "pyq-first-polity",
+      "topic": "polity",
+      "claim": "Reading the PYQs on a chapter before studying it makes the reading targeted.",
+      "kind": "topper",
+      "sourceUrl": "https://example.org/a",
+      "sourceDate": "2024-05-01"
+    },
+    {
+      "id": "official-syllabus",
+      "topic": "syllabus",
+      "claim": "The official syllabus is the scope of the exam.",
+      "kind": "official",
+      "officialSource": "UPSC CSE notification",
+      "sourceUrl": "https://upsc.gov.in/"
+    }
+  ]
+}

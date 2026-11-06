@@ -8,12 +8,13 @@ RUN pnpm install --frozen-lockfile --filter "@koach/jobs..." \
  && pnpm --filter @koach/jobs deploy --prod /out
 
 FROM node:24-slim
-ENV NODE_ENV=production MIGRATIONS_DIR=/app/migrations
+ENV NODE_ENV=production MIGRATIONS_DIR=/app/migrations KB_DATA_DIR=/app/kb-data
 WORKDIR /app
 COPY --from=build --chown=node:node /out/package.json ./package.json
 COPY --from=build --chown=node:node /out/node_modules ./node_modules
 COPY --from=build --chown=node:node /out/dist ./dist
 COPY --from=build --chown=node:node /repo/packages/db/migrations ./migrations
+COPY --from=build --chown=node:node /repo/packages/kb/data ./kb-data
 USER node
 # The command is set per Cloud Run job (e.g. node dist/migrate.js).
 CMD ["node", "--enable-source-maps", "dist/migrate.js"]

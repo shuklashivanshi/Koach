@@ -1,0 +1,16 @@
+{
+  "map": [
+    {
+      "nodeId": "gs2.polity.fr.equality",
+      "sourceId": "laxmikanth-polity",
+      "chapter": "Ch 7 · Fundamental Rights",
+      "reason": "Article-by-article coverage that PYQ statements test directly."
+    },
+    {
+      "nodeId": "gs2.polity.preamble",
+      "sourceId": "ncert-11-polsci-constitution-at-work",
+      "chapter": "Ch 1 · Constitution: Why and How?",
+      "reason": "Builds the why behind the Preamble before the case law."
+    }
+  ]
+}

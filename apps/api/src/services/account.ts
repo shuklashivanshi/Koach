@@ -1,4 +1,4 @@
-import { aiCallsRepo, emailCodesRepo, usersRepo } from '@koach/db';
+import { aiCallsRepo, emailCodesRepo, userNotesRepo, usersRepo } from '@koach/db';
 import type { ExportBundle } from '@koach/shared';
 import type { Deps } from '../deps';
 
@@ -12,9 +12,10 @@ export async function exportAccount(
 ): Promise<ExportBundle> {
   const user = await usersRepo.upsert(deps.db, uid, tokenEmail);
   const email = user.email;
-  const [aiCalls, codes, objects] = await Promise.all([
+  const [aiCalls, codes, notes, objects] = await Promise.all([
     aiCallsRepo.listByUid(deps.db, uid),
     email ? emailCodesRepo.listByEmail(deps.db, email) : Promise.resolve([]),
+    userNotesRepo.listByUid(deps.db, uid),
     deps.storage.list(userPrefix(uid)),
   ]);
   return {
@@ -35,6 +36,12 @@ export async function exportAccount(
       estCostUsd: c.estCostUsd,
       latencyMs: c.latencyMs,
       createdAt: c.createdAt.toISOString(),
+    })),
+    notes: notes.map((n) => ({
+      id: n.id,
+      title: n.title,
+      body: n.body,
+      createdAt: n.createdAt.toISOString(),
     })),
     storageObjects: objects,
   };

@@ -1,0 +1,57 @@
+{
+  "paper": "gs2",
+  "title": "Mains GS Paper II",
+  "nodes": [
+    {
+      "id": "gs2",
+      "parentId": null,
+      "title": "Governance, Constitution, Polity, Social Justice and IR",
+      "kind": "paper",
+      "prelims": false,
+      "mains": true
+    },
+    {
+      "id": "gs2.polity",
+      "parentId": "gs2",
+      "title": "Indian Constitution and Polity",
+      "kind": "section",
+      "prelims": true,
+      "mains": true
+    },
+    {
+      "id": "gs2.polity.fr",
+      "parentId": "gs2.polity",
+      "title": "Fundamental Rights",
+      "kind": "topic",
+      "prelims": true,
+      "mains": true
+    },
+    {
+      "id": "gs2.polity.fr.equality",
+      "parentId": "gs2.polity.fr",
+      "title": "Right to Equality (Art 14–18)",
+      "kind": "node",
+      "estMinutes": 60,
+      "prelims": true,
+      "mains": true,
+      "prereqs": ["gs2.polity.preamble"]
+    },
+    {
+      "id": "gs2.polity.preamble",
+      "parentId": "gs2.polity",
+      "title": "Preamble and basic structure",
+      "kind": "node",
+      "estMinutes": 45,
+      "prelims": true,
+      "mains": true
+    },
+    {
+      "id": "gs2.ir",
+      "parentId": "gs2",
+      "title": "International Relations",
+      "kind": "section",
+      "prelims": true,
+      "mains": true
+    }
+  ]
+}

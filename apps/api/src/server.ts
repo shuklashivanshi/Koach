@@ -18,6 +18,10 @@ async function main(): Promise<void> {
     // Local development: in-memory Postgres with migrations applied.
     const { createTestDb } = await import('@koach/db/testing');
     db = (await createTestDb()).db;
+    // Load the knowledge base so the KB routes have data locally (Cloud SQL gets it from koach-migrate).
+    const { loadKb, readKb } = await import('@koach/kb');
+    const kbDir = new URL('../../../packages/kb/data', import.meta.url).pathname;
+    console.log('kb loaded', await loadKb(db, await readKb(kbDir)));
   }
 
   // The dev identity (accepts `Bearer dev:<uid>`) is only possible outside prod without Firebase.

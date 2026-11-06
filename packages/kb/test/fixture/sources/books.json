@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "id": "ncert-11-polsci-constitution-at-work",
+      "kind": "ncert",
+      "title": "NCERT Class 11 · Indian Constitution at Work"
+    },
+    {
+      "id": "laxmikanth-polity",
+      "kind": "book",
+      "title": "Indian Polity",
+      "author": "M. Laxmikanth"
+    },
+    {
+      "id": "env-reference",
+      "kind": "book",
+      "title": "Environment",
+      "author": "Shankar IAS Academy",
+      "neutralLabel": "Environment reference"
+    }
+  ]
+}

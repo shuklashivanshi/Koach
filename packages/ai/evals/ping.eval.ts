@@ -1,5 +1,5 @@
 import { generateText } from '../src/text';
-import { containsBlockedName } from './blocked-names';
+import { checkText } from '@koach/guard';
 import type { Eval } from './types';
 
 const PROMPT = 'Reply with one short encouraging sentence for a UPSC aspirant. No names, no emoji.';
@@ -24,7 +24,7 @@ export const pingEval: Eval<number, string> = {
       if (!oneSentence(out)) return { pass: false, note: 'more than one sentence' };
       if (words(out) > 25) return { pass: false, note: `${words(out)} words` };
       if (!/^[\x20-\x7E’]+$/.test(out)) return { pass: false, note: 'non-English or emoji' };
-      if (containsBlockedName(out)) return { pass: false, note: 'blocked name' };
+      if (checkText(out).length) return { pass: false, note: 'blocked name' };
       return { pass: true };
     },
   })),
