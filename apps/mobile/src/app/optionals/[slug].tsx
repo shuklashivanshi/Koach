@@ -1,10 +1,10 @@
-import type { OptionalExplorer } from '@koach/shared';
+import type { DecisionStatus, OptionalExplorer } from '@koach/shared';
 import { layout, space } from '@koach/ui';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useState } from 'react';
 import { ScrollView, View } from 'react-native';
 import { api } from '@/api/client';
-import { Field } from '@/lpt/games';
+import { ChooseSheet } from '@/optionals/ChooseSheet';
 import { CoachSheet } from '@/optionals/CoachSheet';
 import { componentLabel, fitDots, pct } from '@/optionals/format';
 import { BandChart } from '@/ui/BandChart';
@@ -49,14 +49,27 @@ export default function Explorer() {
   const [o, setO] = useState<OptionalExplorer | null>(null);
   const [failed, setFailed] = useState(false);
   const [whyFit, setWhyFit] = useState(false);
-  const [reasons, setReasons] = useState('');
-  const [saved, setSaved] = useState(false);
   const [coachOpen, setCoachOpen] = useState(false);
+  const [chooseOpen, setChooseOpen] = useState(false);
+  const [decision, setDecision] = useState<DecisionStatus | null>(null);
+  const [currentName, setCurrentName] = useState<string | null>(null);
   const load = useCallback(() => {
     setFailed(false);
     api.optional(slug).then(setO, () => setFailed(true));
   }, [slug]);
   useEffect(load, [load]);
+  useEffect(() => {
+    void api.decision().then(setDecision, () => undefined);
+  }, []);
+  // The name of an optional this choice would replace, for the confirmation line.
+  useEffect(() => {
+    if (!decision?.chosen || decision.chosen === slug) return;
+    const chosen = decision.chosen;
+    void api.optionals().then(
+      (l) => setCurrentName(l.optionals.find((x) => x.slug === chosen)?.name ?? null),
+      () => undefined,
+    );
+  }, [decision, slug]);
 
   const scroll = (children: React.ReactNode) => (
     <ScrollView
@@ -183,19 +196,36 @@ export default function Explorer() {
         onPress={() => router.push(`/optionals?compare=${encodeURIComponent(o.slug)}`)}
       />
       <Button label="Ask the coach about this" kind="text" onPress={() => setCoachOpen(true)} />
-      <Text variant="label" muted smallCaps>
-        Decide
-      </Text>
-      <Field
-        value={reasons}
-        onChangeText={setReasons}
-        placeholder="Why this optional, in your words"
-        lines={3}
-      />
-      <Button
-        label={saved ? 'Added to your plan' : `Choose ${o.name}`}
-        disabled={reasons.trim().length < 3 || saved}
-        onPress={() => void api.chooseOptional(o.slug, reasons).then(() => setSaved(true))}
+      {decision?.chosen === o.slug ? (
+        <>
+          <Text variant="label" muted smallCaps>
+            Your optional
+          </Text>
+          <Button
+            label="See the outline"
+            kind="text"
+            align="start"
+            onPress={() => router.push('/optionals/outline')}
+          />
+        </>
+      ) : (
+        <Button
+          label="Make it my optional"
+          testID="make-optional"
+          onPress={() => setChooseOpen(true)}
+        />
+      )}
+      <ChooseSheet
+        visible={chooseOpen}
+        slug={o.slug}
+        name={o.name}
+        current={
+          decision?.chosen
+            ? { chosen: decision.chosen, reasons: decision.reasons, name: currentName }
+            : null
+        }
+        onClose={() => setChooseOpen(false)}
+        onChosen={(r) => setDecision(r)}
       />
       <CoachSheet visible={coachOpen} slugs={[o.slug]} onClose={() => setCoachOpen(false)} />
     </>,

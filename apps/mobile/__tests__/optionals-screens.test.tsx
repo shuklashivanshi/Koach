@@ -66,6 +66,13 @@ const explorer = (over: Partial<OptionalExplorer> = {}): OptionalExplorer => ({
 beforeEach(() => {
   jest.clearAllMocks();
   (useLocalSearchParams as jest.Mock).mockReturnValue({ slug: 'political-science' });
+  (api.decision as jest.Mock).mockResolvedValue({
+    deadline: '2026-12-15',
+    daysLeft: 10,
+    chosen: null,
+    reasons: null,
+    quizTaken: false,
+  });
 });
 
 test('explorer shows the Stat row, band chart, your fit and the estimated-style caption', async () => {
@@ -178,4 +185,28 @@ test('optionals home failure shows the error copy', async () => {
   await render(<Optionals />);
   await screen.findByText("Couldn't reach the library. Try again.");
   expect(screen.getByText('Try again')).toBeTruthy();
+});
+
+test('explorer offers Make it my optional until this optional is chosen', async () => {
+  (api.optional as jest.Mock).mockResolvedValue(explorer());
+  await render(<Explorer />);
+  await screen.findByText('Political Science and IR');
+  expect(screen.getByTestId('make-optional')).toBeTruthy();
+  expect(screen.queryByText('See the outline')).toBeNull();
+});
+
+test('explorer shows Your optional and See the outline once chosen', async () => {
+  (api.optional as jest.Mock).mockResolvedValue(explorer());
+  (api.decision as jest.Mock).mockResolvedValue({
+    deadline: '2026-12-15',
+    daysLeft: 10,
+    chosen: 'political-science',
+    reasons: 'I like it',
+    quizTaken: true,
+  });
+  await render(<Explorer />);
+  await screen.findByText('Political Science and IR');
+  await fireEvent.press(await screen.findByText('See the outline'));
+  expect(router.push).toHaveBeenCalledWith('/optionals/outline');
+  expect(screen.queryByTestId('make-optional')).toBeNull();
 });
