@@ -220,3 +220,63 @@ export function rankOptionals(
   const surprising = all.filter((r) => r.surprising && !top.includes(r)).slice(0, 2);
   return { top, surprising };
 }
+
+/**
+ * Minimum length of a profile slug before it may act as a prefix of a stats slug. The syllabus
+ * generator truncates optional slugs to 40 characters, so only long (truncated) slugs can be
+ * prefixes; short ones such as "law" must never match by prefix.
+ */
+const MIN_PREFIX_SLUG = 30;
+
+/**
+ * Maps a slug from the annual-report stats to a profile slug: exact match first, otherwise the
+ * single profile slug (>= 30 chars) that is a prefix of it. Null when none or ambiguous.
+ */
+export function resolveOptionalSlug(statSlug: string, profileSlugs: string[]): string | null {
+  if (profileSlugs.includes(statSlug)) return statSlug;
+  const candidates = profileSlugs.filter(
+    (p) => p.length >= MIN_PREFIX_SLUG && statSlug.startsWith(p),
+  );
+  return candidates.length === 1 ? candidates[0]! : null;
+}
+
+export interface OptionalStatYear {
+  examYear: number;
+  source: string;
+  rows: { slug: string; appeared: number; recommended: number }[];
+}
+
+export interface JoinedOptional<P> {
+  slug: string;
+  profile: P;
+  stats: { examYear: number; appeared: number; recommended: number; source: string }[];
+}
+
+/** Attaches each annual-report row to its profile by canonical slug (see resolveOptionalSlug). */
+export function joinOptionalStats<P>(
+  profiles: Record<string, P>,
+  years: OptionalStatYear[],
+): { optionals: JoinedOptional<P>[]; unresolved: string[] } {
+  const slugs = Object.keys(profiles);
+  const bySlug = new Map<string, JoinedOptional<P>['stats']>(slugs.map((s) => [s, []]));
+  const unresolved = new Set<string>();
+  for (const y of years) {
+    for (const r of y.rows) {
+      const target = resolveOptionalSlug(r.slug, slugs);
+      if (!target) {
+        unresolved.add(r.slug);
+        continue;
+      }
+      bySlug.get(target)!.push({
+        examYear: y.examYear,
+        appeared: r.appeared,
+        recommended: r.recommended,
+        source: y.source,
+      });
+    }
+  }
+  return {
+    optionals: slugs.map((slug) => ({ slug, profile: profiles[slug]!, stats: bySlug.get(slug)! })),
+    unresolved: [...unresolved],
+  };
+}
