@@ -1,0 +1,338 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2022-gs4-q001",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.status-and-problems-in-public-administra",
+          "primary": true
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.work-culture-in-public-administration",
+          "primary": false
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.objectivity-and-evidence-based-decisions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically evaluate"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q002",
+      "nodes": [
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.empathy-sympathy-and-compassion",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q003",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.sources-of-guidance-law-rules-regulation",
+          "primary": true
+        },
+        {
+          "id": "gs4.attitude.structure-and-behavioural-aspects.attitude-thought-behaviour-relation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q004",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.consequences-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q005",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.morality-ethics-and-law",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q006",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.role-of-family-in-value-inculcation",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.role-of-educational-institutions",
+          "primary": false
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.corruption-causes-and-consequences",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q007",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.consequences-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q008",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.concept-and-philosophical-basis-of-probi",
+          "primary": true
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.citizens-charters-and-quality-service",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q009",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.ethics-in-technology-and-ai",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "describe and discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q010",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.ethical-issues-in-international-relation",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.consequences-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "illustrate"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q011",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.concept-and-philosophical-basis-of-probi",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conflict-of-interest-management",
+          "primary": false
+        },
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.br-ambedkar-social-morality",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q012",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.whistleblower-protection-mechanisms",
+          "primary": true
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.institutional-anti-corruption-frameworks",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q013",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.corporate-governance-and-csr",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.environmental-ethics-and-climate-justice",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q014",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-corruption-procurement-publ",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty",
+          "primary": false
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conflict-of-interest-management",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q015",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-political-pressure-integrit",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.courage-of-conviction-and-fortitude",
+          "primary": false
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.ethical-dilemmas-in-governance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically evaluate"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q016",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-political-pressure-integrit",
+          "primary": true
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.whistleblower-protection-mechanisms",
+          "primary": false
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically evaluate"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q017",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.corporate-governance-and-csr",
+          "primary": false
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically evaluate"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q018",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-administrative-discretion-r",
+          "primary": true
+        },
+        {
+          "id": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-crisis-and-conflict-resolution",
+          "primary": false
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.ethical-dilemmas-in-governance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2022-gs4-q019",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-administrative-discretion-r",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.environmental-ethics-and-climate-justice",
+          "primary": false
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.courage-of-conviction-and-fortitude",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically examine"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2019-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.taxation-reforms-gst",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.budget-documents-structure",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.national-income-growth.growth-vs-development",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.national-income-growth.potential-gdp",
+          "primary": false
+        },
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.monetary-policy-framework",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "give reasons"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.crop-diversification-millets",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how far"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.micro-irrigation-pksy",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.historical-indian-scientists",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.seed-technology-gm-crops",
+          "primary": false
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.space-technology.human-spaceflight-gaganyaan",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.space-technology.deep-space-missions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.coastal-regulation-zone-rules",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.soil-degradation-desertification",
+          "primary": false
+        },
+        {
+          "id": "gs3.environment-biodiversity.ecology-and-ecosystems.mangroves-and-coral-reefs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.sendai-framework-priorities",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.community-based-disaster-management",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.jammu-kashmir-hybrid-terrorism",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.security-forces-agencies.uapa-statutory-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.national-cyber-security-policy",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.critical-information-infrastructure",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.national-income-growth.growth-vs-development",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.budget-documents-structure",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.frbm-act-debt",
+          "primary": false
+        },
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.types-of-deficits",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "clarify"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.pds-food-security.pds-functioning-reforms",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.pds-food-security.nfsa-provisions-critique",
+          "primary": false
+        },
+        {
+          "id": "gs3.agriculture.pds-food-security.dbt-in-food-rationing",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "what"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.mega-food-parks-pmksy",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.traditional-knowledge-tkdl",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.patents-act-section-3d",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.seed-technology-gm-crops",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.ecology-and-ecosystems.ecosystem-structure-functions",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.eia-process-and-notification",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.landslides-and-glofs",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.sendai-framework-priorities",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.security-forces-agencies.uapa-statutory-architecture",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.security-forces-agencies.investigation-agencies-nia-cbi",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2019-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.border-management.india-myanmar-border-fmr",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.northeast-insurgency-history",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "examine"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2017-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.national-income-growth.potential-gdp",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "do you agree"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.manufacturing-share-make-in-india",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.external-sector.foreign-trade-policy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.civil-aviation-udan",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.pds-food-security.nfsa-provisions-critique",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.mega-food-parks-pmksy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.stem-cells-cloning",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.space-technology.human-spaceflight-gaganyaan",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.space-technology.launch-vehicles-evolution",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.ecology-and-ecosystems.ecosystem-structure-functions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.national-cyber-security-policy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.northeast-insurgency-history",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.border-management.india-myanmar-border-fmr",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.budget-documents-structure",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.direct-tax-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "analyse"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-policy-evolution",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.manufacturing-share-make-in-india",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "give reasons"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.poverty-estimation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyse"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.crop-diversification-millets",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.farm-subsidies-and-pricing.direct-vs-indirect-subsidies",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.farm-subsidies-and-pricing.pm-fby-crop-insurance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.civil-nuclear-energy",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.historical-indian-scientists",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "give an account"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.napcc-eight-missions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.tsunamis-early-warning",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.social-media-radicalization-fake-news",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2017-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.terror-financing-monitoring",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    }
+  ]
+}

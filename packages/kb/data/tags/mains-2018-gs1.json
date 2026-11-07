@@ -1,0 +1,307 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2018-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.paintings-and-handicrafts.traditional-textiles-and-handicrafts",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.performing-arts.martial-arts-and-circus-traditions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q002",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.persian-urdu-and-bhakti-literature",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.heterodox-philosophies",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "assess"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.gandhian-philosophy-and-early-experiment",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "throw light"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.ports-shipping-routes-and-choke-points",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.railways-highways-and-freight-corridors-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.cryosphere-changes-polar-ice-caps-and-gl",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.petroleum-and-natural-gas-reserves",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geomorphology.origin-and-interior-structure-of-earth",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.oceanography.coral-bleaching-and-ocean-acidification",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.effects-on-flora-fauna-and-phenological-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.politicization-of-caste-and-caste-mobili",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q009",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-alleviation-and-welfare-programs",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-lines-and-multidimensional-pover",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q010",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.secularism-indian-versus-western-model",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.bhakti-and-sufi-movements",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.persian-urdu-and-bhakti-literature",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.regionalism-in-india",
+          "primary": true
+        },
+        {
+          "id": "gs1.post-independence.nation-building-and-integration.linguistic-reorganization-and-states-reo",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.migration-streams-causes-and-consequence",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+          "primary": false
+        },
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.deindustrialization-and-drain-of-wealth",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urban-infrastructure-and-civic-deficits",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q015",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.marine-and-inland-fisheries-geography",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q016",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.railways-highways-and-freight-corridors-",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.location-factors-of-industries.industrial-location-theories-weber-and-l",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-alleviation-and-welfare-programs",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.regionalism-in-india",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q018",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.evolution-of-womens-movements-in-india",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.social-empowerment-of-vulnerable-groups",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "substantiate"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elucidate"
+    },
+    {
+      "pyqId": "mains-2018-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.communalism-causes-and-manifestations",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "argue"
+    }
+  ]
+}

@@ -1,0 +1,1436 @@
+{
+  "tags": [
+    {
+      "pyqId": "pre-2017-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.legislative-procedure-and-types-of-bills",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q002",
+      "nodes": [
+        {
+          "id": "prelims_gs1.ancient-indian-history.vedic-period-and-second-urbanization.early-vedic-polity-society",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.ancient-indian-history.prehistory-and-protohistory.harappan-society-religion-decline",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.education-sector.vocational-education-and-skill-developme",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.in-situ-conservation-network",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.flagship-conservation-projects",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-equality-art-14-18",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.preamble-philosophy-and-significance",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.international-environmental-treaties",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-trade-and-environmental-ac",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.dpsp-classification-and-ideologies",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.significant-constitutional-amendments",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q009",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.reports-indices-and-rankings-methodology",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q010",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.monetary-policy-framework",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.performing-arts.martial-arts-and-circus-traditions",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.performing-arts.folk-music-and-musical-instruments",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.british-land-revenue-systems",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.solid-waste-management-rules",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q015",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.women-working-class-and-business-in-free",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q016",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.dpsp-classification-and-ideologies",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.conflict-between-fr-and-dpsp",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q018",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.multilateral-groupings-and-summits",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-european-union-ties",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.oceanography.tides-mechanism-and-types",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geomorphology.coastal-landforms",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.land-reforms.land-ceiling-consolidation",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.money-laundering-stages-techniques",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q021",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.ecology-and-ecosystems.ecosystem-structure-functions",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.plant-hormones-and-reproduction",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q022",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q023",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.poshan-abhiyaan-and-icds",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q024",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.women-working-class-and-business-in-free",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.post-1857-administrative-changes",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q025",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q026",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.simon-commission-and-nehru-report",
+          "primary": true
+        },
+        {
+          "id": "gs1.post-independence.nation-building-and-integration.integration-of-princely-states",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q027",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.external-sector.wto-india-agreements",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q028",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.multilateral-groupings-and-summits",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.international-institutions-and-agencies.nuclear-and-export-control-regimes",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q029",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.senior-citizens-and-elderly-care",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q030",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.indias-neighborhood.india-bangladesh-relations",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q031",
+      "nodes": [
+        {
+          "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.infectious-diseases-pathogens",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.disease-burden-and-epidemic-preparedness",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q032",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.food-safety-and-standards-authority-fssa",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.national-initiatives-and-statutory-commi",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q033",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.apmc-reforms-enam",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q034",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.external-sector.wto-india-agreements",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q035",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.wildlife-protection-act-amendments",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.iucn-red-list-categories",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q036",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.fundamental-duties-and-civic-culture",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q037",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.national-movement-1885-1919.pre-congress-political-associations",
+          "primary": true
+        }
+      ],
+      "questionType": "match",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q038",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.preamble-philosophy-and-significance",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q039",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.national-initiatives-and-statutory-commi",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q040",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.financial-inclusion-initiatives",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.rbi-tools-liquidity",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q041",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.multilateral-groupings-and-summits",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urban-governance-and-smart-cities",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q042",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.preamble-philosophy-and-significance",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.fundamental-duties-and-civic-culture",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q043",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.digital-public-infrastructure-fintech",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q044",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.space-missions-and-astronomical-discover",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-physics-chemistry.general-physics.mechanics-motion-and-gravitation",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q045",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.genome-sequencing-projects",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.seed-technology-gm-crops",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q046",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-kingdom",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q047",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.fundamental-duties-and-civic-culture",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q048",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.preamble-philosophy-and-significance",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q049",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.union-and-territory-integration",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.railways-highways-and-freight-corridors-",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q050",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.decline-of-parliament-and-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q051",
+      "nodes": [
+        {
+          "id": "prelims_gs1.medieval-indian-history.early-medieval-india.western-chalukyas-pallavas-hoysalas-kaka",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.medieval-indian-history.early-medieval-india.early-medieval-agrarian-trade-guilds",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q052",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-trade-and-environmental-ac",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.international-environmental-treaties",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q053",
+      "nodes": [
+        {
+          "id": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.buddhism-doctrine-schisms",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.heterodox-philosophies",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q054",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-disputes-and-geopolitical-",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q055",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.investment-models.alternative-financing-invit-reit",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.investment-models.national-monetisation-pipeline",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q056",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.international-institutions-and-agencies.bretton-woods-institutions-imf-and-world",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q057",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1951",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.composition-and-tenure-of-parliament",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q058",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.ecology-and-ecosystems.wetlands-ramsar-conservation",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.union-and-territory-integration",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q059",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.water-pollution-river-rejuvenation",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q060",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.un-specialized-agencies-and-treaties",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urban-governance-and-smart-cities",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q061",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.education-sector.vocational-education-and-skill-developme",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q062",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constitutional-experiments-pre-1947",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.national-movement-1885-1919.lucknow-pact-and-montagu-declaration",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q063",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q064",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.banking-npa-twin-balance",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.rbi-tools-liquidity",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q065",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.international-environmental-treaties",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming",
+          "primary": false
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-trade-and-environmental-ac",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q066",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.monsoon-mechanism-and-teleconnections",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.climatology.el-nino-la-nina-and-mjo",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q067",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.flagship-conservation-projects",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.in-situ-conservation-network",
+          "primary": false
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.species-protected-areas-and-geographic-t",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q068",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.regional-and-global-groupings.indian-ocean-rim-association-iora",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.multilateral-groupings-and-summits",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q069",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.paintings-and-handicrafts.ancient-mural-paintings",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q070",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.performing-arts.martial-arts-and-circus-traditions",
+          "primary": false
+        }
+      ],
+      "questionType": "match",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q071",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.soil-health-fertilizers",
+          "primary": false
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.soil-types-and-soil-degradation",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q072",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.soil-health-fertilizers",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q073",
+      "nodes": [
+        {
+          "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.environmental-chemistry-pollutants",
+          "primary": true
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.food-safety-and-standards-authority-fssa",
+          "primary": false
+        }
+      ],
+      "questionType": "match",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q074",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.nanotechnology-concepts-materials",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-physics-chemistry.general-physics.optics-reflection-refraction-dispersion",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q075",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.nagara-temple-architecture",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.dravidian-temple-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q076",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1951",
+          "primary": false
+        },
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.presiding-officers-speaker-and-chairman",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q077",
+      "nodes": [
+        {
+          "id": "gs1.post-independence.post-independence-development-and-crises.economic-crisis-1991-and-lpg-reforms",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-policy-evolution",
+          "primary": false
+        },
+        {
+          "id": "gs3.indian-economy.national-income-growth.structural-composition",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q078",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.stem-cells-cloning",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q079",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.digital-public-infrastructure-fintech",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.financial-inclusion-initiatives",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q080",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.flagship-conservation-projects",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.species-protected-areas-and-geographic-t",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q081",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.taxation-reforms-gst",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q082",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-european-union-ties",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.external-sector.ftas-and-deglobalization",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q083",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.external-sector.wto-india-agreements",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.international-institutions-and-agencies.world-trade-organization-and-india",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q084",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-central-asia-outreach",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.indias-neighborhood.india-myanmar-and-afghanistan",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q085",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.critical-information-infrastructure",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q086",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1951",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q087",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.space-missions-and-astronomical-discover",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.space-technology.deep-space-missions",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q088",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.education-sector.right-to-education-act-and-elementary-ed",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q089",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.education-sector.higher-education-reforms-and-heci",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q090",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.election-commission-of-india",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q091",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.wildlife-protection-act-amendments",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.flagship-conservation-projects",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q092",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-review-and-constitutional-court",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q093",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.post-war-national-upsurge-and-rin-mutiny",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.cripps-mission-and-quit-india-movement",
+          "primary": false
+        },
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.round-table-conferences-and-poona-pact",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q094",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.types-of-deficits",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.budget-documents-structure",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q095",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.flagship-conservation-projects",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.in-situ-conservation-network",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q096",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.emergency-provisions-and-federal-impact",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.union-and-state-executive.governor-constitutional-role-and-discret",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q097",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-against-exploitation-art-23-24",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-equality-art-14-18",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q098",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.ports-shipping-routes-and-choke-points",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q099",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-kingdom",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2017-gs1-q100",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-states",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    }
+  ]
+}

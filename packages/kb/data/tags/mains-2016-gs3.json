@@ -1,0 +1,316 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2016-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.informal-economy-gig",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.gender-and-green-budgeting",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "what"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.financial-inclusion-initiatives",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-corridors-seze",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.external-sector.bop-cad-forex",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.national-income-growth.potential-gdp",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.micro-irrigation-pksy",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.crop-diversification-millets",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.land-reforms.land-tenure-zamindari-abolition",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.land-reforms.land-ceiling-consolidation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.farm-subsidies-and-pricing.pm-fby-crop-insurance",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.droughts-monitoring-crisis",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.energy-power-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.space-technology.launch-vehicles-evolution",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.space-technology.navic-and-bhuvan",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.nanotechnology-concepts-materials",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.nanotech-environment-health",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.eia-process-and-notification",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.environment-protection-act-1986",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.riverine-and-urban-floods",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.landslides-and-glofs",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.border-management.india-pakistan-border",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.narco-terrorism-linkages",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.border-management.india-pakistan-border",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.border-management.india-china-border-lac",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elucidate"
+    },
+    {
+      "pyqId": "mains-2016-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.social-media-radicalization-fake-news",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "suggest"
+    }
+  ]
+}

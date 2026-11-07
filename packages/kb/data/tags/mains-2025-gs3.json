@@ -1,0 +1,340 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2025-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.national-income-growth.growth-vs-development",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "distinguish"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.external-sector.ftas-and-deglobalization",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.external-sector.foreign-trade-policy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.crop-diversification-millets",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.warehousing-cold-storage",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.civil-nuclear-energy",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.energy-power-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "mention"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.india-panchamrit-ndcs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.india-panchamrit-ndcs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "what"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.water-pollution-river-rejuvenation",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.coastal-regulation-zone-rules",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "what"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.jammu-kashmir-hybrid-terrorism",
+          "primary": false
+        },
+        {
+          "id": "gs3.internal-security.security-forces-agencies.investigation-agencies-nia-cbi",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.development-and-extremism.government-strategy-lwe",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.development-and-extremism.left-wing-extremism-roots",
+          "primary": false
+        },
+        {
+          "id": "gs3.internal-security.development-and-extremism.lwe-developmental-interventions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "what"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.frbm-act-debt",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.types-of-deficits",
+          "primary": false
+        },
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.finance-commission",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.production-linked-incentive",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.manufacturing-share-make-in-india",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.micro-irrigation-pksy",
+          "primary": false
+        },
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.water-pollution-river-rejuvenation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.mega-food-parks-pmksy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.nanotech-environment-health",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.nano-fertilizers-organic",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.it-telecom-computing.semiconductor-mission",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "mention"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.soil-degradation-desertification",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.eia-process-and-notification",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.india-panchamrit-ndcs",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.unfccc-kyoto-paris-agreement",
+          "primary": false
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.recent-cops-outcomes",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "review"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.northeast-peace-accords",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.northeast-insurgency-history",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "map"
+    },
+    {
+      "pyqId": "mains-2025-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.border-management.coastal-and-island-security",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.ports-sagarmala-inland-waterways",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    }
+  ]
+}

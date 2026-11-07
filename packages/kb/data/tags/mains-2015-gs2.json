@@ -1,0 +1,324 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2015-gs2-q001",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.dpsp-classification-and-ideologies",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.freedom-of-religion-and-secularism-art-2",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q002",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.legislative-and-administrative-relations",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "highlight"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q003",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.challenges-in-devolution-3fs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q004",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.pressure-groups-and-associations",
+          "primary": false
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-life-and-personal-liberty-art-2",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss critically"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q005",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.joint-sitting-and-ordinance-making-power",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-review-and-constitutional-court",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q006",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-delays-and-pendency-of-cases",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.joint-sitting-and-ordinance-making-power",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q007",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-life-and-personal-liberty-art-2",
+          "primary": true
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.national-green-tribunal-ngt",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q008",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.regulation-of-ngos-and-fcra",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.role-of-ngos-in-development",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "examine critically"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q009",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.self-help-groups-and-rural-empowerment",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+          "primary": false
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.urban-poverty-and-social-safety-nets",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elucidate"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q010",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.role-of-ngos-in-development",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.regulation-of-ngos-and-fcra",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q011",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.education-sector.higher-education-reforms-and-heci",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q012",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.ayushman-bharat-and-universal-health-cov",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "suggest"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q013",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.poverty-estimation-and-committees",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.urban-poverty-and-social-safety-nets",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q014",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance",
+          "primary": true
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.competition-commission-of-india-cci",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q015",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.whistleblower-protection-and-ombudsman",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "critically evaluate"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q016",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.tribunals-and-quasi-judicial-bodies",
+          "primary": true
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.telecom-and-electricity-regulators",
+          "primary": false
+        },
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q017",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-africa-development-partnership",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q018",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.international-institutions-and-agencies.united-nations-structure-and-reforms",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q019",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.indias-neighborhood.neighborhood-first-and-sagardoctrine",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.regional-and-global-groupings.indian-ocean-rim-association-iora",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs2-q020",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.indias-neighborhood.india-pakistan-relations",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.developed-developing-politics-and-diaspo.diaspora-political-and-soft-power",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    }
+  ]
+}

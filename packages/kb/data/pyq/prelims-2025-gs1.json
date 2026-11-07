@@ -1,0 +1,2404 @@
+{
+  "exam": "prelims",
+  "paper": "gs1",
+  "year": 2025,
+  "sourceUrl": "https://www.upsc.gov.in/sites/default/files/QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf",
+  "questions": [
+    {
+      "number": 1,
+      "text": "With reference to investments, consider the following :\nI. Bonds\nII. Hedge Funds\nIII. Stocks\nIV. Venture Capital\nHow many of the above are treated as Alternative Investment Funds?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "Only three"
+        },
+        {
+          "key": "d",
+          "text": "All the four"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 2,
+      "text": "Which of the following are the sources of income for the Reserve Bank of India?\nI. Buying and selling Government bonds\nII. Buying and selling foreign currency\nIII. Pension fund management\nIV. Lending to private companies\nV. Printing and distributing currency notes\nSelect the correct answer using the code given below.",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II, III and IV"
+        },
+        {
+          "key": "c",
+          "text": "I, III, IV and V"
+        },
+        {
+          "key": "d",
+          "text": "I, II and V"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 3,
+      "text": "With reference to the Government of India, consider the following information :\n\nOrganization | Some of its functions | It works under\nI. Directorate of Enforcement | Enforcement of the Fugitive Economic Offenders Act, 2018 | Internal Security Division-I, Ministry of Home Affairs\nII. Directorate of Revenue Intelligence | Enforces the Provisions of the Customs Act, 1962 | Department of Revenue, Ministry of Finance\nIII. Directorate General of Systems and Data Management | Carrying out big data analytics to assist tax officers for better policy and nabbing tax evaders | Department of Revenue, Ministry of Finance\n\nIn how many of the above rows is the information correctly matched?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 4,
+      "text": "Consider the following statements :\nI. The Reserve Bank of India mandates all the listed companies in India to submit a Business Responsibility and Sustainability Report (BRSR).\nII. In India, a company submitting a BRSR makes disclosures in the report that are largely non-financial in nature.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 5,
+      "text": "Consider the following statements :\nStatement I :\nIn India, income from allied agricultural activities like poultry farming and wool rearing in rural areas is exempted from any tax.\nStatement II :\nIn India, rural agricultural land is not considered a capital asset under the provisions of the Income-tax Act, 1961.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement I and Statement II are correct and Statement II explains Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement I and Statement II are correct but Statement II does not explain Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Statement I is correct but Statement II is not correct"
+        },
+        {
+          "key": "d",
+          "text": "Statement I is not correct but Statement II is correct"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 6,
+      "text": "Consider the following statements :\nI. India has joined the Minerals Security Partnership as a member.\nII. India is a resource-rich country in all the 30 critical minerals that it has identified.\nIII. The Parliament in 2023 has amended the Mines and Minerals (Development and Regulation) Act, 1957 empowering the Central Government to exclusively auction mining lease and composite license for certain critical minerals.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 7,
+      "text": "Consider the following statements :\nStatement I :\nAs regards returns from an investment in a company, generally, bondholders are considered to be relatively at lower risk than stockholders.\nStatement II :\nBondholders are lenders to a company whereas stockholders are its owners.\nStatement III :\nFor repayment purpose, bondholders are prioritized over stockholders by a company.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement II and Statement III are correct and both of them explain Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement II and Statement III are correct but only one of them explains Statement II"
+        },
+        {
+          "key": "c",
+          "text": "Only one of the Statements II and III is correct and that explains Statement I"
+        },
+        {
+          "key": "d",
+          "text": "Neither Statement II nor Statement III is correct"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 8,
+      "text": "Consider the following statements :\nI. India accounts for a very large portion of all equity option contracts traded globally thus exhibiting a great boom.\nII. India's stock market has grown rapidly in the recent past even overtaking Hong Kong's at some point of time.\nIII. There is no regulatory body either to warn the small investors about the risks of options trading or to act on unregistered financial advisors in this regard.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 9,
+      "text": "Consider the following statements :\nStatement I :\nCircular economy reduces the emissions of greenhouse gases.\nStatement II :\nCircular economy reduces the use of raw materials as inputs.\nStatement III :\nCircular economy reduces wastage in the production process.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement II and Statement III are correct and both of them explain Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement II and Statement III are correct but only one of them explains Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Only one of the Statements II and III is correct and that explains Statement I"
+        },
+        {
+          "key": "d",
+          "text": "Neither Statement II nor Statement III is correct"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 10,
+      "text": "Consider the following statements :\nI. Capital receipts create a liability or cause a reduction in the assets of the Government.\nII. Borrowings and disinvestment are capital receipts.\nIII. Interest received on loans creates a liability of the Government.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 11,
+      "text": "Consider the following statements about Raja Ram Mohan Roy :\n\nI. He possessed great love and respect for the traditional philosophical systems of the East.\nII. He desired his countrymen to accept the rational and scientific approach and the principle of human dignity and social equality of all men and women.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 12,
+      "text": "Consider the following subjects with regard to Non-Cooperation Programme :\n\nI. Boycott of law-courts and foreign cloth\nII. Observance of strict non-violence\nIII. Retention of titles and honours without using them in public\nIV. Establishment of Panchayats for settling disputes\n\nHow many of the above were parts of Non-Cooperation Programme?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "Only three"
+        },
+        {
+          "key": "d",
+          "text": "All the four"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 13,
+      "text": "The irrigation device called 'Araghatta' was",
+      "options": [
+        {
+          "key": "a",
+          "text": "a water bag made of leather pulled over a pulley"
+        },
+        {
+          "key": "b",
+          "text": "a large wheel with earthen pots tied to the outer ends of its spokes"
+        },
+        {
+          "key": "c",
+          "text": "a larger earthen pot driven by bullocks"
+        },
+        {
+          "key": "d",
+          "text": "a large water bucket pulled up by rope directly by hand"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 14,
+      "text": "Who among the following rulers in ancient India had assumed the titles 'Mattavilasa', 'Vichitrachitta' and 'Gunabhara'?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Mahendravarman I"
+        },
+        {
+          "key": "b",
+          "text": "Simhavishnu"
+        },
+        {
+          "key": "c",
+          "text": "Narasimhavarman I"
+        },
+        {
+          "key": "d",
+          "text": "Simhavarman"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 15,
+      "text": "Fa-hien (Faxian), the Chinese pilgrim, travelled to India during the reign of",
+      "options": [
+        {
+          "key": "a",
+          "text": "Samudragupta"
+        },
+        {
+          "key": "b",
+          "text": "Chandragupta II"
+        },
+        {
+          "key": "c",
+          "text": "Kumaragupta I"
+        },
+        {
+          "key": "d",
+          "text": "Skandagupta"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 16,
+      "text": "Who among the following led a successful military campaign against the kingdom of Srivijaya, the powerful maritime State, which ruled the Malay Peninsula, Sumatra, Java and the neighbouring islands?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Amoghavarsha (Rashtrakuta)"
+        },
+        {
+          "key": "b",
+          "text": "Prataparudra (Kakatiya)"
+        },
+        {
+          "key": "c",
+          "text": "Rajendra I (Chola)"
+        },
+        {
+          "key": "d",
+          "text": "Vishnuvardhana (Hoysala)"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 17,
+      "text": "With reference to ancient India (600-322 BC), consider the following pairs :\n\nTerritorial region : River flowing in the region\nI. Asmaka : Godavari\nII. Kamboja : Vipas\nIII. Avanti : Mahanadi\nIV. Kosala : Sarayu\n\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "Only three"
+        },
+        {
+          "key": "d",
+          "text": "All the four"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 18,
+      "text": "The first Gandharva Mahavidyalaya, a music training school, was set up in 1901 by Vishnu Digambar Paluskar in",
+      "options": [
+        {
+          "key": "a",
+          "text": "Delhi"
+        },
+        {
+          "key": "b",
+          "text": "Gwalior"
+        },
+        {
+          "key": "c",
+          "text": "Ujjain"
+        },
+        {
+          "key": "d",
+          "text": "Lahore"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 19,
+      "text": "Ashokan inscriptions suggest that the 'Pradeshika', 'Rajuka' and 'Yukta' were important officers at the",
+      "options": [
+        {
+          "key": "a",
+          "text": "village-level administration"
+        },
+        {
+          "key": "b",
+          "text": "district-level administration"
+        },
+        {
+          "key": "c",
+          "text": "provincial administration"
+        },
+        {
+          "key": "d",
+          "text": "level of the central administration"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 20,
+      "text": "Consider the following statements in respect of the Non-Cooperation Movement :\n\nI. The Congress declared the attainment of 'Swaraj' by all legitimate and peaceful means to be its objective.\nII. It was to be implemented in stages with civil disobedience and non-payment of taxes for the next stage only if 'Swaraj' did not come within a year and the Government resorted to repression.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 21,
+      "text": "Consider the following countries :\nI. Austria\nII. Bulgaria\nIII. Croatia\nIV. Serbia\nV. Sweden\nVI. North Macedonia\n\nHow many of the above are members of the North Atlantic Treaty Organization?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only three"
+        },
+        {
+          "key": "b",
+          "text": "Only four"
+        },
+        {
+          "key": "c",
+          "text": "Only five"
+        },
+        {
+          "key": "d",
+          "text": "All the six"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 22,
+      "text": "Consider the following countries :\nI. Bolivia\nII. Brazil\nIII. Colombia\nIV. Ecuador\nV. Paraguay\nVI. Venezuela\n\nAndes mountains pass through how many of the above countries?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only two"
+        },
+        {
+          "key": "b",
+          "text": "Only three"
+        },
+        {
+          "key": "c",
+          "text": "Only four"
+        },
+        {
+          "key": "d",
+          "text": "Only five"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 23,
+      "text": "Consider the following water bodies :\nI. Lake Tanganyika\nII. Lake Tonlé Sap\nIII. Patos Lagoon\n\nThrough how many of them does the equator pass?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 24,
+      "text": "Consider the following statements about turmeric during the year 2022-23 :\n\nI. India is the largest producer and exporter of turmeric in the world.\nII. More than 30 varieties of turmeric are grown in India.\nIII. Maharashtra, Telangana, Karnataka and Tamil Nadu are major turmeric producing States in India.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 25,
+      "text": "Which of the following are the evidences of the phenomenon of continental drift?\n\nI. The belt of ancient rocks from Brazil coast matches with those from Western Africa.\nII. The gold deposits of Ghana are derived from the Brazil plateau when the two continents lay side by side.\nIII. The Gondwana system of sediments from India is known to have its counterparts in six different landmasses of the Southern Hemisphere.\n\nSelect the correct answer using the code given below.",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and III only"
+        },
+        {
+          "key": "b",
+          "text": "I and II only"
+        },
+        {
+          "key": "c",
+          "text": "I, II and III"
+        },
+        {
+          "key": "d",
+          "text": "II and III only"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 26,
+      "text": "Consider the following statements :\n\nStatement I :\nThe amount of dust particles in the atmosphere is more in subtropical and temperate areas than in equatorial and polar regions.\n\nStatement II :\nSubtropical and temperate areas have less dry winds.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement I and Statement II are correct and Statement II explains Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement I and Statement II are correct but Statement II does not explain Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Statement I is correct but Statement II is not correct"
+        },
+        {
+          "key": "d",
+          "text": "Statement I is not correct but Statement II is correct"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 27,
+      "text": "Consider the following statements :\n\nStatement I :\nIn January, in the Northern Hemisphere, the isotherms bend equatorward while crossing the landmasses, and poleward while crossing the oceans.\n\nStatement II :\nIn January, the air over the oceans is warmer than that over the landmasses in the Northern Hemisphere.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement I and Statement II are correct and Statement II explains Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement I and Statement II are correct but Statement II does not explain Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Statement I is correct but Statement II is not correct"
+        },
+        {
+          "key": "d",
+          "text": "Statement I is not correct but Statement II is correct"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 28,
+      "text": "Consider the following statements :\n\nStatement I :\nIn the context of effect of water on rocks, chalk is known as a very permeable rock whereas clay is known as quite an impermeable or least permeable rock.\n\nStatement II :\nChalk is porous and hence can absorb water.\n\nStatement III :\nClay is not at all porous.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement II and Statement III are correct and both of them explain Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement II and Statement III are correct but only one of them explains Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Only one of the Statements II and III is correct and that explains Statement I"
+        },
+        {
+          "key": "d",
+          "text": "Neither Statement II nor Statement III is correct"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 29,
+      "text": "Consider the following statements :\n\nI. Without the atmosphere, temperature would be well below freezing point everywhere on the Earth's surface.\nII. Heat absorbed and trapped by the atmosphere maintains our planet's average temperature.\nIII. Atmosphere's gases, like carbon dioxide, are particularly good at absorbing and trapping radiation.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and III only"
+        },
+        {
+          "key": "b",
+          "text": "I and II only"
+        },
+        {
+          "key": "c",
+          "text": "I, II and III"
+        },
+        {
+          "key": "d",
+          "text": "II and III only"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "text": "Consider the following statements about the Rashtriya Gokul Mission :\n\nI. It is important for the upliftment of rural poor as majority of low producing indigenous animals are with small and marginal farmers and landless labourers.\nII. It was initiated to promote indigenous cattle and buffalo rearing and conservation in a scientific and holistic manner.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 31,
+      "text": "Consider the following statements :\nStatement I :\nStudies indicate that carbon dioxide emissions from cement industry account for more than 5% of global carbon emissions.\nStatement II :\nSilica-bearing clay is mixed with limestone while manufacturing cement.\nStatement III :\nLimestone is converted into lime during clinker production for cement manufacturing.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement II and Statement III are correct and both of them explain Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement II and Statement III are correct but only one of them explains Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Only one of the Statements II and III is correct and that explains Statement I"
+        },
+        {
+          "key": "d",
+          "text": "Neither Statement II nor Statement III is correct"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 32,
+      "text": "Consider the following statements :\nStatement I :\nAt the 28th United Nations Climate Change Conference (COP28), India refrained from signing the 'Declaration on Climate and Health'.\nStatement II :\nThe COP28 Declaration on Climate and Health is a binding declaration; and if signed, it becomes mandatory to decarbonize health sector.\nStatement III :\nIf India's health sector is decarbonized, the resilience of its health-care system may be compromised.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement II and Statement III are correct and both of them explain Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement II and Statement III are correct but only one of them explains Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Only one of the Statements II and III is correct and that explains Statement I"
+        },
+        {
+          "key": "d",
+          "text": "Neither Statement II nor Statement III is correct"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 33,
+      "text": "Consider the following statements :\nStatement I :\nScientific studies suggest that a shift is taking place in the Earth's rotation and axis.\nStatement II :\nSolar flares and associated coronal mass ejections bombarded the Earth's outermost atmosphere with tremendous amount of energy.\nStatement III :\nAs the Earth's polar ice melts, the water tends to move towards the equator.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement II and Statement III are correct and both of them explain Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement II and Statement III are correct but only one of them explains Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Only one of the Statements II and III is correct and that explains Statement I"
+        },
+        {
+          "key": "d",
+          "text": "Neither Statement II nor Statement III is correct"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 34,
+      "text": "Consider the following statements :\nStatement I :\nArticle 6 of the Paris Agreement on climate change is frequently discussed in global discussions on sustainable development and climate change.\nStatement II :\nArticle 6 of the Paris Agreement on climate change sets out the principles of carbon markets.\nStatement III :\nArticle 6 of the Paris Agreement on climate change intends to promote inter-country non-market strategies to reach their climate targets.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement II and Statement III are correct and both of them explain Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement II and Statement III are correct but only one of them explains Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Only one of the Statements II and III is correct and that explains Statement I"
+        },
+        {
+          "key": "d",
+          "text": "Neither Statement II nor Statement III is correct"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 35,
+      "text": "Which one of the following launched the 'Nature Solutions Finance Hub for Asia and the Pacific'?",
+      "options": [
+        {
+          "key": "a",
+          "text": "The Asian Development Bank (ADB)"
+        },
+        {
+          "key": "b",
+          "text": "The Asian Infrastructure Investment Bank (AIIB)"
+        },
+        {
+          "key": "c",
+          "text": "The New Development Bank (NDB)"
+        },
+        {
+          "key": "d",
+          "text": "The International Bank for Reconstruction and Development (IBRD)"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 36,
+      "text": "With reference to 'Direct Air Capture', an emerging technology, which of the following statements is/are correct?\nI. It can be used as a way of carbon sequestration.\nII. It can be a valuable approach for plastic production and in food processing.\nIII. In aviation, it can be a source of carbon for combining with hydrogen to create synthetic low-carbon fuel.\n\nSelect the correct answer using the code given below.",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "III only"
+        },
+        {
+          "key": "c",
+          "text": "I, II and III"
+        },
+        {
+          "key": "d",
+          "text": "None of the above statements is correct"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 37,
+      "text": "Regarding Peacock tarantula (Gooty tarantula), consider the following statements :\nI. It is an omnivorous crustacean.\nII. Its natural habitat in India is only limited to some forest areas.\nIII. In its natural habitat, it is an arboreal species.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "I and III"
+        },
+        {
+          "key": "c",
+          "text": "II only"
+        },
+        {
+          "key": "d",
+          "text": "II and III"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 38,
+      "text": "Consider the following statements :\n\nI. Carbon dioxide (CO2) emissions in India are less than 0.5 t CO2/capita.\nII. In terms of CO2 emissions from fuel combustion, India ranks second in Asia-Pacific region.\nIII. Electricity and heat producers are the largest sources of CO2 emissions in India.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and III only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "II and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 39,
+      "text": "Consider the following pairs :\n\nPlant : Description\nI. Cassava : Woody shrub\nII. Ginger : Herb with pseudostem\nIII. Malabar spinach : Herbaceous climber\nIV. Mint : Annual shrub\nV. Papaya : Woody shrub\n\nHow many of the above pairs are correctly matched?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only two"
+        },
+        {
+          "key": "b",
+          "text": "Only three"
+        },
+        {
+          "key": "c",
+          "text": "Only four"
+        },
+        {
+          "key": "d",
+          "text": "All the five"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 40,
+      "text": "With reference to the planet Earth, consider the following statements :\n\nI. Rain forests produce more oxygen than that produced by oceans.\nII. Marine phytoplankton and photosynthetic bacteria produce about 50% of world's oxygen.\nIII. Well-oxygenated surface water contains several folds higher oxygen than that in atmospheric air.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "I and III"
+        },
+        {
+          "key": "d",
+          "text": "None of the above statements is correct"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 41,
+      "text": "Consider the following types of vehicles :\n\nI. Full battery electric vehicles\nII. Hydrogen fuel cell vehicles\nIII. Fuel cell-electric hybrid vehicles\n\nHow many of the above are considered as alternative powertrain vehicles?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 42,
+      "text": "With reference to Unmanned Aerial Vehicles (UAVs), consider the following statements :\n\nI. All types of UAVs can do vertical landing.\nII. All types of UAVs can do automated hovering.\nIII. All types of UAVs can use battery only as a source of power supply.\n\nHow many of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 43,
+      "text": "In the context of electric vehicle batteries, consider the following elements :\n\nI. Cobalt\nII. Graphite\nIII. Lithium\nIV. Nickel\n\nHow many of the above usually make up battery cathodes?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "Only three"
+        },
+        {
+          "key": "d",
+          "text": "All the four"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 44,
+      "text": "Consider the following :\n\nI. Cigarette butts\nII. Eyeglass lenses\nIII. Car tyres\n\nHow many of them contain plastic?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 45,
+      "text": "Consider the following substances :\n\nI. Ethanol\nII. Nitroglycerine\nIII. Urea\n\nCoal gasification technology can be used in the production of how many of them?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 46,
+      "text": "What is the common characteristic of the chemical substances generally known as CL-20, HMX and LLM-105, which are sometimes talked about in media?",
+      "options": [
+        {
+          "key": "a",
+          "text": "These are alternatives to hydrofluorocarbon refrigerants"
+        },
+        {
+          "key": "b",
+          "text": "These are explosives in military weapons"
+        },
+        {
+          "key": "c",
+          "text": "These are high-energy fuels for cruise missiles"
+        },
+        {
+          "key": "d",
+          "text": "These are fuels for rocket propulsion"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 47,
+      "text": "Consider the following statements :\n\nI. It is expected that Majorana 1 chip will enable quantum computing.\nII. Majorana 1 chip has been introduced by Amazon Web Services (AWS).\nIII. Deep learning is a subset of machine learning.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 48,
+      "text": "With reference to monoclonal antibodies, often mentioned in news, consider the following statements :\n\nI. They are man-made proteins.\nII. They stimulate immunological function due to their ability to bind to specific antigens.\nIII. They are used in treating viral infections like that of Nipah virus.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 49,
+      "text": "Consider the following statements :\n\nI. No virus can survive in ocean waters.\nII. No virus can infect bacteria.\nIII. No virus can change the cellular transcriptional activity in host cells.\n\nHow many of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 50,
+      "text": "Consider the following statements :\n\nStatement I : Activated carbon is a good and an attractive tool to remove pollutants from effluent streams and to remediate contaminants from various industries.\nStatement II : Activated carbon exhibits a large surface area and a strong potential for adsorbing heavy metals.\nStatement III : Activated carbon can be easily synthesized from environmental wastes with high carbon content.\n\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement II and Statement III are correct and both of them explain Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement II and Statement III are correct but only one of them explains Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Only one of the Statements II and III is correct and that explains Statement I"
+        },
+        {
+          "key": "d",
+          "text": "Neither Statement II nor Statement III is correct"
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "text": "With reference to the Indian polity, consider the following statements :\n\nI. An Ordinance can amend any Central Act.\nII. An Ordinance can abridge a Fundamental Right.\nIII. An Ordinance can come into effect from a back date.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 52,
+      "text": "Consider the following pairs :\n\nState : Description\nI. Arunachal Pradesh : The capital is named after a fort, and the State has two National Parks\nII. Nagaland : The State came into existence on the basis of a Constitutional Amendment Act\nIII. Tripura : Initially a Part 'C' State, it became a centrally administered territory with the reorganization of States in 1956 and later attained the status of a full-fledged State\n\nHow many of the above pairs are correctly matched?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 53,
+      "text": "With reference to India, consider the following :\n\nI. The Inter-State Council\nII. The National Security Council\nIII. Zonal Councils\n\nHow many of the above were established as per the provisions of the Constitution of India?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 54,
+      "text": "Consider the following statements :\n\nI. The Constitution of India explicitly mentions that in certain spheres the Governor of a State acts in his/her own discretion.\nII. The President of India can, of his/her own, reserve a bill passed by a State Legislature for his/her consideration without it being forwarded by the Governor of the State concerned.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 55,
+      "text": "Consider the following pairs :\n\nProvision in the Constitution of India : Stated under\nI. Separation of Judiciary from the Executive in the public services of the State : The Directive Principles of the State Policy\nII. Valuing and preserving of the rich heritage of our composite culture : The Fundamental Duties\nIII. Prohibition of employment of children below the age of 14 years in factories : The Fundamental Rights\n\nHow many of the above pairs are correctly matched?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 56,
+      "text": "Consider the following statements :\nWith reference to the Constitution of India, if an area in a State is declared as Scheduled Area under the Fifth Schedule\nI. the State Government loses its executive power in such areas and a local body assumes total administration\nII. the Union Government can take over the total administration of such areas under certain circumstances on the recommendations of the Governor\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 57,
+      "text": "With reference to India, consider the following pairs :\nOrganization : Union Ministry\nI. The National Automotive Board : Ministry of Commerce and Industry\nII. The Coir Board : Ministry of Heavy Industries\nIII. The National Centre for Trade Information : Ministry of Micro, Small and Medium Enterprises\nHow many of the above pairs are correctly matched?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 58,
+      "text": "Consider the following subjects under the Constitution of India :\nI. List I-Union List, in the Seventh Schedule\nII. Extent of the executive power of a State\nIII. Conditions of the Governor's office\nFor a constitutional amendment with respect to which of the above, ratification by the Legislatures of not less than one-half of the States is required before presenting the bill to the President of India for assent?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 59,
+      "text": "With reference to the Indian polity, consider the following statements :\nI. The Governor of a State is not answerable to any court for the exercise and performance of the powers and duties of his/her office.\nII. No criminal proceedings shall be instituted or continued against the Governor during his/her term of office.\nIII. Members of a State Legislature are not liable to any proceedings in any court in respect of anything said within the House.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 60,
+      "text": "Consider the following activities :\nI. Production of crude oil\nII. Refining, storage and distribution of petroleum\nIII. Marketing and sale of petroleum products\nIV. Production of natural gas\nHow many of the above activities are regulated by the Petroleum and Natural Gas Regulatory Board in our country?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "Only three"
+        },
+        {
+          "key": "d",
+          "text": "All the four"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 61,
+      "text": "Suppose the revenue expenditure is ₹ 80,000 crores and the revenue receipts of the Government are ₹ 60,000 crores. The Government budget also shows borrowings of ₹ 10,000 crores and interest payments of ₹ 6,000 crores. Which of the following statements are correct?\nI. Revenue deficit is ₹ 20,000 crores.\nII. Fiscal deficit is ₹ 10,000 crores.\nIII. Primary deficit is ₹ 4,000 crores.\nSelect the correct answer using the code given below.",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 62,
+      "text": "India is one of the founding members of the International North-South Transport Corridor (INSTC), a multimodal transportation corridor, which will connect",
+      "options": [
+        {
+          "key": "a",
+          "text": "India to Central Asia to Europe via Iran"
+        },
+        {
+          "key": "b",
+          "text": "India to Central Asia via China"
+        },
+        {
+          "key": "c",
+          "text": "India to South-East Asia through Bangladesh and Myanmar"
+        },
+        {
+          "key": "d",
+          "text": "India to Europe through Azerbaijan"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 63,
+      "text": "Consider the following statements :\nStatement I : Of the two major ethanol producers in the world, i.e., Brazil and the United States of America, the former produces more ethanol than the latter.\nStatement II : Unlike in the United States of America where corn is the principal feedstock for ethanol production, sugarcane is the principal feedstock for ethanol production in Brazil.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement I and Statement II are correct and Statement II explains Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement I and Statement II are correct but Statement II does not explain Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Statement I is correct but Statement II is not correct"
+        },
+        {
+          "key": "d",
+          "text": "Statement I is not correct but Statement II is correct"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 64,
+      "text": "The World Bank warned that India could become one of the first places where wet-bulb temperatures routinely exceed 35 °C. Which of the following statements best reflect(s) the implication of the above-said report?\nI. Peninsular India will most likely suffer from flooding, tropical cyclones and droughts.\nII. The survival of animals including humans will be affected as shedding of their body heat through perspiration becomes difficult.\nSelect the correct answer using the code given below.",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 65,
+      "text": "A country's fiscal deficit stands at ₹ 50,000 crores. It is receiving ₹ 10,000 crores through non-debt creating capital receipts. The country's interest liabilities are ₹ 1,500 crores. What is the gross primary deficit?",
+      "options": [
+        {
+          "key": "a",
+          "text": "₹ 48,500 crores"
+        },
+        {
+          "key": "b",
+          "text": "₹ 51,500 crores"
+        },
+        {
+          "key": "c",
+          "text": "₹ 58,500 crores"
+        },
+        {
+          "key": "d",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 66,
+      "text": "Which of the following statements with regard to recommendations of the 15th Finance Commission of India are correct?\nI. It has recommended grants of ₹ 4,800 crores from the year 2022-23 to the year 2025-26 for incentivizing States to enhance educational outcomes.\nII. 45% of the net proceeds of Union taxes are to be shared with States.\nIII. ₹ 45,000 crores are to be kept as performance-based incentive for all States for carrying out agricultural reforms.\nIV. It reintroduced tax effort criteria to reward fiscal performance.\nSelect the correct answer using the code given below.",
+      "options": [
+        {
+          "key": "a",
+          "text": "I, II and III"
+        },
+        {
+          "key": "b",
+          "text": "I, II and IV"
+        },
+        {
+          "key": "c",
+          "text": "I, III and IV"
+        },
+        {
+          "key": "d",
+          "text": "II, III and IV"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 67,
+      "text": "Consider the following statements in respect of the International Bank for Reconstruction and Development (IBRD) :\nI. It provides loans and guarantees to middle income countries.\nII. It works single-handedly to help developing countries to reduce poverty.\nIII. It was established to help Europe rebuild after the World War II.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 68,
+      "text": "Consider the following statements in respect of RTGS and NEFT :\nI. In RTGS, the settlement time is instantaneous while in case of NEFT, it takes some time to settle payments.\nII. In RTGS, the customer is charged for inward transactions while that is not the case for NEFT.\nIII. Operating hours for RTGS are restricted on certain days while this is not true for NEFT.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "I and II"
+        },
+        {
+          "key": "c",
+          "text": "I and III"
+        },
+        {
+          "key": "d",
+          "text": "III only"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 69,
+      "text": "Consider the following countries :\nI. United Arab Emirates\nII. France\nIII. Germany\nIV. Singapore\nV. Bangladesh\nHow many countries amongst the above are there other than India where international merchant payments are accepted under UPI?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only two"
+        },
+        {
+          "key": "b",
+          "text": "Only three"
+        },
+        {
+          "key": "c",
+          "text": "Only four"
+        },
+        {
+          "key": "d",
+          "text": "All the five"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 70,
+      "text": "Consider the following statements about 'PM Surya Ghar Muft Bijli Yojana' :\nI. It targets installation of one crore solar rooftop panels in the residential sector.\nII. The Ministry of New and Renewable Energy aims to impart training on installation, operation, maintenance and repairs of solar rooftop systems at grassroot levels.\nIII. It aims to create more than three lakhs skilled manpower through fresh skilling, and up-skilling, under scheme component of capacity building.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "I and III only"
+        },
+        {
+          "key": "c",
+          "text": "II and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 71,
+      "text": "\"Sedition has become my religion\" was the famous statement given by Gandhiji at the time of",
+      "options": [
+        {
+          "key": "a",
+          "text": "the Champaran Satyagraha"
+        },
+        {
+          "key": "b",
+          "text": "publicly violating Salt Law at Dandi"
+        },
+        {
+          "key": "c",
+          "text": "attending the Second Round Table Conference in London"
+        },
+        {
+          "key": "d",
+          "text": "the launch of the Quit India Movement"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 72,
+      "text": "The famous female figurine known as 'Dancing Girl', found at Mohenjo-daro, is made of",
+      "options": [
+        {
+          "key": "a",
+          "text": "carnelian"
+        },
+        {
+          "key": "b",
+          "text": "clay"
+        },
+        {
+          "key": "c",
+          "text": "bronze"
+        },
+        {
+          "key": "d",
+          "text": "gold"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 73,
+      "text": "Who provided legal defence to the people arrested in the aftermath of Chauri Chaura incident?",
+      "options": [
+        {
+          "key": "a",
+          "text": "C. R. Das"
+        },
+        {
+          "key": "b",
+          "text": "Madan Mohan Malaviya and Krishna Kant"
+        },
+        {
+          "key": "c",
+          "text": "Dr. Saifuddin Kitchlew and Khwaja Hasan Nizami"
+        },
+        {
+          "key": "d",
+          "text": "M. A. Jinnah"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 74,
+      "text": "Subsequent to which one of the following events, Gandhiji, who consistently opposed untouchability and appealed for its eradication from all spheres, decided to include the upliftment of 'Harijans' in his political and social programme?",
+      "options": [
+        {
+          "key": "a",
+          "text": "The Poona Pact"
+        },
+        {
+          "key": "b",
+          "text": "The Gandhi-Irwin Agreement (Delhi Pact)"
+        },
+        {
+          "key": "c",
+          "text": "Arrest of Congress leadership at the time of the Quit India Movement"
+        },
+        {
+          "key": "d",
+          "text": "Promulgation of the Government of India Act, 1935"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 75,
+      "text": "Consider the following fruits :\nI. Papaya\nII. Pineapple\nIII. Guava\nHow many of the above were introduced in India by the Portuguese in the sixteenth and seventeenth centuries?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 76,
+      "text": "Consider the following countries :\nI. United Kingdom\nII. Denmark\nIII. New Zealand\nIV. Australia\nV. Brazil\nHow many of the above countries have more than four time zones?",
+      "options": [
+        {
+          "key": "a",
+          "text": "All the five"
+        },
+        {
+          "key": "b",
+          "text": "Only four"
+        },
+        {
+          "key": "c",
+          "text": "Only three"
+        },
+        {
+          "key": "d",
+          "text": "Only two"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 77,
+      "text": "Consider the following statements :\nI. Anadyr in Siberia and Nome in Alaska are a few kilometers from each other, but when people are waking up and getting set for breakfast in these cities, it would be different days.\nII. When it is Monday in Anadyr, it is Tuesday in Nome.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 78,
+      "text": "Who among the following was the founder of the 'Self-Respect Movement'?",
+      "options": [
+        {
+          "key": "a",
+          "text": "'Periyar' E. V. Ramaswamy Naicker"
+        },
+        {
+          "key": "b",
+          "text": "Dr. B. R. Ambedkar"
+        },
+        {
+          "key": "c",
+          "text": "Bhaskarrao Jadhav"
+        },
+        {
+          "key": "d",
+          "text": "Dinkarrao Javalkar"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 79,
+      "text": "Consider the following pairs :\nCountry : Resource-rich in\nI. Botswana : Diamond\nII. Chile : Lithium\nIII. Indonesia : Nickel\nIn how many of the above rows is the given information correctly matched?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 80,
+      "text": "Consider the following pairs :\nRegion : Country\nI. Mallorca : Italy\nII. Normandy : Spain\nIII. Sardinia : France\nIn how many of the above rows is the given information correctly matched?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 81,
+      "text": "Consider the following statements :\nStatement I :\nSome rare earth elements are used in the manufacture of flat television screens and computer monitors.\nStatement II :\nSome rare earth elements have phosphorescent properties.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement I and Statement II are correct and Statement II explains Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement I and Statement II are correct but Statement II does not explain Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Statement I is correct but Statement II is not correct"
+        },
+        {
+          "key": "d",
+          "text": "Statement I is not correct but Statement II is correct"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 82,
+      "text": "Consider the following statements :\nI. Indian Railways have prepared a National Rail Plan (NRP) to create a 'future ready' railway system by 2028.\nII. 'Kavach' is an Automatic Train Protection system developed in collaboration with Germany.\nIII. 'Kavach' system consists of RFID tags fitted on track in station section.\nWhich of the statements given above are not correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 83,
+      "text": "Consider the following space missions :\nI. Axiom-4\nII. SpaDeX\nIII. Gaganyaan\nHow many of the space missions given above encourage and support micro-gravity research?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 84,
+      "text": "With reference to India's defence, consider the following pairs :\nAircraft type : Description\nI. Dornier-228 : Maritime patrol aircraft\nII. IL-76 : Supersonic combat aircraft\nIII. C-17 Globemaster III : Military transport aircraft\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "All the three"
+        },
+        {
+          "key": "d",
+          "text": "None"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    },
+    {
+      "number": 85,
+      "text": "Artificial way of causing rainfall to reduce air pollution makes use of",
+      "options": [
+        {
+          "key": "a",
+          "text": "silver iodide and potassium iodide"
+        },
+        {
+          "key": "b",
+          "text": "silver nitrate and potassium iodide"
+        },
+        {
+          "key": "c",
+          "text": "silver iodide and potassium nitrate"
+        },
+        {
+          "key": "d",
+          "text": "silver nitrate and potassium chloride"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 86,
+      "text": "Consider the following statements with regard to pardoning power of the President of India :\nI. The exercise of this power by the President can be subjected to limited judicial review.\nII. The President can exercise this power without the advice of the Central Government.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 87,
+      "text": "Consider the following statements :\nI. On the dissolution of the House of the People, the Speaker shall not vacate his/her office until immediately before the first meeting of the House of the People after the dissolution.\nII. According to the provisions of the Constitution of India, a Member of the House of the People on being elected as Speaker shall resign from his/her political party immediately.\nIII. The Speaker of the House of the People may be removed from his/her office by a resolution of the House of the People passed by a majority of all the then Members of the House, provided that no resolution shall be moved unless at least fourteen days' notice has been given of the intention to move the resolution.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 88,
+      "text": "Consider the following statements :\nI. If any question arises as to whether a Member of the House of the People has become subject to disqualification under the 10th Schedule, the President's decision in accordance with the opinion of the Council of Union Ministers shall be final.\nII. There is no mention of the word 'political party' in the Constitution of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 89,
+      "text": "Consider the following statements :\nStatement I :\nIn India, State Governments have no power for making rules for grant of concessions in respect of extraction of minor minerals even though such minerals are located in their territories.\nStatement II :\nIn India, the Central Government has the power to notify minor minerals under the relevant law.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Both Statement I and Statement II are correct and Statement II explains Statement I"
+        },
+        {
+          "key": "b",
+          "text": "Both Statement I and Statement II are correct but Statement II does not explain Statement I"
+        },
+        {
+          "key": "c",
+          "text": "Statement I is correct but Statement II is not correct"
+        },
+        {
+          "key": "d",
+          "text": "Statement I is not correct but Statement II is correct"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 90,
+      "text": "Which organization has enacted the Nature Restoration Law (NRL) to tackle climate change and biodiversity loss?",
+      "options": [
+        {
+          "key": "a",
+          "text": "The European Union"
+        },
+        {
+          "key": "b",
+          "text": "The World Bank"
+        },
+        {
+          "key": "c",
+          "text": "The Organization for Economic Cooperation and Development"
+        },
+        {
+          "key": "d",
+          "text": "The Food and Agriculture Organization"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 91,
+      "text": "Consider the following statements :\nI. Panchayats at the intermediate level exist in all States.\nII. To be eligible to be a Member of a Panchayat at the intermediate level, a person should attain the age of thirty years.\nIII. The Chief Minister of a State constitutes a commission to review the financial position of Panchayats at the intermediate levels and to make recommendations regarding the distribution of net proceeds of taxes and duties, leviable by the State, between the State and Panchayats at the intermediate level.\nWhich of the statements given above are not correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 92,
+      "text": "Consider the following statements in respect of BIMSTEC :\nI. It is a regional organization consisting of seven member States till January 2025.\nII. It came into existence with the signing of the Dhaka Declaration, 1999.\nIII. Bangladesh, India, Sri Lanka, Thailand and Nepal are founding member States of BIMSTEC.\nIV. In BIMSTEC, the subsector of 'tourism' is being led by India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II"
+        },
+        {
+          "key": "b",
+          "text": "II and III"
+        },
+        {
+          "key": "c",
+          "text": "I and IV"
+        },
+        {
+          "key": "d",
+          "text": "I only"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 93,
+      "text": "Who amongst the following are members of the Jury to select the recipient of 'Gandhi Peace Prize'?\nI. The President of India\nII. The Prime Minister of India\nIII. The Chief Justice of India\nIV. The Leader of Opposition in the Lok Sabha\nSelect the correct answer using the code given below.",
+      "options": [
+        {
+          "key": "a",
+          "text": "II and IV only"
+        },
+        {
+          "key": "b",
+          "text": "I, II and III"
+        },
+        {
+          "key": "c",
+          "text": "II, III and IV"
+        },
+        {
+          "key": "d",
+          "text": "I and III only"
+        }
+      ],
+      "answer": "c",
+      "answerSource": "model"
+    },
+    {
+      "number": 94,
+      "text": "GPS-Aided Geo Augmented Navigation (GAGAN) uses a system of ground stations to provide necessary augmentation. Which of the following statements is/are correct in respect of GAGAN?\nI. It is designed to provide additional accuracy and integrity.\nII. It will allow more uniform and high quality air traffic management.\nIII. It will provide benefits only in aviation but not in other modes of transportation.\nSelect the correct answer using the code given below.",
+      "options": [
+        {
+          "key": "a",
+          "text": "I, II and III"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I only"
+        },
+        {
+          "key": "d",
+          "text": "I and II only"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 95,
+      "text": "Consider the following statements regarding AI Action Summit held in Grand Palais, Paris in February 2025 :\nI. Co-chaired with India, the event builds on the advances made at the Bletchley Park Summit held in 2023 and the Seoul Summit held in 2024.\nII. Along with other countries, US and UK also signed the declaration on inclusive and sustainable AI.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 96,
+      "text": "Consider the following pairs :\nI. International Year of the Woman Farmer : 2026\nII. International Year of Sustainable and Resilient Tourism : 2027\nIII. International Year of Peace and Trust : 2025\nIV. International Year of Asteroid Awareness and Planetary Defence : 2029\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Only one"
+        },
+        {
+          "key": "b",
+          "text": "Only two"
+        },
+        {
+          "key": "c",
+          "text": "Only three"
+        },
+        {
+          "key": "d",
+          "text": "All the four"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 97,
+      "text": "Consider the following statements with regard to BRICS :\nI. 16th BRICS Summit was held under the Chairship of Russia in Kazan.\nII. Indonesia has become a full member of BRICS.\nIII. The theme of the 16th BRICS Summit was 'Strengthening Multiculturalism for Just Global Development and Security'.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I and II"
+        },
+        {
+          "key": "b",
+          "text": "II and III"
+        },
+        {
+          "key": "c",
+          "text": "I and III"
+        },
+        {
+          "key": "d",
+          "text": "I only"
+        }
+      ],
+      "answer": "d",
+      "answerSource": "model"
+    },
+    {
+      "number": 98,
+      "text": "Consider the following statements about Lokpal :\nI. The power of Lokpal applies to public servants of India, but not to the Indian public servants posted outside India.\nII. The Chairperson or a Member shall not be a Member of the Parliament or a Member of the Legislature of any State or Union Territory, and only the Chief Justice of India, whether incumbent or retired, has to be its Chairperson.\nIII. The Chairperson or a Member shall not be a person of less than forty-five years of age on the date of assuming office as the Chairperson or Member, as the case may be.\nIV. Lokpal cannot inquire into the allegations of corruption against a sitting Prime Minister of India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "III only"
+        },
+        {
+          "key": "b",
+          "text": "II and III"
+        },
+        {
+          "key": "c",
+          "text": "I and IV"
+        },
+        {
+          "key": "d",
+          "text": "None of the above statements is correct"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 99,
+      "text": "Consider the following statements in respect of the first Kho Kho World Cup :\nI. The event was held in Delhi, India.\nII. Indian men beat Nepal with a score of 78–40 in the final to become the World Champion in men category.\nIII. Indian women beat Nepal with a score of 54–36 in the final to become the World Champion in women category.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II and III only"
+        },
+        {
+          "key": "c",
+          "text": "I and III only"
+        },
+        {
+          "key": "d",
+          "text": "I, II and III"
+        }
+      ],
+      "answer": "a",
+      "answerSource": "model"
+    },
+    {
+      "number": 100,
+      "text": "Consider the following statements :\nI. In the finals of the 45th Chess Olympiad held in 2024, Gukesh Dommaraju became the world's youngest winner after defeating the Russian player Ian Nepomniachtchi.\nII. Abhimanyu Mishra, an American chess player, holds the record of becoming world's youngest ever Grandmaster.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "a",
+          "text": "I only"
+        },
+        {
+          "key": "b",
+          "text": "II only"
+        },
+        {
+          "key": "c",
+          "text": "Both I and II"
+        },
+        {
+          "key": "d",
+          "text": "Neither I nor II"
+        }
+      ],
+      "answer": "b",
+      "answerSource": "model"
+    }
+  ]
+}

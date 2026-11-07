@@ -1,0 +1,296 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2015-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.harappan-architecture-and-art",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q002",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.paintings-and-handicrafts.prehistoric-rock-paintings",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically evaluate"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.gandhian-philosophy-and-early-experiment",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.socio-religious-reform-movements.caste-and-lower-caste-reform-movements",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.round-table-conferences-and-poona-pact",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elucidate"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.government-of-india-act-1935-and-congres",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs1.world-history.industrial-revolution-and-ideologies.industrial-revolution-causes-and-spread",
+          "primary": true
+        },
+        {
+          "id": "gs1.world-history.industrial-revolution-and-ideologies.social-and-economic-impact-of-industrial",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs1.world-history.world-wars-and-interwar-period.causes-and-consequences-of-world-war-one",
+          "primary": true
+        },
+        {
+          "id": "gs1.world-history.world-wars-and-interwar-period.world-war-two-causes-and-course",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss critically"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.unity-in-diversity-concept-and-challenge",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q009",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-lines-and-multidimensional-pover",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.demographic-transition-and-dividend",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q010",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.tribal-communities-and-their-challenges",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.migration-streams-causes-and-consequence",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-impact-on-women",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.politicization-of-caste-and-caste-mobili",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "debate"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.oceanography.ocean-currents-atlantic-pacific-indian",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q015",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urban-flooding-heat-islands-and-pollutio",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.climatology.horizontal-and-vertical-temperature-dist",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "why"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q016",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.location-factors-of-industries.tourism-hospitality-and-wellness-sector",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.landslides-causes-and-vulnerability-zone",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "critically evaluate"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q018",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.monsoon-mechanism-and-teleconnections",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.effects-on-flora-fauna-and-phenological-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urban-governance-and-smart-cities",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.rural-settlement-patterns-and-morphology",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.petroleum-and-natural-gas-reserves",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.cryosphere-changes-polar-ice-caps-and-gl",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "what"
+    }
+  ]
+}

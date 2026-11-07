@@ -1,0 +1,324 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2019-gs4-q001",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.nolan-committee-principles",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "illustrate"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q002",
+      "nodes": [
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.dedication-to-public-service",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-public-relationships",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "reflect on"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q003",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.utilization-of-public-funds",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q004",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.corruption-causes-and-consequences",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.dedication-to-public-service",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q005",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.br-ambedkar-social-morality",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.sources-of-guidance-law-rules-regulation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q006",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conscience-as-source-of-ethical-guidance",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.ethical-dilemmas-in-governance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q007",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.citizens-charters-and-quality-service",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q008",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.information-sharing-and-rti",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.morality-ethics-and-law",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q009",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.concept-and-philosophical-basis-of-probi",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.strengthening-ethical-values-in-governan",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q010",
+      "nodes": [
+        {
+          "id": "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei",
+          "primary": true
+        },
+        {
+          "id": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-administrative-leadership",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q011",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.socratic-platonic-ethics",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q012",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.mahatma-gandhi-moral-philosophy",
+          "primary": true
+        },
+        {
+          "id": "gs4.attitude.structure-and-behavioural-aspects.attitude-thought-behaviour-relation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q013",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.lessons-from-great-leaders-and-reformers",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q014",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-crisis-and-disaster-managem",
+          "primary": true
+        },
+        {
+          "id": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-crisis-and-conflict-resolution",
+          "primary": false
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.courage-of-conviction-and-fortitude",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q015",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-administrative-discretion-r",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty",
+          "primary": false
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.legal-measures-prevention-of-corruption-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q016",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.gender-ethics-and-care-perspective",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": false
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.corporate-governance-and-csr",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "identify"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q017",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-political-pressure-integrit",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.impartiality-and-non-partisanship",
+          "primary": false
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.status-and-problems-in-public-administra",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q018",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-corruption-procurement-publ",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-political-pressure-integrit",
+          "primary": false
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.courage-of-conviction-and-fortitude",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    },
+    {
+      "pyqId": "mains-2019-gs4-q019",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.strengthening-ethical-values-in-governan",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.second-arc-ethics-in-governance",
+          "primary": false
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.codes-of-ethics-vs-codes-of-conduct",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    }
+  ]
+}

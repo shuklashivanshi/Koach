@@ -1,0 +1,318 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2020-gs4-q001",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.consequences-of-ethics",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q002",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.role-of-educational-institutions",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q003",
+      "nodes": [
+        {
+          "id": "gs4.attitude.moral-political-attitudes-and-persuasion.moral-attitudes",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conscience-as-source-of-ethical-guidance",
+          "primary": false
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.consequences-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q004",
+      "nodes": [
+        {
+          "id": "gs4.emotional-intelligence.ei-concepts-and-models.goleman-model-of-ei",
+          "primary": true
+        },
+        {
+          "id": "gs4.emotional-intelligence.ei-concepts-and-models.concept-and-dimensions-of-ei",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q005",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.buddhist-and-jain-ethics",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q006",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.ethical-issues-in-international-relation",
+          "primary": true
+        },
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.deontological-ethics-kant",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q007",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.morality-ethics-and-law",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.sources-of-guidance-law-rules-regulation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q008",
+      "nodes": [
+        {
+          "id": "gs4.attitude.structure-and-behavioural-aspects.formation-and-change-of-attitude",
+          "primary": true
+        },
+        {
+          "id": "gs4.attitude.structure-and-behavioural-aspects.content-and-structure-of-attitude",
+          "primary": false
+        },
+        {
+          "id": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-administrative-leadership",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q009",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.lessons-from-great-leaders-and-reformers",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.gender-ethics-and-care-perspective",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q010",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.ethics-in-technology-and-ai",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.role-of-society-and-peer-groups",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q011",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.modern-indian-reformers-tagore-vivekanan",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.tolerance-and-acceptance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q012",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.mahatma-gandhi-moral-philosophy",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.dedication-to-public-service",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q013",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.socratic-platonic-ethics",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q014",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.utilization-of-public-funds",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-administrative-discretion-r",
+          "primary": false
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q015",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.ethical-issues-in-international-relation",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q016",
+      "nodes": [
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-administrative-discretion-r",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "identify"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q017",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-political-pressure-integrit",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty",
+          "primary": false
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-corruption-procurement-publ",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q018",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.corporate-governance-and-csr",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically analyse"
+    },
+    {
+      "pyqId": "mains-2020-gs4-q019",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-crisis-and-disaster-managem",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+          "primary": false
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.gender-ethics-and-care-perspective",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    }
+  ]
+}

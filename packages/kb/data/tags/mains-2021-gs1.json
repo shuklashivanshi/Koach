@@ -1,0 +1,316 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2021-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.persian-urdu-and-bhakti-literature",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.bhakti-and-sufi-movements",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q002",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.socio-religious-reform-movements.raja-ram-mohan-and-bramho-samaj",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "trace"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs1.post-independence.nation-building-and-integration.integration-of-princely-states",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "assess"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.landslides-causes-and-vulnerability-zone",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "differentiate"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.global-distribution-of-coal",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geomorphology.continental-drift-and-paleomagnetism",
+          "primary": false
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.non-ferrous-minerals-copper-bauxite-lead",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urban-flooding-heat-islands-and-pollutio",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.changes-in-water-bodies-wetlands-and-riv",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.volcanism-types-features-and-distributio",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "mention"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geomorphology.continental-drift-and-paleomagnetism",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.climatology.major-climatic-regions-of-the-world",
+          "primary": false
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q009",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.tribal-communities-and-their-challenges",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-tribal-vulnerabilities",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q010",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.women-in-the-workforce-and-care-economy",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-impact-on-women",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.national-movement-1885-1919.moderate-phase-and-economic-critique",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.national-movement-1885-1919.extremist-phase-and-ideological-shift",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.swarajists-and-constructive-work",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.khilafat-and-non-cooperation-movement",
+          "primary": false
+        },
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.civil-disobedience-and-salt-satyagraha",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "bring out"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs1.world-history.world-wars-and-interwar-period.rise-of-fascism-in-italy",
+          "primary": true
+        },
+        {
+          "id": "gs1.world-history.world-wars-and-interwar-period.rise-of-nazism-in-germany",
+          "primary": false
+        },
+        {
+          "id": "gs1.world-history.world-wars-and-interwar-period.league-of-nations-and-mandate-system",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.atmospheric-humidity-condensation-and-pr",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geomorphology.endogenic-processes-folding-and-faulting",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q015",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.cryosphere-changes-polar-ice-caps-and-gl",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.climatology.jet-streams-and-rossby-waves",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q016",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.petroleum-and-natural-gas-reserves",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.ports-shipping-routes-and-choke-points",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.location-factors-of-industries.information-technology-and-software-serv",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urbanization-trends-and-patterns",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "what"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q018",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.demographic-transition-and-dividend",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "what"
+    },
+    {
+      "pyqId": "mains-2021-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "enumerate"
+    }
+  ]
+}

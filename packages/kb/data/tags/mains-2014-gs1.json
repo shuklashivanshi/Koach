@@ -1,0 +1,380 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2014-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.harappan-architecture-and-art",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urbanization-trends-and-patterns",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q002",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.post-mauryan-sculpture-schools",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.ancient-scientific-treatises-and-institu",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.classical-sanskrit-and-prakrit-literatur",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.mid-18th-century-and-british-expansion.decline-of-mughals-and-successor-states",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.mid-18th-century-and-british-expansion.anglo-mysore-and-anglo-maratha-wars",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "why"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.bhakti-and-sufi-movements",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.deindustrialization-and-drain-of-wealth",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.british-land-revenue-systems",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine critically"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.post-war-national-upsurge-and-rin-mutiny",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "in what ways"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs1.world-history.world-wars-and-interwar-period.causes-and-consequences-of-world-war-one",
+          "primary": true
+        },
+        {
+          "id": "gs1.world-history.world-wars-and-interwar-period.russian-revolution-1917",
+          "primary": false
+        },
+        {
+          "id": "gs1.modern-history.national-movement-1885-1919.moderate-phase-and-economic-critique",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "what"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q009",
+      "nodes": [
+        {
+          "id": "gs1.world-history.cold-war-and-decolonization.west-asian-conflict-and-arab-israeli-war",
+          "primary": true
+        },
+        {
+          "id": "gs1.world-history.cold-war-and-decolonization.decolonization-in-asia-and-africa",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q010",
+      "nodes": [
+        {
+          "id": "gs1.post-independence.post-independence-development-and-crises.economic-planning-and-agrarian-reforms",
+          "primary": true
+        },
+        {
+          "id": "gs1.world-history.world-wars-and-interwar-period.russian-revolution-1917",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.women-in-the-workforce-and-care-economy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.demographic-transition-and-dividend",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "give your arguments"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.family-and-kinship-systems-in-india",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.women-in-the-workforce-and-care-economy",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.migration-streams-causes-and-consequence",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q015",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.secularism-indian-versus-western-model",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q016",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.el-nino-la-nina-and-mjo",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.climatology.monsoon-mechanism-and-teleconnections",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "do you agree"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.earthquakes-causes-types-and-seismic-zon",
+          "primary": false
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.volcanism-types-features-and-distributio",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "bring out"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q018",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.volcanism-types-features-and-distributio",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.tropical-cyclones-genesis-and-structure",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "why"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.cryosphere-changes-polar-ice-caps-and-gl",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.changes-in-water-bodies-wetlands-and-riv",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "bring out"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q021",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.plantation-crops-tea-coffee-rubber",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q022",
+      "nodes": [
+        {
+          "id": "gs1.post-independence.post-independence-development-and-crises.green-and-white-revolutions",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.cropping-intensity-and-agro-climatic-zon",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "why"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q023",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.location-factors-of-industries.iron-and-steel-industry-location-factors",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.location-factors-of-industries.industrial-location-theories-weber-and-l",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "account for"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q024",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.oceanography.marine-resources-biotic-mineral-energy",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically evaluate"
+    },
+    {
+      "pyqId": "mains-2014-gs1-q025",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.critical-minerals-lithium-cobalt-rare-ea",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.petroleum-and-natural-gas-reserves",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "how"
+    }
+  ]
+}

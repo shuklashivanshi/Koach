@@ -1,0 +1,327 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2020-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.mauryan-art-and-pillars",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q002",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.heterodox-philosophies",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.paintings-and-handicrafts.miniature-paintings-mughal-deccan",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "enumerate"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.national-movement-1885-1919.partition-of-bengal-and-swadeshi-movemen",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.national-movement-1885-1919.extremist-phase-and-ideological-shift",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.volcanism-types-features-and-distributio",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geomorphology.seafloor-spreading-and-plate-tectonics",
+          "primary": false
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.earthquakes-causes-types-and-seismic-zon",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.soil-types-and-soil-degradation",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geomorphology.aeolian-and-desert-landforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.cryosphere-changes-polar-ice-caps-and-gl",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.location-factors-of-industries.iron-and-steel-industry-location-factors",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.location-factors-of-industries.industrial-location-theories-weber-and-l",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "account for"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.politicization-of-caste-and-caste-mobili",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q009",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-lines-and-multidimensional-pover",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-alleviation-and-welfare-programs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q010",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.regionalism-in-india",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "argue"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.nagara-temple-architecture",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves",
+          "primary": false
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.six-schools-of-indian-philosophy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.persian-urdu-and-bhakti-literature",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.khilafat-and-non-cooperation-movement",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.left-politics-and-subhas-chandra-bose",
+          "primary": false
+        },
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.women-working-class-and-business-in-free",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.inland-waterways-and-sagarmala-project",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q015",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urban-flooding-heat-islands-and-pollutio",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urban-infrastructure-and-civic-deficits",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "account for"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q016",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.insolation-and-heat-budget-of-earth",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.forest-resources-and-timber-distribution",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.effects-on-flora-fauna-and-phenological-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q018",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.unity-in-diversity-concept-and-challenge",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.socio-religious-reform-movements.raja-ram-mohan-and-bramho-samaj",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "do you agree"
+    },
+    {
+      "pyqId": "mains-2020-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.social-empowerment-of-vulnerable-groups",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-alleviation-and-welfare-programs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "elaborate"
+    }
+  ]
+}

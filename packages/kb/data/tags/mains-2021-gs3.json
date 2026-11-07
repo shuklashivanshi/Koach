@@ -1,0 +1,292 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2021-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.national-income-growth.gdp-gnp-measurement",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.budget-documents-structure",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "distinguish"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.land-reforms.land-tenure-zamindari-abolition",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.land-reforms.land-ceiling-consolidation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.micro-irrigation-pksy",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how and to what extent"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.defence-indigenization-drdo",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.recent-cops-outcomes",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.air-pollution-ncap-caqm",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.earthquakes-seismic-zonation",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.money-laundering-stages-techniques",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.fatf-standards-and-scrutiny",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.critical-information-infrastructure",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "analyse"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.national-income-growth.gdp-gnp-measurement",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "give reasons"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.investment-models.national-monetisation-pipeline",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.pds-food-security.nfsa-provisions-critique",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.pds-food-security.pds-functioning-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "what are"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.crop-diversification-millets",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.e-technology-farmers",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "what are"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "what are"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.it-telecom-computing.semiconductor-mission",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.energy-power-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.recent-cops-outcomes",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.india-panchamrit-ndcs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.landslides-and-glofs",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.border-management.india-pakistan-border",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyse"
+    },
+    {
+      "pyqId": "mains-2021-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.narco-terrorism-linkages",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.organized-crime-nexus",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyse"
+    }
+  ]
+}

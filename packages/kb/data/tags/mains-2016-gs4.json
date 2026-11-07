@@ -1,0 +1,292 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2016-gs4-q001",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.consequences-of-ethics",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q002",
+      "nodes": [
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.impartiality-and-non-partisanship",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.status-and-problems-in-public-administra",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "illustrate"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q003",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.concept-and-philosophical-basis-of-probi",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.accountability-and-ethical-governance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "what do you understand by"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q004",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.mahatma-gandhi-moral-philosophy",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q005",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.john-rawls-theory-of-justice",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyse"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q006",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.second-arc-ethics-in-governance",
+          "primary": true
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.codes-of-ethics-vs-codes-of-conduct",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q007",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.kautilyan-administrative-ethics",
+          "primary": true
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.corruption-causes-and-consequences",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q008",
+      "nodes": [
+        {
+          "id": "gs4.attitude.moral-political-attitudes-and-persuasion.persuasion-and-public-campaigns",
+          "primary": true
+        },
+        {
+          "id": "gs4.attitude.moral-political-attitudes-and-persuasion.social-influence-mechanisms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q009",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.morality-ethics-and-law",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.sources-of-guidance-law-rules-regulation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q010",
+      "nodes": [
+        {
+          "id": "gs4.attitude.structure-and-behavioural-aspects.formation-and-change-of-attitude",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.role-of-family-in-value-inculcation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q011",
+      "nodes": [
+        {
+          "id": "gs4.emotional-intelligence.ei-concepts-and-models.goleman-model-of-ei",
+          "primary": true
+        },
+        {
+          "id": "gs4.emotional-intelligence.ei-in-administration-and-governance.ei-in-administrative-leadership",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q012",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conscience-as-source-of-ethical-guidance",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-public-relationships",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically analyse"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q013",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.whistleblower-protection-mechanisms",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.environmental-ethics-and-climate-justice",
+          "primary": false
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conscience-as-source-of-ethical-guidance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "advise"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q014",
+      "nodes": [
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+          "primary": true
+        },
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.john-rawls-theory-of-justice",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q015",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-administrative-discretion-r",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "give reasons"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q016",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-private-relationships",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-public-relationships",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyse"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q017",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.corporate-governance-and-csr",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "identify"
+    },
+    {
+      "pyqId": "mains-2016-gs4-q018",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.work-culture-in-public-administration",
+          "primary": true
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.corruption-causes-and-consequences",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2022-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.nagara-temple-architecture",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.dravidian-temple-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q002",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.mid-18th-century-and-british-expansion.decline-of-mughals-and-successor-states",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.mid-18th-century-and-british-expansion.anglo-mysore-and-anglo-maratha-wars",
+          "primary": false
+        },
+        {
+          "id": "gs1.modern-history.mid-18th-century-and-british-expansion.conquest-of-bengal-plassey-buxar",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "give reasons"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.deindustrialization-and-drain-of-wealth",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.british-land-revenue-systems",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "give reasons"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geomorphology.minerals-and-rock-cycle",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.tropical-cyclones-genesis-and-structure",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.soil-types-and-soil-degradation",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.volcanism-types-features-and-distributio",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.atmospheric-pressure-belts-and-planetary",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.climatology.monsoon-mechanism-and-teleconnections",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.family-and-kinship-systems-in-india",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.women-in-the-workforce-and-care-economy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q009",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urbanization-trends-and-patterns",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q010",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.tribal-communities-and-their-challenges",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.social-empowerment-of-vulnerable-groups",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs1.post-independence.nation-building-and-integration.linguistic-reorganization-and-states-reo",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.post-1857-administrative-changes",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.dravidian-temple-architecture",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.nagara-temple-architecture",
+          "primary": false
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.classical-sanskrit-and-prakrit-literatur",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.mauryan-art-and-pillars",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.harappan-architecture-and-art",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.oceanography.ocean-currents-atlantic-pacific-indian",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.marine-and-inland-fisheries-geography",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q015",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.plantation-crops-tea-coffee-rubber",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.forest-resources-and-timber-distribution",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "indicate"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q016",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.ports-shipping-routes-and-choke-points",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "mention"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.structure-and-composition-of-atmosphere",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q018",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyse"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.secularism-indian-versus-western-model",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2022-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.critical-minerals-lithium-cobalt-rare-ea",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "elucidate"
+    }
+  ]
+}

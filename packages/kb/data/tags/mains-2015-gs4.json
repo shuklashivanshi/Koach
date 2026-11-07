@@ -1,0 +1,304 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2015-gs4-q001",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.environmental-ethics-and-climate-justice",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.dimensions-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q002",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.morality-ethics-and-law",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-private-relationships",
+          "primary": false
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.ethics-in-public-relationships",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "differentiate"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q003",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.indian-moral-thinkers-and-traditions.mahatma-gandhi-moral-philosophy",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "bring out"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q004",
+      "nodes": [
+        {
+          "id": "gs4.moral-thinkers-and-philosophers.western-moral-philosophy.socratic-platonic-ethics",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.essence-and-determinants-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "bring out"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q005",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.morality-ethics-and-law",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.sources-of-guidance-law-rules-regulation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q006",
+      "nodes": [
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.courage-of-conviction-and-fortitude",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.integrity-and-intellectual-honesty",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q007",
+      "nodes": [
+        {
+          "id": "gs4.ethics-human-interface.human-values-and-socialization.concept-and-types-of-human-values",
+          "primary": true
+        },
+        {
+          "id": "gs4.ethics-human-interface.nature-and-dimensions-of-ethics.consequences-of-ethics",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q008",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.information-sharing-and-rti",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.accountability-and-institutional-ethics.accountability-and-ethical-governance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q009",
+      "nodes": [
+        {
+          "id": "gs4.attitude.structure-and-behavioural-aspects.content-and-structure-of-attitude",
+          "primary": true
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.probity-transparency-and-service-deliver.work-culture-in-public-administration",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "distinguish"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q010",
+      "nodes": [
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.institutional-anti-corruption-frameworks",
+          "primary": true
+        },
+        {
+          "id": "gs4.probity-in-governance-and-anti-corruptio.corruption-and-whistleblowing.corruption-causes-and-consequences",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q011",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.ethical-issues-in-international-relation",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q012",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.ethical-frameworks-and-dilemmas.conflict-of-interest-management",
+          "primary": true
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.aptitude-and-core-values.objectivity-and-evidence-based-decisions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q013",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": true
+        },
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.corporate-governance-and-csr",
+          "primary": false
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-political-pressure-integrit",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q014",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": true
+        },
+        {
+          "id": "gs4.attitude.moral-political-attitudes-and-persuasion.persuasion-and-public-campaigns",
+          "primary": false
+        },
+        {
+          "id": "gs4.civil-service-aptitude-and-values.empathy-and-weaker-sections.compassion-towards-weaker-sections",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q015",
+      "nodes": [
+        {
+          "id": "gs4.public-service-ethics-and-governance.international-ethics-and-corporate-gover.corporate-governance-and-csr",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q016",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-crisis-and-disaster-managem",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q017",
+      "nodes": [
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-studies-corruption-procurement-publ",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs4-q018",
+      "nodes": [
+        {
+          "id": "gs4.attitude.moral-political-attitudes-and-persuasion.persuasion-and-public-campaigns",
+          "primary": true
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.applied-ethics-in-contemporary-issues.gender-ethics-and-care-perspective",
+          "primary": false
+        },
+        {
+          "id": "gs4.applied-ethics-and-case-studies.case-study-methodology-and-practice.case-study-analysis-framework",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    }
+  ]
+}

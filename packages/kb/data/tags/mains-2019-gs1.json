@@ -1,0 +1,313 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2019-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.post-mauryan-sculpture-schools",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "highlight"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q002",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.revolt-of-1857-causes-and-spread",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.civil-and-peasant-uprisings-pre-1857",
+          "primary": false
+        },
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.tribal-revolts-nineteenth-century",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elucidate"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.socio-religious-reform-movements.raja-ram-mohan-and-bramho-samaj",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.national-movement-1885-1919.pre-congress-political-associations",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.oceanography.coral-bleaching-and-ocean-acidification",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.oceanography.coral-reefs-types-and-formation-theories",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "assess"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.changes-in-water-bodies-wetlands-and-riv",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.effects-on-flora-fauna-and-phenological-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.location-factors-of-industries.industrial-location-theories-weber-and-l",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.location-factors-of-industries.industrial-location-theories-weber-and-l",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.cropping-intensity-and-agro-climatic-zon",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.unity-in-diversity-concept-and-challenge",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q009",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.demographic-transition-and-dividend",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q010",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.secularism-indian-versus-western-model",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.women-working-class-and-business-in-free",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.left-politics-and-subhas-chandra-bose",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.cabinet-mission-to-partition-plan",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.cripps-mission-and-quit-india-movement",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "assess"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs1.world-history.enlightenment-and-early-revolutions.french-revolution-causes-and-stages",
+          "primary": true
+        },
+        {
+          "id": "gs1.world-history.enlightenment-and-early-revolutions.american-revolution-and-constitution",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.climatology.monsoon-mechanism-and-teleconnections",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q015",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.location-factors-of-industries.tourism-hospitality-and-wellness-sector",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.landslides-causes-and-vulnerability-zone",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q016",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urban-infrastructure-and-civic-deficits",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.railways-highways-and-freight-corridors-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.oceanography.ocean-currents-atlantic-pacific-indian",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.oceanography.temperature-and-salinity-distribution-in",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q018",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.migration-streams-causes-and-consequence",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.women-in-the-workforce-and-care-economy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2019-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2023-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.harappan-architecture-and-art",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q002",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.gandhian-philosophy-and-early-experiment",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.national-movement-1885-1919.partition-of-bengal-and-swadeshi-movemen",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "what was the difference"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs1.world-history.industrial-revolution-and-ideologies.social-and-economic-impact-of-industrial",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.railways-highways-and-freight-corridors-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "bring out"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.effects-on-flora-fauna-and-phenological-",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.major-cereal-crops-rice-wheat-maize",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.changes-in-water-bodies-wetlands-and-riv",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "why"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geomorphology.glacial-landforms",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geomorphology.coastal-landforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how and why"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.monsoon-mechanism-and-teleconnections",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "why and how"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.family-and-kinship-systems-in-india",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-and-cultural-hybridization",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "do you think"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q009",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.violence-against-women-and-legal-framewo",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain why"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q010",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.family-and-kinship-systems-in-india",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-impact-on-youth-and-elderl",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.salient-characteristics-of-indian-societ",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "do you think"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.delhi-sultanate-architecture",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.ancient-scientific-treatises-and-institu",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.tribal-revolts-nineteenth-century",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.tribal-communities-and-their-challenges",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.oceanography.marine-resources-biotic-mineral-energy",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.tsunami-mechanism-and-warning-systems",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q015",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.forest-resources-and-timber-distribution",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.effects-on-flora-fauna-and-phenological-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "identify and discuss"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q016",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-lines-and-multidimensional-pover",
+          "primary": true
+        },
+        {
+          "id": "gs1.post-independence.post-independence-development-and-crises.economic-crisis-1991-and-lpg-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "why"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs1.post-independence.post-independence-development-and-crises.green-and-white-revolutions",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.major-cereal-crops-rice-wheat-maize",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "provide reasons"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q018",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urban-infrastructure-and-civic-deficits",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urbanization-trends-and-patterns",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "does"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.politicization-of-caste-and-caste-mobili",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "why"
+    },
+    {
+      "pyqId": "mains-2023-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.communalism-causes-and-manifestations",
+          "primary": true
+        },
+        {
+          "id": "gs1.post-independence.post-independence-development-and-crises.economic-crisis-1991-and-lpg-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    }
+  ]
+}

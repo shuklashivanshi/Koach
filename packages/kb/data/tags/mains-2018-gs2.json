@@ -1,0 +1,324 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2018-gs2-q001",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.election-commission-of-india",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.elections-and-rpa.electoral-reforms-and-criminalisation-of",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q002",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.national-commissions-sc-st-bc",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.cultural-and-educational-rights-art-29-3",
+          "primary": false
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.protection-of-scheduled-castes-and-dalit",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q003",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.emergency-provisions-and-federal-impact",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.financial-relations-and-fiscal-federalis",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q004",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.parliamentary-committees-system",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.budgetary-process-in-parliament",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q005",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.comptroller-and-auditor-general-of-india",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q006",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance",
+          "primary": true
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.regulatory-and-quasi-judicial-bodies.national-green-tribunal-ngt",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q007",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.ayushman-bharat-and-universal-health-cov",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q008",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.e-governance.e-governance-concepts-and-models",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.e-governance.major-e-governance-initiatives-in-india",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q009",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-west-asia-link-west",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q010",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-central-asia-outreach",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q011",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.union-and-state-executive.governor-constitutional-role-and-discret",
+          "primary": false
+        },
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-review-and-constitutional-court",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q012",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.tribunals-and-quasi-judicial-bodies",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-review-and-constitutional-court",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q013",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-states",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q014",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.finance-commission-mandate-and-terms",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.financial-relations-and-fiscal-federalis",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q015",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.challenges-in-devolution-3fs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "assess"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q016",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-human-rights-commission-nhrc",
+          "primary": true
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.national-commissions-sc-st-bc",
+          "primary": false
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-commissions-women-children-mino",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "argue"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q017",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.hunger-and-malnutrition-challenges",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.food-security-architecture-and-nfsa",
+          "primary": false
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.education-sector.human-capital-index-and-demographic-divi",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q018",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.citizens-charters-formulation-and-effica",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q019",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.international-institutions-and-agencies.world-trade-organization-and-india",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.developed-developing-politics-and-diaspo.western-carbon-taxes-and-wto-disputes",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2018-gs2-q020",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-west-asia-link-west",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-united-states-strategic-partnershi",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    }
+  ]
+}

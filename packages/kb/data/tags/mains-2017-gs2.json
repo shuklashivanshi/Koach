@@ -1,0 +1,296 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2017-gs2-q001",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.challenges-in-devolution-3fs",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q002",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-appointments-collegium-system",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.significant-constitutional-amendments",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q003",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.elections-and-rpa.electoral-reforms-and-criminalisation-of",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q004",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.pressure-groups-and-associations",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q005",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.parliamentary-committees-system",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q006",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.performance-and-critique-of-welfare-sche",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q007",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.differently-abled-persons-welfare",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q008",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.hunger-and-malnutrition-challenges",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q009",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.indias-neighborhood.india-china-relations",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.developed-developing-politics-and-diaspo.chinas-belt-and-road-initiative",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q010",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.international-institutions-and-agencies.united-nations-structure-and-reforms",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q011",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.significant-constitutional-amendments",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.financial-relations-and-fiscal-federalis",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q012",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-life-and-personal-liberty-art-2",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-review-and-constitutional-court",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q013",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.joint-sitting-and-ordinance-making-power",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "enumerate"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q014",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.elections-and-rpa.electoral-reforms-and-criminalisation-of",
+          "primary": true
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.election-commission-of-india",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q015",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-commissions-women-children-mino",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q016",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.self-help-groups-and-rural-empowerment",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q017",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.performance-and-critique-of-welfare-sche",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.urban-poverty-and-social-safety-nets",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q018",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.role-of-civil-services.civil-service-neutrality-vs-commitment",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.role-of-civil-services.second-arc-and-administrative-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q019",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-west-asia-link-west",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2017-gs2-q020",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.developed-developing-politics-and-diaspo.indian-diaspora-profile-and-remittances",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.developed-developing-politics-and-diaspo.diaspora-political-and-soft-power",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "appraise"
+    }
+  ]
+}

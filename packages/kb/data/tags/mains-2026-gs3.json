@@ -1,0 +1,320 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2026-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.digital-public-infrastructure-fintech",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.rbi-tools-liquidity",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.financial-inclusion-initiatives",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.national-technology-missions",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.pds-food-security.nfsa-provisions-critique",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "describe and examine"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.apmc-reforms-enam",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.e-technology-farmers",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.civil-nuclear-energy",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "distinguish and explain"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.cdri-and-resilient-infrastructure",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.landslides-and-glofs",
+          "primary": false
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.eia-process-and-notification",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.cbd-and-kunming-montreal-framework",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.in-situ-conservation-network",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss and mention"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.it-rules-intermediary-guidelines",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.social-media-radicalization-fake-news",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain and discuss"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.border-management.vibrant-villages-programme",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.border-management.india-china-border-lac",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.energy-power-reforms",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain and suggest"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.national-income-growth.growth-vs-development",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss and suggest"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.crop-diversification-millets",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.farm-subsidies-and-pricing.direct-vs-indirect-subsidies",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.external-sector.wto-india-agreements",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss and examine"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.space-technology.satellite-orbits-bands",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.space-technology.private-space-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "mention and discuss"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.it-telecom-computing.artificial-intelligence-llms",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "explain, describe and discuss"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.solid-waste-management-rules",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.community-based-disaster-management",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.sendai-framework-priorities",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyse and discuss"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.jammu-kashmir-hybrid-terrorism",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "bring out and discuss"
+    },
+    {
+      "pyqId": "mains-2026-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.fatf-standards-and-scrutiny",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.terror-financing-monitoring",
+          "primary": false
+        },
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.organized-crime-nexus",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss, state and highlight"
+    }
+  ]
+}

@@ -1,0 +1,1440 @@
+{
+  "tags": [
+    {
+      "pyqId": "pre-2023-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.changes-in-water-bodies-wetlands-and-riv",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geomorphology.fluvial-landforms-erosion-and-deposition",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q002",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.ports-shipping-routes-and-choke-points",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.ports-sagarmala-inland-waterways",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.ecology-and-ecosystems.forest-types-isfr-report",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.forest-resources-and-timber-distribution",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.agricultural-systems-of-the-world",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.irrigation-types-and-spatial-spread",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geomorphology.coastal-landforms",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.changes-in-water-bodies-wetlands-and-riv",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.non-ferrous-minerals-copper-bauxite-lead",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.critical-minerals-lithium-cobalt-rare-ea",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.critical-minerals-lithium-cobalt-rare-ea",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.major-climatic-regions-of-the-world",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q009",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geomorphology.endogenic-processes-folding-and-faulting",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q010",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.railways-highways-and-freight-corridors-",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.indias-neighborhood.india-myanmar-and-afghanistan",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.nuclear-minerals-uranium-and-thorium",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.civil-nuclear-energy",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.levels-measurement-hotspots",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.biological-classification-five-kingdoms",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.invasive-alien-species",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.iucn-red-list-categories",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.iucn-red-list-categories",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.biological-classification-five-kingdoms",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q015",
+      "nodes": [
+        {
+          "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.biological-classification-five-kingdoms",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q016",
+      "nodes": [
+        {
+          "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.biological-classification-five-kingdoms",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.levels-measurement-hotspots",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.biological-classification-five-kingdoms",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q018",
+      "nodes": [
+        {
+          "id": "prelims_gs1.general-science-biology.cell-biology-and-genetics.cell-structure-and-organelles",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.biological-classification-five-kingdoms",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.levels-measurement-hotspots",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.biological-classification-five-kingdoms",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.ozone-depletion-montreal-kigali",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.environmental-chemistry-pollutants",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q021",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.investment-models.alternative-financing-invit-reit",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.financial-markets-capital",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q022",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.monetary-policy-framework",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.rbi-tools-liquidity",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q023",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.carbon-markets-article-6",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.unfccc-kyoto-paris-agreement",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q024",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.rbi-tools-liquidity",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.monetary-policy-framework",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q025",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.financial-markets-capital",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q026",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.fpo-contract-farming",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q027",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.farm-subsidies-and-pricing.msp-determination-cacp",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q028",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.national-income-growth.gdp-gnp-measurement",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q029",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.finance-commission",
+          "primary": true
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.finance-commission-mandate-and-terms",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q030",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.un-specialized-agencies-and-treaties",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.investment-models.alternative-financing-invit-reit",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q031",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-life-and-personal-liberty-art-2",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.state-and-laws-inconsistent-art-12-13",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q032",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.legislative-and-administrative-relations",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.high-courts-and-subordinate-judiciary",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q033",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.preamble-philosophy-and-significance",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constituent-assembly-debates-and-making",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q034",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.significant-constitutional-amendments",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.evolution-of-basic-structure-doctrine",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q035",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.national-commissions-sc-st-bc",
+          "primary": true
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-human-rights-commission-nhrc",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q036",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.union-and-state-executive.president-election-powers-and-impeachmen",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q037",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.legislative-procedure-and-types-of-bills",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.joint-sitting-and-ordinance-making-power",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q038",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.biodiversity-and-conservation.in-situ-conservation-network",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.wildlife-protection-act-amendments",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q039",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.special-provisions-and-scheduled-areas",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q040",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-equality-art-14-18",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.protection-of-scheduled-castes-and-dalit",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q041",
+      "nodes": [
+        {
+          "id": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.buddhism-doctrine-schisms",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.ancient-indian-history.mauryan-and-post-mauryan-empires.satavahana-polity-and-land-grants",
+          "primary": false
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.post-mauryan-sculpture-schools",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q042",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves",
+          "primary": false
+        },
+        {
+          "id": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.buddhism-doctrine-schisms",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.mauryan-art-and-pillars",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q043",
+      "nodes": [
+        {
+          "id": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.sangam-age-polity-society",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.sangam-and-south-indian-literature",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q044",
+      "nodes": [
+        {
+          "id": "prelims_gs1.ancient-indian-history.gupta-and-post-gupta-periods.sangam-age-polity-society",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.sangam-and-south-indian-literature",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q045",
+      "nodes": [
+        {
+          "id": "prelims_gs1.medieval-indian-history.early-medieval-india.western-chalukyas-pallavas-hoysalas-kaka",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.medieval-indian-history.early-medieval-india.rajput-clans-and-feudal-polity",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q046",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.classical-sanskrit-and-prakrit-literatur",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.buddhist-literature-terms",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q047",
+      "nodes": [
+        {
+          "id": "prelims_gs1.ancient-indian-history.heterodox-sects-and-philosophy.jainism-doctrine-literature",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.heterodox-philosophies",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q048",
+      "nodes": [
+        {
+          "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.vijayanagara-empire-polity-and-nayankara",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.dravidian-temple-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q049",
+      "nodes": [
+        {
+          "id": "prelims_gs1.medieval-indian-history.regional-powers-and-religious-movements.regional-kingdoms-gujarat-malwa-bengal-k",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.mid-18th-century-and-british-expansion.anglo-french-carnatic-wars",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q050",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constitutional-experiments-pre-1947",
+          "primary": true
+        },
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.post-1857-administrative-changes",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q051",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": false
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+          "primary": false
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q052",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.hunger-and-malnutrition-challenges",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea",
+          "primary": false
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.government-schemes-portal-indices-analys",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q053",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.nanotechnology-concepts-materials",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.carbon-compounds-and-polymers",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q054",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.it-telecom-computing.iot-and-edge-computing",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-physics-chemistry.general-physics.mechanics-motion-and-gravitation",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q055",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.fisheries-blue-economy",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.ecology-and-ecosystems.biogeochemical-cycles",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q056",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.space-missions-and-astronomical-discover",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.space-technology.deep-space-missions",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q057",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.space-technology.navic-and-bhuvan",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.space-missions-and-astronomical-discover",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q058",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.defence-indigenization-drdo",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.bilateral-military-exercises-and-defence",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q059",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.water-pollution-river-rejuvenation",
+          "primary": false
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.international-environmental-treaties",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-physics-chemistry.general-chemistry.environmental-chemistry-pollutants",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q060",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.green-hydrogen-mission",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q061",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-disputes-and-geopolitical-",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q062",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.insolation-and-heat-budget-of-earth",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.climatology.structure-and-composition-of-atmosphere",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q063",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.major-climatic-regions-of-the-world",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.soil-types-and-soil-degradation",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q064",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.horizontal-and-vertical-temperature-dist",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.climatology.insolation-and-heat-budget-of-earth",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q065",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.geomorphology.origin-and-interior-structure-of-earth",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.geophysical-phenomena-and-environmental-.earthquakes-causes-types-and-seismic-zon",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q066",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.energy-power-reforms",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.global-distribution-of-coal",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q067",
+      "nodes": [
+        {
+          "id": "prelims_gs1.general-science-biology.diseases-and-plant-biology.infectious-diseases-pathogens",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q068",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.carbon-markets-article-6",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q069",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.genome-sequencing-projects",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.general-science-biology.cell-biology-and-genetics.dna-rna-protein-synthesis",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q070",
+      "nodes": [
+        {
+          "id": "prelims_gs1.general-science-biology.cell-biology-and-genetics.dna-rna-protein-synthesis",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.genome-sequencing-projects",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q071",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.msme-redefinition-challenges",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.farm-subsidies-and-pricing.agricultural-credit-flow",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q072",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.digital-public-infrastructure-fintech",
+          "primary": true
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q073",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.financial-markets-capital",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q074",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.self-help-groups-and-rural-empowerment",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.financial-inclusion-initiatives",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q075",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea",
+          "primary": true
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q076",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q077",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.preventive-detention-and-safeguards-art-",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.emergency-provisions-and-federal-impact",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q078",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-disputes-and-geopolitical-",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q079",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.biological-diversity-act-reforms",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.traditional-knowledge-tkdl",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q080",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.union-and-state-executive.president-election-powers-and-impeachmen",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q081",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.post-mauryan-sculpture-schools",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves",
+          "primary": false
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q082",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.buddhist-and-jain-caves",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.paintings-and-handicrafts.ancient-mural-paintings",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q083",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.national-movement-1885-1919.partition-of-bengal-and-swadeshi-movemen",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.paintings-and-handicrafts.traditional-textiles-and-handicrafts",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q084",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.dpsp-and-fundamental-duties.fundamental-duties-and-civic-culture",
+          "primary": true
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q085",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.historical-underpinnings-and-evolution.constituent-assembly-debates-and-making",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.preamble-philosophy-and-significance",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q086",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-trade-and-environmental-ac",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.non-ferrous-minerals-copper-bauxite-lead",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q087",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-trade-and-environmental-ac",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-european-union-ties",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q088",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.production-linked-incentive",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.external-sector.foreign-trade-policy",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q089",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-trade-and-environmental-ac",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.types-of-deficits",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q090",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.un-specialized-agencies-and-treaties",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.migration-streams-causes-and-consequence",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q091",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.security-forces-agencies.capf-mandates-and-deployment",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q092",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.current-events-methodology.national-initiatives-and-statutory-commi",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.security-forces-agencies.investigation-agencies-nia-cbi",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q093",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-disputes-and-geopolitical-",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q094",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-west-asia-link-west",
+          "primary": true
+        },
+        {
+          "id": "gs1.world-history.cold-war-and-decolonization.west-asian-conflict-and-arab-israeli-war",
+          "primary": false
+        }
+      ],
+      "questionType": "assertion_reason",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q095",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.awards-honours-and-significant-historica",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q096",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.prelims-specific-miscellaneous-dimension.awards-honours-and-significant-historica",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q097",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-disputes-and-geopolitical-",
+          "primary": true
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q098",
+      "nodes": [
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.international-disputes-and-geopolitical-",
+          "primary": true
+        }
+      ],
+      "questionType": "direct",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q099",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.green-hydrogen-mission",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming",
+          "primary": false
+        }
+      ],
+      "questionType": "how_many",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "pre-2023-gs1-q100",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.regional-and-global-groupings.g20-and-voice-of-global-south",
+          "primary": true
+        },
+        {
+          "id": "prelims_gs1.current-events-and-factual-gk.international-factual-dimensions.multilateral-groupings-and-summits",
+          "primary": false
+        }
+      ],
+      "questionType": "statement",
+      "sourceType": "current_affairs"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2020-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.national-income-growth.growth-vs-development",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.national-income-growth.potential-gdp",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.warehousing-cold-storage",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.apmc-reforms-enam",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.nanotechnology-concepts-materials",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.nanotech-environment-health",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.e-technology-farmers",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.seed-technology-gm-crops",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.eia-process-and-notification",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.micro-irrigation-pksy",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.national-cyber-security-policy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.border-management.vibrant-villages-programme",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.national-income-growth.potential-gdp",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.taxation-reforms-gst",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.finance-commission",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.crop-diversification-millets",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.micro-irrigation-pksy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.vaccine-technologies",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.recombinant-dna-technology",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "give an account of"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.air-pollution-ncap-caqm",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.sendai-framework-priorities",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.development-and-extremism.left-wing-extremism-roots",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.development-and-extremism.government-strategy-lwe",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2020-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.security-forces-agencies.capf-mandates-and-deployment",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.border-management.india-pakistan-border",
+          "primary": false
+        },
+        {
+          "id": "gs3.internal-security.border-management.india-myanmar-border-fmr",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyze"
+    }
+  ]
+}

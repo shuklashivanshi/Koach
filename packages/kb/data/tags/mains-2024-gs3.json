@@ -1,0 +1,314 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2024-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.government-budgeting-fiscal-policy.budget-documents-structure",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.monetary-policy-framework",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.farm-subsidies-and-pricing.msp-determination-cacp",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.land-reforms.land-ceiling-consolidation",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.land-reforms.land-tenure-zamindari-abolition",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.crop-diversification-millets",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.pds-food-security.nfsa-provisions-critique",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.patents-act-section-3d",
+          "primary": false
+        },
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.st-policy-frameworks",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.transport-roads-bharatmala",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.space-technology.navic-and-bhuvan",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.water-pollution-river-rejuvenation",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.eia-process-and-notification",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "cite"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.narco-terrorism-linkages",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.organized-crime-nexus",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.data-protection-privacy-act",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.informal-economy-gig",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.civil-aviation-udan",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.irrigation-systems-efficiency",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.micro-irrigation-pksy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "state"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.pds-food-security.buffer-stock-norms-fci",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.warehousing-cold-storage",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elucidate"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.nanotech-environment-health",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.water-pollution-river-rejuvenation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.space-technology.deep-space-missions",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.space-technology.space-debris-weaponization",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.sendai-framework-priorities",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.cdri-and-resilient-infrastructure",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "describe"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.riverine-and-urban-floods",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.border-management.vibrant-villages-programme",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.border-management.india-pakistan-border",
+          "primary": false
+        },
+        {
+          "id": "gs3.internal-security.border-management.india-china-border-lac",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2024-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.social-media-radicalization-fake-news",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.it-rules-intermediary-guidelines",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "suggest"
+    }
+  ]
+}

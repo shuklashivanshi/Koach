@@ -1,0 +1,284 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2021-gs2-q001",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.preamble-and-basic-philosophy.preamble-philosophy-and-significance",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-review-and-constitutional-court",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q002",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-appointments-collegium-system",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q003",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.finance-commission-mandate-and-terms",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.financial-relations-and-fiscal-federalis",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "how"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q004",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.decline-of-parliament-and-reforms",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.union-and-state-executive.council-of-ministers-and-cabinet",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "to what extent"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q005",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.pressure-groups-and-associations",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q006",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q007",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.education-sector.vocational-education-and-skill-developme",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q008",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.self-help-groups-and-rural-empowerment",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.hunger-and-malnutrition-challenges",
+          "primary": false
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q009",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-africa-development-partnership",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q010",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.indias-neighborhood.india-china-relations",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-united-states-strategic-partnershi",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q011",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.central-bureau-of-investigation-cbi",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.legislative-and-administrative-relations",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q012",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-human-rights-commission-nhrc",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q013",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-states",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.right-to-equality-art-14-18",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "analyze"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q014",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.state-legislative-assemblies-and-council",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "review"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q015",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.parliamentary-committees-system",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q016",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.e-governance.limitations-and-challenges-of-e-governan",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q017",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q018",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.role-of-ngos-in-development",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q019",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.regional-and-global-groupings.shanghai-cooperation-organisation-sco",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2021-gs2-q020",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.regional-and-global-groupings.quad-and-indo-pacific-architecture",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.indias-neighborhood.india-china-relations",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    }
+  ]
+}

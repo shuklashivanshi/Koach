@@ -1,0 +1,328 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2020-gs2-q001",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1951",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.elections-and-rpa.electoral-reforms-and-criminalisation-of",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q002",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.central-information-commission-cic",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.right-to-information-act-implementation",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q003",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.legislative-and-administrative-relations",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q004",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-kingdom",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.supreme-court-composition-and-jurisdicti",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "highlight"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q005",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.presiding-officers-speaker-and-chairman",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-and-united-kingdom",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q006",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.healthcare-architecture-and-national-hea",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.senior-citizens-and-elderly-care",
+          "primary": false
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q007",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.role-of-civil-services.second-arc-and-administrative-reforms",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.role-of-civil-services.evolution-and-role-in-democracy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "suggest"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q008",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.e-governance.e-governance-concepts-and-models",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.e-governance.major-e-governance-initiatives-in-india",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q009",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.international-institutions-and-agencies.world-health-organization-who",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.health-sector.disease-burden-and-epidemic-preparedness",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q010",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.developed-developing-politics-and-diaspo.diaspora-political-and-soft-power",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.developed-developing-politics-and-diaspo.indian-diaspora-profile-and-remittances",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q011",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.nature-of-indian-federalism",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.legislative-and-administrative-relations",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "elucidate"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q012",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-activism-vs-judicial-overreach",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.public-interest-litigation-pil",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q013",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.challenges-in-devolution-3fs",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "highlight"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q014",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.rajya-sabha-significance-and-powers",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "highlight"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q015",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.statutory-and-human-rights-bodies.national-commissions-women-children-mino",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.procedure-for-constitutional-amendment-a",
+          "primary": false
+        },
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.national-commissions-sc-st-bc",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "give reasons"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q016",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.poverty-estimation-and-committees",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.hunger-and-malnutrition-challenges",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "analyse"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q017",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.self-help-groups-and-rural-empowerment",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "evaluate"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q018",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.education-sector.national-education-policy-2020-school",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.education-sector.higher-education-reforms-and-heci",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q019",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.regional-and-global-groupings.quad-and-indo-pacific-architecture",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2020-gs2-q020",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-united-states-strategic-partnershi",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-russia-strategic-ties",
+          "primary": false
+        },
+        {
+          "id": "gs2.international-relations.regional-and-global-groupings.quad-and-indo-pacific-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    }
+  ]
+}

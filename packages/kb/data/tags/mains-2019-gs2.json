@@ -1,0 +1,310 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2019-gs2-q001",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-activism-vs-judicial-overreach",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.evolution-of-basic-structure-doctrine",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q002",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.tribunals-and-quasi-judicial-bodies",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.high-courts-and-subordinate-judiciary",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q003",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.pressure-groups-and-associations",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q004",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.federal-structure-and-inter-state-relati.legislative-and-administrative-relations",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.judiciary-and-dispute-redressal.judicial-review-and-constitutional-court",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q005",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.constitutional-comparison.comparison-india-france-germany",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.fundamental-rights.freedom-of-religion-and-secularism-art-2",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q006",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.education-sector.human-capital-index-and-demographic-divi",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.poverty-estimation-and-committees",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q007",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.hunger-and-malnutrition-challenges",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.poverty-and-hunger.poverty-estimation-and-committees",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "elucidate"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q008",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.e-governance.limitations-and-challenges-of-e-governan",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.e-governance.major-e-governance-initiatives-in-india",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "identify and suggest"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q009",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-japan-strategic-cooperation",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.regional-and-global-groupings.quad-and-indo-pacific-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q010",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.international-institutions-and-agencies.united-nations-structure-and-reforms",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q011",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.elections-and-rpa.salient-features-of-rpa-1951",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.composition-and-tenure-of-parliament",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "mention"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q012",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.evolution-of-basic-structure-doctrine",
+          "primary": true
+        },
+        {
+          "id": "gs2.indian-constitution-and-polity.amendment-and-basic-structure.procedure-for-constitutional-amendment-a",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q013",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.panchayati-raj-73rd-amendment",
+          "primary": true
+        },
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.welfare-and-rights-of-women",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q014",
+      "nodes": [
+        {
+          "id": "gs2.constitutional-and-statutory-bodies.constitutional-bodies.attorney-general-and-advocate-general",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q015",
+      "nodes": [
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.decline-of-parliament-and-reforms",
+          "primary": true
+        },
+        {
+          "id": "gs2.organs-of-state.parliament-and-state-legislatures.anti-defection-law-tenth-schedule",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q016",
+      "nodes": [
+        {
+          "id": "gs2.indian-constitution-and-polity.local-governance-and-devolution.challenges-in-devolution-3fs",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.concepts-of-good-governance",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q017",
+      "nodes": [
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.role-of-ngos-in-development",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.development-processes-and-civil-society.csr-and-philanthropy-in-development",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q018",
+      "nodes": [
+        {
+          "id": "gs2.social-justice-and-welfare.welfare-of-vulnerable-sections.performance-and-critique-of-welfare-sche",
+          "primary": true
+        },
+        {
+          "id": "gs2.governance-and-public-administration.governance-transparency-accountability.social-audit-mechanisms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q019",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.regional-and-global-groupings.g20-and-voice-of-global-south",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.regional-and-global-groupings.brics-expansion-and-multipolarity",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2019-gs2-q020",
+      "nodes": [
+        {
+          "id": "gs2.international-relations.bilateral-relations-with-major-powers.india-united-states-strategic-partnershi",
+          "primary": true
+        },
+        {
+          "id": "gs2.international-relations.developed-developing-politics-and-diaspo.us-visa-and-trade-policies",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2015-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.national-income-growth.growth-vs-development",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "give arguments"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.animal-husbandry-dairy",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.fpo-contract-farming",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.land-reforms.model-land-leasing-act",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically evaluate"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.e-technology-farmers",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.farm-subsidies-and-pricing.direct-vs-indirect-subsidies",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.pds-food-security.dbt-in-food-rationing",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.warehousing-cold-storage",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.external-sector.bop-cad-forex",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.monetary-and-financial-system.financial-markets-capital",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.manufacturing-share-make-in-india",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.energy-power-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-corridors-seze",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.space-technology.navic-and-bhuvan",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.robotics-and-drones",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.it-telecom-computing.iot-and-edge-computing",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.critical-information-infrastructure",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.traditional-knowledge-tkdl",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.water-pollution-river-rejuvenation",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.earthquakes-seismic-zonation",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.afspa-provisions-debate",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically evaluate"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.social-media-radicalization-fake-news",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.development-and-extremism.left-wing-extremism-roots",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.development-and-extremism.lwe-developmental-interventions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2015-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.national-cyber-security-policy",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "critically evaluate"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2024-gs1-q001",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.vedic-and-epic-literature",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "underline"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q002",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.dravidian-temple-architecture",
+          "primary": true
+        },
+        {
+          "id": "gs1.art-and-culture.literature-religion-philosophy.sangam-and-south-indian-literature",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "estimate"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q003",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.gandhian-era-and-mass-struggles.cripps-mission-and-quit-india-movement",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "point out"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q004",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.tropical-cyclones-genesis-and-structure",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.oceanography.temperature-and-salinity-distribution-in",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q005",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.human-geography-and-transportation.migration-streams-causes-and-consequence",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.urbanization-trends-and-patterns",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q006",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.atmospheric-humidity-condensation-and-pr",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q007",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.demographic-transition-and-dividend",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.aging-population-and-dependency-ratios",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q008",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.women-and-gender-issues.patriarchy-and-gender-inequality",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "distinguish between"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q009",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.family-and-kinship-systems-in-india",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q010",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.population-poverty-and-urbanization.poverty-alleviation-and-welfare-programs",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.social-empowerment-of-vulnerable-groups",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q011",
+      "nodes": [
+        {
+          "id": "gs1.art-and-culture.architecture-and-sculpture.dravidian-temple-architecture",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q012",
+      "nodes": [
+        {
+          "id": "gs1.world-history.world-wars-and-interwar-period.causes-and-consequences-of-world-war-one",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q013",
+      "nodes": [
+        {
+          "id": "gs1.modern-history.colonial-policies-and-early-resistance.deindustrialization-and-drain-of-wealth",
+          "primary": true
+        },
+        {
+          "id": "gs1.world-history.industrial-revolution-and-ideologies.capitalism-and-colonial-expansion",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q014",
+      "nodes": [
+        {
+          "id": "gs1.economic-and-human-geography.distribution-of-natural-resources.water-resources-and-river-interlinking",
+          "primary": true
+        },
+        {
+          "id": "gs1.economic-and-human-geography.agriculture-and-allied-activities.irrigation-types-and-spatial-spread",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q015",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.structure-and-composition-of-atmosphere",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q016",
+      "nodes": [
+        {
+          "id": "gs1.physical-geography.climatology.air-masses-fronts-and-frontogenesis",
+          "primary": true
+        },
+        {
+          "id": "gs1.physical-geography.climatology.extra-tropical-and-temperate-cyclones",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q017",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.regionalism-in-india",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q018",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.social-empowerment-of-vulnerable-groups",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.caste-system-structure-and-continuity",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "comment"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q019",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.globalization-and-social-changes.globalization-impact-on-women",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.family-and-kinship-systems-in-india",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2024-gs1-q020",
+      "nodes": [
+        {
+          "id": "gs1.indian-society.social-empowerment-and-ideologies.social-empowerment-of-vulnerable-groups",
+          "primary": true
+        },
+        {
+          "id": "gs1.indian-society.salient-features-and-diversity.forms-of-diversity-linguistic-religious-",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically analyse"
+    }
+  ]
+}

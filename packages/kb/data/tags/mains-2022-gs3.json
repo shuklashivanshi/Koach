@@ -1,0 +1,305 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2022-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.railways-modernization-dfc",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.financial-inclusion-initiatives",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "state"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.pds-food-security.pds-functioning-reforms",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.food-processing-upstream-downstream",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.mega-food-parks-pmksy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "elaborate"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.national-income-growth.growth-vs-development",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.ecology-and-ecosystems.biogeochemical-cycles",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.ecology-and-ecosystems.ecosystem-structure-functions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.air-pollution-ncap-caqm",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.international-environmental-treaties",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.riverine-and-urban-floods",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.landslides-and-glofs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.organized-crime-nexus",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.money-laundering-organized-crime.narco-terrorism-linkages",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.border-management.coastal-and-island-security",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.national-income-growth.growth-vs-development",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.renewable-energy-integration",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.india-panchamrit-ndcs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "justify"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.apmc-reforms-enam",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.warehousing-cold-storage",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.cropping-patterns-irrigation.cropping-patterns-factors",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.allied-sectors-food-processing.animal-husbandry-dairy",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.space-technology.deep-space-missions",
+          "primary": true
+        },
+        {
+          "id": "gs3.science-technology.space-technology.satellite-orbits-bands",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.vaccine-technologies",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.unfccc-kyoto-paris-agreement",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.greenhouse-effect-global-warming",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.coastal-regulation-zone-rules",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.ecology-and-ecosystems.mangroves-and-coral-reefs",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.national-cyber-security-policy",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.cyber-threat-vectors",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "examine"
+    },
+    {
+      "pyqId": "mains-2022-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.development-and-extremism.left-wing-extremism-roots",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.development-and-extremism.government-strategy-lwe",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    }
+  ]
+}

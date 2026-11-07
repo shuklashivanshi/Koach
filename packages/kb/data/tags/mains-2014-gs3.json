@@ -1,0 +1,288 @@
+{
+  "tags": [
+    {
+      "pyqId": "mains-2014-gs3-q001",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.national-income-growth.structural-composition",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.manufacturing-share-make-in-india",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q002",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.employment-trends-types",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q003",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.apmc-reforms-enam",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically examine"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q004",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.farm-subsidies-and-pricing.agricultural-credit-flow",
+          "primary": true
+        },
+        {
+          "id": "gs3.agriculture.marketing-supply-chain-tech.e-technology-farmers",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q005",
+      "nodes": [
+        {
+          "id": "gs3.agriculture.land-reforms.model-land-leasing-act",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-corridors-seze",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q006",
+      "nodes": [
+        {
+          "id": "gs3.indian-economy.inclusive-growth-employment.inclusive-growth-dimensions",
+          "primary": true
+        },
+        {
+          "id": "gs3.indian-economy.national-income-growth.growth-vs-development",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q007",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.investment-models.ppp-models-bot-epc-ham",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.investment-models.kelkar-committee-ppp-reforms",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "explain"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q008",
+      "nodes": [
+        {
+          "id": "gs3.industry-infrastructure.infrastructure-sectors.transport-roads-bharatmala",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss critically"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q009",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.defence-indigenization-drdo",
+          "primary": true
+        },
+        {
+          "id": "gs3.industry-infrastructure.industrial-policy-liberalization.industrial-policy-evolution",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q010",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.indigenous-and-institutional-st.st-policy-frameworks",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically comment"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q011",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.biotechnology-and-health.antimicrobial-resistance-amr",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "critically discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q012",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.nanotechnology-and-ipr.ipr-types-and-treaties",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "distinguish"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q013",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.unfccc-kyoto-paris-agreement",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.climate-change-and-negotiations.carbon-markets-article-6",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q014",
+      "nodes": [
+        {
+          "id": "gs3.disaster-management.disaster-profiling-vulnerability.droughts-monitoring-crisis",
+          "primary": true
+        },
+        {
+          "id": "gs3.disaster-management.dm-institutional-framework.dm-act-2005-architecture",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "partial",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q015",
+      "nodes": [
+        {
+          "id": "gs3.environment-biodiversity.india-climate-policy-laws.eia-process-and-notification",
+          "primary": true
+        },
+        {
+          "id": "gs3.environment-biodiversity.environmental-pollution-degradation.air-pollution-ncap-caqm",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q016",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.external-actors-and-insurgency.proxy-war-state-actors",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.cyber-security-and-media.social-media-radicalization-fake-news",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q017",
+      "nodes": [
+        {
+          "id": "gs3.science-technology.space-technology.space-debris-weaponization",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q018",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.border-management.india-bangladesh-border",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "static",
+      "directive": "discuss"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q019",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.border-management.coastal-and-island-security",
+          "primary": true
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs"
+    },
+    {
+      "pyqId": "mains-2014-gs3-q020",
+      "nodes": [
+        {
+          "id": "gs3.internal-security.border-management.india-pakistan-border",
+          "primary": true
+        },
+        {
+          "id": "gs3.internal-security.border-management.india-china-border-lac",
+          "primary": false
+        }
+      ],
+      "questionType": "descriptive",
+      "sourceType": "current_affairs",
+      "directive": "critically examine"
+    }
+  ]
+}
