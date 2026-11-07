@@ -18,6 +18,15 @@ export const OptionalList = z.object({
   ),
 });
 
+/** The learner's own fit for one optional (D-03), from their stored quiz answers. */
+export const OptionalFit = z.object({
+  score: z.number(),
+  components: z.record(z.string(), z.number()),
+  reason: z.string(),
+  surprising: z.boolean(),
+});
+export type OptionalFit = z.infer<typeof OptionalFit>;
+
 export const OptionalExplorer = z.object({
   slug: z.string(),
   name: z.string(),
@@ -43,6 +52,8 @@ export const OptionalExplorer = z.object({
     }),
   ),
   sources: z.array(z.string()),
+  /** Null until the learner takes the quiz (and for literature optionals without the language). */
+  fit: OptionalFit.nullable(),
 });
 export type OptionalExplorer = z.infer<typeof OptionalExplorer>;
 export const OptionalCompare = z.object({ optionals: z.array(OptionalExplorer) });

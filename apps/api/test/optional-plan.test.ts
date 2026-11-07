@@ -168,7 +168,7 @@ describe('chosen optional in the plan', () => {
     await choose();
     const res = await call('GET', '/v1/me/export');
     expect(res.statusCode).toBe(200);
-    const profile = res.json().learner.profile;
+    const profile = res.json<{ learner: { profile: Record<string, unknown> } }>().learner.profile;
     expect(profile.optional).toBe('sociology');
     expect(profile.optionalReasons).toBe('Overlap with GS.');
     expect(profile.optionalQuiz).toMatchObject({ background: 'engineering', hours: 400 });

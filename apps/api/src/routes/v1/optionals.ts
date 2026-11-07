@@ -22,6 +22,7 @@ import {
   choiceResult,
   decisionStatus,
   explorer,
+  fitsFor,
   optionalCoach,
   optionalOutline,
   recordChoice,
@@ -52,7 +53,7 @@ export const optionalRoutes =
         },
       },
       async (request, reply) =>
-        (await explorer(deps.db, request.params.slug)) ??
+        (await explorer(deps.db, request.params.slug, request.uid)) ??
         reply.code(404).send({ error: 'not_found' }),
     );
 
@@ -66,7 +67,7 @@ export const optionalRoutes =
       },
       async (request) => {
         const slugs = request.query.slugs.split(',').filter(Boolean).slice(0, 3);
-        const items = await Promise.all(slugs.map((sl) => explorer(deps.db, sl)));
+        const items = await Promise.all(slugs.map((sl) => explorer(deps.db, sl, request.uid)));
         return { optionals: items.filter((x) => !!x) };
       },
     );
@@ -78,6 +79,17 @@ export const optionalRoutes =
         await usersRepo.upsert(deps.db, request.uid, request.userEmail);
         const ranking = await runQuiz(deps.db, request.uid, request.body as QuizAnswers);
         return { ...ranking, weights: { ...FIT_WEIGHTS } };
+      },
+    );
+
+    app.get(
+      '/optionals/fits',
+      { schema: { response: { 200: FitRanking, 404: ApiErrorBody } } },
+      async (request, reply) => {
+        const ranking = await fitsFor(deps.db, request.uid);
+        return ranking
+          ? { ...ranking, weights: { ...FIT_WEIGHTS } }
+          : reply.code(404).send({ error: 'not_found' });
       },
     );
 

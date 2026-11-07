@@ -27,7 +27,7 @@ export async function allOptionals(db: Db) {
   }));
 }
 
-export async function explorer(db: Db, slug: string) {
+export async function explorer(db: Db, slug: string, uid?: string) {
   const [row] = await db.select().from(s.optionalInfo).where(eq(s.optionalInfo.slug, slug));
   if (!row) return null;
   const p = row.profile as unknown as OptionalProfile;
@@ -64,14 +64,56 @@ export async function explorer(db: Db, slug: string) {
       recommended: y.recommended,
     })),
     sources: [...new Set(row.stats.map((y) => y.source))],
+    fit: uid ? await personalFit(db, uid, slug) : null,
   };
 }
 
-export async function runQuiz(db: Db, uid: string, answers: QuizAnswers) {
+async function storedAnswers(db: Db, uid: string) {
+  const [p] = await db
+    .select({ quiz: s.learnerProfiles.optionalQuiz })
+    .from(s.learnerProfiles)
+    .where(eq(s.learnerProfiles.uid, uid));
+  return (p?.quiz ?? null) as unknown as QuizAnswers | null;
+}
+
+/** Pure ranking step shared by the quiz and the re-opened ranking. */
+async function rank(db: Db, answers: QuizAnswers) {
   const all = await allOptionals(db);
   const profiles = Object.fromEntries(all.map((o) => [o.slug, o.profile]));
   const stats: Record<string, SuccessStats> = Object.fromEntries(all.map((o) => [o.slug, o.stats]));
-  const ranking = rankOptionals(profiles, answers, stats);
+  return rankOptionals(profiles, answers, stats);
+}
+
+/**
+ * One optional's fit for this learner. Ranks that single profile against the stats of all
+ * optionals (the mean success rate comes from the stats), so it equals the full-ranking score.
+ */
+async function personalFit(db: Db, uid: string, slug: string) {
+  const answers = await storedAnswers(db, uid);
+  if (!answers) return null;
+  const all = await allOptionals(db);
+  const me = all.find((o) => o.slug === slug);
+  if (!me) return null;
+  const stats: Record<string, SuccessStats> = Object.fromEntries(all.map((o) => [o.slug, o.stats]));
+  const [fit] = rankOptionals({ [slug]: me.profile }, answers, stats).top;
+  return fit
+    ? {
+        score: fit.score,
+        components: fit.components,
+        reason: fit.reason,
+        surprising: fit.surprising,
+      }
+    : null;
+}
+
+/** The last quiz ranking, re-opened from the stored answers; null before a quiz. */
+export async function fitsFor(db: Db, uid: string) {
+  const answers = await storedAnswers(db, uid);
+  return answers ? rank(db, answers) : null;
+}
+
+export async function runQuiz(db: Db, uid: string, answers: QuizAnswers) {
+  const ranking = await rank(db, answers);
   await db
     .update(s.learnerProfiles)
     .set({ optionalQuiz: answers as unknown as Record<string, unknown> })
