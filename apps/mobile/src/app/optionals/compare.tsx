@@ -5,6 +5,7 @@ import { Check } from 'phosphor-react-native';
 import { type ReactNode, useCallback, useEffect, useState } from 'react';
 import { Pressable, ScrollView, View } from 'react-native';
 import { api } from '@/api/client';
+import { CoachSheet } from '@/optionals/CoachSheet';
 import { type BestRow, bestPerRow, fitDots, pct } from '@/optionals/format';
 import { Button } from '@/ui/Button';
 import { LoadError } from '@/ui/LoadError';
@@ -69,6 +70,7 @@ export default function Compare() {
   const { slugs } = useLocalSearchParams<{ slugs: string }>();
   const [data, setData] = useState<OptionalCompare | null>(null);
   const [failed, setFailed] = useState(false);
+  const [coachOpen, setCoachOpen] = useState(false);
   const load = useCallback(() => {
     setFailed(false);
     api
@@ -170,7 +172,12 @@ export default function Compare() {
       <Button
         label="Ask the coach to compare"
         kind="secondary"
-        onPress={() => router.push(`/optionals/coach?slugs=${slugs}`)}
+        onPress={() => setCoachOpen(true)}
+      />
+      <CoachSheet
+        visible={coachOpen}
+        slugs={(slugs ?? '').split(',').filter(Boolean)}
+        onClose={() => setCoachOpen(false)}
       />
     </ScrollView>
   );

@@ -83,3 +83,44 @@ export function bestPerRow(items: CompareItem[]): Record<BestRow, string[]> {
       : [],
   };
 }
+
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+/** '2026-12-15' to '15 Dec'; locale independent so tests and devices agree. */
+export function formatDay(iso: string): string {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+  if (!m) return iso;
+  const month = MONTHS[Number(m[2]) - 1];
+  return month ? `${Number(m[3])} ${month}` : iso;
+}
+
+/** '2026-11-09' to 'Mon 9 Nov'. */
+export function formatWeekday(iso: string): string {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+  if (!m) return iso;
+  const dow =
+    WEEKDAYS[new Date(Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3]))).getUTCDay()];
+  return `${dow} ${formatDay(iso)}`;
+}
+
+/** Local calendar date as YYYY-MM-DD. */
+export function localIsoDate(d: Date = new Date()): string {
+  const p = (n: number) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
+/** Days left or days past the learner's decision date, in plain words. */
+export function deadlineCaption(daysLeft: number): string {
+  if (daysLeft === 0) return 'Decide today';
+  if (daysLeft > 0) return `${daysLeft} ${daysLeft === 1 ? 'day' : 'days'} left`;
+  const past = -daysLeft;
+  return `${past} ${past === 1 ? 'day' : 'days'} past your date`;
+}
+
+/** The Decision Coach overline: DECIDE BY 15 DEC, or PAST 15 DEC · 3 DAYS once overdue. */
+export function deadlineOverline(date: string, daysLeft: number): string {
+  if (daysLeft >= 0) return `DECIDE BY ${formatDay(date).toUpperCase()}`;
+  const past = -daysLeft;
+  return `PAST ${formatDay(date).toUpperCase()} · ${past} ${past === 1 ? 'DAY' : 'DAYS'}`;
+}

@@ -45,9 +45,14 @@ import {
   DecisionStatus,
   type FitQuiz,
   FitRanking,
+  type CoachExchange,
+  OptionalChoiceResult,
   OptionalCompare,
   OptionalExplorer,
   OptionalList,
+  OptionalOutline,
+  type StressRequest,
+  StressReply,
 } from '@koach/shared';
 import type { z } from 'zod';
 import { currentIdToken } from '../auth/firebase';
@@ -234,15 +239,23 @@ export const api = {
   /** Re-opens the last ranking from the stored quiz answers; 404 before a quiz. */
   fits: () => request('/v1/optionals/fits', FitRanking),
   decision: () => request('/v1/optionals/status', DecisionStatus),
-  askCoach: (question: string, slugs: string[]) =>
+  askCoach: (question: string, slugs: string[], history: CoachExchange[] = []) =>
     request('/v1/optionals/coach', CoachReply, {
       method: 'POST',
-      body: JSON.stringify({ question, slugs }),
+      body: JSON.stringify({ question, slugs, history }),
     }),
+  stress: (r: StressRequest) =>
+    request('/v1/optionals/stress', StressReply, { method: 'POST', body: JSON.stringify(r) }),
   chooseOptional: (slug: string, reasons: string) =>
-    request('/v1/optionals/choice', DecisionStatus, {
+    request('/v1/optionals/choice', OptionalChoiceResult, {
       method: 'POST',
       body: JSON.stringify({ slug, reasons }),
+    }),
+  /** The chosen optional's coverage outline; null (404) before a choice. */
+  outline: () =>
+    request('/v1/optionals/outline', OptionalOutline).catch((e: unknown) => {
+      if (e instanceof ApiError && e.status === 404) return null;
+      throw e;
     }),
   transcribe: (audioBase64: string, seconds: number) =>
     request('/v1/speech/transcribe', TranscribeResponse, {

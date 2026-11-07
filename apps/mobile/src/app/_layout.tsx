@@ -63,7 +63,6 @@ function Navigator() {
         <Stack.Screen name="optionals/quiz" />
         <Stack.Screen name="optionals/[slug]" />
         <Stack.Screen name="optionals/compare" />
-        <Stack.Screen name="optionals/coach" />
       </Stack.Protected>
     </Stack>
   );

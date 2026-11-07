@@ -5,6 +5,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { ScrollView, View } from 'react-native';
 import { api } from '@/api/client';
 import { Field } from '@/lpt/games';
+import { CoachSheet } from '@/optionals/CoachSheet';
 import { componentLabel, fitDots, pct } from '@/optionals/format';
 import { BandChart } from '@/ui/BandChart';
 import { Button } from '@/ui/Button';
@@ -50,6 +51,7 @@ export default function Explorer() {
   const [whyFit, setWhyFit] = useState(false);
   const [reasons, setReasons] = useState('');
   const [saved, setSaved] = useState(false);
+  const [coachOpen, setCoachOpen] = useState(false);
   const load = useCallback(() => {
     setFailed(false);
     api.optional(slug).then(setO, () => setFailed(true));
@@ -180,11 +182,7 @@ export default function Explorer() {
         kind="secondary"
         onPress={() => router.push(`/optionals?compare=${encodeURIComponent(o.slug)}`)}
       />
-      <Button
-        label="Ask the coach about this"
-        kind="text"
-        onPress={() => router.push(`/optionals/coach?slugs=${o.slug}`)}
-      />
+      <Button label="Ask the coach about this" kind="text" onPress={() => setCoachOpen(true)} />
       <Text variant="label" muted smallCaps>
         Decide
       </Text>
@@ -199,6 +197,7 @@ export default function Explorer() {
         disabled={reasons.trim().length < 3 || saved}
         onPress={() => void api.chooseOptional(o.slug, reasons).then(() => setSaved(true))}
       />
+      <CoachSheet visible={coachOpen} slugs={[o.slug]} onClose={() => setCoachOpen(false)} />
     </>,
   );
 }

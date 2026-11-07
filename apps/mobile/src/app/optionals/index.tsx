@@ -5,6 +5,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { Pressable, ScrollView, View } from 'react-native';
 import { api } from '@/api/client';
 import { Chip } from '@/app/onboarding';
+import { CoachSheet } from '@/optionals/CoachSheet';
 import { pct } from '@/optionals/format';
 import { Button } from '@/ui/Button';
 import { LoadError } from '@/ui/LoadError';
@@ -23,6 +24,7 @@ export default function Optionals() {
   const [picked, setPicked] = useState<string[]>(compare ? [compare] : []);
   const [loaded, setLoaded] = useState(false);
   const [failed, setFailed] = useState(false);
+  const [coachOpen, setCoachOpen] = useState(false);
   const load = useCallback(() => {
     setFailed(false);
     void api.decision().then(setStatus, () => undefined);
@@ -68,11 +70,7 @@ export default function Optionals() {
           label={status?.quizTaken ? 'Retake the fit quiz' : 'Take the fit quiz'}
           onPress={() => router.push('/optionals/quiz')}
         />
-        <Button
-          label="Ask the coach"
-          kind="secondary"
-          onPress={() => router.push(`/optionals/coach?slugs=${picked.join(',')}`)}
-        />
+        <Button label="Ask the coach" kind="secondary" onPress={() => setCoachOpen(true)} />
       </View>
       {status?.quizTaken && (
         <Button
@@ -114,6 +112,7 @@ export default function Optionals() {
           </View>
         </PaperCard>
       ))}
+      <CoachSheet visible={coachOpen} slugs={picked} onClose={() => setCoachOpen(false)} />
     </ScrollView>
   );
 }
