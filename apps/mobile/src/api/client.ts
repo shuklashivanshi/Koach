@@ -231,6 +231,8 @@ export const api = {
     ),
   fitQuiz: (q: FitQuiz) =>
     request('/v1/optionals/quiz', FitRanking, { method: 'POST', body: JSON.stringify(q) }),
+  /** Re-opens the last ranking from the stored quiz answers; 404 before a quiz. */
+  fits: () => request('/v1/optionals/fits', FitRanking),
   decision: () => request('/v1/optionals/status', DecisionStatus),
   askCoach: (question: string, slugs: string[]) =>
     request('/v1/optionals/coach', CoachReply, {
