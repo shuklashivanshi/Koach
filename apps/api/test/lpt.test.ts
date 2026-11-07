@@ -1,7 +1,11 @@
+import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { forms } from '@koach/lpt';
 import { ExportBundleSchema, LptForm, LptProfileResponse, TranscribeResponse } from '@koach/shared';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import type { AiService } from '../src/services/ai';
+import { fileLptClips, listText } from '../src/services/lpt-audio';
 import { bearer, buildTestApp } from './helpers';
 
 const fakeAi = (recalled: number[]): AiService => ({
@@ -105,5 +109,64 @@ describe('learning pattern test API', () => {
       payload: { audioBase64: 'QUJD', seconds: 3 },
     });
     expect(TranscribeResponse.parse(res.json()).text).toBe('monsoon delta');
+  });
+});
+
+describe('pre-generated listen clips', () => {
+  let ctx: Awaited<ReturnType<typeof buildTestApp>>;
+  let dir: string;
+  let spoken: { feature: string; text: string }[];
+  beforeEach(async () => {
+    dir = await mkdtemp(join(tmpdir(), 'lpt-clips-'));
+    await writeFile(join(dir, 'lpt-A-0.mp3'), 'CLIP-A-0');
+    await writeFile(join(dir, 'lpt-A-1.mp3'), 'STALE');
+    await writeFile(
+      join(dir, 'manifest.json'),
+      JSON.stringify({
+        voice: 'v',
+        clips: { 'lpt-A-0.mp3': listText(forms.A.lists[0]!), 'lpt-A-1.mp3': 'old words' },
+      }),
+    );
+    spoken = [];
+    ctx = await buildTestApp({
+      ai: {
+        ...fakeAi([]),
+        speak: (req) => {
+          spoken.push({ feature: req.feature, text: req.text });
+          return Promise.resolve({
+            audioBase64: Buffer.from(req.text).toString('base64'),
+            costUsd: 0,
+          });
+        },
+      },
+      lptClips: fileLptClips(dir),
+    });
+  });
+  afterEach(async () => {
+    await ctx.close();
+    await rm(dir, { recursive: true, force: true });
+  });
+  const audio = async (path: string) => {
+    const res = await ctx.app.inject({
+      method: 'GET',
+      url: `/v1/lpt/audio/${path}`,
+      headers: bearer('u1', 'a@b.co'),
+    });
+    return Buffer.from(res.json<{ audioBase64: string }>().audioBase64, 'base64').toString();
+  };
+
+  it('serves a current clip without calling TTS', async () => {
+    expect(await audio('A/0')).toBe('CLIP-A-0');
+    expect(spoken).toHaveLength(0);
+  });
+
+  it('falls back to live TTS when the manifest text is stale', async () => {
+    expect(await audio('A/1')).toBe(listText(forms.A.lists[1]!));
+    expect(spoken).toEqual([{ feature: 'lpt.listen', text: listText(forms.A.lists[1]!) }]);
+  });
+
+  it('falls back to live TTS when the clip file is missing', async () => {
+    expect(await audio('B/2')).toBe(listText(forms.B.lists[2]!));
+    expect(spoken).toHaveLength(1);
   });
 });

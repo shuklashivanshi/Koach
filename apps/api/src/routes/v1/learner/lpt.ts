@@ -25,6 +25,7 @@ import {
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod';
 import { z } from 'zod';
 import type { Deps } from '../../../deps';
+import { clipFile, listText } from '../../../services/lpt-audio';
 
 // Learning Pattern Test (LPT-01..03). Every score is computed here from raw answers; the client
 // never sees the recall lists as text, only as audio.
@@ -89,12 +90,15 @@ export const lptRoutes =
       async (request, reply) => {
         const list = forms[request.params.form].lists[request.params.list];
         if (!list) return reply.code(404).send({ error: 'not_found' });
-        await usersRepo.upsert(deps.db, request.uid, request.userEmail);
-        const speech = await deps.ai.speak({
-          feature: 'lpt.listen',
-          text: list.join(', '),
-          uid: request.uid,
+        const text = listText(list);
+        // A current pre-generated clip is free and instant; anything else falls back to live TTS.
+        const clip = await deps.lptClips?.({
+          file: clipFile(request.params.form, request.params.list),
+          text,
         });
+        if (clip) return { audioBase64: clip };
+        await usersRepo.upsert(deps.db, request.uid, request.userEmail);
+        const speech = await deps.ai.speak({ feature: 'lpt.listen', text, uid: request.uid });
         return { audioBase64: speech.audioBase64 };
       },
     );

@@ -4,6 +4,7 @@ import type { AiService } from './services/ai';
 import type { EmailSender } from './services/email-sender';
 import type { IdentityProvider } from './services/firebase';
 import type { PushSender } from './services/push';
+import type { LptClips } from './services/lpt-audio';
 import type { ObjectStore } from './services/storage';
 
 /** Everything the app needs from the outside world; tests pass fakes. */
@@ -14,6 +15,8 @@ export interface Deps {
   storage: ObjectStore;
   email: EmailSender;
   ai: AiService;
+  /** Pre-generated LPT listen clips; when absent, or a clip is missing/stale, the route uses live TTS. */
+  lptClips?: LptClips;
   /** Null when VAPID keys are not configured (push disabled). */
   push: PushSender | null;
   now: () => Date;

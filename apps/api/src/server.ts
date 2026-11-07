@@ -1,4 +1,5 @@
 import { existsSync, readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { createPgDb, type Db } from '@koach/db';
 import { buildApp } from './app';
 import { loadConfig } from './config';
@@ -6,6 +7,7 @@ import type { Deps } from './deps';
 import { vertexAi } from './services/ai';
 import { type EmailSender, resendSender } from './services/email-sender';
 import { devIdentity, firebaseIdentity } from './services/firebase';
+import { fileLptClips } from './services/lpt-audio';
 import { webPushSender } from './services/push';
 import { gcsStore, memoryStore } from './services/storage';
 
@@ -58,6 +60,9 @@ async function main(): Promise<void> {
     storage: config.GCS_BUCKET ? gcsStore(config.GCS_BUCKET) : memoryStore(),
     email,
     ai: vertexAi(db),
+    // src/server.ts and the bundled dist/server.js both sit one level under apps/api, so this is
+    // apps/api/assets/lpt-audio locally and /app/assets/lpt-audio in the image.
+    lptClips: fileLptClips(fileURLToPath(new URL('../assets/lpt-audio/', import.meta.url))),
     push:
       config.VAPID_PUBLIC_KEY && config.VAPID_PRIVATE_KEY
         ? webPushSender(config.VAPID_PUBLIC_KEY, config.VAPID_PRIVATE_KEY, config.VAPID_SUBJECT)
