@@ -20,7 +20,7 @@ import { Text } from '@/ui/Text';
 import { useTheme } from '@/ui/useTheme';
 
 // Learning Pattern Test (UI_SPEC §10.3, LPT-01/02): four games in random order, then a delayed
-// round at least 8 minutes after the first game. Scores are computed by the API.
+// round at least 2 minutes after the first game. Scores are computed by the API.
 
 type Game = 'visual' | 'auditory' | 'readwrite' | 'kinesthetic';
 const TITLES: Record<Game, string> = {
@@ -29,7 +29,7 @@ const TITLES: Record<Game, string> = {
   readwrite: 'Read & Write Back',
   kinesthetic: 'Arrange',
 };
-const DELAY_MS = 8 * 60 * 1000;
+const DELAY_MS = 2 * 60 * 1000;
 
 function useHiddenMs() {
   const hidden = useRef(0);
