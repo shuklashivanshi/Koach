@@ -17,7 +17,7 @@ decisions:
   - 'Tag cleaning and retry live in src/tagging.ts (pure, tested with a fake generator); the script only supplies the Gemini call'
   - 'Unknown node ids, no nodes, or a missing Mains directive reject the tag; the question is re-asked with the reason (2 retries) and reported if it still fails'
   - 'Tag data check is all-or-nothing per paper; Mains directive coverage is a 90% floor, not 100%, because 90 existing Mains tags came from the earlier tagger without one'
-status: partial
+status: complete
 metrics:
   tasks: 2
   completed: 2026-11-07
@@ -31,7 +31,7 @@ plan_head_after: 0a091226b3ad256fbfd91228a9ed9f900ad97fea
 
 # Phase 2 Plan 04: AI tagging of PYQs and the source map Summary
 
-Plan status: **partial.** The code, retry logic and validation tests are done and green. Six Prelims papers (600 questions) are still untagged because the live Vertex run was not permitted in this session.
+Plan status: **complete.** The code, retry logic and validation tests are done and green. The six Prelims papers that were untagged (2020, 2021, 2022, 2023, 2024, 2026; 600 questions) were tagged in a later live Vertex run (d7b06d3). All 64 papers are now tagged.
 
 ## What was already in place
 
@@ -50,7 +50,7 @@ These two commits sit on branch `agent-02-04` (a separate git worktree), not on 
 
 1. **Every PYQ has at least one node tag, type, source type, directive (Mains), status suggested: NOT YET MET.**
    - 58 of 64 papers are fully tagged: 1,710 tags, all using graph ids only, one primary each, study nodes of the right paper.
-   - Untagged: Prelims 2020, 2021, 2022, 2023, 2024, 2026 (600 questions).
+   - Update: the six untagged Prelims papers (2020-2024, 2026) were tagged afterwards; all 64 papers are covered and tests pass.
    - Mains tags with a directive word: 920 of 1,010 (91%). The other 90 predate the retry rule.
 2. **Every GS leaf node has a primary source with a one-line reason; institute-titled books show neutral labels: MET.** 825 of 825 leaves have exactly one source, chapter and reason (reasons at most 200 characters). Books whose titles carry a blocked name have a neutral label (for example "Environment reference", "Ethics reference").
 3. **No copyrighted text stored; generated text passes the guard: MET (structurally).** Source map holds title, chapter, and one-line reasons only. `findHits` over reasons, chapters and displayed source labels is empty.
