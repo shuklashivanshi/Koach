@@ -4,6 +4,7 @@ import { type Db, schema } from '@koach/db';
 import { findHits } from '@koach/guard';
 import { and, eq, inArray, ne, sql } from 'drizzle-orm';
 import type { z } from 'zod';
+import { joinOptionalStats, type OptionalStatYear } from './optionals';
 import {
   ClaimsFile,
   type NodeSeed,
@@ -68,30 +69,10 @@ export async function readKb(dir: string): Promise<KbBundle> {
   const profiles =
     (await readOpt<{ profiles: Record<string, Record<string, unknown>> }>('profiles.json'))
       ?.profiles ?? {};
-  const statYears =
-    (
-      await readOpt<{
-        years: {
-          examYear: number;
-          source: string;
-          rows: { slug: string; appeared: number; recommended: number }[];
-        }[];
-      }>('stats.json')
-    )?.years ?? [];
-  const optionals = Object.entries(profiles).map(([slug, profile]) => ({
-    slug,
-    profile,
-    stats: statYears.flatMap((y) =>
-      y.rows
-        .filter((r) => r.slug === slug)
-        .map((r) => ({
-          examYear: y.examYear,
-          appeared: r.appeared,
-          recommended: r.recommended,
-          source: y.source,
-        })),
-    ),
-  }));
+  const statYears = (await readOpt<{ years: OptionalStatYear[] }>('stats.json'))?.years ?? [];
+  // Canonical-slug join: the syllabus generator truncates some profile slugs, so exact equality
+  // would silently drop their official rows. Unresolved slugs are surfaced by the data test.
+  const { optionals } = joinOptionalStats(profiles, statYears);
   return {
     optionals,
     syllabus,
