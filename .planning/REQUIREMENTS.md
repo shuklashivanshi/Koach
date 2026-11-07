@@ -100,11 +100,11 @@ Committed scope for milestone **v1.0 Daily Coach MVP** (target ~3 Dec 2026). Eac
 
 ### Optional Discovery (OPT)
 
-- [ ] **OPT-01**: User can take a ~10-minute Fit Quiz (background, subjects enjoyed, reading taste, answer style, time, language, risk appetite) and get a ranked top 5 across all ~48 optionals with one-line reasons and "surprising fits"; weights are config and shown behind `Why?`
-- [ ] **OPT-02**: User can open any optional's explorer page (syllabus size and hours, GS/Essay overlap %, PYQ style mix, multi-year success rate with confidence band and small-sample warning, standard books, typical prep time, personal fit) and compare 2–3 side by side
-- [ ] **OPT-03**: User can talk to a Decision Coach that answers doubts from the evidence, runs stress tests, busts myths with data, and nudges toward a decision deadline (Shivanshi: 15 Dec 2026)
-- [ ] **OPT-04**: User records the final choice and reasons; the optional's nodes join the plan with a coverage outline (applied as soon as the planner is live)
-- [ ] **OPT-05**: Optional-wise appeared/recommended counts are ingested from official UPSC Annual Reports (multi-year), not from third-party tables
+- [x] **OPT-01**: User can take a ~10-minute Fit Quiz (background, subjects enjoyed, reading taste, answer style, time, language, risk appetite) and get a ranked top 5 across all ~48 optionals with one-line reasons and "surprising fits"; weights are config and shown behind `Why?`
+- [x] **OPT-02**: User can open any optional's explorer page (syllabus size and hours, GS/Essay overlap %, PYQ style mix, multi-year success rate with confidence band and small-sample warning, standard books, typical prep time, personal fit) and compare 2–3 side by side
+- [x] **OPT-03**: User can talk to a Decision Coach that answers doubts from the evidence, runs stress tests, busts myths with data, and nudges toward a decision deadline (Shivanshi: 15 Dec 2026)
+- [x] **OPT-04**: User records the final choice and reasons; the optional's nodes join the plan with a coverage outline (applied as soon as the planner is live)
+- [x] **OPT-05**: Optional-wise appeared/recommended counts are ingested from official UPSC Annual Reports (multi-year), not from third-party tables
 
 ## v2 Requirements
 
@@ -217,11 +217,11 @@ Deferred to later milestones. Tracked, not in the v1.0 scope.
 | NUDGE-01 | Phase 6 | Pending |
 | NUDGE-02 | Phase 6 | Pending |
 | NUDGE-03 | Phase 6 | Pending |
-| OPT-01 | Phase 7 | Pending |
-| OPT-02 | Phase 7 | Pending |
-| OPT-03 | Phase 7 | Pending |
-| OPT-04 | Phase 7 | Pending |
-| OPT-05 | Phase 7 | Pending |
+| OPT-01 | Phase 7 | Complete |
+| OPT-02 | Phase 7 | Complete |
+| OPT-03 | Phase 7 | Complete |
+| OPT-04 | Phase 7 | Complete |
+| OPT-05 | Phase 7 | Complete |
 | PRED-01 | Phase 8 | Deferred (v1.1) |
 | PRED-02 | Phase 8 | Deferred (v1.1) |
 | PRED-03 | Phase 8 | Deferred (v1.1) |
