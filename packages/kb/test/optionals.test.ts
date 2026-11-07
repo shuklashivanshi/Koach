@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import {
+  joinOptionalStats,
   type OptionalProfile,
   pooledSuccess,
   type QuizAnswers,
   rankOptionals,
+  resolveOptionalSlug,
   wilson,
 } from '../src';
 
@@ -74,5 +76,57 @@ describe('optional discovery maths', () => {
     expect(
       rankOptionals(profiles, { ...answers, languages: ['hindi'] }, stats).top.map((x) => x.slug),
     ).toContain('literature-hindi');
+  });
+});
+
+describe('optional slug resolution', () => {
+  const LONG = 'political-science-and-international-rela';
+  const FULL = 'political-science-and-international-relations';
+
+  it('prefers an exact match', () => {
+    expect(resolveOptionalSlug('sociology', ['sociology'])).toBe('sociology');
+  });
+
+  it('resolves a stats slug to the one truncated profile slug that prefixes it', () => {
+    expect(resolveOptionalSlug(FULL, [LONG, 'sociology'])).toBe(LONG);
+  });
+
+  it('returns null with no match, and never guesses between two prefixes', () => {
+    expect(resolveOptionalSlug('geology', ['sociology'])).toBeNull();
+    expect(resolveOptionalSlug(FULL, [LONG, LONG.slice(0, 35)])).toBeNull();
+  });
+
+  it('never lets a short profile slug act as a prefix', () => {
+    expect(resolveOptionalSlug('law-and-order-studies-in-detail-extra-long', ['law'])).toBeNull();
+  });
+
+  it('joins every year onto the resolved profile and lists unresolved stats slugs once', () => {
+    const profiles = { [LONG]: { name: 'PSIR' }, sociology: { name: 'Sociology' } };
+    const { optionals, unresolved } = joinOptionalStats(profiles, [
+      {
+        examYear: 2020,
+        source: 'https://www.upsc.gov.in/a.pdf',
+        rows: [
+          { slug: FULL, appeared: 100, recommended: 10 },
+          { slug: 'sociology', appeared: 50, recommended: 5 },
+          { slug: 'unknown-thing', appeared: 5, recommended: 0 },
+        ],
+      },
+      {
+        examYear: 2021,
+        source: 'https://www.upsc.gov.in/b.pdf',
+        rows: [
+          { slug: FULL, appeared: 90, recommended: 9 },
+          { slug: 'unknown-thing', appeared: 4, recommended: 0 },
+        ],
+      },
+    ]);
+    const psir = optionals.find((o) => o.slug === LONG);
+    expect(psir?.stats).toEqual([
+      { examYear: 2020, appeared: 100, recommended: 10, source: 'https://www.upsc.gov.in/a.pdf' },
+      { examYear: 2021, appeared: 90, recommended: 9, source: 'https://www.upsc.gov.in/b.pdf' },
+    ]);
+    expect(optionals.find((o) => o.slug === 'sociology')?.stats).toHaveLength(1);
+    expect(unresolved).toEqual(['unknown-thing']);
   });
 });
