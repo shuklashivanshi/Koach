@@ -1,11 +1,18 @@
 ---
-gsd_state_version: '1.0'
+gsd_state_version: "1.0"
+milestone: v1.0
+milestone_name: Daily Coach MVP
+current_phase: 7
+current_phase_name: all phases built; data jobs finishing
 status: planning
+last_updated: "2026-11-07T08:58:00.998Z"
+last_activity: "2026-11-07: UI polish (Back links, tab bar, touch targets); extractor title check fixed; 6 Prelims papers (2018, 2021–2026) still blocked by Vertex 429 quota / fetch errors; tagging not yet run"
+state_head: 8011189d45bfcd7bce5efacdbf0a3077908cb5c0
 progress:
-  total_phases: 13
+  total_phases: 7
   completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
+  total_plans: 17
+  completed_plans: 15
   percent: 0
 ---
 
@@ -24,7 +31,7 @@ Phase: 7 of 7 in milestone v1.0 (all phases built; data jobs finishing)
 Status: v1.0 features built and tested locally on web; Phase 2 PYQ data (extraction → tagging) and optional data still running; not yet deployed (push to main needs the user's go-ahead)
 Last activity: 2026-11-07: UI polish (Back links, tab bar, touch targets); extractor title check fixed; 6 Prelims papers (2018, 2021–2026) still blocked by Vertex 429 quota / fetch errors; tagging not yet run
 
-Progress: [█████████░] v1.0 built; remaining: PYQ bank + tags, optional profiles/stats, tag audit by the user, deploy
+Progress: [░░░░░░░░░░] 0%
 
 ## Performance Metrics
 
