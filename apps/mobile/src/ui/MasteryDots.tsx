@@ -5,13 +5,21 @@ import { useTheme } from './useTheme';
 const DOTS = [1, 2, 3, 4, 5] as const;
 
 /** Five small dots, the first n filled in sage (UI_SPEC §7). */
-export function MasteryDots({ n, testID }: { n: number; testID?: string }) {
+export function MasteryDots({
+  n,
+  name = 'Fit',
+  testID,
+}: {
+  n: number;
+  name?: string;
+  testID?: string;
+}) {
   const { c } = useTheme();
   return (
     <View
       testID={testID}
       accessible
-      accessibilityLabel={`Fit ${n} of 5`}
+      accessibilityLabel={`${name} ${n} of 5`}
       style={{ flexDirection: 'row', gap: space.xs }}
     >
       {DOTS.map((i) => (
