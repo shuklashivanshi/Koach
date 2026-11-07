@@ -7,7 +7,8 @@
     "dev": "tsx watch src/server.ts",
     "build": "tsup",
     "start": "node dist/server.js",
-    "typecheck": "tsc -p tsconfig.json"
+    "typecheck": "tsc -p tsconfig.json",
+    "gen:lpt-audio": "tsx scripts/gen-lpt-audio.ts"
   },
   "dependencies": {
     "@fastify/cors": "11.4.0",

@@ -1,8 +1,10 @@
-import { readFile } from 'node:fs/promises';
+import { mkdir, readFile, stat, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { synthesize, tts, type TtsLike } from '@koach/ai';
+import { forms } from '@koach/lpt';
 import { z } from 'zod';
 
-// Pre-generated Learning Pattern Test "Listen & Recall" clips. The 10 lists are fixed, so they are
+// Pre-generated Learning Pattern Test "Listen & Recall" clips. The recall lists are fixed, so they are
 // synthesised once by apps/api/scripts/gen-lpt-audio.ts and served from disk. The clips are only
 // ever reachable through the authenticated /v1/lpt/audio route (no static file serving), so the
 // list words stay audio-only for the client.
@@ -54,4 +56,83 @@ export function fileLptClips(dir: string): LptClips {
       return null;
     }
   };
+}
+
+export interface PlannedClip {
+  form: 'A' | 'B';
+  list: number;
+  file: string;
+  text: string;
+}
+
+/** Every recall list of both forms, in order (the clip set is derived from the banks). */
+export const plannedClips = (): PlannedClip[] =>
+  (['A', 'B'] as const).flatMap((form) =>
+    forms[form].lists.map((list, i) => ({
+      form,
+      list: i,
+      file: clipFile(form, i),
+      text: listText(list),
+    })),
+  );
+
+const readManifest = async (dir: string): Promise<LptAudioManifest> => {
+  try {
+    return LptAudioManifest.parse(JSON.parse(await readFile(join(dir, LPT_MANIFEST_FILE), 'utf8')));
+  } catch {
+    return { voice: tts.voice, clips: {} };
+  }
+};
+
+const hasBytes = async (path: string): Promise<boolean> => {
+  try {
+    return (await stat(path)).size > 0;
+  } catch {
+    return false;
+  }
+};
+
+/**
+ * Synthesises the clips that are missing or stale into `outDir` with real Cloud TTS (or `client`).
+ * Run through apps/api/scripts/gen-lpt-audio.ts. Sequential on purpose: Vertex/TTS quota has
+ * returned 429s, and `synthesize` already retries. The manifest is rewritten after every clip so
+ * progress survives a mid-run failure.
+ */
+export async function generateLptAudio(opts: {
+  outDir: string;
+  force?: boolean;
+  client?: TtsLike;
+  log?: (line: string) => void;
+}): Promise<{ written: string[]; skipped: string[]; costUsd: number }> {
+  await mkdir(opts.outDir, { recursive: true });
+  const manifest = await readManifest(opts.outDir);
+  const written: string[] = [];
+  const skipped: string[] = [];
+  let costUsd = 0;
+  for (const clip of plannedClips()) {
+    const path = join(opts.outDir, clip.file);
+    const current =
+      !opts.force &&
+      manifest.voice === tts.voice &&
+      manifest.clips[clip.file] === clip.text &&
+      (await hasBytes(path));
+    if (current) {
+      skipped.push(clip.file);
+      continue;
+    }
+    const speech = await synthesize(
+      { feature: 'lpt.listen.pregen', text: clip.text },
+      { client: opts.client },
+    );
+    const bytes = Buffer.from(speech.audioBase64, 'base64');
+    if (bytes.length === 0) throw new Error(`TTS returned no audio for ${clip.file}`);
+    await writeFile(path, bytes);
+    manifest.voice = tts.voice;
+    manifest.clips[clip.file] = clip.text;
+    await writeFile(join(opts.outDir, LPT_MANIFEST_FILE), `${JSON.stringify(manifest, null, 2)}\n`);
+    costUsd += speech.costUsd;
+    written.push(clip.file);
+    opts.log?.(clip.file);
+  }
+  return { written, skipped, costUsd };
 }
