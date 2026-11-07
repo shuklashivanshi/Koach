@@ -13,6 +13,7 @@ WORKDIR /app
 COPY --from=build --chown=node:node /out/package.json ./package.json
 COPY --from=build --chown=node:node /out/node_modules ./node_modules
 COPY --from=build --chown=node:node /out/dist ./dist
+COPY --from=build --chown=node:node /repo/apps/api/assets ./assets
 USER node
 EXPOSE 8080
 CMD ["node", "--enable-source-maps", "dist/server.js"]

@@ -3,3 +3,4 @@ packages/kb/data/
 node_modules/
 *.png
 *.pdf
+*.mp3
