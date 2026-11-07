@@ -173,6 +173,39 @@ export const CoachReply = z.object({
   resting: z.boolean(),
 });
 export type CoachReply = z.infer<typeof CoachReply>;
+/** A runnable stress test (OPT-03). hours and regret are deterministic; answer uses the model. */
+export const StressRequest = z.discriminatedUnion('kind', [
+  z.object({ kind: z.literal('hours'), slug: z.string().max(80) }),
+  z.object({ kind: z.literal('regret'), slug: z.string().max(80) }),
+  z.object({
+    kind: z.literal('answer'),
+    slug: z.string().max(80),
+    /** Index of the syllabus unit to write about. */
+    unit: z.number().int().min(0).default(0),
+    /** The learner's 3-line answer; absent means "give me the unit to write about". */
+    text: z.string().min(10).max(600).optional(),
+  }),
+]);
+export type StressRequest = z.input<typeof StressRequest>;
+
+export const StressVerdict = z.enum(['comfortable', 'tight', 'short']);
+export type StressVerdict = z.infer<typeof StressVerdict>;
+
+/**
+ * hours: title 'Hours check', body one sentence, verdict set (null when no weekly hours are set),
+ * facts = the numbers used. regret: title 'Regret check', facts = the 3 fixed questions.
+ * answer: title = the real unit title; body = the prompt to write about it, or the model's
+ * feedback once text is sent (or the resting line); facts = ['Unit N of M'].
+ */
+export const StressReply = z.object({
+  kind: z.enum(['hours', 'answer', 'regret']),
+  title: z.string(),
+  body: z.string(),
+  verdict: StressVerdict.nullable(),
+  facts: z.array(z.string()),
+});
+export type StressReply = z.infer<typeof StressReply>;
+
 export const OptionalChoice = z.object({ slug: z.string(), reasons: z.string().min(3).max(1000) });
 export type OptionalList = z.infer<typeof OptionalList>;
 export type OptionalCompare = z.infer<typeof OptionalCompare>;

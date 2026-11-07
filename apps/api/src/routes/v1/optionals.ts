@@ -13,6 +13,8 @@ import {
   OptionalExplorer,
   OptionalList,
   OptionalOutline,
+  StressReply,
+  StressRequest,
 } from '@koach/shared';
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod';
 import { z } from 'zod';
@@ -28,6 +30,7 @@ import {
   recordChoice,
   runQuiz,
 } from '../../services/optionals';
+import { runStress } from '../../services/optional-stress';
 
 // Optional Discovery (OPT-01..05).
 export const optionalRoutes =
@@ -124,6 +127,19 @@ export const optionalRoutes =
           request.body.history,
         );
       },
+    );
+
+    app.post(
+      '/optionals/stress',
+      {
+        schema: {
+          body: StressRequest,
+          response: { 200: StressReply, 404: ApiErrorBody },
+        },
+      },
+      async (request, reply) =>
+        (await runStress(deps.db, deps.ai, request.uid, request.body, deps.now())) ??
+        reply.code(404).send({ error: 'not_found' }),
     );
 
     app.post(

@@ -2,7 +2,9 @@
 
 export const PRELIMS = new Date('2027-05-23T00:00:00+05:30');
 export const FIRST_PASS_DEADLINE = new Date('2027-02-15T00:00:00+05:30');
-const PRELIMS_INTENSIVE_FROM = new Date('2027-02-01T00:00:00+05:30');
+export const PRELIMS_INTENSIVE_FROM = new Date('2027-02-01T00:00:00+05:30');
+/** Mains 2027 starts on 20 Aug (UPSC Calendar 2027). */
+export const MAINS_FROM = new Date('2027-08-20T00:00:00+05:30');
 
 export type Phase = 'foundation' | 'prelims';
 export interface Ratios {
