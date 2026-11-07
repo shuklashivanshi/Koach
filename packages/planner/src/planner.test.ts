@@ -7,6 +7,8 @@ import {
   type NodeCandidate,
   newCard,
   nodePriority,
+  OPTIONAL_UNIT_MINUTES,
+  optionalUnitPriority,
   phaseFor,
   PRELIMS,
   rebalance,
@@ -127,5 +129,81 @@ describe('planner', () => {
     expect(nodePriority(f, max, 0.1, 'prelims')).toBeGreaterThan(
       nodePriority(f, max, 0.1, 'foundation'),
     );
+  });
+
+  describe('optional units (OPT-04, D-05)', () => {
+    const unit = (i: number, over: Partial<NodeCandidate> = {}): NodeCandidate =>
+      node(`opt.${i}`, {
+        subject: 'optional',
+        prelims: false,
+        mains: true,
+        estMinutes: OPTIONAL_UNIT_MINUTES,
+        priority: optionalUnitPriority(i),
+        source: null,
+        pyqCount: 0,
+        ...over,
+      });
+    const learnIds = (date: Date, nodes: NodeCandidate[], minutes = 300) =>
+      buildDay({ date, minutes, nodes, due: [] })
+        .filter((t) => t.kind === 'learn')
+        .map((t) => t.nodeId);
+
+    it('plans an optional unit in the foundation phase and never from 1 Feb 2027', () => {
+      const nodes = [unit(0)];
+      expect(learnIds(new Date('2026-11-09T06:00:00+05:30'), nodes)).toContain('opt.0');
+      expect(learnIds(new Date('2027-01-31T06:00:00+05:30'), nodes)).toContain('opt.0');
+      expect(learnIds(new Date('2027-02-01T06:00:00+05:30'), nodes)).not.toContain('opt.0');
+      expect(learnIds(new Date('2027-04-10T06:00:00+05:30'), nodes)).not.toContain('opt.0');
+    });
+
+    it('plans units in order: unit n+1 only after unit n is studied', () => {
+      const chain = (studiedUpTo: number) =>
+        [0, 1, 2].map((i) =>
+          unit(i, {
+            prereqs: i > 0 ? [`opt.${i - 1}`] : [],
+            studied: i < studiedUpTo,
+          }),
+        );
+      const d = new Date('2026-11-09T06:00:00+05:30');
+      // Not studied yet: at most unit 0 appears, never 1 or 2 ahead of it.
+      expect(learnIds(d, chain(0))).toEqual(['opt.0']);
+      expect(learnIds(d, chain(1))).toEqual(['opt.1']);
+      expect(learnIds(d, chain(2))).toEqual(['opt.2']);
+    });
+
+    it('reaches the plan within 14 foundation days while GS keeps at least half the Learn minutes', () => {
+      const gs = Array.from({ length: 40 }, (_, i) =>
+        node(`gs.${i}`, {
+          subject: `gs${i % 6}`,
+          priority: 0.25 + (0.65 * i) / 39,
+          estMinutes: 35 + ((i * 11) % 56),
+          prelims: true,
+          mastery: 0.1,
+        }),
+      );
+      const optional = Array.from({ length: 14 }, (_, i) =>
+        unit(i, { prereqs: i > 0 ? [`opt.${i - 1}`] : [] }),
+      );
+      const studied = new Set<string>();
+      let gsMinutes = 0;
+      let optMinutes = 0;
+      let optUnits = 0;
+      for (let d = 0; d < 14; d++) {
+        const date = new Date(Date.UTC(2026, 10, 9 + d, 0, 30));
+        const nodes = [...gs, ...optional].map((n) => ({ ...n, studied: studied.has(n.id) }));
+        const learn = buildDay({ date, minutes: 180, nodes, due: [] }).filter(
+          (t) => t.kind === 'learn',
+        );
+        for (const t of learn) {
+          studied.add(t.nodeId as string);
+          if (t.nodeId?.startsWith('opt.')) {
+            optMinutes += t.minutes;
+            optUnits++;
+          } else gsMinutes += t.minutes;
+        }
+      }
+      expect(optUnits).toBeGreaterThanOrEqual(2);
+      expect(gsMinutes).toBeGreaterThanOrEqual(optMinutes);
+    });
   });
 });

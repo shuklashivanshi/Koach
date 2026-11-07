@@ -32,3 +32,20 @@ export const PAPER_WEIGHT: Record<string, number> = {
 
 export const withPaperWeight = (priority: number, paper: string) =>
   Math.round((0.75 * priority + 0.25 * (PAPER_WEIGHT[paper] ?? 0.5)) * 1000) / 1000;
+
+/** Minutes the plan gives one optional syllabus unit (D-05). */
+export const OPTIONAL_UNIT_MINUTES = 90;
+
+/**
+ * Base priority of the chosen optional's first unit; later units step down so order holds.
+ * 0.45 gave only 1 unit in 14 foundation days against a realistic GS pool (D-05 needs 2+), so it
+ * was raised to 0.5, the smallest 0.05 step that passes the planner pool test.
+ */
+export const OPTIONAL_PRIORITY_BASE = 0.5;
+
+/**
+ * Priority of the chosen optional's unit at `index` in syllabus order (OPT-04, D-05): below GS
+ * so GS keeps leading, and strictly decreasing so earlier units are planned first.
+ */
+export const optionalUnitPriority = (index: number) =>
+  Math.round((OPTIONAL_PRIORITY_BASE - index * 0.002) * 1000) / 1000;
