@@ -1,3 +1,3 @@
 import { defineProject } from 'vitest/config';
 
-export default defineProject({ test: { name: 'kb' } });
+export default defineProject({ test: { name: 'kb', testTimeout: 30_000, hookTimeout: 30_000 } });

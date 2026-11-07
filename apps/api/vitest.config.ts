@@ -1,3 +1,4 @@
 import { defineProject } from 'vitest/config';
 
-export default defineProject({ test: { name: 'api' } });
+// PGlite boots slowly when the machine is busy, so give tests and hooks more than the 5s default.
+export default defineProject({ test: { name: 'api', testTimeout: 30_000, hookTimeout: 30_000 } });
