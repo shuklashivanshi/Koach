@@ -92,9 +92,7 @@ export const ClaimSeed = z.object({
   kind: z.enum(['topper', 'official']),
   officialSource: z.string().optional(),
   sourceUrl: z.string().url(),
-  sourceDate: z
-    .string()
-    .regex(/^\d{4}-\d{2}-\d{2}$/)
-    .optional(),
+  /** Publication date of the source (required: claims age, and KB-05 stores it for every claim). */
+  sourceDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 export const ClaimsFile = z.object({ claims: z.array(ClaimSeed) });
