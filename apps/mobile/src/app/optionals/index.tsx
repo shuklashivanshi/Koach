@@ -6,7 +6,7 @@ import { Pressable, ScrollView, View } from 'react-native';
 import { api } from '@/api/client';
 import { Chip } from '@/app/onboarding';
 import { CoachSheet } from '@/optionals/CoachSheet';
-import { pct } from '@/optionals/format';
+import { deadlineCaption, formatDay, pct } from '@/optionals/format';
 import { Button } from '@/ui/Button';
 import { LoadError } from '@/ui/LoadError';
 import { PaperCard } from '@/ui/PaperCard';
@@ -61,9 +61,17 @@ export default function Optionals() {
       {status && (
         <Text variant="caption" muted>
           {status.chosen
-            ? `Chosen: ${list.find((o) => o.slug === status.chosen)?.name ?? status.chosen}`
-            : `Decide by ${new Date(`${status.deadline}T00:00:00`).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })} · ${status.daysLeft} days left`}
+            ? `Your optional: ${list.find((o) => o.slug === status.chosen)?.name ?? ''}`.trim()
+            : `Decide by ${formatDay(status.deadline)} · ${deadlineCaption(status.daysLeft)}`}
         </Text>
+      )}
+      {status?.chosen && (
+        <Button
+          label="See the outline"
+          kind="text"
+          align="start"
+          onPress={() => router.push('/optionals/outline')}
+        />
       )}
       <View style={{ flexDirection: 'row', gap: space.sm, flexWrap: 'wrap' }}>
         <Button

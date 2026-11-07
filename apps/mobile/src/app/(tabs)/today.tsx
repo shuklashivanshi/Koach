@@ -5,6 +5,7 @@ import { useCallback, useState } from 'react';
 import { Pressable, ScrollView, View } from 'react-native';
 import { api } from '@/api/client';
 import { Chip } from '@/app/onboarding';
+import { DecisionCard } from '@/optionals/DecisionCard';
 import { Button } from '@/ui/Button';
 import { WindowEngraving } from '@/ui/Engraving';
 import { PaperCard } from '@/ui/PaperCard';
@@ -159,15 +160,7 @@ export default function Today() {
           </Text>
         )}
 
-        {decision && !decision.chosen && decision.daysLeft >= 0 && (
-          <PaperCard style={{ gap: space.xs }}>
-            <Text>Choose your optional</Text>
-            <Text variant="caption" muted>
-              {decision.daysLeft} days left
-            </Text>
-            <Button label="Open" kind="secondary" onPress={() => router.push('/optionals')} />
-          </PaperCard>
-        )}
+        {decision && <DecisionCard decision={decision} onOpen={() => router.push('/optionals')} />}
 
         {lpt === null && (
           <PaperCard style={{ gap: space.sm }}>
