@@ -95,6 +95,41 @@ export const DecisionStatus = z.object({
 });
 export type DecisionStatus = z.infer<typeof DecisionStatus>;
 
+/** The choice response: when the optional joins the plan (D-05). */
+export const OptionalChoiceResult = DecisionStatus.extend({
+  /** First plan day that includes the optional (IST, YYYY-MM-DD). */
+  startsOn: z.string(),
+  /** True when that day is in the Prelims-intensive phase, so units wait until after Prelims. */
+  pausedForPrelims: z.boolean(),
+});
+export type OptionalChoiceResult = z.infer<typeof OptionalChoiceResult>;
+
+export const OptionalOutlineUnit = z.object({
+  nodeId: z.string(),
+  title: z.string(),
+  paper: z.enum(['I', 'II']).nullable(),
+  minutes: z.number().int(),
+  status: z.enum(['todo', 'studied']),
+  /** The plan day this unit is already scheduled for, if any. */
+  scheduledOn: z.string().nullable(),
+});
+export type OptionalOutlineUnit = z.infer<typeof OptionalOutlineUnit>;
+
+/** Coverage outline of the chosen optional (OPT-04). */
+export const OptionalOutline = z.object({
+  slug: z.string(),
+  name: z.string(),
+  /** The profile's estimated first-pass hours; shown beside plannedHours, never conflated. */
+  firstPassHours: z.number().int(),
+  /** Hours the plan gives these units (units x minutes / 60). */
+  plannedHours: z.number(),
+  studied: z.number().int(),
+  /** True while the Prelims-intensive phase has paused optional units. */
+  paused: z.boolean(),
+  units: z.array(OptionalOutlineUnit),
+});
+export type OptionalOutline = z.infer<typeof OptionalOutline>;
+
 export const CoachQuestion = z.object({
   question: z.string().min(3).max(500),
   slugs: z.array(z.string()).max(3),

@@ -1,5 +1,11 @@
 import { loadKb, readKb } from '@koach/kb';
-import { LearnOutcome, LearnSession, TodayPlan } from '@koach/shared';
+import {
+  LearnOutcome,
+  LearnSession,
+  OptionalChoiceResult,
+  OptionalOutline,
+  TodayPlan,
+} from '@koach/shared';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import type { AiService } from '../src/services/ai';
 import { bearer, buildTestApp } from './helpers';
@@ -85,5 +91,86 @@ describe('chosen optional in the plan', () => {
     const revise = next.tasks.find((t) => t.kind === 'revise' && t.nodeId === UNIT);
     expect(revise?.title).toBe(`Revise: ${UNIT_TITLE}`);
     expect(next.tasks.some((t) => t.title === `Revise: ${UNIT}`)).toBe(false);
+  });
+
+  const outline = async () =>
+    OptionalOutline.parse((await call('GET', '/v1/optionals/outline')).json());
+
+  it('has no outline before a choice', async () => {
+    expect((await call('GET', '/v1/optionals/outline')).statusCode).toBe(404);
+  });
+
+  it('outlines the chosen optional in order with planned versus first-pass hours', async () => {
+    await choose();
+    const o = await outline();
+    expect(o).toMatchObject({
+      slug: 'sociology',
+      name: 'Sociology',
+      firstPassHours: 350,
+      plannedHours: 3,
+      studied: 0,
+      paused: false,
+    });
+    expect(o.units.map((u) => [u.nodeId, u.paper, u.minutes, u.status, u.scheduledOn])).toEqual([
+      [UNIT, 'I', 90, 'todo', null],
+      ['opt.sociology.p1.t02', 'I', 90, 'todo', null],
+    ]);
+
+    // Once today's plan exists, the first unit shows the day it is planned for.
+    const plan = TodayPlan.parse((await call('GET', '/v1/plan/today')).json());
+    expect((await outline()).units[0]?.scheduledOn).toBe('2026-12-05');
+
+    const task = plan.tasks.find((t) => t.nodeId === UNIT)!;
+    await call('POST', `/v1/learn/${UNIT}`, { recall: [], answers: [], taskId: task.id });
+    const after = await outline();
+    expect(after.studied).toBe(1);
+    expect(after.units[0]).toMatchObject({ status: 'studied', scheduledOn: null });
+    expect(after.units[1]?.status).toBe('todo');
+  });
+
+  it('reports the optional as paused once the Prelims phase starts', async () => {
+    await choose();
+    clock = new Date('2027-02-10T08:00:00+05:30');
+    expect((await outline()).paused).toBe(true);
+  });
+
+  it('says when the optional joins the plan, and is idempotent', async () => {
+    const first = OptionalChoiceResult.parse((await choose()).json());
+    expect(first).toMatchObject({
+      chosen: 'sociology',
+      startsOn: '2026-12-05',
+      pausedForPrelims: false,
+    });
+    expect(OptionalChoiceResult.parse((await choose()).json())).toEqual(first);
+
+    // Today's plan is built and stable, so the optional joins tomorrow.
+    await call('GET', '/v1/plan/today');
+    expect(OptionalChoiceResult.parse((await choose()).json()).startsOn).toBe('2026-12-06');
+  });
+
+  it('pauses the choice result for a start day in the Prelims-intensive phase', async () => {
+    clock = new Date('2027-01-31T08:00:00+05:30');
+    await call('GET', '/v1/plan/today');
+    const r = OptionalChoiceResult.parse((await choose()).json());
+    expect(r).toMatchObject({ startsOn: '2027-02-01', pausedForPrelims: true });
+  });
+
+  it('keeps the choice, reasons and quiz answers in the account export', async () => {
+    await call('POST', '/v1/optionals/quiz', {
+      background: 'engineering',
+      interests: ['society'],
+      reading: ['debates'],
+      answerStyle: ['analytical'],
+      hours: 400,
+      languages: [],
+      risk: 0.3,
+    });
+    await choose();
+    const res = await call('GET', '/v1/me/export');
+    expect(res.statusCode).toBe(200);
+    const profile = res.json().learner.profile;
+    expect(profile.optional).toBe('sociology');
+    expect(profile.optionalReasons).toBe('Overlap with GS.');
+    expect(profile.optionalQuiz).toMatchObject({ background: 'engineering', hours: 400 });
   });
 });

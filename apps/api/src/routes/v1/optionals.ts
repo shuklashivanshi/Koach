@@ -8,18 +8,22 @@ import {
   FitQuiz,
   FitRanking,
   OptionalChoice,
+  OptionalChoiceResult,
   OptionalCompare,
   OptionalExplorer,
   OptionalList,
+  OptionalOutline,
 } from '@koach/shared';
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod';
 import { z } from 'zod';
 import type { Deps } from '../../deps';
 import {
   allOptionals,
+  choiceResult,
   decisionStatus,
   explorer,
   optionalCoach,
+  optionalOutline,
   recordChoice,
   runQuiz,
 } from '../../services/optionals';
@@ -85,6 +89,14 @@ export const optionalRoutes =
         reply.code(404).send({ error: 'not_found' }),
     );
 
+    app.get(
+      '/optionals/outline',
+      { schema: { response: { 200: OptionalOutline, 404: ApiErrorBody } } },
+      async (request, reply) =>
+        (await optionalOutline(deps.db, request.uid, deps.now())) ??
+        reply.code(404).send({ error: 'not_found' }),
+    );
+
     app.post(
       '/optionals/coach',
       { schema: { body: CoachQuestion, response: { 200: CoachReply } } },
@@ -103,7 +115,12 @@ export const optionalRoutes =
 
     app.post(
       '/optionals/choice',
-      { schema: { body: OptionalChoice, response: { 200: DecisionStatus, 404: ApiErrorBody } } },
+      {
+        schema: {
+          body: OptionalChoice,
+          response: { 200: OptionalChoiceResult, 404: ApiErrorBody },
+        },
+      },
       async (request, reply) => {
         if (
           !(await recordChoice(
@@ -116,7 +133,7 @@ export const optionalRoutes =
         ) {
           return reply.code(404).send({ error: 'not_found' });
         }
-        return (await decisionStatus(deps.db, request.uid, deps.now()))!;
+        return (await choiceResult(deps.db, request.uid, deps.now()))!;
       },
     );
   };
