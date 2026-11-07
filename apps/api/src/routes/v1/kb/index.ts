@@ -1,8 +1,8 @@
 import { usersRepo } from '@koach/db';
 import {
-  answerStrategy,
   getNode,
   GroundedAnswer,
+  groundStrategyAnswer,
   listNodes,
   pyqsForNode,
   subjectWeightage,
@@ -77,7 +77,7 @@ export const kbRoutes =
       async (request) => {
         // ai_calls references users, so make sure the row exists before usage is persisted.
         await usersRepo.upsert(deps.db, request.uid, request.userEmail);
-        return answerStrategy(deps.db, request.query.q, async (prompt) => {
+        return groundStrategyAnswer(deps.db, request.query.q, async (prompt) => {
           const res = await deps.ai.json({
             feature: 'kb.strategy',
             tier: 'lite',

@@ -1,4 +1,5 @@
 import { type Db, schema } from '@koach/db';
+import { checkText } from '@koach/guard';
 import { z } from 'zod';
 
 // Grounded strategy answers (KB-05): answers come only from stored claims, or Koach declines.
@@ -56,7 +57,11 @@ const DECLINE: StrategyAnswer = {
   basis: { topperAccounts: 0, officialSources: [] },
 };
 
-export async function answerStrategy(
+/**
+ * Retrieves claims by keyword, asks the model to answer from them only, and declines when nothing
+ * matches, the model cites no real claim, or its wording trips the naming guard.
+ */
+export async function groundStrategyAnswer(
   db: Db,
   question: string,
   answer: AnswerFn,
@@ -75,6 +80,8 @@ Claims:
 ${claims.map((c) => `[${c.id}] ${c.claim}`).join('\n')}`);
   const used = claims.filter((c) => res.usedClaimIds.includes(c.id));
   if (!res.answer.trim() || !used.length) return DECLINE;
+  // Defence in depth: the prompt forbids names, and a model that ignores it is declined, not shown.
+  if (checkText(res.answer).length) return DECLINE;
   const toppers = new Set(used.filter((c) => c.kind === 'topper').map((c) => c.sourceUrl));
   const official = [
     ...new Set(used.filter((c) => c.kind === 'official').map((c) => c.officialSource ?? 'UPSC')),
