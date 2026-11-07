@@ -44,7 +44,8 @@ steps:
   - id: verify
     name: node:24
     entrypoint: bash
-    env: ['CI=true']
+    # One API test file boots an in-memory Postgres and peaks near 2.4 GB: run one worker at a time.
+    env: ['CI=true', 'VITEST_MAX_WORKERS=1']
     waitFor: [install]
     args:
       - -c
