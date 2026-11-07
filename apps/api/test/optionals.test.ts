@@ -1,8 +1,10 @@
+import { schema } from '@koach/db';
 import { loadKb, readKb } from '@koach/kb';
 import {
   CoachReply,
   DecisionStatus,
   FitRanking,
+  OptionalCompare,
   OptionalExplorer,
   OptionalList,
   TodayPlan,
@@ -117,5 +119,57 @@ describe('optional discovery', () => {
     expect(
       (await call('POST', '/v1/optionals/choice', { slug: 'nope', reasons: 'xyz' })).statusCode,
     ).toBe(404);
+  });
+
+  const QUIZ = {
+    background: 'engineering',
+    interests: ['society'],
+    reading: ['debates'],
+    answerStyle: ['analytical'],
+    hours: 400,
+    languages: [],
+    risk: 0.3,
+  };
+
+  it('has no personal fit and no stored ranking before the quiz', async () => {
+    const ex = OptionalExplorer.parse((await call('GET', '/v1/optionals/item/sociology')).json());
+    expect(ex.fit).toBeNull();
+    expect((await call('GET', '/v1/optionals/fits')).statusCode).toBe(404);
+  });
+
+  it('shows the learner their own fit, consistent with the quiz ranking, and re-opens the ranking', async () => {
+    const ranking = FitRanking.parse((await call('POST', '/v1/optionals/quiz', QUIZ)).json());
+    const ex = OptionalExplorer.parse((await call('GET', '/v1/optionals/item/sociology')).json());
+    expect(ex.fit?.score).toBe(ranking.top.find((f) => f.slug === 'sociology')?.score);
+    expect(ex.fit?.reason).toMatch(/Sociology/);
+    expect(Object.keys(ex.fit!.components).length).toBeGreaterThan(3);
+
+    const again = FitRanking.parse((await call('GET', '/v1/optionals/fits')).json());
+    expect(again).toEqual(ranking);
+
+    const cmp = OptionalCompare.parse(
+      (await call('GET', '/v1/optionals/compare?slugs=sociology')).json(),
+    );
+    expect(cmp.optionals[0]?.fit?.score).toBe(ex.fit?.score);
+  });
+
+  it('gives no fit for a literature optional without the language, and the coach path has none', async () => {
+    const [soc] = await ctx.deps.db.select().from(schema.optionalInfo);
+    await ctx.deps.db
+      .insert(schema.optionalInfo)
+      .values({ slug: 'literature-hindi', profile: { ...soc!.profile, name: 'Hindi literature' } });
+    await call('POST', '/v1/optionals/quiz', QUIZ);
+    const cmp = OptionalCompare.parse(
+      (await call('GET', '/v1/optionals/compare?slugs=sociology,literature-hindi')).json(),
+    );
+    expect(cmp.optionals.find((o) => o.slug === 'sociology')?.fit).not.toBeNull();
+    expect(cmp.optionals.find((o) => o.slug === 'literature-hindi')?.fit).toBeNull();
+
+    // The coach reads explorer facts without a uid, so no fit leaks into its evidence.
+    await call('POST', '/v1/optionals/coach', {
+      question: 'Is sociology scoring?',
+      slugs: ['sociology'],
+    });
+    expect(prompts[0]).not.toContain('"fit"');
   });
 });

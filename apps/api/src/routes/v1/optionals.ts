@@ -8,18 +8,23 @@ import {
   FitQuiz,
   FitRanking,
   OptionalChoice,
+  OptionalChoiceResult,
   OptionalCompare,
   OptionalExplorer,
   OptionalList,
+  OptionalOutline,
 } from '@koach/shared';
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod';
 import { z } from 'zod';
 import type { Deps } from '../../deps';
 import {
   allOptionals,
+  choiceResult,
   decisionStatus,
   explorer,
+  fitsFor,
   optionalCoach,
+  optionalOutline,
   recordChoice,
   runQuiz,
 } from '../../services/optionals';
@@ -48,7 +53,7 @@ export const optionalRoutes =
         },
       },
       async (request, reply) =>
-        (await explorer(deps.db, request.params.slug)) ??
+        (await explorer(deps.db, request.params.slug, request.uid)) ??
         reply.code(404).send({ error: 'not_found' }),
     );
 
@@ -62,7 +67,7 @@ export const optionalRoutes =
       },
       async (request) => {
         const slugs = request.query.slugs.split(',').filter(Boolean).slice(0, 3);
-        const items = await Promise.all(slugs.map((sl) => explorer(deps.db, sl)));
+        const items = await Promise.all(slugs.map((sl) => explorer(deps.db, sl, request.uid)));
         return { optionals: items.filter((x) => !!x) };
       },
     );
@@ -78,10 +83,29 @@ export const optionalRoutes =
     );
 
     app.get(
+      '/optionals/fits',
+      { schema: { response: { 200: FitRanking, 404: ApiErrorBody } } },
+      async (request, reply) => {
+        const ranking = await fitsFor(deps.db, request.uid);
+        return ranking
+          ? { ...ranking, weights: { ...FIT_WEIGHTS } }
+          : reply.code(404).send({ error: 'not_found' });
+      },
+    );
+
+    app.get(
       '/optionals/status',
       { schema: { response: { 200: DecisionStatus, 404: ApiErrorBody } } },
       async (request, reply) =>
         (await decisionStatus(deps.db, request.uid, deps.now())) ??
+        reply.code(404).send({ error: 'not_found' }),
+    );
+
+    app.get(
+      '/optionals/outline',
+      { schema: { response: { 200: OptionalOutline, 404: ApiErrorBody } } },
+      async (request, reply) =>
+        (await optionalOutline(deps.db, request.uid, deps.now())) ??
         reply.code(404).send({ error: 'not_found' }),
     );
 
@@ -103,7 +127,12 @@ export const optionalRoutes =
 
     app.post(
       '/optionals/choice',
-      { schema: { body: OptionalChoice, response: { 200: DecisionStatus, 404: ApiErrorBody } } },
+      {
+        schema: {
+          body: OptionalChoice,
+          response: { 200: OptionalChoiceResult, 404: ApiErrorBody },
+        },
+      },
       async (request, reply) => {
         if (
           !(await recordChoice(
@@ -116,7 +145,7 @@ export const optionalRoutes =
         ) {
           return reply.code(404).send({ error: 'not_found' });
         }
-        return (await decisionStatus(deps.db, request.uid, deps.now()))!;
+        return (await choiceResult(deps.db, request.uid, deps.now()))!;
       },
     );
   };

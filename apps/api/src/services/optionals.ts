@@ -7,7 +7,8 @@ import {
   rankOptionals,
   type SuccessStats,
 } from '@koach/kb';
-import { asc, eq, inArray } from 'drizzle-orm';
+import { OPTIONAL_UNIT_MINUTES, phaseFor } from '@koach/planner';
+import { and, asc, eq, gte, inArray, isNotNull } from 'drizzle-orm';
 import { z } from 'zod';
 import type { AiService } from './ai';
 import { istDay } from './time';
@@ -26,7 +27,7 @@ export async function allOptionals(db: Db) {
   }));
 }
 
-export async function explorer(db: Db, slug: string) {
+export async function explorer(db: Db, slug: string, uid?: string) {
   const [row] = await db.select().from(s.optionalInfo).where(eq(s.optionalInfo.slug, slug));
   if (!row) return null;
   const p = row.profile as unknown as OptionalProfile;
@@ -63,14 +64,56 @@ export async function explorer(db: Db, slug: string) {
       recommended: y.recommended,
     })),
     sources: [...new Set(row.stats.map((y) => y.source))],
+    fit: uid ? await personalFit(db, uid, slug) : null,
   };
 }
 
-export async function runQuiz(db: Db, uid: string, answers: QuizAnswers) {
+async function storedAnswers(db: Db, uid: string) {
+  const [p] = await db
+    .select({ quiz: s.learnerProfiles.optionalQuiz })
+    .from(s.learnerProfiles)
+    .where(eq(s.learnerProfiles.uid, uid));
+  return (p?.quiz ?? null) as unknown as QuizAnswers | null;
+}
+
+/** Pure ranking step shared by the quiz and the re-opened ranking. */
+async function rank(db: Db, answers: QuizAnswers) {
   const all = await allOptionals(db);
   const profiles = Object.fromEntries(all.map((o) => [o.slug, o.profile]));
   const stats: Record<string, SuccessStats> = Object.fromEntries(all.map((o) => [o.slug, o.stats]));
-  const ranking = rankOptionals(profiles, answers, stats);
+  return rankOptionals(profiles, answers, stats);
+}
+
+/**
+ * One optional's fit for this learner. Ranks that single profile against the stats of all
+ * optionals (the mean success rate comes from the stats), so it equals the full-ranking score.
+ */
+async function personalFit(db: Db, uid: string, slug: string) {
+  const answers = await storedAnswers(db, uid);
+  if (!answers) return null;
+  const all = await allOptionals(db);
+  const me = all.find((o) => o.slug === slug);
+  if (!me) return null;
+  const stats: Record<string, SuccessStats> = Object.fromEntries(all.map((o) => [o.slug, o.stats]));
+  const [fit] = rankOptionals({ [slug]: me.profile }, answers, stats).top;
+  return fit
+    ? {
+        score: fit.score,
+        components: fit.components,
+        reason: fit.reason,
+        surprising: fit.surprising,
+      }
+    : null;
+}
+
+/** The last quiz ranking, re-opened from the stored answers; null before a quiz. */
+export async function fitsFor(db: Db, uid: string) {
+  const answers = await storedAnswers(db, uid);
+  return answers ? rank(db, answers) : null;
+}
+
+export async function runQuiz(db: Db, uid: string, answers: QuizAnswers) {
+  const ranking = await rank(db, answers);
   await db
     .update(s.learnerProfiles)
     .set({ optionalQuiz: answers as unknown as Record<string, unknown> })
@@ -159,4 +202,94 @@ export async function recordChoice(db: Db, uid: string, slug: string, reasons: s
     .set({ optional: slug, optionalReasons: reasons, optionalDecidedAt: now })
     .where(eq(s.learnerProfiles.uid, uid));
   return true;
+}
+
+/** Plan day after `day` (both YYYY-MM-DD, IST calendar days). */
+const nextDay = (day: string) =>
+  new Date(new Date(`${day}T00:00:00Z`).getTime() + 86_400_000).toISOString().slice(0, 10);
+
+const phaseOnDay = (day: string) => phaseFor(new Date(`${day}T06:00:00+05:30`));
+
+/**
+ * When the chosen optional joins the plan: today if today's plan has not been built yet (plans
+ * are stable once generated), otherwise tomorrow. Paused when that day is in the Prelims phase.
+ */
+export async function choiceResult(db: Db, uid: string, now: Date) {
+  const status = await decisionStatus(db, uid, now);
+  if (!status) return null;
+  const today = istDay(now);
+  const [existing] = await db
+    .select({ id: s.planTasks.id })
+    .from(s.planTasks)
+    .where(and(eq(s.planTasks.uid, uid), eq(s.planTasks.day, today)))
+    .limit(1);
+  const startsOn = existing ? nextDay(today) : today;
+  return { ...status, startsOn, pausedForPrelims: phaseOnDay(startsOn) === 'prelims' };
+}
+
+/** OPT-04: the chosen optional's units in syllabus order with studied and planned state. */
+export async function optionalOutline(db: Db, uid: string, now: Date) {
+  const [p] = await db.select().from(s.learnerProfiles).where(eq(s.learnerProfiles.uid, uid));
+  if (!p?.optional) return null;
+  const [info] = await db.select().from(s.optionalInfo).where(eq(s.optionalInfo.slug, p.optional));
+  if (!info) return null;
+  const profile = info.profile as unknown as OptionalProfile;
+  const topics = await db
+    .select()
+    .from(s.syllabusNodes)
+    .where(
+      and(eq(s.syllabusNodes.paper, `optional:${p.optional}`), eq(s.syllabusNodes.kind, 'topic')),
+    )
+    .orderBy(asc(s.syllabusNodes.ord));
+  const ids = topics.map((t) => t.id);
+  const [mastery, planned] = ids.length
+    ? await Promise.all([
+        db
+          .select({ nodeId: s.nodeMastery.nodeId })
+          .from(s.nodeMastery)
+          .where(
+            and(
+              eq(s.nodeMastery.uid, uid),
+              inArray(s.nodeMastery.nodeId, ids),
+              isNotNull(s.nodeMastery.studiedAt),
+            ),
+          ),
+        db
+          .select({ nodeId: s.planTasks.nodeId, day: s.planTasks.day })
+          .from(s.planTasks)
+          .where(
+            and(
+              eq(s.planTasks.uid, uid),
+              eq(s.planTasks.status, 'todo'),
+              inArray(s.planTasks.nodeId, ids),
+              gte(s.planTasks.day, istDay(now)),
+            ),
+          )
+          .orderBy(asc(s.planTasks.day)),
+      ])
+    : [[], []];
+  const studied = new Set(mastery.map((m) => m.nodeId));
+  const scheduled = new Map<string, string>();
+  for (const r of planned) if (r.nodeId && !scheduled.has(r.nodeId)) scheduled.set(r.nodeId, r.day);
+  const units = topics.map((t) => ({
+    nodeId: t.id,
+    title: t.title,
+    paper: /\.p1$/.test(t.parentId ?? '')
+      ? ('I' as const)
+      : /\.p2$/.test(t.parentId ?? '')
+        ? ('II' as const)
+        : null,
+    minutes: OPTIONAL_UNIT_MINUTES,
+    status: studied.has(t.id) ? ('studied' as const) : ('todo' as const),
+    scheduledOn: studied.has(t.id) ? null : (scheduled.get(t.id) ?? null),
+  }));
+  return {
+    slug: p.optional,
+    name: profile.name,
+    firstPassHours: profile.hours,
+    plannedHours: (units.length * OPTIONAL_UNIT_MINUTES) / 60,
+    studied: studied.size,
+    paused: phaseFor(now) === 'prelims',
+    units,
+  };
 }

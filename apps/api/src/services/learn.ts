@@ -1,7 +1,8 @@
 import { schema } from '@koach/db';
 import { nodeSource, pyqsForNode } from '@koach/kb';
 import { playbooks } from '@koach/kb';
-import { and, eq } from 'drizzle-orm';
+import { OPTIONAL_UNIT_MINUTES } from '@koach/planner';
+import { and, eq, inArray } from 'drizzle-orm';
 import { z } from 'zod';
 import type { Deps } from '../deps';
 
@@ -18,6 +19,7 @@ async function recallItems(
   uid: string,
   node: { id: string; title: string },
   source: string | null,
+  optionalName: string | null = null,
 ) {
   const [cached] = await deps.db
     .select()
@@ -32,7 +34,7 @@ async function recallItems(
     schema: Items,
     prompt: `Write ${max} short retrieval questions (with model answers of at most 25 words) that test
 the core facts and concepts of this UPSC syllabus node, the way UPSC examines it.
-Node: ${node.title}${source ? `\nStandard source: ${source}` : ''}
+Node: ${node.title}${optionalName ? `\nOptional subject: ${optionalName}` : ''}${source ? `\nStandard source: ${source}` : ''}
 Use only well-established facts. No names of teachers, coaching institutes, apps or websites.`,
   });
   const candidates = gen.data.items.slice(0, max);
@@ -56,17 +58,37 @@ export async function learnSession(deps: Deps, uid: string, nodeId: string) {
   const [node] = await deps.db
     .select()
     .from(s.syllabusNodes)
-    .where(and(eq(s.syllabusNodes.id, nodeId), eq(s.syllabusNodes.kind, 'node')));
-  if (!node) return null;
+    .where(and(eq(s.syllabusNodes.id, nodeId), inArray(s.syllabusNodes.kind, ['node', 'topic'])));
+  // GS study nodes, plus the topics of an optional paper (the units the planner schedules, OPT-04).
+  // Topics of GS papers and optional section or paper nodes are not sessions.
+  const optionalSlug = node?.paper.startsWith('optional:') ? node.paper.slice(9) : null;
+  if (!node || (node.kind === 'topic' && !optionalSlug)) return null;
+  let optionalName: string | null = null;
+  if (optionalSlug) {
+    const [info] = await deps.db
+      .select({ profile: s.optionalInfo.profile })
+      .from(s.optionalInfo)
+      .where(eq(s.optionalInfo.slug, optionalSlug));
+    const [paper] = await deps.db
+      .select({ title: s.syllabusNodes.title })
+      .from(s.syllabusNodes)
+      .where(and(eq(s.syllabusNodes.paper, node.paper), eq(s.syllabusNodes.kind, 'paper')));
+    optionalName =
+      (info?.profile as { name?: string } | undefined)?.name ?? paper?.title ?? optionalSlug;
+  }
   const src = await nodeSource(deps.db, nodeId);
   const sourceLine = src ? `${src.label} · ${src.chapter}` : null;
   const all = await pyqsForNode(deps.db, nodeId, 20);
   const { max } = playbooks['PB-PYQ'].primingPyqs;
   // Prefer recent questions with options for priming; show answers only after an attempt.
   const priming = [...all].sort((a, b) => b.year - a.year).slice(0, max);
-  const items = await recallItems(deps, uid, node, sourceLine).catch(() => []);
+  const items = await recallItems(deps, uid, node, sourceLine, optionalName).catch(() => []);
   return {
-    node: { id: node.id, title: node.title, estMinutes: node.estMinutes ?? 60 },
+    node: {
+      id: node.id,
+      title: node.title,
+      estMinutes: optionalSlug ? OPTIONAL_UNIT_MINUTES : (node.estMinutes ?? 60),
+    },
     pyqs: priming.map((p) => ({
       id: p.id,
       exam: p.exam,

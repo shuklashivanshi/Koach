@@ -9,6 +9,8 @@ import {
   type NodeCandidate,
   newCard,
   nodePriority,
+  OPTIONAL_UNIT_MINUTES,
+  optionalUnitPriority,
   type PlanTask,
   phaseFor,
   rebalance,
@@ -150,16 +152,18 @@ async function plannerInputs(db: Db, uid: string, now: Date) {
         ),
       )
       .orderBy(asc(s.syllabusNodes.ord));
+    // Due reviews of optional units read "Revise: <unit>", not the node id.
+    for (const t of topics) title.set(t.id, t.title);
     topics.forEach((t, i) =>
       candidates.push({
         id: t.id,
         title: t.title,
         subject: 'optional',
-        estMinutes: 90,
+        estMinutes: OPTIONAL_UNIT_MINUTES,
         prelims: false,
         mains: true,
         // Earlier units first (coverage outline order); below GS priority so GS keeps leading.
-        priority: Math.round((0.45 - i * 0.002) * 1000) / 1000,
+        priority: optionalUnitPriority(i),
         mastery: m.get(t.id)?.mastery ?? INITIAL_MASTERY,
         prereqs: i > 0 && topics[i - 1] ? [topics[i - 1]!.id] : [],
         studied: !!m.get(t.id)?.studiedAt,
