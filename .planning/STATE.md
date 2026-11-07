@@ -80,6 +80,12 @@ None yet.
 - Rotate the Resend API key (it was shared in chat)
 - UPSC subject-matter expert availability for knowledge-base review (Phase 2) is unconfirmed
 
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
+| 261107-jz1 | Pre-generated LPT listen-game audio clips served from static assets, live TTS as fallback (clips not generated yet; user runs `pnpm --filter @koach/api gen:lpt-audio`) | 2026-11-07 | 45701e6 | [261107-jz1-pre-generate-the-10-lpt-listen-game-audi](./quick/261107-jz1-pre-generate-the-10-lpt-listen-game-audi/) |
+
 ## Deferred Items
 
 - 01-07: EAS Android dev build + 8-step on-phone check. Needs `expo-dev-client` wiring (EAS reported it missing), `register-sha1.sh`, and the `.web.ts` local auth to stay web-only.
