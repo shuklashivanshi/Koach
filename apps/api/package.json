@@ -13,6 +13,7 @@
   "dependencies": {
     "@fastify/cors": "11.4.0",
     "@fastify/swagger": "9.9.2",
+    "@google-cloud/speech": "^8.2.1",
     "@google-cloud/storage": "8.4.0",
     "@google-cloud/text-to-speech": "7.2.0",
     "@google/genai": "2.30.0",
