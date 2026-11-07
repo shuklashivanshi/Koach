@@ -48,6 +48,9 @@ row "GET /v1/me with token" "$(code_of "${AUTH[@]}" "$URL/v1/me")" 200
 PING="$(curl -s "${AUTH[@]}" "$URL/v1/ai/ping")"
 row "GET /v1/ai/ping returns text" "$([[ -n "$(printf '%s' "$PING" | json_field text)" ]] && echo yes || echo no)" yes
 row "GET /v1/ai/ping returns audio" "$([[ -n "$(printf '%s' "$PING" | json_field audioBase64)" ]] && echo yes || echo no)" yes
+KB="$(curl -s "${AUTH[@]}" "$URL/v1/kb/stats")"
+row "GET /v1/kb/stats has the knowledge base loaded" \
+  "$(printf '%s' "$KB" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const j=JSON.parse(s);console.log(Array.isArray(j.subjects)&&j.subjects.length>0?"yes":"no")}catch{console.log("no")}})')" yes
 row "GET /v1/me/export" "$(code_of "${AUTH[@]}" "$URL/v1/me/export")" 200
 row "DELETE /v1/me" "$(code_of -X DELETE "${AUTH[@]}" "$URL/v1/me")" 204
 

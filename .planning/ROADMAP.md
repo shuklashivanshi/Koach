@@ -86,7 +86,7 @@ Plans:
   4. Node PYQ frequency and subject weightage are computed from the bank and served by the API
   5. A reviewer can approve or correct tags and source mappings through an admin path
   6. Playbooks (PB-*) exist as config, and a test proves that no blocked name reaches any client-facing API field or generated text
-**Plans**: 5/6 plans executed (4 waves)
+**Plans**: 6/6 plans executed (4 waves)
 
 Plans:
 - [x] 02-01: KB schema, packages/kb + packages/guard, read API, naming guard hook (wave 1)
@@ -94,7 +94,7 @@ Plans:
 - [x] 02-03: PYQ bank: official PDFs → structured JSON (wave 2)
 - [x] 02-04: AI tagging of PYQs and the source map (wave 3)
 - [x] 02-05: Strategy KB seed and grounding (wave 3)
-- [ ] 02-06: Admin review page, audit, deploy (wave 4)
+- [x] 02-06: Admin review page, audit, deploy (wave 4)
 
 ### Phase 3: Onboarding & Learning Pattern Test
 **Goal**: Koach knows the learner: availability, starting level, and learning-pattern strengths.
@@ -234,7 +234,7 @@ Plans:
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
 | 1. Foundation & GCP Deploy | v1.0 | 0/7 | Planned | - |
-| 2. UPSC Knowledge Base | v1.0 | 5/6 | In Progress | - |
+| 2. UPSC Knowledge Base | v1.0 | 6/6 | In Progress | - |
 | 3. Onboarding & Learning Pattern Test | v1.0 | 0/TBD | Not started | - |
 | 4. Planner, Revision & Reminders | v1.0 | 0/TBD | Not started | - |
 | 5. Current Affairs Pipeline & Daily Quiz | v1.0 | 0/TBD | Not started | - |

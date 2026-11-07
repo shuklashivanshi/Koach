@@ -37,7 +37,7 @@ Committed scope for milestone **v1.0 Daily Coach MVP** (target ~3 Dec 2026). Eac
 - [ ] **KB-04**: Node PYQ frequency and subject weightage are computed from the bank and exposed via API
 - [x] **KB-05**: Strategy knowledge base stores short claims with source URL + date internally; AI strategy answers are grounded in ≥1 claim or decline; the app shows "Based on N topper accounts" or an official source
 - [ ] **KB-06**: Pedagogy playbooks (PB-*) are stored as config read by the planner, cues and evaluators; an internal store accepts the user's class notes for refinement
-- [ ] **KB-07**: An admin/review path lets a human approve or correct AI-suggested tags and source mappings
+- [x] **KB-07**: An admin/review path lets a human approve or correct AI-suggested tags and source mappings
 - [ ] **KB-08**: A blocked-names filter (teachers, institutes, apps, platforms, channels, courses) runs on all client-facing text, including generated text
 
 ### Learning Pattern Test (LPT)
@@ -179,7 +179,7 @@ Deferred to later milestones. Tracked, not in the v1.0 scope.
 | KB-04 | Phase 2 | Pending |
 | KB-05 | Phase 2 | Complete |
 | KB-06 | Phase 2 | Pending |
-| KB-07 | Phase 2 | Pending |
+| KB-07 | Phase 2 | Complete |
 | KB-08 | Phase 2 | Pending |
 | PROF-01 | Phase 3 | Pending |
 | PROF-02 | Phase 3 | Pending |
