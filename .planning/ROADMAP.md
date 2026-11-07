@@ -160,7 +160,14 @@ Plans:
   2. User can open any optional's explorer page and compare 2–3 side by side; success rates come from official UPSC Annual Reports, pooled across years, with confidence bands and small-sample warnings
   3. User can ask the Decision Coach doubts and run stress tests; it shows and nudges toward the decision deadline
   4. Recording a choice saves the reasons and adds the optional's nodes to the plan with a coverage outline
-**Plans**: TBD
+**Plans**: 5 plans (3 waves). Most of the stack was built in commit 874a71c; these plans close the verified gaps (see 07-01..07-05)
+
+Plans:
+- [ ] 07-01-PLAN.md — Official data: join stats to profiles by canonical slug (Political Science had no numbers), real-data integrity and persona ranking tests, expert-review audit (wave 1)
+- [ ] 07-02-PLAN.md — Plan integration: optional units open as Learn sessions, titled reviews, planner pause/order guards, coverage outline, choice result, personal fit and re-openable ranking (wave 1)
+- [ ] 07-03-PLAN.md — Decision Coach API: structured deadline, 4-exchange memory, resting fallback, three runnable stress tests, decision nudge that continues past the deadline (wave 2)
+- [ ] 07-04-PLAN.md — Mobile: stepwise Fit Quiz, fit-dot results with Why?, explorer with Stat row and band chart, side-by-side compare (wave 2)
+- [ ] 07-05-PLAN.md — Mobile: coach bottom sheet with stress tests, choose flow with confirmation, coverage outline screen, Today deadline card until chosen, end-of-phase journey check (wave 3)
 
 ### Phase 8: Topic Prediction & Backtest *(v1.1)*
 **Goal**: Node priority reflects a data-backed likelihood of being asked, with measured accuracy.
