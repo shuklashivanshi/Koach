@@ -141,11 +141,38 @@ export const OptionalOutline = z.object({
 });
 export type OptionalOutline = z.infer<typeof OptionalOutline>;
 
+/** One earlier exchange the coach remembers (at most 4 are sent). */
+export const CoachExchange = z.object({ q: z.string().max(500), a: z.string().max(1200) });
+export type CoachExchange = z.infer<typeof CoachExchange>;
+
 export const CoachQuestion = z.object({
   question: z.string().min(3).max(500),
   slugs: z.array(z.string()).max(3),
+  /** The last exchanges of this conversation, oldest first. */
+  history: z.array(CoachExchange).max(4).default([]),
 });
-export const CoachReply = z.object({ answer: z.string(), stressTest: z.string().nullable() });
+export type CoachQuestion = z.infer<typeof CoachQuestion>;
+
+/** The decision deadline as data, so the app shows it without relying on the model. */
+export const CoachDeadline = z.object({
+  date: z.string(),
+  daysLeft: z.number().int(),
+  overdue: z.boolean(),
+});
+export type CoachDeadline = z.infer<typeof CoachDeadline>;
+
+/** Fixed line shown when the model is unavailable. */
+export const COACH_RESTING_LINE = 'The coach is resting. Your plan still works.';
+
+export const CoachReply = z.object({
+  answer: z.string(),
+  stressTest: z.string().nullable(),
+  /** Null only when the learner has no profile row. */
+  deadline: CoachDeadline.nullable(),
+  /** True when the AI was unavailable and answer is the fixed resting line. */
+  resting: z.boolean(),
+});
+export type CoachReply = z.infer<typeof CoachReply>;
 export const OptionalChoice = z.object({ slug: z.string(), reasons: z.string().min(3).max(1000) });
 export type OptionalList = z.infer<typeof OptionalList>;
 export type OptionalCompare = z.infer<typeof OptionalCompare>;

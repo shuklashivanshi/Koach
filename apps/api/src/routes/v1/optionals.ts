@@ -121,6 +121,7 @@ export const optionalRoutes =
           request.body.question,
           request.body.slugs,
           deps.now(),
+          request.body.history,
         );
       },
     );
