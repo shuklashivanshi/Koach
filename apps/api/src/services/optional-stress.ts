@@ -179,7 +179,7 @@ export async function runStress(
       facts: position,
     };
   }
-  let body = COACH_RESTING_LINE;
+  let body: string;
   try {
     const res = await ai.json({
       feature: 'optional.stress.answer',

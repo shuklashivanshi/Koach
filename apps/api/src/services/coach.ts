@@ -6,6 +6,7 @@ import { z } from 'zod';
 import type { AiService } from './ai';
 import type { PushSender } from './push';
 import { inRange, type Tone } from './reminders';
+import { optionalDeadline } from './optionals';
 import { istDay } from './time';
 
 // Coaching (NUDGE-01..03). Rules decide when; Gemini only writes the words, with a template
@@ -25,7 +26,25 @@ export function weekOf(d: Date): string {
   return istDay(new Date(new Date(`${day}T00:00:00Z`).getTime() - dow * DAY + 6 * 3_600_000));
 }
 
-const TEMPLATES: Record<NudgeKind, Record<Tone, (x: string) => { title: string; body: string }>> = {
+const plural = (n: number) => `${n} day${n === 1 ? '' : 's'}`;
+
+/** Decision copy by days left (the nudge subject): before, on and after the deadline. */
+function decisionLeft(
+  subject: string,
+  v: {
+    soon: (days: string) => { title: string; body: string };
+    today: { title: string; body: string };
+    over: (days: string) => { title: string; body: string };
+  },
+) {
+  const n = Number(subject);
+  return n < 0 ? v.over(plural(-n)) : n === 0 ? v.today : v.soon(plural(n));
+}
+
+export const TEMPLATES: Record<
+  NudgeKind,
+  Record<Tone, (x: string) => { title: string; body: string }>
+> = {
   slipping: {
     calm: (x) => ({ title: `${x} is waiting`, body: `A short ${x} review today keeps it fresh.` }),
     firm: (x) => ({ title: `${x} is slipping`, body: `Revise ${x} today before it fades.` }),
@@ -46,15 +65,33 @@ const TEMPLATES: Record<NudgeKind, Record<Tone, (x: string) => { title: string; 
     }),
   },
   decision: {
-    calm: (x) => ({ title: 'Your optional', body: `${x} days to decide. The coach can help.` }),
-    firm: (x) => ({
-      title: 'Choose your optional',
-      body: `${x} days left. Compare your top two today.`,
-    }),
-    cheerful: (x) => ({
-      title: 'Optional check-in',
-      body: `${x} days to go. Let’s narrow it down.`,
-    }),
+    calm: (x) =>
+      decisionLeft(x, {
+        soon: (d) => ({ title: 'Your optional', body: `${d} to decide. The coach can help.` }),
+        today: { title: 'Your optional', body: 'Today is the day to decide. Ask the coach.' },
+        over: (d) => ({ title: 'Your optional', body: `The date passed ${d} ago. Ask the coach.` }),
+      }),
+    firm: (x) =>
+      decisionLeft(x, {
+        soon: (d) => ({
+          title: 'Choose your optional',
+          body: `${d} left. Compare your top two today.`,
+        }),
+        today: { title: 'Choose your optional', body: 'Last day to choose. Compare your top two.' },
+        over: (d) => ({
+          title: 'Choose your optional',
+          body: `The date passed ${d} ago. Choose one today.`,
+        }),
+      }),
+    cheerful: (x) =>
+      decisionLeft(x, {
+        soon: (d) => ({ title: 'Optional check-in', body: `${d} to go. Let’s narrow it down.` }),
+        today: { title: 'Optional check-in', body: 'Decision day is here. Let’s narrow it down.' },
+        over: (d) => ({
+          title: 'Optional check-in',
+          body: `The date passed ${d} ago. Let’s pick one.`,
+        }),
+      }),
   },
   idle: {
     calm: () => ({ title: 'Your desk is ready', body: 'One short task is a good restart.' }),
@@ -80,7 +117,11 @@ async function nudgeCopy(ai: AiService | null, kind: NudgeKind, tone: Tone, subj
           : kind === 'deadline'
             ? 'their first pass of the syllabus is behind schedule for 15 February'
             : kind === 'decision'
-              ? `they must choose their Mains optional subject within ${subject} days`
+              ? Number(subject) < 0
+                ? `the date to choose their Mains optional subject passed ${-Number(subject)} days ago and they have not chosen yet`
+                : Number(subject) === 0
+                  ? 'today is the last day to choose their Mains optional subject'
+                  : `they must choose their Mains optional subject within ${subject} days`
               : 'they have not opened their plan for two days'
       }. Tone: ${tone}. Title ≤ 30 characters, body ≤ 60 characters. Kind, specific, no emoji, no
 exclamation marks, no names of people, institutes, apps or websites.`,
@@ -101,15 +142,12 @@ export async function nudgeCandidates(
   now: Date,
 ): Promise<{ kind: NudgeKind; subject: string }[]> {
   const out: { kind: NudgeKind; subject: string }[] = [];
-  // OPT-03: nudge toward the optional decision in the last two weeks.
+  // D-05: nudge toward the optional decision from 14 days out, and keep going past the
+  // deadline (negative subject) until a choice is made.
   const [p] = await db.select().from(s.learnerProfiles).where(eq(s.learnerProfiles.uid, uid));
   if (p && !p.optional) {
-    const left = Math.ceil(
-      (new Date(`${p.optionalDeadline}T00:00:00Z`).getTime() -
-        new Date(`${istDay(now)}T00:00:00Z`).getTime()) /
-        DAY,
-    );
-    if (left >= 0 && left <= 14) out.push({ kind: 'decision', subject: String(left) });
+    const { daysLeft } = optionalDeadline(p.optionalDeadline, now);
+    if (daysLeft <= 14) out.push({ kind: 'decision', subject: String(daysLeft) });
   }
   const lastDone = await db
     .select({ at: sql<Date>`max(${s.planTasks.doneAt})` })
